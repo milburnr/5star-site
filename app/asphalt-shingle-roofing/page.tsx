@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -228,6 +229,13 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Asphalt Shingle Roofing"
+        h1="Asphalt Shingle Roofing in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp"
+      />
+
       <Breadcrumb
         items={[
           { name: "Home", url: "/" },
@@ -241,15 +249,11 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Asphalt Shingle Roofing Installation and Repair Across Texas
-      </h1>
+      </h2>
 
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp"
-        alt="Aerial view of a completed gray asphalt shingle roof with clean installation — 5 Star Roofing Texas"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-      />
+      
 
       {/* TL;DR */}
       <div className="bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6 mb-8">

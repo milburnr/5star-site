@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import { Briefcase, Shield, Zap } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -118,6 +119,13 @@ export default function Page() {
   return (
     <div className="container-custom py-12">
       {" "}
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Commercial Roofing"
+        h1="Commercial Roofing in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial.jpg"
+      />
+
       <Breadcrumb
         items={[
           {
@@ -135,17 +143,11 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Commercial Roofing Services in Amarillo
-      </h1>
+      </h2>
       {/* Hero Image — AI-generated commercial roofing hero */}
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial.jpg"
-        alt="Commercial roofing crew working on a flat roof system at golden hour across West Texas"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-        width={2560}
-        height={1440}
-      />
+      
       <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
         <h2 className="text-2xl font-bold text-brand-brown mb-4">
           Protect Your Business Investment

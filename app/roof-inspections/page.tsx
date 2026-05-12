@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -206,6 +207,13 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Roof Inspections"
+        h1="Roof Inspections in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-15-1280w.webp"
+      />
+
       <Breadcrumb
         items={[
           { name: "Home", url: "/" },
@@ -247,9 +255,9 @@ export default function Page() {
         </div>
       </FadeIn>
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Professional Roof Inspections Across West Texas
-      </h1>
+      </h2>
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">

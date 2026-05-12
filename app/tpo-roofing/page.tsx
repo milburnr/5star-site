@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -229,6 +230,13 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
+      <InteriorHeroSection
+        heroVariant="service"
+        service="TPO Roofing"
+        h1="TPO Roofing in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg"
+      />
+
       <Breadcrumb
         items={[
           { name: "Home", url: "/" },
@@ -270,9 +278,9 @@ export default function Page() {
         </div>
       </FadeIn>
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         TPO Roofing Installation and Repair Across West Texas
-      </h1>
+      </h2>
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
@@ -311,12 +319,7 @@ export default function Page() {
           continuous, watertight bond that is actually stronger than the membrane itself.
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-          <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg"
-            alt="TPO membrane roofing on a commercial building in Pampa, Texas Panhandle"
-            className="w-full h-64 object-cover"
-            loading="lazy"
-          />
+          
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">

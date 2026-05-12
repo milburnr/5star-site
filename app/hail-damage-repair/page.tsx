@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -168,6 +169,13 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-12-1280w.webp"
+      />
+
       <Breadcrumb
         items={[
           { name: "Home", url: "/" },
@@ -180,15 +188,11 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Hail Damage Roof Repair Across West Texas
-      </h1>
+      </h2>
 
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-12-1280w.webp"
-        alt="Hail damage impact marks on West Texas asphalt shingles — 5 Star Roofing inspection and repair"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-      />
+      
 
       {/* TL;DR */}
       <div className="bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6 mb-8">

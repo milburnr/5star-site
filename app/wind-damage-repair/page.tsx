@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -206,6 +207,13 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Wind Damage Repair"
+        h1="Wind Damage Repair in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
+      />
+
       <Breadcrumb
         items={[
           { name: "Home", url: "/" },
@@ -223,9 +231,9 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Wind Damage Roof Repair Across Texas
-      </h1>
+      </h2>
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
@@ -257,12 +265,7 @@ export default function Page() {
           installation defects. Here are the most common types of wind damage we repair:
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-          <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-            alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
-            className="w-full h-64 object-cover"
-            loading="lazy"
-          />
+          
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">

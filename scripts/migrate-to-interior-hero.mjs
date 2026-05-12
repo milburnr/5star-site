@@ -156,7 +156,10 @@ function deriveH1({ variant, city, service }) {
 
 // ─── Ensure import ─────────────────────────────────────────────────────
 function ensureImport(source) {
-  if (source.includes("InteriorHeroSection")) return source;
+  // Already imported? Match the import statement specifically — checking
+  // for just the bare string would falsely match the JSX <InteriorHeroSection>
+  // we just inserted.
+  if (/import\s*\{[^}]*\bInteriorHeroSection\b/.test(source)) return source;
   // Insert after the last import statement.
   const importRegex = /^import .+;$/gm;
   let lastImportEnd = 0;
@@ -182,11 +185,11 @@ function convertPage(filePath, { write }) {
 
   const source = readFileSync(filePath, "utf8");
 
-  // Service pages (no city) — current pages don't have a legacy hero <section>
-  // in the recognized pattern. They're article-style. Skip for now; handled
-  // in a follow-up pass.
+  // Service pages (no city) — article-style layout. Inject hero before the
+  // Breadcrumb, demote the existing inline <h1> to <h2>, drop the inline
+  // hero <img> (now redundant with the editorial hero photo).
   if (cls.variant === "service") {
-    return { status: "skipped", reason: "service-only page needs manual hero injection", filePath, classification: cls };
+    return convertServicePage(filePath, source, cls, { write });
   }
 
   const hero = findHeroSection(source);
@@ -222,6 +225,84 @@ function convertPage(filePath, { write }) {
     h1,
     image: hero.imageUrl,
     bytesDelta: newSource.length - source.length,
+  };
+}
+
+// ─── Service-page conversion ───────────────────────────────────────────
+function convertServicePage(filePath, source, cls, { write }) {
+  // Skip if already migrated.
+  if (source.includes("InteriorHeroSection")) {
+    return { status: "already-migrated", filePath, classification: cls };
+  }
+
+  // 1. Extract hero image URL — first remote <img src="https://..."> that
+  //    looks like a hero image (in /images/heroes/, /images/metal/,
+  //    /images/hail-damage/, /images/commercial/, /images/completed/).
+  const imgMatch = source.match(
+    /<img\s+src="(https:\/\/pub-[^"]+\/images\/(?:heroes|metal|hail-damage|commercial|completed|services)\/[^"]+\.(?:webp|jpg|png))"[\s\S]*?\/>/,
+  );
+  if (!imgMatch) {
+    return { status: "no-image", filePath, classification: cls };
+  }
+  const imageUrl = imgMatch[1];
+
+  // 2. Find the <Breadcrumb usage and insert hero before its opening line.
+  //    Match `      <Breadcrumb` (the leading whitespace is significant —
+  //    used to align the inserted hero).
+  const breadcrumbMatch = source.match(/^(\s*)<Breadcrumb\b/m);
+  if (!breadcrumbMatch) {
+    return { status: "no-breadcrumb", filePath, classification: cls };
+  }
+  const indent = breadcrumbMatch[1];
+  const breadcrumbIdx = breadcrumbMatch.index;
+
+  const h1 = deriveH1(cls);
+  const hero = generateInteriorHero({
+    variant: cls.variant,
+    city: null,
+    service: cls.service,
+    h1,
+    image: imageUrl,
+  });
+
+  let out =
+    source.slice(0, breadcrumbIdx) +
+    hero +
+    "\n\n" +
+    indent +
+    source.slice(breadcrumbIdx).slice(indent.length);
+
+  // 3. Demote the inline <h1 className="text-2xl sm:text-3xl ...">...</h1>
+  //    to <h2 ...>.
+  out = out.replace(
+    /<h1(\s+className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6")>/,
+    "<h2$1>",
+  );
+  out = out.replace(/<\/h1>(\s*)(\{\s*\/\*|<img|<FadeIn|<\/FadeIn>|<p|<div|<section)/, "</h2>$1$2");
+  // Fallback: if only one `</h1>` remains after the open-tag swap, close it.
+  if (out.includes("<h2 className=\"text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6\">") &&
+      out.match(/<\/h1>/)) {
+    out = out.replace(/<\/h1>/, "</h2>");
+  }
+
+  // 4. Drop the inline hero <img>, since the editorial hero now provides one.
+  //    Match the whole tag (single self-closing, possibly multi-line).
+  out = out.replace(imgMatch[0], "");
+  // Clean up an orphan {/* Hero Image */} comment if present right above.
+  out = out.replace(/\s*\{\/\*\s*Hero Image\s*\*\/\}\s*\n/, "\n");
+
+  // 5. Ensure import.
+  out = ensureImport(out);
+
+  if (write) writeFileSync(filePath, out);
+
+  return {
+    status: "converted",
+    filePath,
+    classification: cls,
+    h1,
+    image: imageUrl,
+    bytesDelta: out.length - source.length,
   };
 }
 
