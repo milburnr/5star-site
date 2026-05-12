@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { Check } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function StormDamageRepairPerrytonPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Perryton",
-            url: "/storm-damage-repair-perryton/",
-          },
-        ]}
-      />
-      <script
+      {" "}      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -174,11 +156,27 @@ export default function StormDamageRepairPerrytonPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="perryton"
         city="Perryton"
         service="Storm Damage Repair"
         h1="Storm Damage Repair in Perryton, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-19-1280w.webp"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Perryton",
+            url: "/storm-damage-repair-perryton/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-red-50 to-white">
           <div className="container-custom">

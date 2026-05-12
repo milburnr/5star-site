@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Factory, Phone, Star, Wheat } from "lucide-react";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function TpoRoofingDumasPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "TPO Roofing",
-            url: "/tpo-roofing/",
-          },
-          {
-            name: "Dumas",
-            url: "/tpo-roofing-dumas/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -217,11 +199,27 @@ export default function TpoRoofingDumasPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="dumas"
         city="Dumas"
         service="TPO Roofing"
         h1="TPO Roofing in Dumas, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-6-1920w.webp"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "TPO Roofing",
+            url: "/tpo-roofing/",
+          },
+          {
+            name: "Dumas",
+            url: "/tpo-roofing-dumas/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
