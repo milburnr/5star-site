@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Phone, Star } from "lucide-react";
@@ -26,119 +27,77 @@ export const metadata: Metadata = {
     type: "website",
   },
   keywords:
-    "roofing gallery, roofing portfolio, Amarillo roofing projects, before after roofing, hail damage repair photos, TPO installation photos",
+    "roofing gallery, roofing portfolio, Amarillo roofing projects, completed roofing projects, commercial roofing photos, residential roofing photos",
 };
 
-// R2 CDN base URL
-const R2_CDN = "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev";
+// Curated from R2 photo catalog (image-db-progress.json).
+// Filter: condition=completed AND visualQuality in (hero, card).
+// Excluded: damaged, in-progress, inspection-mark photos, low-quality detail shots.
+type GalleryPhoto = {
+  url: string;
+  city: string;
+  roofType: string;
+};
 
-// Commercial project images - variety of TPO and flat roof installations
-const commercialImages = [
-  {
-    url: `${R2_CDN}/images/commercial/commercial-pampa-1-1280w.jpg`,
-    caption: "TPO membrane installation on commercial building in Pampa, TX by 5 Star Roofing",
-  },
-  {
-    url: `${R2_CDN}/images/commercial/commercial-pampa-2-1280w.jpg`,
-    caption: "Large warehouse flat roof replacement with TPO system in Pampa, TX",
-  },
-  {
-    url: `${R2_CDN}/images/commercial/commercial-pampa-3-1280w.jpg`,
-    caption: "Industrial flat roof with white membrane roofing in Pampa, TX",
-  },
-  {
-    url: `${R2_CDN}/images/commercial/commercial-amarillo-5-1280w.jpg`,
-    caption: "EPDM rubber roofing on commercial flat roof project in Amarillo, TX",
-  },
-  {
-    url: `${R2_CDN}/images/home-hero-1200w.webp`,
-    caption: "TPO single-ply roofing system installed on Channing, TX commercial building",
-  },
-  {
-    url: `${R2_CDN}/images/commercial/commercial-amarillo-10-1280w.jpg`,
-    caption: "Commercial roof installation with heat-welded membrane seams in Amarillo, TX",
-  },
-  {
-    url: `${R2_CDN}/images/commercial/commercial-amarillo-11-1280w.jpg`,
-    caption: "Flat roof tear-off and replacement on Amarillo, TX commercial property",
-  },
-  {
-    url: `${R2_CDN}/images/commercial/commercial-amarillo-12-1280w.jpg`,
-    caption: "Large-scale commercial roofing project completed in Amarillo, TX by 5 Star Roofing",
-  },
-  {
-    url: `${R2_CDN}/images/commercial/commercial-pampa-4-1280w.jpg`,
-    caption: "Commercial flat roof with reflective coating system in Pampa, TX",
-  },
+const galleryPhotos: GalleryPhoto[] = [
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-channing-31-1280w.jpg", city: "Channing", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-channing-34-1280w.jpg", city: "Channing", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-42-1280w.jpg", city: "Memphis", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-12-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-14-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-14-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-20-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-26-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-29-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg", city: "Plainview", roofType: "Standing Seam Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-15-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-19-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-20-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-21-1280w.jpg", city: "Plainview", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-1280w.jpg", city: "Plainview", roofType: "Standing Seam Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg", city: "Amarillo", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg", city: "Amarillo", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg", city: "Amarillo", roofType: "EPDM" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-20-1280w.jpg", city: "Amarillo", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-amarillo-37-1280w.jpg", city: "Amarillo", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-35-1280w.jpg", city: "Canyon", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg", city: "Channing", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg", city: "Channing", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-channing-33-1280w.jpg", city: "Channing", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg", city: "Dumas", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-36-1280w.jpg", city: "Dumas", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-43-1280w.jpg", city: "Dumas", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-levelland-44-1280w.jpg", city: "Levelland", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-44-1280w.jpg", city: "Memphis", roofType: "R-Panel Metal" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-46-1280w.jpg", city: "Odessa", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-24-1280w.jpg", city: "Perryton", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.jpg", city: "Perryton", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-44-1280w.jpg", city: "Perryton", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-13-1280w.jpg", city: "Sanderson", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-17-1280w.jpg", city: "Sanderson", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-19-1280w.jpg", city: "Sanderson", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-22-1280w.jpg", city: "Sanderson", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-23-1280w.jpg", city: "Sanderson", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg", city: "Stinnett", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-49-1280w.jpg", city: "Stinnett", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-50-1280w.jpg", city: "Stinnett", roofType: "Built-Up Gravel" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg", city: "Wichita Falls", roofType: "Asphalt Shingles" },
+  { url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg", city: "Wichita Falls", roofType: "Asphalt Shingles" },
 ];
 
-// Residential shingle project images
-const residentialImages = [
-  {
-    url: `${R2_CDN}/images/shingle/shingle-midland-1-1280w.jpg`,
-    caption: "Architectural shingle installation on residential home in Midland, TX",
-  },
-  {
-    url: `${R2_CDN}/images/shingle/shingle-san-angelo-2-1280w.jpg`,
-    caption: "New residential asphalt shingle roof completed in San Angelo, TX",
-  },
-  {
-    url: `${R2_CDN}/images/shingle/shingle-perryton-3-1280w.jpg`,
-    caption: "Impact-resistant shingle roof installation on Perryton, TX home",
-  },
-  {
-    url: `${R2_CDN}/images/shingle/shingle-perryton-4-1280w.jpg`,
-    caption: "Complete shingle replacement with upgraded materials in Perryton, TX",
-  },
-  {
-    url: `${R2_CDN}/images/shingle/shingle-odessa-5-1280w.jpg`,
-    caption: "Residential roof replacement with architectural shingles in Odessa, TX",
-  },
-  {
-    url: `${R2_CDN}/images/shingle/shingle-perryton-6-1280w.jpg`,
-    caption: "Full residential reroof with clean ridge line finish in Perryton, TX",
-  },
-];
+function altFor(photo: GalleryPhoto): string {
+  if (photo.city && photo.roofType) {
+    return `Completed ${photo.roofType.toLowerCase()} roof in ${photo.city}, TX by 5 Star Roofing`;
+  }
+  return "Completed roofing project by 5 Star Roofing";
+}
 
-// Hail damage repair projects (before photos)
-const hailDamageImages = [
-  {
-    url: `${R2_CDN}/images/hail-damage/hail-damage-canyon-1-1280w.jpg`,
-    caption: "Hail damage assessment showing impact marks on Canyon, TX roof shingles",
-  },
-  {
-    url: `${R2_CDN}/images/hail-damage/hail-damage-canyon-2-1280w.jpg`,
-    caption: "Storm damage documentation for insurance claim on Canyon, TX home",
-  },
-  {
-    url: `${R2_CDN}/images/hail-damage/hail-damage-levelland-3-1280w.jpg`,
-    caption: "Severe hail impact damage with granule loss on Levelland, TX roof",
-  },
-  {
-    url: `${R2_CDN}/images/hail-damage/hail-damage-midland-6-1280w.jpg`,
-    caption: "Roof damage documented for insurance claim processing in Midland, TX",
-  },
-  {
-    url: `${R2_CDN}/images/hail-damage/hail-damage-amarillo-16-1280w.jpg`,
-    caption: "Hail-damaged asphalt shingles requiring replacement in Amarillo, TX",
-  },
-  {
-    url: `${R2_CDN}/images/hail-damage/hail-damage-amarillo-22-1280w.jpg`,
-    caption: "Storm damage restoration project with full roof replacement in Amarillo, TX",
-  },
-];
-
-// Completed projects - mix of types
-const completedImages = [
-  {
-    url: `${R2_CDN}/images/completed/completed-san-angelo-1-1280w.jpg`,
-    caption: "Completed roofing project with new shingles on San Angelo, TX property",
-  },
-  {
-    url: `${R2_CDN}/images/completed/completed-odessa-2-1280w.jpg`,
-    caption: "Finished roof installation with architectural shingles in Odessa, TX",
-  },
-];
+function captionFor(photo: GalleryPhoto): string | null {
+  if (photo.city && photo.roofType) {
+    return `${photo.city}, TX — ${photo.roofType}`;
+  }
+  return null;
+}
 
 export default function GalleryPage() {
   return (
@@ -165,7 +124,7 @@ export default function GalleryPage() {
               className="text-xl md:text-3xl text-white leading-relaxed"
               style={{ textShadow: "0 2px 8px rgba(0,0,0,0.8)" }}
             >
-              Quality Roofing Projects Across{" "}
+              Completed Roofing Projects Across{" "}
               <span className="text-brand-gold-light">West Texas</span>
             </p>
           </div>
@@ -175,7 +134,7 @@ export default function GalleryPage() {
       <div className="container-custom py-12">
         {/* Introduction */}
         <FadeIn>
-          <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl font-bold mb-6">Real Projects, Real Results</h2>
             <p className="text-xl text-gray-600 mb-4">
               Browse our portfolio of completed roofing projects throughout{" "}
@@ -211,158 +170,35 @@ export default function GalleryPage() {
           </div>
         </FadeIn>
 
-        {/* Commercial Projects */}
+        {/* Unified Gallery Grid - completed work only */}
         <FadeIn>
           <section className="mb-20">
-            <div className="mb-8">
-              <span className="bg-brand-gold text-white px-4 py-1 rounded-full text-sm font-semibold">
-                Commercial
-              </span>
-              <h2 className="text-3xl font-bold text-brand-brown mt-4 mb-3">
-                Commercial Roofing Projects
-              </h2>
-              <p className="text-lg text-gray-600">
-                TPO, EPDM, and flat roof installations for businesses across West Texas.
-              </p>
-            </div>
-            <div className="grid md:grid-cols-3 gap-6">
-              {commercialImages.map((img, i) => (
-                <div
-                  key={i}
-                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
-                >
-                  <img
-                    src={img.url}
-                    alt={img.caption}
-                    className="w-full h-64 object-cover"
-                    loading="lazy"
-                  />
-                  <div className="p-4">
-                    <p className="text-sm text-gray-600 text-center">{img.caption}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="text-center mt-8">
-              <a
-                href="/commercial-roofing/"
-                className="text-brand-brown font-semibold hover:text-brand-gold underline"
-              >
-                Learn More About Commercial Roofing →
-              </a>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Residential Projects */}
-        <FadeIn>
-          <section className="mb-20">
-            <div className="mb-8">
-              <span className="bg-brand-gold text-white px-4 py-1 rounded-full text-sm font-semibold">
-                Residential
-              </span>
-              <h2 className="text-3xl font-bold text-brand-brown mt-4 mb-3">
-                Residential Roofing Projects
-              </h2>
-              <p className="text-lg text-gray-600">
-                Shingle replacements and repairs for homes throughout the Texas Panhandle.
-              </p>
-            </div>
-            <div className="grid md:grid-cols-3 gap-6">
-              {residentialImages.map((img, i) => (
-                <div
-                  key={i}
-                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
-                >
-                  <img
-                    src={img.url}
-                    alt={img.caption}
-                    className="w-full h-64 object-cover"
-                    loading="lazy"
-                  />
-                  <div className="p-4">
-                    <p className="text-sm text-gray-600 text-center">{img.caption}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="text-center mt-8">
-              <a
-                href="/residential-roofing/"
-                className="text-brand-brown font-semibold hover:text-brand-gold underline"
-              >
-                Learn More About Residential Roofing →
-              </a>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Hail Damage & Insurance Work */}
-        <FadeIn>
-          <section className="mb-20">
-            <div className="mb-8">
-              <span className="bg-red-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                Storm Damage
-              </span>
-              <h2 className="text-3xl font-bold text-brand-brown mt-4 mb-3">
-                Hail & Storm Damage Repairs
-              </h2>
-              <p className="text-lg text-gray-600">
-                Insurance claim assistance and complete roof restoration after Texas storms.
-              </p>
-            </div>
-            <div className="grid md:grid-cols-3 gap-6">
-              {hailDamageImages.map((img, i) => (
-                <div
-                  key={i}
-                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
-                >
-                  <img
-                    src={img.url}
-                    alt={img.caption}
-                    className="w-full h-64 object-cover"
-                    loading="lazy"
-                  />
-                  <div className="p-4">
-                    <p className="text-sm text-gray-600 text-center">{img.caption}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="text-center mt-8">
-              <a
-                href="/hail-damage-repair-amarillo/"
-                className="text-brand-brown font-semibold hover:text-brand-gold underline"
-              >
-                Learn More About Hail Damage Repair →
-              </a>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Completed Work Showcase */}
-        <FadeIn>
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold text-brand-brown mb-8 text-center">
-              Recently Completed Projects
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {completedImages.map((img, i) => (
-                <div
-                  key={i}
-                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
-                >
-                  <img
-                    src={img.url}
-                    alt={img.caption}
-                    className="w-full h-80 object-cover"
-                    loading="lazy"
-                  />
-                  <div className="p-4">
-                    <p className="text-center text-gray-700 font-medium">{img.caption}</p>
-                  </div>
-                </div>
-              ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {galleryPhotos.map((photo) => {
+                const caption = captionFor(photo);
+                return (
+                  <figure
+                    key={photo.url}
+                    className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+                  >
+                    <div className="relative aspect-[4/3] bg-gray-100">
+                      <Image
+                        src={photo.url}
+                        alt={altFor(photo)}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        loading="lazy"
+                        className="object-cover"
+                      />
+                    </div>
+                    {caption && (
+                      <figcaption className="px-4 py-3 text-sm text-gray-700 text-center">
+                        {caption}
+                      </figcaption>
+                    )}
+                  </figure>
+                );
+              })}
             </div>
           </section>
         </FadeIn>
