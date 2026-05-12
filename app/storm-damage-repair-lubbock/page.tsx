@@ -14,6 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-lubbock/" },
   title: "Storm Damage Repair Lubbock | 5 Star Roofing",
@@ -357,16 +358,7 @@ export default function Page() {
               Serving Lubbock and the South Plains
             </h2>
             <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214628.83174374424!2d-101.94953284999999!3d33.577863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe12add1019bfb%3A0x3704f77c0633ae02!2sLubbock%2C%20TX!5e0!3m2!1sen!2sus!4v1642535234567!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Lubbock, TX Service Area Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Lubbock, TX" />
             </div>
           </section>
         </FadeIn>
