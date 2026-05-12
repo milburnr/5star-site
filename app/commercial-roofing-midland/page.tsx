@@ -152,9 +152,6 @@ export default function CommercialRoofingMidlandPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
