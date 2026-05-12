@@ -144,9 +144,26 @@ export function AltHeroFrame({
   const resolvedSrcSet = citySet ?? heroImageSrcSet;
   const resolvedSrc = citySet ? citySet.fallback : heroImageSrc;
 
+  // Build an imagesrcset for the preload so the browser fetches the SAME
+  // file the CSS background-image rule will use (AVIF preferred, sized to
+  // viewport). Without this, the preload pulls the WebP 1200w while CSS
+  // applies the AVIF 900w — duplicate downloads, wasted bytes, slower LCP.
+  // See https://web.dev/articles/preload-responsive-images
+  const preloadAttrs = buildResponsivePreloadAttrs(resolvedSrcSet, resolvedSrc);
+
   return (
     <>
-      <link rel="preload" as="image" href={resolvedSrc} />
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+      <link
+        rel="preload"
+        as="image"
+        href={preloadAttrs.href}
+        {...(preloadAttrs.imagesrcset
+          ? { imageSrcSet: preloadAttrs.imagesrcset, imageSizes: preloadAttrs.imagesizes }
+          : {})}
+        {...(preloadAttrs.type ? { type: preloadAttrs.type } : {})}
+        fetchPriority="high"
+      />
       <link rel="preload" as="image" href="/logo.png" />
 
       <style
@@ -289,6 +306,40 @@ export function AltHeroFrame({
  * to WebP, and finally a plain URL. Mobile (<=1024px) gets a smaller
  * image-set; desktop uses larger sizes.
  */
+/**
+ * Build attrs for a responsive `<link rel="preload" as="image">` so the
+ * browser fetches the SAME file CSS background-image will render. Prefers
+ * AVIF (smaller, matches CSS's first image-set choice). Sizes via a 1024px
+ * media query that mirrors the CSS breakpoint.
+ */
+function buildResponsivePreloadAttrs(
+  srcSet: HeroImageSet | undefined,
+  fallback: string,
+): { href: string; imagesrcset?: string; imagesizes?: string; type?: string } {
+  if (!srcSet || srcSet.sources.length === 0) {
+    return { href: fallback };
+  }
+  // Prefer AVIF; fall back to WebP. Pick the format with the most entries
+  // so the imagesrcset is dense enough for the browser to pick well.
+  const sorted = [...srcSet.sources].sort((a, b) => a.width - b.width);
+  const hasAvif = sorted.some((s) => s.avif);
+  const format: "avif" | "webp" = hasAvif ? "avif" : "webp";
+  const entries = sorted
+    .map((s) => (format === "avif" ? s.avif : s.webp))
+    .map((u, i) => (u ? `${u} ${sorted[i].width}w` : null))
+    .filter((x): x is string => Boolean(x));
+  if (entries.length === 0) return { href: fallback };
+  // sizes: below 1024px viewport renders the mobile hero at 100vw; above,
+  // it's also full-bleed (it's a 100vw hero), but the mobile/desktop CSS
+  // picks the 900w/1200w respectively. Using `100vw` lets the browser pick
+  // the closest match in `imagesrcset`.
+  const imagesizes = "100vw";
+  // href is a sensible single fallback (matches the first entry).
+  const href = sorted[0][format] ?? fallback;
+  const type = format === "avif" ? "image/avif" : "image/webp";
+  return { href, imagesrcset: entries.join(", "), imagesizes, type };
+}
+
 function buildBackgroundImageExpr(srcSet: HeroImageSet | undefined, fallback: string): {
   desktop: string;
   mobile: string;
