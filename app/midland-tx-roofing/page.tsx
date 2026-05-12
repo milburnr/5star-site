@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Check,
   CloudLightning,
@@ -49,31 +50,12 @@ export default function MidlandRoofingPage() {
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
-      <Hero
-        bgClassName="hero-home"
-        photoTone="aspirational"
-        titleLead="Midland"
-        titleAccent="Roofing Experts"
-        body={
-          <>
-            <HeroLocalityAccent>Midland</HeroLocalityAccent>&apos;s premier roofing contractor for
-            hail damage repair, roof replacement, and insurance-claim help — serving homes and
-            businesses across the Tall City and the Permian Basin.
-          </>
-        }
-        primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
-        secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
-        breadcrumb={
-          <Breadcrumb
-            bare
-            tone="on-photo"
-            items={[
-              { name: "Home", url: "/" },
-              { name: "Service Areas", url: "/service-areas/" },
-              { name: "Midland", url: "/midland-tx-roofing/" },
-            ]}
-          />
-        }
+      <InteriorHeroSection
+        heroVariant="location"
+        city="Midland"
+        state="TEXAS"
+        h1="Roofing Company in Midland, TX"
+        image="/images/heroes/5star-new-hero.png"
       />
 
       {/* Lead Form - Above the Fold */}

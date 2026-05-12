@@ -9,7 +9,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   AlertTriangle,
   Building2,
@@ -92,31 +93,12 @@ export default function AmarilloRoofingPage() {
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
-      <Hero
-        bgClassName="hero-home"
-        photoTone="aspirational"
-        titleLead="Amarillo"
-        titleAccent="Roofing Experts"
-        body={
-          <>
-            <HeroLocalityAccent>Amarillo</HeroLocalityAccent>&apos;s trusted roofing contractor for
-            hail damage repair, roof replacement, and insurance-claim help across the Texas
-            Panhandle. Free inspections, no sales pressure, locally headquartered.
-          </>
-        }
-        primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
-        secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
-        breadcrumb={
-          <Breadcrumb
-            bare
-            tone="on-photo"
-            items={[
-              { name: "Home", url: "/" },
-              { name: "Service Areas", url: "/service-areas/" },
-              { name: "Amarillo", url: "/amarillo-texas-roofing/" },
-            ]}
-          />
-        }
+      <InteriorHeroSection
+        heroVariant="location"
+        city="Amarillo"
+        state="TEXAS"
+        h1="Roofing Company in Amarillo, TX"
+        image="/images/heroes/5star-new-hero.png"
       />
 
       {/* Lead Form - Above the Fold */}

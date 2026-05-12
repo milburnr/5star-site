@@ -11,7 +11,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Check,
   GraduationCap,
@@ -67,31 +68,12 @@ export default function LubbockRoofingPage() {
         Breadcrumb floats over the hero (top-left absolute) with white-on-
         photo treatment, replacing the deprecated <PageHeaderStrip> band.
       */}
-      <Hero
-        bgClassName="hero-home"
-        photoTone="aspirational"
-        titleLead="Lubbock"
-        titleAccent="Roofing Experts"
-        body={
-          <>
-            <HeroLocalityAccent href="/service-areas/">Lubbock</HeroLocalityAccent>
-            &apos;s trusted roofing company for hail damage repair, roof replacement, and
-            insurance-claim help across the South Plains. Free inspections, no sales pressure.
-          </>
-        }
-        primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
-        secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
-        breadcrumb={
-          <Breadcrumb
-            bare
-            tone="on-photo"
-            items={[
-              { name: "Home", url: "/" },
-              { name: "Service Areas", url: "/service-areas/" },
-              { name: "Lubbock", url: "/lubbock-tx-roofing/" },
-            ]}
-          />
-        }
+      <InteriorHeroSection
+        heroVariant="location"
+        city="Lubbock"
+        state="TEXAS"
+        h1="Roofing Company in Lubbock, TX"
+        image="/images/heroes/5star-new-hero.png"
       />
 
       <div className="container-custom">
