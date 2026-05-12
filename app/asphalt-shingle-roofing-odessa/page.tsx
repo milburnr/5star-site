@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -41,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function AsphaltShingleRoofingOdessaPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Asphalt Shingle Roofing", url: "/asphalt-shingle-roofing/" },
-          { name: "Odessa", url: "/asphalt-shingle-roofing-odessa/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -214,11 +204,18 @@ export default function AsphaltShingleRoofingOdessaPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="odessa"
         city="Odessa"
         service="Asphalt Shingle Roofing"
         h1="Asphalt Shingle Roofing in Odessa, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-1280w.jpg"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Asphalt Shingle Roofing", url: "/asphalt-shingle-roofing/" },
+          { name: "Odessa", url: "/asphalt-shingle-roofing-odessa/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

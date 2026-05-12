@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function AsphaltShingleRoofingLevellandPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Asphalt Shingle Roofing",
-            url: "/asphalt-shingle-roofing/",
-          },
-          {
-            name: "Levelland",
-            url: "/asphalt-shingle-roofing-levelland/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -167,11 +149,27 @@ export default function AsphaltShingleRoofingLevellandPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="levelland"
         city="Levelland"
         service="Asphalt Shingle Roofing"
         h1="Asphalt Shingle Roofing in Levelland, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-1280w.jpg"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Asphalt Shingle Roofing",
+            url: "/asphalt-shingle-roofing/",
+          },
+          {
+            name: "Levelland",
+            url: "/asphalt-shingle-roofing-levelland/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">

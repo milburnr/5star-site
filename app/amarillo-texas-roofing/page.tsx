@@ -95,6 +95,7 @@ export default function AmarilloRoofingPage() {
 
       <InteriorHeroSection
         heroVariant="location"
+        citySlug="amarillo"
         city="Amarillo"
         state="TEXAS"
         h1="Roofing Company in Amarillo, TX"

@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Shield, Star, Zap } from "lucide-react";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function AsphaltShingleRoofingPampaPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Asphalt Shingle Roofing",
-            url: "/asphalt-shingle-roofing/",
-          },
-          {
-            name: "Pampa",
-            url: "/asphalt-shingle-roofing-pampa/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -218,11 +200,27 @@ export default function AsphaltShingleRoofingPampaPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="pampa"
         city="Pampa"
         service="Asphalt Shingle Roofing"
         h1="Asphalt Shingle Roofing in Pampa, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Asphalt Shingle Roofing",
+            url: "/asphalt-shingle-roofing/",
+          },
+          {
+            name: "Pampa",
+            url: "/asphalt-shingle-roofing-pampa/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
