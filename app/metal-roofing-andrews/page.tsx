@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Star } from "lucide-react";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function MetalRoofingAndrewsPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Metal Roofing",
-            url: "/metal-roofing/",
-          },
-          {
-            name: "Andrews",
-            url: "/metal-roofing-andrews/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -167,11 +149,27 @@ export default function MetalRoofingAndrewsPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="midland"
         city="Andrews"
         service="Metal Roofing"
         h1="Metal Roofing in Andrews, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-44-1280w.jpg"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Metal Roofing",
+            url: "/metal-roofing/",
+          },
+          {
+            name: "Andrews",
+            url: "/metal-roofing-andrews/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">

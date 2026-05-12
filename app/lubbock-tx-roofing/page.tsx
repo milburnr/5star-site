@@ -70,6 +70,7 @@ export default function LubbockRoofingPage() {
       */}
       <InteriorHeroSection
         heroVariant="location"
+        citySlug="lubbock"
         city="Lubbock"
         state="TEXAS"
         h1="Roofing Company in Lubbock, TX"

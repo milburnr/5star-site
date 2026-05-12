@@ -7,7 +7,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
@@ -50,16 +49,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairPlainviewPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Plainview", url: "/hail-damage-repair-plainview/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -142,11 +132,18 @@ export default function HailDamageRepairPlainviewPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="plainview"
         city="Plainview"
         service="Hail Damage Repair"
         h1="Hail Damage Repair in Plainview, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-9-1280w.webp"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Plainview", url: "/hail-damage-repair-plainview/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
