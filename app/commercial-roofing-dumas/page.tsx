@@ -274,7 +274,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Commercial Roofing Solutions for Dumas' Agricultural Economy?
+              What Commercial roof system for Dumas' Agricultural Economy?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Dumas serves as the agricultural hub of Moore County, supporting extensive grain
@@ -396,7 +396,7 @@ export default function CommercialRoofingDumasPage() {
               Cool roofing technologies prove especially beneficial for facilities operating
               temperature-sensitive processes during summer months when High Plains temperatures
               exceed 100°F for extended periods. High-reflectance membrane systems reduce cooling
-              loads by 25-35% while protecting processing equipment from heat-related failures
+              loads by 25- while protecting processing equipment from heat-related failures
               during peak agricultural seasons.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -643,7 +643,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Climate-Specific Roofing Solutions Are Available in Dumas?
+              What Climate-Specific roof system Are Available in Dumas?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               The High Plains climate around Dumas presents unique challenges for commercial roofing

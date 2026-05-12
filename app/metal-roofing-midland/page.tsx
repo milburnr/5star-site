@@ -538,7 +538,7 @@ export default function MetalRoofingMidlandPage() {
                       <div>
                         <h4 className="font-bold text-brand-brown">Solar Reflectance</h4>
                         <p className="text-gray-600">
-                          Light-colored metal roofing reflects 60-80% of solar radiation, crucial in
+                          Light-colored metal roofing reflects 60- of solar radiation, crucial in
                           Midland's desert environment.
                         </p>
                       </div>
@@ -575,7 +575,7 @@ export default function MetalRoofingMidlandPage() {
                   </h3>
                   <div className="space-y-6">
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-orange-600 mb-2">35%</div>
+                      <div className="text-3xl font-bold text-orange-600 mb-2"></div>
                       <p className="text-gray-700">Cooling Cost Reduction</p>
                     </div>
                     <div className="text-center">
@@ -583,7 +583,7 @@ export default function MetalRoofingMidlandPage() {
                       <p className="text-gray-700">Surface Temperature Difference</p>
                     </div>
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-orange-600 mb-2">$800+</div>
+                      <div className="text-3xl font-bold text-orange-600 mb-2">+</div>
                       <p className="text-gray-700">Annual Savings Potential</p>
                     </div>
                   </div>
@@ -729,7 +729,7 @@ export default function MetalRoofingMidlandPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Midland homeowners typically save 25-35% on cooling costs with reflective metal
                   roofing. The desert climate makes this especially valuable - surface temperatures
-                  can be 40°F cooler than dark asphalt. Annual savings often exceed $800, with
+                  can be 40°F cooler than dark asphalt. Annual savings often exceed  with
                   higher savings for larger homes or those with poor insulation.
                 </AccordionContent>
               </AccordionItem>

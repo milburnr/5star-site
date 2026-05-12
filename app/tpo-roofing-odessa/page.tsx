@@ -471,7 +471,7 @@ export default function TPORoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              How Does the Oil Patch Specialized Installation Process Work?
+              How Does the  Installation Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-2xl shadow-lg text-center">
@@ -539,7 +539,7 @@ export default function TPORoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-yellow-50 p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Climate-Specific Roofing Solutions Are Available in Odessa?
+              What Climate-Specific roof system Are Available in Odessa?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
@@ -554,9 +554,9 @@ export default function TPORoofingOdessaPage() {
                 <div className="bg-amber-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Solar reflectance up to 87% reduces heat gain</li>
+                    <li>• Solar reflectance up to  reduces heat gain</li>
                     <li>• Superior thermal emittance properties</li>
-                    <li>• Energy savings up to 45% on cooling costs</li>
+                    <li>• Energy savings up to  on cooling costs</li>
                     <li>• Cool roof certification for utility rebates</li>
                   </ul>
                 </div>
@@ -655,7 +655,7 @@ export default function TPORoofingOdessaPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Odessa commercial facilities typically see 35-45% reduction in cooling costs after
                   TPO installation. With summer temperatures regularly exceeding 100°F, industrial
-                  facilities can save $20,000-$50,000 annually on energy costs for larger buildings.
+                  facilities can save - annually on energy costs for larger buildings.
                   Oilfield service facilities and manufacturing plants see even greater savings due
                   to heat-generating operations. AEP utility rebates are available for qualifying
                   installations, and many businesses achieve full ROI within 4-6 years through

@@ -269,7 +269,7 @@ export default function WindDamageRepairAmarilloPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Amarillo's location at 3,605 feet above sea level on the high plains creates perfect
               conditions for extreme wind events. The city averages 14.1 mph sustained winds
-              year-round—higher than 98% of cities nationwide. With zero natural windbreaks across
+              year-round—higher than  of cities nationwide. With zero natural windbreaks across
               hundreds of miles of flat terrain, wind accelerates freely from the north and west.
               Strong frontal systems regularly produce gusts of 50-80 mph, with recorded gusts
               exceeding 100 mph during severe weather outbreaks. NOAA weather data shows Amarillo
@@ -629,7 +629,7 @@ export default function WindDamageRepairAmarilloPage() {
                   <h4 className="font-bold text-yellow-800 mb-2">Wind vs. Hail Deductibles</h4>
                   <p className="text-sm text-gray-600">
                     Many Amarillo policies have separate deductibles for wind damage vs. hail
-                    damage. Wind-only events may carry higher deductibles (1-5% of dwelling value)
+                    damage. Wind-only events may carry higher deductibles (1- of dwelling value)
                     compared to hail claims.
                   </p>
                 </div>
@@ -690,7 +690,7 @@ export default function WindDamageRepairAmarilloPage() {
                 <ul className="space-y-3 text-gray-700">
                   <li>
                     <strong>6-nail pattern:</strong> Exceeds standard 4-nail requirement—reduces
-                    blow-off risk by 40-60% in wind speeds above 70 mph
+                    blow-off risk by 40- in wind speeds above 70 mph
                   </li>
                   <li>
                     <strong>Premium starter strips:</strong> Enhanced adhesive provides additional
@@ -917,7 +917,7 @@ export default function WindDamageRepairAmarilloPage() {
                   flashing with structural-grade sealants, and specify Class 4 shingles rated for
                   130+ mph winds. Enhanced underlayment with superior tear strength handles
                   wind-driven debris common in Panhandle storms. These methods reduce wind damage
-                  risk by 80-90% compared to standard installations, often qualifying homeowners for
+                  risk by 80- compared to standard installations, often qualifying homeowners for
                   insurance discounts.
                 </AccordionContent>
               </AccordionItem>
