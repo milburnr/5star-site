@@ -32,10 +32,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Aerial view of excellent asphalt shingle roof installation in Amarillo TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -135,6 +135,33 @@ export default function Page() {
           }),
         }}
       />
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+          <p className="text-gray-800 font-medium leading-relaxed">
+            5 Star Roofing explains the roofing systems available in Amarillo TX — asphalt shingles, TPO membranes, standing seam metal, and flat roof options engineered for the Texas Panhandle climate.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-4 text-sm">
+            <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Asphalt Shingles</a>
+            <a href="/metal-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Metal Roofing</a>
+            <a href="/tpo-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">TPO Roofing</a>
+            <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
+          </div>
+        </section>
+      </FadeIn>
+
+      {/* Author byline */}
+      <FadeIn>
+        <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+          <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+          <span>
+            Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+            &nbsp;·&nbsp; Updated May 2026
+          </span>
+        </div>
+      </FadeIn>
+
       <FadeIn>
         <h1 className="text-4xl font-bold mb-6">Mastering the Best Roofing Methods in Amarillo</h1>
       </FadeIn>

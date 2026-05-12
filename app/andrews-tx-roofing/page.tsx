@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Completed residential roof installation in Andrews TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -155,7 +155,7 @@ export default function AndrewsRoofingPage() {
         className="hero"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.webp)",
           backgroundPosition: "center",
         }}
       >
@@ -181,6 +181,34 @@ export default function AndrewsRoofingPage() {
       </section>
 
       <div className="container-custom">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing serves Andrews TX with complete residential and commercial roofing — hail damage repair, roof replacement, metal systems, and free inspections for Permian Basin properties.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement-andrews/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+              <a href="/commercial-roofing-andrews/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+              <a href="/hail-damage-repair-andrews/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
+              <a href="/odessa-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Roofing</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         {/* Introduction */}
         <FadeIn>
           <section className="section">
@@ -587,20 +615,6 @@ export default function AndrewsRoofingPage() {
                 containedInPlace: { "@type": "State", name: "Texas" },
               },
             ],
-          }),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: faqItems.map((faq) => ({
-              "@type": "Question",
-              name: faq.question,
-              acceptedAnswer: { "@type": "Answer", text: faq.answer },
-            })),
           }),
         }}
       />
