@@ -396,10 +396,14 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     display: none !important;
   }
 
-  body:has(.alt-home-hero) {
-    background: #050403;
-  }
-
+  /* NOTE: previously this rule set body background to #050403 to blend with
+     the dark editorial hero. That broke 155 interior pages (74% of routes)
+     where InteriorHeroSection also injects .alt-home-hero — body text in
+     <main> with no explicit section bg fell through to the near-black body
+     yielding ~2:1 contrast on body copy. The hero itself is 100svh and
+     paints its own #120b06 background, so removing this rule does NOT
+     affect the home hero look; it just lets the body default to the
+     cream amber-50 set in globals.css for all content below the hero. */
   .alt-home-hero {
     --gold: #d8a64d;
     --gold-bright: #f1b84f;
