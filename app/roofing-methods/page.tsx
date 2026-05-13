@@ -200,7 +200,7 @@ export default function Page() {
             </li>
             <li>
               <strong>Thermal Barrier Technology:</strong> Reflective roofing materials and cool
-              roof coatings to reduce cooling costs by up to 25%
+              roof coatings to reduce cooling load
             </li>
             <li>
               <strong>Advanced Flashing Systems:</strong> Multi-piece metal flashing at all roof

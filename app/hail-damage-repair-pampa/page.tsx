@@ -179,7 +179,7 @@ export default function HailDamageRepairPampaPage() {
                 name: "Should I get Class 4 shingles in Pampa?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, Class 4 shingles reduce future hail damage by 90% and often qualify for 10-30% insurance premium discounts. Excellent investment for Gray County's hail-prone climate.",
+                  text: "Yes, Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range). Excellent investment for Gray County's hail-prone climate.",
                 },
               },
             ],
@@ -666,7 +666,7 @@ export default function HailDamageRepairPampaPage() {
                 </div>
                 <div>
                   <p className="text-brand-gold-light font-semibold">
-                    96%+ approval rate on claims • Average: 98% of replacement cost • 72-hour storm
+                    Insurance claim documentation • Adjuster coordination • Post-storm
                     response
                   </p>
                 </div>
@@ -1176,7 +1176,7 @@ export default function HailDamageRepairPampaPage() {
                   </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
                     <li>
-                      <strong>Damage Reduction:</strong> 85-95% reduction in hail damage
+                      <strong>Impact Rating:</strong> UL 2218 Class 4 (2-inch hail tested)
                     </li>
                     <li>
                       <strong>Insurance Benefits:</strong> 10-30% premium discounts available

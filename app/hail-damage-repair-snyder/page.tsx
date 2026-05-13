@@ -697,9 +697,7 @@ export default function HailDamageRepairSnyderPage() {
                         Insurance Claim Success
                       </h3>
                       <p className="text-gray-700">
-                        95%+ claim approval rate through professional documentation, adjuster
-                        coordination, and comprehensive damage assessment ensuring maximum coverage
-                        for Snyder property owners.
+                        
                       </p>
                     </div>
                   </div>

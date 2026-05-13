@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { InsuranceLogos } from "@/components/InsuranceLogos";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import { ContactSection } from "@/components/ContactSection";
@@ -133,8 +132,8 @@ export default async function Page() {
                   href="/contact/"
                   className="block bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 cursor-pointer after:content-[''] after:block after:w-12 after:h-0.5 after:bg-brand-gold-vibrant after:mx-auto after:mt-3"
                 >
-                  <div className="text-brand-brown font-heading font-bold text-4xl md:text-5xl mb-1 sm:mb-2 md:mb-3">
-                    <AnimatedCounter to={100} suffix="%" />
+                  <div className="text-brand-brown font-heading font-bold text-4xl md:text-5xl mb-1 sm:mb-2 md:mb-3 flex justify-center">
+                    <Check className="w-10 h-10 md:w-12 md:h-12 stroke-[2.5]" />
                   </div>
                   <div className="text-gray-primary font-semibold text-sm md:text-lg">
                     Free Inspections
@@ -157,7 +156,7 @@ export default async function Page() {
                     </span>
                   </div>
                   <div className="text-gray-primary font-semibold text-sm md:text-lg">
-                    5-Star Rated
+                    5 Star Roofing
                   </div>
                 </a>
               </FadeIn>
@@ -759,7 +758,7 @@ export default async function Page() {
                 </h3>
                 <p className="text-gray-700 text-lg md:text-xl leading-relaxed font-medium">
                   Amarillo, Midland, and Odessa are among the top 20 cities in the U.S. for hail
-                  frequency. Class 4 impact-resistant shingles can reduce hail damage by up to 90%
+                  frequency. Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail
                   and qualify you for 10-30% insurance premium discounts in West Texas.
                 </p>
               </div>

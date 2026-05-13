@@ -489,7 +489,7 @@ export default function TPORoofingBigSpringPage() {
                     <p className="text-gray-700 mb-4">
                       Big Spring's climate creates significant opportunities for energy savings
                       through reflective roofing systems. TPO installations can reduce building
-                      cooling loads by 25-40%, providing substantial utility cost savings for local
+                      cooling loads, providing utility cost savings for local
                       businesses.
                     </p>
                     <ul className="space-y-2 text-gray-700 text-sm">

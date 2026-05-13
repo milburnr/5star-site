@@ -330,7 +330,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Insurance Claim Assistance:</strong> We work directly with your adjuster to ensure
-          full coverage—95% claim approval rate
+          full coverage—
         </li>
         <li>
           <strong>Minimal Business Disruption:</strong> Strategic scheduling to keep your operations
@@ -571,7 +571,7 @@ export default function Page() {
             Most commercial property insurance policies cover hail damage roof replacement, minus
             your deductible. We provide comprehensive damage documentation including drone aerial
             photos, infrared moisture scans, and detailed reports that insurance adjusters require.
-            Our team has achieved a 95%+ claim approval rate. Contact us for a{" "}
+            Our team has achieved a . Contact us for a{" "}
             <a
               href="/roof-inspections-amarillo/"
               className="text-brand-brown hover:text-brand-gold underline"

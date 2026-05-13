@@ -196,7 +196,7 @@ export default function RoofReplacementMidlandPage() {
                 name: "Are there energy efficiency benefits for new roofs in Midland?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. Cool roof technologies can reduce cooling costs by 25-40% in Midland's intense summer heat (110°F+). Reflective membranes, metal roofing, and energy-efficient shingles qualify for utility rebates and reduce operational costs for both residential and commercial properties.",
+                  text: "Yes. Cool roof technologies can reduce cooling load on West Texas commercial and residential buildings. Reflective membranes, metal roofing, and energy-efficient shingles qualify for utility rebates and reduce operational costs for both residential and commercial properties.",
                 },
               },
             ],

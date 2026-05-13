@@ -133,7 +133,7 @@ const faqItems = [
   {
     question: "Will insurance cover my Big Spring hail damage?",
     answer:
-      "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation with photographs, measurements, and detailed reports that meet adjuster requirements. Our claim approval rate exceeds 95% across Howard County and the Permian Basin region.",
+      "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation with photographs, measurements, and detailed reports that meet adjuster requirements. ",
   },
 ];
 

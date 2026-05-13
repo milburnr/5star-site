@@ -608,8 +608,7 @@ export default function HailDamageRepairAndrewsPage() {
                   <h4 className="font-semibold text-brand-brown mb-3">Our Claims Success Rate</h4>
                   <ul className="text-gray-700 space-y-1 text-sm">
                     <li>
-                      • <strong>95%+ approval rate</strong> for legitimate hail damage claims
-                    </li>
+                                          </li>
                     <li>
                       • <strong>Average 18% increase</strong> in settlement amounts with our
                       assistance
@@ -717,7 +716,7 @@ export default function HailDamageRepairAndrewsPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, if damage occurred during your policy period. We document impacts, meet
-                  adjusters, and advocate for maximum coverage. 95%+ approval rate.
+                  adjusters, and advocate for maximum coverage.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem
@@ -728,8 +727,7 @@ export default function HailDamageRepairAndrewsPage() {
                   Should I upgrade to Class 4 shingles after hail damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Absolutely. Class 4 shingles reduce future hail damage by 90% and qualify for
-                  insurance premium discounts up to 30% in Texas.
+                  Absolutely. Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

@@ -176,7 +176,7 @@ export default function WindDamageRepairDumasPage() {
                 name: "How do you prevent future wind damage in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "High-wind installation methods are critical in Dumas. We use 6-nail patterns instead of standard 4-nail, install premium starter strips with enhanced adhesion, seal all flashing with high-grade sealants, and use Class 4 shingles rated for 130 mph winds. These methods reduce wind damage risk by 80-90% compared to standard installations.",
+                  text: "High-wind installation methods are critical in Dumas. We use 6-nail patterns instead of standard 4-nail, install premium starter strips with enhanced adhesion, seal all flashing with high-grade sealants, and use Class 4 shingles rated for 130 mph winds. These methods meet high-wind installation standards required for Texas Panhandle conditions.",
                 },
               },
               {
@@ -583,8 +583,7 @@ export default function WindDamageRepairDumasPage() {
                   High-wind installation methods are critical in Dumas. We use 6-nail patterns
                   instead of standard 4-nail, install premium starter strips with enhanced adhesion,
                   seal all flashing with high-grade sealants, and use Class 4 shingles rated for 130
-                  mph winds. These methods reduce wind damage risk by 80-90% compared to standard
-                  installations.
+                  mph winds. These methods meet high-wind installation standards required for Texas Panhandle conditions.
                 </AccordionContent>
               </AccordionItem>
 

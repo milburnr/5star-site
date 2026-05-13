@@ -196,7 +196,7 @@ export default function RoofInspectionsCanyonPage() {
                 name: "Can roof inspections help with insurance claims?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Absolutely. Professional documentation dramatically improves claim approval rates. We photograph all damage, count hail impacts per test square, document wind damage patterns, and provide reports meeting insurance company standards. Our inspections have helped thousands of Texas Panhandle homeowners successfully file storm damage claims.",
+                  text: "Absolutely. Professional documentation dramatically improves claim approval rates. We photograph all damage, count hail impacts per test square, document wind damage patterns, and provide reports meeting insurance company standards. Our inspections help Texas Panhandle homeowners file storm damage claims.",
                 },
               },
               {
@@ -1009,7 +1009,7 @@ export default function RoofInspectionsCanyonPage() {
                   Absolutely. Professional documentation dramatically improves claim approval rates.
                   We photograph all damage, count hail impacts per test square, document wind damage
                   patterns, and provide reports meeting insurance company standards. Our inspections
-                  have helped thousands of Texas Panhandle homeowners successfully file storm damage
+                  have helped Texas Panhandle homeowners file storm damage
                   claims.
                 </AccordionContent>
               </AccordionItem>

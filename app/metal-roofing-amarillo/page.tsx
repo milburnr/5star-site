@@ -178,7 +178,7 @@ export default function MetalRoofingAmarilloPage() {
                 name: "Does metal roofing increase home value?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. Metal roofs provide 85-95% ROI, excellent curb appeal, energy savings up to 25%, and appeal to buyers seeking low-maintenance, durable roofing.",
+                  text: "Yes. Metal roofs offer strong long-term value, excellent curb appeal, and energy efficiency, and appeal to buyers seeking low-maintenance, durable roofing.",
                 },
               },
             ],
@@ -398,7 +398,7 @@ export default function MetalRoofingAmarilloPage() {
               <div>
                 <p className="text-lg text-gray-700 mb-6">
                   Metal roofing offers significant energy savings in Amarillo's climate. Reflective
-                  coatings reduce cooling costs by up to 25%, while proper insulation systems
+                  coatings reduce cooling load, while proper insulation systems
                   maintain comfortable temperatures year-round.
                 </p>
                 <div className="space-y-4">

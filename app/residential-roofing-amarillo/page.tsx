@@ -184,7 +184,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 name: "What are Class 4 shingles and why do I need them in Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Class 4 shingles pass UL 2218 impact testing—the highest rating available. They withstand 2-inch hail strikes without cracking. Given Potter County's 131 severe hail days since 2000, Class 4 shingles reduce future damage by 90% and qualify for 10-30% insurance premium discounts. They typically pay for themselves within 5-7 years through avoided claims and premium savings.",
+                  text: "Class 4 shingles pass UL 2218 impact testing—the highest rating available. They withstand 2-inch hail strikes without cracking. Given Potter County's 131 severe hail days since 2000, Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range). They typically pay for themselves within 5-7 years through avoided claims and premium savings.",
                 },
               },
               {
@@ -402,11 +402,8 @@ export default function ResidentialRoofingAmarilloPage() {
                   Insurance Claim Specialists
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  85% of residential projects are hail damage insurance claims. We document every
-                  impact, meet with adjusters on-site, and advocate for maximum coverage. Our 95%+
-                  approval rate means homeowners get new roofs for only their deductible. We've
-                  processed over 1,200 claims with State Farm, Allstate, USAA, and every major
-                  carrier.
+                  We document every
+                  impact, meet with adjusters on-site, and advocate for maximum coverage. We work with State Farm, Allstate, USAA, and every major carrier.
                 </p>
               </div>
 
@@ -416,8 +413,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
                   We exclusively install Class 4 shingles rated to withstand 2-inch hail impacts.
-                  These premium materials reduce future damage by 90% and qualify for 10-30%
-                  insurance premium discounts in Texas. Available from Owens Corning, GAF, and
+                  Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range). in Texas. Available from Owens Corning, GAF, and
                   CertainTeed with warranties up to 50 years. Pays for itself through avoided claims
                   and premium savings.
                 </p>
@@ -598,8 +594,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Class 4 shingles pass UL 2218 impact testing—the highest rating available. They
                   withstand 2-inch hail strikes without cracking. Given Potter County's 131 severe
-                  hail days since 2000, Class 4 shingles reduce future damage by 90% and qualify for
-                  10-30% insurance premium discounts. They typically pay for themselves within 5-7
+                  hail days since 2000, Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range). They typically pay for themselves within 5-7
                   years through avoided claims and premium savings.
                 </AccordionContent>
               </AccordionItem>

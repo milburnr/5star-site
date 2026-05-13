@@ -158,7 +158,7 @@ export default function HailDamageRepairPerrytonPage() {
                 name: "Will insurance cover hail damage in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, if damage occurred during your policy period. We document impacts, meet adjusters, and advocate for maximum coverage. 95%+ approval rate.",
+                  text: "Yes, if damage occurred during your policy period. We document impacts, meet adjusters, and advocate for maximum coverage.",
                 },
               },
               {
@@ -166,7 +166,7 @@ export default function HailDamageRepairPerrytonPage() {
                 name: "Should I upgrade to Class 4 shingles after hail damage?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Absolutely. Class 4 shingles reduce future hail damage by 90% and qualify for insurance premium discounts up to 30% in Texas.",
+                  text: "Absolutely. Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).",
                 },
               },
             ],
@@ -688,8 +688,7 @@ export default function HailDamageRepairPerrytonPage() {
                       • <strong>85+ tornado claims</strong> processed after June 15, 2023 event
                     </li>
                     <li>
-                      • <strong>98% approval rate</strong> for documented tornado damage
-                    </li>
+                                          </li>
                     <li>
                       • <strong>Average 34% increase</strong> in settlements with professional
                       advocacy
@@ -789,7 +788,7 @@ export default function HailDamageRepairPerrytonPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, if damage occurred during your policy period. We document impacts, meet
-                  adjusters, and advocate for maximum coverage. 95%+ approval rate.
+                  adjusters, and advocate for maximum coverage.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem
@@ -800,8 +799,7 @@ export default function HailDamageRepairPerrytonPage() {
                   Should I upgrade to Class 4 shingles after hail damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Absolutely. Class 4 shingles reduce future hail damage by 90% and qualify for
-                  insurance premium discounts up to 30% in Texas.
+                  Absolutely. Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

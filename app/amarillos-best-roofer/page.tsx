@@ -243,7 +243,6 @@ export default function Page() {
             <ul className="space-y-2">
               <li>• Texas State Contractor License (#12345)</li>
               <li>• Better Business Bureau A+ Rating</li>
-              <li>• GAF Master Elite Contractor</li>
               <li>• Owens Corning Preferred Contractor</li>
               <li>• OSHA 30-Hour Safety Certified</li>
               <li>• Haag Certified Inspector (HCI)</li>

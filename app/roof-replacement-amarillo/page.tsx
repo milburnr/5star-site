@@ -210,7 +210,7 @@ export default function RoofReplacementAmarilloPage() {
                 name: "What are the best roofing materials for Amarillo's climate?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Class 4 impact-resistant asphalt shingles (residential), TPO or metal roofing (commercial). Amarillo's 131 hail days since 2000, 14.3 mph average winds (highest in Texas), and 86°F temperature swings require materials engineered for extreme conditions. Class 4 shingles reduce damage by 90% and qualify for insurance discounts up to 30%.",
+                  text: "Class 4 impact-resistant asphalt shingles (residential), TPO or metal roofing (commercial). Amarillo's 131 hail days since 2000, 14.3 mph average winds (highest in Texas), and 86°F temperature swings require materials engineered for extreme conditions. Class 4 shingles meet UL 2218 Class 4 impact testing and qualify for insurance discounts up to 30%.",
                 },
               },
               {
@@ -487,7 +487,7 @@ export default function RoofReplacementAmarilloPage() {
                       Storm
                     </p>
                     <p className="text-sm text-gray-600 leading-relaxed">
-                      Impact-resistant technology reduces hail damage by 90%. Qualifies for 10-30%
+                      Impact-resistant technology meets UL 2218 Class 4 testing for 2-inch hail. Qualifies for 10-30%
                       insurance discounts in Potter County. 50-year warranty with wind resistance up
                       to 130 mph.
                     </p>
@@ -732,7 +732,7 @@ export default function RoofReplacementAmarilloPage() {
                   Class 4 impact-resistant asphalt shingles (residential), TPO or metal roofing
                   (commercial). Amarillo's 131 hail days since 2000, 14.3 mph average winds (highest
                   in Texas), and 86°F temperature swings require materials engineered for extreme
-                  conditions. Class 4 shingles reduce damage by 90% and qualify for insurance
+                  conditions. Class 4 shingles meet UL 2218 Class 4 impact testing and qualify for insurance
                   discounts up to 30%.
                 </AccordionContent>
               </AccordionItem>

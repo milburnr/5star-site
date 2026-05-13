@@ -440,7 +440,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
                     Expert Installation & Quality Control
                   </h3>
                   <p className="text-gray-600">
-                    Our GAF Master Elite certified crews complete most Andrews residential projects
+                    Our crews complete most Andrews residential projects
                     in 2-3 days using premium materials and proven techniques. We protect
                     landscaping, maintain clean work sites, and conduct multiple quality inspections
                     throughout installation. Every project includes enhanced ventilation systems,

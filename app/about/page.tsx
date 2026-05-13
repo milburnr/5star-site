@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { ClipboardList, Home, Target, Zap } from "lucide-react";
 import { ReviewsSection } from "@/components/page-sections/ReviewsSection";
@@ -142,13 +141,13 @@ export default function Page() {
             </div>
             <div className="p-3 md:p-6">
               <div className="text-2xl sm:text-3xl md:text-5xl font-bold bg-gradient-to-r from-brand-gold to-brand-gold-vibrant bg-clip-text text-transparent mb-1 md:mb-2">
-                <AnimatedCounter to={100} suffix="%" />
+                Since 2014
               </div>
               <div className="text-sm sm:text-base md:text-xl font-semibold text-brand-brown">
-                Satisfaction
+                Texas Panhandle
               </div>
               <p className="text-gray-600 mt-1 md:mt-2 text-xs sm:text-sm md:text-base hidden sm:block">
-                Guaranteed
+                Headquartered in Amarillo
               </p>
             </div>
           </div>

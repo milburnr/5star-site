@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-amarillo/" },
   title: "Hail Damage Roof Repair Amarillo TX | 5 Star Roofing",
   description:
-    "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help, 95%+ approval rate. Call (806) 622-6041 for a free estimate!",
+    "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help. Call (806) 622-6041 for a free estimate!",
   openGraph: {
     title: "Hail Damage Roof Repair Amarillo TX | 5 Star Roofing",
     description:
-      "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help, 95%+ approval rate. Call (806) 622-6041 for a free estimate!",
+      "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help. Call (806) 622-6041 for a free estimate!",
     url: "https://5starroofingpros.com/hail-damage-repair-amarillo/",
     siteName: "5 Star Roofing",
     images: [
@@ -165,7 +165,7 @@ export default function HailDamageRepairAmarilloPage() {
                 name: "Will insurance cover hail damage repair in Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, if damage occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact, meet adjusters on-site, and advocate for maximum coverage. Our 95%+ approval rate means most homeowners pay only their deductible ($1,000-$2,500) for complete roof replacement.",
+                  text: "Yes, if damage occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact, meet adjusters on-site, and advocate for maximum coverage.",
                 },
               },
               {
@@ -189,7 +189,7 @@ export default function HailDamageRepairAmarilloPage() {
                 name: "Should I get Class 4 shingles after hail damage repair?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Absolutely. Class 4 impact-resistant shingles withstand 2-inch hail strikes and reduce future damage by 90%. Given Potter County's extreme hail frequency, they're essential. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, offsetting the initial cost through avoided future claims and insurance savings.",
+                  text: "Absolutely. Class 4 impact-resistant shingles withstand 2-inch hail strikes and meet UL 2218 Class 4 impact testing. Given Potter County's extreme hail frequency, they're essential. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, offsetting the initial cost through avoided future claims and insurance savings.",
                 },
               },
               {
@@ -476,7 +476,7 @@ export default function HailDamageRepairAmarilloPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-lg mb-2">
-                    We've handled over 1,000 Amarillo hail claims serving the Texas Panhandle. Our systematic
+                    We work hail claims across the Texas Panhandle every storm season. Our systematic
                     approach ensures maximum coverage.
                   </p>
                 </div>
@@ -523,9 +523,7 @@ export default function HailDamageRepairAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, if damage occurred during your policy period and you file within your
                   carrier's timeframe (typically 1-2 years). We document every impact, meet
-                  adjusters on-site, and advocate for maximum coverage. Our 95%+ approval rate means
-                  most homeowners pay only their deductible ($1,000-$2,500) for complete roof
-                  replacement.
+                  adjusters on-site, and advocate for maximum coverage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -569,7 +567,7 @@ export default function HailDamageRepairAmarilloPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Absolutely. Class 4 impact-resistant shingles withstand 2-inch hail strikes and
-                  reduce future damage by 90%. Given Potter County's extreme hail frequency, they're
+                  meet UL 2218 Class 4 impact testing. Given Potter County's extreme hail frequency, they're
                   essential. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs,
                   offsetting the initial cost through avoided future claims and insurance savings.
                 </AccordionContent>

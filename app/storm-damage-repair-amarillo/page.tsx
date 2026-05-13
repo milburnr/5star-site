@@ -117,7 +117,7 @@ export default function StormDamageRepairAmarilloPage() {
                 name: "Will insurance cover my storm damage repairs?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
+                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs.",
                 },
               },
               {
@@ -340,7 +340,7 @@ export default function StormDamageRepairAmarilloPage() {
                   vulnerability.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Class 4 impact-resistant replacement materials reduce future hail damage by 90%.
+                  Class 4 impact-resistant replacement materials meet UL 2218 testing for 2-inch hail.
                 </p>
               </div>
 
@@ -457,8 +457,7 @@ export default function StormDamageRepairAmarilloPage() {
                   and rain infiltration from covered perils. Coverage typically includes mitigation
                   costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all
                   damage professionally, work directly with adjusters, and handle supplement
-                  requests for hidden damage discovered during repairs. Our 95%+ approval rate
-                  demonstrates our insurance expertise.
+                  requests for hidden damage discovered during repairs.
                 </AccordionContent>
               </AccordionItem>
 
@@ -536,8 +535,7 @@ export default function StormDamageRepairAmarilloPage() {
                   document all damage using Haag Engineering protocols, ensuring comprehensive
                   coverage for visible and hidden damage. We handle supplement negotiations for
                   concealed damage discovered during tear-off, coordinate Code Upgrade coverage for
-                  older homes, and manage ACV/RCV timing to maximize your settlement. Our 95%+
-                  approval rate demonstrates proven success with Texas Panhandle claims.
+                  older homes, and manage ACV/RCV timing to maximize your settlement.
                 </AccordionContent>
               </AccordionItem>
 

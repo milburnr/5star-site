@@ -157,7 +157,7 @@ export default function HailDamageRepairCanyonPage() {
                 name: "Will insurance cover hail damage repair in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, most Texas policies cover hail damage if it occurred during your policy period and you file within 1-2 years. We document impacts, meet adjusters on-site, and advocate for maximum coverage. 95%+ approval rate.",
+                  text: "Yes, most Texas policies cover hail damage if it occurred during your policy period and you file within 1-2 years. We document impacts, meet adjusters on-site, and advocate for maximum coverage.",
                 },
               },
               {
@@ -1018,7 +1018,7 @@ export default function HailDamageRepairCanyonPage() {
                   <p>
                     We document every impact with detailed photography and measurements, meet with
                     adjusters on-site, and advocate for maximum coverage. Our success rate in Canyon
-                    is 95%+ with average settlements at 97% of replacement cost. Most homeowners pay
+                    is 95%+. Most homeowners pay
                     only their deductible.
                   </p>
                 </AccordionContent>
@@ -1192,7 +1192,7 @@ export default function HailDamageRepairCanyonPage() {
                   </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
                     <li>
-                      <strong>Damage Reduction:</strong> 85-95% reduction in hail damage
+                      <strong>Impact Rating:</strong> UL 2218 Class 4 (2-inch hail tested)
                     </li>
                     <li>
                       <strong>Insurance Benefits:</strong> 10-30% premium discounts available

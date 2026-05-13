@@ -177,7 +177,7 @@ export default function MetalRoofingOdessaPage() {
                 name: "Does metal roofing increase home value?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. Metal roofs provide 85-95% ROI, excellent curb appeal, energy savings up to 25%, and appeal to buyers seeking low-maintenance, durable roofing.",
+                  text: "Yes. Metal roofs offer strong long-term value, excellent curb appeal, and energy efficiency, and appeal to buyers seeking low-maintenance, durable roofing.",
                 },
               },
             ],

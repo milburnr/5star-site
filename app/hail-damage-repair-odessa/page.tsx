@@ -171,7 +171,7 @@ export default function HailDamageRepairOdessaPage() {
                 name: "What are Class 4 impact-resistant shingles?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing. For Odessa homes facing frequent Permian Basin storms, Class 4 shingles reduce future damage by up to 90% and often qualify for 10-30% insurance premium discounts.",
+                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing. For Odessa homes facing frequent Permian Basin storms, Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).",
                 },
               },
               {

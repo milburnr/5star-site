@@ -175,7 +175,7 @@ export default function ResidentialRoofingOdessaPage() {
                 name: "What are Class 4 shingles and why do I need them?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Class 4 shingles pass UL 2218 impact testing—the highest rating available. They withstand 2-inch hail strikes without cracking. Class 4 shingles reduce future damage by 90% and qualify for 10-30% insurance premium discounts.",
+                  text: "Class 4 shingles pass UL 2218 impact testing—the highest rating available. They withstand 2-inch hail strikes without cracking. Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range).",
                 },
               },
               {
@@ -245,8 +245,7 @@ export default function ResidentialRoofingOdessaPage() {
               What Makes Our Odessa Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Expert residential roofing in Odessa. Class 4 impact-resistant shingles reduce future
-              damage by 90%. Free inspections and insurance claim assistance included.
+              Expert residential roofing in Odessa. Class 4 impact-resistant shingles meet UL 2218 Class 4 impact testing. Free inspections and insurance claim assistance included.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               We've served Odessa with expert residential roofing. We handle all
@@ -722,8 +721,7 @@ export default function ResidentialRoofingOdessaPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Class 4 shingles pass UL 2218 impact testing—the highest rating available. They
-                  withstand 2-inch hail strikes without cracking. Class 4 shingles reduce future
-                  damage by 90% and qualify for 10-30% insurance premium discounts.
+                  withstand 2-inch hail strikes without cracking. Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range).
                 </AccordionContent>
               </AccordionItem>
 

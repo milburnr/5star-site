@@ -586,7 +586,7 @@ export default function ResidentialRoofingBigSpringPage() {
                   </div>
                   <div>
                     <div className="text-3xl font-bold mb-2"></div>
-                    <div className="text-sm opacity-90">successful claim approval rate</div>
+                    <div className="text-sm opacity-90">thorough damage documentation</div>
                   </div>
                 </div>
               </div>

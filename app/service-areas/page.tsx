@@ -336,8 +336,8 @@ export default function Page() {
             <div className="flex gap-3 items-start">
               <Truck className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
               <div>
-                <div className="font-semibold text-amber-50">Local crew</div>
-                <div className="text-sm text-amber-50/70">West Texas roofers, not subcontractors</div>
+                <div className="font-semibold text-amber-50">On-site management</div>
+                <div className="text-sm text-amber-50/70">Project managers on every job, start to finish</div>
               </div>
             </div>
             <div className="flex gap-3 items-start">

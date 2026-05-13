@@ -177,7 +177,7 @@ export default function WindDamageRepairPerrytonPage() {
                 name: "How do you prevent future wind damage in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "High-wind installation methods are critical in Perryton. We use 6-nail patterns instead of standard 4-nail, install premium starter strips with enhanced adhesion, seal all flashing with high-grade sealants, and use Class 4 shingles rated for 130 mph winds. These methods reduce wind damage risk by 80-90% compared to standard installations.",
+                  text: "High-wind installation methods are critical in Perryton. We use 6-nail patterns instead of standard 4-nail, install premium starter strips with enhanced adhesion, seal all flashing with high-grade sealants, and use Class 4 shingles rated for 130 mph winds. These methods meet high-wind installation standards required for Texas Panhandle conditions.",
                 },
               },
               {
@@ -376,8 +376,7 @@ export default function WindDamageRepairPerrytonPage() {
               </li>
             </ul>
             <p className="text-lg text-gray-600 leading-relaxed">
-              These methods reduce wind damage risk by 80&ndash;90% compared to standard
-              installations. We also handle complete insurance claims for Perryton property
+              These methods meet high-wind installation standards required for Texas Panhandle conditions. We also handle complete insurance claims for Perryton property
               owners&mdash;most wind damage repairs are covered by your homeowner&apos;s policy
               minus the deductible. Our documentation includes NWS wind speed data linked to
               specific damage patterns, which significantly improves claim approval rates.
@@ -434,8 +433,7 @@ export default function WindDamageRepairPerrytonPage() {
                   High-wind installation methods are critical in Perryton. We use 6-nail patterns
                   instead of standard 4-nail, install premium starter strips with enhanced adhesion,
                   seal all flashing with high-grade sealants, and use Class 4 shingles rated for 130
-                  mph winds. These methods reduce wind damage risk by 80-90% compared to standard
-                  installations.
+                  mph winds. These methods meet high-wind installation standards required for Texas Panhandle conditions.
                 </AccordionContent>
               </AccordionItem>
 

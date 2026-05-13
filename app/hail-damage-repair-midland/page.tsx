@@ -171,7 +171,7 @@ export default function HailDamageRepairMidlandPage() {
                 name: "What are Class 4 impact-resistant shingles?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing standards. For Midland properties facing frequent Permian Basin storms, Class 4 shingles reduce future hail damage by up to 90%. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, often paying for the upgrade over time.",
+                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing standards. For Midland properties facing frequent Permian Basin storms, Class 4 shingles meet UL 2218 testing for 2-inch hail. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs.",
                 },
               },
               {

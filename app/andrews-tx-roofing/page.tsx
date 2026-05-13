@@ -123,7 +123,7 @@ const faqItems = [
   {
     question: "Will insurance cover storm damage to my Andrews roof?",
     answer:
-      "Most homeowner and commercial property insurance policies cover hail and wind damage to roofs minus your deductible. We provide comprehensive damage documentation including photographs, measurements, and detailed reports that meet insurance adjuster requirements. Our team has achieved a 95%+ claim approval rate across the Permian Basin.",
+      "Most homeowner and commercial property insurance policies cover hail and wind damage to roofs minus your deductible. We provide comprehensive damage documentation including photographs, measurements, and detailed reports that meet insurance adjuster requirements. Our team has achieved a ",
   },
   {
     question: "How does Andrews' distance from Midland-Odessa affect roofing service?",

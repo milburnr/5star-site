@@ -621,8 +621,7 @@ export default function HailDamageRepairBigSpringPage() {
                       • <strong>150+ successful claims</strong> processed after recent major storms
                     </li>
                     <li>
-                      • <strong>96% approval rate</strong> for documented hail damage in Howard
-                      County
+                                            County
                     </li>
                     <li>
                       • <strong>Average 22% increase</strong> in settlement amounts with
@@ -721,7 +720,7 @@ export default function HailDamageRepairBigSpringPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, if damage occurred during your policy period. We document impacts, meet
-                  adjusters, and advocate for maximum coverage. 95%+ approval rate.
+                  adjusters, and advocate for maximum coverage.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem
@@ -732,8 +731,7 @@ export default function HailDamageRepairBigSpringPage() {
                   Should I upgrade to Class 4 shingles after hail damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Absolutely. Class 4 shingles reduce future hail damage by 90% and qualify for
-                  insurance premium discounts up to 30% in Texas.
+                  Absolutely. Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

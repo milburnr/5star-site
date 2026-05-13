@@ -179,7 +179,7 @@ export default function HailDamageRepairDumasPage() {
                 name: "Should I get Class 4 shingles in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, Class 4 shingles reduce future hail damage by 90% and often qualify for 10-30% insurance discounts. Excellent for Moore County's severe weather.",
+                  text: "Yes, Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range). Excellent for Moore County's severe weather.",
                 },
               },
             ],
@@ -647,7 +647,7 @@ export default function HailDamageRepairDumasPage() {
                 claims.
               </p>
               <p className="text-brand-gold-light font-semibold">
-                95%+ success rate on claims • Average settlement: 97% of replacement cost
+                Insurance claim documentation and adjuster coordination
               </p>
             </div>
           </section>
@@ -985,8 +985,7 @@ export default function HailDamageRepairDumasPage() {
                   </ul>
                   <p>
                     We document every impact and advocate for maximum coverage. Our claims success
-                    rate in Moore County is 95%+, with average settlements at 97% of replacement
-                    cost.
+                    rate in Moore County is 95%+,.
                   </p>
                 </AccordionContent>
               </AccordionItem>

@@ -172,7 +172,7 @@ export default function ResidentialRoofingMidlandPage() {
                 name: "Why do Midland homes need superior roofing materials?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Midland County has recorded 144 trained spotter hail reports with 125 radar-detected hail occasions. The Permian Basin's geography creates intense weather patterns combining hail, wind, and extreme UV exposure. Class 4 impact-resistant shingles reduce future damage by 90% and qualify for 10-30% insurance premium discounts.",
+                  text: "Midland County has recorded 144 trained spotter hail reports with 125 radar-detected hail occasions. The Permian Basin's geography creates intense weather patterns combining hail, wind, and extreme UV exposure. Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range).",
                 },
               },
               {
@@ -271,7 +271,7 @@ export default function ResidentialRoofingMidlandPage() {
               protect Midland's premium homes worth $350,000+.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              We've protected over 600 Midland homes with premium Class 4
+              We install premium Class 4
               impact-resistant shingles engineered for Permian Basin weather extremes. From
               executive estates in Grassland Estates to gated communities like Saddle Club, we serve
               every prestigious neighborhood in Midland County. We handle 100% of insurance claims
@@ -378,7 +378,7 @@ export default function ResidentialRoofingMidlandPage() {
                 <p className="text-gray-700 leading-relaxed">
                   We exclusively install Class 4 impact-resistant shingles from premium
                   manufacturers, available in architectural styles that complement Midland's upscale
-                  neighborhoods. These materials reduce future damage by 90% and qualify for
+                  neighborhoods. These materials meet UL 2218 Class 4 impact testing and qualify for
                   substantial insurance premium discounts that typically offset the upgrade cost
                   within 5-7 years.
                 </p>
@@ -583,9 +583,7 @@ export default function ResidentialRoofingMidlandPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Midland County has recorded 144 trained spotter hail reports with 125
                   radar-detected hail occasions. The Permian Basin's geography creates intense
-                  weather patterns combining hail, wind, and extreme UV exposure. Class 4
-                  impact-resistant shingles reduce future damage by 90% and qualify for 10-30%
-                  insurance premium discounts.
+                  weather patterns combining hail, wind, and extreme UV exposure. Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range).
                 </AccordionContent>
               </AccordionItem>
 

@@ -133,7 +133,7 @@ const faqItems = [
   {
     question: "Will insurance cover hail damage to my Levelland roof?",
     answer:
-      "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation including photographs, measurements, and detailed reports that meet insurance adjuster requirements. Our team has a 95%+ claim approval rate across the South Plains region.",
+      "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation including photographs, measurements, and detailed reports that meet insurance adjuster requirements. Our team has a ",
   },
 ];
 
