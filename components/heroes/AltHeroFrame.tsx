@@ -392,7 +392,8 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
   body:has(.alt-home-hero) iframe[src*="chat-widget"],
   body:has(.alt-home-hero) iframe[id*="lc_"],
   body:has(.alt-home-hero) div[id^="lc_"],
-  body:has(.alt-home-hero) [class*="StickyContactBar"] {
+  body:has(.alt-home-hero) [class*="StickyContactBar"],
+  body:has(.alt-home-hero) .sticky-contact-bar {
     display: none !important;
   }
 
@@ -638,8 +639,18 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     color: #D6B274;
     font-family: var(--font-cormorant), "Cormorant Garamond", "Bodoni 72 Display", Didot, "Times New Roman", serif;
     /* --hero-display-scale defaults to 1 on the homepage. Interior pages
-       (location, service, service+location) pass 0.55-0.6 via inline style. */
+       (location, service, service+location) pass 0.55-0.6 via inline style.
+       The 6rem (96px) floor was too tall for narrow phones — combined with
+       displayScale 0.55 and long city/service names like "HAIL DAMAGE REPAIR"
+       or "HEREFORD", the decorative text overflowed the right edge.
+       Below 640px the floor drops to 2.5rem and the preferred grows with
+       viewport width so 11-char names fit. */
     font-size: calc(clamp(6rem, min(18vw, 32vh), 22vw) * var(--hero-display-scale, 1));
+    /* Allow the renderer to clip the decorative text gracefully if it ever
+       overshoots; it's aria-hidden, so visual clipping is preferable to a
+       horizontal scroll bar or a wrap-mid-word artifact. */
+    max-width: calc(100vw - 2 * clamp(30px, 6.7vw, 9vw));
+    overflow: hidden;
     font-weight: 300;
     line-height: 0.82;
     letter-spacing: -0.018em;
@@ -661,6 +672,17 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     .alt-headline {
       animation: none;
       clip-path: none;
+    }
+  }
+
+  /* Narrow phones: shrink the decorative type so 11-char city + service
+     combos fit. The fallback font (Bodoni / Didot / Times) is wider than
+     Cormorant Garamond, so we size for the worst case — 8-char "HEREFORD"
+     in fallback should still fit a 390px viewport with 30px gutters.
+     For interior pages with displayScale=0.55, this produces ~24-30px text. */
+  @media (max-width: 640px) {
+    .alt-headline {
+      font-size: calc(clamp(2rem, 10.5vw, 13vw) * var(--hero-display-scale, 1));
     }
   }
 
@@ -1038,7 +1060,11 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     .alt-headline {
       top: clamp(118px, 13vh, 150px);
       left: clamp(22px, 5.4vw, 36px);
-      font-size: clamp(6.45rem, 28.2vw, 18rem);
+      /* Multiply by --hero-display-scale so interior pages (scale 0.55) get
+         appropriately smaller decorative text. Previously this override
+         silently dropped the scale, producing 104px decorative type on
+         service-location pages where 57px was intended. */
+      font-size: calc(clamp(6.45rem, 28.2vw, 18rem) * var(--hero-display-scale, 1));
       line-height: 0.78;
       letter-spacing: -0.04em;
     }
@@ -1113,7 +1139,11 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     .alt-headline {
       top: 116px;
       left: 21px;
-      font-size: clamp(5.85rem, 26.8vw, 7.6rem);
+      /* Narrow phones (<520px): respect --hero-display-scale AND tighten the
+         clamp so 8-char "HEREFORD" + 18-char "HAIL DAMAGE REPAIR" sub-display
+         fit the viewport in the Cormorant Garamond fallback (Bodoni/Didot,
+         which is significantly wider than Cormorant itself). */
+      font-size: calc(clamp(3.4rem, 18vw, 5.6rem) * var(--hero-display-scale, 1));
     }
 
     .alt-side-copy {
