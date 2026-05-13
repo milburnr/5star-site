@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -102,34 +102,16 @@ function captionFor(photo: GalleryPhoto): string | null {
 export default function GalleryPage() {
   return (
     <div className="min-h-screen">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Our Work"
+        h1="5 Star Roofing Gallery"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/services-hero.jpg"
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Gallery", url: "/gallery/" },
         ]}
       />
-
-      {/* Hero Section */}
-      <section className="hero-home relative min-h-[400px] flex items-center">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/60 via-orange-900/40 to-yellow-900/30"></div>
-        <FadeIn>
-          <div className="container-custom relative z-10 py-20">
-            <h1
-              className="text-4xl md:text-6xl font-bold mb-6 text-white leading-tight"
-              style={{ textShadow: "0 4px 12px rgba(0,0,0,0.9)" }}
-            >
-              Our <span className="text-brand-gold-light">Work</span>
-            </h1>
-            <p
-              className="text-xl md:text-3xl text-white leading-relaxed"
-              style={{ textShadow: "0 2px 8px rgba(0,0,0,0.8)" }}
-            >
-              Completed Roofing Projects Across{" "}
-              <span className="text-brand-gold-light">West Texas</span>
-            </p>
-          </div>
-        </FadeIn>
-      </section>
 
       <div className="container-custom py-12">
         {/* Introduction */}
