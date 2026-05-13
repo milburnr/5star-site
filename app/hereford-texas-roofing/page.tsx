@@ -525,9 +525,10 @@ export default function HerefordRoofingPage() {
                       Storm Damage Response
                     </h3>
                     <p className="text-gray-600">
-                      Contact us for storm damage assessment and weatherproof sheeting services. Call (806)
-                      622-6041 for damage assessment. We respond quickly to minimize water damage
-                      and begin the restoration process.
+                      Contact us for storm damage assessment and adjuster-ready documentation. Call
+                      (806) 622-6041 to schedule a free inspection. We document damage thoroughly
+                      for your insurance carrier — photos, drone imagery, measurements, and
+                      reports that meet adjuster requirements.
                     </p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-sm">

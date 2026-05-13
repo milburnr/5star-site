@@ -347,7 +347,7 @@ export default function ClaudeRoofingPage() {
                       alt="Emergency roof repair work completed near Perryton TX after severe storm damage"
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
-                    <h3 className="text-2xl font-bold text-red-700 mb-2"></h3>
+                    <h3 className="text-2xl font-bold text-red-700 mb-2">Storm Damage Documentation</h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">

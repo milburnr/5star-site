@@ -633,10 +633,10 @@ export default function DumasRoofingPage() {
                 <div className="text-5xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Hail Alley Specialists</h3>
                 <p className="text-gray-700">
-                  {" "}
-                  for storm damage. We respond quickly to protect your property from further damage.
+                  Free post-storm inspections and adjuster-ready damage documentation for Dumas and
+                  Moore County properties.
                 </p>
               </div>
             </div>

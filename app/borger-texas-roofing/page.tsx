@@ -708,14 +708,15 @@ export default function BorgerRoofingPage() {
 
             <div>
               <h3 className="text-lg font-bold mb-2">
-                How quickly can you respond to storm damage in Hutchinson County?
+                How do you handle storm damage inspections in Hutchinson County?
               </h3>
               <p className="text-gray-700">
-                We prioritize post-storm documentation service for storm damage throughout Hutchinson County. During
-                severe weather events, we schedule work based on storm timing for Borger
-                properties. Our proximity to the area (based in Amarillo) allows us to respond
-                faster than distant contractors, which is critical when protecting your property
-                from water damage after storms.
+                After a storm in Borger or Hutchinson County, call (806) 622-6041 to schedule a free
+                roof inspection. We prioritize post-storm documentation for Hutchinson County
+                properties and document damage thoroughly for your insurance carrier — photos,
+                drone imagery, measurements, and adjuster-ready reports. Permanent repairs and
+                replacements are scheduled around material availability; we are not an
+                emergency-dispatch service.
               </p>
             </div>
 

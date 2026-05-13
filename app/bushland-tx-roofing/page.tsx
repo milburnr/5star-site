@@ -305,7 +305,7 @@ export default function BushlandRoofingPage() {
                       alt="Emergency roof repair completed after storm damage near Bushland TX - 5 Star Roofing"
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
-                    <h3 className="text-2xl font-bold text-red-700 mb-2"></h3>
+                    <h3 className="text-2xl font-bold text-red-700 mb-2">Storm Damage Documentation</h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">

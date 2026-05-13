@@ -82,3 +82,6 @@ public/images/jobs/
 
 # Local Playwright screenshot output (large binary; not for commits)
 runs/design-screenshots/
+
+# Playwright test artifacts
+tests/.results/

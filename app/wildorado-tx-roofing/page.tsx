@@ -380,14 +380,15 @@ export default function WildoradoRoofingPage() {
                       alt="Emergency storm repair on rural Texas Panhandle property by 5 Star Roofing crew"
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
-                    <h3 className="text-2xl font-bold text-red-700 mb-2"></h3>
+                    <h3 className="text-2xl font-bold text-red-700 mb-2">Storm Damage Documentation</h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Rural locations need fast post-storm documentation.</strong> When storm damage
-                      occurs at 2am or on Sunday afternoon, we provide professional roofing services
-                      to Wildorado. weatherproof sheeting, leak repair, storm damage mitigation - we're only 15
-                      miles away and can respond quickly.
+                      <strong>Rural locations need thorough post-storm documentation.</strong>{" "}
+                      Wildorado is only 15 miles from our Amarillo office, so we serve Oldham
+                      County properties with the same care as in-city work — comprehensive
+                      inspections, adjuster-ready damage documentation, and proper scheduling for
+                      repair and replacement work.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Call{" "}

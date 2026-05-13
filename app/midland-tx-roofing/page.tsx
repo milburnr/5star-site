@@ -1,33 +1,35 @@
 import { FadeIn } from "@/components/FadeIn";
-import { InteractiveCard } from "@/components/InteractiveCard";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { StickyContactBar } from "@/components/StickyContactBar";
-import { HeroLocalityAccent } from "@/components/page-sections/Hero";
-import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
-  Check,
-  CloudLightning,
-  Factory,
-  Phone,
-  Shield,
-  Sun,
-  Thermometer,
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { StickyContactBar } from "@/components/StickyContactBar";
+import {
+  Building2,
+  CloudHail,
+  Construction,
+  Home,
+  RefreshCw,
+  Search,
+  Tornado,
   Wind,
+  Wrench,
 } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
-import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/midland-tx-roofing/" },
-  title: "Midland TX Roofing Contractor | 5 Star Roofing",
+  title: "Roofing Contractor Midland TX | 5 Star Roofing",
   description:
-    "Roofing in Midland including commercial and industrial. Permian Basin specialists. Chemical-resistant PVC systems for oil & gas facilities. Call (806) 622-6041",
+    "Roofing in Midland TX. Permian Basin hail and oil-industry roofing specialists serving Midland County. Residential and commercial. Call (806) 622-6041",
   openGraph: {
-    title: "Roofing in Midland TX | 5 Star Roofing",
+    title: "Roofing Contractor Midland TX | 5 Star Roofing",
     description:
-      "Roofing in Midland including commercial and industrial. Permian Basin specialists. Chemical-resistant PVC systems for oil & gas facilities. Call (806) 622-6041",
+      "Roofing in Midland TX. Permian Basin hail and oil-industry roofing specialists serving Midland County. Residential and commercial. Call (806) 622-6041",
     url: "https://5starroofingpros.com/midland-tx-roofing/",
     siteName: "5 Star Roofing",
     images: [
@@ -35,44 +37,146 @@ export const metadata: Metadata = {
         url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "Completed residential roof installation in Midland TX — 5 Star Roofing",
+        alt: "Completed roof installation in Midland TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
     type: "website",
   },
-  keywords:
-    "Midland roofing, Midland TX roofer, Permian Basin roofing, hail damage Midland, commercial roofing Midland, oil industry roofing",
 };
+
+const services = [
+  {
+    name: "Residential Roofing",
+    slug: "residential-roofing",
+    icon: <Home className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Commercial Roofing",
+    slug: "commercial-roofing",
+    icon: <Building2 className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Hail Damage Repair",
+    slug: "hail-damage-repair",
+    icon: <CloudHail className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Storm Damage Repair",
+    slug: "storm-damage-repair",
+    icon: <Tornado className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Wind Damage Repair",
+    slug: "wind-damage-repair",
+    icon: <Wind className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Roof Replacement",
+    slug: "roof-replacement",
+    icon: <RefreshCw className="w-6 h-6 inline-block" />,
+  },
+  { name: "Roof Repair", slug: "roof-repair", icon: <Wrench className="w-6 h-6 inline-block" /> },
+  {
+    name: "Roof Inspections",
+    slug: "roof-inspections",
+    icon: <Search className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "TPO Roofing",
+    slug: "tpo-roofing",
+    icon: <Construction className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Metal Roofing",
+    slug: "metal-roofing",
+    icon: <Wrench className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Asphalt Shingle Roofing",
+    slug: "asphalt-shingle-roofing",
+    icon: <Home className="w-6 h-6 inline-block" />,
+  },
+];
+
+const faqItems = [
+  {
+    question: "How bad is hail damage in Midland?",
+    answer:
+      "Midland sits in the heart of Hail Alley and the Permian Basin, with 6-8 significant hail events per year and stones frequently exceeding 2 inches. Supercell thunderstorms moving across the basin produce hail capable of totaling residential and commercial roofs in minutes. Class 4 impact-resistant materials are strongly recommended for any Midland property.",
+  },
+  {
+    question: "Do you work on oil-industry facilities in Midland?",
+    answer:
+      "Yes. Midland is the corporate hub of the Permian Basin oil and gas industry, and we install specialized commercial roofing for oilfield service yards, processing plants, office buildings, and industrial facilities throughout Midland County. That includes chemical-resistant PVC membranes, heavy-duty metal roofing, and TPO systems designed for high-traffic roof access and chemical exposure.",
+  },
+  {
+    question: "What roofing materials handle Midland's climate best?",
+    answer:
+      "For residential homes, reflective metal roofing or UV-stabilized Class 4 impact-resistant shingles perform best at Midland's 2,779 feet elevation. For commercial buildings, white TPO or PVC membranes reflect up to 85% of solar heat and reduce cooling costs by 20-30% — meaningful at Midland's elevation and sunshine count. Both handle the extreme temperature swings and intense UV radiation common to the Basin.",
+  },
+  {
+    question: "Which Midland neighborhoods do you serve?",
+    answer:
+      "Every Midland neighborhood and the surrounding Midland County and Permian Basin communities. That includes the established neighborhoods near Green Tree Country Club Estates, Saddle Club South, Country Club Estates, the newer developments to the north and west, the historic district near Centennial Park, and the rural acreage and ranch properties across the county. We also serve neighboring Odessa, Stanton, Garden City, and the surrounding Ector, Martin, and Glasscock Counties.",
+  },
+  {
+    question: "How do you handle storm damage in Midland?",
+    answer:
+      "After a storm in Midland or Midland County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier — photos, drone imagery, measurements, and adjuster-ready reports — and help homeowners navigate the Texas Prompt Payment Act timeline. Permanent repairs and replacements are scheduled around material availability; we are not an emergency-dispatch service.",
+  },
+  {
+    question: "Will insurance cover my Midland hail damage?",
+    answer:
+      "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. Texas law gives you up to 2 years to file hail damage claims. We provide comprehensive documentation with photographs, drone imagery, and detailed reports that meet adjuster requirements, and we work directly with State Farm, Allstate, USAA, Farmers, and the local Permian Basin providers.",
+  },
+  {
+    question: "How long does roof replacement take in Midland?",
+    answer:
+      "Most residential roof replacements in Midland take 1-3 days depending on the home's size and complexity. Single-story homes under 2,000 sq ft typically finish in 1-2 days. Larger or two-story homes need 2-3 days. Commercial buildings vary by size — 5,000 to 100,000+ sq ft projects can run from several days to two weeks. We coordinate scheduling around active operations for commercial work.",
+  },
+];
 
 export default function MidlandRoofingPage() {
   return (
     <div className="min-h-screen">
-      {/* Sticky Contact Bar */}
-      <StickyContactBar />
-
-      <InteriorHeroSection
-        heroVariant="location"
-        citySlug="midland"
-        city="Midland"
-        state="TEXAS"
-        h1="Roofing Company in Midland, TX"
-        image="/images/heroes/5star-new-hero.png"
+      <Breadcrumb
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Service Areas", url: "/service-areas/" },
+          { name: "Midland", url: "/midland-tx-roofing/" },
+        ]}
       />
 
-      {/* Lead Form - Above the Fold */}
-      <div className="container-custom">
+      <StickyContactBar />
+
+      {/* Hero Section */}
+      <section
+        className="hero"
+        style={{
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-midland-1-1280w.jpg)",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="hero-overlay"></div>
         <FadeIn>
-          <section id="lead-form" className="section -mt-16 relative z-20">
-            <div className="max-w-2xl mx-auto">
-              <HighLevelForm
-                title="Get Your Free Roof Inspection"
-                subtitle="Fill out the form below and we'll contact you within 24 hours. No obligation."
-              />
+          <div className="hero-content">
+            <h1 className="hero-title">Midland Roofing Contractor You Can Count On</h1>
+            <p className="hero-subtitle">
+              Permian Basin Hail &amp; Oil-Industry Roofing Specialists
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
+              <a href="tel:8066226041" className="btn-primary-hero">
+                Call (806) 622-6041
+              </a>
+              <a href="/contact/" className="btn-secondary-hero">
+                Get Free Inspection
+              </a>
             </div>
-          </section>
+          </div>
         </FadeIn>
-      </div>
+      </section>
 
       <div className="container-custom">
 
@@ -81,7 +185,7 @@ export default function MidlandRoofingPage() {
           <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              5 Star Roofing serves Midland TX with residential and commercial roofing — hail damage repair, roof replacement, metal systems, and TPO for Permian Basin properties throughout Midland County.
+              5 Star Roofing provides full roofing services in Midland TX — residential, commercial, hail and wind damage repair, TPO and PVC membranes for industrial properties, and roof replacement for homes and businesses across Midland County and the Permian Basin.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/roof-replacement-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
@@ -108,758 +212,267 @@ export default function MidlandRoofingPage() {
           <section className="section">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-6 text-center">
-                Your Trusted Roofing Partner in the Heart of the Permian Basin
+                Your Trusted Roofing Partner in Midland, Texas
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
-                Midland, Texas—known as the &quot;Tall City&quot; for its distinctive skyline
-                visible across the flat Permian Basin landscape—is home to over 146,000 residents
-                and serves as the economic heart of America&apos;s most productive oil field. This
-                unique position brings unique roofing challenges that demand specialized expertise.
+                Midland is the corporate hub of the Permian Basin oil and gas industry — the seat of
+                Midland County and home to a metropolitan area of more than 170,000 across the Basin.
+                The headquarters and office buildings along Wall Street, the industrial corridors
+                along I-20, and the established residential neighborhoods near Green Tree Country
+                Club all face one of the most demanding roofing environments in North America. 5 Star
+                Commercial Roofing provides comprehensive roofing services throughout Midland and
+                Midland County.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                At 5 Star Commercial Roofing, we&apos;ve protected Midland&apos;s homes and
-                businesses for over a decade. From the historic Petroleum Building downtown to
-                modern developments in Grassland Estates, from industrial facilities serving the oil
-                industry to family homes throughout Green Tree Country Club Estates, we understand
-                what Midland roofs face: devastating hail storms, extreme temperature swings
-                exceeding 100 degrees annually, relentless UV exposure, and high winds that sweep
-                across the open plains.
+                Midland&apos;s economy runs on oil and gas. The Permian Basin&apos;s corporate
+                headquarters, oilfield service yards, processing plants, and industrial facilities
+                all require specialized commercial roofing — chemical-resistant PVC membranes,
+                heavy-duty metal roofing, and reinforced walkways for high-traffic maintenance
+                access. The downtown business district, the medical campuses, and the retail
+                corridors round out a commercial base that depends on durable roofing systems
+                engineered for Permian Basin conditions.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Whether you need hail damage repair after a Permian Basin supercell, a commercial
-                flat roof system for your oil and gas facility, or residential roofing that can
-                withstand another decade of West Texas extremes, we deliver expert craftsmanship
-                backed by industry-leading warranties.
+                Midland sits in Hail Alley. The National Weather Service documents 6-8 significant
+                hail events per year across the area, with stones frequently exceeding two inches.
+                Supercell thunderstorms moving through the Basin produce hail and straight-line
+                winds capable of totaling residential and commercial roofs in minutes. Summer highs
+                regularly exceed 100°F at the city&apos;s 2,779-foot elevation — conditions that
+                accelerate aging and demand premium materials rated for extreme weather.
               </p>
             </div>
           </section>
         </FadeIn>
 
-        {/* Why Choose Us for Midland */}
-        <FadeIn delay={0.1}>
-          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
-            <h2 className="section-title">Why Midland Chooses 5 Star Roofing</h2>
-            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <InteractiveCard>
-                <div className="text-center">
-                  <div className="text-5xl mb-4">
-                    <Factory className="w-6 h-6 inline-block" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-brand-brown">
-                    Oil Industry Specialists
-                  </h3>
-                  <p className="text-gray-600">
-                    Extensive experience with commercial roofing for petroleum facilities,
-                    warehouses, and industrial buildings throughout the Permian Basin. We understand
-                    the demanding requirements of energy sector infrastructure.
-                  </p>
-                </div>
-              </InteractiveCard>
-              <InteractiveCard>
-                <div className="text-center">
-                  <div className="text-5xl mb-4">
-                    <CloudLightning className="w-6 h-6 inline-block" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Alley Experts</h3>
-                  <p className="text-gray-600">
-                    Midland averages 144 severe weather warnings annually with documented hail
-                    reports throughout the year. We specialize in thorough storm damage assessment,
-                    professional documentation, and seamless insurance claim support.
-                  </p>
-                </div>
-              </InteractiveCard>
-              <InteractiveCard>
-                <div className="text-center">
-                  <div className="text-5xl mb-4">
-                    <Shield className="w-6 h-6 inline-block" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-brand-brown">
-                    Extreme Climate Engineering
-                  </h3>
-                  <p className="text-gray-600">
-                    Our roofing systems are engineered specifically for Midland&apos;s brutal
-                    conditions: summer temperatures exceeding 105°F, winter freezes, UV exposure at
-                    2,779 feet elevation, and 70+ mph wind events.
-                  </p>
-                </div>
-              </InteractiveCard>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Comprehensive Services Section */}
+        {/* Services Grid */}
         <section className="section">
           <FadeIn>
-            <h2 className="section-title">Complete Roofing Services in Midland, TX</h2>
-            <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-              From emergency storm repairs to planned commercial installations, we deliver
-              comprehensive roofing solutions tailored to the Permian Basin&apos;s demanding
-              environment.
+            <h2 className="section-title">Roofing Services in Midland</h2>
+            <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+              We provide a full range of residential and commercial roofing services throughout
+              Midland and Midland County. Select a service below for details.
             </p>
           </FadeIn>
 
-          <div className="space-y-12">
-            {/* Hail Damage Repair */}
-            <FadeIn delay={0.1}>
-              <div className="card-hover p-8">
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-29-1280w.jpg"
-                      alt="Roof restored with new shingles after severe hail storm damage near Midland TX"
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Hail Damage Roof Repair
-                    </h3>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong>
-                        Midland sits squarely in Hail Alley, experiencing some of Texas&apos;s most
-                        severe hailstorms.
-                      </strong>
-                      Recent events have produced hailstones exceeding 6 inches in diameter—the
-                      third-largest ever recorded in Texas—smashing through metal roofs and causing
-                      catastrophic damage throughout the Permian Basin.
-                    </p>
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      Spring and early summer bring violent thunderstorms with baseball to
-                      softball-sized hail that can destroy a roof in minutes. From Grassland Estates
-                      to Club Estates, we&apos;ve assessed and repaired thousands of hail-damaged
-                      roofs. We identify even subtle granule loss, document every impact for maximum
-                      insurance coverage, and coordinate seamlessly with adjusters from State Farm,
-                      Allstate, and local agents throughout Midland.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      <strong>Our hail damage service includes:</strong> Free storm damage
-                      inspections within hours of storms, comprehensive photo documentation with
-                      drone imagery, detailed damage reports for insurance claims, direct
-                      communication with adjusters, temporary storm repairs to prevent further
-                      damage, and complete roof replacement with impact-resistant materials rated
-                      for Midland&apos;s severe weather.
-                    </p>
-                    <a
-                      href="/hail-damage-repair-midland/"
-                      className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
-                    >
-                      Complete Hail Damage Services in Midland →
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-
-            {/* Commercial Roofing */}
-            <FadeIn delay={0.2}>
-              <div className="card-hover p-8">
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg"
-                      alt="Modern stone/stucco home with dark standing-seam metal roof, oil pumpjack in background. AI-stylized Midland hero — 5 Star Roofing"
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Commercial Roofing Services
-                    </h3>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      As the economic capital of the Permian Basin oil and gas industry, Midland
-                      demands commercial roofing systems that can withstand not just extreme
-                      weather, but also the rigors of industrial environments. We&apos;ve installed
-                      and maintained roofs on petroleum facilities, warehouses, office buildings,
-                      retail centers, and industrial complexes throughout Midland County.
-                    </p>
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      Our commercial expertise extends from the historic Petroleum Building and
-                      modern offices near the Bush Convention Center to sprawling industrial
-                      facilities near Midland International Air and Space Port. We specialize in
-                      flat and low-slope roofing systems that deliver decades of reliable
-                      performance with minimal maintenance requirements—critical for operations that
-                      can&apos;t afford downtime.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      <strong>Commercial services include:</strong> TPO single-ply membrane systems
-                      (white reflective surfaces reduce cooling costs by up to 30% in Midland&apos;s
-                      heat), EPDM rubber roofing for superior weather resistance, PVC membrane
-                      installations for chemical-resistant applications, standing seam metal roofing
-                      for office buildings and retail centers (exceptional hail resistance and 40-50
-                      year lifespan), modified bitumen systems, built-up roofing (BUR), roof coating
-                      and restoration to extend existing roof life, preventive maintenance programs,
-                      efficient leak repairs, and comprehensive roof asset management.
-                    </p>
-                    <a
-                      href="/commercial-roofing-midland/"
-                      className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
-                    >
-                      Explore Commercial Roofing in Midland →
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-
-            {/* Residential Roofing */}
-            <FadeIn delay={0.3}>
-              <div className="card-hover p-8">
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg"
-                      alt="Completed residential roof replacement showing quality shingle work near Channing TX"
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Residential Roofing
-                    </h3>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      Midland homeowners face some of the most challenging roofing conditions in
-                      Texas. Your roof must withstand summer temperatures regularly exceeding 100°F,
-                      winter freezes, severe hailstorms, high winds, and relentless UV exposure at
-                      nearly 2,800 feet elevation. Standard roofing materials simply don&apos;t last
-                      in this environment without proper installation and the right products.
-                    </p>
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      Whether you live in the established neighborhoods of Green Tree Country Club
-                      Estates, the newer developments of Grassland Estates, the prestigious homes of
-                      Club Estates, or anywhere throughout Midland County, we install residential
-                      roofing systems engineered for longevity. We use only premium,
-                      impact-resistant shingles with Class 4 hail ratings, superior wind resistance
-                      ratings, and enhanced UV protection specifically designed for West Texas
-                      conditions.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      <strong>Residential services include:</strong> Complete roof replacement with
-                      tear-off and disposal, architectural shingle installation (designer colors and
-                      styles), impact-resistant shingles with insurance discounts, roof repair and
-                      partial replacements, ventilation system upgrades (critical for Midland&apos;s
-                      heat), gutter installation and replacement, insurance claim assistance and
-                      documentation, and free inspections with detailed condition reports.
-                    </p>
-                    <a
-                      href="/residential-roofing-midland/"
-                      className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
-                    >
-                      Residential Roofing Solutions in Midland →
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-
-            {/* Flat Roof Repair */}
-            <FadeIn delay={0.4}>
-              <div className="card-hover p-8">
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg"
-                      alt="Commercial flat roof membrane system on Midland TX building - TPO and EPDM options"
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Flat Roof Repair & Replacement
-                    </h3>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      Most commercial buildings in Midland feature flat or low-slope roofing
-                      systems. These require specialized expertise, materials, and installation
-                      techniques completely different from residential pitched roofs. Flat roofs
-                      face unique challenges in Midland&apos;s climate: ponding water after rare but
-                      intense rainfall, seam failures from thermal cycling, and wind uplift on large
-                      expanses.
-                    </p>
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      We&apos;re Midland&apos;s flat roofing specialists, with extensive experience
-                      in TPO, EPDM, PVC, modified bitumen, and built-up roofing systems. Our
-                      installations include proper drainage design, robust attachment systems for
-                      high winds, and reflective surfaces to reduce the intense heat load on Midland
-                      buildings. We also offer roof coating systems that can extend the life of
-                      existing flat roofs by 10-15 years at a fraction of replacement cost.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      <strong>Flat roof expertise includes:</strong> Advanced leak detection
-                      (including infrared scanning), ponding water solutions and drainage
-                      improvements, seam repair and reinforcement, membrane patching and
-                      replacement, flashing repair and upgrades, roof coating applications, complete
-                      tear-off and replacement, and customized maintenance programs.
-                    </p>
-                    <a
-                      href="/flat-roof-repair-midland-texas/"
-                      className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
-                    >
-                      Flat Roof Services in Midland →
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-
-            {/* Storm Damage Roof Repair */}
-            <FadeIn delay={0.5}>
-              <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      Storm Damage Roof Repair
-                    </h3>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>
-                        When a Permian Basin storm strikes, roof damage doesn&apos;t wait for
-                        business hours.
-                      </strong>
-                      Severe thunderstorms can develop rapidly in West Texas, bringing destructive
-                      hail, high winds, and torrential rain that cause immediate, catastrophic
-                      damage. Water intrusion can destroy inventory, damage equipment, ruin
-                      interiors, and halt business operations within hours.
-                    </p>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      Our roofing team serves Midland and surrounding communities with
-                      professional storm damage assessment and documentation, weatherproof sheeting
-                      placement when needed, and full coordination with your insurance
-                      company—all designed to minimize damage and restore your property
-                      as efficiently as possible.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      <strong>Don&apos;t wait when you have a roofing issue.</strong> Call{" "}
-                      <a
-                        href="tel:8066226041"
-                        className="text-brand-gold font-bold hover:underline"
-                      >
-                        (806) 622-6041
-                      </a>{" "}
-                      now to schedule an inspection anywhere in Midland, throughout the week, 7 days a
-                      week.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {services.map((service) => (
+              <a
+                key={service.slug}
+                href={`/${service.slug}-midland/`}
+                className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow border border-gray-100 hover:border-brand-gold/40"
+              >
+                <div className="text-2xl mb-2">{service.icon}</div>
+                <span className="font-semibold text-brand-brown">{service.name} in Midland</span>
+              </a>
+            ))}
           </div>
         </section>
-
-        {/* Midland-Specific Roofing Challenges */}
-        <FadeIn>
-          <section className="section bg-brand-gold-light p-12 rounded-lg my-16">
-            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
-              Why Midland Roofs Face Extreme Challenges
-            </h2>
-            <div className="max-w-4xl mx-auto space-y-8">
-              <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">
-                  <CloudLightning className="w-6 h-6 inline-block" /> Severe Hail Storms and Hail
-                  Alley
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Midland sits directly in &quot;Hail Alley,&quot; making it one of the most
-                  hail-prone locations in the United States. The city experiences an average of 144
-                  severe weather warnings annually, with documented hail events throughout the year.
-                  The most intense activity occurs from April through June, when violent supercell
-                  thunderstorms develop across the flat Permian Basin landscape.
-                </p>
-                <p className="text-gray-700 leading-relaxed mt-3">
-                  Recent years have seen record-breaking hailstones, including a 7.25-inch stone in
-                  2024—the largest ever recorded in Texas—and multiple 6+ inch hailstones capable of
-                  punching through metal roofs, shattering skylights, and completely destroying
-                  asphalt shingles. Even smaller hail causes significant granule loss, compromising
-                  the waterproofing layer and dramatically reducing roof lifespan.{" "}
-                  <strong>This is the number one roofing threat in Midland.</strong>
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">
-                  <Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Swings
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Midland experiences a semi-arid climate with brutal extremes. Summer temperatures
-                  routinely exceed 100°F, with the mercury sometimes climbing above 105°F. In
-                  winter, hard freezes and occasional ice storms bring temperatures well below
-                  freezing. This creates an annual temperature swing exceeding 100 degrees.
-                </p>
-                <p className="text-gray-700 leading-relaxed mt-3">
-                  Roofing materials expand in heat and contract in cold. This constant thermal
-                  cycling—sometimes experiencing 40-degree daily swings—stresses every component of
-                  your roof: shingles crack and curl, membrane seams pull apart, fasteners loosen,
-                  and flashing separates from penetrations. Materials not engineered for these
-                  extremes fail prematurely, which is why we only install products specifically
-                  rated for West Texas conditions.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">
-                  <Sun className="w-6 h-6 inline-block" /> Intense UV Exposure and Solar Radiation
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  At an elevation of 2,779 feet with over 260 days of sunshine annually, Midland
-                  roofs face relentless ultraviolet radiation. The thin atmosphere at this elevation
-                  provides less UV filtering, meaning more damaging rays reach your roof surface.
-                  This intense solar exposure breaks down organic materials, causes asphalt shingles
-                  to dry out and become brittle, fades colors, and accelerates the aging of all
-                  roofing materials.
-                </p>
-                <p className="text-gray-700 leading-relaxed mt-3">
-                  Proper material selection is critical. We specify UV-stabilized products with
-                  enhanced solar reflectance, impact-resistant shingles that maintain flexibility
-                  despite sun exposure, and light-colored commercial roofing membranes that reflect
-                  rather than absorb solar radiation—reducing building cooling costs by up to 30%.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">
-                  <Wind className="w-6 h-6 inline-block" /> High Winds Across Open Plains
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  The Texas Panhandle and Permian Basin are among the windiest regions in the United
-                  States. With minimal topographic relief, winds sweep unobstructed across hundreds
-                  of miles of open plains. Sustained winds of 25-35 mph are common, with gusts
-                  frequently exceeding 60 mph. Severe thunderstorms can produce straight-line winds
-                  above 70 mph.
-                </p>
-                <p className="text-gray-700 leading-relaxed mt-3">
-                  High winds create enormous uplift forces on roofs, particularly at edges, corners,
-                  and ridges. Improperly installed shingles lift and tear off. Membrane seams peel
-                  back. Flashing pulls away from walls and chimneys. Our installations exceed
-                  standard fastening requirements, using enhanced attachment patterns and wind-rated
-                  materials to ensure your roof stays intact during the next windstorm.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">
-                  <Factory className="w-6 h-6 inline-block" /> Oil Industry and Industrial
-                  Environment
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  As the economic heart of the Permian Basin petroleum industry, Midland presents
-                  unique roofing challenges beyond weather. Industrial facilities require roofs that
-                  can withstand chemical exposure, accommodate heavy rooftop equipment, provide
-                  access for frequent maintenance, and meet stringent safety standards. Many
-                  buildings require specialized systems like vapor barriers, ventilation for
-                  hazardous materials, or fire-resistant assemblies.
-                </p>
-                <p className="text-gray-700 leading-relaxed mt-3">
-                  Commercial operations can&apos;t afford extended downtime for roof work. We
-                  specialize in phased installations that allow businesses to continue operating,
-                  weekend and after-hours work to minimize disruption, and efficient post-storm
-                  documentation to keep critical operations running.
-                </p>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         {/* Neighborhoods We Serve */}
         <FadeIn>
           <section className="section">
-            <h2 className="section-title">Midland Neighborhoods and Areas We Serve</h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-center text-gray-600 mb-8">
-                We provide comprehensive roofing services throughout all of Midland and surrounding
-                communities:
+            <h2 className="section-title">Midland Neighborhoods We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From the established neighborhoods near Green Tree Country Club to the commercial
+                corridors along I-20 and the industrial districts of the Basin, we provide expert
+                roofing services across all of Midland:
               </p>
-              <div className="grid md:grid-cols-3 gap-4 text-gray-700 mb-8">
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Grassland Estates
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Green Tree Country Club Estates
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Club Estates
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Saddle Club South
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Heritage Oaks
-                  </li>
-                </ul>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Abell-Hanger Estates
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Legends Park
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Fairmont Park
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Trinity West
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Goddard Heights
-                  </li>
-                </ul>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Crestgate
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Downtown Midland
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    North Midland
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    West Midland
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    All Midland County areas
-                  </li>
-                </ul>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Established Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Green Tree Country Club Estates</li>
+                    <li>&#10003; Country Club Estates</li>
+                    <li>&#10003; Saddle Club South</li>
+                    <li>&#10003; Polo Park</li>
+                    <li>&#10003; Downtown Historic District</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Newer Developments</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; North Midland</li>
+                    <li>&#10003; Northwest Midland</li>
+                    <li>&#10003; West Midland</li>
+                    <li>&#10003; Centennial Park area</li>
+                    <li>&#10003; Garfield corridor</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Surrounding Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; All Midland County</li>
+                    <li>&#10003; Stanton (Martin Co.)</li>
+                    <li>&#10003; Garden City (Glasscock Co.)</li>
+                    <li>&#10003; I-20 Corridor properties</li>
+                    <li>&#10003; Rural acreage &amp; ranches</li>
+                  </ul>
+                </div>
               </div>
-              <p className="text-center text-gray-600 mt-6">
-                Whether you&apos;re near the Bush Convention Center downtown, the Permian Basin
-                Petroleum Museum on I-20, Midland International Air and Space Port, or anywhere
-                along Loop 250, we serve your area with fast, professional roofing services. We also
-                serve industrial and commercial facilities throughout the Permian Basin oil fields.
+              <p className="text-center text-gray-600 mt-8">
+                The Green Tree Country Club neighborhoods include some of Midland&apos;s most
+                established residential properties, while newer development continues along the
+                north and west edges. Wherever you are in Midland or the surrounding counties,
+                we serve your area.
               </p>
             </div>
           </section>
         </FadeIn>
 
-        {/* About Midland Section */}
+        {/* Recent Storm Events */}
         <FadeIn>
-          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg">
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
             <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
-              Roofing in Midland: The Tall City
+              Recent Hail Events in Midland County
             </h2>
-            <div className="max-w-4xl mx-auto space-y-6 text-gray-700">
-              <p className="leading-relaxed">
-                Known as the &quot;Tall City&quot; for its distinctive downtown skyline that rises
-                prominently from the flat Permian Basin landscape, Midland is a city of
-                approximately 146,000 residents and serves as the economic capital of American oil
-                and gas production. The city&apos;s nickname originated from its impressive
-                collection of high-rise buildings—unusual for a city of its size—built during
-                various oil booms, particularly the iconic 12-story Petroleum Building constructed
-                in 1930.
-              </p>
-              <p className="leading-relaxed">
-                Midland&apos;s economy revolves around petroleum. By 1928, the city had established
-                itself as the administrative center of the Permian Basin oil fields. Today, over 215
-                oil and gas companies maintain offices in Midland, managing operations across the
-                basin that produces 57% of Texas oil—approximately 430 million barrels annually.
-                This represents 14% of the entire nation&apos;s crude production, making the Permian
-                Basin the most productive oil field in the United States.
-              </p>
-              <p className="leading-relaxed">
-                The city experiences population growth tied to energy sector activity, with an 8.1%
-                increase since 2020. This growth has fueled residential development in neighborhoods
-                like Grassland Estates (median home price $445,000) and the prestigious Green Tree
-                Country Club Estates (median $698,000), while commercial and industrial construction
-                continues to expand throughout the metro area.
-              </p>
-              <p className="leading-relaxed">
-                Cultural landmarks include the Permian Basin Petroleum Museum (60,000 square feet
-                dedicated to oil industry history), the Bush Convention Center (a 76,949-square-foot
-                facility named for President George H.W. Bush and First Lady Barbara Bush), and
-                Centennial Park in the heart of downtown. The 27-hole Green Tree Country Club serves
-                as a recreational centerpiece for the community.
-              </p>
-              <p className="leading-relaxed">
-                For roofing contractors, Midland presents a unique market requiring expertise in
-                both high-end residential construction and demanding commercial/industrial
-                applications. The combination of severe weather, extreme climate conditions, and
-                industrial requirements means roofing systems must meet the highest standards of
-                durability and performance.
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">
+                  Permian Basin Supercell Pattern
+                </h3>
+                <p className="text-gray-700">
+                  Midland and Midland County experience 6-8 significant hail events per year, with
+                  stones frequently exceeding two inches. Supercell thunderstorms moving across the
+                  Basin produce hail and damaging winds — peak season runs March through May with a
+                  secondary fall peak in September and October.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">
+                  Wind &amp; Temperature Stress
+                </h3>
+                <p className="text-gray-700">
+                  Sustained Permian Basin winds frequently exceed 30 mph with severe-weather gusts
+                  past 70 mph. Summer highs regularly exceed 100°F at Midland&apos;s 2,779-foot
+                  elevation. The combination of UV exposure, thermal cycling, and wind stress can
+                  reduce expected roof life by 30-40% without premium UV-stabilized materials.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">
+                  Hidden Damage After Storms
+                </h3>
+                <p className="text-gray-700">
+                  Hail damage isn&apos;t always immediately visible. Granule loss, seal failure, and
+                  cracking lead to premature roof failure and leaks that surface months later. After
+                  any hail event in Midland, get a professional inspection within 72 hours to catch
+                  hidden damage before water infiltration begins.
+                </p>
+              </div>
+              <p className="text-center text-gray-500 text-sm mt-4">
+                Texas law gives you up to 2 years to file hail damage claims. We document
+                comprehensively for your insurance carrier.
               </p>
             </div>
           </section>
         </FadeIn>
 
-        {/* Working with Insurance Section */}
+        {/* Midland-Specific Challenges */}
         <FadeIn>
-          <section className="section">
-            <h2 className="section-title">Working with Midland Insurance Companies</h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Hail damage is so common in Midland that most homeowners will file multiple roof
-                claims during their time living here. We have extensive experience working with all
-                major insurance companies and local agents serving the Midland area, making the
-                claims process as smooth as possible.
-              </p>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-lg font-bold text-brand-brown mb-3">
-                    Insurance Companies We Work With:
-                  </h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      State Farm (multiple Midland agents)
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Allstate Insurance
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Farmers Insurance
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      USAA
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Liberty Mutual
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Nationwide
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Progressive
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      All major carriers
-                    </li>
-                  </ul>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-lg font-bold text-brand-brown mb-3">
-                    Our Insurance Assistance:
-                  </h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Free damage assessments
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Comprehensive documentation
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Direct adjuster communication
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Damage photo reports
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Scope of work preparation
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Supplement negotiation
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Claims advocacy
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Deductible assistance programs
-                    </li>
-                  </ul>
-                </div>
+          <section className="section bg-brand-gold-light p-12 rounded-lg my-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Roofing Challenges in Midland &amp; the Permian Basin
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Hail Alley Supercells
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Midland&apos;s position in the southern Plains makes it a magnet for supercell
+                  thunderstorms. Class 4 impact-resistant materials qualify for insurance discounts
+                  up to 30% and are strongly recommended for all Midland County properties.
+                </p>
               </div>
-              <p className="text-gray-600 leading-relaxed">
-                Notable Midland State Farm agents include Roy Nelson (11+ years experience, (432)
-                682-2251), Eddy Ohlenburg (55+ years with State Farm, (432) 682-3456), Lara Sandlin
-                (23+ years experience, (432) 687-1820), and Abraham Gutierrez (serving since 1998,
-                (432) 522-1313). We maintain professional relationships with these and other local
-                agents to facilitate smooth claim processing for our customers.
-              </p>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Oil-Industry &amp; Corporate Roofing
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Midland&apos;s role as Permian Basin corporate headquarters means office towers,
+                  oilfield service complexes, processing plants, and industrial yards throughout
+                  Midland County. These properties need chemical-resistant PVC membranes,
+                  heavy-duty metal roofing, and systems engineered for high-traffic maintenance
+                  access.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Heat &amp; UV Degradation
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Midland summers regularly exceed 100°F, with roof surface temperatures reaching
+                  170°F or higher. Intense UV radiation breaks down asphalt binders, causes granule
+                  loss, and can reduce expected roof life by 30-40% without premium UV-stabilized
+                  materials. Reflective TPO and metal roofing systems cut cooling costs by 20-30%
+                  while providing superior durability.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Flash Flooding &amp; Drainage
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Midland averages only 15 inches of annual rainfall, but precipitation arrives in
+                  intense bursts. Flat commercial roofs require properly designed drainage with
+                  adequate scuppers and internal drains. Ponding water lasting 48+ hours
+                  accelerates membrane deterioration and leads to premature failure.
+                </p>
+              </div>
             </div>
           </section>
         </FadeIn>
 
-        {/* Google Map Section */}
+        {/* Midland City-Specific Details */}
         <FadeIn>
-          <section className="section">
-            <h2 className="section-title">Serving Midland and the Permian Basin</h2>
-            <div className="max-w-4xl mx-auto">
-              <div className="bg-white p-8 rounded-lg shadow-md mb-8">
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-2xl font-bold text-brand-brown mb-4">
-                      Contact Information
-                    </h3>
-                    <div className="space-y-3 text-gray-700">
-                      <p>
-                        <strong>Company:</strong>
-                        <br />5 Star Commercial Roofing
-                      </p>
-                      <p>
-                        <strong>Phone:</strong>
-                        <br />
-                        <a
-                          href="tel:8066226041"
-                          className="text-brand-gold hover:text-brand-gold-vibrant font-semibold text-lg"
-                        >
-                          (806) 622-6041
-                        </a>
-                      </p>
-                      <p>
-                        <strong>Email:</strong>
-                        <br />
-                        <a
-                          href="mailto:admin@5starroofingpros.com"
-                          className="text-brand-gold hover:text-brand-gold-vibrant"
-                        >
-                          admin@5starroofingpros.com
-                        </a>
-                      </p>
-                      <p>
-                        <strong>Hours:</strong>
-                        <br />
-                        Monday - Sunday: 9:00 AM - 5:00 PM
-                        <br />
-                        <span className="text-red-600 font-semibold"></span>
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-brown mb-4">Service Area</h3>
-                    <p className="text-gray-700 mb-4">
-                      We provide comprehensive roofing services throughout Midland, Midland County,
-                      and surrounding Permian Basin communities. Our central Texas Panhandle
-                      location allows us to respond quickly to service calls anywhere in the region.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      <strong>Our service radius includes:</strong> All of Midland proper, Odessa,
-                      Stanton, Garden City, and throughout Midland, Ector, Martin, and Glasscock
-                      Counties.
-                    </p>
-                  </div>
-                </div>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Midland: Corporate Capital of the Permian Basin</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">Downtown &amp; Corporate Towers</h3>
+                <p className="text-gray-600 mb-4">
+                  Midland&apos;s downtown — anchored by office towers along Wall Street and Big
+                  Spring Street — houses the corporate headquarters for many of the Permian
+                  Basin&apos;s independent oil and gas operators. These commercial properties
+                  require institutional-grade roofing systems with the ability to phase
+                  installations around active operations.
+                </p>
               </div>
-
-              {/* Google Map Embed */}
-              <div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "450px" }}>
-                <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Midland, TX" />
+              <div>
+                <h3 className="text-xl font-bold mb-3">Major Employers &amp; Institutions</h3>
+                <p className="text-gray-600 mb-4">
+                  Midland Memorial Hospital, the Midland College campus, and the Museum of the
+                  Southwest are among the institutional properties requiring specialized
+                  commercial roofing. The oilfield service base across Midland County — yards,
+                  pipe storage, processing facilities — round out a commercial base that depends
+                  on specialized chemical-resistant and metal roofing systems.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">
+                  Wall Street Corporate Towers
+                </h4>
+                <p className="text-sm text-gray-600">
+                  Downtown office buildings serving Permian Basin oil &amp; gas headquarters,
+                  requiring institutional-grade systems
+                </p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Country Club Estates</h4>
+                <p className="text-sm text-gray-600">
+                  Established residential neighborhoods with HOA architectural requirements and
+                  established landscape contexts
+                </p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">I-20 Industrial Corridor</h4>
+                <p className="text-sm text-gray-600">
+                  Oilfield service yards, processing plants, and pipe storage requiring
+                  chemical-resistant membranes and reinforced walkways
+                </p>
               </div>
             </div>
           </section>
@@ -867,157 +480,41 @@ export default function MidlandRoofingPage() {
 
         {/* FAQ Section */}
         <FadeIn>
-          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg">
-            <h2 className="section-title">Frequently Asked Questions About Midland Roofing</h2>
-            <div className="max-w-4xl mx-auto space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-bold text-brand-brown mb-3">
-                  How often should I have my roof inspected in Midland?
-                </h3>
-                <p className="text-gray-700">
-                  Due to Midland&apos;s severe hail storms and extreme weather, we recommend
-                  professional roof inspections at least twice per year—once in early spring before
-                  hail season and once in fall after summer heat. You should also schedule an
-                  inspection after any severe storm with large hail or high winds. Many hail damage
-                  claims are denied because homeowners wait too long to report damage.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-bold text-brand-brown mb-3">
-                  What type of roofing material lasts longest in Midland&apos;s climate?
-                </h3>
-                <p className="text-gray-700">
-                  For residential applications, impact-resistant architectural shingles with Class 4
-                  hail ratings provide the best balance of cost, durability, and insurance
-                  discounts. Metal roofing offers superior longevity (50+ years) and excellent hail
-                  resistance when properly installed. For commercial flat roofs, TPO and PVC
-                  membranes perform exceptionally well in Midland&apos;s heat and UV exposure, while
-                  EPDM offers proven durability in temperature extremes.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-bold text-brand-brown mb-3">
-                  Will my insurance cover hail damage to my Midland roof?
-                </h3>
-                <p className="text-gray-700">
-                  Most homeowners and commercial property insurance policies in Texas cover hail
-                  damage, as it&apos;s considered a sudden, unexpected event (a covered peril).
-                  However, you must document the damage promptly and file a claim within the
-                  timeframe specified in your policy. We provide free inspections after storms,
-                  comprehensive photo documentation, and work directly with your insurance adjuster
-                  to ensure you receive fair compensation for all damage.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-bold text-brand-brown mb-3">
-                  How long does a typical roof replacement take in Midland?
-                </h3>
-                <p className="text-gray-700">
-                  A standard residential roof replacement typically takes 1-3 days depending on
-                  size, complexity, and weather. Commercial projects vary widely based on building
-                  size and system type—a small commercial building might take a week, while large
-                  industrial facilities could require several weeks with phased installation to
-                  minimize business disruption. We work efficiently to protect your property and
-                  restore your roof as quickly as possible while maintaining our quality standards.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-bold text-brand-brown mb-3">
-                  Do you offer financing for roof replacement in Midland?
-                </h3>
-                <p className="text-gray-700">
-                  Yes, we offer flexible financing options for both residential and commercial
-                  roofing projects. We understand that roof replacement is a significant investment,
-                  and we work with multiple lending partners to provide competitive rates and terms
-                  that fit your budget. Contact us to discuss financing options for your specific
-                  project.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-bold text-brand-brown mb-3">
-                  What makes roofing in Midland different from other Texas cities?
-                </h3>
-                <p className="text-gray-700">
-                  Midland&apos;s location in the Permian Basin creates a perfect storm of extreme
-                  conditions: it&apos;s in Hail Alley with some of the largest hailstones ever
-                  recorded, experiences over 100-degree annual temperature swings, faces relentless
-                  UV exposure at 2,779 feet elevation, and endures high winds across open plains.
-                  Additionally, the oil industry creates unique commercial roofing requirements for
-                  chemical resistance, heavy loads, and minimal downtime. These factors demand
-                  specialized expertise and premium materials that many contractors don&apos;t
-                  provide.
-                </p>
-              </div>
-            </div>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Midland Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem
+                  key={`item-${index + 1}`}
+                  value={`item-${index + 1}`}
+                  className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+                >
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </section>
         </FadeIn>
 
-        {/* Related Resources */}
-        <FadeIn>
-          <section className="section">
-            <h2 className="section-title">Helpful Roofing Resources</h2>
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              <a
-                href="/blog/how-to-file-hail-damage-insurance-claim/"
-                className="card-hover p-6 block"
-              >
-                <h3 className="text-lg font-bold text-brand-brown mb-2">
-                  How to File a Hail Damage Insurance Claim
-                </h3>
-                <p className="text-gray-600">
-                  Step-by-step guide to documenting damage and working with insurance adjusters for
-                  maximum claim approval.
-                </p>
-              </a>
-              <a href="/blog/best-roofing-materials-texas-2025/" className="card-hover p-6 block">
-                <h3 className="text-lg font-bold text-brand-brown mb-2">
-                  Best Roofing Materials for Texas Climate
-                </h3>
-                <p className="text-gray-600">
-                  Compare roofing materials for durability, cost, and performance in extreme West
-                  Texas conditions.
-                </p>
-              </a>
-              <a href="/blog/roof-maintenance-checklist-texas/" className="card-hover p-6 block">
-                <h3 className="text-lg font-bold text-brand-brown mb-2">
-                  Texas Roof Maintenance Checklist
-                </h3>
-                <p className="text-gray-600">
-                  Essential maintenance tasks to extend roof life and prevent costly repairs in
-                  harsh climates.
-                </p>
-              </a>
-              <a href="/blog/roof-replacement-cost-texas-2025/" className="card-hover p-6 block">
-                <h3 className="text-lg font-bold text-brand-brown mb-2">
-                  Roof Replacement Cost Guide for Texas
-                </h3>
-                <p className="text-gray-600">
-                  Understand pricing factors, material costs, and what to expect when replacing your
-                  Midland roof.
-                </p>
-              </a>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Final CTA */}
+        {/* CTA Section */}
         <FadeIn>
           <section className="cta-section my-16">
-            <h2 className="cta-title">Protect Your Midland Property Today</h2>
+            <h2 className="cta-title">Ready to Protect Your Midland Property?</h2>
             <p className="cta-text">
-              Whether you need hail damage repair, a complete commercial roof replacement, or a
-              residential roofing system engineered for the Permian Basin&apos;s extreme conditions,
-              5 Star Commercial Roofing delivers expert craftsmanship backed by industry-leading
-              warranties. Free inspections throughout Midland.
+              Whether you need a free roof inspection, hail damage assessment, repair work, or a
+              complete roof replacement, 5 Star Commercial Roofing serves Midland with expert
+              craftsmanship and honest pricing. Most hail damage repairs are covered by insurance.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041 Now
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
+                Call (806) 622-6041 Now
               </a>
               <a
                 href="/contact/"
@@ -1033,7 +530,7 @@ export default function MidlandRoofingPage() {
         <FadeIn>
           <section className="section pb-16">
             <h2 className="text-2xl font-bold text-center mb-6 text-brand-brown">
-              Also Serving Nearby Permian Basin Communities
+              Also Serving Nearby Permian Basin Cities
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <a
@@ -1042,21 +539,28 @@ export default function MidlandRoofingPage() {
               >
                 Odessa
               </a>
-              <span className="text-gray-400">•</span>
+              <span className="text-gray-400">&bull;</span>
               <a
-                href="/amarillo-tx-roofing/"
+                href="/big-spring-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
-                Amarillo
+                Big Spring
               </a>
-              <span className="text-gray-400">•</span>
+              <span className="text-gray-400">&bull;</span>
               <a
-                href="/lubbock-tx-roofing/"
+                href="/andrews-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
-                Lubbock
+                Andrews
               </a>
-              <span className="text-gray-400">•</span>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/monahans-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Monahans
+              </a>
+              <span className="text-gray-400">&bull;</span>
               <a
                 href="/service-areas/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
@@ -1074,130 +578,54 @@ export default function MidlandRoofingPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/midland-tx-roofing/",
+            name: "5 Star Roofing",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-midland-1-1280w.jpg",
+            description:
+              "Professional roofing contractor serving Midland, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and oil-industry facility roofing across Midland County.",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Midland",
+              addressRegion: "TX",
+              addressCountry: "US",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "31.9974",
+              longitude: "-102.0779",
+            },
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            url: "https://5starroofingpros.com",
+            priceRange: "$$",
+            openingHoursSpecification: [
               {
-                "@type": ["LocalBusiness", "RoofingContractor"],
-                "@id": "https://5starroofingpros.com/midland-texas-roofing/#roofingcontractor",
-                name: "5 Star Roofing",
-                parentOrganization: {
-                  "@id": "https://5starroofingpros.com/#organization",
-                },
-                image:
-                  "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
-                description:
-                  "Premier roofing contractor serving Midland, Texas and the Permian Basin. Specialists in commercial roofing, hail damage repair, flat roof systems, and residential roofing for extreme West Texas conditions.",
-                telephone: "(806) 622-6041",
-                email: "admin@5starroofingpros.com",
-                url: "https://5starroofingpros.com/midland-texas-roofing/",
-                priceRange: "$$",
-                areaServed: [
-                  {
-                    "@type": "City",
-                    name: "Midland",
-                    containedInPlace: {
-                      "@type": "State",
-                      name: "Texas",
-                    },
-                  },
-                  {
-                    "@type": "AdministrativeArea",
-                    name: "Midland County",
-                  },
-                  {
-                    "@type": "Place",
-                    name: "Permian Basin",
-                  },
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
                 ],
-                hasOfferCatalog: {
-                  "@type": "OfferCatalog",
-                  name: "Roofing Services",
-                  itemListElement: [
-                    {
-                      "@type": "Offer",
-                      itemOffered: {
-                        "@type": "Service",
-                        name: "Hail Damage Roof Repair",
-                        description:
-                          "Expert hail damage assessment, documentation, and repair for Midland's severe Hail Alley storms",
-                        areaServed: "Midland, TX",
-                      },
-                    },
-                    {
-                      "@type": "Offer",
-                      itemOffered: {
-                        "@type": "Service",
-                        name: "Commercial Roofing",
-                        description:
-                          "TPO, EPDM, PVC, and flat roof systems for oil industry facilities and commercial buildings",
-                        areaServed: "Midland, TX",
-                      },
-                    },
-                    {
-                      "@type": "Offer",
-                      itemOffered: {
-                        "@type": "Service",
-                        name: "Residential Roofing",
-                        description:
-                          "Impact-resistant shingles and roofing systems engineered for Permian Basin extremes",
-                        areaServed: "Midland, TX",
-                      },
-                    },
-                    {
-                      "@type": "Offer",
-                      itemOffered: {
-                        "@type": "Service",
-                        name: "Flat Roof Repair",
-                        description:
-                          "Specialized flat roof repair, replacement, and maintenance for commercial buildings",
-                        areaServed: "Midland, TX",
-                      },
-                    },
-                    {
-                      "@type": "Offer",
-                      itemOffered: {
-                        "@type": "Service",
-                        description:
-                          "professional roofing services for storm damage and urgent repairs",
-                        areaServed: "Midland, TX",
-                      },
-                    },
-                  ],
-                },
+                opens: "09:00",
+                closes: "17:00",
+              },
+            ],
+            areaServed: [
+              {
+                "@type": "City",
+                name: "Midland",
+                containedInPlace: { "@type": "State", name: "Texas" },
               },
               {
-                "@type": ["LocalBusiness", "RoofingContractor"],
-                "@id": "https://5starroofingpros.com/midland-texas-roofing/#localbusiness",
-                name: "5 Star Roofing",
-                image:
-                  "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
-                telephone: "(806) 622-6041",
-                email: "admin@5starroofingpros.com",
-                url: "https://5starroofingpros.com",
-                priceRange: "$$",
-                openingHoursSpecification: [
-                  {
-                    "@type": "OpeningHoursSpecification",
-                    dayOfWeek: [
-                      "Monday",
-                      "Tuesday",
-                      "Wednesday",
-                      "Thursday",
-                      "Friday",
-                      "Saturday",
-                      "Sunday",
-                    ],
-                    opens: "09:00",
-                    closes: "17:00",
-                  },
-                ],
-                areaServed: {
-                  "@type": "City",
-                  name: "Midland",
-                  containedInPlace: {
-                    "@type": "State",
-                    name: "Texas",
-                  },
-                },
+                "@type": "AdministrativeArea",
+                name: "Midland County",
               },
             ],
           }),
