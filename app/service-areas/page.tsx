@@ -245,8 +245,37 @@ export default function Page() {
               Free roof inspections across all listed cities.
             </p>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl border border-brand-gold/20 aspect-[16/9]">
-            <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
+          {/* Wide-region embeds: pin on Amarillo HQ. Two iframes because
+              iframe src cannot be responsive — mobile (4:3 aspect) needs
+              zoom 6 to span Amarillo at the top through Midland at the
+              bottom; desktop (16:9 aspect) needs zoom 7 or the same z=6
+              shows half the country. Only the matching breakpoint's iframe
+              is shown; the other is hidden via display:none. Service area
+              is geographically tall (Amarillo 35.2N to Midland 32.0N). */}
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-brand-gold/20 aspect-[4/3] md:aspect-[16/9] md:hidden">
+            <iframe
+              src="https://www.google.com/maps?q=Amarillo,+TX&z=6&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="5 Star Roofing service area — West Texas"
+              aria-label="Map showing 5 Star Roofing service area across the Texas Panhandle, South Plains, and Permian Basin"
+            />
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-brand-gold/20 aspect-[16/9] hidden md:block">
+            <iframe
+              src="https://www.google.com/maps?q=Amarillo,+TX&z=7&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="5 Star Roofing service area — West Texas"
+              aria-label="Map showing 5 Star Roofing service area across the Texas Panhandle, South Plains, and Permian Basin"
+              aria-hidden="true"
+            />
           </div>
         </div>
       </section>
