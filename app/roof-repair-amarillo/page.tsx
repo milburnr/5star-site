@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -212,36 +211,6 @@ export default function RoofRepairAmarilloPage() {
         ]}
     />
 
-      <FadeIn>
-        <section className="section-major bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">52</div>
-                <div className="text-brand-brown font-semibold text-lg">Median Home Age</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={115} suffix="°" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Temperature Range</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">15+</div>
-                <div className="text-brand-brown font-semibold text-lg">MPH Avg Winds</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <Zap className="w-6 h-6 inline-block" />
-                  <Tornado className="w-6 h-6 inline-block" />
-                  <Snowflake className="w-6 h-6 inline-block" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Extreme Weather</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>

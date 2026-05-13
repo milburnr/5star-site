@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -622,45 +621,6 @@ export default function CommercialRoofingMonahansPage() {
           </section>
         </FadeIn>
 
-        <FadeIn>
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Monahans Commercial Roofing Performance Metrics Involve?
-            </h2>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={140} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Monahans Projects</div>
-                  <div className="text-sm text-gray-600 mt-1">
-                    Oil, agriculture, manufacturing, tourism
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={45} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Energy Savings</div>
-                  <div className="text-sm text-gray-600 mt-1">Hydroponic facility average</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">100%</div>
-                  <div className="text-brand-brown font-semibold">Security Compliance</div>
-                  <div className="text-sm text-gray-600 mt-1">Manufacturing facility projects</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={15} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Years Desert Experience</div>
-                  <div className="text-sm text-gray-600 mt-1">Specialized material knowledge</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         <FadeIn>
           <section className="mb-16">

@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -617,45 +616,6 @@ export default function CommercialRoofingLevellandPage() {
           </section>
         </FadeIn>
 
-        <FadeIn>
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Levelland Agricultural Roofing Performance?
-            </h2>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={175} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Levelland Projects</div>
-                  <div className="text-sm text-gray-600 mt-1">
-                    Agricultural, educational, commercial
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={500} suffix="k" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Sq Ft Cotton Storage</div>
-                  <div className="text-sm text-gray-600 mt-1">Protected warehouse space</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">Zero</div>
-                  <div className="text-brand-brown font-semibold">Crop Losses</div>
-                  <div className="text-sm text-gray-600 mt-1">Due to roofing failures</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={25} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Energy Savings</div>
-                  <div className="text-sm text-gray-600 mt-1">Average educational facilities</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         <FadeIn>
           <section className="mb-16">

@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -223,38 +222,6 @@ export default function AsphaltShingleRoofingPerrytonPage() {
           },
         ]}
     />
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={160} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Perryton Projects</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">6-8</div>
-                <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">1-3</div>
-                <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">

@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -214,34 +213,6 @@ export default function AsphaltShingleRoofingMidlandPage() {
         ]}
     />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">110°F+</div>
-                <div className="text-brand-brown font-semibold text-lg">Heat Rated</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={150} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Midland Projects</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">30</div>
-                <div className="text-brand-brown font-semibold text-lg">Year Performance</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <Fuel className="w-6 h-6 inline-block" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Oil Field Tested</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>

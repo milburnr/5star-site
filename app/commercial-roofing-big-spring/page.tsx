@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -609,45 +608,6 @@ export default function CommercialRoofingBigSpringPage() {
           </section>
         </FadeIn>
 
-        <FadeIn>
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Big Spring Commercial Roofing: Performance Metrics Involve?
-            </h2>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={200} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Big Spring Projects</div>
-                  <div className="text-sm text-gray-600 mt-1">
-                    Healthcare, corrections, commercial
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={95} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Facility Uptime</div>
-                  <div className="text-sm text-gray-600 mt-1">During installations</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">Zero</div>
-                  <div className="text-brand-brown font-semibold">Security Breaches</div>
-                  <div className="text-sm text-gray-600 mt-1">In correctional facility work</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={100} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Compliance Rate</div>
-                  <div className="text-sm text-gray-600 mt-1">Healthcare & federal standards</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         <FadeIn>
           <section className="mb-16">

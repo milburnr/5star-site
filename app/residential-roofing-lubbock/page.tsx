@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -227,34 +226,6 @@ export default function ResidentialRoofingLubbockPage() {
         ]}
     />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-red-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={800} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Lubbock Homes Roofed</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">4.00"</div>
-                <div className="text-brand-brown font-semibold text-lg">Largest Hail Recorded</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">$245K</div>
-                <div className="text-brand-brown font-semibold text-lg">Median Home Value</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <GraduationCap className="w-6 h-6 inline-block" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Texas Tech Area</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>

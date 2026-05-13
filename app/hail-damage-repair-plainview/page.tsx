@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -145,37 +144,6 @@ export default function HailDamageRepairPlainviewPage() {
         ]}
     />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                
-                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
-                <div className="text-brand-brown font-semibold text-lg">post-storm documentation</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={75} suffix=" mi" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">From Amarillo</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={20} suffix="K+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Population</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <School className="w-6 h-6 inline-block" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">University Town</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>

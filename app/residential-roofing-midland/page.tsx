@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -227,34 +226,6 @@ export default function ResidentialRoofingMidlandPage() {
         ]}
     />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={600} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Midland Homes Roofed</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">144</div>
-                <div className="text-brand-brown font-semibold text-lg">Hail Reports Recorded</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">$350K+</div>
-                <div className="text-brand-brown font-semibold text-lg">Median Home Value</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <Fuel className="w-6 h-6 inline-block" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Oil Country</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>

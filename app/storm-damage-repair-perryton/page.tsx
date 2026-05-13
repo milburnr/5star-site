@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -178,34 +177,6 @@ export default function StormDamageRepairPerrytonPage() {
           },
         ]}
     />
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-red-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                
-                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
-                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={2} />
-                  -4hr
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Response Time</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">FREE</div>
-                <div className="text-brand-brown font-semibold text-lg">Storm Inspections</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3"></div>
-                <div className="text-brand-brown font-semibold text-lg">Insurance Help</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">

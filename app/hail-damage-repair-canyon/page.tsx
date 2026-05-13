@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -204,39 +203,6 @@ export default function HailDamageRepairCanyonPage() {
         ]}
     />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                
-                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
-                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={17} suffix=" mi" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
-                <div className="text-brand-brown font-semibold text-lg">Roof Inspection</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>

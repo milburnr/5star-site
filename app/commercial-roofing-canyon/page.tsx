@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -646,45 +645,6 @@ export default function CommercialRoofingCanyonPage() {
           </section>
         </FadeIn>
 
-        <FadeIn>
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Canyon Commercial Roofing Success Metrics Include?
-            </h2>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={125} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Canyon Projects</div>
-                  <div className="text-sm text-gray-600 mt-1">University, tourism, commercial</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={15} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Tourism Revenue Protected</div>
-                  <div className="text-sm text-gray-600 mt-1">During post-storm documentations</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={8} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">WTAMU Buildings</div>
-                  <div className="text-sm text-gray-600 mt-1">Successfully completed</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={98} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">On-Schedule Completion</div>
-                  <div className="text-sm text-gray-600 mt-1">Academic deadline compliance</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         <FadeIn>
           <section className="mb-16">

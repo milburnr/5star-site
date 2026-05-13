@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -472,45 +471,6 @@ export default function CommercialRoofingAndrewsPage() {
           </section>
         </FadeIn>
 
-        <FadeIn>
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Andrews Commercial Roofing: By the Numbers Involve?
-            </h2>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={150} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Andrews Projects Completed</div>
-                  <div className="text-sm text-gray-600 mt-1">Permian Basin Specialists</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={2.5} prefix="$" suffix="M" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Property Protected</div>
-                  <div className="text-sm text-gray-600 mt-1">Commercial values secured</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={90} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Energy Savings</div>
-                  <div className="text-sm text-gray-600 mt-1">Average cooling cost reduction</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={99} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Customer Satisfaction</div>
-                  <div className="text-sm text-gray-600 mt-1">Andrews client retention rate</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         <FadeIn>
           <section className="mb-16">

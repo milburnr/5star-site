@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -171,32 +170,6 @@ export default function WindDamageRepairAmarilloPage() {
           },
         ]}
     />
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
-                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">70+</div>
-                <div className="text-brand-brown font-semibold text-lg">MPH Gusts</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={950} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Wind Claims</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">FREE</div>
-                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
       <div className="container-custom py-12">
 
         {/* TL;DR */}
