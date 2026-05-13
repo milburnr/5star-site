@@ -1,35 +1,43 @@
 import { FadeIn } from "@/components/FadeIn";
-import RelatedArticles from "@/components/RelatedArticles";
+import type { Metadata } from "next";
+import { Breadcrumb } from "@/components/Breadcrumb";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { AlertTriangle, Building2, Check, Factory, Home, Phone, Star } from "lucide-react";
+import {
+  Building2,
+  CloudHail,
+  Construction,
+  Home,
+  RefreshCw,
+  Search,
+  Tornado,
+  Wind,
+  Wrench,
+} from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/perryton-texas-roofing/" },
-  title: "Roofing Perryton TX | Hail Damage | 5 Star Roofing",
+  title: "Roofing in Perryton TX | 5 Star Roofing",
   description:
-    "Roofing services in Perryton, Texas Panhandle. Commercial, residential, and storm roofing. Serving Ochiltree County. Free inspections available.",
+    "Roofing in Perryton. Ochiltree County storm damage specialists. Residential, commercial, and agricultural roofing in the Texas Panhandle. Call (806) 622-6041",
   openGraph: {
-    title: "Roofing Perryton TX | Hail Damage | 5 Star Roofing",
+    title: "Roofing in Perryton TX | 5 Star Roofing",
     description:
-      "Roofing services in Perryton, Texas Panhandle. Commercial, residential, and storm roofing. Serving Ochiltree County. Free inspections available.",
+      "Roofing in Perryton. Ochiltree County storm damage specialists. Residential, commercial, and agricultural roofing in the Texas Panhandle. Call (806) 622-6041",
     url: "https://5starroofingpros.com/perryton-texas-roofing/",
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Completed asphalt shingle roof installation in Perryton TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -37,86 +45,112 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PerrytonRoofingPage() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "RoofingContractor"],
-    "@id": "https://5starroofingpros.com/#organization",
-    name: "5 Star Roofing",
-    parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
-    description:
-      "Professional roofing contractor serving Perryton, Texas and Ochiltree County with commercial, residential, and professional roofing services.",
-    telephone: "(806) 622-6041",
-    email: "admin@5starroofingpros.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "2909 S Western St",
-      addressLocality: "Amarillo",
-      addressRegion: "TX",
-      postalCode: "79109",
-      addressCountry: "US",
-    },
-    areaServed: [
-      {
-        "@type": "City",
-        name: "Perryton",
-        containedInPlace: { "@type": "AdministrativeArea", name: "Ochiltree County" },
-      },
-      { "@type": "City", name: "Amarillo" },
-    ],
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "Roofing Services",
-      itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Commercial Roofing",
-            description: "Commercial roofing for Perryton businesses",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Residential Roofing",
-            description: "Residential roofing for Perryton homes",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Hail Damage Repair",
-            description: "Storm and hail damage repair in Perryton, TX",
-          },
-        },
-      ],
-    },
-  };
+const services = [
+  {
+    name: "Residential Roofing",
+    slug: "residential-roofing",
+    icon: <Home className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Commercial Roofing",
+    slug: "commercial-roofing",
+    icon: <Building2 className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Hail Damage Repair",
+    slug: "hail-damage-repair",
+    icon: <CloudHail className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Storm Damage Repair",
+    slug: "storm-damage-repair",
+    icon: <Tornado className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Wind Damage Repair",
+    slug: "wind-damage-repair",
+    icon: <Wind className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Roof Replacement",
+    slug: "roof-replacement",
+    icon: <RefreshCw className="w-6 h-6 inline-block" />,
+  },
+  { name: "Roof Repair", slug: "roof-repair", icon: <Wrench className="w-6 h-6 inline-block" /> },
+  {
+    name: "Roof Inspections",
+    slug: "roof-inspections",
+    icon: <Search className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "TPO Roofing",
+    slug: "tpo-roofing",
+    icon: <Construction className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Metal Roofing",
+    slug: "metal-roofing",
+    icon: <Wrench className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Asphalt Shingle Roofing",
+    slug: "asphalt-shingle-roofing",
+    icon: <Home className="w-6 h-6 inline-block" />,
+  },
+];
 
+const faqItems = [
+  {
+    question: "How bad was the June 2023 Perryton tornado?",
+    answer:
+      "On June 15, 2023, an EF-3 tornado tore through Perryton, killing three people, injuring dozens, and causing widespread structural damage across the city. The Perryton Equity Co-Op grain facilities, mobile home parks on the south side, and businesses along Main Street sustained heavy roof and structural damage. Recovery and rebuilding work continues across Ochiltree County, and many properties still need full roof replacement to restore wind ratings and insurance compliance.",
+  },
+  {
+    question: "Do you work on agricultural and grain storage buildings in Perryton?",
+    answer:
+      "Yes. Perryton is the heart of the Wheat Heart of the Nation, and we work on grain elevators, equipment barns, processing facilities, and farm shop buildings throughout Ochiltree County. Agricultural roofs need chemical-resistant metal panels with enhanced corrosion coatings, ventilation systems designed to resist grain dust clogging, and structural designs that handle equipment vibration and load cycles from harvest traffic.",
+  },
+  {
+    question: "What roofing materials handle Perryton's hail and wind best?",
+    answer:
+      "For residential homes, Class 4 impact-resistant shingles rated for 130 mph wind resistance perform best in Perryton's High Plains exposure. For commercial and agricultural buildings, standing seam metal roofing with concealed fasteners gives the best wind performance against the sustained winds that accelerate across open farmland. Both material types handle the sub-zero winters, 100-plus degree summers, and severe hail that hit Ochiltree County each year.",
+  },
+  {
+    question: "How does Perryton's far-northern Panhandle location affect storms?",
+    answer:
+      "Perryton sits in Ochiltree County roughly seven miles from the Oklahoma border at the northern edge of the Texas Panhandle, directly in the path of supercell storms moving northeast from the southern Plains. The combination of northerly winter fronts producing ice storms and spring supercells producing softball-sized hail creates year-round roof stress. Open farmland surrounding the city allows winds to accelerate without obstruction, so wind ratings should exceed what is standard for urban areas farther south.",
+  },
+  {
+    question: "How do you handle storm damage in Perryton from Amarillo?",
+    answer:
+      "Perryton is approximately 120 miles northeast of our Amarillo headquarters via US-83. After a storm in Ochiltree County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier — photos, measurements, and adjuster-ready reports — and help homeowners navigate the Texas Prompt Payment Act timeline. Permanent repairs and replacements are scheduled around material availability and crew routing from Amarillo; we are not an emergency-dispatch service.",
+  },
+  {
+    question: "Are ice storms a roofing concern in Perryton?",
+    answer:
+      "Yes. As the northernmost major community in our Panhandle service area, Perryton experiences more ice storms than cities farther south. Freezing rain creates heavy ice loads on roof structures, and ice dams form when heat escapes through poorly insulated attics and melts snow that refreezes at the eaves. We install ice and water shield underlayment along eaves and valleys and verify adequate attic insulation and ventilation to prevent ice dam formation on Ochiltree County homes.",
+  },
+  {
+    question: "Will insurance cover my Perryton hail damage?",
+    answer:
+      "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation with photographs, measurements, and detailed reports that meet adjuster requirements. For agricultural buildings, we also help correlate damage with National Weather Service storm reports and coordinate with carriers that handle farm and ranch policies.",
+  },
+];
+
+export default function PerrytonRoofingPage() {
   return (
     <div className="min-h-screen">
-      {" "}
       <Breadcrumb
         items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Service Areas",
-            url: "/service-areas/",
-          },
-          {
-            name: "Perryton",
-            url: "/perryton-texas-roofing/",
-          },
+          { name: "Home", url: "/" },
+          { name: "Service Areas", url: "/service-areas/" },
+          { name: "Perryton", url: "/perryton-texas-roofing/" },
         ]}
       />
-      {/* Sticky Contact Bar */}
+
       <StickyContactBar />
+
+      {/* Hero Section */}
       <section
         className="hero"
         style={{
@@ -128,623 +162,340 @@ export default function PerrytonRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Perryton's Professional Roofing Contractor</h1>
+            <h1 className="hero-title">Perryton Roofing Contractor You Can Count On</h1>
             <p className="hero-subtitle">
-              Expert Roofing Services in Perryton & Ochiltree County, Texas
+              Ochiltree County Storm Damage Experts &amp; Complete Roofing Services
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
+              <a href="tel:8066226041" className="btn-primary-hero">
+                Call (806) 622-6041
               </a>
-              <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
-                Free Inspection
+              <a href="/contact/" className="btn-secondary-hero">
+                Get Free Inspection
               </a>
             </div>
           </div>
         </FadeIn>
       </section>
-      {/* Lead Form - Above the Fold */}
+
       <div className="container-custom">
+
+        {/* TL;DR */}
         <FadeIn>
-          <section id="lead-form" className="section -mt-16 relative z-20">
-            <div className="max-w-2xl mx-auto">
-              <HighLevelForm
-                title="Get Your Free Roof Inspection"
-                subtitle="Fill out the form below and we'll contact you within 24 hours. No obligation."
-              />
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides full roofing services in Perryton TX — residential, commercial, and agricultural roof replacement, hail and wind damage repair, and insurance documentation for Ochiltree County properties recovering from the June 2023 tornado and ongoing Panhandle storms.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement-perryton/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+              <a href="/commercial-roofing-perryton/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+              <a href="/hail-damage-repair-perryton/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
+              <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Roofing</a>
             </div>
           </section>
         </FadeIn>
-      </div>
-      <div className="container-custom py-12">
+
+        {/* Author byline */}
         <FadeIn>
-          <section className="content-block">
-            <h2 className="content-block-title">Trusted Roofing Services in Perryton, Texas</h2>
-            <p className="text-lg mb-4">
-              As Perryton's premier{" "}
-              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
-                professional roofing contractor
-              </a>
-              , 5 Star Commercial Roofing brings over a decade of experience serving Ochiltree
-              County and the entire Texas Panhandle. Whether you need commercial roofing,
-              residential roofing for your home, or storm damage repairs, our expert team delivers
-              reliable, high-quality roofing solutions.
-            </p>
-            <p className="text-lg mb-4">
-              Perryton's climate—with severe hailstorms, high winds, and extreme temperature
-              swings—demands roofing systems built to withstand the harshest conditions. We
-              specialize in{" "}
-              <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">
-                hail-resistant roofing materials
-              </a>{" "}
-              and installation techniques proven to protect Ochiltree County properties year after
-              year.
-            </p>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
+        {/* Introduction */}
+        <FadeIn>
+          <section className="section">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-6 text-center">
+                Your Trusted Roofing Partner in Perryton, Texas
+              </h2>
+              <p className="text-xl text-gray-600 leading-relaxed mb-6">
+                Perryton, the Ochiltree County seat with approximately 8,500 residents, sits in the
+                far northern Texas Panhandle just seven miles south of the Oklahoma border. Known as
+                the &ldquo;Wheat Heart of the Nation,&rdquo; the city anchors a regional economy
+                built on wheat farming, cattle ranching, and grain storage. 5 Star Commercial Roofing
+                provides residential, commercial, and agricultural roofing services throughout
+                Perryton and Ochiltree County, with crews routing in from our Amarillo headquarters
+                approximately 120 miles southwest via US-83.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                Perryton&apos;s economy depends on the wheat and cattle industries, with grain
+                elevators, equipment dealerships, and ag-service businesses making up a large share
+                of the local commercial base. These properties demand specialized roofing — metal
+                panels with enhanced corrosion coatings for chemical exposure, ventilation systems
+                that resist grain dust clogging, and structural designs that handle the constant
+                vibration of harvest traffic and processing equipment. Downtown Perryton along South
+                Main Street and the historic district also include older commercial buildings that
+                require restoration-quality roofing work.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                The June 15, 2023 EF-3 tornado that struck Perryton remains the defining recent
+                weather event in Ochiltree County, killing three people and causing widespread roof
+                and structural damage across the city. That storm sits inside a broader pattern:
+                Perryton&apos;s far-northern Panhandle location puts it in the path of spring
+                supercells producing softball-sized hail, sustained winds over 50 mph with gusts
+                exceeding 70 mph, and ice storms during winter that southern Panhandle cities
+                rarely see. Open farmland around the city offers no windbreak, so wind uplift loads
+                regularly exceed standard code minimums. These conditions demand expert installation
+                and premium materials rated for extreme weather.
+              </p>
+            </div>
           </section>
         </FadeIn>
 
+        {/* Services Grid */}
         <section className="section">
-          <h2 className="section-title">Comprehensive Roofing Services in Perryton</h2>
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <FadeIn delay={0.1}>
-              <div className="card-hover p-6">
-                <div className="text-5xl mb-4">
-                  <Building2 className="w-6 h-6 inline-block" />
-                </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing</h3>
-                <p className="text-gray-600 mb-4">
-                  We install TPO, EPDM, metal roofing, and built-up systems for businesses and
-                  facilities throughout Ochiltree County.
-                </p>
-                <a href="/commercial-roofing-amarillo/" className="text-brand-gold font-semibold">
-                  Commercial Services →
-                </a>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.2}>
-              <div className="card-hover p-6">
-                <div className="text-5xl mb-4">
-                  <Home className="w-6 h-6 inline-block" />
-                </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Residential Roofing</h3>
-                <p className="text-gray-600 mb-4">
-                  From asphalt shingles to metal roofing, we provide complete residential roofing
-                  services for Perryton homeowners. Our Class 4 impact-resistant shingles protect
-                  against Texas Panhandle hail.
-                </p>
-                <a href="/residential-roofing-amarillo/" className="text-brand-gold font-semibold">
-                  Residential Services →
-                </a>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.3}>
-              <div className="card-hover p-6 bg-red-50">
-                <div className="text-5xl mb-4">
-                  <AlertTriangle className="w-6 h-6 inline-block text-red-600" />
-                </div>
-                <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
-                <p className="text-gray-700 mb-4">
-                  When severe weather strikes Perryton, we respond with weatherproof sheeting and rapid roof
-                  repairs. Call us immediately for storm damage assessment.
-                </p>
-                <a href="/storm-damage-repair-amarillo/" className="text-red-700 font-semibold">
-                  Storm Damage Repair →
-                </a>
-              </div>
-            </FadeIn>
+          <FadeIn>
+            <h2 className="section-title">Roofing Services in Perryton</h2>
+            <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+              We provide a full range of residential, commercial, and agricultural roofing services
+              throughout Perryton and Ochiltree County. Select a service below for details.
+            </p>
+          </FadeIn>
+
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {services.map((service) => (
+              <a
+                key={service.slug}
+                href={`/${service.slug}-perryton/`}
+                className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow border border-gray-100 hover:border-brand-gold/40"
+              >
+                <div className="text-2xl mb-2">{service.icon}</div>
+                <span className="font-semibold text-brand-brown">{service.name} in Perryton</span>
+              </a>
+            ))}
           </div>
         </section>
 
+        {/* Neighborhoods We Serve */}
         <FadeIn>
-          <section className="content-block bg-gray-50 rounded-lg p-8 mb-12">
-            <h2 className="text-2xl font-bold mb-6">Why Perryton Chooses 5 Star Roofing</h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-bold text-lg mb-2">
-                  <Check className="w-5 h-5 text-brand-gold inline-block" /> Ochiltree County
-                  Experts
-                </h3>
-                <p className="text-gray-600">
-                  We understand Perryton's weather patterns, from spring hailstorms to winter
-                  freezes. Our roofing systems are engineered for local climate challenges.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-2">
-                  <Check className="w-5 h-5 text-brand-gold inline-block" /> Insurance Claim
-                  Assistance
-                </h3>
-                <p className="text-gray-600">
-                  We work directly with insurance adjusters on{" "}
-                  <a
-                    href="/hail-damage-repair-amarillo/"
-                    className="text-brand-gold hover:underline"
-                  >
-                    hail damage claims
-                  </a>
-                  , ensuring you receive full coverage for storm repairs.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-2">
-                  <Check className="w-5 h-5 text-brand-gold inline-block" /> Local & Regional
-                  Experience
-                </h3>
-                <p className="text-gray-600">
-                  Serving Perryton and communities throughout the Texas Panhandle with specialized
-                  roofing designed for extreme weather conditions.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-2">
-                  <Check className="w-5 h-5 text-brand-gold inline-block" /> Free Inspections
-                </h3>
-                <p className="text-gray-600">
-                  Every Perryton property receives a complimentary roof inspection with detailed
-                  assessments, photos, and written estimates—no obligation.
-                </p>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
-
-        <section className="content-block mb-12">
-          <h2 className="text-2xl font-bold mb-4">Perryton Weather Challenges & Your Roof</h2>
-          <p className="text-lg mb-6">
-            Located in Ochiltree County, Perryton experiences extreme weather in the Texas
-            Panhandle:
-          </p>
-          <ul className="space-y-3 mb-6">
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Severe Hailstorms:</strong> Baseball-sized hail is common during spring and
-                summer, requiring impact-resistant roofing materials.
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>High Winds:</strong> Sustained winds over 50 mph and gusts exceeding 70 mph
-                demand wind-rated roofing systems.
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Temperature Extremes:</strong> From sub-zero winters to 100°F+ summers,
-                roofing materials must withstand constant expansion and contraction.
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <FadeIn>
-          <section className="bg-amber-50 rounded-lg p-8 mb-12">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Understanding Perryton's Agricultural Environment
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">
-                  Wheat Country Challenges
-                </h3>
-                <p className="text-gray-700 mb-4">
-                  As the heart of wheat country in the Texas Panhandle, Perryton's agricultural
-                  environment creates unique roofing challenges. Grain dust, chemical exposure from
-                  farming operations, and equipment vibrations all impact roof longevity and
-                  performance.
-                </p>
-                <ul className="space-y-2 text-gray-700">
-                  <li>
-                    <strong>Dust Accumulation:</strong> Wheat harvesting and processing create
-                    significant dust loads that can clog gutters and affect ventilation systems
-                  </li>
-                  <li>
-                    <strong>Chemical Exposure:</strong> Agricultural chemicals used in wheat
-                    production can accelerate deterioration of certain roofing materials
-                  </li>
-                  <li>
-                    <strong>Vibration Stress:</strong> Heavy farming equipment and grain trucks
-                    create ongoing vibrations that can loosen fasteners and stress roof structures
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">
-                  High Plains Wind Patterns
-                </h3>
-                <p className="text-gray-700 mb-4">
-                  Perryton's location in the High Plains creates unique wind challenges. With little
-                  natural windbreak across miles of farmland, properties face constant wind exposure
-                  that requires specialized roofing systems.
-                </p>
-                <ul className="space-y-2 text-gray-700">
-                  <li>
-                    <strong>Prevailing Winds:</strong> Consistent southerly winds during growing
-                    season and harsh northerly winds during winter months
-                  </li>
-                  <li>
-                    <strong>Wind Acceleration:</strong> Open farmland allows winds to accelerate,
-                    creating uplift forces that exceed standard building codes
-                  </li>
-                  <li>
-                    <strong>Directional Damage:</strong> Wind-driven rain and debris typically
-                    impacts north and west-facing roof slopes most severely
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
-
-        <FadeIn>
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Specialized Roofing Solutions for Perryton Properties
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <div className="text-4xl mb-4">
-                  <Factory className="w-6 h-6 inline-block" />
-                </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-4">Agricultural Buildings</h3>
-                <p className="text-gray-700 mb-4">
-                  Grain storage facilities, equipment barns, and processing buildings require
-                  specialized roofing systems designed for agricultural use.
-                </p>
-                <ul className="text-sm space-y-1 text-gray-600">
-                  <li>• Metal roofing with enhanced corrosion resistance</li>
-                  <li>• Ventilation systems for moisture and dust control</li>
-                  <li>• Load-bearing systems for grain dust accumulation</li>
-                  <li>• Chemical-resistant coatings and materials</li>
-                </ul>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <div className="text-4xl mb-4">
-                  <Home className="w-6 h-6 inline-block" />
-                </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-4">Residential Homes</h3>
-                <p className="text-gray-700 mb-4">
-                  Perryton families need roofing systems that protect against severe weather while
-                  handling the unique stresses of rural living.
-                </p>
-                <ul className="text-sm space-y-1 text-gray-600">
-                  <li>• Class 4 impact-resistant shingles for hail protection</li>
-                  <li>• Enhanced wind uplift ratings for High Plains conditions</li>
-                  <li>• Dust-resistant ventilation and filtration systems</li>
-                  <li>• Energy-efficient materials for extreme temperature swings</li>
-                </ul>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <div className="text-4xl mb-4">
-                  <Building2 className="w-6 h-6 inline-block" />
-                </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-4">Commercial Properties</h3>
-                <p className="text-gray-700 mb-4">
-                  Perryton businesses need reliable roofing that supports operations while
-                  withstanding agricultural and weather challenges.
-                </p>
-                <ul className="text-sm space-y-1 text-gray-600">
-                  <li>• TPO and EPDM systems with enhanced UV resistance</li>
-                  <li>• Metal roofing designed for equipment mounting</li>
-                  <li>• Drainage systems optimized for dust and debris</li>
-                  <li>• Low-maintenance materials for reduced downtime</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
-
-        <FadeIn>
-          <section className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-lg p-8 mb-12">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Local Expertise That Makes the Difference
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-6">
-                  Understanding Ochiltree County
-                </h3>
-                <p className="text-gray-700 mb-4">
-                  Our team understands the unique characteristics of Perryton and Ochiltree County
-                  that affect roofing systems:
-                </p>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-brand-gold mr-3 mt-1">▸</span>
-                    <span>
-                      <strong>Soil Conditions:</strong> High clay content soils that expand and
-                      contract with moisture changes, affecting foundation stability and roof
-                      alignment
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-brand-gold mr-3 mt-1">▸</span>
-                    <span>
-                      <strong>Local Building Patterns:</strong> Understanding of how Perryton's
-                      development patterns affect wind flow and weather exposure
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-brand-gold mr-3 mt-1">▸</span>
-                    <span>
-                      <strong>Seasonal Cycles:</strong> Knowledge of how wheat farming cycles affect
-                      dust levels, chemical exposure, and traffic patterns
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-brand-gold mr-3 mt-1">▸</span>
-                    <span>
-                      <strong>Infrastructure:</strong> Familiarity with local utility systems,
-                      drainage patterns, and municipal requirements
-                    </span>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div className="bg-white p-8 rounded-xl shadow-lg">
-                  <h3 className="text-2xl font-bold text-brand-brown mb-6">
-                    Our Perryton Track Record
-                  </h3>
-                  <div className="grid grid-cols-2 gap-6">
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-brand-gold mb-2">160+</div>
-                      <div className="text-sm text-gray-700">Perryton Projects</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-brand-gold mb-2">15+</div>
-                      <div className="text-sm text-gray-700">Years in Area</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-brand-gold mb-2">98%</div>
-                      <div className="text-sm text-gray-700">Client Satisfaction</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-brand-gold mb-2">Free</div>
-                      <div className="text-sm text-gray-700">post-storm documentation</div>
-                    </div>
-                  </div>
-                  <div className="mt-6 p-4 bg-brand-gold-light rounded-lg">
-                    <p className="text-sm text-gray-800 text-center italic">
-                      "Trusted by Perryton families and businesses for over a decade"
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
-
-        <FadeIn>
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Insurance Claims Support for Perryton Residents
-            </h2>
-            <div className="bg-amber-50 rounded-lg p-8">
-              <h3 className="text-2xl font-bold text-brand-brown mb-6">
-                Navigating Weather Damage Claims
-              </h3>
-              <div className="grid md:grid-cols-2 gap-8">
+          <section className="section">
+            <h2 className="section-title">Perryton Neighborhoods We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From homes near Wheatheart Park to grain facilities on the city&apos;s edges and
+                ranches across Ochiltree County, we provide expert roofing services throughout the
+                Perryton area:
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>
-                  <h4 className="text-lg font-semibold text-brand-brown mb-4">
-                    Common Perryton Weather Events
-                  </h4>
-                  <ul className="space-y-3 text-gray-700">
-                    <li>
-                      <strong>Spring Supercells (March-June):</strong> Softball-sized hail and
-                      tornado activity peak during this period
-                    </li>
-                    <li>
-                      <strong>High Plains Derechos:</strong> Straight-line winds exceeding 70 mph
-                      cause widespread damage
-                    </li>
-                    <li>
-                      <strong>Winter Ice Storms:</strong> Freezing rain creates ice loads that can
-                      damage roof structures
-                    </li>
-                    <li>
-                      <strong>Summer Severe Thunderstorms:</strong> Large hail and microbursts
-                      during afternoon heating
-                    </li>
+                  <h3 className="font-bold text-brand-brown mb-3">In-Town Neighborhoods</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Downtown Historic District</li>
+                    <li>&#10003; South Main Street corridor</li>
+                    <li>&#10003; Wheatheart Park area</li>
+                    <li>&#10003; North Perryton residential</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="text-lg font-semibold text-brand-brown mb-4">
-                    Our Insurance Support Process
-                  </h4>
-                  <div className="space-y-3">
-                    <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
-                        1
-                      </div>
-                      <span className="text-gray-700">
-                        Document all damage with professional photography and detailed measurements
-                      </span>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
-                        2
-                      </div>
-                      <span className="text-gray-700">
-                        Correlate damage with National Weather Service storm reports for your area
-                      </span>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
-                        3
-                      </div>
-                      <span className="text-gray-700">
-                        Meet with insurance adjusters and provide professional assessment
-                      </span>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-1">
-                        4
-                      </div>
-                      <span className="text-gray-700">
-                        Handle all paperwork and ensure full coverage for legitimate damages
-                      </span>
-                    </div>
-                  </div>
+                  <h3 className="font-bold text-brand-brown mb-3">Outlying Districts</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; US-83 commercial corridor</li>
+                    <li>&#10003; SH-15 / SH-70 corridors</li>
+                    <li>&#10003; Equity Co-Op industrial area</li>
+                    <li>&#10003; Ochiltree County Airport area</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Surrounding Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Booker &amp; Farnsworth</li>
+                    <li>&#10003; Waka &amp; Wolf Creek</li>
+                    <li>&#10003; All Ochiltree County</li>
+                    <li>&#10003; Rural acreage &amp; ranches</li>
+                  </ul>
                 </div>
               </div>
-              <div className="mt-6 p-4 bg-green-50 border-l-4 border-green-400 rounded">
-                <p className="text-green-800">
-                  <strong>Success Rate:</strong> 96% of our Perryton clients receive full coverage
-                  for weather-related damage when we handle their insurance documentation.
-                </p>
-              </div>
+              <p className="text-center text-gray-600 mt-8">
+                The Downtown Historic District along South Main Street holds early 20th-century
+                commercial buildings that need careful restoration-quality roofing, while the
+                Equity Co-Op industrial area on the city&apos;s edges contains grain elevators and
+                ag-service facilities that demand specialized metal systems. Whether you&apos;re in
+                town, along the US-83 corridor, or on rural acreage anywhere in Ochiltree County,
+                we serve your area.
+              </p>
             </div>
           </section>
         </FadeIn>
 
+        {/* Recent Storm Events */}
         <FadeIn>
-          <section className="bg-gray-50 rounded-lg p-8 mb-12">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              post-storm documentation for Perryton Weather Events
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Recent Severe Weather in Perryton
             </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-semibold text-brand-brown mb-4">
-                  When Severe Weather Strikes
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-red-700 mb-2">
+                  June 15, 2023 &mdash; EF-3 Tornado
                 </h3>
-                <p className="text-gray-700 mb-4">
-                  Perryton's location in the heart of "Hail Alley" means severe weather can strike
-                  with little warning. When storms hit, immediate action is critical to prevent
-                  further damage.
+                <p className="text-gray-700">
+                  A long-track EF-3 tornado tore through Perryton during the early evening of June
+                  15, 2023, killing three people and injuring dozens. Mobile home parks on the
+                  south side of the city sustained catastrophic damage, businesses along Main
+                  Street had roofs torn off, and the Perryton Equity Co-Op grain facilities
+                  suffered heavy structural losses. Federal disaster assistance was authorized for
+                  Ochiltree County in the weeks that followed, and rebuilding work continues.
                 </p>
-                <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded mb-4">
-                  <p className="text-red-700 text-lg font-bold">(806) 622-6041</p>
-                  <p className="text-red-700 text-sm">
-                    Available throughout the region for Ochiltree County emergencies
-                  </p>
-                </div>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• weatherproof sheeting to help prevent water infiltration</li>
-                  <li>• Documentation-first scheduling once conditions are safe</li>
-                  <li>• Temporary repairs to secure property until permanent fixes</li>
-                  <li>• Insurance claim initiation and documentation</li>
-                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">
+                  Spring Supercell Season &mdash; Annual Pattern
+                </h3>
+                <p className="text-gray-700">
+                  Between March and June each year, Ochiltree County experiences supercell
+                  thunderstorms producing softball-sized hail, straight-line winds exceeding 70
+                  mph, and periodic tornado activity. Perryton sits at the northern edge of
+                  Tornado Alley, and the National Weather Service Amarillo office regularly issues
+                  multiple severe weather warnings per month for the county during peak season.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">
+                  Winter Ice Storms &amp; High Plains Derechos
+                </h3>
+                <p className="text-gray-700">
+                  As the northernmost community in our Panhandle service area, Perryton sees
+                  freezing rain events that create heavy ice loads on roof structures, particularly
+                  on older buildings. Summer months also bring High Plains derechos &mdash;
+                  long-lived straight-line wind events &mdash; that can produce widespread roof
+                  damage across multiple counties in a single afternoon.
+                </p>
+              </div>
+              <p className="text-center text-gray-500 text-sm mt-4">
+                Ochiltree County&apos;s exposure to severe weather year-round means roofing
+                investments here need to be sized for the worst-case storm, not the average week.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Perryton-Specific Challenges */}
+        <FadeIn>
+          <section className="section bg-brand-gold-light p-12 rounded-lg my-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Roofing Challenges in Perryton &amp; Ochiltree County
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Northern Panhandle Storm Path
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Perryton&apos;s position seven miles south of the Oklahoma border puts it in the
+                  direct path of severe weather systems tracking northeast from the southern
+                  Plains. The June 2023 EF-3 tornado demonstrated how catastrophic a single event
+                  can be, but the broader pattern of spring supercells and softball-sized hail is
+                  the year-in, year-out concern. Class 4 impact-resistant materials and 130 mph
+                  wind-rated shingles are strongly recommended for all Perryton properties.
+                </p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-brand-brown mb-4">
-                  Preventive Storm Preparation
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Agricultural &amp; Grain Facility Roofing
                 </h3>
-                <p className="text-gray-700 mb-4">
-                  The best defense against storm damage is preparation. We help Perryton property
-                  owners prepare for severe weather season.
+                <p className="text-gray-700 leading-relaxed">
+                  Perryton&apos;s status as the Wheat Heart of the Nation means grain elevators,
+                  equipment barns, processing buildings, and farm shops dominate the commercial
+                  roofing market. These properties need chemical-resistant metal panels with
+                  enhanced corrosion coatings to resist agricultural chemicals, ventilation
+                  systems engineered to resist grain dust clogging, and structural designs that
+                  handle the constant vibration of grain trucks and harvest equipment.
                 </p>
-                <div className="space-y-4">
-                  <div className="bg-amber-50 p-4 rounded">
-                    <h4 className="font-semibold text-brand-brown mb-2">
-                      Spring Storm Season (March-June)
-                    </h4>
-                    <p className="text-brand-brown text-sm">
-                      Pre-season inspections identify vulnerabilities before peak storm activity
-                    </p>
-                  </div>
-                  <div className="bg-yellow-50 p-4 rounded">
-                    <h4 className="font-semibold text-yellow-800 mb-2">Hail Season Preparation</h4>
-                    <p className="text-yellow-700 text-sm">
-                      Installation of impact-resistant materials and protective systems
-                    </p>
-                  </div>
-                  <div className="bg-green-50 p-4 rounded">
-                    <h4 className="font-semibold text-green-800 mb-2">Annual Maintenance</h4>
-                    <p className="text-green-700 text-sm">
-                      Regular maintenance prevents small issues from becoming major storm
-                      vulnerabilities
-                    </p>
-                  </div>
-                </div>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  High Plains Wind &amp; Open Farmland Exposure
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  The open farmland surrounding Perryton offers no natural windbreak. Prevailing
+                  southerly winds during the growing season and harsh northerly winds during
+                  winter routinely accelerate across the plains, producing uplift loads that
+                  exceed minimum building code requirements. Standing seam metal roofing with
+                  concealed fasteners and asphalt shingles rated for at least 130 mph wind
+                  resistance are baseline material requirements for this exposure.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Winter Ice &amp; Temperature Cycling
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Perryton winters drop well below freezing while summers regularly push past 100
+                  degrees, creating extreme thermal cycling that stresses fasteners, sealants, and
+                  underlayment. Freezing rain produces ice loads and ice dams on poorly insulated
+                  homes, while summer roof surface temperatures reach 160 degrees or higher. Ice
+                  and water shield underlayment at eaves and valleys, adequate attic ventilation,
+                  and reflective metal or TPO membranes all extend roof life in this climate.
+                </p>
               </div>
             </div>
           </section>
         </FadeIn>
 
+        {/* Perryton City-Specific Details */}
         <FadeIn>
           <section className="content-block mb-12">
-            <h2 className="text-2xl font-bold mb-6">
-              Service Coverage Throughout the Texas Panhandle
-            </h2>
-            <p className="text-lg mb-4">
-              While we're proud to serve Perryton and Ochiltree County, our roofing expertise
-              extends across the entire region:
-            </p>
-            <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
-                • Amarillo Roofing
-              </a>
-              <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">
-                • Midland Roofing
-              </a>
-              <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">
-                • Odessa Roofing
-              </a>
-              <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">
-                • Lubbock Roofing
-              </a>
-              <a href="/service-areas/" className="text-brand-gold hover:underline">
-                • All Service Areas
-              </a>
+            <h2 className="text-2xl font-bold mb-6">Perryton: Wheat Heart of the Nation</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">US-83 Corridor &amp; Regional Commerce</h3>
+                <p className="text-gray-600 mb-4">
+                  Perryton&apos;s position along US-83 makes it the commercial hub of the far
+                  northern Texas Panhandle and a regional service center for surrounding
+                  Oklahoma and Kansas farming communities. The corridor supports hotels, truck
+                  stops, restaurants, equipment dealers, and ag-service businesses that all
+                  require reliable commercial roofing. The historic Main Street district features
+                  early 20th-century commercial buildings from the original townsite period that
+                  need specialized roofing to maintain architectural character while handling
+                  modern Panhandle weather extremes.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">Major Employers &amp; Institutions</h3>
+                <p className="text-gray-600 mb-4">
+                  The Perryton Equity Co-Op anchors the local grain industry with elevators and
+                  processing facilities scattered around the city. Ochiltree General Hospital
+                  serves a multi-county region and requires institutional-grade roofing
+                  maintenance. Perryton ISD campuses, the Museum of the Plains, and the Ochiltree
+                  County government buildings all add to the institutional roofing base. Oil and
+                  gas producers operating in the Anadarko Basin also maintain field facilities and
+                  yards throughout the county that need specialized commercial roofing.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">
+                  Downtown Historic District
+                </h4>
+                <p className="text-sm text-gray-600">
+                  Early 20th-century commercial buildings along South Main Street requiring
+                  careful restoration-quality roofing work
+                </p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Equity Co-Op &amp; Grain Facilities</h4>
+                <p className="text-sm text-gray-600">
+                  Grain elevators, processing buildings, and ag-service facilities requiring
+                  chemical-resistant metal roofing systems
+                </p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Rural Ochiltree County</h4>
+                <p className="text-sm text-gray-600">
+                  Ranches, farm shops, and outbuildings across open Panhandle terrain with
+                  maximum wind exposure
+                </p>
+              </div>
             </div>
           </section>
         </FadeIn>
-
-        <section className="bg-brand-gold-light rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold mb-4">Our Perryton Roofing Process</h2>
-          <div className="space-y-4">
-            <div className="flex items-start">
-              <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
-                1
-              </div>
-              <div>
-                <h3 className="font-bold mb-1">Free Inspection</h3>
-                <p className="text-gray-700">
-                  We inspect your Perryton property, document damage with photos, and provide a
-                  detailed written estimate—completely free.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
-                2
-              </div>
-              <div>
-                <h3 className="font-bold mb-1">Insurance Support</h3>
-                <p className="text-gray-700">
-                  We help file insurance claims, meet with adjusters, and ensure all damage is
-                  properly documented.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
-                3
-              </div>
-              <div>
-                <h3 className="font-bold mb-1">Professional Installation</h3>
-                <p className="text-gray-700">
-                  Our experienced crews install your new roof using premium materials. Most
-                  residential roofs in Perryton are completed in 1-2 days.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
-                4
-              </div>
-              <div>
-                <h3 className="font-bold mb-1">Quality Inspection & Warranty</h3>
-                <p className="text-gray-700">
-                  We inspect all work, clean up your property, and provide comprehensive warranty
-                  information.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* FAQ Section */}
         <FadeIn>
@@ -753,191 +504,149 @@ export default function PerrytonRoofingPage() {
               Perryton Roofing FAQs
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem
-                value="faq-1"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How does Perryton&apos;s location as the northernmost service area affect storm
-                  patterns?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Perryton sits in Ochiltree County at the northern edge of the Texas Panhandle,
-                  directly in the path of severe weather systems moving northeast from the southern
-                  Plains. This position makes Perryton one of the first communities hit by spring
-                  supercells, and the area experiences some of the most intense hail and tornado
-                  activity in the state. The combination of northerly winter fronts and spring
-                  supercells creates year-round roof stress that demands premium materials.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-2"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What special roofing considerations exist for Perryton&apos;s wheat farming
-                  facilities?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Perryton&apos;s wheat farming operations create unique roofing challenges. Grain
-                  dust accumulation clogs gutters and ventilation systems, requiring specialized
-                  drainage designs. Agricultural chemicals used in wheat production can accelerate
-                  deterioration of certain roofing materials. We use chemical-resistant metal panels
-                  with enhanced corrosion coatings and design ventilation systems that resist dust
-                  clogging for grain storage and processing facilities throughout Ochiltree County.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-3"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How do you handle storm-damage work in Perryton from Amarillo?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Perryton is approximately 120 miles northeast of our Amarillo headquarters via
-                  US-83. We schedule storm-damage documentation and inspections once conditions are
-                  safe for crews to be on a roof — we are not an emergency-dispatch service. Our
-                  value is thorough photo documentation, adjuster-ready reports, and Class 4
-                  impact-resistant restoration that holds up through future Ochiltree County storm
-                  seasons.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-4"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Are ice storms a significant roofing concern in Perryton?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes. As the northernmost major community in our service area, Perryton experiences
-                  more ice storms than southern Panhandle cities. Freezing rain creates heavy ice
-                  loads that can damage roof structures, particularly on older buildings. Ice dams
-                  form when heat escapes through poorly insulated attics and melts snow that
-                  refreezes at the eaves. We install proper ice and water shield underlayment and
-                  ensure adequate attic insulation and ventilation to prevent ice dam formation.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-5"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What wind ratings should Perryton homeowners look for in roofing materials?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Perryton&apos;s High Plains location produces some of the strongest sustained
-                  winds in Texas, with gusts regularly exceeding 70 mph during severe weather. We
-                  recommend shingles rated for at least 130 mph wind resistance, with enhanced
-                  nailing patterns that exceed minimum code requirements. For metal roofing,
-                  standing seam systems with concealed fasteners provide the best wind performance.
-                  Open farmland surrounding Perryton allows winds to accelerate without obstruction,
-                  so wind ratings should exceed what is standard for urban areas.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-6"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Do you coordinate with Ochiltree County officials on roofing permits?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes. We handle all permitting requirements for Perryton and Ochiltree County
-                  projects. Our team is familiar with local building code requirements, permit
-                  processes, and inspection schedules. For agricultural buildings, we also ensure
-                  compliance with any applicable USDA or state agricultural facility standards. We
-                  manage the entire permitting process so property owners do not need to navigate
-                  the paperwork themselves.
-                </AccordionContent>
-              </AccordionItem>
+              {faqItems.map((faq, index) => (
+                <AccordionItem
+                  key={`item-${index + 1}`}
+                  value={`item-${index + 1}`}
+                  className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+                >
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
             </Accordion>
           </section>
         </FadeIn>
 
+        {/* CTA Section */}
         <FadeIn>
           <section className="cta-section my-16">
-            <h2 className="cta-title">Ready for a New Roof in Perryton?</h2>
-            <p className="cta-text mb-6">
-              Serving Perryton, Ochiltree County, and the entire Texas Panhandle. Contact us today
-              for your free inspection.
+            <h2 className="cta-title">Ready to Protect Your Perryton Property?</h2>
+            <p className="cta-text">
+              Whether you need a free roof inspection, hail damage assessment, tornado-damage
+              restoration, or a complete roof replacement, 5 Star Commercial Roofing serves
+              Perryton and Ochiltree County with expert craftsmanship and honest pricing. Most
+              hail damage repairs are covered by insurance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:8066226041"
-                className="btn-primary-hero text-lg px-8 py-4 inline-block bg-white text-brand-brown hover:bg-gray-100"
-              >
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
+                Call (806) 622-6041 Now
               </a>
               <a
                 href="/contact/"
-                className="btn-secondary-hero text-lg px-8 py-4 border-2 border-white hover:bg-white hover:text-brand-brown"
+                className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg"
               >
-                Request Free Inspection
+                Schedule Free Inspection
+              </a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Nearby Cities */}
+        <FadeIn>
+          <section className="section pb-16">
+            <h2 className="text-2xl font-bold text-center mb-6 text-brand-brown">
+              Also Serving Nearby Cities
+            </h2>
+            <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
+              <a
+                href="/amarillo-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Amarillo
+              </a>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/borger-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Borger
+              </a>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/pampa-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Pampa
+              </a>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/dumas-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Dumas
+              </a>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/service-areas/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                View All Service Areas
               </a>
             </div>
           </section>
         </FadeIn>
       </div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+
+      {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/perryton-texas-roofing/",
+            name: "5 Star Roofing",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+            description:
+              "Professional roofing contractor serving Perryton, Texas and Ochiltree County. Storm and tornado damage restoration, residential and commercial roofing, agricultural and grain facility specialist.",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Perryton",
+              addressRegion: "TX",
+              addressCountry: "US",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "36.3984",
+              longitude: "-100.8077",
+            },
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            url: "https://5starroofingpros.com",
+            priceRange: "$$",
+            openingHoursSpecification: [
               {
-                "@type": "Question",
-                name: "How does Perryton's location as the northernmost service area affect storm patterns?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Perryton sits in Ochiltree County at the northern edge of the Texas Panhandle, directly in the path of severe weather systems moving northeast from the southern Plains. This position makes Perryton one of the first communities hit by spring supercells, and the area experiences some of the most intense hail and tornado activity in the state.",
-                },
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
+            ],
+            areaServed: [
+              {
+                "@type": "City",
+                name: "Perryton",
+                containedInPlace: { "@type": "State", name: "Texas" },
               },
               {
-                "@type": "Question",
-                name: "What special roofing considerations exist for Perryton's wheat farming facilities?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Perryton's wheat farming operations create unique roofing challenges. Grain dust accumulation clogs gutters and ventilation systems, requiring specialized drainage designs. Agricultural chemicals used in wheat production can accelerate deterioration of certain roofing materials. We use chemical-resistant metal panels with enhanced corrosion coatings and design ventilation systems that resist dust clogging.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How do you handle storm-damage work in Perryton from Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Perryton is approximately 120 miles northeast of our Amarillo headquarters via US-83. We schedule storm-damage documentation and inspections once conditions are safe for crews to be on a roof — we are not an emergency-dispatch service. Our value is thorough photo documentation, adjuster-ready reports, and Class 4 impact-resistant restoration for Ochiltree County properties.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Are ice storms a significant roofing concern in Perryton?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. As the northernmost major community in our service area, Perryton experiences more ice storms than southern Panhandle cities. Freezing rain creates heavy ice loads that can damage roof structures. We install proper ice and water shield underlayment and ensure adequate attic insulation and ventilation to prevent ice dam formation.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What wind ratings should Perryton homeowners look for in roofing materials?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Perryton's High Plains location produces some of the strongest sustained winds in Texas, with gusts regularly exceeding 70 mph during severe weather. We recommend shingles rated for at least 130 mph wind resistance, with enhanced nailing patterns that exceed minimum code requirements. For metal roofing, standing seam systems with concealed fasteners provide the best wind performance.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do you coordinate with Ochiltree County officials on roofing permits?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. We handle all permitting requirements for Perryton and Ochiltree County projects. Our team is familiar with local building code requirements, permit processes, and inspection schedules. For agricultural buildings, we also ensure compliance with any applicable USDA or state agricultural facility standards.",
-                },
+                "@type": "AdministrativeArea",
+                name: "Ochiltree County",
+                containedInPlace: { "@type": "State", name: "Texas" },
               },
             ],
           }),
