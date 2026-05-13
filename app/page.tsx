@@ -772,7 +772,7 @@ export default async function Page() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(251,191,36,0.06),transparent_50%)]"></div>
           <div className="relative z-10">
             <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">
-              Premium Roofing Materials for Amarillo Homes
+              Premium Roofing Materials for Amarillo Homes &amp; Businesses
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
@@ -809,10 +809,10 @@ export default async function Page() {
 
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.webp"
-                  width={1280}
-                  height={853}
-                  alt="Wide-angle view of a standing seam metal roof on an industrial facility — 5 Star Roofing West Texas"
+                  src="/images/materials/standing-seam-metal.jpg"
+                  width={768}
+                  height={576}
+                  alt="Close-up of gray standing seam metal roof panels showing the raised vertical seams against a blue sky — 5 Star Roofing"
                   className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   fetchPriority="low"
@@ -840,10 +840,10 @@ export default async function Page() {
 
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-36-1280w.webp"
+                  src="/images/materials/tpo-commercial.webp"
                   width={1280}
                   height={717}
-                  alt="Flat commercial roof during TPO installation showing membrane surface — 5 Star Roofing"
+                  alt="White single-ply TPO membrane being installed on a commercial flat roof with crew on site — 5 Star Roofing"
                   className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   fetchPriority="low"
