@@ -117,26 +117,19 @@ export default function Page() {
   };
 
   return (
-    <div className="container-custom py-12">
-      {" "}
+    <>
       <InteriorHeroSection
         heroVariant="service"
         service="Commercial Roofing"
         h1="Commercial Roofing in West Texas"
         image="/images/heroes/services/commercial-hub-1200.webp"
         imageSrcSet={COMMERCIAL_HUB_HERO}
-      
-      breadcrumbItems={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Commercial Roofing",
-            url: "/commercial-roofing/",
-          },
+        breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
         ]}
-    />
+      />
+      <div className="container-custom py-12">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -681,6 +674,7 @@ export default function Page() {
         </div>
       </section>
       <RelatedArticles pageSlug="commercial-roofing" />
-    </div>
+      </div>
+    </>
   );
 }

@@ -1,20 +1,35 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { HighLevelForm } from "@/components/HighLevelForm";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { AlertTriangle, Building2, Check, Home, Phone } from "lucide-react";
+import {
+  Building2,
+  CloudHail,
+  Construction,
+  Home,
+  RefreshCw,
+  Search,
+  Tornado,
+  Wind,
+  Wrench,
+} from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/canyon-texas-roofing/" },
-  title: "Roofing Canyon TX | Hail Damage Specialists | 5 Star Roofing",
+  title: "Roofing Contractor Canyon TX | 5 Star Roofing",
   description:
-    "Roofing services in Canyon, Texas Panhandle. Commercial, residential, and storm roofing. Serving Randall County. Free inspections available.",
+    "Roofing in Canyon TX. Randall County storm damage specialists serving WTAMU, downtown Canyon, and the Palo Duro Canyon area. Residential and commercial. Call (806) 622-6041",
   openGraph: {
-    title: "Roofing Canyon TX | Hail Damage Specialists | 5 Star Roofing",
+    title: "Roofing Contractor Canyon TX | 5 Star Roofing",
     description:
-      "Roofing services in Canyon, Texas Panhandle. Commercial, residential, and storm roofing. Serving Randall County. Free inspections available.",
+      "Roofing in Canyon TX. Randall County storm damage specialists serving WTAMU, downtown Canyon, and the Palo Duro Canyon area. Residential and commercial. Call (806) 622-6041",
     url: "https://5starroofingpros.com/canyon-texas-roofing/",
     siteName: "5 Star Roofing",
     images: [
@@ -22,7 +37,7 @@ export const metadata: Metadata = {
         url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Completed roof installation in Canyon TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -30,135 +45,112 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CanyonRoofingPage() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": ["RoofingContractor", "LocalBusiness"],
-    "@id": "https://5starroofingpros.com/canyon-texas-roofing/#localBusiness",
-    name: "5 Star Roofing",
-    alternateName: "5 Star Roofing Canyon TX",
-    parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
-    description:
-      "Professional roofing contractor serving Canyon, Texas and Randall County with commercial, residential, emergency roofing, and specialized educational facility and museum roofing solutions.",
-    url: "https://5starroofingpros.com/canyon-texas-roofing/",
-    telephone: "(806) 622-6041",
-    email: "admin@5starroofingpros.com",
-    priceRange: "$$",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "2909 S Western St",
-      addressLocality: "Amarillo",
-      addressRegion: "TX",
-      postalCode: "79109",
-      addressCountry: "US",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: "34.9799",
-      longitude: "-101.9191",
-    },
-    areaServed: [
-      {
-        "@type": "City",
-        name: "Canyon",
-        containedInPlace: {
-          "@type": "AdministrativeArea",
-          name: "Randall County",
-        },
-      },
-      {
-        "@type": "AdministrativeArea",
-        name: "Randall County",
-      },
-    ],
-    serviceArea: {
-      "@type": "GeoCircle",
-      geoMidpoint: {
-        "@type": "GeoCoordinates",
-        latitude: "34.9799",
-        longitude: "-101.9191",
-      },
-      geoRadius: "50",
-    },
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "Canyon Roofing Services",
-      itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Commercial Roofing Canyon TX",
-            description:
-              "Commercial roofing services for Canyon businesses, West Texas A&M University buildings, and Randall County facilities",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Educational Facility Roofing",
-            description:
-              "Specialized roofing for West Texas A&M University campus buildings and educational facilities",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Museum Roofing Canyon",
-            description:
-              "Specialized climate-controlled roofing for Panhandle-Plains Historical Museum and cultural facilities",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Residential Roofing Canyon TX",
-            description:
-              "Residential roof repair and replacement for Canyon homes with impact-resistant materials",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Agricultural Roofing Randall County",
-            description:
-              "Metal building and barn roofing for agricultural operations throughout Randall County",
-          },
-        },
-      ],
-    },
-    openingHours: ["Mo-Fr 08:00-18:00", "Sa 08:00-16:00"],
-    sameAs: [
-      "https://www.facebook.com/5StarRoofingPros",
-      "https://www.google.com/maps/place/5+Star+Commercial+Roofing",
-    ],
-  };
+const services = [
+  {
+    name: "Residential Roofing",
+    slug: "residential-roofing",
+    icon: <Home className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Commercial Roofing",
+    slug: "commercial-roofing",
+    icon: <Building2 className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Hail Damage Repair",
+    slug: "hail-damage-repair",
+    icon: <CloudHail className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Storm Damage Repair",
+    slug: "storm-damage-repair",
+    icon: <Tornado className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Wind Damage Repair",
+    slug: "wind-damage-repair",
+    icon: <Wind className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Roof Replacement",
+    slug: "roof-replacement",
+    icon: <RefreshCw className="w-6 h-6 inline-block" />,
+  },
+  { name: "Roof Repair", slug: "roof-repair", icon: <Wrench className="w-6 h-6 inline-block" /> },
+  {
+    name: "Roof Inspections",
+    slug: "roof-inspections",
+    icon: <Search className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "TPO Roofing",
+    slug: "tpo-roofing",
+    icon: <Construction className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Metal Roofing",
+    slug: "metal-roofing",
+    icon: <Wrench className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Asphalt Shingle Roofing",
+    slug: "asphalt-shingle-roofing",
+    icon: <Home className="w-6 h-6 inline-block" />,
+  },
+];
 
+const faqItems = [
+  {
+    question: "How bad is hail damage in Canyon?",
+    answer:
+      "Canyon sits in the Texas Panhandle hail belt, with severe storms most active March through May. Baseball-sized hail is common during peak season, and the Palo Duro Canyon escarpment creates local wind patterns that intensify thunderstorm activity. Class 4 impact-resistant materials are strongly recommended for Randall County properties.",
+  },
+  {
+    question: "Do you work on West Texas A&M campus buildings?",
+    answer:
+      "Yes. We have experience with educational facility roofing and work with university procurement on campus projects. WTAMU&apos;s academic buildings, dormitories, and research facilities require specialized commercial systems that meet safety codes, occupancy requirements, and the environmental controls needed for sensitive research equipment and library materials.",
+  },
+  {
+    question: "What roofing materials handle Canyon&apos;s climate best?",
+    answer:
+      "For residential homes, Class 4 impact-resistant asphalt shingles or standing seam metal perform best in the Panhandle&apos;s combination of severe hail, sustained winds over 50 mph, and temperature swings from sub-zero winters to 100°F+ summers. For commercial buildings and agricultural metal structures, TPO membranes and corrugated metal roofing handle the thermal cycling and wind loads.",
+  },
+  {
+    question: "Do you handle historic buildings in downtown Canyon?",
+    answer:
+      "Yes. Canyon&apos;s historic downtown around the courthouse square includes buildings from the early 1900s that need restoration-compatible roofing. We work with local preservation guidelines and use materials that maintain historical authenticity — period-appropriate options like slate or cedar shake alternatives, or modern systems specified to look historically accurate.",
+  },
+  {
+    question: "How do you handle storm damage in Canyon?",
+    answer:
+      "After a storm in Canyon or Randall County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier — photos, measurements, and adjuster-ready reports — and help homeowners navigate the Texas Prompt Payment Act timeline. Permanent repairs and replacements are scheduled around material availability; we are not an emergency-dispatch service.",
+  },
+  {
+    question: "Do you serve agricultural buildings in Randall County?",
+    answer:
+      "Yes. Randall County&apos;s agricultural operations need durable, cost-effective roofing for barns, equipment storage, and livestock facilities. We install standing seam metal for large-span buildings, properly ventilated systems for livestock comfort, and wind-resistant designs engineered for the open Panhandle wind exposure that consistently exceeds 50 mph.",
+  },
+  {
+    question: "Will insurance cover my Canyon hail damage?",
+    answer:
+      "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. Texas law gives you up to 2 years to file claims. We provide comprehensive documentation with photos, measurements, and detailed reports that meet adjuster requirements, and we work directly with all major carriers serving the Texas Panhandle.",
+  },
+];
+
+export default function CanyonRoofingPage() {
   return (
     <div className="min-h-screen">
-      {" "}
       <Breadcrumb
         items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Service Areas",
-            url: "/service-areas/",
-          },
-          {
-            name: "Canyon",
-            url: "/canyon-texas-roofing/",
-          },
+          { name: "Home", url: "/" },
+          { name: "Service Areas", url: "/service-areas/" },
+          { name: "Canyon", url: "/canyon-texas-roofing/" },
         ]}
       />
-      {/* Sticky Contact Bar */}
+
       <StickyContactBar />
+
+      {/* Hero Section */}
       <section
         className="hero"
         style={{
@@ -170,680 +162,433 @@ export default function CanyonRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Canyon's Professional Roofing Contractor</h1>
+            <h1 className="hero-title">Canyon Roofing Contractor You Can Count On</h1>
             <p className="hero-subtitle">
-              Expert Roofing Services in Canyon & Randall County, Texas
+              Randall County Storm Damage Experts &amp; Complete Roofing Services
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
+              <a href="tel:8066226041" className="btn-primary-hero">
+                Call (806) 622-6041
               </a>
-              <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
-                Free Inspection
+              <a href="/contact/" className="btn-secondary-hero">
+                Get Free Inspection
               </a>
             </div>
           </div>
         </FadeIn>
       </section>
-      {/* Lead Form - Above the Fold */}
+
       <div className="container-custom">
+
+        {/* TL;DR */}
         <FadeIn>
-          <section id="lead-form" className="section -mt-16 relative z-20">
-            <div className="max-w-2xl mx-auto">
-              <HighLevelForm
-                title="Get Your Free Roof Inspection"
-                subtitle="Fill out the form below and we'll contact you within 24 hours. No obligation."
-              />
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides full roofing services in Canyon TX — residential and commercial roofing, hail and wind damage repair, educational and museum facility systems, and agricultural metal buildings throughout Randall County.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement-canyon/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+              <a href="/commercial-roofing-canyon/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+              <a href="/hail-damage-repair-canyon/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
+              <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Roofing</a>
             </div>
           </section>
         </FadeIn>
-      </div>
-      <div className="container-custom py-12">
+
+        {/* Author byline */}
         <FadeIn>
-          <section className="content-block">
-            <h2 className="content-block-title">Trusted Roofing Services in Canyon, Texas</h2>
-            <p className="text-lg mb-4">
-              As Canyon's premier{" "}
-              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
-                professional roofing contractor
-              </a>
-              , 5 Star Commercial Roofing brings over a decade of experience serving Randall County
-              and the entire Texas Panhandle. Whether you need commercial roofing, residential
-              roofing for your home, or storm damage repairs, our expert team delivers reliable,
-              high-quality roofing solutions.
-            </p>
-            <p className="text-lg mb-4">
-              Canyon's climate—with severe hailstorms, high winds, and extreme temperature
-              swings—demands roofing systems built to withstand the harshest conditions. We
-              specialize in{" "}
-              <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">
-                hail-resistant roofing materials
-              </a>{" "}
-              and installation techniques proven to protect Randall County properties year after
-              year.
-            </p>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
+        {/* Introduction */}
+        <FadeIn>
+          <section className="section">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-6 text-center">
+                Your Trusted Roofing Partner in Canyon, Texas
+              </h2>
+              <p className="text-xl text-gray-600 leading-relaxed mb-6">
+                Canyon, the Randall County seat with approximately 15,400 residents, sits 16 miles
+                south of Amarillo at the gateway to Palo Duro Canyon. Founded in 1889, the city
+                blends a historic downtown courthouse square, the 10,000-student West Texas A&amp;M
+                University campus, and the Panhandle-Plains Historical Museum into a community
+                unlike anywhere else in the Texas Panhandle. 5 Star Commercial Roofing provides
+                comprehensive roofing services throughout Canyon and the surrounding Randall County.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                Canyon&apos;s economy is built on education, agriculture, and tourism. West Texas
+                A&amp;M University is the largest employer, with 1,500 faculty and staff supporting
+                a campus that requires specialized commercial roofing for dormitories, classrooms,
+                laboratories, and research facilities. The Panhandle-Plains Historical Museum — the
+                largest history museum in Texas — demands climate-controlled roofing systems to
+                protect irreplaceable artifacts. The Randall County courthouse and government
+                offices, the Texas Musical Drama amphitheater complex, and the hospitality industry
+                serving Palo Duro Canyon tourism round out a commercial base that depends on
+                durable, purpose-built roofing.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Texas Panhandle weather hits Canyon hard. Severe hailstorms are common from March
+                through May, with baseball-sized hail capable of totaling a residential roof in
+                minutes. Sustained winds regularly exceed 50 mph, with thunderstorm gusts past 70
+                mph. The annual temperature range spans sub-zero winters to 100°F+ summers, putting
+                constant thermal stress on roofing materials. Palo Duro Canyon&apos;s proximity
+                creates unique wind patterns that intensify these challenges on properties along the
+                escarpment.
+              </p>
+            </div>
           </section>
         </FadeIn>
 
+        {/* Services Grid */}
+        <section className="section">
+          <FadeIn>
+            <h2 className="section-title">Roofing Services in Canyon</h2>
+            <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+              We provide a full range of residential and commercial roofing services throughout
+              Canyon and Randall County. Select a service below for details.
+            </p>
+          </FadeIn>
+
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {services.map((service) => (
+              <a
+                key={service.slug}
+                href={`/${service.slug}-canyon/`}
+                className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow border border-gray-100 hover:border-brand-gold/40"
+              >
+                <div className="text-2xl mb-2">{service.icon}</div>
+                <span className="font-semibold text-brand-brown">{service.name} in Canyon</span>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        {/* Neighborhoods We Serve */}
+        <FadeIn>
+          <section className="section">
+            <h2 className="section-title">Canyon Districts We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From the university campus to the historic courthouse square to rural Randall
+                County, we provide expert roofing services throughout the Canyon area:
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">University District</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; West Texas A&amp;M campus</li>
+                    <li>&#10003; Faculty &amp; staff housing</li>
+                    <li>&#10003; Student residential areas</li>
+                    <li>&#10003; Academic and research buildings</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Historic Downtown</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Courthouse Square</li>
+                    <li>&#10003; Main Street commercial</li>
+                    <li>&#10003; Panhandle-Plains Museum area</li>
+                    <li>&#10003; Texas Musical Drama complex</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Surrounding Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Palo Duro Canyon area</li>
+                    <li>&#10003; Rural Randall County</li>
+                    <li>&#10003; Agricultural properties</li>
+                    <li>&#10003; Hospitality &amp; tourism corridor</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-8">
+                Whether you&apos;re on the WTAMU campus, in a historic home near the courthouse
+                square, running an agricultural operation in rural Randall County, or managing a
+                hotel near Palo Duro Canyon, we serve your area.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Canyon-Specific Challenges */}
+        <FadeIn>
+          <section className="section bg-brand-gold-light p-12 rounded-lg my-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Roofing Challenges in Canyon &amp; Randall County
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Severe Panhandle Hail
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Canyon sits in one of the most hail-prone regions in the country. Spring and early
+                  summer thunderstorms regularly produce baseball-sized hail capable of destroying a
+                  standard asphalt shingle roof in minutes. Class 4 impact-resistant materials
+                  qualify for insurance discounts up to 30% and are strongly recommended for all
+                  Randall County properties.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  High Winds &amp; Palo Duro Effects
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Sustained Panhandle winds regularly exceed 50 mph, with severe-weather gusts past
+                  70 mph. Palo Duro Canyon&apos;s proximity creates additional wind patterns on
+                  properties along the escarpment. Our installations use enhanced fastening
+                  schedules that exceed minimum code requirements and are rated for high-wind
+                  regions.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Educational &amp; Institutional Roofing
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  WTAMU&apos;s extensive campus requires specialized commercial roofing for
+                  laboratories, libraries, dormitories, and academic buildings. These projects
+                  require coordination with university procurement, compliance with educational
+                  facility safety codes, and the ability to phase installations around academic
+                  schedules and active campus operations.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Museum &amp; Historic Building Roofing
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  The Panhandle-Plains Historical Museum and Canyon&apos;s historic downtown require
+                  specialized work — advanced waterproofing to protect artifacts, insulated systems
+                  for consistent climate control, and restoration-compatible materials that maintain
+                  the architectural authenticity of buildings from the early 1900s.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Agricultural &amp; Ranch Buildings
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Randall County&apos;s wheat, sorghum, corn, and cattle operations require durable,
+                  cost-effective roofing for barns, equipment storage, and livestock facilities. We
+                  install standing seam metal for large-span buildings, properly ventilated systems
+                  for livestock comfort, and wind-resistant designs for the open agricultural wind
+                  exposure that consistently exceeds 50 mph.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Canyon City-Specific Details */}
         <FadeIn>
           <section className="content-block mb-12">
-            <h2 className="text-2xl font-bold mb-6">
-              About Canyon: Education Capital of the Texas Panhandle
-            </h2>
+            <h2 className="text-2xl font-bold mb-6">Canyon: Education Capital of the Panhandle</h2>
             <div className="grid md:grid-cols-2 gap-8 mb-6">
               <div>
-                <h3 className="text-xl font-bold mb-3">City Profile</h3>
-                <ul className="space-y-2">
-                  <li>
-                    <strong>Population:</strong> 15,398 (2023 census)
-                  </li>
-                  <li>
-                    <strong>County:</strong> Randall County (County Seat)
-                  </li>
-                  <li>
-                    <strong>Distance from Amarillo:</strong> 16 miles south
-                  </li>
-                  <li>
-                    <strong>Founded:</strong> 1889
-                  </li>
-                  <li>
-                    <strong>Median Age:</strong> 28.2 years
-                  </li>
-                  <li>
-                    <strong>Median Household Income:</strong> $68,233
-                  </li>
-                </ul>
+                <h3 className="text-xl font-bold mb-3">WTAMU &amp; Education</h3>
+                <p className="text-gray-600 mb-4">
+                  West Texas A&amp;M University is the city&apos;s economic engine — 10,000+
+                  students and 1,500 employees on a campus that continues to expand. Campus
+                  facilities require specialized commercial roofing designed for high-occupancy
+                  environments, energy-efficient systems to reduce operating costs across large
+                  buildings, and historic-preservation work for older campus structures.
+                </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-3">Economic Foundation</h3>
+                <h3 className="text-xl font-bold mb-3">Tourism &amp; Hospitality</h3>
                 <p className="text-gray-600 mb-4">
-                  Canyon's economy is built on education, agriculture, and tourism. West Texas A&M
-                  University is the largest employer and economic driver, bringing over 10,000
-                  students and 1,500 employees to the city.
-                </p>
-                <p className="text-gray-600">
-                  The city serves as both the county seat of Randall County and the gateway to Palo
-                  Duro Canyon State Park, making it a unique blend of educational, governmental, and
-                  tourism activities.
+                  Palo Duro Canyon State Park draws visitors year-round and supports hotels,
+                  restaurants, and visitor services throughout Canyon. The Texas Musical Drama
+                  outdoor amphitheater operates seasonally and requires weather-resistant systems
+                  for support facilities. These commercial properties need attractive, durable
+                  roofing that can handle both heavy use and extreme weather exposure.
                 </p>
               </div>
             </div>
-
-            <h3 className="text-xl font-bold mb-4">Major Employers & Industries</h3>
-            <div className="grid md:grid-cols-3 gap-6 mb-6">
-              <div className="bg-gray-50 p-4 rounded">
-                <h4 className="font-bold text-brand-brown mb-2">West Texas A&M University</h4>
-                <p className="text-sm text-gray-600">
-                  Largest employer with over 1,500 faculty and staff, serving 10,000+ students with
-                  extensive campus facilities requiring specialized roofing
-                </p>
-              </div>
+            <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-gray-50 p-4 rounded">
                 <h4 className="font-bold text-brand-brown mb-2">
-                  Panhandle-Plains Historical Museum
+                  WTAMU Campus
                 </h4>
                 <p className="text-sm text-gray-600">
-                  Largest history museum in Texas, requiring climate-controlled roofing systems to
-                  protect invaluable historical artifacts
+                  University buildings requiring institutional-grade systems and coordination around
+                  active campus operations
                 </p>
               </div>
               <div className="bg-gray-50 p-4 rounded">
-                <h4 className="font-bold text-brand-brown mb-2">Randall County Government</h4>
+                <h4 className="font-bold text-brand-brown mb-2">Historic Downtown</h4>
                 <p className="text-sm text-gray-600">
-                  County courthouse, offices, and governmental facilities needing durable,
-                  long-lasting commercial roofing systems
+                  Early 1900s commercial buildings around the courthouse square requiring
+                  restoration-compatible roofing
                 </p>
               </div>
               <div className="bg-gray-50 p-4 rounded">
-                <h4 className="font-bold text-brand-brown mb-2">Agriculture & Ranching</h4>
+                <h4 className="font-bold text-brand-brown mb-2">Rural Randall County</h4>
                 <p className="text-sm text-gray-600">
-                  Wheat, sorghum, corn, and cattle operations requiring large agricultural building
-                  roofing and metal systems
-                </p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded">
-                <h4 className="font-bold text-brand-brown mb-2">Tourism & Hospitality</h4>
-                <p className="text-sm text-gray-600">
-                  Hotels, restaurants, and visitor services for Palo Duro Canyon tourists, requiring
-                  commercial roofing solutions
-                </p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded">
-                <h4 className="font-bold text-brand-brown mb-2">Texas Musical Drama</h4>
-                <p className="text-sm text-gray-600">
-                  Outdoor amphitheater and support facilities requiring weather-resistant roofing
-                  for year-round operations
-                </p>
-              </div>
-            </div>
-
-            <h3 className="text-xl font-bold mb-4">Neighborhoods & Areas We Serve</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-bold mb-2">University District</h4>
-                <p className="text-gray-600 mb-3">
-                  The West Texas A&M campus and surrounding academic buildings, dormitories, and
-                  student housing. These facilities require specialized commercial roofing designed
-                  for educational environments with high occupancy and safety requirements.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-bold mb-2">Historic Downtown Canyon</h4>
-                <p className="text-gray-600 mb-3">
-                  The original town square and courthouse area, featuring historic buildings from
-                  the early 1900s that often require restoration-compatible roofing solutions that
-                  maintain historical authenticity while providing modern protection.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-bold mb-2">Residential Neighborhoods</h4>
-                <p className="text-gray-600 mb-3">
-                  Family neighborhoods housing university faculty, county employees, and local
-                  professionals. These communities need reliable residential roofing systems that
-                  can handle Texas Panhandle weather while maintaining property values.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-bold mb-2">Rural Randall County</h4>
-                <p className="text-gray-600 mb-3">
-                  Agricultural properties and ranch lands extending throughout Randall County, where
-                  large metal buildings, barns, and equipment storage facilities require durable
-                  roofing systems designed for agricultural use.
+                  Agricultural properties and ranches requiring large-span metal building systems
+                  for equipment and livestock
                 </p>
               </div>
             </div>
           </section>
         </FadeIn>
 
-        <section className="section">
-          <h2 className="section-title">Comprehensive Roofing Services in Canyon</h2>
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <FadeIn delay={0.1}>
-              <div className="card-hover p-6">
-                <div className="text-5xl mb-4">
-                  <Building2 className="w-6 h-6 inline-block" />
-                </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing</h3>
-                <p className="text-gray-600 mb-4">
-                  We install TPO, EPDM, metal roofing, and built-up systems for businesses and
-                  facilities throughout Randall County.
-                </p>
-                <a href="/commercial-roofing-amarillo/" className="text-brand-gold font-semibold">
-                  Commercial Services →
-                </a>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.2}>
-              <div className="card-hover p-6">
-                <div className="text-5xl mb-4">
-                  <Home className="w-6 h-6 inline-block" />
-                </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Residential Roofing</h3>
-                <p className="text-gray-600 mb-4">
-                  From asphalt shingles to metal roofing, we provide complete residential roofing
-                  services for Canyon homeowners. Our Class 4 impact-resistant shingles protect
-                  against Texas Panhandle hail.
-                </p>
-                <a href="/residential-roofing-amarillo/" className="text-brand-gold font-semibold">
-                  Residential Services →
-                </a>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.3}>
-              <div className="card-hover p-6 bg-red-50">
-                <div className="text-5xl mb-4">
-                  <AlertTriangle className="w-6 h-6 inline-block text-red-600" />
-                </div>
-                <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
-                <p className="text-gray-700 mb-4">
-                  When severe weather strikes Canyon, we respond with weatherproof sheeting and rapid roof
-                  repairs. Call us immediately for storm damage assessment.
-                </p>
-                <a href="/storm-damage-repair-amarillo/" className="text-red-700 font-semibold">
-                  Storm Damage Repair →
-                </a>
-              </div>
-            </FadeIn>
-          </div>
-        </section>
-
+        {/* FAQ Section */}
         <FadeIn>
-          <section className="content-block bg-gray-50 rounded-lg p-8 mb-12">
-            <h2 className="text-2xl font-bold mb-6">Why Canyon Chooses 5 Star Roofing</h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-bold text-lg mb-2">
-                  <Check className="w-5 h-5 text-brand-gold inline-block" /> Randall County Experts
-                </h3>
-                <p className="text-gray-600">
-                  We understand Canyon's weather patterns, from spring hailstorms to winter freezes.
-                  Our roofing systems are engineered for local climate challenges.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-2">
-                  <Check className="w-5 h-5 text-brand-gold inline-block" /> Insurance Claim
-                  Assistance
-                </h3>
-                <p className="text-gray-600">
-                  We work directly with insurance adjusters on{" "}
-                  <a
-                    href="/hail-damage-repair-amarillo/"
-                    className="text-brand-gold hover:underline"
-                  >
-                    hail damage claims
-                  </a>
-                  , ensuring you receive full coverage for storm repairs.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-2">
-                  <Check className="w-5 h-5 text-brand-gold inline-block" /> Local & Regional
-                  Experience
-                </h3>
-                <p className="text-gray-600">
-                  Serving Canyon and communities throughout the Texas Panhandle with specialized
-                  roofing designed for extreme weather conditions.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-2">
-                  <Check className="w-5 h-5 text-brand-gold inline-block" /> Free Inspections
-                </h3>
-                <p className="text-gray-600">
-                  Every Canyon property receives a complimentary roof inspection with detailed
-                  assessments, photos, and written estimates—no obligation.
-                </p>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
-
-        <section className="content-block mb-12">
-          <h2 className="text-2xl font-bold mb-4">Canyon Weather Challenges & Your Roof</h2>
-          <p className="text-lg mb-6">
-            Located in Randall County, Canyon experiences extreme weather in the Texas Panhandle:
-          </p>
-          <ul className="space-y-3 mb-6">
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Severe Hailstorms:</strong> Baseball-sized hail is common during spring and
-                summer, requiring impact-resistant roofing materials.
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>High Winds:</strong> Sustained winds over 50 mph and gusts exceeding 70 mph
-                demand wind-rated roofing systems.
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Temperature Extremes:</strong> From sub-zero winters to 100°F+ summers,
-                roofing materials must withstand constant expansion and contraction.
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <FadeIn>
-          <section className="content-block mb-12">
-            <h2 className="text-2xl font-bold mb-6">
-              Service Coverage Throughout the Texas Panhandle
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Canyon Roofing FAQs
             </h2>
-            <p className="text-lg mb-4">
-              While we're proud to serve Canyon and Randall County, our roofing expertise extends
-              across the entire region:
-            </p>
-            <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
-                • Amarillo Roofing
-              </a>
-              <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">
-                • Midland Roofing
-              </a>
-              <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">
-                • Odessa Roofing
-              </a>
-              <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">
-                • Lubbock Roofing
-              </a>
-              <a href="/service-areas/" className="text-brand-gold hover:underline">
-                • All Service Areas
-              </a>
-            </div>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem
+                  key={`item-${index + 1}`}
+                  value={`item-${index + 1}`}
+                  className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+                >
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </section>
         </FadeIn>
 
-        <section className="bg-brand-gold-light rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold mb-4">Our Canyon Roofing Process</h2>
-          <div className="space-y-4">
-            <div className="flex items-start">
-              <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
-                1
-              </div>
-              <div>
-                <h3 className="font-bold mb-1">Free Inspection</h3>
-                <p className="text-gray-700">
-                  We inspect your Canyon property, document damage with photos, and provide a
-                  detailed written estimate—completely free.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
-                2
-              </div>
-              <div>
-                <h3 className="font-bold mb-1">Insurance Support</h3>
-                <p className="text-gray-700">
-                  We help file insurance claims, meet with adjusters, and ensure all damage is
-                  properly documented.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
-                3
-              </div>
-              <div>
-                <h3 className="font-bold mb-1">Professional Installation</h3>
-                <p className="text-gray-700">
-                  Our experienced crews install your new roof using premium materials. Most
-                  residential roofs in Canyon are completed in 1-2 days.
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0">
-                4
-              </div>
-              <div>
-                <h3 className="font-bold mb-1">Quality Inspection & Warranty</h3>
-                <p className="text-gray-700">
-                  We inspect all work, clean up your property, and provide comprehensive warranty
-                  information.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="content-block mb-12">
-          <h2 className="text-2xl font-bold mb-6">
-            Specialized Roofing Solutions for Canyon's Unique Needs
-          </h2>
-
-          <h3 className="text-xl font-bold mb-4 text-brand-brown">
-            Educational Institution Roofing
-          </h3>
-          <p className="text-lg mb-4">
-            West Texas A&M University's extensive campus requires specialized commercial roofing
-            systems that meet educational facility standards and provide long-term durability:
-          </p>
-          <ul className="space-y-2 mb-6">
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Climate-Controlled Systems:</strong> Advanced roofing for laboratories,
-                libraries, and research facilities
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>High-Occupancy Safety:</strong> Fire-rated and safety-compliant roofing for
-                dormitories and academic buildings
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Energy Efficiency:</strong> Cool roofing systems to reduce operating costs
-                for large campus buildings
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Historic Preservation:</strong> Compatible roofing for older campus
-                buildings maintaining architectural integrity
-              </div>
-            </li>
-          </ul>
-
-          <h3 className="text-xl font-bold mb-4 text-brand-brown">
-            Museum & Cultural Facility Roofing
-          </h3>
-          <p className="text-lg mb-4">
-            The Panhandle-Plains Historical Museum and other cultural facilities require specialized
-            roofing to protect priceless artifacts and exhibits:
-          </p>
-          <ul className="space-y-2 mb-6">
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Moisture Protection:</strong> Advanced waterproofing systems to prevent
-                humidity damage to artifacts
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Temperature Stability:</strong> Insulated roofing systems for consistent
-                climate control
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>UV Protection:</strong> Specialized membranes preventing UV damage to
-                roofing and interior exhibits
-              </div>
-            </li>
-          </ul>
-
-          <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural & Ranch Roofing</h3>
-          <p className="text-lg mb-4">
-            Randall County's agricultural operations require durable, cost-effective roofing
-            solutions for various farm and ranch buildings:
-          </p>
-          <ul className="space-y-2 mb-6">
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Metal Building Systems:</strong> Large-span roofing for equipment storage
-                and livestock facilities
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Ventilation Solutions:</strong> Proper airflow systems for grain storage and
-                livestock comfort
-              </div>
-            </li>
-            <li className="flex items-start">
-              <span className="text-brand-gold mr-2">▸</span>
-              <div>
-                <strong>Wind-Resistant Design:</strong> Systems engineered for the high winds common
-                in open agricultural areas
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <section className="bg-gray-50 rounded-lg p-8 mb-12">
-          <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions - Canyon Roofing</h2>
-
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-bold mb-2">
-                Do you work on West Texas A&M University campus buildings?
-              </h3>
-              <p className="text-gray-700">
-                Yes, we have extensive experience with educational facility roofing and work with
-                university procurement departments on campus roofing projects. We understand the
-                unique requirements for dormitories, academic buildings, and research facilities,
-                including safety codes, occupancy requirements, and environmental controls needed to
-                protect sensitive equipment and research materials.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-bold mb-2">
-                What roofing systems work best for Canyon's agriculture buildings?
-              </h3>
-              <p className="text-gray-700">
-                For Randall County agricultural operations, we typically recommend metal roofing
-                systems for their durability, large-span capability, and cost-effectiveness.
-                Standing seam metal roofs are ideal for barns and equipment storage, while properly
-                ventilated systems work best for livestock facilities. We also install specialized
-                roofing for grain storage that prevents condensation and protects valuable crops.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-bold mb-2">
-                How do you handle roofing for historic buildings in downtown Canyon?
-              </h3>
-              <p className="text-gray-700">
-                Canyon's historic downtown includes buildings from the early 1900s that require
-                specialized restoration approaches. We work with local preservation guidelines and
-                use materials that maintain historical authenticity while providing modern
-                protection. This often includes using period-appropriate materials like slate or
-                cedar shake alternatives, or installing modern systems designed to look historically
-                accurate.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-bold mb-2">
-                Can you handle the large roofing projects common in Canyon's institutional
-                buildings?
-              </h3>
-              <p className="text-gray-700">
-                Absolutely. We specialize in large commercial and institutional roofing projects,
-                including university buildings, the museum complex, county government facilities,
-                and other major structures in Canyon. Our crews are experienced with project
-                management, coordination with multiple stakeholders, and working around active
-                operations that can't be disrupted during roofing installation.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-bold mb-2">
-                What's the typical timeline for residential roofing in Canyon?
-              </h3>
-              <p className="text-gray-700">
-                Most residential roof replacements in Canyon are completed in 1-2 days, depending on
-                the size and complexity of the home. University faculty and staff often prefer
-                summer installations when classes aren't in session, so we recommend scheduling
-                early for summer projects. We work efficiently to minimize disruption to families
-                and can coordinate timing around academic schedules when needed.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-bold mb-2">
-                How does proximity to Palo Duro Canyon affect roofing in the area?
-              </h3>
-              <p className="text-gray-700">
-                The canyon creates unique wind patterns and weather conditions that can affect
-                roofing performance. We use wind-rated materials and installation techniques
-                designed for these conditions. Additionally, the tourism industry brings many
-                commercial properties (hotels, restaurants, visitor centers) that need attractive,
-                durable roofing systems that can handle both heavy use and extreme weather exposure.
-              </p>
-            </div>
-          </div>
-        </section>
-
+        {/* CTA Section */}
         <FadeIn>
           <section className="cta-section my-16">
-            <h2 className="cta-title">Ready for a New Roof in Canyon?</h2>
-            <p className="cta-text mb-6">
-              Serving Canyon, Randall County, and the entire Texas Panhandle. Contact us today for
-              your free inspection.
+            <h2 className="cta-title">Ready to Protect Your Canyon Property?</h2>
+            <p className="cta-text">
+              Whether you need a free roof inspection, hail damage assessment, emergency repairs, or
+              a complete roof replacement, 5 Star Commercial Roofing serves Canyon with expert
+              craftsmanship and honest pricing. Most hail damage repairs are covered by insurance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:8066226041"
-                className="btn-primary-hero text-lg px-8 py-4 inline-block bg-white text-brand-brown hover:bg-gray-100"
-              >
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
+                Call (806) 622-6041 Now
               </a>
               <a
                 href="/contact/"
-                className="btn-secondary-hero text-lg px-8 py-4 border-2 border-white hover:bg-white hover:text-brand-brown"
+                className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg"
               >
-                Request Free Inspection
+                Schedule Free Inspection
+              </a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Nearby Cities */}
+        <FadeIn>
+          <section className="section pb-16">
+            <h2 className="text-2xl font-bold text-center mb-6 text-brand-brown">
+              Also Serving Nearby Texas Panhandle Cities
+            </h2>
+            <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
+              <a
+                href="/amarillo-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Amarillo
+              </a>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/bushland-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Bushland
+              </a>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/claude-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Claude
+              </a>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/lubbock-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Lubbock
+              </a>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/service-areas/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                View All Service Areas
               </a>
             </div>
           </section>
         </FadeIn>
       </div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+
+      {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/canyon-texas-roofing/",
+            name: "5 Star Roofing",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-1280w.jpg",
+            description:
+              "Professional roofing contractor serving Canyon, Texas and Randall County. Specialists in storm damage repair, educational facility roofing for West Texas A&M University, museum and historic-building systems, agricultural metal buildings, and residential and commercial roofing throughout the Texas Panhandle.",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Canyon",
+              addressRegion: "TX",
+              addressCountry: "US",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "34.9799",
+              longitude: "-101.9191",
+            },
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            url: "https://5starroofingpros.com",
+            priceRange: "$$",
+            openingHoursSpecification: [
               {
-                "@type": "Question",
-                name: "Do you work on West Texas A&M University campus buildings?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, we have extensive experience with educational facility roofing and work with university procurement departments on campus roofing projects. We understand the unique requirements for dormitories, academic buildings, and research facilities, including safety codes, occupancy requirements, and environmental controls needed to protect sensitive equipment and research materials.",
-                },
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
+            ],
+            areaServed: [
+              {
+                "@type": "City",
+                name: "Canyon",
+                containedInPlace: { "@type": "State", name: "Texas" },
               },
               {
-                "@type": "Question",
-                name: "What roofing systems work best for Canyon's agriculture buildings?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "For Randall County agricultural operations, we typically recommend metal roofing systems for their durability, large-span capability, and cost-effectiveness. Standing seam metal roofs are ideal for barns and equipment storage, while properly ventilated systems work best for livestock facilities. We also install specialized roofing for grain storage that prevents condensation and protects valuable crops.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How do you handle roofing for historic buildings in downtown Canyon?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Canyon's historic downtown includes buildings from the early 1900s that require specialized restoration approaches. We work with local preservation guidelines and use materials that maintain historical authenticity while providing modern protection. This often includes using period-appropriate materials like slate or cedar shake alternatives, or installing modern systems designed to look historically accurate.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Can you handle the large roofing projects common in Canyon's institutional buildings?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Absolutely. We specialize in large commercial and institutional roofing projects, including university buildings, the museum complex, county government facilities, and other major structures in Canyon. Our crews are experienced with project management, coordination with multiple stakeholders, and working around active operations that can't be disrupted during roofing installation.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What's the typical timeline for residential roofing in Canyon?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Most residential roof replacements in Canyon are completed in 1-2 days, depending on the size and complexity of the home. University faculty and staff often prefer summer installations when classes aren't in session, so we recommend scheduling early for summer projects. We work efficiently to minimize disruption to families and can coordinate timing around academic schedules when needed.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How does proximity to Palo Duro Canyon affect roofing in the area?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "The canyon creates unique wind patterns and weather conditions that can affect roofing performance. We use wind-rated materials and installation techniques designed for these conditions. Additionally, the tourism industry brings many commercial properties (hotels, restaurants, visitor centers) that need attractive, durable roofing systems that can handle both heavy use and extreme weather exposure.",
-                },
+                "@type": "AdministrativeArea",
+                name: "Randall County",
               },
             ],
           }),

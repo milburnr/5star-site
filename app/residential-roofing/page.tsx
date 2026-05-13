@@ -109,25 +109,18 @@ export default function Page() {
   };
 
   return (
-    <div className="container-custom py-12">
-      {" "}
+    <>
       <InteriorHeroSection
         heroVariant="service"
         service="Residential Roofing"
         h1="Residential Roofing in West Texas"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg"
-      
-      breadcrumbItems={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Residential Roofing",
-            url: "/residential-roofing/",
-          },
+        breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Residential Roofing", url: "/residential-roofing/" },
         ]}
-    />
+      />
+      <div className="container-custom py-12">
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -566,9 +559,10 @@ export default function Page() {
           <div className="text-4xl mb-3">
             <Zap className="w-6 h-6 inline-block" />
           </div>
-          <h3 className="font-bold mb-2 text-brand-brown"></h3>
+          <h3 className="font-bold mb-2 text-brand-brown">Hail Alley Specialists</h3>
           <p className="text-sm text-gray-600">
-            Storm damage? We respond quickly to protect your home
+            Based in Amarillo — we install for the climate we live in, not the one a storm-chaser
+            crew drove in for
           </p>
         </div>
         <div className="text-center p-6 bg-white rounded-lg shadow">
@@ -707,6 +701,7 @@ export default function Page() {
         </div>
       </section>
       <RelatedArticles pageSlug="residential-roofing" />
-    </div>
+      </div>
+    </>
   );
 }

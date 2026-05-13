@@ -1,45 +1,35 @@
 import { FadeIn } from "@/components/FadeIn";
-import { InteractiveCard } from "@/components/InteractiveCard";
-import RelatedArticles from "@/components/RelatedArticles";
+import type { Metadata } from "next";
+import { Breadcrumb } from "@/components/Breadcrumb";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import {
-  Check,
-  CloudLightning,
-  Drama,
-  Droplets,
-  Factory,
-  Flame,
-  Fuel,
-  Landmark,
-  Phone,
-  Plane,
-  School,
-  ShoppingBag,
-  Sun,
-  Thermometer,
+  Building2,
+  CloudHail,
+  Construction,
+  Home,
+  RefreshCw,
+  Search,
+  Tornado,
   Wind,
+  Wrench,
 } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/odessa-tx-roofing/" },
   title: "Roofing Contractor Odessa TX | 5 Star Roofing",
   description:
-    "Residential and commercial roofing in Odessa TX. Hail Alley experts with post-storm inspections, insurance claim support, and industrial facility roofing.",
-  keywords:
-    "Odessa roofing, Odessa roofer, roofing contractor Odessa TX, hail damage Odessa, metal roofing Odessa, commercial roofing Odessa",
+    "Roofing in Odessa TX. Hail Alley specialists serving Ector County. Residential, commercial, and oil-industry roofing across the Permian Basin. Call (806) 622-6041",
   openGraph: {
     title: "Roofing Contractor Odessa TX | 5 Star Roofing",
     description:
-      "Expert roofing services for Odessa homes and businesses. Hail damage specialists, oil industry facility roofing. Call (806) 622-6041",
+      "Roofing in Odessa TX. Hail Alley specialists serving Ector County. Residential, commercial, and oil-industry roofing across the Permian Basin. Call (806) 622-6041",
     url: "https://5starroofingpros.com/odessa-tx-roofing/",
     siteName: "5 Star Roofing",
     images: [
@@ -47,7 +37,7 @@ export const metadata: Metadata = {
         url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "Aerial view of completed roof installation in Odessa TX — 5 Star Roofing",
+        alt: "Completed roof installation in Odessa TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -55,28 +45,111 @@ export const metadata: Metadata = {
   },
 };
 
+const services = [
+  {
+    name: "Residential Roofing",
+    slug: "residential-roofing",
+    icon: <Home className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Commercial Roofing",
+    slug: "commercial-roofing",
+    icon: <Building2 className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Hail Damage Repair",
+    slug: "hail-damage-repair",
+    icon: <CloudHail className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Storm Damage Repair",
+    slug: "storm-damage-repair",
+    icon: <Tornado className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Wind Damage Repair",
+    slug: "wind-damage-repair",
+    icon: <Wind className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Roof Replacement",
+    slug: "roof-replacement",
+    icon: <RefreshCw className="w-6 h-6 inline-block" />,
+  },
+  { name: "Roof Repair", slug: "roof-repair", icon: <Wrench className="w-6 h-6 inline-block" /> },
+  {
+    name: "Roof Inspections",
+    slug: "roof-inspections",
+    icon: <Search className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "TPO Roofing",
+    slug: "tpo-roofing",
+    icon: <Construction className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Metal Roofing",
+    slug: "metal-roofing",
+    icon: <Wrench className="w-6 h-6 inline-block" />,
+  },
+  {
+    name: "Asphalt Shingle Roofing",
+    slug: "asphalt-shingle-roofing",
+    icon: <Home className="w-6 h-6 inline-block" />,
+  },
+];
+
+const faqItems = [
+  {
+    question: "How bad is hail damage in Odessa?",
+    answer:
+      "Odessa sits in the heart of Hail Alley and averages 6-8 significant hail events per year. The May 2019 supercell dropped hail up to 4.5 inches across Ector County, causing more than $100 million in property damage and destroying thousands of roofs in a single afternoon. Class 4 impact-resistant materials are strongly recommended for any Odessa property.",
+  },
+  {
+    question: "Do you work on oil field and industrial buildings in Odessa?",
+    answer:
+      "Yes. Odessa's economy runs on the Permian Basin oil and gas industry, and we specialize in commercial systems for refineries, processing plants, oilfield service yards, warehouses, and pipe storage facilities. We install chemical-resistant PVC membranes, heavy-duty metal roofing, and TPO systems designed for industrial applications with high-traffic roof access and chemical exposure.",
+  },
+  {
+    question: "What roofing materials handle Odessa's heat and UV best?",
+    answer:
+      "For residential homes, reflective metal roofing or UV-stabilized Class 4 impact-resistant shingles perform best in Odessa's climate. For commercial buildings, white TPO or PVC membranes reflect up to 85% of solar heat and reduce cooling costs by 20-30%. Both handle the extreme temperature swings and intense UV radiation that age standard shingles 30-40% faster here than in milder climates.",
+  },
+  {
+    question: "How did the May 2019 hailstorm change Odessa roofing standards?",
+    answer:
+      "The May 23, 2019 supercell that dropped 4.5-inch hail across Odessa caused more than $100 million in property damage and destroyed thousands of roofs. Since then, many Odessa homeowners and insurance providers have shifted toward Class 4 impact-resistant materials as the standard rather than a premium option. Standing seam metal installations have also increased significantly, particularly systems rated to withstand softball-sized hail.",
+  },
+  {
+    question: "How do you handle storm damage in Odessa?",
+    answer:
+      "After a storm in Odessa or Ector County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier — photos, drone imagery, measurements, and adjuster-ready reports — and help homeowners navigate the Texas Prompt Payment Act timeline. Permanent repairs and replacements are scheduled around material availability; we are not an emergency-dispatch service.",
+  },
+  {
+    question: "Do you serve the UTPB area, Sherwood, and the I-20 corridor?",
+    answer:
+      "Yes. We provide comprehensive roofing services throughout all Odessa neighborhoods including Sherwood, Stonegate, Mission Dorado, Ridgemont, Parkview Estates, Woodson Heights, Dos Amigos, the UTPB campus area, and the commercial districts along East 42nd Street, Andrews Highway, JBS Parkway, and the I-20 industrial corridor. We also serve West Odessa and the surrounding Ector County communities.",
+  },
+  {
+    question: "Will insurance cover my Odessa hail damage?",
+    answer:
+      "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. Texas law gives you up to 2 years to file hail damage claims, but waiting allows hidden damage to worsen. We provide comprehensive documentation with photographs, drone imagery, and detailed reports that meet adjuster requirements, and we work directly with State Farm, Allstate, USAA, Farmers, and local Permian Basin providers.",
+  },
+];
+
 export default function OdessaRoofingPage() {
   return (
     <div className="min-h-screen">
-      {" "}
       <Breadcrumb
         items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Service Areas",
-            url: "/service-areas/",
-          },
-          {
-            name: "Odessa",
-            url: "/odessa-tx-roofing/",
-          },
+          { name: "Home", url: "/" },
+          { name: "Service Areas", url: "/service-areas/" },
+          { name: "Odessa", url: "/odessa-tx-roofing/" },
         ]}
       />
-      {/* Sticky Contact Bar */}
+
       <StickyContactBar />
+
       {/* Hero Section */}
       <section
         className="hero"
@@ -89,34 +162,22 @@ export default function OdessaRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Odessa&apos;s Premier Roofing Contractor</h1>
+            <h1 className="hero-title">Odessa Roofing Contractor You Can Count On</h1>
             <p className="hero-subtitle">
-              Protecting Permian Basin Homes & Industrial Facilities Our team
+              Permian Basin Hail &amp; Oil-Industry Roofing Specialists
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
+              <a href="tel:8066226041" className="btn-primary-hero">
+                Call (806) 622-6041
               </a>
-              <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
-                Free Roof Inspection
+              <a href="/contact/" className="btn-secondary-hero">
+                Get Free Inspection
               </a>
             </div>
           </div>
         </FadeIn>
       </section>
-      {/* Lead Form - Above the Fold */}
-      <div className="container-custom">
-        <FadeIn>
-          <section id="lead-form" className="section -mt-16 relative z-20">
-            <div className="max-w-2xl mx-auto">
-              <HighLevelForm
-                title="Get Your Free Roof Inspection"
-                subtitle="Fill out the form below and we'll contact you within 24 hours. No obligation."
-              />
-            </div>
-          </section>
-        </FadeIn>
-      </div>
+
       <div className="container-custom">
 
         {/* TL;DR */}
@@ -124,7 +185,7 @@ export default function OdessaRoofingPage() {
           <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              5 Star Roofing provides residential and commercial roofing throughout Odessa TX — hail damage, wind damage, roof replacement, TPO, and metal systems for Ector County properties.
+              5 Star Roofing provides full roofing services in Odessa TX — residential, commercial, hail and wind damage repair, TPO and PVC membranes for industrial properties, and roof replacement for homes and businesses across Ector County and the Permian Basin.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/roof-replacement-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
@@ -149,776 +210,279 @@ export default function OdessaRoofingPage() {
         {/* Introduction */}
         <FadeIn>
           <section className="section">
-            <div className="max-w-4xl mx-auto text-center mb-12">
-              <h2 className="text-3xl font-bold mb-6">
-                Trusted Roofing Partner for Odessa&apos;s Homes and Oil Industry
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-6 text-center">
+                Your Trusted Roofing Partner in Odessa, Texas
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
-                Located in the heart of the Permian Basin, Odessa faces unique roofing challenges
-                that demand specialized expertise. With a population of 123,000 and a thriving oil
-                and gas industry, Odessa properties must withstand brutal summer heat exceeding
-                105°F, destructive hail storms, powerful winds, and the demanding requirements of
-                industrial facilities. Our team, we&apos;ve been protecting Odessa&apos;s
-                residential neighborhoods, commercial buildings, and oil industry infrastructure
-                with premium roofing systems engineered for West Texas extremes.
+                Odessa, the Ector County seat with approximately 123,000 residents, sits at the
+                heart of the Permian Basin where I-20 meets the oil and gas economy that powers
+                West Texas. From the Globe Theatre downtown to the industrial corridors along East
+                42nd Street and Andrews Highway, Odessa properties face one of the most demanding
+                roofing environments in North America. 5 Star Commercial Roofing provides
+                comprehensive roofing services throughout Odessa and the surrounding Permian Basin.
               </p>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                From the historic Globe Theatre district to the sprawling industrial parks along
-                I-20, from the family homes in Sherwood to the commercial developments near the
-                University of Texas Permian Basin, we understand what Odessa roofs endure. Our team
-                specializes in both residential hail damage repair and heavy-duty commercial roofing
-                systems that protect your most valuable assets.
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                Odessa&apos;s economy runs on oil and gas. The Permian Basin&apos;s refineries,
+                processing plants, oilfield service yards, and pipe storage facilities all require
+                specialized commercial roofing — chemical-resistant PVC membranes, heavy-duty metal
+                systems, and reinforced walkways for high-traffic maintenance access. The
+                University of Texas Permian Basin, Medical Center Hospital, Ratliff Stadium, and the
+                retail centers along East 42nd Street round out a commercial base that depends on
+                durable roofing systems engineered for industrial conditions.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Odessa sits directly in Hail Alley. The National Weather Service documents 6-8
+                significant hail events per year across Ector County, with stones frequently
+                exceeding two inches and occasionally reaching softball size. The May 23, 2019
+                supercell dropped 4.5-inch hail across the city, caused more than $100 million in
+                property damage, and destroyed thousands of roofs in a single afternoon. Summer
+                highs regularly exceed 105°F, with roof surface temperatures reaching 170°F on dark
+                shingles — conditions that accelerate aging and demand premium materials rated for
+                extreme weather.
               </p>
             </div>
           </section>
         </FadeIn>
 
-        {/* Why Choose Us */}
-        <FadeIn delay={0.1}>
-          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
-            <h2 className="section-title">Why Odessa Property Owners Trust 5 Star Roofing</h2>
-            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <InteractiveCard>
-                <div className="text-center">
-                  <div className="text-5xl mb-4">
-                    <Fuel className="w-6 h-6 inline-block" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-brand-brown">
-                    Oil Industry Specialists
-                  </h3>
-                  <p className="text-gray-600">
-                    Expert roofing for refineries, warehouses, office buildings, and industrial
-                    facilities throughout the Permian Basin. We understand the unique demands of oil
-                    industry infrastructure.
-                  </p>
-                </div>
-              </InteractiveCard>
-
-              <InteractiveCard>
-                <div className="text-center">
-                  <div className="text-5xl mb-4">
-                    <CloudLightning className="w-6 h-6 inline-block" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Damage Experts</h3>
-                  <p className="text-gray-600">
-                    Odessa averages 6-8 hail events annually with stones exceeding 2 inches. We
-                    specialize in efficient post-storm documentation, damage assessment, and complete insurance
-                    claim management.
-                  </p>
-                </div>
-              </InteractiveCard>
-
-              <InteractiveCard>
-                <div className="text-center">
-                  <div className="text-5xl mb-4">
-                    <Flame className="w-6 h-6 inline-block" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-brand-brown">
-                    Heat-Resistant Systems
-                  </h3>
-                  <p className="text-gray-600">
-                    Premium roofing materials rated for extreme temperatures. Reflective coatings
-                    and proper ventilation reduce cooling costs by up to 30% in Odessa&apos;s
-                    scorching summers.
-                  </p>
-                </div>
-              </InteractiveCard>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Comprehensive Services Section */}
+        {/* Services Grid */}
         <section className="section">
           <FadeIn>
-            <h2 className="section-title">Complete Roofing Services Throughout Odessa</h2>
-            <p className="text-center text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-              From emergency storm repairs to planned replacements, from residential homes to large
-              industrial complexes, we provide comprehensive roofing solutions tailored to
-              Odessa&apos;s demanding climate.
+            <h2 className="section-title">Roofing Services in Odessa</h2>
+            <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
+              We provide a full range of residential and commercial roofing services throughout
+              Odessa and Ector County. Select a service below for details.
             </p>
           </FadeIn>
 
-          <div className="space-y-12">
-            {/* Hail Damage Repair */}
-            <FadeIn delay={0.1}>
-              <InteractiveCard className="border-l-4 border-red-500">
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg"
-                      alt="Completed roof with new shingles after hail damage repair in the Odessa TX area"
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Hail Damage Roof Repair
-                    </h3>
-                    <p className="text-sm text-gray-500 font-semibold">
-                      ODESSA&apos;S #1 ROOFING THREAT
-                    </p>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong>Hail is the single greatest threat to Odessa roofs.</strong> Located
-                      in the heart of &quot;Hail Alley,&quot; Odessa experiences an average of 6-8
-                      significant hail events annually, with many producing stones 2-4 inches in
-                      diameter. The devastating May 2019 storm that hit Odessa dropped baseball to
-                      softball-sized hail, causing over $100 million in property damage across
-                      residential and commercial properties.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      We provide comprehensive hail damage services including free post-storm
-                      inspections with drone photography, detailed damage documentation for
-                      insurance claims, direct communication with adjusters from State Farm,
-                      Allstate, USAA, and local providers like Permian Basin Insurance, and complete
-                      roof replacement using Class 4 impact-resistant shingles that can reduce
-                      future insurance premiums by up to 35%.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      <strong>Critical timing:</strong> Texas law gives you up to 2 years to file
-                      hail damage claims, but waiting allows hidden damage to worsen. After any hail
-                      event in Odessa, get a professional inspection within 72 hours to protect your
-                      insurance rights and prevent water infiltration.
-                    </p>
-                    <a
-                      href="/hail-damage-repair-odessa/"
-                      className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2 text-lg"
-                    >
-                      Expert Hail Damage Services in Odessa →
-                    </a>
-                  </div>
-                </div>
-              </InteractiveCard>
-            </FadeIn>
-
-            {/* Residential Roofing */}
-            <FadeIn delay={0.2}>
-              <InteractiveCard>
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-35-1280w.jpg"
-                      alt="New residential roof installation with architectural shingles near Morton TX"
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Residential Roofing
-                    </h3>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      Odessa homeowners in neighborhoods like Sherwood, Stonegate, Mission Dorado,
-                      Ridgemont, Parkview Estates, Woodson Heights, and Dos Amigos need roofing
-                      systems that can survive the city&apos;s extreme climate challenges. We
-                      install premium asphalt shingles rated for 130+ mph winds, impact-resistant
-                      metal roofing, and energy-efficient systems that reduce cooling costs in
-                      Odessa&apos;s brutal summers.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      Our residential services include complete roof replacement with manufacturer
-                      warranties up to 50 years, storm damage repair and insurance coordination,
-                      proper attic ventilation to combat heat buildup (critical when roof surface
-                      temperatures exceed 170°F), ridge vent and soffit installation to extend
-                      shingle life, and energy-efficient reflective shingles that meet or exceed
-                      Texas energy codes.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      <strong>Odessa homeowner advantage:</strong> We understand local building
-                      codes, HOA requirements in planned communities, and work with all major
-                      insurance providers serving the Permian Basin. Most residential roof
-                      replacements are completed in 1-2 days with minimal disruption.
-                    </p>
-                    <a
-                      href="/residential-roofing-odessa/"
-                      className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
-                    >
-                      Residential Roofing Solutions →
-                    </a>
-                  </div>
-                </div>
-              </InteractiveCard>
-            </FadeIn>
-
-            {/* Commercial & Industrial Roofing */}
-            <FadeIn delay={0.3}>
-              <InteractiveCard className="bg-amber-50 border-2 border-brand-gold/30">
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg"
-                      alt="TPO membrane installation on commercial industrial building in Pampa TX - Flat roof"
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Commercial & Industrial Roofing
-                    </h3>
-                    <p className="text-sm text-brand-brown font-semibold">
-                      OIL INDUSTRY SPECIALIST
-                    </p>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>
-                        Odessa&apos;s economy runs on oil and gas, and we specialize in protecting
-                        that infrastructure.
-                      </strong>{" "}
-                      From refineries and processing plants to warehouses, office buildings, retail
-                      centers along East 42nd Street, and industrial facilities throughout the I-20
-                      corridor, we provide commercial roofing systems built for the unique demands
-                      of Permian Basin operations.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      Our commercial roofing expertise includes TPO single-ply membrane systems
-                      (white reflective surfaces ideal for reducing cooling costs), EPDM rubber
-                      roofing for long-lasting waterproofing, PVC membrane systems for
-                      chemical-resistant applications (critical for oil industry facilities),
-                      built-up roofing (BUR) systems providing multi-layer protection for industrial
-                      facilities, modified bitumen for high-traffic roof areas, spray polyurethane
-                      foam (SPF) roofing with superior insulation values, and silicone roof coatings
-                      to extend existing roof life by 10-15 years.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      <strong>Industrial facility advantages:</strong> We schedule work around your
-                      operations to minimize downtime, provide for critical facilities, understand
-                      safety protocols and OSHA requirements, and offer preventive maintenance
-                      programs that identify problems before they become costly emergencies.
-                    </p>
-                    <a
-                      href="/commercial-roofing-odessa/"
-                      className="text-brand-brown font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
-                    >
-                      Commercial Roofing Services →
-                    </a>
-                  </div>
-                </div>
-              </InteractiveCard>
-            </FadeIn>
-
-            {/* Metal Roofing */}
-            <FadeIn delay={0.4}>
-              <InteractiveCard>
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.webp"
-                      alt="Standing seam metal roofing panels on Odessa area property - 50-year hail protection"
-                      className="w-full h-48 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Metal Roof Installation
-                    </h3>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-600 mb-4 leading-relaxed">
-                      <strong>
-                        Metal roofing is the smart choice for Odessa&apos;s extreme climate.
-                      </strong>{" "}
-                      When summer temperatures regularly exceed 100°F and roof surfaces reach
-                      170°F+, metal roofing outperforms traditional asphalt shingles in every
-                      category: longevity (50+ years vs 15-20), energy efficiency (reflects up to
-                      70% of solar radiation), wind resistance (rated for 140+ mph), hail resistance
-                      (superior impact resistance), and fire safety (Class A fire rating).
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      We install standing seam metal roofing with concealed fasteners for maximum
-                      weather protection, corrugated metal panels ideal for shops and agricultural
-                      buildings, stone-coated metal shingles that combine metal durability with
-                      traditional aesthetics, and commercial metal roof systems for warehouses and
-                      industrial facilities. Available in numerous colors and finishes to match any
-                      Odessa property.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      <strong>Energy savings:</strong> Metal roofing can reduce cooling costs by
-                      20-30% compared to dark asphalt shingles. Many Odessa homeowners see ROI
-                      within 10-15 years through energy savings and reduced maintenance costs.
-                    </p>
-                    <a
-                      href="/metal-roof-installation-odessa-texas/"
-                      className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
-                    >
-                      Metal Roofing Installation →
-                    </a>
-                  </div>
-                </div>
-              </InteractiveCard>
-            </FadeIn>
-
-            {/* Storm Services */}
-            <FadeIn delay={0.5}>
-              <InteractiveCard className="bg-red-50 border-2 border-red-300">
-                <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-1/3">
-                    <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      Storm Damage Roof Repair
-                    </h3>
-                    <p className="text-sm text-red-600 font-semibold">LOCAL ROOFING TEAM</p>
-                  </div>
-                  <div className="md:w-2/3">
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>roofing issues strike without warning in Odessa.</strong> When severe
-                      thunderstorms roll across the Permian Basin, when high winds tear off
-                      shingles, when hail punctures your roof, or when you discover an active leak
-                      threatening your property, you need immediate professional response. We
-                      provide professional roofing services throughout Odessa and surrounding
-                      communities.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      Our scheduling include fast turnaround,
-                      prompt weatherproof sheeting to help prevent water damage and secure your property, temporary
-                      leak repairs to stop active water intrusion, storm damage assessment and
-                      documentation, debris removal and site cleanup, and coordination with your
-                      insurance company for scheduling coverage.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      <strong>Don&apos;t wait:</strong> Every minute of water infiltration causes
-                      exponentially more damage to insulation, ceilings, walls, and contents. Call{" "}
-                      <a
-                        href="tel:8066226041"
-                        className="text-brand-gold font-bold hover:underline"
-                      >
-                        (806) 622-6041
-                      </a>{" "}
-                      immediately for professional assistance anywhere in Odessa.
-                    </p>
-                    <a
-                      href="/hail-damage-repair-odessa/"
-                      className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2 text-lg"
-                    >
-                      s →
-                    </a>
-                  </div>
-                </div>
-              </InteractiveCard>
-            </FadeIn>
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {services.map((service) => (
+              <a
+                key={service.slug}
+                href={`/${service.slug}-odessa/`}
+                className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow border border-gray-100 hover:border-brand-gold/40"
+              >
+                <div className="text-2xl mb-2">{service.icon}</div>
+                <span className="font-semibold text-brand-brown">{service.name} in Odessa</span>
+              </a>
+            ))}
           </div>
         </section>
 
-        {/* Odessa-Specific Climate Challenges */}
+        {/* Neighborhoods We Serve */}
+        <FadeIn>
+          <section className="section">
+            <h2 className="section-title">Odessa Neighborhoods We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From established residential neighborhoods to the commercial corridors and
+                industrial districts, we provide expert roofing services throughout Odessa:
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">North Odessa</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Sherwood</li>
+                    <li>&#10003; Stonegate</li>
+                    <li>&#10003; Parkview Estates</li>
+                    <li>&#10003; Mission Dorado</li>
+                    <li>&#10003; Ridgemont</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Central &amp; West Odessa</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Downtown / Globe Theatre District</li>
+                    <li>&#10003; Woodson Heights</li>
+                    <li>&#10003; Dos Amigos</li>
+                    <li>&#10003; West Odessa</li>
+                    <li>&#10003; UTPB Campus Area</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Commercial &amp; Industrial</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; East 42nd Street corridor</li>
+                    <li>&#10003; Andrews Highway</li>
+                    <li>&#10003; JBS Parkway area</li>
+                    <li>&#10003; I-20 industrial corridor</li>
+                    <li>&#10003; All Ector County</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-8">
+                Sherwood and Stonegate are two of Odessa&apos;s most established residential
+                neighborhoods, while the UTPB campus area continues to see new development. Whether
+                you&apos;re downtown near the Globe Theatre, along the I-20 corridor, or anywhere
+                in Ector County, we serve your area.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Recent Storm Events */}
+        <FadeIn>
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Recent Hail Events in Odessa
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-red-700 mb-2">
+                  May 23, 2019 &mdash; The Storm That Changed Standards
+                </h3>
+                <p className="text-gray-700">
+                  A devastating supercell dropped hail up to 4.5 inches in diameter across Odessa,
+                  causing more than $100 million in property damage and destroying thousands of
+                  residential and commercial roofs in a single afternoon. The event reshaped local
+                  insurance practices and pushed Class 4 impact-resistant materials from premium
+                  option to standard expectation.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">
+                  Annual Hail Frequency &mdash; Ongoing
+                </h3>
+                <p className="text-gray-700">
+                  The National Weather Service documents 6-8 significant hail events per year across
+                  Ector County, with many storms producing stones 2-4 inches in diameter. Peak
+                  season runs March through May with a secondary fall peak. Hail damage isn&apos;t
+                  always immediately visible — granule loss, seal failure, and cracking lead to
+                  premature roof failure and leaks that surface months later.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">
+                  Wind &amp; Temperature Stress
+                </h3>
+                <p className="text-gray-700">
+                  Odessa&apos;s annual temperature range exceeds 120°F. Summer highs regularly reach
+                  105-110°F with roof surface temperatures exceeding 170°F. Winter brings arctic
+                  blasts dropping temperatures below 10°F. The constant thermal cycling stresses
+                  sealants and fasteners, while straight-line winds reaching 70-80 mph during severe
+                  weather lift improperly installed shingles and tear flat-roof membrane seams.
+                </p>
+              </div>
+              <p className="text-center text-gray-500 text-sm mt-4">
+                Texas law gives you up to 2 years to file hail damage claims. After any hail event
+                in Odessa, get a professional inspection within 72 hours to protect your rights and
+                prevent hidden water infiltration.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Odessa-Specific Challenges */}
         <FadeIn>
           <section className="section bg-brand-gold-light p-12 rounded-lg my-16">
             <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
-              Understanding Odessa&apos;s Extreme Roofing Climate
+              Roofing Challenges in Odessa &amp; Ector County
             </h2>
-            <p className="text-center text-gray-700 max-w-3xl mx-auto mb-8">
-              Odessa&apos;s location in the Permian Basin creates one of the most challenging
-              roofing environments in North America. Your roof must withstand multiple extreme
-              conditions simultaneously.
-            </p>
             <div className="max-w-4xl mx-auto space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">
-                  <CloudLightning className="w-6 h-6 inline-block" /> Severe Hail Storms - The
-                  Primary Threat
-                </h3>
-                <p className="text-gray-700">
-                  Odessa sits directly in &quot;Hail Alley,&quot; experiencing 6-8 significant hail
-                  events annually. The National Weather Service documents that Ector County receives
-                  some of Texas&apos;s most destructive hailstorms, with stones frequently exceeding
-                  2 inches (golf ball size) and occasionally reaching 4+ inches (softball size). The
-                  May 23, 2019 supercell storm that devastated Odessa produced hail up to 4.5
-                  inches, destroying thousands of roofs in a single afternoon. Hail damage
-                  isn&apos;t always immediately visible but causes granule loss, seal failure, and
-                  cracking that leads to premature roof failure and leaks.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">
-                  <Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Swings
-                </h3>
-                <p className="text-gray-700">
-                  Odessa&apos;s annual temperature range exceeds 120 degrees Fahrenheit. Summer
-                  highs regularly reach 105-110°F, with roof surface temperatures exceeding 170°F on
-                  dark shingles. Winter can bring arctic blasts dropping temperatures below 10°F.
-                  This 120+ degree annual swing causes constant thermal expansion and
-                  contraction—materials expand in extreme heat, contract in extreme cold—creating
-                  tremendous stress on roofing materials, sealants, and fasteners. This daily and
-                  seasonal cycling accelerates aging and causes premature failure of inferior
-                  roofing products.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">
-                  <Sun className="w-6 h-6 inline-block" /> Intense UV Radiation and Heat
-                </h3>
-                <p className="text-gray-700">
-                  At Odessa&apos;s elevation and latitude, UV radiation is intense year-round.
-                  Combined with temperatures exceeding 100°F for 80-100 days annually, asphalt
-                  shingles age rapidly. The UV radiation breaks down asphalt binders, causes granule
-                  loss (reducing reflectivity and protection), makes shingles brittle and prone to
-                  cracking, and can reduce expected roof life by 30-40% without proper materials. We
-                  only install premium shingles with enhanced UV protection and reflective granules
-                  specifically rated for extreme heat environments.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">
-                  <Wind className="w-6 h-6 inline-block" /> Sustained High Winds
-                </h3>
-                <p className="text-gray-700">
-                  The Permian Basin experiences persistent winds averaging 12-15 mph, with frequent
-                  gusts exceeding 40 mph. During spring and fall severe weather, straight-line winds
-                  can reach 70-80 mph. Thunderstorm outflows produce sudden, powerful wind gusts.
-                  These conditions lift improperly installed shingles, tear membrane seams on flat
-                  commercial roofs, damage flashing and trim, and turn loose debris into
-                  projectiles. We use enhanced fastening schedules exceeding minimum code
-                  requirements, specifically designed for high-wind regions.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">
-                  <Factory className="w-6 h-6 inline-block" /> Industrial Environment Challenges
-                </h3>
-                <p className="text-gray-700">
-                  Odessa&apos;s oil and gas industry creates unique roofing challenges. Refineries,
-                  processing plants, and industrial facilities expose roofs to chemical fumes,
-                  higher thermal loads from equipment, vibration from machinery, increased foot
-                  traffic for maintenance access, and the need for minimal downtime during repairs.
-                  We provide specialized commercial roofing systems with chemical-resistant
-                  membranes, reinforced walkway pads, and preventive maintenance programs that keep
-                  critical facilities operational.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">
-                  <Droplets className="w-6 h-6 inline-block" /> Flash Flooding and Water Management
-                </h3>
-                <p className="text-gray-700">
-                  While Odessa averages only 14 inches of annual rainfall, precipitation comes in
-                  intense bursts. Thunderstorms can dump 2-3 inches in under an hour, overwhelming
-                  inadequate drainage systems. Flat commercial roofs must have properly designed
-                  drainage with adequate scuppers and internal drains. Ponding water (standing water
-                  lasting 48+ hours) accelerates membrane deterioration and leads to premature roof
-                  failure. We design proper slopes and drainage for all commercial installations.
-                </p>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Areas Served in Odessa */}
-        <FadeIn>
-          <section className="section">
-            <h2 className="section-title">Neighborhoods and Districts We Serve in Odessa</h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-center text-gray-600 mb-8 text-lg">
-                Comprehensive roofing services throughout all Odessa neighborhoods, commercial
-                districts, and surrounding Ector County communities:
-              </p>
-              <div className="grid md:grid-cols-3 gap-6 text-gray-700">
-                <div>
-                  <h4 className="font-bold text-brand-brown mb-3">North Odessa</h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Sherwood
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Stonegate
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Parkview Estates
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Mission Dorado
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Ridgemont
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-bold text-brand-brown mb-3">Central & West Odessa</h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Downtown Odessa
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Globe Theatre District
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Woodson Heights
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Dos Amigos
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      West Odessa
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-bold text-brand-brown mb-3">Commercial & Industrial</h4>
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      UTPB Area
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      East 42nd Street corridor
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Andrews Highway
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      JBS Parkway area
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      I-20 industrial corridor
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p className="text-center text-gray-600 mt-8 text-lg">
-                We also serve all surrounding Ector County communities and provide service
-                throughout the Permian Basin region.
-              </p>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Local Landmarks & Map */}
-        <FadeIn>
-          <section className="section bg-gray-50 p-8 rounded-lg">
-            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
-              Serving All of Odessa and Surrounding Communities
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <div>
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">
-                  Odessa Landmarks We Serve Near:
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Hail Alley Supercells
                 </h3>
-                <ul className="space-y-3 text-gray-700">
-                  <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">
-                      <Drama className="w-6 h-6 inline-block" />
-                    </span>
-                    <span>
-                      <strong>Globe Theatre</strong> - Historic downtown landmark and cultural
-                      center
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">
-                      <School className="w-6 h-6 inline-block" />
-                    </span>
-                    <span>
-                      <strong>University of Texas Permian Basin</strong> - Growing campus area with
-                      residential development
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">
-                      <Landmark className="w-6 h-6 inline-block" />
-                    </span>
-                    <span>
-                      <strong>Ratliff Stadium</strong> - Home of Friday Night Lights legacy
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">
-                      <Landmark className="w-6 h-6 inline-block" />
-                    </span>
-                    <span>
-                      <strong>Presidential Museum</strong> - Downtown museum district
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">
-                      <ShoppingBag className="w-6 h-6 inline-block" />
-                    </span>
-                    <span>
-                      <strong>Music City Mall</strong> - Major commercial center on East 42nd Street
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">
-                      <Plane className="w-6 h-6 inline-block" />
-                    </span>
-                    <span>
-                      <strong>Odessa-Schlemeyer Field</strong> - Airport area business district
-                    </span>
-                  </li>
-                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  Odessa&apos;s position in the southern Plains makes it a magnet for supercell
+                  thunderstorms. Warm Gulf moisture clashing with dry Permian Basin air fuels storms
+                  capable of producing 4-inch hail, as the May 2019 event demonstrated. Class 4
+                  impact-resistant materials qualify for insurance discounts up to 30% and are
+                  strongly recommended for all Odessa properties.
+                </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">Service Area Coverage:</h3>
-                <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <p className="text-gray-700 mb-4">
-                    <strong>Primary Service Area:</strong> All of Odessa and Ector County, including
-                    residential neighborhoods, commercial districts, and industrial facilities
-                    throughout the Permian Basin.
-                  </p>
-                  <p className="text-gray-700 mb-4">
-                    <strong>Scheduling:</strong> Inspections and installations available throughout
-                    the week across Odessa and Ector County.
-                  </p>
-                  <p className="text-gray-700">
-                    <strong>Nearby Communities:</strong> We also serve Midland (20 miles east),
-                    Gardendale, Goldsmith, and surrounding Permian Basin communities.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
-
-        {/* Insurance & Local Providers */}
-        <FadeIn>
-          <section className="section">
-            <h2 className="section-title">Insurance Claim Assistance for Odessa Homeowners</h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-center text-xl text-gray-600 mb-8">
-                We work directly with all major insurance companies serving Odessa and the Permian
-                Basin:
-              </p>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-amber-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-brand-brown mb-3">
-                    National Insurance Providers:
-                  </h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      State Farm Insurance
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Allstate Insurance
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      USAA (military families)
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Farmers Insurance
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Liberty Mutual
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Progressive Insurance
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Nationwide Insurance
-                    </li>
-                  </ul>
-                </div>
-                <div className="bg-amber-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-brand-brown mb-3">
-                    Local & Regional Providers:
-                  </h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Permian Basin Insurance
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Texas Farm Bureau
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Germania Insurance
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Local independent agents
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Regional insurance agencies
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Oil industry coverage providers
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="mt-8 bg-yellow-50 p-6 rounded-lg border-2 border-yellow-200">
-                <h3 className="text-lg font-bold text-brand-brown mb-3">
-                  Our Insurance Assistance Includes:
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Oil Field &amp; Industrial Roofing
                 </h3>
-                <ul className="grid md:grid-cols-2 gap-3 text-gray-700">
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Free damage assessment and documentation
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Comprehensive photo evidence with drone imagery
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Detailed written estimates for adjusters
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Direct communication with insurance adjusters
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Supplement negotiation for full coverage
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Guidance through the claims process
-                  </li>
-                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  Odessa&apos;s oil and gas economy means refineries, processing plants, oilfield
+                  service yards, and pipe storage facilities throughout the I-20 corridor. These
+                  properties need chemical-resistant PVC membranes, heavy-duty metal roofing,
+                  reinforced walkway pads, and systems that handle the high-traffic roof access
+                  required for maintenance equipment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Heat &amp; UV Degradation
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Odessa summers regularly exceed 105°F, with roof surface temperatures reaching
+                  170°F or higher. Intense UV radiation breaks down asphalt binders, causes granule
+                  loss, and can reduce expected roof life by 30-40% without premium UV-stabilized
+                  materials. Reflective TPO and metal roofing systems cut cooling costs by 20-30%
+                  while providing superior durability against heat and UV exposure.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  Flash Flooding &amp; Drainage
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Odessa averages only 14 inches of annual rainfall, but precipitation arrives in
+                  intense bursts — thunderstorms can dump 2-3 inches in under an hour. Flat
+                  commercial roofs require properly designed drainage with adequate scuppers and
+                  internal drains. Ponding water lasting 48+ hours accelerates membrane
+                  deterioration and leads to premature failure.
+                </p>
               </div>
             </div>
           </section>
         </FadeIn>
 
-        {/* Why Act Now */}
+        {/* Odessa City-Specific Details */}
         <FadeIn>
-          <section className="section bg-red-50 p-8 rounded-lg border-2 border-red-200">
-            <h2 className="text-3xl font-bold text-center mb-6 text-red-800">
-              Why Odessa Homeowners Should Act Now
-            </h2>
-            <div className="max-w-3xl mx-auto space-y-4 text-gray-700">
-              <p className="text-lg">
-                <strong>Texas law gives you 2 years to file hail damage claims,</strong> but waiting
-                is costly. Hidden hail damage allows water infiltration that destroys insulation,
-                creates mold, damages ceilings and walls, and can void your insurance coverage if
-                deemed &quot;lack of maintenance.&quot;
-              </p>
-              <p className="text-lg">
-                <strong>
-                  After any hail event in Odessa, get a professional inspection within 72 hours.
-                </strong>
-                We provide free inspections with no obligation. If we find damage, we document
-                everything and help you file. If your roof is fine, you have peace of mind—and our
-                inspection is still free.
-              </p>
-              <p className="text-lg">
-                <strong>
-                  Impact-resistant shingles can reduce your insurance premiums by up to 35%
-                </strong>{" "}
-                in Odessa. Many homeowners recover the upgrade cost through insurance savings within
-                5-7 years while gaining superior protection against future hail events.
-              </p>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Odessa: Capital of the Permian Basin</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">I-20 Corridor &amp; Commerce</h3>
+                <p className="text-gray-600 mb-4">
+                  Odessa&apos;s position along I-20 between Midland and Big Spring has made it a
+                  hub for oil-industry logistics, retail, and hospitality. The East 42nd Street
+                  retail corridor, Music City Mall, and the commercial developments along Andrews
+                  Highway all require commercial roofing systems built for hail resistance and heat
+                  reflectance. The Globe Theatre district downtown features historic buildings that
+                  demand careful, restoration-quality work.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">Major Employers &amp; Institutions</h3>
+                <p className="text-gray-600 mb-4">
+                  The University of Texas Permian Basin anchors higher education in the region and
+                  continues to expand its campus footprint. Medical Center Hospital and Odessa
+                  Regional Medical Center serve a vast catchment area across West Texas and require
+                  institutional-grade commercial roofing. The Alon refinery complex and the broader
+                  oil-industry employer base round out a commercial property base that depends on
+                  specialized roofing for chemical-exposure environments.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">
+                  UTPB &amp; Education Corridor
+                </h4>
+                <p className="text-sm text-gray-600">
+                  University campus and surrounding academic and residential development requiring
+                  durable, institutional-grade systems
+                </p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Globe Theatre District</h4>
+                <p className="text-sm text-gray-600">
+                  Historic downtown buildings requiring restoration-compatible roofing that
+                  maintains architectural character
+                </p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">I-20 Industrial Zone</h4>
+                <p className="text-sm text-gray-600">
+                  Refineries, oilfield service yards, and pipe storage requiring chemical-resistant
+                  membranes and reinforced systems
+                </p>
+              </div>
             </div>
           </section>
         </FadeIn>
@@ -930,126 +494,40 @@ export default function OdessaRoofingPage() {
               Odessa Roofing FAQs
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem
-                value="faq-1"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What roofing systems do you recommend for Odessa oil and gas facilities?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  For Permian Basin oil and gas facilities, we recommend PVC membrane systems for
-                  their superior chemical resistance against petroleum fumes and processing
-                  byproducts. TPO systems with reflective surfaces work well for warehouses and
-                  office buildings along the I-20 corridor, reducing cooling costs in Odessa&apos;s
-                  extreme heat. For industrial facilities with heavy equipment vibration and foot
-                  traffic, we install reinforced walkway pads and use enhanced fastening schedules
-                  that exceed standard specifications.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-2"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How did the May 2019 Odessa hailstorm change local roofing standards?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  The devastating May 2019 supercell that dropped 4.5-inch hail across Odessa caused
-                  over $100 million in property damage and destroyed thousands of roofs. Since then,
-                  many Odessa homeowners and insurance providers have shifted toward Class 4
-                  impact-resistant materials as the standard rather than a premium option. We have
-                  seen a significant increase in metal roofing installations as well, particularly
-                  standing seam systems rated to withstand softball-sized hail.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-3"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Why do Odessa roofs age faster than roofs in more temperate climates?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Odessa roofs face a triple threat that accelerates aging: extreme heat exceeding
-                  105 degrees Fahrenheit with roof surface temperatures reaching 170 degrees,
-                  intense UV radiation that breaks down asphalt binders and causes granule loss, and
-                  annual temperature swings exceeding 120 degrees that cause constant thermal
-                  expansion and contraction. Standard shingles rated for 25-30 years in moderate
-                  climates often fail in just 15-18 years in Odessa without premium UV-stabilized
-                  materials.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-4"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Do you serve the UTPB campus area and Sherwood neighborhood?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide comprehensive roofing services throughout all Odessa neighborhoods
-                  including Sherwood, Stonegate, Mission Dorado, Ridgemont, Parkview Estates,
-                  Woodson Heights, Dos Amigos, the UTPB campus area, and all commercial districts
-                  along East 42nd Street, Andrews Highway, and the I-20 corridor. We also serve West
-                  Odessa and surrounding Ector County communities.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-5"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Can metal roofing really reduce cooling costs in Odessa&apos;s extreme heat?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Absolutely. Metal roofing with reflective coatings can reduce cooling costs by
-                  20-30% compared to dark asphalt shingles. In Odessa, where summers regularly
-                  exceed 100 degrees and cooling accounts for a major portion of energy bills,
-                  homeowners typically see a return on investment within 10-15 years through energy
-                  savings alone. Metal roofing also lasts 50+ years compared to 15-20 years for
-                  standard shingles in Odessa&apos;s climate, making the total cost of ownership
-                  significantly lower.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem
-                value="faq-6"
-                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
-              >
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How does Odessa&apos;s flash flooding risk affect flat commercial roofs?
-                </AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">
-                  Although Odessa averages only 14 inches of annual rainfall, precipitation comes in
-                  intense bursts that can dump 2-3 inches in under an hour. Flat commercial roofs
-                  must have properly designed drainage with adequate scuppers and internal drains.
-                  Ponding water that remains for more than 48 hours accelerates membrane
-                  deterioration and can lead to premature failure. We design all commercial
-                  installations with proper slope and redundant drainage to handle these intense
-                  rainfall events.
-                </AccordionContent>
-              </AccordionItem>
+              {faqItems.map((faq, index) => (
+                <AccordionItem
+                  key={`item-${index + 1}`}
+                  value={`item-${index + 1}`}
+                  className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+                >
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
             </Accordion>
           </section>
         </FadeIn>
 
-        {/* Final CTA */}
+        {/* CTA Section */}
         <FadeIn>
           <section className="cta-section my-16">
-            <h2 className="cta-title">Protect Your Odessa Property with Expert Roofing</h2>
+            <h2 className="cta-title">Ready to Protect Your Odessa Property?</h2>
             <p className="cta-text">
-              From hail damage repair to complete roof replacement, from residential homes to
-              industrial facilities, we&apos;re Odessa&apos;s trusted roofing partner. Free
-              inspections, comprehensive warranties, and financing available. Serving the Permian
-              Basin serving the area.
+              Whether you need a free roof inspection, hail damage assessment, emergency repairs, or
+              a complete roof replacement, 5 Star Commercial Roofing serves Odessa with expert
+              craftsmanship and honest pricing. Most hail damage repairs are covered by insurance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041 Now
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
+                Call (806) 622-6041 Now
               </a>
               <a
                 href="/contact/"
-                className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg border-2 border-brand-brown"
+                className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg"
               >
                 Schedule Free Inspection
               </a>
@@ -1057,11 +535,11 @@ export default function OdessaRoofingPage() {
           </section>
         </FadeIn>
 
-        {/* Nearby Cities Links */}
+        {/* Nearby Cities */}
         <FadeIn>
           <section className="section pb-16">
             <h2 className="text-2xl font-bold text-center mb-6 text-brand-brown">
-              Also Serving Nearby Permian Basin Communities
+              Also Serving Nearby Permian Basin Cities
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <a
@@ -1070,21 +548,28 @@ export default function OdessaRoofingPage() {
               >
                 Midland
               </a>
-              <span className="text-gray-400">•</span>
+              <span className="text-gray-400">&bull;</span>
               <a
-                href="/amarillo-tx-roofing/"
+                href="/big-spring-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
-                Amarillo
+                Big Spring
               </a>
-              <span className="text-gray-400">•</span>
+              <span className="text-gray-400">&bull;</span>
               <a
-                href="/lubbock-tx-roofing/"
+                href="/andrews-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
-                Lubbock
+                Andrews
               </a>
-              <span className="text-gray-400">•</span>
+              <span className="text-gray-400">&bull;</span>
+              <a
+                href="/monahans-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Monahans
+              </a>
+              <span className="text-gray-400">&bull;</span>
               <a
                 href="/service-areas/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
@@ -1094,43 +579,8 @@ export default function OdessaRoofingPage() {
             </div>
           </section>
         </FadeIn>
-
-        {/* Related Blog Content */}
-        <FadeIn>
-          <section className="section bg-gray-50 p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-center mb-6 text-brand-brown">
-              Helpful Roofing Resources for Odessa Homeowners
-            </h2>
-            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <a
-                href="/blog/"
-                className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all"
-              >
-                <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair Guide</h3>
-                <p className="text-sm text-gray-600">
-                  Complete guide to identifying and repairing hail damage
-                </p>
-              </a>
-              <a
-                href="/blog/"
-                className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all"
-              >
-                <h3 className="font-bold text-brand-brown mb-2">Choosing Roofing Materials</h3>
-                <p className="text-sm text-gray-600">
-                  Best roofing materials for West Texas climate
-                </p>
-              </a>
-              <a
-                href="/blog/"
-                className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all"
-              >
-                <h3 className="font-bold text-brand-brown mb-2">Insurance Claim Process</h3>
-                <p className="text-sm text-gray-600">Navigating roof insurance claims in Texas</p>
-              </a>
-            </div>
-          </section>
-        </FadeIn>
       </div>
+
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -1138,93 +588,55 @@ export default function OdessaRoofingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "RoofingContractor"],
-            "@id": "https://5starroofingpros.com/odessa-texas-roofing/",
+            "@id": "https://5starroofingpros.com/odessa-tx-roofing/",
             name: "5 Star Roofing",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             image:
-              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp",
             description:
-              "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and scheduling for residential and industrial properties.",
-            telephone: "(806) 622-6041",
-            email: "admin@5starroofingpros.com",
-            url: "https://5starroofingpros.com/odessa-texas-roofing/",
-            priceRange: "$$",
+              "Professional roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and oil-industry facility roofing for residential and industrial properties throughout Ector County.",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Odessa",
               addressRegion: "TX",
               addressCountry: "US",
             },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "31.8457",
+              longitude: "-102.3676",
+            },
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            url: "https://5starroofingpros.com",
+            priceRange: "$$",
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
+            ],
             areaServed: [
               {
                 "@type": "City",
                 name: "Odessa",
-                containedInPlace: {
-                  "@type": "State",
-                  name: "Texas",
-                },
+                containedInPlace: { "@type": "State", name: "Texas" },
               },
               {
                 "@type": "AdministrativeArea",
                 name: "Ector County",
               },
             ],
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: "31.8457",
-              longitude: "-102.3676",
-            },
-            hasOfferCatalog: {
-              "@type": "OfferCatalog",
-              name: "Roofing Services",
-              itemListElement: [
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Hail Damage Roof Repair",
-                    description:
-                      "Expert hail damage assessment, documentation, and repair for Odessa's frequent severe storms. Insurance claim assistance included.",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Commercial Roofing",
-                    description:
-                      "Commercial and industrial roofing systems including TPO, EPDM, PVC, and metal roofing for oil industry facilities and businesses.",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Metal Roof Installation",
-                    description:
-                      "Standing seam and corrugated metal roofing systems ideal for Odessa's extreme heat and hail conditions.",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Residential Roofing",
-                    description:
-                      "Complete roof replacement and repair services for Odessa homes using impact-resistant and energy-efficient materials.",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    description:
-                      "professional roofing services throughout Odessa for storm damage, leaks, and urgent repairs.",
-                  },
-                },
-              ],
-            },
-            openingHours: "Mo-Su 00:00-23:59",
           }),
         }}
       />
