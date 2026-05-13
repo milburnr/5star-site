@@ -640,17 +640,11 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     font-family: var(--font-cormorant), "Cormorant Garamond", "Bodoni 72 Display", Didot, "Times New Roman", serif;
     /* --hero-display-scale defaults to 1 on the homepage. Interior pages
        (location, service, service+location) pass 0.55-0.6 via inline style.
-       The 6rem (96px) floor was too tall for narrow phones — combined with
-       displayScale 0.55 and long city/service names like "HAIL DAMAGE REPAIR"
-       or "HEREFORD", the decorative text overflowed the right edge.
-       Below 640px the floor drops to 2.5rem and the preferred grows with
-       viewport width so 11-char names fit. */
+       The display is aria-hidden — it is editorial decoration. Some right-
+       edge bleed on long names like HAIL DAMAGE REPAIR is intentional; the
+       parent .alt-home-hero already has overflow hidden so it never reaches
+       the horizontal scrollbar. */
     font-size: calc(clamp(6rem, min(18vw, 32vh), 22vw) * var(--hero-display-scale, 1));
-    /* Allow the renderer to clip the decorative text gracefully if it ever
-       overshoots; it's aria-hidden, so visual clipping is preferable to a
-       horizontal scroll bar or a wrap-mid-word artifact. */
-    max-width: calc(100vw - 2 * clamp(30px, 6.7vw, 9vw));
-    overflow: hidden;
     font-weight: 300;
     line-height: 0.82;
     letter-spacing: -0.018em;
@@ -675,16 +669,12 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     }
   }
 
-  /* Narrow phones: shrink the decorative type so 11-char city + service
-     combos fit. The fallback font (Bodoni / Didot / Times) is wider than
-     Cormorant Garamond, so we size for the worst case — 8-char "HEREFORD"
-     in fallback should still fit a 390px viewport with 30px gutters.
-     For interior pages with displayScale=0.55, this produces ~24-30px text. */
-  @media (max-width: 640px) {
-    .alt-headline {
-      font-size: calc(clamp(2rem, 10.5vw, 13vw) * var(--hero-display-scale, 1));
-    }
-  }
+  /* Narrow phones: intentionally NOT a tight clamp — we want the editorial
+     display to keep its presence on mobile, even if the long-form sub-
+     display HAIL DAMAGE REPAIR partially bleeds off the right edge. The
+     bleed is clipped by .alt-home-hero (overflow hidden). Removed an earlier
+     aggressive shrink (clamp 2rem-13vw) that made the type feel timid
+     against the breadcrumb. */
 
   .alt-headline span {
     display: block;
@@ -1139,11 +1129,13 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     .alt-headline {
       top: 116px;
       left: 21px;
-      /* Narrow phones (<520px): respect --hero-display-scale AND tighten the
-         clamp so 8-char "HEREFORD" + 18-char "HAIL DAMAGE REPAIR" sub-display
-         fit the viewport in the Cormorant Garamond fallback (Bodoni/Didot,
-         which is significantly wider than Cormorant itself). */
-      font-size: calc(clamp(3.4rem, 18vw, 5.6rem) * var(--hero-display-scale, 1));
+      /* Narrow phones (<520px): respect --hero-display-scale (the original
+         override silently dropped the multiplier, so interior pages got
+         desktop-scale 104px type). The display intentionally bleeds right on
+         long city/service combos — .alt-home-hero (overflow hidden) clips
+         the bleed. Tuned so the main display HEREFORD at scale 0.55 lands
+         around 75-85px, present enough to subordinate the breadcrumb. */
+      font-size: calc(clamp(5.85rem, 26.8vw, 9.5rem) * var(--hero-display-scale, 1));
     }
 
     .alt-side-copy {
