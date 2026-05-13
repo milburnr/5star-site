@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Factory, Fuel, Hotel, Leaf, Palmtree, Phone, Star, Waves, Wrench } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-monahans/" },
   title: "Commercial Roofing Monahans TX | 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function CommercialRoofingMonahansPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Commercial Roofing", url: "/commercial-roofing/" },
-          { name: "Monahans", url: "/commercial-roofing-monahans/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -147,44 +138,20 @@ export default function CommercialRoofingMonahansPage() {
 
       {/* schema-cleanup:faqpage:removed */}
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-san-angelo-26-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Commercial Roofing in <span className="text-brand-gold-light">Monahans</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Expert Service for Texas Properties
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional commercial roofing throughout Monahans. Expert installation,
-                comprehensive warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Monahans"
+        service="Commercial Roofing"
+        h1="Commercial Roofing in Monahans, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-san-angelo-26-1280w.jpg"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Monahans", url: "/commercial-roofing-monahans/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -232,7 +199,7 @@ export default function CommercialRoofingMonahansPage() {
               one of Texas's most unique natural attractions.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Monahans' evolving economy with expert installations and
+              We've served Monahans' evolving economy with expert installations and
               comprehensive warranties for oil and gas facilities, emerging industries, and
               tourism-related businesses. We handle all
               permits, insurance claims, and warranty documentation.
@@ -263,7 +230,7 @@ export default function CommercialRoofingMonahansPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Roofing Solutions for Monahans' Diverse Economy Involve?
+              What Does roof system for Monahans' Diverse Economy Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-black">
@@ -555,7 +522,7 @@ export default function CommercialRoofingMonahansPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Monahans?
+              How Does Our Post-Storm Process Work in Monahans?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -570,7 +537,7 @@ export default function CommercialRoofingMonahansPage() {
                 </p>
 
                 <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">
-                  Desert storm response:
+                  Desert post-storm documentation:
                 </h4>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
@@ -654,45 +621,6 @@ export default function CommercialRoofingMonahansPage() {
           </section>
         </FadeIn>
 
-        <FadeIn>
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Monahans Commercial Roofing Performance Metrics Involve?
-            </h2>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={140} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Monahans Projects</div>
-                  <div className="text-sm text-gray-600 mt-1">
-                    Oil, agriculture, manufacturing, tourism
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={45} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Energy Savings</div>
-                  <div className="text-sm text-gray-600 mt-1">Hydroponic facility average</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">100%</div>
-                  <div className="text-brand-brown font-semibold">Security Compliance</div>
-                  <div className="text-sm text-gray-600 mt-1">Manufacturing facility projects</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={15} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Years Desert Experience</div>
-                  <div className="text-sm text-gray-600 mt-1">Specialized material knowledge</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         <FadeIn>
           <section className="mb-16">
@@ -816,16 +744,7 @@ export default function CommercialRoofingMonahansPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

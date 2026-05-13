@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Briefcase, Check, Factory, Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/metal-roofing-borger/" },
   title: "Metal Roofing Borger TX | 5 Star Roofing",
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-metal-roof.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Commercial metal roof installation in West Texas — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function MetalRoofingBorgerPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Metal Roofing",
-            url: "/metal-roofing/",
-          },
-          {
-            name: "Borger",
-            url: "/metal-roofing-borger/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -164,128 +147,58 @@ export default function MetalRoofingBorgerPage() {
           }),
         }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "Why is metal roofing ideal for Borger properties?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Metal roofing excels in Borger's Texas Panhandle climate due to superior wind resistance (140+ mph ratings), Class A fire resistance, exceptional hail resistance with dent-resistant coatings, 50+ year lifespan, and energy efficiency from reflective coatings. Metal roofs withstand Borger's 7-9 annual hailstorms, extreme temperature swings, and sustained high winds better than any other roofing material.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How long does metal roofing last in Borger?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Metal roofing systems typically last 50-70 years in Borger when properly installed. Standing seam metal roofs often outlast the buildings they protect. Unlike asphalt shingles that deteriorate in Texas Panhandle UV exposure, metal roofing maintains performance decade after decade. Many metal roofs installed in the 1970s-80s still perform excellently today.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Is metal roofing energy-efficient for Borger homes?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, metal roofing with reflective coatings significantly reduces cooling costs in Borger's hot climate. Cool-roof metal systems reflect solar radiation and re-emit absorbed heat, keeping buildings 10-15 degrees cooler. Borger property owners typically see 20-40% reductions in summer cooling expenses. Metal roofing qualifies for energy efficiency tax credits.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How much does metal roofing cost in Borger?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Metal roofing in Borger typically costs $7-15 per square foot installed, depending on metal type, profile, coating, and roof complexity. Standing seam metal is premium ($12-15/sq ft), while R-panel and corrugated options are more economical ($7-10/sq ft). While initial costs exceed asphalt shingles, metal roofing's 50+ year lifespan and low maintenance provide superior long-term value.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Can metal roofing withstand Borger's hailstorms?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, metal roofing with proper gauge thickness and dent-resistant coatings provides excellent hail protection for Borger's 7-9 annual hailstorms. 26-gauge steel with Kynar coatings resists denting from golf ball-sized hail. Stone-coated metal shingles offer additional impact protection. Many insurance companies offer premium discounts for impact-resistant metal roofing installations.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-channing-38-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-zinc-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Metal Roofing in <span className="text-brand-gold-light">Borger</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Premium Metal Systems | 50+ Year Lifespan
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert metal roofing in Borger TX. Texas Panhandle experiences 6-8 hailstorms
-                annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={180} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Borger Projects</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">6-8</div>
-                <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">1-3</div>
-                <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="borger"
+        city="Borger"
+        service="Metal Roofing"
+        h1="Metal Roofing in Borger, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-12-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Metal Roofing",
+            url: "/metal-roofing/",
+          },
+          {
+            name: "Borger",
+            url: "/metal-roofing-borger/",
+          },
+        ]}
+    />
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing installs and repairs metal roofing in Borger TX R-panel, corrugated, and standing seam metal systems for homes and commercial buildings in Hutchinson County.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/metal-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Metal Roofing</a>
+              <a href="/metal-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Metal</a>
+              <a href="/metal-roofing-dumas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Dumas Metal</a>
+              <a href="/borger-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Borger Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -298,7 +211,7 @@ export default function MetalRoofingBorgerPage() {
               Panhandle weather extremes—demand superior roofing materials and expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 180+ Borger properties with premium materials engineered
+              We've protected 180+ Borger properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Borger
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -616,16 +529,7 @@ export default function MetalRoofingBorgerPage() {
               Visit Our Amarillo Location - Serving Borger
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Borger, TX Area Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

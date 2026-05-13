@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair/" },
   title: "Wind Damage Roof Repair Texas | 5 Star Roofing",
   description:
-    "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
+    "Expert wind damage roof repair across Texas. Emergency weatherproof sheeting, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
   openGraph: {
     title: "Wind Damage Roof Repair Texas | 5 Star Roofing",
     description:
-      "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
+      "Expert wind damage roof repair across Texas. Emergency weatherproof sheeting, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/wind-damage-repair/",
     siteName: "5 Star Roofing",
     images: [
@@ -121,7 +121,7 @@ export default function Page() {
       },
     ],
     description:
-      "Professional wind damage roof repair services across Texas. Emergency tarping, damage assessment, insurance documentation, and complete roof restoration after wind storms.",
+      "Professional wind damage roof repair services across Texas. Emergency weatherproof sheeting, damage assessment, insurance documentation, and complete roof restoration after wind storms.",
   };
 
   const faqSchema = {
@@ -206,14 +206,18 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Wind Damage Repair"
+        h1="Wind Damage Repair in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Services", url: "/services/" },
           { name: "Wind Damage Repair", url: "/wind-damage-repair/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -223,9 +227,9 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Wind Damage Roof Repair Across Texas
-      </h1>
+      </h2>
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
@@ -257,12 +261,7 @@ export default function Page() {
           installation defects. Here are the most common types of wind damage we repair:
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-          <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-            alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
-            className="w-full h-64 object-cover"
-            loading="lazy"
-          />
+          
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -316,7 +315,7 @@ export default function Page() {
               1
             </div>
             <div>
-              <h3 className="font-bold text-brand-brown mb-1">Emergency Tarping</h3>
+              <h3 className="font-bold text-brand-brown mb-1">Weatherproof Sheeting</h3>
               <p className="text-gray-700">
                 If your roof has exposed areas, we tarp the damaged sections to prevent further
                 water intrusion. This is especially critical during active storm seasons when

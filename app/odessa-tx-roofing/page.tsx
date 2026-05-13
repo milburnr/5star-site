@@ -44,10 +44,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Aerial view of completed roof installation in Odessa TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -82,7 +82,7 @@ export default function OdessaRoofingPage() {
         className="hero"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp)",
           backgroundPosition: "center",
         }}
       >
@@ -91,7 +91,7 @@ export default function OdessaRoofingPage() {
           <div className="hero-content">
             <h1 className="hero-title">Odessa&apos;s Premier Roofing Contractor</h1>
             <p className="hero-subtitle">
-              Protecting Permian Basin Homes & Industrial Facilities Since 2010
+              Protecting Permian Basin Homes & Industrial Facilities Our team
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
@@ -118,6 +118,34 @@ export default function OdessaRoofingPage() {
         </FadeIn>
       </div>
       <div className="container-custom">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides residential and commercial roofing throughout Odessa TX — hail damage, wind damage, roof replacement, TPO, and metal systems for Ector County properties.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+              <a href="/commercial-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+              <a href="/hail-damage-repair-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
+              <a href="/midland-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Roofing</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         {/* Introduction */}
         <FadeIn>
           <section className="section">
@@ -130,7 +158,7 @@ export default function OdessaRoofingPage() {
                 that demand specialized expertise. With a population of 123,000 and a thriving oil
                 and gas industry, Odessa properties must withstand brutal summer heat exceeding
                 105°F, destructive hail storms, powerful winds, and the demanding requirements of
-                industrial facilities. Since 2010, we&apos;ve been protecting Odessa&apos;s
+                industrial facilities. Our team, we&apos;ve been protecting Odessa&apos;s
                 residential neighborhoods, commercial buildings, and oil industry infrastructure
                 with premium roofing systems engineered for West Texas extremes.
               </p>
@@ -174,7 +202,7 @@ export default function OdessaRoofingPage() {
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Damage Experts</h3>
                   <p className="text-gray-600">
                     Odessa averages 6-8 hail events annually with stones exceeding 2 inches. We
-                    specialize in rapid storm response, damage assessment, and complete insurance
+                    specialize in efficient post-storm documentation, damage assessment, and complete insurance
                     claim management.
                   </p>
                 </div>
@@ -434,11 +462,11 @@ export default function OdessaRoofingPage() {
                       communities.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      Our prompt services include fast turnaround,
-                      prompt tarping to prevent water damage and secure your property, temporary
+                      Our scheduling include fast turnaround,
+                      prompt weatherproof sheeting to help prevent water damage and secure your property, temporary
                       leak repairs to stop active water intrusion, storm damage assessment and
                       documentation, debris removal and site cleanup, and coordination with your
-                      insurance company for prompt services coverage.
+                      insurance company for scheduling coverage.
                     </p>
                     <p className="text-gray-700 mb-4">
                       <strong>Don&apos;t wait:</strong> Every minute of water infiltration causes
@@ -1013,7 +1041,7 @@ export default function OdessaRoofingPage() {
               From hail damage repair to complete roof replacement, from residential homes to
               industrial facilities, we&apos;re Odessa&apos;s trusted roofing partner. Free
               inspections, comprehensive warranties, and financing available. Serving the Permian
-              Basin since 2010.
+              Basin serving the area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
@@ -1044,7 +1072,7 @@ export default function OdessaRoofingPage() {
               </a>
               <span className="text-gray-400">•</span>
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo
@@ -1116,7 +1144,7 @@ export default function OdessaRoofingPage() {
             image:
               "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
             description:
-              "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and prompt services for residential and industrial properties.",
+              "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and scheduling for residential and industrial properties.",
             telephone: "(806) 622-6041",
             email: "admin@5starroofingpros.com",
             url: "https://5starroofingpros.com/odessa-texas-roofing/",
@@ -1197,65 +1225,6 @@ export default function OdessaRoofingPage() {
               ],
             },
             openingHours: "Mo-Su 00:00-23:59",
-          }),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What roofing systems do you recommend for Odessa oil and gas facilities?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "For Permian Basin oil and gas facilities, we recommend PVC membrane systems for their superior chemical resistance against petroleum fumes and processing byproducts. TPO systems with reflective surfaces work well for warehouses and office buildings along the I-20 corridor, reducing cooling costs in Odessa's extreme heat. For industrial facilities with heavy equipment vibration and foot traffic, we install reinforced walkway pads and use enhanced fastening schedules.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How did the May 2019 Odessa hailstorm change local roofing standards?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "The devastating May 2019 supercell that dropped 4.5-inch hail across Odessa caused over $100 million in property damage and destroyed thousands of roofs. Since then, many Odessa homeowners and insurance providers have shifted toward Class 4 impact-resistant materials as the standard rather than a premium option. We have seen a significant increase in metal roofing installations as well, particularly standing seam systems rated to withstand softball-sized hail.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Why do Odessa roofs age faster than roofs in more temperate climates?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Odessa roofs face a triple threat that accelerates aging: extreme heat exceeding 105 degrees Fahrenheit with roof surface temperatures reaching 170 degrees, intense UV radiation that breaks down asphalt binders and causes granule loss, and annual temperature swings exceeding 120 degrees that cause constant thermal expansion and contraction. Standard shingles rated for 25-30 years in moderate climates often fail in just 15-18 years in Odessa.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do you serve the UTPB campus area and Sherwood neighborhood?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, we provide comprehensive roofing services throughout all Odessa neighborhoods including Sherwood, Stonegate, Mission Dorado, Ridgemont, Parkview Estates, Woodson Heights, Dos Amigos, the UTPB campus area, and all commercial districts along East 42nd Street, Andrews Highway, and the I-20 corridor.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Can metal roofing really reduce cooling costs in Odessa's extreme heat?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Absolutely. Metal roofing with reflective coatings can reduce cooling costs by 20-30% compared to dark asphalt shingles. In Odessa, where summers regularly exceed 100 degrees and cooling accounts for a major portion of energy bills, homeowners typically see a return on investment within 10-15 years through energy savings alone. Metal roofing also lasts 50+ years compared to 15-20 years for standard shingles.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How does Odessa's flash flooding risk affect flat commercial roofs?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Although Odessa averages only 14 inches of annual rainfall, precipitation comes in intense bursts that can dump 2-3 inches in under an hour. Flat commercial roofs must have properly designed drainage with adequate scuppers and internal drains. Ponding water that remains for more than 48 hours accelerates membrane deterioration and can lead to premature failure. We design all commercial installations with proper slope and redundant drainage.",
-                },
-              },
-            ],
           }),
         }}
       />

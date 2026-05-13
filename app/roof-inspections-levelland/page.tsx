@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,9 +8,9 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   AlertTriangle,
   Camera,
@@ -30,6 +29,7 @@ import {
   Wind,
 } from "lucide-react";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-inspections-levelland/" },
   title: "Roof Inspections Levelland TX | 5 Star Roofing",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -56,25 +56,7 @@ export const metadata: Metadata = {
 
 export default function RoofInspectionsLevellandPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Inspections",
-            url: "/roof-inspections/",
-          },
-          {
-            name: "Levelland",
-            url: "/roof-inspections-levelland/",
-          },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -185,47 +167,29 @@ export default function RoofInspectionsLevellandPage() {
 
       {/* schema-cleanup:faqpage:removed */}
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Professional Roof Inspections in{" "}
-                <span className="text-brand-gold-light">Levelland, TX</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                South Plains Weather & Storm Damage Specialists
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof inspections in Levelland, Texas. The South Plains region experiences
-                7-10 severe hailstorms annually, making professional roof inspections essential for
-                property protection and insurance coverage. Complete assessment with detailed
-                documentation.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="levelland"
+        city="Levelland"
+        service="Roof Inspections"
+        h1="Roof Inspections in Levelland, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Inspections",
+            url: "/roof-inspections/",
+          },
+          {
+            name: "Levelland",
+            url: "/roof-inspections-levelland/",
+          },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -240,7 +204,7 @@ export default function RoofInspectionsLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">100%</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3"></div>
                 <div className="text-brand-brown font-semibold text-lg">Insurance Approved</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -279,7 +243,7 @@ export default function RoofInspectionsLevellandPage() {
               supercell thunderstorms moving northeast from Mexico and the Southwest.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2008, 5 Star Commercial Roofing has provided comprehensive roof inspection
+              For many years, 5 Star Commercial Roofing has provided comprehensive roof inspection
               services throughout Levelland and Hockley County. Our experienced inspectors
               understand the unique challenges of South Plains weather, local building requirements,
               insurance regulations, and the specific needs of property owners from downtown
@@ -619,7 +583,7 @@ export default function RoofInspectionsLevellandPage() {
               </h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-bold mb-3 text-amber-700">Immediate Storm Response</h4>
+                  <h4 className="font-bold mb-3 text-amber-700">Post-Storm Assessment</h4>
                   <ul className="space-y-2 text-amber-700 text-sm">
                     <li>• Document the storm date, time, and severity with weather reports</li>
                     <li>• Take initial photographs before any temporary protective measures</li>
@@ -876,16 +840,7 @@ export default function RoofInspectionsLevellandPage() {
               Serving Levelland & Hockley County
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl mb-8">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-102.38!3d33.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sLevelland%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Levelland, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Levelland, TX" />
             </div>
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Levelland Area Coverage</h3>
@@ -925,7 +880,7 @@ export default function RoofInspectionsLevellandPage() {
           <p className="text-xl mb-8 max-w-4xl mx-auto">
             The South Plains region's severe weather demands proactive roof protection. With 7-10
             major hailstorms annually, professional inspections are essential for early damage
-            detection and insurance compliance. Don't wait for leaks—schedule your comprehensive
+            detection and insurance compliance. Schedule before leaks appear—schedule your comprehensive
             inspection today.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">

@@ -11,7 +11,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Check,
   GraduationCap,
@@ -26,6 +27,7 @@ import {
   Zap,
 } from "lucide-react";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/lubbock-tx-roofing/" },
   title: "Lubbock TX Roofing | Storm Damage & Hail Repair | 5 Star",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -67,31 +69,13 @@ export default function LubbockRoofingPage() {
         Breadcrumb floats over the hero (top-left absolute) with white-on-
         photo treatment, replacing the deprecated <PageHeaderStrip> band.
       */}
-      <Hero
-        bgClassName="hero-home"
-        photoTone="aspirational"
-        titleLead="Lubbock"
-        titleAccent="Roofing Experts"
-        body={
-          <>
-            <HeroLocalityAccent href="/service-areas/">Lubbock</HeroLocalityAccent>
-            &apos;s trusted roofing company for hail damage repair, roof replacement, and
-            insurance-claim help across the South Plains. Free inspections, no sales pressure.
-          </>
-        }
-        primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
-        secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
-        breadcrumb={
-          <Breadcrumb
-            bare
-            tone="on-photo"
-            items={[
-              { name: "Home", url: "/" },
-              { name: "Service Areas", url: "/service-areas/" },
-              { name: "Lubbock", url: "/lubbock-tx-roofing/" },
-            ]}
-          />
-        }
+      <InteriorHeroSection
+        heroVariant="location"
+        citySlug="lubbock"
+        city="Lubbock"
+        state="TEXAS"
+        h1="Roofing Company in Lubbock, TX"
+        image="/images/heroes/5star-new-hero.png"
       />
 
       <div className="container-custom">
@@ -301,7 +285,7 @@ export default function LubbockRoofingPage() {
                       providing multi-layer protection for industrial buildings, modified bitumen
                       installations with enhanced UV resistance, metal roofing for warehouses and
                       agricultural facilities common in the South Plains, preventive maintenance
-                      programs that extend roof life and prevent costly prompt repairs, and roof
+                      programs that extend roof life and prevent costly efficient repairs, and roof
                       coating systems that restore aging commercial roofs at a fraction of
                       replacement cost.
                     </p>
@@ -426,7 +410,7 @@ export default function LubbockRoofingPage() {
                       <strong>Available for roofing issues throughout Lubbock.</strong> Storm
                       damage, roof leaks, wind damage, or structural issues can&apos;t wait. Water
                       damage compounds rapidly - what starts as a small leak can cause thousands in
-                      interior damage within hours. We provide tarping, temporary leak repairs,
+                      interior damage within hours. We place weatherproof sheeting, temporary weatherproofing,
                       storm damage assessment, and same-day solutions to protect your property until
                       permanent repairs can be completed.
                     </p>
@@ -438,7 +422,7 @@ export default function LubbockRoofingPage() {
                       >
                         (806) 622-6041
                       </a>{" "}
-                      now for immediate assistance anywhere in Lubbock - from Tech Terrace to Shadow
+                      now to schedule an inspection anywhere in Lubbock - from Tech Terrace to Shadow
                       Hills, from Arnett Benson to Whisperwood. Our our crews are standing by.
                     </p>
                     <a
@@ -852,16 +836,7 @@ export default function LubbockRoofingPage() {
 
               {/* Google Map Embed */}
               <div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "400px" }}>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d419875.5470997!2d-101.9897!3d33.5779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe12add1dad94b%3A0x2a20f4a640654f2!2sLubbock%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="5 Star Commercial Roofing Service Area in Lubbock, TX"
-                ></iframe>
+                <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Lubbock, TX" />
               </div>
             </div>
           </section>
@@ -978,7 +953,7 @@ export default function LubbockRoofingPage() {
           <section className="cta-section my-16">
             <h2 className="cta-title">Ready to Protect Your Lubbock Property?</h2>
             <p className="cta-text">
-              Whether you need a free roof inspection, hail damage assessment, prompt repairs, or a
+              Whether you need a free roof inspection, hail damage assessment, efficient repairs, or a
               complete roof replacement, we&apos;re here to help. Serving Lubbock with honesty,
               integrity, and expert craftsmanship for over a decade. Most hail damage repairs are
               covered 100% by insurance.
@@ -1005,7 +980,7 @@ export default function LubbockRoofingPage() {
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo

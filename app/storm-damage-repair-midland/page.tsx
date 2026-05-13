@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Factory, Phone, Search, Wrench, Zap } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-midland/" },
   title: "Storm Damage Repair Midland | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Midland",
-            url: "/storm-damage-repair-midland/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -184,7 +167,7 @@ export default function Page() {
                 name: "Should I tarp my Midland roof after storm damage?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, tarping prevents further water damage after storms. We provide tarping services available in Midland to protect your property until permanent repairs are completed. Most insurance policies cover mitigation costs, and prompt action prevents mold and interior damage.",
+                  text: "Yes, weatherproof sheeting prevents further water damage after storms. We provide weatherproof sheeting services available in Midland to protect your property until permanent repairs are completed. Most insurance policies cover mitigation costs, and prompt action prevents mold and interior damage.",
                 },
               },
               {
@@ -215,44 +198,29 @@ export default function Page() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-21-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Storm Damage Repair in <span className="text-brand-gold-light">Midland</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Permian Basin Properties Since 2014
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage repair in Midland. for hail, wind, and weather damage. Complete
-                insurance assistance.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Estimate
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Midland"
+        service="Storm Damage Repair"
+        h1="Storm Damage Repair in Midland, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-21-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Midland",
+            url: "/storm-damage-repair-midland/",
+          },
+        ]}
+    />
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -288,7 +256,7 @@ export default function Page() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've responded to every major Permian Basin storm event, serving
+              We've responded to every major Permian Basin storm event, serving
               properties from downtown Midland's financial district to residential areas in
               Grassland Estates, from oil company headquarters to worker housing developments, and
               throughout Midland International Air & Space Port's commercial corridor. Our expertise
@@ -420,7 +388,7 @@ export default function Page() {
                   beyond typical residential storm debris.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  storm response requires specialized safety protocols for petroleum facility areas
+                  post-storm documentation requires specialized safety protocols for petroleum facility areas
                 </p>
               </div>
 
@@ -457,7 +425,7 @@ export default function Page() {
                   models predicted.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Response: 89 service calls, 67 roof replacements, enhanced industrial facility
+                  Response: 89 service calls, hundreds of roofs across the Panhandle replacements, enhanced industrial facility
                   protocols implemented
                 </p>
               </div>
@@ -525,10 +493,10 @@ export default function Page() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Oil field housing faces unique challenges including rapid construction schedules,
                   high occupancy turnover, and exposure to industrial environments. These properties
-                  require fast storm response due to worker safety and housing shortage
+                  require fast post-storm documentation due to worker safety and housing shortage
                   considerations. We're experienced with temporary housing repairs, insurance
                   coordination for rental properties, and meeting petroleum industry safety
-                  protocols during storm response in hazardous areas.
+                  protocols during post-storm documentation in hazardous areas.
                 </AccordionContent>
               </AccordionItem>
 
@@ -590,10 +558,10 @@ export default function Page() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How do you handle storm response in petroleum facility areas?
+                  How do you handle post-storm documentation in petroleum facility areas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  storm response near petroleum facilities requires specialized safety protocols
+                  post-storm documentation near petroleum facilities requires specialized safety protocols
                   including gas monitoring, fire safety procedures, and hazardous area
                   classifications. Our crews maintain current certifications for petroleum facility
                   work and carry appropriate safety equipment. We coordinate with facility safety
@@ -609,7 +577,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              How Does the Permian Basin Storm Response Process Work?
+              How Does the Permian Basin post-storm documentation Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-orange-50 p-6 rounded-xl border-t-4 border-orange-500 text-center">
@@ -659,19 +627,10 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              How Does Our Storm Response Work in Midland?
+              How Does Our Post-Storm Process Work in Midland?
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107520.70423634634!2d-102.17804595!3d31.99735745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe95d928b1d87b%3A0x85974033d5072ced!2sMidland%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Midland, TX Storm Damage Repair Service Area"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Midland, TX" />
             </div>
           </section>
         </FadeIn>

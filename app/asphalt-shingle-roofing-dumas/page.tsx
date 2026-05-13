@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Shield, Star, Wheat } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-dumas/" },
   title: "Asphalt Shingle Roofing Dumas TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function AsphaltShingleRoofingDumasPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Asphalt Shingle Roofing",
-            url: "/asphalt-shingle-roofing/",
-          },
-          {
-            name: "Dumas",
-            url: "/asphalt-shingle-roofing-dumas/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -184,7 +167,7 @@ export default function AsphaltShingleRoofingDumasPage() {
                 name: "How long do asphalt shingles last in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Quality architectural shingles typically last 20-30 years in Dumas when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Dumas's climate.",
+                  text: "Quality architectural shingles typically last 20-30 years in Dumas when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and efficient repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Dumas's climate.",
                 },
               },
               {
@@ -215,77 +198,29 @@ export default function AsphaltShingleRoofingDumasPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-brown-900/75 to-orange-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Asphalt Shingle Roofing in <span className="text-brand-gold-light">Dumas</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Class 4 Impact-Resistant Shingles | Premium Brands
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8
-                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
-                622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={190} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Dumas Projects</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">6-8</div>
-                <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">1-3</div>
-                <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="dumas"
+        city="Dumas"
+        service="Asphalt Shingle Roofing"
+        h1="Asphalt Shingle Roofing in Dumas, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Asphalt Shingle Roofing",
+            url: "/asphalt-shingle-roofing/",
+          },
+          {
+            name: "Dumas",
+            url: "/asphalt-shingle-roofing-dumas/",
+          },
+        ]}
+    />
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -300,7 +235,7 @@ export default function AsphaltShingleRoofingDumasPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 190+ Dumas properties with premium materials engineered
+              We've protected 190+ Dumas properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Dumas
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -311,7 +246,7 @@ export default function AsphaltShingleRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Agricultural Community Roofing Solutions for Dumas?
+              What Agricultural Community roof system for Dumas?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -586,7 +521,7 @@ export default function AsphaltShingleRoofingDumasPage() {
                   installed and maintained. Texas Panhandle's intense UV exposure, temperature
                   extremes, and hailstorms stress roofing materials. Class 4 impact-resistant
                   shingles last longer than standard shingles. Regular inspections after storms and
-                  prompt repairs extend lifespan. Premium shingles with enhanced UV protection
+                  efficient repairs extend lifespan. Premium shingles with enhanced UV protection
                   perform better in Dumas's climate.
                 </AccordionContent>
               </AccordionItem>
@@ -639,16 +574,7 @@ export default function AsphaltShingleRoofingDumasPage() {
               Visit Our Dumas Location
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105225.47382646284!2d-102.01635!3d35.86567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870159c8c8c8c8c8%3A0x8c8c8c8c8c8c8c8c!2sDumas%2C%20TX!5e0!3m2!1sen!2sus!4v1736496000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Dumas, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Dumas, TX" />
             </div>
           </section>
         </FadeIn>

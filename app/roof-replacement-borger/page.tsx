@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-replacement-borger/" },
   title: "Roof Replacement Borger TX | 5 Star Roofing",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Freshly completed asphalt shingle roof installation in Borger TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function RoofReplacementBorgerPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Roof Replacement", url: "/roof-replacement/" },
-          { name: "Borger", url: "/roof-replacement-borger/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -145,80 +136,21 @@ export default function RoofReplacementBorgerPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "When should I replace my Borger roof?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Replace for widespread hail damage (10+ impacts per 100 sq ft), age over 20 years, multiple leaks, extensive granule loss, or failed repairs.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What roofing materials work best in Texas?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Class 4 impact-resistant shingles (residential) and TPO or metal (commercial) handle Texas hail, wind, and temperature extremes best.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Will a new roof increase my home value?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. New roofs provide 60-70% ROI. Class 4 roofs add premium value with insurance discounts and reduced maintenance.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Replacement in <span className="text-brand-gold-light">Borger</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Expert Service for Texas Properties
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional roof replacement throughout Borger. Expert installation, comprehensive
-                warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="borger"
+        city="Borger"
+        service="Roof Replacement"
+        h1="Roof Replacement in Borger, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Roof Replacement", url: "/roof-replacement/" },
+          { name: "Borger", url: "/roof-replacement-borger/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -252,6 +184,34 @@ export default function RoofReplacementBorgerPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides full roof replacement in Borger TX and Hutchinson County, asphalt shingles, metal systems, and flat roof installations with free estimates and insurance claim support.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Roof Replacement</a>
+              <a href="/roof-replacement-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Replacement</a>
+              <a href="/roof-replacement-dumas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Dumas Replacement</a>
+              <a href="/borger-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Borger Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -264,7 +224,7 @@ export default function RoofReplacementBorgerPage() {
               climate.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, we've served Borger's 11,892 residents with expert installations,
+              We've served Borger's 11,892 residents with expert installations,
               comprehensive warranties, and outstanding customer service. We handle all permits,
               insurance claims, and warranty documentation for this historic petrochemical center.
             </p>
@@ -756,16 +716,7 @@ export default function RoofReplacementBorgerPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

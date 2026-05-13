@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Check, Home, Phone, Shield, Star } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-perryton/" },
@@ -41,16 +41,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairPerrytonPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
-          { name: "Perryton", url: "/hail-damage-repair-perryton/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -166,7 +157,7 @@ export default function HailDamageRepairPerrytonPage() {
                 name: "Will insurance cover hail damage in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, if damage occurred during your policy period. We document impacts, meet adjusters, and advocate for maximum coverage. 95%+ approval rate.",
+                  text: "Yes, if damage occurred during your policy period. We document impacts, meet adjusters, and advocate for maximum coverage.",
                 },
               },
               {
@@ -174,7 +165,7 @@ export default function HailDamageRepairPerrytonPage() {
                 name: "Should I upgrade to Class 4 shingles after hail damage?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Absolutely. Class 4 shingles reduce future hail damage by 90% and qualify for insurance premium discounts up to 30% in Texas.",
+                  text: "Absolutely. Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).",
                 },
               },
             ],
@@ -182,47 +173,20 @@ export default function HailDamageRepairPerrytonPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-14-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Perryton, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                Wheat Capital of the World's Roofing Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Perryton—the county seat of Ochiltree County and Wheat Capital of the World—sits
-                near the Oklahoma border in the heart of Texas's agricultural powerhouse. With $250
-                million in annual farming revenue and critical grain storage infrastructure, this
-                community of 8,400+ needs specialized roofing protection. 5 Star Roofing has served
-                Perryton's agricultural and residential needs since 2014.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="perryton"
+        city="Perryton"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Perryton, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-14-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
+          { name: "Perryton", url: "/hail-damage-repair-perryton/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -284,7 +248,7 @@ export default function HailDamageRepairPerrytonPage() {
               intense storms, high winds, and frequent hail events.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Roofing has served Perryton and Ochiltree County with expert storm
+              5 Star Roofing has served Perryton and Ochiltree County with expert storm
               damage repairs and specialized agricultural roofing solutions. Our team understands
               the unique requirements of wheat storage facilities, livestock operations, and the
               residential needs of this close-knit agricultural community that feeds the world.
@@ -366,7 +330,7 @@ export default function HailDamageRepairPerrytonPage() {
                     <h4 className="font-semibold text-brand-brown">Infrastructure Restoration</h4>
                     <p className="text-gray-700 text-sm">
                       Power restoration efforts focused on the 91% of customers without electricity,
-                      while prompt services coordinated debris removal and structural assessments.
+                      while scheduling coordinated debris removal and structural assessments.
                     </p>
                   </div>
                 </div>
@@ -374,7 +338,7 @@ export default function HailDamageRepairPerrytonPage() {
                   <p className="text-sm text-amber-800">
                     <strong>Storm Chaser Documentation:</strong> Professional storm chasers
                     documented the tornado's path through mobile home parks and industrial areas,
-                    providing critical damage assessment data for storm response and insurance
+                    providing critical damage assessment data for post-storm documentation and insurance
                     claims.
                   </p>
                 </div>
@@ -536,7 +500,7 @@ export default function HailDamageRepairPerrytonPage() {
                     </li>
                     <li>
                       • <strong>Rapid Repair Protocols:</strong> Pre-staged materials for immediate
-                      storm response
+                      post-storm documentation
                     </li>
                   </ul>
                 </div>
@@ -597,7 +561,7 @@ export default function HailDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">
-              What Agricultural & Residential Roofing Solutions?
+              What Agricultural & Residential roof system?
             </h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
@@ -723,8 +687,7 @@ export default function HailDamageRepairPerrytonPage() {
                       • <strong>85+ tornado claims</strong> processed after June 15, 2023 event
                     </li>
                     <li>
-                      • <strong>98% approval rate</strong> for documented tornado damage
-                    </li>
+                                          </li>
                     <li>
                       • <strong>Average 34% increase</strong> in settlements with professional
                       advocacy
@@ -824,7 +787,7 @@ export default function HailDamageRepairPerrytonPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, if damage occurred during your policy period. We document impacts, meet
-                  adjusters, and advocate for maximum coverage. 95%+ approval rate.
+                  adjusters, and advocate for maximum coverage.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem
@@ -835,8 +798,7 @@ export default function HailDamageRepairPerrytonPage() {
                   Should I upgrade to Class 4 shingles after hail damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Absolutely. Class 4 shingles reduce future hail damage by 90% and qualify for
-                  insurance premium discounts up to 30% in Texas.
+                  Absolutely. Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -849,16 +811,7 @@ export default function HailDamageRepairPerrytonPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

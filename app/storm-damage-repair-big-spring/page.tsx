@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-big-spring/" },
   title: "Storm Damage Repair Big Spring TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function StormDamageRepairBigSpringPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Big Spring",
-            url: "/storm-damage-repair-big-spring/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -165,44 +148,29 @@ export default function StormDamageRepairBigSpringPage() {
         }}
       />
       {/* schema-cleanup:faqpage:removed */}
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-34-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Storm Damage Repair in <span className="text-brand-gold-light">Big Spring</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                West Texas Storm Damage Repair Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9
-                hailstorms annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Big Spring"
+        service="Storm Damage Repair"
+        h1="Storm Damage Repair in Big Spring, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-34-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Big Spring",
+            url: "/storm-damage-repair-big-spring/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -216,8 +184,9 @@ export default function StormDamageRepairBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -246,7 +215,7 @@ export default function StormDamageRepairBigSpringPage() {
               demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Big Spring
+              5 Star Commercial Roofing has protected properties throughout Big Spring
               and Howard County with premium materials and expert installation. From properties near
               Big Spring State Park to buildings throughout Big Spring, we understand West Texas
               weather patterns, local building codes, and the specific needs of Howard County
@@ -275,7 +244,7 @@ export default function StormDamageRepairBigSpringPage() {
                       • <strong>Elevation:</strong> 2,400+ feet above sea level
                     </li>
                     <li>
-                      • <strong>UV Intensity:</strong> 15% higher than coastal areas
+                      • <strong>UV Intensity:</strong>  higher than coastal areas
                     </li>
                     <li>
                       • <strong>Wind Exposure:</strong> Minimal natural windbreaks
@@ -615,16 +584,7 @@ export default function StormDamageRepairBigSpringPage() {
               Serving Big Spring, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-101.47!3d32.25!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sBig%20Spring%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Big Spring, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Big Spring, TX" />
             </div>
           </section>
         </FadeIn>

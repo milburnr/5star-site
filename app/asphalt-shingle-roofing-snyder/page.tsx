@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-snyder/" },
@@ -42,24 +42,7 @@ export const metadata: Metadata = {
 export default function AsphaltShingleRoofingSnyderPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Asphalt Shingle Roofing",
-            url: "/asphalt-shingle-roofing/",
-          },
-          {
-            name: "Snyder",
-            url: "/asphalt-shingle-roofing-snyder/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -165,44 +148,29 @@ export default function AsphaltShingleRoofingSnyderPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-stone-900/85 via-gray-900/75 to-stone-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Asphalt Shingle Roofing in <span className="text-brand-gold-light">Snyder</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                West Texas Asphalt Shingle Roofing Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Quality asphalt shingle roofing in Snyder TX. West Texas experiences 7-9 hailstorms
-                annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Snyder"
+        service="Asphalt Shingle Roofing"
+        h1="Asphalt Shingle Roofing in Snyder, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-1280w.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Asphalt Shingle Roofing",
+            url: "/asphalt-shingle-roofing/",
+          },
+          {
+            name: "Snyder",
+            url: "/asphalt-shingle-roofing-snyder/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -216,8 +184,9 @@ export default function AsphaltShingleRoofingSnyderPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -249,7 +218,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
               intense storm events that test drainage systems and structural integrity.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has specialized in protecting Snyder's diverse
+              5 Star Commercial Roofing has specialized in protecting Snyder's diverse
               residential neighborhoods with premium asphalt shingle systems designed for West Texas
               extremes. From historic homes near the Scurry County Museum to modern subdivisions
               around Western Texas College, we understand the unique challenges facing homeowners:
@@ -620,16 +589,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
               Serving Snyder, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-100.92!3d32.72!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sSnyder%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Snyder, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Snyder, TX" />
             </div>
           </section>
         </FadeIn>

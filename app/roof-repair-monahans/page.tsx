@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { CheckCircle, Fuel, Mountain, Phone, Star, XCircle, Zap } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair-monahans/" },
   title: "Roof Repair Monahans TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function RoofRepairMonahansPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Repair",
-            url: "/roof-repair/",
-          },
-          {
-            name: "Monahans",
-            url: "/roof-repair-monahans/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -165,44 +148,29 @@ export default function RoofRepairMonahansPage() {
         }}
       />
       {/* schema-cleanup:faqpage:removed */}
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-orange-900/75 to-amber-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Repair in <span className="text-brand-gold-light">Monahans</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Permian Basin Roof Repair Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional roof repair services in Monahans TX. Permian Basin experiences 6-8
-                hailstorms annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Monahans"
+        service="Roof Repair"
+        h1="Roof Repair in Monahans, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Monahans",
+            url: "/roof-repair-monahans/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -216,8 +184,9 @@ export default function RoofRepairMonahansPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -248,7 +217,7 @@ export default function RoofRepairMonahansPage() {
               radiation, Monahans properties require specialized expertise.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 300 properties throughout
+              5 Star Commercial Roofing has protected over 300 properties throughout
               Monahans and Ward County with advanced materials engineered for desert conditions.
               From facilities near the Monahans Sandhills State Park to commercial buildings along
               Interstate 20, we understand the unique intersection of oil industry demands and
@@ -361,7 +330,7 @@ export default function RoofRepairMonahansPage() {
                 <ul className="text-xs text-gray-600">
                   <li>• Chemical-resistant systems</li>
                   <li>• High-temperature materials</li>
-                  <li>• Rapid repair capabilities</li>
+                  <li>• Efficient repair capabilities</li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl">
@@ -416,16 +385,7 @@ export default function RoofRepairMonahansPage() {
               Serving Monahans, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-102.89!3d31.59!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sMonahans%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Monahans, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Monahans, TX" />
             </div>
           </section>
         </FadeIn>
@@ -465,7 +425,7 @@ export default function RoofRepairMonahansPage() {
                 <div className="text-4xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">post-storm documentation</h3>
                 <p className="text-gray-700">
                   Rapid mobilization for hail and wind damage with extensive experience in Ward
                   County storm patterns and insurance requirements.
@@ -993,7 +953,7 @@ export default function RoofRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              What Specialized Roofing Services Are Available in Monahans?
+              What commercial roofing Are Available in Monahans?
             </h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">

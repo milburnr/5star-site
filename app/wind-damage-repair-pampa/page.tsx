@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-pampa/" },
   title: "Wind Damage Repair Pampa TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function WindDamageRepairPampaPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Wind Damage Repair",
-            url: "/wind-damage-repair/",
-          },
-          {
-            name: "Pampa",
-            url: "/wind-damage-repair-pampa/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -215,45 +198,29 @@ export default function WindDamageRepairPampaPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-pampa-47-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Wind Damage Repair in <span className="text-brand-gold-light">Pampa</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Service | High Plains Wind Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert wind damage roof repair in Pampa TX. Texas Panhandle experiences 6-8
-                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
-                622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  urgent: (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="pampa"
+        city="Pampa"
+        service="Wind Damage Repair"
+        h1="Wind Damage Repair in Pampa, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-pampa-47-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Wind Damage Repair",
+            url: "/wind-damage-repair/",
+          },
+          {
+            name: "Pampa",
+            url: "/wind-damage-repair-pampa/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -300,7 +267,7 @@ export default function WindDamageRepairPampaPage() {
               damage repair.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've repaired wind damage on 220+ Pampa properties using materials
+              We've repaired wind damage on 220+ Pampa properties using materials
               engineered for extreme High Plains conditions. From homes near Woody Guthrie Folk
               Music Center to buildings near Hobart Street Park and White Deer Land Museum, we
               install wind-rated roofing systems (130+ mph), enhanced fastening patterns, and
@@ -379,8 +346,8 @@ export default function WindDamageRepairPampaPage() {
               integrity around high-pressure operations.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Our storm response teams maintain OSHA safety certifications and specialized equipment
-              for working around active oil and gas operations. tarping and temporary repairs use
+              Our repair crews maintain OSHA safety certifications and specialized equipment
+              for working around active oil and gas operations. weatherproof sheeting and temporary repairs use
               fire-resistant materials and spark-free installation techniques required in
               potentially hazardous environments. All repairs coordinate with facility safety
               personnel and follow established industry protocols.
@@ -407,12 +374,12 @@ export default function WindDamageRepairPampaPage() {
               Wind damage repairs to agricultural facilities require coordination with livestock
               management and seasonal operations. Cattle barns need immediate weather protection to
               maintain animal welfare, while feed storage facilities require rapid repair to prevent
-              feed contamination and spoilage. Our agricultural storm response prioritizes livestock
+              feed contamination and spoilage. Our agricultural post-storm documentation prioritizes livestock
               protection and feed preservation.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Hay storage and grain facilities present unique wind damage challenges as compromised
-              roofing can destroy entire harvests worth hundreds of thousands of dollars. tarping
+              roofing can destroy entire harvests worth hundreds of thousands of dollars. weatherproof sheeting
               for agricultural storage requires specialized anchoring techniques that prevent tarp
               failure in continued high winds while maintaining access for loading and unloading
               operations.
@@ -530,18 +497,18 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              How Does Our Storm Response Work in Pampa?
+              How Does Our Post-Storm Process Work in Pampa?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Wind damage emergencies in Gray County require coordination with multiple agencies
               including county emergency management, volunteer fire departments, and mutual aid
               partners from surrounding counties. The area's rural nature and dispersed population
-              create challenges for rapid storm response that require advance planning and resource
+              create challenges for efficient post-storm documentation that require advance planning and resource
               positioning.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Pampa's position as Gray County seat provides emergency management resources and
-              equipment that support countywide storm response. However, the vast distances involved
+              equipment that support countywide post-storm documentation. However, the vast distances involved
               in serving ranch properties and oil facilities throughout the county demand strategic
               equipment positioning and coordination with local first responders familiar with rural
               access challenges.
@@ -654,15 +621,7 @@ export default function WindDamageRepairPampaPage() {
               Serving Pampa, Texas
             </h2>
             <div className="w-full h-96 rounded-2xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104282.72655892584!2d-101.02071843828125!3d35.53617399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870148b3c6f516d3%3A0x4f1e89dc3c2b7e7d!2sPampa%2C%20TX!5e0!3m2!1sen!2sus!4v1644444444444!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Pampa, TX" />
             </div>
           </section>
         </FadeIn>

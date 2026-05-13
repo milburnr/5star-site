@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -365,7 +365,7 @@ export default function VegaRoofingPage() {
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Storm damage requires quick attention.</strong> When severe weather
-                      hits Vega, we provide professional roofing services. tarping to We document
+                      hits Vega, we provide professional roofing services. weatherproof sheeting to We document
                       damage to support your insurance claim, schedule repairs once conditions are
                       safe, and coordinate Class 4 impact-resistant restoration tailored to West
                       Texas storm exposure.
@@ -529,7 +529,7 @@ export default function VegaRoofingPage() {
               More Roofing Services Near Vega
             </h2>
             <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-              <a href="/amarillo-texas-roofing/" className="card-hover p-4 block">
+              <a href="/amarillo-tx-roofing/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>
                 <p className="text-gray-600 text-sm">
                   Complete roofing services in Amarillo (35 miles east)
@@ -671,7 +671,7 @@ export default function VegaRoofingPage() {
             <p className="cta-text">
               From our Amarillo location, we're proud to serve the historic Vega community with
               honest, professional roofing services built for high plains weather. Whether you need
-              a free inspection, hail damage assessment, or prompt repairs, we're just 35 minutes
+              a free inspection, hail damage assessment, or efficient repairs, we're just 35 minutes
               away on I-40.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -696,7 +696,7 @@ export default function VegaRoofingPage() {
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo

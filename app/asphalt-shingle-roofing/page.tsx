@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -155,7 +155,7 @@ export default function Page() {
         name: "How long do asphalt shingles last in West Texas?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "In West Texas, asphalt shingle lifespan depends heavily on the shingle type and local weather exposure. 3-tab shingles typically last 15-20 years, architectural shingles 20-30 years, and premium designer shingles up to 40-50 years. However, the intense UV exposure, temperature swings, frequent hail, and high winds in the Panhandle and Permian Basin can shorten these estimates by 3-5 years compared to milder climates. Annual inspections and prompt repairs extend lifespan significantly.",
+          text: "In West Texas, asphalt shingle lifespan depends heavily on the shingle type and local weather exposure. 3-tab shingles typically last 15-20 years, architectural shingles 20-30 years, and premium designer shingles up to 40-50 years. However, the intense UV exposure, temperature swings, frequent hail, and high winds in the Panhandle and Permian Basin can shorten these estimates by 3-5 years compared to milder climates. Annual inspections and efficient repairs extend lifespan significantly.",
         },
       },
       {
@@ -228,28 +228,28 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Asphalt Shingle Roofing"
+        h1="Asphalt Shingle Roofing in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp"
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Services", url: "/services/" },
           { name: "Asphalt Shingle Roofing", url: "/asphalt-shingle-roofing/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Asphalt Shingle Roofing Installation and Repair Across Texas
-      </h1>
+      </h2>
 
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp"
-        alt="Aerial view of a completed gray asphalt shingle roof with clean installation — 5 Star Roofing Texas"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-      />
+      
 
       {/* TL;DR */}
       <div className="bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6 mb-8">
@@ -598,7 +598,7 @@ export default function Page() {
           How Do You Repair and Maintain Asphalt Shingles?
         </h2>
         <p className="mb-4">
-          Prompt repairs and regular maintenance keep your shingle roof performing for its full
+          Efficient repairs and regular maintenance keep your shingle roof performing for its full
           expected lifespan. Here are the most common maintenance tasks:
         </p>
         <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -685,7 +685,7 @@ export default function Page() {
             20-30 years, and premium designer shingles up to 40-50 years. However, the intense UV
             exposure, temperature swings, frequent hail, and high winds in the Panhandle and Permian
             Basin can shorten these estimates by 3-5 years compared to milder climates. Annual
-            inspections and prompt repairs extend lifespan significantly.
+            inspections and efficient repairs extend lifespan significantly.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">

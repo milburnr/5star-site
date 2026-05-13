@@ -75,6 +75,63 @@
     --duration-fast: 150ms;
     --duration-base: 250ms;
     --duration-slow: 400ms;
+
+    /* ─────────────────────────────────────────────────────────────────
+       Design system tokens — mirror of design-tokens-5star.json.
+       Source of truth: runs/design-docs/ART-BIBLE-5STAR.md
+       Names match the JSON token file so they're self-documenting.
+       ───────────────────────────────────────────────────────────────── */
+
+    /* Brand golds */
+    --color-primary-gold: #d6b274;
+    --color-display-gold: #d6b274;
+    --color-accent-gold: #f5c77a;
+    --color-gold-bright: #f1b84f;
+    --color-gold-warm-bright: #eec835;
+    --color-nav-gold: #f7e291;
+
+    /* CTA gradient stops */
+    --color-cta-cream: #f5f0e8;
+    --color-cta-amber: #f1c77a;
+    --color-cta-orange: #e08a36;
+    --color-cta-burnt-orange: #b84a11;
+    --color-burnt-orange: #b84a11;
+    --color-cream: #f5f0e8;
+
+    /* Surface + text */
+    --color-dark-bg: #050403;
+    --color-surface-ink: #050403;
+    --color-surface-brown-deep: #120b06;
+    --color-cta-text-dark: #2b1810;
+    --color-text-ivory: #f2eadb;
+
+    /* Typography stacks. Cormorant Garamond is loaded via next/font in
+       app/layout.tsx with `display: 'optional'`, exposed as
+       --font-cormorant. Fallback chain renders gracefully if the webfont
+       is not yet loaded — never blank text. */
+    --font-display:
+      var(--font-cormorant), "Cormorant Garamond", "Bodoni 72 Display", Didot,
+      "Times New Roman", serif;
+    --font-heading-serif:
+      var(--font-cormorant), "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    --font-system-ui:
+      "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+    /* Section spacing — clamp values from ART-BIBLE §3 */
+    --section-major-padding: clamp(60px, 8vw, 120px);
+    --section-sub-padding: clamp(32px, 4vw, 64px);
+    --content-max-width: 1280px;
+
+    /* Component shorthand */
+    --cta-gradient: linear-gradient(
+      90deg,
+      #f5f0e8 0%,
+      #f1c77a 40%,
+      #e08a36 72%,
+      #b84a11 100%
+    );
+    --cta-shadow: 0 0 44px rgba(184, 74, 17, 0.22),
+      0 16px 30px rgba(0, 0, 0, 0.36);
   }
 }
 
@@ -104,16 +161,19 @@
                                   browser uses this as a height estimate
                                   before the section is fully rendered.
 
-     Effect on mobile PSI (throttled 4x CPU): cuts the "element render delay"
-     LCP phase dramatically because the browser only has to lay out the hero
-     + first trust strip, not the entire 22,000-pixel-tall homepage.
+     SCOPE: mobile only (≤768px). On desktop, the previous global rule
+     reserved 1200px placeholders for ~13 `.below-fold` sections, producing
+     a 10+ viewport "void" of empty space in fullPage screenshots, print
+     views, and to crawlers that don't simulate user scrolling. Desktop CPUs
+     render the full page fast enough that the perf win isn't needed there.
 
-     Desktop keeps the full design — on a fast machine the browser renders
-     everything immediately anyway; content-visibility just lets slow devices
-     opt into lazy rendering. */
-  .below-fold {
-    content-visibility: auto;
-    contain-intrinsic-size: auto 1200px;
+     On mobile, smaller intrinsic size (600px) is closer to actual section
+     heights so any pre-render void is half what it was. */
+  @media (max-width: 768px) {
+    .below-fold {
+      content-visibility: auto;
+      contain-intrinsic-size: auto 600px;
+    }
   }
 
   /* Homepage hero — same-origin WebP via CSS background. The actual fetch is
@@ -399,41 +459,102 @@
     @apply text-red-600 font-semibold text-center p-3 bg-red-50 rounded-md border border-red-200;
   }
 
-  /* Sticky Contact Bar — 2026-05-09 Block 4 Phase 3 design review pass 2:
-     pass 1 routed brown→orange-700→gold-vibrant to escape the muddy
-     yellow-olive midpoint of the original brown→gold gradient, but the
-     dark brand-brown anchor on the left edge still rendered as
-     desaturated muddy in the strip's compressed vertical context.
-     Dropping the dark anchor: amber-500 → orange-500 reads as warm
-     and saturated end-to-end across the full bar width without any
-     low-sat midpoint. Two-stop is sufficient here — the strip is too
-     thin to need a via-stop. */
+  /* Sticky Contact Bar — 2026-05-12 editorial dark-glass redesign:
+     replaces the previous amber-500 → orange-500 gradient (which clashed
+     with the editorial dark-theme + cream/burnt-orange brand palette).
+     Now uses a translucent dark-bg + backdrop-blur container with a
+     hairline top border, and a tighter version of the global cta-primary
+     gradient pill so the CTA matches every other primary CTA on the
+     site. Text uses brand cream at light weight. */
   .sticky-contact-bar {
-    @apply fixed bottom-0 left-0 right-0 bg-gradient-to-r from-amber-500 to-orange-500 text-white py-4 px-4 shadow-2xl transition-transform duration-300 z-50;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    background-color: rgba(5, 4, 3, 0.8); /* var(--color-dark-bg) at 80% */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.75rem 1rem;
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.35);
+    transition: transform 300ms ease;
+  }
+  @media (min-width: 768px) {
+    .sticky-contact-bar {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
   }
 
   .sticky-contact-bar.hidden {
-    @apply translate-y-full;
+    transform: translateY(100%);
   }
 
   .sticky-contact-bar.visible {
-    @apply translate-y-0;
+    transform: translateY(0);
   }
 
   .sticky-contact-content {
-    @apply container-custom flex flex-col sm:flex-row items-center justify-center gap-4;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  @media (min-width: 640px) {
+    .sticky-contact-content {
+      flex-direction: row;
+      gap: 1rem;
+    }
   }
 
   .sticky-contact-text {
-    @apply text-lg font-semibold;
+    color: var(--color-cream);
+    font-weight: 300;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
   }
 
+  /* Tighter variant of .cta-primary tuned for the sticky-bar context.
+     Inherits the same gradient pill as the global primary CTA. */
   .sticky-contact-button {
-    @apply bg-white text-brand-brown px-6 py-3 rounded-md font-bold hover:bg-brand-gold-light transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex items-center gap-2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0.55rem 1.25rem;
+    border: 1px solid rgba(255, 207, 116, 0.55);
+    border-radius: 999px;
+    background: var(--cta-gradient);
+    box-shadow: var(--cta-shadow);
+    color: var(--color-cta-text-dark);
+    font-family: var(--font-system-ui);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:
+      filter 220ms ease,
+      transform 220ms ease,
+      box-shadow 220ms ease;
+  }
+  .sticky-contact-button:hover {
+    color: var(--color-cta-text-dark);
+    filter: brightness(1.06) saturate(1.05);
+    transform: translateY(-1px);
+  }
+  .sticky-contact-button:active {
+    transform: translateY(0);
   }
 
   .sticky-contact-icon {
-    @apply text-xl;
+    font-size: 1rem;
+    line-height: 1;
   }
 
   /* CTA Hierarchy - Primary CTAs stand out more */
@@ -493,6 +614,265 @@
 
   .testimonial-author-location {
     @apply text-sm text-gray-500;
+  }
+
+  /* ─────────────────────────────────────────────────────────────────
+     Design system v2 — editorial language utility classes.
+
+     Mapped to runs/design-docs/ART-BIBLE-5STAR.md and consumed by
+     InteriorHeroSection, ContactSection, ServiceCard, and future
+     redesigned components. Older brand-gold / cta-section utilities
+     above are kept for backwards compatibility on un-migrated pages.
+
+     Display + heading classes assume Cormorant Garamond. Components
+     that use them are responsible for loading the font (see
+     AltHeroFrame for the standard preconnect + link pattern). The
+     fallback chain (Georgia → Times New Roman → serif) renders the
+     same composition if the webfont fails — no FOIT-then-shift.
+     ───────────────────────────────────────────────────────────────── */
+
+  /* Oversized editorial display type — semi-transparent layer on photo
+     backgrounds. ART-BIBLE §2 (Display + opacity 0.56 on photos). */
+  .display-type {
+    color: var(--color-display-gold);
+    font-family: var(--font-display);
+    font-size: clamp(6rem, min(18vw, 32vh), 22vw);
+    font-weight: 300;
+    line-height: 0.82;
+    letter-spacing: -0.018em;
+    text-transform: uppercase;
+    opacity: 0.56;
+    text-shadow: 0 8px 32px rgba(0, 0, 0, 0.36);
+  }
+
+  /* Section rhythm — content sections beneath heroes. */
+  .section-standard {
+    padding-top: var(--section-major-padding);
+    padding-bottom: var(--section-major-padding);
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .section-standard > * {
+    max-width: var(--content-max-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-dark {
+    background-color: var(--color-dark-bg);
+    color: var(--color-text-ivory);
+    padding-top: var(--section-major-padding);
+    padding-bottom: var(--section-major-padding);
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .section-dark > * {
+    max-width: var(--content-max-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-cream {
+    background-color: var(--color-cream);
+    color: var(--color-cta-text-dark);
+    padding-top: var(--section-major-padding);
+    padding-bottom: var(--section-major-padding);
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .section-cream > * {
+    max-width: var(--content-max-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Editorial headings — Cormorant Garamond serif. */
+  .heading-primary {
+    font-family: var(--font-heading-serif);
+    font-weight: 400;
+    color: var(--color-accent-gold);
+    font-size: clamp(2rem, 3.4vw, 3.4rem);
+    line-height: 1.04;
+    letter-spacing: -0.018em;
+    margin: 0 0 0.5em;
+  }
+
+  .heading-secondary {
+    font-family: var(--font-heading-serif);
+    font-weight: 400;
+    color: var(--color-accent-gold);
+    font-size: clamp(1.4rem, 2.2vw, 2.1rem);
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    margin: 0 0 0.4em;
+  }
+
+  /* Body copy. */
+  .body-text {
+    font-family: var(--font-system-ui);
+    font-size: clamp(0.98rem, 1.04vw, 1.125rem);
+    line-height: 1.65;
+    color: inherit;
+  }
+
+  /* Small caps eyebrow — sits above heading-primary or above a CTA. */
+  .eyebrow {
+    display: inline-block;
+    font-family: var(--font-system-ui);
+    font-size: clamp(0.72rem, 0.82vw, 0.92rem);
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-accent-gold);
+    margin: 0 0 14px;
+  }
+
+  /* Rotated side-rail text — vertical rule treatment from the heroes. */
+  .vertical-rule-text {
+    color: rgba(255, 246, 226, 0.92);
+    font-family: var(--font-system-ui);
+    font-size: clamp(0.62rem, 0.66vw, 0.78rem);
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    line-height: 1.45;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+  }
+
+  /* Primary CTA — the gradient pill from the hero. ART-BIBLE §7. */
+  .cta-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    min-height: 56px;
+    padding: 0.85rem 1rem 0.85rem 1.7rem;
+    border: 1px solid rgba(255, 207, 116, 0.55);
+    border-radius: 999px;
+    background: var(--cta-gradient);
+    box-shadow: var(--cta-shadow);
+    color: var(--color-cta-text-dark);
+    font-family: var(--font-system-ui);
+    font-size: clamp(0.82rem, 0.82vw, 1rem);
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    isolation: isolate;
+    transition:
+      filter 220ms ease,
+      transform 220ms ease,
+      box-shadow 220ms ease;
+  }
+  .cta-primary:hover {
+    color: var(--color-cta-text-dark);
+    filter: brightness(1.06) saturate(1.05);
+    box-shadow:
+      0 0 60px rgba(184, 74, 17, 0.32),
+      0 18px 34px rgba(0, 0, 0, 0.42);
+    transform: translateY(-1px);
+  }
+  .cta-primary:active {
+    transform: translateY(0);
+  }
+  .cta-primary .cta-icon {
+    display: grid;
+    flex: 0 0 auto;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    border-radius: 999px;
+    background: var(--color-cta-text-dark);
+    color: var(--color-accent-gold);
+  }
+
+  /* Ghost / outline CTA for secondary actions. */
+  .cta-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.7rem 1.25rem;
+    border: 1.5px solid var(--color-accent-gold);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--color-accent-gold);
+    font-family: var(--font-system-ui);
+    font-size: clamp(0.78rem, 0.82vw, 0.95rem);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition:
+      background-color 200ms ease,
+      color 200ms ease,
+      transform 200ms ease;
+  }
+  .cta-secondary:hover {
+    background-color: rgba(245, 199, 122, 0.08);
+    color: var(--color-accent-gold);
+    transform: translateY(-1px);
+  }
+  /* On cream/light surfaces, swap to dark text for legibility. */
+  .section-cream .cta-secondary,
+  .on-cream .cta-secondary {
+    color: var(--color-cta-text-dark);
+    border-color: var(--color-burnt-orange);
+  }
+  .section-cream .cta-secondary:hover,
+  .on-cream .cta-secondary:hover {
+    background-color: rgba(184, 74, 17, 0.06);
+    color: var(--color-cta-text-dark);
+  }
+
+  /* Base card — no stat bars, no fabricated overlays. ART-BIBLE §10. */
+  .card-standard {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid rgba(214, 178, 116, 0.22);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(43, 24, 16, 0.04),
+      0 4px 14px -4px rgba(43, 24, 16, 0.08);
+    transition:
+      transform 280ms cubic-bezier(0.16, 1, 0.3, 1),
+      border-color 220ms ease,
+      box-shadow 280ms ease;
+  }
+  .card-standard:hover {
+    transform: translateY(-2px);
+    border-color: var(--color-primary-gold);
+    box-shadow:
+      0 6px 14px rgba(43, 24, 16, 0.08),
+      0 18px 32px -10px rgba(43, 24, 16, 0.14);
+  }
+
+  /* Two- and three-column content grids, responsive. */
+  .content-grid-2,
+  .content-grid-3 {
+    display: grid;
+    gap: clamp(20px, 2.4vw, 32px);
+  }
+  .content-grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .content-grid-3 {
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 720px) {
+    .content-grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (min-width: 960px) {
+    .content-grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
   }
 }
 

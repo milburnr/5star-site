@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -221,7 +221,7 @@ export default function Page() {
           covering factors such as suitable roofing materials, insulation, proper installation, and
           maintenance practices. Additionally, we'll explore the implications of climate variability
           and offer practical advice on identifying and addressing roof damage caused by West Texas
-          weather. For immediate assistance, call us at <strong>(806) 622-6041</strong> to schedule
+          weather. For inspection scheduling, call us at <strong>(806) 622-6041</strong> to schedule
           a <strong>free roof inspection</strong>.
         </p>
 
@@ -355,7 +355,7 @@ export default function Page() {
           will directly impact how well your roof performs over its lifetime. We work with top-tier
           manufacturers to provide options that offer the best combination of durability,
           aesthetics, and value for Amarillo homeowners. Our{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             comprehensive roofing services
           </a>{" "}
           include expert consultation to help you make the right choice for your specific needs and
@@ -928,15 +928,15 @@ export default function Page() {
         <p>
           Our local expertise means we understand these microclimate differences and adjust our
           roofing recommendations accordingly. We maintain material stockpiles, certified crews, and
-          storm response capabilities throughout the region to provide rapid service when severe
+          post-storm repair capabilities throughout the region to provide rapid service when severe
           weather strikes.
         </p>
 
-        <h3 className="text-xl font-bold mt-6 mb-3">storm response Network</h3>
+        <h3 className="text-xl font-bold mt-6 mb-3">post-storm documentation network</h3>
 
         <p>
-          When severe weather impacts West Texas, we mobilize our storm response network to provide
-          priority service to affected areas. Our storm response protocol includes:
+          When severe weather impacts West Texas, we mobilize our post-storm repair network to provide
+          priority service to affected areas. Our post-storm protocol includes:
         </p>
 
         <ul className="list-disc pl-6 space-y-2 mb-6">
@@ -966,7 +966,7 @@ export default function Page() {
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-3">
-          Warning Signs That Require Immediate Attention:
+          Warning Signs That Require Professional Assessment:
         </h3>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -1076,10 +1076,10 @@ export default function Page() {
         </div>
 
         <p className="mb-6">
-          Contact our team at <strong>(806) 622-6041</strong> for immediate assistance or to
+          Contact our team at <strong>(806) 622-6041</strong> to schedule an inspection or to
           schedule your
           <strong>free roof inspection</strong>. We provide{" "}
-          <strong>prompt services</strong>
+          <strong>scheduling</strong>
           for storm damage and can typically schedule routine inspections within 24-48 hours. Our
           office hours are 9 AM to 5 PM, Monday through Friday, but service calls are answered.
         </p>
@@ -1112,7 +1112,7 @@ export default function Page() {
         </p>
 
         <p>
-          Don't wait until severe weather exposes weaknesses in your roof. Contact us today at{" "}
+          Address potential issues before severe weather exposes weaknesses in your roof. Contact us today at{" "}
           <strong>(806) 622-6041</strong>
           to schedule your comprehensive inspection and take the first step toward worry-free
           protection against West Texas weather. Your roof is too important to leave to chance—trust
@@ -1166,7 +1166,7 @@ export default function Page() {
             </p>
           </a>
           <a
-            href="/amarillo-texas-roofing/"
+            href="/amarillo-tx-roofing/"
             className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200"
           >
             <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>

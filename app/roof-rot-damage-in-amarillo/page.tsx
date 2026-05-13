@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -159,7 +159,7 @@ export default function Page() {
             roof damage
           </a>{" "}
           in{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Amarillo
           </a>
           ,{" "}
@@ -903,7 +903,7 @@ export default function Page() {
         <div className="feature-box">
           <h3 className="font-bold mb-2">Address Leaks Immediately</h3>
           <p className="text-sm">
-            Any interior water stain is evidence of active leaks—don't wait for it to get worse
+            Any interior water stain is evidence of active leaks—contact us instead for it to get worse
           </p>
         </div>
       </div>

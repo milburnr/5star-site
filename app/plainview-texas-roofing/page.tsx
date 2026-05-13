@@ -161,7 +161,7 @@ export default function PlainviewRoofingPage() {
             <h2 className="content-block-title">Trusted Roofing Services in Plainview, Texas</h2>
             <p className="text-lg mb-4">
               As Plainview's premier{" "}
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 professional roofing contractor
               </a>
               , 5 Star Commercial Roofing brings over a decade of experience serving Hale County and
@@ -222,7 +222,7 @@ export default function PlainviewRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Plainview, we respond with tarping and rapid roof
+                  When severe weather strikes Plainview, we respond with weatherproof sheeting and rapid roof
                   repairs. Call us immediately for storm damage assessment.
                 </p>
                 <a href="/storm-damage-repair-amarillo/" className="text-red-700 font-semibold">
@@ -540,16 +540,16 @@ export default function PlainviewRoofingPage() {
 
         <FadeIn>
           <section className="content-block mb-12">
-            <h2 className="text-2xl font-bold mb-6">storm response and Storm Damage Restoration</h2>
+            <h2 className="text-2xl font-bold mb-6">post-storm documentation and Storm Damage Restoration</h2>
             <p className="text-lg mb-4">
               Severe weather events in the Texas Panhandle can cause immediate roofing issues
               requiring our roofing service to protect property and prevent secondary damage. Our storm
-              response capabilities ensure Plainview property owners receive immediate assistance
+              response capabilities ensure Plainview property owners receive inspection scheduling
               when storms strike.
             </p>
 
             <div className="bg-red-50 p-6 rounded-lg mb-6">
-              <h3 className="text-xl font-bold text-red-700 mb-3">storm response Protocol</h3>
+              <h3 className="text-xl font-bold text-red-700 mb-3">post-storm documentation Protocol</h3>
               <p className="text-gray-700 mb-4">
                 When severe weather threatens or damages Plainview properties, our our teams deploy
                 immediately with specialized equipment and materials for temporary protection while
@@ -560,7 +560,7 @@ export default function PlainviewRoofingPage() {
                 <div>
                   <h4 className="font-semibold text-red-700 mb-2">Storm Assessment Services</h4>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• tarping and temporary weather protection</li>
+                    <li>• weatherproof sheeting and temporary weather protection</li>
                     <li>• Water intrusion mitigation and drainage</li>
                     <li>• Structural damage assessment and documentation</li>
                     <li>• Insurance claim preparation and filing assistance</li>
@@ -591,7 +591,7 @@ export default function PlainviewRoofingPage() {
               across the entire region:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 • Amarillo Roofing
               </a>
               <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">

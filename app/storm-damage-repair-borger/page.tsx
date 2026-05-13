@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-borger/" },
   title: "Storm Damage Repair Borger TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function StormDamageRepairBorgerPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Borger",
-            url: "/storm-damage-repair-borger/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -184,7 +167,7 @@ export default function StormDamageRepairBorgerPage() {
                 name: "Will insurance cover my storm damage repairs in Borger?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
+                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs.",
                 },
               },
               {
@@ -199,7 +182,7 @@ export default function StormDamageRepairBorgerPage() {
                 name: "How long does storm damage roof replacement take in Borger?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Borger, timelines may extend due to high demand—early claims get priority scheduling.",
+                  text: "Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Borger, timelines may extend due to high demand—early claims get priority scheduling.",
                 },
               },
               {
@@ -207,52 +190,36 @@ export default function StormDamageRepairBorgerPage() {
                 name: "What should I do immediately after storm damage in Borger?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
+                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
                 },
               },
             ],
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-46-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Storm Damage Repair in <span className="text-brand-gold-light">Borger</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Storm Damage Experts | Panhandle Weather Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage roof repair in Borger TX. Texas Panhandle experiences 6-8
-                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
-                622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  urgent: (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="borger"
+        city="Borger"
+        service="Storm Damage Repair"
+        h1="Storm Damage Repair in Borger, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-46-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Borger",
+            url: "/storm-damage-repair-borger/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -299,7 +266,7 @@ export default function StormDamageRepairBorgerPage() {
               exposure.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 180+ Borger properties with premium materials engineered
+              We've protected 180+ Borger properties with premium materials engineered
               for Panhandle weather. From homes near Huber Park to industrial buildings throughout
               Hutchinson County, we understand local building codes, work seamlessly with Borger
               property owners, and handle complete insurance claims. Most homeowners pay only their
@@ -363,7 +330,7 @@ export default function StormDamageRepairBorgerPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Safety assessment and area securing</li>
-                  <li>• tarping for active leaks</li>
+                  <li>• weatherproof sheeting for active leaks</li>
                   <li>• Damage documentation begins</li>
                   <li>• Insurance notification</li>
                   <li>• Temporary weather protection</li>
@@ -518,10 +485,9 @@ export default function StormDamageRepairBorgerPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Most homeowner and commercial policies cover storm damage including wind, hail,
                   and rain infiltration from covered perils. Coverage typically includes mitigation
-                  costs (tarping, temporary repairs) plus complete restoration. We document all
+                  costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all
                   damage professionally, work directly with adjusters, and handle supplement
-                  requests for hidden damage discovered during repairs. Our 95%+ approval rate
-                  demonstrates our insurance expertise.
+                  requests for hidden damage discovered during repairs.
                 </AccordionContent>
               </AccordionItem>
 
@@ -543,7 +509,7 @@ export default function StormDamageRepairBorgerPage() {
                   How long does storm damage roof replacement take in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Tarping and temporary repairs are typically scheduled within 1-2 business days.
+                  Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days.
                   Complete roof replacement typically occurs 2-4 weeks after insurance approval,
                   depending on material availability and scheduling. Actual installation takes 1-3
                   days for most homes. During major storm events affecting Borger, timelines may
@@ -561,7 +527,7 @@ export default function StormDamageRepairBorgerPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage
                   with photos/video from the ground. (3) Call us for professional inspection—we
-                  handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5)
+                  handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5)
                   DO NOT make permanent repairs before insurance inspection—this can void coverage.
                   We coordinate the entire process from initial assessment through final
                   restoration.
@@ -644,11 +610,11 @@ export default function StormDamageRepairBorgerPage() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What's included in your storm response for Borger properties?
+                  What's included in your post-storm documentation for Borger properties?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Our includes immediate safety assessment, professional damage documentation with
-                  photos and measurements, tarping to prevent further damage, temporary repairs for
+                  photos and measurements, weatherproof sheeting to help prevent further damage, temporary repairs for
                   active leaks, coordination with insurance adjusters, and detailed estimates for
                   permanent repairs. We arrive for Borger situations and work
                   around Borger's industrial schedules. All work is properly documented for
@@ -711,16 +677,7 @@ export default function StormDamageRepairBorgerPage() {
               Serving Borger, TX
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104618.76254676384!2d-101.45892194335938!3d35.66790969999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870158e13d1c44ef%3A0x5f8b3ed64c7a8b92!2sBorger%2C%20TX!5e0!3m2!1sen!2sus!4v1736541234567!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Borger, TX" />
             </div>
           </section>
         </FadeIn>

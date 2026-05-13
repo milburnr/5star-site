@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -219,13 +219,17 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Roof Replacement"
+        h1="Roof Replacement in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp"
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Roof Replacement", url: "/roof-replacement/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -235,15 +239,11 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Roof Replacement Services Across West Texas
-      </h1>
+      </h2>
 
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp"
-        alt="Completed roof replacement in West Texas - new architectural shingles installed on residential home"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-      />
+      
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">

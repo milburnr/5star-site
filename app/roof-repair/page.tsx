@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -13,19 +13,19 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair/" },
   title: "Roof Repair Services West Texas | 5 Star Roofing",
   description:
-    "Expert roof leak repair and emergency roofing services across West Texas. Same-day storm response, all materials. Call (806) 622-6041 for a free inspection.",
+    "Expert roof leak repair and emergency roofing services across West Texas. Same-day post-storm documentation, all materials. Call (806) 622-6041 for a free inspection.",
   openGraph: {
     title: "Roof Repair Services West Texas | 5 Star Roofing",
     description:
-      "Expert roof leak repair and emergency roofing services across West Texas. Same-day storm response, all materials. Call (806) 622-6041 for a free inspection.",
+      "Expert roof leak repair and emergency roofing services across West Texas. Same-day post-storm documentation, all materials. Call (806) 622-6041 for a free inspection.",
     url: "https://5starroofingpros.com/roof-repair/",
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/services-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Asphalt shingle roof inspection and repair in the Texas Panhandle — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -166,31 +166,55 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Roof Repair"
+        h1="Roof Repair in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg"
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Roof Repair", url: "/roof-repair/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+{/* FAQPage schema removed — faqSchema variable kept as dead code */}
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+          <p className="text-gray-800 font-medium leading-relaxed">
+            5 Star Roofing handles all types of roof repairs across the Texas Panhandle and Permian Basin — from minor shingle replacement to emergency storm damage repair for residential and commercial properties.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-4 text-sm">
+            <a href="/hail-damage-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
+            <a href="/wind-damage-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Wind Damage Repair</a>
+            <a href="/roof-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Roof Repair</a>
+            <a href="/roof-repair-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Roof Repair</a>
+          </div>
+        </section>
+      </FadeIn>
+
+      {/* Author byline */}
+      <FadeIn>
+        <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+          <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+          <span>
+            Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+            &nbsp;·&nbsp; Updated May 2026
+          </span>
+        </div>
+      </FadeIn>
+
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Expert Roof Repair Services Across West Texas
-      </h1>
+      </h2>
 
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg"
-        alt="Professional roof repair in West Texas - shingle replacement and leak repair by 5 Star Roofing"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-      />
+      
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
@@ -374,7 +398,7 @@ export default function Page() {
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <div className="text-3xl font-bold text-brand-gold mb-2">2</div>
-            <h3 className="font-bold mb-2 text-brand-brown">Emergency Tarping</h3>
+            <h3 className="font-bold mb-2 text-brand-brown">Weatherproof Sheeting</h3>
             <p className="text-sm text-gray-600">
               For active leaks or exposed decking, we install heavy-duty tarps to stop water
               intrusion immediately and protect your interior from further damage.
@@ -488,7 +512,7 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-red-500">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Critical Damage</h3>
             <p className="text-gray-700 mb-3">
-              Active water entry or structural compromise requiring immediate attention to prevent
+              Active water entry or structural compromise requiring professional attention to prevent
               interior damage.
             </p>
             <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">

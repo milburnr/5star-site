@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/services-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Roof inspector marking hail damage with chalk circles on asphalt shingles — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -206,26 +206,54 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Roof Inspections"
+        h1="Roof Inspections in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-15-1280w.webp"
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Services", url: "/services/" },
           { name: "Roof Inspections", url: "/roof-inspections/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+{/* FAQPage schema removed — faqSchema variable kept as dead code */}
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+          <p className="text-gray-800 font-medium leading-relaxed">
+            5 Star Roofing performs professional roof inspections throughout the Texas Panhandle and Permian Basin — hail damage documentation, insurance claim support, and pre-purchase assessments.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-4 text-sm">
+            <a href="/roof-inspections-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Inspections</a>
+            <a href="/roof-inspections-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Inspections</a>
+            <a href="/roof-inspections-lubbock/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Lubbock Inspections</a>
+            <a href="/roof-inspections-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Inspections</a>
+          </div>
+        </section>
+      </FadeIn>
+
+      {/* Author byline */}
+      <FadeIn>
+        <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+          <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+          <span>
+            Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+            &nbsp;·&nbsp; Updated May 2026
+          </span>
+        </div>
+      </FadeIn>
+
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Professional Roof Inspections Across West Texas
-      </h1>
+      </h2>
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">

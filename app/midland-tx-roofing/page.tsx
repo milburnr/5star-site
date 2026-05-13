@@ -4,7 +4,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Check,
   CloudLightning,
@@ -17,6 +18,7 @@ import {
 } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/midland-tx-roofing/" },
   title: "Midland TX Roofing Contractor | 5 Star Roofing",
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
         url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Completed residential roof installation in Midland TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -49,31 +51,13 @@ export default function MidlandRoofingPage() {
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
-      <Hero
-        bgClassName="hero-home"
-        photoTone="aspirational"
-        titleLead="Midland"
-        titleAccent="Roofing Experts"
-        body={
-          <>
-            <HeroLocalityAccent>Midland</HeroLocalityAccent>&apos;s premier roofing contractor for
-            hail damage repair, roof replacement, and insurance-claim help — serving homes and
-            businesses across the Tall City and the Permian Basin.
-          </>
-        }
-        primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
-        secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
-        breadcrumb={
-          <Breadcrumb
-            bare
-            tone="on-photo"
-            items={[
-              { name: "Home", url: "/" },
-              { name: "Service Areas", url: "/service-areas/" },
-              { name: "Midland", url: "/midland-tx-roofing/" },
-            ]}
-          />
-        }
+      <InteriorHeroSection
+        heroVariant="location"
+        citySlug="midland"
+        city="Midland"
+        state="TEXAS"
+        h1="Roofing Company in Midland, TX"
+        image="/images/heroes/5star-new-hero.png"
       />
 
       {/* Lead Form - Above the Fold */}
@@ -91,6 +75,34 @@ export default function MidlandRoofingPage() {
       </div>
 
       <div className="container-custom">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing serves Midland TX with residential and commercial roofing — hail damage repair, roof replacement, metal systems, and TPO for Permian Basin properties throughout Midland County.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+              <a href="/commercial-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+              <a href="/hail-damage-repair-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
+              <a href="/odessa-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Roofing</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         {/* Introduction */}
         <FadeIn>
           <section className="section">
@@ -151,8 +163,8 @@ export default function MidlandRoofingPage() {
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Alley Experts</h3>
                   <p className="text-gray-600">
                     Midland averages 144 severe weather warnings annually with documented hail
-                    reports throughout the year. We specialize in rapid storm response,
-                    comprehensive damage assessment, and seamless insurance claim support.
+                    reports throughout the year. We specialize in thorough storm damage assessment,
+                    professional documentation, and seamless insurance claim support.
                   </p>
                 </div>
               </InteractiveCard>
@@ -276,7 +288,7 @@ export default function MidlandRoofingPage() {
                       for office buildings and retail centers (exceptional hail resistance and 40-50
                       year lifespan), modified bitumen systems, built-up roofing (BUR), roof coating
                       and restoration to extend existing roof life, preventive maintenance programs,
-                      prompt leak repairs, and comprehensive roof asset management.
+                      efficient leak repairs, and comprehensive roof asset management.
                     </p>
                     <a
                       href="/commercial-roofing-midland/"
@@ -409,12 +421,11 @@ export default function MidlandRoofingPage() {
                       interiors, and halt business operations within hours.
                     </p>
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      Our roofing team is available any time, day or night, throughout
-                      Midland and surrounding communities. We provide tarping to prevent further
-                      water damage, temporary leak repairs, storm damage assessment and
-                      documentation, board-up services, and coordination with your insurance
-                      company—all designed to minimize damage and get you back to normal as quickly
-                      as possible.
+                      Our roofing team serves Midland and surrounding communities with
+                      professional storm damage assessment and documentation, weatherproof sheeting
+                      placement when needed, and full coordination with your insurance
+                      company—all designed to minimize damage and restore your property
+                      as efficiently as possible.
                     </p>
                     <p className="text-gray-700 mb-4">
                       <strong>Don&apos;t wait when you have a roofing issue.</strong> Call{" "}
@@ -424,7 +435,7 @@ export default function MidlandRoofingPage() {
                       >
                         (806) 622-6041
                       </a>{" "}
-                      now for immediate assistance anywhere in Midland, 24 hours a day, 7 days a
+                      now to schedule an inspection anywhere in Midland, throughout the week, 7 days a
                       week.
                     </p>
                   </div>
@@ -539,8 +550,8 @@ export default function MidlandRoofingPage() {
                 <p className="text-gray-700 leading-relaxed mt-3">
                   Commercial operations can&apos;t afford extended downtime for roof work. We
                   specialize in phased installations that allow businesses to continue operating,
-                  weekend and after-hours work to minimize disruption, and rapid storm response to
-                  keep critical operations running.
+                  weekend and after-hours work to minimize disruption, and efficient post-storm
+                  documentation to keep critical operations running.
                 </p>
               </div>
             </div>
@@ -848,16 +859,7 @@ export default function MidlandRoofingPage() {
 
               {/* Google Map Embed */}
               <div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "450px" }}>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.5!2d-102.0780!3d32.0100!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMidland%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Midland, TX Roofing Service Area"
-                ></iframe>
+                <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Midland, TX" />
               </div>
             </div>
           </section>
@@ -1042,7 +1044,7 @@ export default function MidlandRoofingPage() {
               </a>
               <span className="text-gray-400">•</span>
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo
@@ -1196,44 +1198,6 @@ export default function MidlandRoofingPage() {
                     name: "Texas",
                   },
                 },
-              },
-              {
-                "@type": "FAQPage",
-                "@id": "https://5starroofingpros.com/midland-texas-roofing/#faq",
-                mainEntity: [
-                  {
-                    "@type": "Question",
-                    name: "How often should I have my roof inspected in Midland?",
-                    acceptedAnswer: {
-                      "@type": "Answer",
-                      text: "Due to Midland's severe hail storms and extreme weather, we recommend professional roof inspections at least twice per year—once in early spring before hail season and once in fall after summer heat. You should also schedule an inspection after any severe storm with large hail or high winds.",
-                    },
-                  },
-                  {
-                    "@type": "Question",
-                    name: "What type of roofing material lasts longest in Midland's climate?",
-                    acceptedAnswer: {
-                      "@type": "Answer",
-                      text: "For residential applications, impact-resistant architectural shingles with Class 4 hail ratings provide the best balance of cost, durability, and insurance discounts. Metal roofing offers superior longevity (50+ years) and excellent hail resistance. For commercial flat roofs, TPO and PVC membranes perform exceptionally well in Midland's heat and UV exposure.",
-                    },
-                  },
-                  {
-                    "@type": "Question",
-                    name: "Will my insurance cover hail damage to my Midland roof?",
-                    acceptedAnswer: {
-                      "@type": "Answer",
-                      text: "Most homeowners and commercial property insurance policies in Texas cover hail damage, as it's considered a covered peril. However, you must document the damage promptly and file a claim within the timeframe specified in your policy. We provide free inspections, comprehensive documentation, and work directly with insurance adjusters.",
-                    },
-                  },
-                  {
-                    "@type": "Question",
-                    name: "What makes roofing in Midland different from other Texas cities?",
-                    acceptedAnswer: {
-                      "@type": "Answer",
-                      text: "Midland's location in the Permian Basin creates extreme conditions: it's in Hail Alley with record-breaking hailstones, experiences over 100-degree annual temperature swings, faces intense UV exposure at 2,779 feet elevation, and endures high winds. The oil industry also creates unique commercial roofing requirements for chemical resistance and minimal downtime.",
-                    },
-                  },
-                ],
               },
             ],
           }),

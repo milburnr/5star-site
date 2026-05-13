@@ -25,16 +25,16 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/" },
   title: "Snow & Ice Roof Repair Amarillo | 5 Star Roofing",
   description:
-    "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Free post-storm inspections.",
+    "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and weatherproof sheeting. Free post-storm inspections.",
   openGraph: {
     title: "Snow & Ice Roof Repair Amarillo | 5 Star Roofing",
     description:
-      "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Free post-storm inspections.",
+      "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and weatherproof sheeting. Free post-storm inspections.",
     url: "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/",
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -154,7 +154,7 @@ export default function Page() {
         <h2 className="content-block-title">Winter Storm Damage in the Texas Panhandle</h2>
         <p className="text-lg">
           While the{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Texas Panhandle
           </a>{" "}
           is better known for{" "}
@@ -744,7 +744,7 @@ export default function Page() {
         </div>
       </div>
       <div className="content-block">
-        <h2 className="content-block-title">storm response Protocols</h2>
+        <h2 className="content-block-title">post-storm documentation Protocols</h2>
         <p className="text-lg mb-4">
           When winter storms strike the Texas Panhandle, our roofing service can mean the difference
           between minor repairs and major structural damage. our protocols ensure immediate
@@ -755,7 +755,7 @@ export default function Page() {
           <div className="bg-red-50 rounded-lg p-6">
             <ul className="space-y-2 text-sm">
               <li>• roofing our roofing teams</li>
-              <li>• tarping and stabilization</li>
+              <li>• weatherproof sheeting and stabilization</li>
               <li>• Ice dam removal for active leaks</li>
               <li>• Water extraction and drying services</li>
               <li>• Temporary structural reinforcement</li>

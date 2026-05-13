@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { BadgeCheck, ClipboardList, Clock, Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair-andrews/" },
   title: "Roof Repair Andrews TX | 5 Star Roofing",
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Asphalt shingle roof with hail damage markings in Andrews TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function RoofRepairAndrewsPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Repair",
-            url: "/roof-repair/",
-          },
-          {
-            name: "Andrews",
-            url: "/roof-repair-andrews/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -165,44 +148,29 @@ export default function RoofRepairAndrewsPage() {
         }}
       />
       {/* schema-cleanup:faqpage:removed */}
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-orange-900/75 to-amber-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Repair in <span className="text-brand-gold-light">Andrews</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Permian Basin Roof Repair Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional roof repair services in Andrews TX. Permian Basin experiences 6-8
-                hailstorms annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Andrews"
+        service="Roof Repair"
+        h1="Roof Repair in Andrews, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-10-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Andrews",
+            url: "/roof-repair-andrews/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -216,8 +184,9 @@ export default function RoofRepairAndrewsPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -234,6 +203,34 @@ export default function RoofRepairAndrewsPage() {
         </section>
       </FadeIn>
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing repairs roofs in Andrews TX, hail damage documentation, emergency patching, and full replacement for residential and commercial Permian Basin properties.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Roof Repair</a>
+              <a href="/roof-repair-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Roof Repair</a>
+              <a href="/roof-repair-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Roof Repair</a>
+              <a href="/andrews-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Andrews Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -247,7 +244,7 @@ export default function RoofRepairAndrewsPage() {
               can deteriorate roofing materials in just a few seasons.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 500 properties throughout
+              5 Star Commercial Roofing has protected over 500 properties throughout
               Andrews and Andrews County with premium materials and expert installation. From
               historic buildings near the Andrews County Courthouse on Main Street to modern
               facilities along Highway 385, we understand the specific demands of West Texas weather
@@ -498,16 +495,7 @@ export default function RoofRepairAndrewsPage() {
               Serving Andrews, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-102.55!3d32.32!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sAndrews%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Andrews, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Andrews, TX" />
             </div>
           </section>
         </FadeIn>
@@ -527,7 +515,7 @@ export default function RoofRepairAndrewsPage() {
                   We provide service for Andrews County. Our team typically arrives within
                   2-4 hours for service calls, with temporary repairs completed the same day when
                   weather permits. We understand that Permian Basin storms can cause sudden, severe
-                  damage that requires immediate attention to prevent further property damage.
+                  damage that requires professional attention to prevent further property damage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -653,7 +641,7 @@ export default function RoofRepairAndrewsPage() {
                   <div className="text-4xl mb-2">
                     <Clock className="w-6 h-6 inline-block" />
                   </div>
-                  <h4 className="font-bold mb-2 text-brand-brown">Storm Response</h4>
+                  <h4 className="font-bold mb-2 text-brand-brown">post-storm documentation</h4>
                   <p className="text-sm text-gray-600">
                     Always available when Andrews weather strikes
                   </p>

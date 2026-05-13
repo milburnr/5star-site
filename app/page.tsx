@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { InsuranceLogos } from "@/components/InsuranceLogos";
 import { MaterialBrands } from "@/components/MaterialBrands";
-import { ContactForm } from "@/components/ContactForm";
+import { ContactSection } from "@/components/ContactSection";
+import { HomeHero } from "@/components/heroes/HomeHero";
 import {
   Accordion,
   AccordionContent,
@@ -28,18 +28,18 @@ import { ReviewsSection } from "@/components/page-sections/ReviewsSection";
 export const metadata: Metadata = {
   title: "Amarillo Roofing Company | Residential & Commercial | 5 Star Roofing",
   description:
-    "Amarillo's trusted residential & commercial roofer since 2014. Hail damage repair, roof replacement & free storm inspections. Serving the Texas Panhandle. Call (806) 622-6041",
+    "Amarillo's trusted residential & commercial roofer serving the Texas Panhandle. Hail damage repair, roof replacement & free storm inspections. Serving the Texas Panhandle. Call (806) 622-6041",
   keywords:
     "amarillo roofing, roofing company amarillo tx, residential roofing amarillo, commercial roofing amarillo, hail damage repair amarillo, roof repair amarillo, texas panhandle roofer, storm damage roof repair, insurance claims roofing, midland roofing, odessa roofing",
   openGraph: {
     title: "Amarillo Roofing Company | Residential & Commercial | 5 Star Roofing",
     description:
-      "Amarillo's trusted residential & commercial roofer since 2014. 10+ years specializing in hail damage repair and insurance claims across the Texas Panhandle.",
+      "Amarillo's trusted residential & commercial roofer serving the Texas Panhandle. 10+ years specializing in hail damage repair and insurance claims across the Texas Panhandle.",
     url: "https://5starroofingpros.com",
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -63,20 +63,11 @@ export default async function Page() {
   const places = await getBusinessPlaceDetails();
   return (
     <>
-      {/*
-        Same-origin hero preload — avoids the R2 cross-origin DNS+TLS round-trip
-        that was costing ~300ms on mobile. Pre-regression (Feb-Mar, PSI 96-97)
-        served the hero from /public same-origin. The image is now the new AI
-        hero, copied to /public/images so we get both the visual + the speed.
-      */}
-      <link
-        rel="preload"
-        as="image"
-        imageSrcSet="/images/home-hero-600w.webp 600w, /images/home-hero-900w.webp 900w, /images/home-hero-1200w.webp 1200w, /images/home-hero-1920w.webp 1920w"
-        imageSizes="100vw"
-        type="image/webp"
-        fetchPriority="high"
-      />
+      {/* Hero preload: <HomeHero> emits its own <link rel="preload"> for the
+          1200w WebP and uses CSS image-set() to swap in 600w (≤1024px) or
+          1920w (HD) variants. Earlier same-origin preload is removed
+          because it referenced the old `/images/home-hero-*.webp` set that
+          no longer drives the homepage hero. */}
 
       {places && (
         <script
@@ -108,72 +99,9 @@ export default async function Page() {
         />
       )}
 
-      {/*
-        Hero — image served as a CSS background-image via the .hero-home class
-        (defined in globals.css with image-set() for responsive WebP). Pre-
-        regression Feb/Mar (PSI 96-97) used this exact pattern with a local
-        image. The browser's preload scanner picks up the <link rel="preload">
-        above with imageSrcSet and fetches the right size before CSS even
-        parses — so we get the "discoverable in initial document" benefit
-        without needing an <img> tag that triggers layout repaint on decode.
-      */}
-      <section className="hero-home section-major relative text-white min-h-[320px] md:min-h-[500px] lg:min-h-[600px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-br from-black/70 via-black/50 to-black/40 md:from-amber-900/75 md:via-orange-900/55 md:to-yellow-900/45"></div>
-        <div className="container-custom relative z-10">
-          <div className="lg:grid lg:grid-cols-5 lg:gap-8 lg:items-center">
-            <div className="lg:col-span-3 p-4 sm:p-6 md:p-8 lg:p-12">
-              <h1
-                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-3 md:mb-6 text-white leading-tight"
-                style={{ textShadow: "0 2px 8px rgba(0,0,0,0.9)" }}
-              >
-                Amarillo Residential &amp; Commercial{" "}
-                <span className="text-brand-gold-light block sm:inline">Roofing Experts</span>
-              </h1>
-              <p
-                className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 md:mb-4 font-semibold md:font-bold text-brand-gold-light"
-                style={{ textShadow: "0 2px 6px rgba(0,0,0,0.8)" }}
-              >
-                {places
-                  ? `⭐ ${places.rating.toFixed(1)} on Google — ${places.user_ratings_total} Reviews | Serving West Texas Since 2014`
-                  : "Serving West Texas Since 2014"}
-              </p>
-              <p
-                className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl"
-                style={{ textShadow: "0 1px 3px rgba(0,0,0,0.8)" }}
-              >
-                <a
-                  href="/amarillo-texas-roofing/"
-                  className="font-semibold text-brand-gold-light no-underline hover:underline"
-                >
-                  Amarillo
-                </a>
-                &apos;s trusted roofing company — hail damage repair, roof replacement, insurance
-                claim help, and storm-damage documentation for homes and businesses across the Texas
-                Panhandle.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4">
-                <a
-                  href="tel:8066226041"
-                  className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2"
-                >
-                  <Phone className="w-5 h-5 sm:w-6 sm:h-6 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="#get-quote"
-                  className="bg-white text-brand-brown px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold hover:bg-gray-50 hover:-translate-y-0.5 transition-all duration-300 text-sm sm:text-base md:text-lg shadow-xl border-2 border-brand-gold text-center"
-                >
-                  Free Inspection
-                </a>
-              </div>
-            </div>
-            {/* Phase 13: insurance-carrier logo strip or crew portrait lands here.
-                Placeholder reserves aspect ratio to prevent CLS when content arrives. */}
-            <div className="hidden lg:block lg:col-span-2" aria-hidden="true">
-              <div className="aspect-[4/5] w-full"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Editorial homepage hero — WEST TEXAS display type, single gradient
+          CTA, asymmetric photo overlay. See ART-BIBLE-5STAR.md §1-9. */}
+      <HomeHero />
 
       <ReviewsSection heading="What Amarillo customers say" />
 
@@ -204,8 +132,8 @@ export default async function Page() {
                   href="/contact/"
                   className="block bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 cursor-pointer after:content-[''] after:block after:w-12 after:h-0.5 after:bg-brand-gold-vibrant after:mx-auto after:mt-3"
                 >
-                  <div className="text-brand-brown font-heading font-bold text-4xl md:text-5xl mb-1 sm:mb-2 md:mb-3">
-                    <AnimatedCounter to={100} suffix="%" />
+                  <div className="text-brand-brown font-heading font-bold text-4xl md:text-5xl mb-1 sm:mb-2 md:mb-3 flex justify-center">
+                    <Check className="w-10 h-10 md:w-12 md:h-12 stroke-[2.5]" />
                   </div>
                   <div className="text-gray-primary font-semibold text-sm md:text-lg">
                     Free Inspections
@@ -228,7 +156,7 @@ export default async function Page() {
                     </span>
                   </div>
                   <div className="text-gray-primary font-semibold text-sm md:text-lg">
-                    5-Star Rated
+                    5 Star Roofing
                   </div>
                 </a>
               </FadeIn>
@@ -550,7 +478,7 @@ export default async function Page() {
                 <Check className="w-8 h-8 text-brand-gold" />
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">Fast storm response</h3>
+                <h3 className="font-bold text-lg mb-2">Fast post-storm documentation</h3>
                 <p>
                   Insurance-grade storm-damage documentation: After a storm, we document damage with
                   photos and adjuster-ready reports, then handle{" "}
@@ -689,10 +617,10 @@ export default async function Page() {
                 >
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-                      srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-640w.jpg 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg 1280w"
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp"
+                      srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp 1280w"
                       sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                      alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
+                      alt="Aerial view of a completed residential roof with gray architectural asphalt shingles after wind damage repair — 5 Star Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       loading="lazy"
                       fetchPriority="low"
@@ -717,10 +645,10 @@ export default async function Page() {
                 >
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <img
-                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-                      srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-640w.jpg 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg 1280w"
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-46-1280w.webp"
+                      srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-46-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-46-1280w.webp 1280w"
                       sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                      alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
+                      alt="Aerial view of a completed residential roof replacement with gray asphalt shingles in Odessa — 5 Star Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       loading="lazy"
                       fetchPriority="low"
@@ -830,7 +758,7 @@ export default async function Page() {
                 </h3>
                 <p className="text-gray-700 text-lg md:text-xl leading-relaxed font-medium">
                   Amarillo, Midland, and Odessa are among the top 20 cities in the U.S. for hail
-                  frequency. Class 4 impact-resistant shingles can reduce hail damage by up to 90%
+                  frequency. Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail
                   and qualify you for 10-30% insurance premium discounts in West Texas.
                 </p>
               </div>
@@ -1120,7 +1048,7 @@ export default async function Page() {
               <div className="space-y-1 text-gray-700">
                 <div>
                   <a
-                    href="/amarillo-texas-roofing/"
+                    href="/amarillo-tx-roofing/"
                     className="hover:text-brand-gold hover:font-semibold transition-all"
                   >
                     Amarillo
@@ -1523,42 +1451,18 @@ export default async function Page() {
           </section>
         </FadeIn>
 
-        {/* Inline Contact Form — converts visitors who won't dial.
-            Posts JSON to /.netlify/functions/contact-submit which forwards
-            to the GHL webhook. Replaces the heavy iframe form embed. */}
+        {/* Inline Contact Section — editorial split layout (dark trust
+            column + cream form). Posts JSON to /.netlify/functions/contact-submit
+            which forwards to the GHL webhook. */}
         <FadeIn>
-          <section id="get-quote" className="mb-16 below-fold scroll-mt-24">
-            <div className="grid md:grid-cols-5 gap-8 items-start bg-gradient-to-br from-amber-50 to-white p-6 md:p-10 rounded-2xl border border-brand-gold/20 shadow-md">
-              <div className="md:col-span-2">
-                <h2 className="text-3xl font-bold mb-4 text-brand-brown">
-                  Request a Free Inspection
-                </h2>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Send us a few details and we'll be in touch shortly. No obligation, no
-                  high-pressure sales — just a thorough roof assessment from a licensed Texas
-                  Panhandle roofing crew.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  Prefer to talk? Call{" "}
-                  <a
-                    href="tel:8066226041"
-                    className="text-brand-gold font-semibold hover:underline"
-                  >
-                    (806) 622-6041
-                  </a>{" "}
-                  for same-day storm response.
-                </p>
-              </div>
-              <div className="md:col-span-3">
-                <ContactForm title="" subtitle="" />
-              </div>
-            </div>
-          </section>
+          <div id="get-quote" className="below-fold scroll-mt-24">
+            <ContactSection />
+          </div>
         </FadeIn>
 
         {/* CTA Section */}
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-lg text-center below-fold">
-          <h2 className="text-3xl font-bold mb-4">Storm Damage? Don't Wait.</h2>
+          <h2 className="text-3xl font-bold mb-4">Storm Damage? Act Early.</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             The sooner you address roof damage, the less costly repairs will be. Get your free
             inspection today and let us handle your insurance claim.

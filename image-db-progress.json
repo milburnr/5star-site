@@ -34,7 +34,7 @@
       "primarySubject": "asphalt-shingles",
       "building": "residential",
       "condition": "damaged",
-      "damageType": "wind-damage",
+      "damageType": "hail-damage",
       "accessories": [],
       "visualQuality": "detail",
       "description": "Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.",
@@ -59,8 +59,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "wind-damage",
       "accessories": [
         "pipe-jack"
       ],
@@ -89,8 +89,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "wind-damage",
       "accessories": [
         "pipe-jack"
       ],
@@ -104,8 +104,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "wind-damage",
       "accessories": [
         "pipe-jack"
       ],
@@ -157,7 +157,7 @@
       "file": "images/hail-damage/hail-damage-levelland-3-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.webp",
       "primarySubject": "asphalt-shingles",
-      "building": "unknown",
+      "building": "residential",
       "condition": "completed",
       "damageType": null,
       "accessories": [],
@@ -2701,8 +2701,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "hail-damage",
       "accessories": [
         "pipe-jack"
       ],
@@ -2716,8 +2716,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "hail-damage",
       "accessories": [
         "pipe-jack",
         "ridge-vent"
@@ -2733,7 +2733,7 @@
       "primarySubject": "asphalt-shingles",
       "building": "residential",
       "condition": "damaged",
-      "damageType": "wind-damage",
+      "damageType": "hail-damage",
       "accessories": [
         "pipe-jack",
         "ridge-vent"
@@ -2921,8 +2921,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "damaged",
-      "damageType": "wind-damage",
+      "condition": "completed",
+      "damageType": null,
       "accessories": [
         "ridge-vent"
       ],
@@ -2951,8 +2951,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-640w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "damaged",
-      "damageType": "wind-damage",
+      "condition": "completed",
+      "damageType": null,
       "accessories": [
         "ridge-vent"
       ],
@@ -2966,8 +2966,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-640w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "damaged",
-      "damageType": "wind-damage",
+      "condition": "completed",
+      "damageType": null,
       "accessories": [
         "ridge-vent",
         "valley-metal"
@@ -2982,8 +2982,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "damaged",
-      "damageType": "wind-damage",
+      "condition": "completed",
+      "damageType": null,
       "accessories": [
         "ridge-vent"
       ],
@@ -3758,7 +3758,7 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-1280w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "in-progress",
+      "condition": "completed",
       "damageType": null,
       "accessories": [],
       "visualQuality": "card",
@@ -3797,7 +3797,7 @@
     "images/completed/completed-amarillo-19-640w.jpg": {
       "file": "images/completed/completed-amarillo-19-640w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-640w.jpg",
-      "primarySubject": "epdm",
+      "primarySubject": "asphalt-shingles",
       "building": "residential",
       "condition": "completed",
       "damageType": null,
@@ -3812,7 +3812,7 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-640w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "in-progress",
+      "condition": "completed",
       "damageType": null,
       "accessories": [
         "flashing",
@@ -3826,7 +3826,7 @@
     "images/completed/completed-amarillo-19-1280w.webp": {
       "file": "images/completed/completed-amarillo-19-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-1280w.webp",
-      "primarySubject": "epdm",
+      "primarySubject": "asphalt-shingles",
       "building": "residential",
       "condition": "completed",
       "damageType": null,
@@ -4039,7 +4039,7 @@
       "accessories": [
         "pipe-jack"
       ],
-      "visualQuality": "card",
+      "visualQuality": "hero",
       "description": "Overhead view of a completed residential asphalt shingle roof installation with gray dimensional shingles showing even coverage and proper ventilation pipes.",
       "confidence": "high",
       "error": false
@@ -4055,7 +4055,7 @@
         "pipe-jack",
         "ridge-vent"
       ],
-      "visualQuality": "card",
+      "visualQuality": "hero",
       "description": "A completed residential asphalt shingle roof installation with gray dimensional shingles in a checkered pattern, featuring visible pipe jacks and ridge ventilation.",
       "confidence": "high",
       "error": false
@@ -5564,7 +5564,7 @@
       "file": "images/completed/completed-stinnett-49-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-49-1280w.webp",
       "primarySubject": "asphalt-shingles",
-      "building": "commercial",
+      "building": "residential",
       "condition": "completed",
       "damageType": null,
       "accessories": [
@@ -5611,7 +5611,7 @@
       "file": "images/completed/completed-stinnett-49-640w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-49-640w.webp",
       "primarySubject": "asphalt-shingles",
-      "building": "commercial",
+      "building": "residential",
       "condition": "completed",
       "damageType": null,
       "accessories": [
@@ -5642,7 +5642,7 @@
       "file": "images/completed/completed-stinnett-49-640w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-49-640w.jpg",
       "primarySubject": "asphalt-shingles",
-      "building": "commercial",
+      "building": "residential",
       "condition": "completed",
       "damageType": null,
       "accessories": [
@@ -9250,7 +9250,7 @@
       "condition": "damaged",
       "damageType": "hail-damage",
       "accessories": [],
-      "visualQuality": "detail",
+      "visualQuality": "card",
       "description": "Asphalt shingle roof with white chalk markings circling multiple hail impact damage points across the surface.",
       "confidence": "high",
       "error": false
@@ -9263,7 +9263,7 @@
       "condition": "in-progress",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "detail",
+      "visualQuality": "card",
       "description": "Asphalt shingle roof with white chalk markings indicating measurements and work areas for repair or replacement sections.",
       "confidence": "high",
       "error": false
@@ -10332,7 +10332,7 @@
     "images/metal/metal-plainview-35-1280w.webp": {
       "file": "images/metal/metal-plainview-35-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.webp",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -10345,7 +10345,7 @@
     "images/metal/metal-plainview-35-1280w.jpg": {
       "file": "images/metal/metal-plainview-35-1280w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -10358,7 +10358,7 @@
     "images/metal/metal-plainview-35-640w.jpg": {
       "file": "images/metal/metal-plainview-35-640w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-640w.jpg",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -10702,8 +10702,8 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
-      "description": "Aerial view of a large commercial building with a bright red R-panel metal roof showing clean vertical ribbing and professional installation.",
+      "visualQuality": "unusable",
+      "description": "Sideways/rotated photo (rotated 90 degrees counterclockwise) of a red R-panel metal roof on a commercial building. Unusable until the R2 asset is rotated and re-uploaded.",
       "confidence": "high",
       "error": false
     },
@@ -10715,8 +10715,8 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
-      "description": "Aerial view of a vibrant red corrugated metal panel roof on a large commercial building, showcasing the clean lines and uniform ribbed profile of the metal roofing system.",
+      "visualQuality": "unusable",
+      "description": "Sideways/rotated photo (rotated 90 degrees counterclockwise) of a red R-panel metal roof on a commercial building. Unusable until the R2 asset is rotated and re-uploaded.",
       "confidence": "high",
       "error": false
     },
@@ -10741,8 +10741,8 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
-      "description": "Aerial view of a bright red standing seam metal roof showing clean vertical panel lines and ridge detail.",
+      "visualQuality": "unusable",
+      "description": "Sideways/rotated photo (rotated 90 degrees counterclockwise) of a red R-panel metal roof on a commercial building. Unusable until the R2 asset is rotated and re-uploaded.",
       "confidence": "high",
       "error": false
     },
@@ -10767,8 +10767,8 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
-      "description": "Aerial view of a large commercial building with a bright red R-panel metal roof featuring vertical ribbed panels in excellent condition.",
+      "visualQuality": "unusable",
+      "description": "Sideways/rotated photo (rotated 90 degrees counterclockwise) of a red R-panel metal roof on a commercial building. Unusable until the R2 asset is rotated and re-uploaded.",
       "confidence": "high",
       "error": false
     },
@@ -10954,7 +10954,7 @@
       "accessories": [
         "ridge-vent"
       ],
-      "visualQuality": "detail",
+      "visualQuality": "card",
       "description": "Close-up view of a gray asphalt shingle hip roof showing the shingle pattern and texture across the sloped surface.",
       "confidence": "high",
       "error": false
@@ -10969,7 +10969,7 @@
       "accessories": [
         "drip-edge"
       ],
-      "visualQuality": "detail",
+      "visualQuality": "card",
       "description": "Close-up aerial view of a gray asphalt shingle roof showing the hip and ridge detail where two roof planes meet.",
       "confidence": "high",
       "error": false
@@ -11930,7 +11930,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a commercial R-panel metal roof with parallel ribbed panels extending toward the horizon under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -11958,7 +11958,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large commercial metal panel roof with parallel ribbed panels extending toward the horizon under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -11971,7 +11971,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large commercial metal roof with vertical ribbed panels extending toward the horizon under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -11984,7 +11984,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a completed commercial metal panel roof with parallel ribbed panels stretching toward industrial buildings and grain silos under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12198,7 +12198,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "card",
+      "visualQuality": "duplicate",
       "description": "A completed R-panel metal roof installation on an industrial facility with large storage silos visible in the background.",
       "confidence": "high",
       "error": false
@@ -12226,7 +12226,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large industrial metal panel roof with parallel ribbed panels extending across the frame, with industrial storage silos and facility buildings visible in the background under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -12239,7 +12239,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large commercial metal panel roof with prominent vertical ribbing extending across the entire surface under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -12252,7 +12252,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "A wide-angle view of a large industrial R-panel metal roof with parallel ribbed panels extending across the surface, with industrial storage silos and clear blue sky in the background.",
       "confidence": "high",
       "error": false
@@ -12265,7 +12265,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large industrial metal panel roof with prominent ribbed corrugation extending across the frame, with large industrial storage silos visible in the background under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12278,7 +12278,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a commercial metal panel roof with clean parallel ribbing extending across the frame, featuring large industrial silos in the background under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12291,7 +12291,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of an expansive industrial metal panel roof with vertical ribbed profiles extending toward large storage silos under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12304,7 +12304,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "A wide-angle view of a commercial metal panel roof with vertical ribbed seams extending across the frame, with industrial storage silos visible in the background against a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12317,7 +12317,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large industrial metal panel roof with clean ribbed panels extending across the frame, with industrial storage tanks visible in the background under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12330,7 +12330,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "card",
+      "visualQuality": "duplicate",
       "description": "A large industrial metal panel roof with vertical ribbed panels extending across the frame, with industrial storage tanks visible in the background.",
       "confidence": "high",
       "error": false
@@ -12343,7 +12343,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "card",
+      "visualQuality": "duplicate",
       "description": "A large industrial metal panel roof with visible vertical ribbing extends across the frame, with industrial storage silos visible in the background.",
       "confidence": "high",
       "error": false
@@ -12369,7 +12369,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "card",
+      "visualQuality": "duplicate",
       "description": "A large commercial or industrial R-panel metal roof installation with vertical ribbed panels in light gray color, showing large storage silos in the background.",
       "confidence": "high",
       "error": false
@@ -12418,12 +12418,12 @@
     "images/commercial/commercial-plainview-23-1280w.jpg": {
       "file": "images/commercial/commercial-plainview-23-1280w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-1280w.jpg",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "A wide-angle view of a commercial standing-seam metal roof installation at an industrial grain facility with dramatic blue sky and excellent composition.",
       "confidence": "high",
       "error": false
@@ -12431,12 +12431,12 @@
     "images/commercial/commercial-plainview-23-1280w.webp": {
       "file": "images/commercial/commercial-plainview-23-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-1280w.webp",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "A wide-angle view of a commercial standing-seam metal roof installation on an industrial grain facility with storage silos under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12444,12 +12444,12 @@
     "images/commercial/commercial-plainview-23-640w.jpg": {
       "file": "images/commercial/commercial-plainview-23-640w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-640w.jpg",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a commercial standing seam metal roof installation with vertical ribs extending across a large industrial facility marked with MASECA signage.",
       "confidence": "high",
       "error": false
@@ -12457,12 +12457,12 @@
     "images/commercial/commercial-plainview-23-640w.webp": {
       "file": "images/commercial/commercial-plainview-23-640w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-640w.webp",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large industrial standing seam metal roof with vertical ribs extending across the surface, featuring a large grain elevator building with \"MASECA\" signage and storage silos under clear blue skies.",
       "confidence": "high",
       "error": false

@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { ClipboardList, Factory, Fuel, Phone, Star, Wheat } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-andrews/" },
   title: "Commercial Roofing Andrews TX | 5 Star Roofing",
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-9-1920w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Commercial metal roof installation on West Texas facility — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function CommercialRoofingAndrewsPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Commercial Roofing", url: "/commercial-roofing/" },
-          { name: "Andrews", url: "/commercial-roofing-andrews/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -147,44 +138,20 @@ export default function CommercialRoofingAndrewsPage() {
 
       {/* schema-cleanup:faqpage:removed */}
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-8-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Commercial Roofing in <span className="text-brand-gold-light">Andrews</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Expert Service for Texas Properties
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional commercial roofing throughout Andrews. Expert installation,
-                comprehensive warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Andrews"
+        service="Commercial Roofing"
+        h1="Commercial Roofing in Andrews, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-14-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Andrews", url: "/commercial-roofing-andrews/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -218,6 +185,34 @@ export default function CommercialRoofingAndrewsPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing delivers commercial roofing in Andrews TX including flat roof repair, TPO systems, and metal roofing for Permian Basin oil field businesses and facilities.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Commercial Roofing</a>
+              <a href="/commercial-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Commercial</a>
+              <a href="/commercial-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Commercial</a>
+              <a href="/andrews-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Andrews Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -231,7 +226,7 @@ export default function CommercialRoofingAndrewsPage() {
               hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Andrews with expert installations, comprehensive warranties,
+              5 Star Roofing has served Andrews for over a decade with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits,
               insurance claims, and warranty documentation. Free inspections and estimates
               available.
@@ -410,7 +405,7 @@ export default function CommercialRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Storm Response in Andrews
+              Storm Damage Documentation in Andrews
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -458,7 +453,7 @@ export default function CommercialRoofingAndrewsPage() {
                 </h4>
                 <ul className="text-gray-700 space-y-3">
                   <li>
-                    <strong>Hail Damage</strong> — Immediate tarping and permanent repair solutions
+                    <strong>Hail Damage</strong> — Documentation, inspection, and permanent repair solutions
                   </li>
                   <li>
                     <strong>Wind Damage</strong> — Securing lifted materials and HVAC units
@@ -476,45 +471,6 @@ export default function CommercialRoofingAndrewsPage() {
           </section>
         </FadeIn>
 
-        <FadeIn>
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Andrews Commercial Roofing: By the Numbers Involve?
-            </h2>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={150} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Andrews Projects Completed</div>
-                  <div className="text-sm text-gray-600 mt-1">Since 2014</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={2.5} prefix="$" suffix="M" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Property Protected</div>
-                  <div className="text-sm text-gray-600 mt-1">Commercial values secured</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={90} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Energy Savings</div>
-                  <div className="text-sm text-gray-600 mt-1">Average cooling cost reduction</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={99} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Customer Satisfaction</div>
-                  <div className="text-sm text-gray-600 mt-1">Andrews client retention rate</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         <FadeIn>
           <section className="mb-16">
@@ -603,16 +559,7 @@ export default function CommercialRoofingAndrewsPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

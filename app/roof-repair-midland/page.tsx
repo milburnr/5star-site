@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,7 +6,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -24,7 +22,9 @@ import {
   TrendingDown,
 } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair-midland/" },
   title: "Roof Repair Midland TX | Free Inspection | 5 Star Roofing",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Damaged asphalt shingle roof in Midland TX showing storm damage — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -51,16 +51,7 @@ export const metadata: Metadata = {
 
 export default function RoofRepairMidlandPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Roof Repair", url: "/roof-repair/" },
-          { name: "Midland", url: "/roof-repair-midland/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -150,105 +141,21 @@ export default function RoofRepairMidlandPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "How does Midland's desert climate affect roof longevity?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Midland's hot semi-arid climate with temperature extremes causes rapid thermal expansion/contraction, accelerated UV degradation, and brittle material failure. Desert conditions can reduce typical shingle life by 15-25% compared to moderate climates.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What roofing challenges are unique to oil boom neighborhoods like Grassland Estates?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Oil boom developments from the 1970s-1990s often feature rushed construction with lower-grade materials. These neighborhoods may have inadequate ventilation, inferior flashing, and roofing systems that weren't designed for long-term desert exposure.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Are roof repairs more expensive in Midland due to the oil economy?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Midland repair costs typically run 10-15% higher than regional averages during oil booms due to increased demand and higher wages. Minor repairs: $400-950, moderate damage: $950-2,900, extensive repairs: $2,900-6,800. During bust cycles, costs may normalize.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How do I know if my Midland roof has desert climate damage?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Signs include: brittle, easily cracked shingles; excessive granule loss in gutters; curling shingle edges; failed caulk around penetrations; and visible thermal stress cracking. Professional inspection reveals hidden damage not visible from ground level.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What building permits are needed for roof repairs in Midland County?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Repairs under $1,000 typically don't require permits in Midland. Structural work, electrical/plumbing involvement, or section replacements need city permits. We handle all documentation and ensure compliance with local building codes.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What roofing materials perform best in Midland's desert conditions?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Cool-roof rated shingles with high solar reflectance perform best. Metal roofing excels in thermal cycling. Clay and concrete tiles work well but need structural support. Avoid dark colors and standard 3-tab shingles which fail quickly in desert heat.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Repair in <span className="text-brand-gold-light">Midland</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Permian Basin Desert Specialists
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof repair for Midland's unique desert climate challenges. Serving oil
-                industry communities, executive neighborhoods, and boom-cycle developments with
-                specialized solutions for extreme heat, UV damage, and thermal stress.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Midland"
+        service="Roof Repair"
+        h1="Roof Repair in Midland, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-30-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Roof Repair", url: "/roof-repair/" },
+          { name: "Midland", url: "/roof-repair-midland/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -280,6 +187,34 @@ export default function RoofRepairMidlandPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides roof repair throughout Midland TX, hail damage, wind uplift, emergency patching, and insurance claim documentation for residential and commercial Permian Basin properties.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Roof Repair</a>
+              <a href="/roof-repair-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Roof Repair</a>
+              <a href="/roof-repair-andrews/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Andrews Roof Repair</a>
+              <a href="/midland-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Midland Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -1266,16 +1201,7 @@ export default function RoofRepairMidlandPage() {
               climate roofing solutions.
             </p>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Midland, TX" />
             </div>
           </section>
         </FadeIn>

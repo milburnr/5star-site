@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Hospital, Landmark, Lock, Phone, Star, Truck, Zap } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-big-spring/" },
   title: "Commercial Roofing Big Spring TX | 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function CommercialRoofingBigSpringPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Commercial Roofing", url: "/commercial-roofing/" },
-          { name: "Big Spring", url: "/commercial-roofing-big-spring/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -147,44 +138,20 @@ export default function CommercialRoofingBigSpringPage() {
 
       {/* schema-cleanup:faqpage:removed */}
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-9-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Commercial Roofing in <span className="text-brand-gold-light">Big Spring</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Expert Service for Texas Properties
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional commercial roofing throughout Big Spring. Expert installation,
-                comprehensive warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Big Spring"
+        service="Commercial Roofing"
+        h1="Commercial Roofing in Big Spring, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-9-1920w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Big Spring", url: "/commercial-roofing-big-spring/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -231,7 +198,7 @@ export default function CommercialRoofingBigSpringPage() {
               mission-critical facilities that operate.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Big Spring's unique institutional and commercial needs with
+              We've served Big Spring's unique institutional and commercial needs with
               expert installations and comprehensive warranties. We handle all
               permits, insurance claims, and warranty documentation.
             </p>
@@ -260,7 +227,7 @@ export default function CommercialRoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Specialized Roofing Solutions for Big Spring's Key Sectors Involve?
+              What Does commercial roofing for Big Spring's Key Sectors Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-red-500">
@@ -546,7 +513,7 @@ export default function CommercialRoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Big Spring?
+              How Does Our Post-Storm Process in Big Spring?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -641,45 +608,6 @@ export default function CommercialRoofingBigSpringPage() {
           </section>
         </FadeIn>
 
-        <FadeIn>
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Big Spring Commercial Roofing: Performance Metrics Involve?
-            </h2>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={200} suffix="+" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Big Spring Projects</div>
-                  <div className="text-sm text-gray-600 mt-1">
-                    Healthcare, corrections, commercial
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={95} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Facility Uptime</div>
-                  <div className="text-sm text-gray-600 mt-1">During installations</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">Zero</div>
-                  <div className="text-brand-brown font-semibold">Security Breaches</div>
-                  <div className="text-sm text-gray-600 mt-1">In correctional facility work</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-brand-gold mb-2">
-                    <AnimatedCounter to={100} suffix="%" />
-                  </div>
-                  <div className="text-brand-brown font-semibold">Compliance Rate</div>
-                  <div className="text-sm text-gray-600 mt-1">Healthcare & federal standards</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </FadeIn>
 
         <FadeIn>
           <section className="mb-16">
@@ -802,16 +730,7 @@ export default function CommercialRoofingBigSpringPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

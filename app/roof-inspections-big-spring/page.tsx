@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,9 +8,9 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   AlertTriangle,
   Camera,
@@ -29,6 +28,7 @@ import {
   Wind,
 } from "lucide-react";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-inspections-big-spring/" },
   title: "Roof Inspections Big Spring TX | 5 Star Roofing",
@@ -55,25 +55,7 @@ export const metadata: Metadata = {
 
 export default function RoofInspectionsBigSpringPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Inspections",
-            url: "/roof-inspections/",
-          },
-          {
-            name: "Big Spring",
-            url: "/roof-inspections-big-spring/",
-          },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -184,47 +166,29 @@ export default function RoofInspectionsBigSpringPage() {
 
       {/* schema-cleanup:faqpage:removed */}
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Professional Roof Inspections in{" "}
-                <span className="text-brand-gold-light">Big Spring, TX</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Complete Storm Damage Assessment & Insurance Documentation
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof inspections in Big Spring, Texas. West Texas experiences 7-9 severe
-                hailstorms annually, making professional roof inspections critical for property
-                protection and insurance claims. Complete inspection reports with detailed
-                documentation.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Big Spring"
+        service="Roof Inspections"
+        h1="Roof Inspections in Big Spring, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Inspections",
+            url: "/roof-inspections/",
+          },
+          {
+            name: "Big Spring",
+            url: "/roof-inspections-big-spring/",
+          },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -239,7 +203,7 @@ export default function RoofInspectionsBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">100%</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3"></div>
                 <div className="text-brand-brown font-semibold text-lg">Insurance Approved</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -278,7 +242,7 @@ export default function RoofInspectionsBigSpringPage() {
               essential for property protection and insurance coverage maintenance.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2008, 5 Star Commercial Roofing has provided comprehensive roof inspection
+              For many years, 5 Star Commercial Roofing has provided comprehensive roof inspection
               services throughout Big Spring and Howard County. Our certified inspectors understand
               local weather patterns, building codes, insurance requirements, and the specific
               challenges facing properties from downtown Big Spring near the historic Spring to
@@ -699,7 +663,7 @@ export default function RoofInspectionsBigSpringPage() {
                   Schedule immediate inspection if you notice: water stains on ceilings, missing or
                   damaged shingles, granules in gutters, dents on metal surfaces after storms,
                   cracked or curling shingles, damaged flashing around chimneys or vents, or any
-                  interior leaks during rain. Don't wait—early detection prevents costly damage.
+                  interior leaks during rain. Early detection prevents costly damage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -725,16 +689,7 @@ export default function RoofInspectionsBigSpringPage() {
               Serving Big Spring, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl mb-8">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-101.47!3d32.25!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sBig%20Spring%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Big Spring, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Spring, TX" />
             </div>
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Big Spring Service Areas</h3>
@@ -749,7 +704,7 @@ export default function RoofInspectionsBigSpringPage() {
                   <li>• Highway 87 corridor</li>
                 </ul>
                 <ul className="space-y-2">
-                  <li>• Interstate 20 properties</li>
+                  <li>• Interstate </li>
                   <li>• Airport Road area</li>
                   <li>• Comanche Trail Park region</li>
                   <li>• McMahon-Wrinkle Airpark</li>
@@ -769,7 +724,7 @@ export default function RoofInspectionsBigSpringPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Protect Your Big Spring Property Today</h2>
           <p className="text-xl mb-8 max-w-4xl mx-auto">
-            Don't wait for visible damage to appear. With West Texas experiencing 7-9 severe
+            Schedule an inspection before visible damage appears. With West Texas experiencing 7-9 severe
             hailstorms annually, professional roof inspections are your first line of defense. Our
             comprehensive inspections provide complete documentation for insurance claims and peace
             of mind for your property investment.

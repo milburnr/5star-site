@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { ReviewsSection } from "@/components/page-sections/ReviewsSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/contact/" },
   title: "Contact Us | 5 Star Roofing | Amarillo, TX",
@@ -298,17 +299,7 @@ export default function ContactPage() {
               Visit Our Location
             </h2>
             <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-gold/20">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5244!2d-101.8552!3d35.1849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870148d5b5e5b5b5%3A0x5e5e5e5e5e5e5e5e!2s2909%20S%20Western%20St%2C%20Amarillo%2C%20TX%2079109!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
-                width="100%"
-                height="500"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="5 Star Commercial Roofing Location Map"
-                className="w-full"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </div>
@@ -328,52 +319,52 @@ export default function ContactPage() {
               {[
                 {
                   city: "Amarillo",
-                  icon: '<Building2 className="w-6 h-6 inline-block" />',
-                  link: "/amarillo-texas-roofing/",
+                  Icon: Building2,
+                  link: "/amarillo-tx-roofing/",
                 },
                 {
                   city: "Midland",
-                  icon: '<Sunset className="w-6 h-6 inline-block" />',
+                  Icon: Sunset,
                   link: "/midland-tx-roofing/",
                 },
                 {
                   city: "Odessa",
-                  icon: '<Home className="w-6 h-6 inline-block" />',
+                  Icon: Home,
                   link: "/odessa-tx-roofing/",
                 },
                 {
                   city: "Lubbock",
-                  icon: '<Moon className="w-6 h-6 inline-block" />',
+                  Icon: Moon,
                   link: "/lubbock-tx-roofing/",
                 },
                 {
                   city: "Canyon",
-                  icon: '<Mountain className="w-6 h-6 inline-block" />',
+                  Icon: Mountain,
                   link: "/canyon-texas-roofing/",
                 },
                 {
                   city: "Pampa",
-                  icon: '<Home className="w-6 h-6 inline-block" />',
+                  Icon: Home,
                   link: "/service-areas/",
                 },
                 {
                   city: "Borger",
-                  icon: '<Home className="w-6 h-6 inline-block" />',
+                  Icon: Home,
                   link: "/service-areas/",
                 },
                 {
                   city: "Hereford",
-                  icon: '<Wheat className="w-6 h-6 inline-block" />',
+                  Icon: Wheat,
                   link: "/service-areas/",
                 },
                 {
                   city: "Plainview",
-                  icon: '<Flower2 className="w-6 h-6 inline-block" />',
+                  Icon: Flower2,
                   link: "/service-areas/",
                 },
                 {
                   city: "Dumas",
-                  icon: '<Star className="w-5 h-5 fill-brand-gold text-brand-gold inline-block" />',
+                  Icon: Star,
                   link: "/service-areas/",
                 },
               ].map((area, index) => (
@@ -382,8 +373,8 @@ export default function ContactPage() {
                     href={area.link}
                     className="block bg-white p-6 rounded-xl text-center hover:shadow-2xl hover:scale-110 hover:border-2 hover:border-brand-gold transition-all duration-300 group"
                   >
-                    <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300">
-                      {area.icon}
+                    <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300 flex justify-center text-brand-gold">
+                      <area.Icon className="w-8 h-8" />
                     </div>
                     <div className="font-bold text-brand-brown group-hover:text-brand-gold transition-colors text-lg">
                       {area.city}
@@ -545,7 +536,7 @@ export default function ContactPage() {
               Ready to Get Started?
             </h2>
             <p className="text-2xl mb-8 max-w-3xl mx-auto">
-              Don't wait until minor damage becomes a major problem. Contact us today for your free,
+              Address minor damage before it becomes a major problem. Contact us today for your free,
               no-obligation roof inspection.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">

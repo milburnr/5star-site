@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-lubbock/" },
   title: "Storm Damage Repair Lubbock | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Lubbock",
-            url: "/storm-damage-repair-lubbock/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -151,7 +134,7 @@ export default function Page() {
                 name: "What areas of Lubbock do you serve for storm damage repair?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We serve all Lubbock neighborhoods including Tech Terrace, Overton, Melonie Park, and areas surrounding Texas Tech University and the National Ranching Heritage Center. Our service extends throughout the South Plains agricultural region to rural properties and farm buildings. We're familiar with specific challenges in each area, from historic homes near the Buddy Holly Center requiring specialized repairs to modern developments with HOA requirements. Our local presence since 2014 ensures expert service across greater Lubbock.",
+                  text: "We serve all Lubbock neighborhoods including Tech Terrace, Overton, Melonie Park, and areas surrounding Texas Tech University and the National Ranching Heritage Center. Our service extends throughout the South Plains agricultural region to rural properties and farm buildings. We're familiar with specific challenges in each area, from historic homes near the Buddy Holly Center requiring specialized repairs to modern developments with HOA requirements. Our local presence serving the area ensures expert service across greater Lubbock.",
                 },
               },
               {
@@ -166,44 +149,29 @@ export default function Page() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Storm Damage Repair in <span className="text-brand-gold-light">Lubbock</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting South Plains Properties Since 2014
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage repair in Lubbock. for hail, wind, and weather damage. Complete
-                insurance assistance.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Estimate
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="lubbock"
+        city="Lubbock"
+        service="Storm Damage Repair"
+        h1="Storm Damage Repair in Lubbock, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Lubbock",
+            url: "/storm-damage-repair-lubbock/",
+          },
+        ]}
+    />
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -217,7 +185,7 @@ export default function Page() {
               Your roofing system must withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has provided storm damage repair throughout
+              5 Star Commercial Roofing has provided storm damage repair throughout
               Lubbock and the South Plains. From properties near Lubbock Lake Landmark to homes
               surrounding Prairie Dog Town in Mackenzie Park and buildings throughout the Depot
               District, we respond quickly with . Our experienced crews understand South Plains
@@ -389,16 +357,7 @@ export default function Page() {
               Serving Lubbock and the South Plains
             </h2>
             <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214628.83174374424!2d-101.94953284999999!3d33.577863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe12add1019bfb%3A0x3704f77c0633ae02!2sLubbock%2C%20TX!5e0!3m2!1sen!2sus!4v1642535234567!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Lubbock, TX Service Area Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Lubbock, TX" />
             </div>
           </section>
         </FadeIn>

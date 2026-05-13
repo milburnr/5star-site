@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-dumas/" },
   title: "Storm Damage Repair Dumas TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function StormDamageRepairDumasPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Dumas",
-            url: "/storm-damage-repair-dumas/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -184,7 +167,7 @@ export default function StormDamageRepairDumasPage() {
                 name: "Will insurance cover my storm damage repairs in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
+                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs.",
                 },
               },
               {
@@ -199,7 +182,7 @@ export default function StormDamageRepairDumasPage() {
                 name: "How long does storm damage roof replacement take in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Dumas, timelines may extend due to high demand—early claims get priority scheduling.",
+                  text: "Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Dumas, timelines may extend due to high demand—early claims get priority scheduling.",
                 },
               },
               {
@@ -207,52 +190,36 @@ export default function StormDamageRepairDumasPage() {
                 name: "What should I do immediately after storm damage in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
+                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
                 },
               },
             ],
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-35-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Storm Damage Repair in <span className="text-brand-gold-light">Dumas</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Storm Damage Experts | Panhandle Weather Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage roof repair in Dumas TX. Texas Panhandle experiences 6-8
-                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
-                622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  urgent: (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="dumas"
+        city="Dumas"
+        service="Storm Damage Repair"
+        h1="Storm Damage Repair in Dumas, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-35-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Dumas",
+            url: "/storm-damage-repair-dumas/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -298,7 +265,7 @@ export default function StormDamageRepairDumasPage() {
               ball-sized hail and sustained winds exceeding 70 mph.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 240+ Dumas properties with premium materials engineered
+              We've protected 240+ Dumas properties with premium materials engineered
               for Panhandle weather extremes. From residential areas near Window on the Plains
               Museum to industrial facilities and agricultural operations, we understand Moore
               County's diverse building needs. We work seamlessly with farmers, business owners, and
@@ -327,7 +294,7 @@ export default function StormDamageRepairDumasPage() {
                   the unobstructed terrain from Colorado and New Mexico.
                 </p>
                 <p className="text-gray-700">
-                  Agricultural buildings require rapid storm response to protect livestock, stored
+                  Agricultural buildings require efficient post-storm documentation to protect livestock, stored
                   grain, and expensive equipment. We prioritize storm repairs on agricultural
                   structures and understand the critical timing around planting and harvest seasons
                   when delays cost thousands daily.
@@ -358,7 +325,7 @@ export default function StormDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Agricultural Building Storm Response?
+              What Agricultural Building post-storm documentation?
             </h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-red-50 p-6 rounded-2xl border-l-4 border-red-500">
@@ -462,7 +429,7 @@ export default function StormDamageRepairDumasPage() {
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold mb-2">storm response Planning</h4>
+                    <h4 className="font-semibold mb-2">post-storm documentation Planning</h4>
                     <p className="text-gray-600 text-sm">
                       Agricultural operations need our roofing service protocols for livestock
                       protection, grain preservation, and equipment security during and after severe
@@ -523,10 +490,9 @@ export default function StormDamageRepairDumasPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Most homeowner and commercial policies cover storm damage including wind, hail,
                   and rain infiltration from covered perils. Coverage typically includes mitigation
-                  costs (tarping, temporary repairs) plus complete restoration. We document all
+                  costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all
                   damage professionally, work directly with adjusters, and handle supplement
-                  requests for hidden damage discovered during repairs. Our 95%+ approval rate
-                  demonstrates our insurance expertise.
+                  requests for hidden damage discovered during repairs.
                 </AccordionContent>
               </AccordionItem>
 
@@ -548,7 +514,7 @@ export default function StormDamageRepairDumasPage() {
                   How long does storm damage roof replacement take in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Tarping and temporary repairs are typically scheduled within 1-2 business days.
+                  Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days.
                   Complete roof replacement typically occurs 2-4 weeks after insurance approval,
                   depending on material availability and scheduling. Actual installation takes 1-3
                   days for most homes. During major storm events affecting Dumas, timelines may
@@ -566,7 +532,7 @@ export default function StormDamageRepairDumasPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage
                   with photos/video from the ground. (3) Call us for professional inspection—we
-                  handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5)
+                  handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5)
                   DO NOT make permanent repairs before insurance inspection—this can void coverage.
                   We coordinate the entire process from initial assessment through final
                   restoration.
@@ -582,16 +548,7 @@ export default function StormDamageRepairDumasPage() {
               Serving Dumas, TX
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52373.48394183475!2d-101.9734!3d35.8657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870196c5448c58c7%3A0x61f1e483f088b833!2sDumas%2C%20TX!5e0!3m2!1sen!2sus!4v1736541456789!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Dumas, TX" />
             </div>
           </section>
         </FadeIn>

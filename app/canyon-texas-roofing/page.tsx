@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -204,7 +204,7 @@ export default function CanyonRoofingPage() {
             <h2 className="content-block-title">Trusted Roofing Services in Canyon, Texas</h2>
             <p className="text-lg mb-4">
               As Canyon's premier{" "}
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 professional roofing contractor
               </a>
               , 5 Star Commercial Roofing brings over a decade of experience serving Randall County
@@ -396,7 +396,7 @@ export default function CanyonRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Canyon, we respond with tarping and rapid roof
+                  When severe weather strikes Canyon, we respond with weatherproof sheeting and rapid roof
                   repairs. Call us immediately for storm damage assessment.
                 </p>
                 <a href="/storm-damage-repair-amarillo/" className="text-red-700 font-semibold">
@@ -499,7 +499,7 @@ export default function CanyonRoofingPage() {
               across the entire region:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 • Amarillo Roofing
               </a>
               <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">

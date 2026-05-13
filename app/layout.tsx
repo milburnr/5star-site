@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { MobileMenu } from "@/components/MobileMenu";
@@ -17,6 +18,18 @@ import Script from "next/script";
 // `system-ui, sans-serif` chain defined in tailwind.config.ts.
 const poppins = { variable: "--font-poppins" };
 const openSans = { variable: "--font-open-sans" };
+
+// Cormorant Garamond — editorial display serif used by AltHeroFrame and
+// section heading utilities. Previously loaded render-blocking from
+// fonts.googleapis.com via a stylesheet inside AltHeroFrame.
+// `display: 'optional'` means: use the fallback if the font isn't ready
+// within ~100ms; never block render. No layout shift, no LCP regression.
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "optional",
+  variable: "--font-cormorant",
+});
 
 export const metadata: Metadata = {
   title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
@@ -47,7 +60,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} ${openSans.variable} scroll-smooth`}>
+    <html lang="en" className={`${poppins.variable} ${openSans.variable} ${cormorant.variable} scroll-smooth`}>
       <head>
         {/* Preconnect to R2 so the hero image can be fetched in parallel
             with the HTML without an extra DNS/TLS round-trip.
@@ -170,7 +183,7 @@ export default function RootLayout({
                   <div className="absolute top-full left-0 mt-2 w-48 bg-[#2C1810] rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-brand-gold/20">
                     <div className="py-2">
                       <a
-                        href="/amarillo-texas-roofing/"
+                        href="/amarillo-tx-roofing/"
                         className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
                       >
                         Amarillo
@@ -316,18 +329,11 @@ export default function RootLayout({
                     Facebook
                   </a>
                 </div>
-                {/* Lazy Google Maps embed for NAP/local SEO — 5 Star Roofing HQ */}
-                <div className="mt-4 rounded-lg overflow-hidden border border-brand-gold/30 shadow-md">
-                  <iframe
-                    title="5 Star Commercial Roofing — 2909 S Western St, Amarillo, TX 79109"
-                    src="https://www.google.com/maps?q=2909+S+Western+St,+Amarillo,+TX+79109&output=embed"
-                    width="100%"
-                    height="180"
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    style={{ border: 0 }}
-                  ></iframe>
-                </div>
+                {/* Footer map removed (2026-05-12): duplicated the larger
+                    MapEmbed on /contact/ and added a second iframe to every
+                    page. The GBP "View on Google" anchor above still provides
+                    the NAP/local SEO entity association without the extra
+                    iframe weight. */}
                 {/* Phase 12 Stream C (12.18): trademark disclaimer + cert badge placeholder.
                     Cert badges are intentionally NOT rendered — per plan 12.18 the default
                     is "skip" until Rich confirms which certifications 5 Star currently holds.
@@ -420,7 +426,7 @@ export default function RootLayout({
                 <ul className="space-y-2 text-sm">
                   <li>
                     <a
-                      href="/amarillo-texas-roofing/"
+                      href="/amarillo-tx-roofing/"
                       className="text-brand-gold-light hover:text-brand-gold-bright"
                     >
                       Amarillo Roofing

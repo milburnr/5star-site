@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -7,9 +6,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   AlertTriangle,
   Beef,
@@ -53,16 +52,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairHerefordPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Hereford", url: "/hail-damage-repair-hereford/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -193,76 +183,21 @@ export default function HailDamageRepairHerefordPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-6-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Hereford, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                The Beef Capital of the World's Roofing Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Hereford—the only incorporated city named "Hereford" in the United States and the
-                undisputed Beef Capital of the World—faces intense weather challenges from its high
-                plains location. With over 1 million cattle fed annually in surrounding feedlots, 5
-                Star Roofing has been protecting Hereford's homes and agricultural facilities since
-                2014 with expert hail damage repair and storm-resistant solutions.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="hereford"
+        city="Hereford"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Hereford, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-6-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Hereford", url: "/hail-damage-repair-hereford/" },
+        ]}
+    />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={48} suffix=" mi" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Southwest of Amarillo</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">1M+</div>
-                <div className="text-brand-brown font-semibold text-lg">Cattle Fed Annually</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <Beef className="w-6 h-6 inline-block" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Beef Capital of World</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>
@@ -462,7 +397,7 @@ export default function HailDamageRepairHerefordPage() {
                 <div className="bg-white p-4 rounded-lg shadow">
                   <h4 className="font-bold text-brand-gold-vibrant mb-2">Increased Intensity</h4>
                   <ul className="text-gray-600 text-sm space-y-1">
-                    <li>• 20% larger average hail size since 2010</li>
+                    <li>•  larger average hail size serving the area</li>
                     <li>• More frequent supercell development</li>
                     <li>• Longer-duration storm events</li>
                     <li>• Higher wind speeds in storms</li>
@@ -490,7 +425,7 @@ export default function HailDamageRepairHerefordPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Hereford since 2014, developing deep expertise in both
+              5 Star Roofing has been serving Hereford serving the region, developing deep expertise in both
               residential storm damage and commercial agricultural roofing systems. Our team
               understands that protecting Hereford means protecting the infrastructure that feeds 65
               million people annually through the community's beef production. We've worked on
@@ -620,7 +555,7 @@ export default function HailDamageRepairHerefordPage() {
                 <div className="text-4xl mb-4">
                   <Wrench className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">5. storm response</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">5. post-storm documentation</h3>
                 <p className="text-gray-600">
                   service for critical agricultural facilities and residential emergencies.
                 </p>
@@ -661,7 +596,7 @@ export default function HailDamageRepairHerefordPage() {
                 <p className="text-sm mt-2">By Hereford's beef industry</p>
               </div>
               <div className="bg-white/10 p-6 rounded-xl">
-                <div className="text-4xl font-bold mb-2">24/7</div>
+                <div className="text-4xl font-bold mb-2">Free</div>
                 <div className="font-semibold">Agricultural Response</div>
                 <p className="text-sm mt-2">Critical facility protection</p>
               </div>

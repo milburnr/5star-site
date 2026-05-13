@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,9 +7,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   CheckCircle,
   ClipboardList,
@@ -26,11 +25,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-odessa/" },
   title: "Hail Damage Repair Odessa TX | 5 Star Roofing",
   description:
-    "Professional hail damage roof repair in Odessa TX. Fast storm response, insurance assistance. Free inspections. Call (806) 622-6041",
+    "Professional hail damage roof repair in Odessa TX. Insurance documentation, insurance assistance. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Hail Damage Repair Odessa TX | 5 Star Roofing",
     description:
-      "Professional hail damage roof repair in Odessa TX. Fast storm response, insurance assistance. Free inspections. Call (806) 622-6041",
+      "Professional hail damage roof repair in Odessa TX. Insurance documentation, insurance assistance. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/hail-damage-repair-odessa/",
     siteName: "5 Star Roofing",
     images: [
@@ -48,16 +47,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairOdessaPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Odessa", url: "/hail-damage-repair-odessa/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -180,7 +170,7 @@ export default function HailDamageRepairOdessaPage() {
                 name: "What are Class 4 impact-resistant shingles?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing. For Odessa homes facing frequent Permian Basin storms, Class 4 shingles reduce future damage by up to 90% and often qualify for 10-30% insurance premium discounts.",
+                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing. For Odessa homes facing frequent Permian Basin storms, Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).",
                 },
               },
               {
@@ -197,80 +187,22 @@ export default function HailDamageRepairOdessaPage() {
       />
 
       {/* Hero Section */}
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Odessa, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                Permian Basin's Trusted Storm Restoration Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Odessa's position in the Permian Basin means severe weather is part of life in Ector
-                County. Since 2014, 5 Star Roofing has helped Odessa homeowners and businesses
-                recover from hail damage with expert repairs, insurance claim assistance, and Class
-                4 impact-resistant replacements built to withstand West Texas storms.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="odessa"
+        city="Odessa"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Odessa, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Odessa", url: "/hail-damage-repair-odessa/" },
+        ]}
+    />
 
       {/* Stats Bar */}
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={282} suffix=" mi" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
-                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         {/* Main Content Section */}
@@ -294,7 +226,7 @@ export default function HailDamageRepairOdessaPage() {
               roofs that need protection and repair when damage occurs.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Odessa and the Permian Basin since 2014. We understand
+              5 Star Roofing has been serving Odessa and the Permian Basin serving the Texas Panhandle. We understand
               the specific roofing challenges that come with West Texas weather and the oil economy.
               Our team has helped hundreds of Odessa property owners—including many rental
               properties housing oil field workers—recover from storm damage with expert repairs and
@@ -581,7 +513,7 @@ export default function HailDamageRepairOdessaPage() {
                   (about 282 miles away) and we maintain crew relationships throughout West Texas.
                   We are not an emergency-dispatch service — our value is thorough photo
                   documentation, adjuster-ready reports, and Class 4 impact-resistant restoration
-                  for Ector County properties. After major storms, we prioritize tarping to prevent
+                  for Ector County properties. After major storms, we prioritize weatherproof sheeting to help prevent
                   water damage before permanent repairs begin.
                 </AccordionContent>
               </AccordionItem>

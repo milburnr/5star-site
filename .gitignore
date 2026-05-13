@@ -51,6 +51,23 @@ public/images/jobs/
 # Homepage hero — same-origin WebP (preloaded, ~55-395K per variant)
 # Kept in repo so CI deploys them (CSS in globals.css points at /images/home-hero-*.webp)
 !public/images/home-hero-*.webp
+# Editorial hero (AltHeroFrame / HomeHero) — same-origin AVIF + WebP at 4 widths.
+# Optimized from the source 2.5MB PNG via scripts/optimize-hero.mjs.
+# Mobile ships ~46KB WebP / ~39KB AVIF. Desktop 1920w ~271KB WebP / ~199KB AVIF.
+!public/images/heroes/5star-new-hero-*.webp
+!public/images/heroes/5star-new-hero-*.avif
+# City-specific editorial heroes (AltHeroFrame city variant) — same-origin
+# AVIF + WebP at widths 600/900/1200/1920 generated from AI source PNGs via
+# scripts/optimize-city-heroes.mjs. ~80KB ceiling at 900w.
+!public/images/heroes/cities/**/*.webp
+!public/images/heroes/cities/**/*.avif
+# Service-hub heroes (ServiceHero variant on /metal-roofing, /tpo-roofing,
+# /commercial-roofing) — same-origin AVIF + WebP at 600/900/1200/1920
+# generated from R2 sources via scripts/optimize-hub-heroes.mjs. Same
+# pattern + budget as the city heroes. Drove hub Lighthouse perf from
+# 76-84 to 92-97 by replacing R2 JPGs of 500-768KB.
+!public/images/heroes/services/**/*.webp
+!public/images/heroes/services/**/*.avif
 # Curated card photography (material/process/service hero shots) — same-origin
 !public/images/materials/**/*.webp
 !public/images/materials/**/*.png
@@ -62,3 +79,6 @@ public/images/jobs/
 !public/assets/**/*.jpg
 !public/assets/**/*.jpeg
 !public/assets/**/*.webp
+
+# Local Playwright screenshot output (large binary; not for commits)
+runs/design-screenshots/

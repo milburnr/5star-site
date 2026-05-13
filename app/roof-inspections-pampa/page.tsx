@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Snowflake, Star, Tornado, Wheat } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-inspections-pampa/" },
   title: "Roof Inspections Pampa TX | 5 Star Roofing",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function RoofInspectionsPampaPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Inspections",
-            url: "/roof-inspections/",
-          },
-          {
-            name: "Pampa",
-            url: "/roof-inspections-pampa/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -200,7 +183,7 @@ export default function RoofInspectionsPampaPage() {
                 name: "Can roof inspections help with insurance claims?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Absolutely. Professional documentation dramatically improves claim approval rates. We photograph all damage, count hail impacts per test square, document wind damage patterns, and provide reports meeting insurance company standards. Our inspections have helped thousands of Texas Panhandle homeowners successfully file storm damage claims.",
+                  text: "Absolutely. Professional documentation dramatically improves claim approval rates. We photograph all damage, count hail impacts per test square, document wind damage patterns, and provide reports meeting insurance company standards. Our inspections help Texas Panhandle homeowners file storm damage claims.",
                 },
               },
               {
@@ -215,76 +198,29 @@ export default function RoofInspectionsPampaPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Inspections in <span className="text-brand-gold-light">Pampa</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                FREE Professional Inspections | Drone Technology
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof inspections in Pampa TX. Texas Panhandle experiences 6-8 hailstorms
-                annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Schedule FREE Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={220} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Pampa Projects</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">6-8</div>
-                <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">FREE</div>
-                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="pampa"
+        city="Pampa"
+        service="Roof Inspections"
+        h1="Roof Inspections in Pampa, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Inspections",
+            url: "/roof-inspections/",
+          },
+          {
+            name: "Pampa",
+            url: "/roof-inspections-pampa/",
+          },
+        ]}
+    />
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -299,7 +235,7 @@ export default function RoofInspectionsPampaPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 220+ Pampa properties with premium materials engineered
+              We've protected 220+ Pampa properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Pampa
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -514,7 +450,7 @@ export default function RoofInspectionsPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Inspection Scheduling & storm response Involve?
+              What Does Inspection Scheduling & post-storm documentation Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
@@ -542,7 +478,7 @@ export default function RoofInspectionsPampaPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-6">Storm Response</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">post-storm documentation</h3>
                 <div className="space-y-4">
                   <div className="bg-brand-gold/10 border-l-4 border-brand-gold p-6 rounded-xl">
                     <h4 className="text-lg font-semibold text-brand-brown mb-2">
@@ -635,7 +571,7 @@ export default function RoofInspectionsPampaPage() {
                   Absolutely. Professional documentation dramatically improves claim approval rates.
                   We photograph all damage, count hail impacts per test square, document wind damage
                   patterns, and provide reports meeting insurance company standards. Our inspections
-                  have helped thousands of Texas Panhandle homeowners successfully file storm damage
+                  have helped Texas Panhandle homeowners file storm damage
                   claims.
                 </AccordionContent>
               </AccordionItem>
@@ -664,16 +600,7 @@ export default function RoofInspectionsPampaPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

@@ -270,7 +270,7 @@ export default function Page() {
             <div>
               <h3 className="font-bold mb-2"></h3>
               <p className="text-gray-600">
-                Available day or night for tarping and temporary repairs to protect inventory and
+                Available throughout the region for weatherproof sheeting and temporary repairs to protect inventory and
                 equipment
               </p>
             </div>
@@ -368,7 +368,7 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Free Industrial Roof Assessment</h2>
         <p className="mb-6">
-          Don't wait for a leak to discover roof damage. Our comprehensive inspection includes:
+          Schedule an inspection to discover potential roof issues. Our comprehensive inspection includes:
         </p>
         <ul className="list-disc list-inside mb-8 space-y-2">
           <li>Aerial drone photography to identify hail damage</li>
@@ -392,7 +392,7 @@ export default function Page() {
                 <ul className="space-y-1">
                   <li>
                     <a
-                      href="/amarillo-texas-roofing/"
+                      href="/amarillo-tx-roofing/"
                       className="text-brand-brown hover:text-brand-gold underline"
                     >
                       Amarillo

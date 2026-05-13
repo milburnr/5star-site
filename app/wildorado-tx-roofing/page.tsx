@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Completed brown asphalt shingle roof with skylight in Wildorado TX area — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -59,7 +59,7 @@ export default function WildoradoRoofingPage() {
         className="hero"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.webp)",
           backgroundPosition: "center",
         }}
       >
@@ -82,6 +82,34 @@ export default function WildoradoRoofingPage() {
         </FadeIn>
       </section>
       <div className="container-custom">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides roofing services in Wildorado TX — residential repairs, hail damage documentation, and roof replacement for Oldham County properties along the I-40 corridor.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Roofing</a>
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
+              <a href="/roof-replacement-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+              <a href="/service-areas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Service Areas</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         {/* Introduction */}
         <FadeIn>
           <section className="section">
@@ -356,9 +384,9 @@ export default function WildoradoRoofingPage() {
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Rural locations need fast storm response.</strong> When storm damage
+                      <strong>Rural locations need fast post-storm documentation.</strong> When storm damage
                       occurs at 2am or on Sunday afternoon, we provide professional roofing services
-                      to Wildorado. tarping, leak repair, storm damage mitigation - we're only 15
+                      to Wildorado. weatherproof sheeting, leak repair, storm damage mitigation - we're only 15
                       miles away and can respond quickly.
                     </p>
                     <p className="text-gray-700 mb-4">
@@ -520,7 +548,7 @@ export default function WildoradoRoofingPage() {
               More Roofing Services Near Wildorado
             </h2>
             <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-              <a href="/amarillo-texas-roofing/" className="card-hover p-4 block">
+              <a href="/amarillo-tx-roofing/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>
                 <p className="text-gray-600 text-sm">
                   Complete roofing services in Amarillo (15 miles east)
@@ -663,7 +691,7 @@ export default function WildoradoRoofingPage() {
             <p className="cta-text">
               From our nearby Amarillo location, we're proud to serve the Wildorado community with
               honest, professional roofing services. Whether you need a free inspection, hail damage
-              assessment, or prompt repairs, we're just 15 miles away and ready to help.
+              assessment, or efficient repairs, we're just 15 miles away and ready to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
@@ -687,7 +715,7 @@ export default function WildoradoRoofingPage() {
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import { Check, Trophy, Zap } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -111,8 +111,13 @@ export default function Page() {
   return (
     <div className="container-custom py-12">
       {" "}
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Residential Roofing"
+        h1="Residential Roofing in West Texas"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg"
+      
+      breadcrumbItems={[
           {
             name: "Home",
             url: "/",
@@ -122,23 +127,17 @@ export default function Page() {
             url: "/residential-roofing/",
           },
         ]}
-      />
+    />
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Residential Roofing Services in Amarillo
-      </h1>
+      </h2>
       {/* Hero Image — AI-generated residential roofing hero */}
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg"
-        alt="Residential roofing crew installing shingles on a West Texas home at sunset"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-        width={2560}
-        height={1440}
-      />
+      
       <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
         <h2 className="text-2xl font-bold text-brand-brown mb-4">
           Protecting West Texas Homes for Over 10 Years
@@ -262,7 +261,7 @@ export default function Page() {
       </div>
       <h2 className="text-2xl font-bold mt-8 mb-4">Hail Damage? We Can Help</h2>
       <p className="mb-4">
-        If your roof was damaged in a recent storm, don't wait. Water intrusion can lead to
+        If your roof was damaged in a recent storm, contact us instead. Water intrusion can lead to
         expensive interior damage. Our hail damage services include:
       </p>
       <div className="grid md:grid-cols-2 gap-6 mb-8">

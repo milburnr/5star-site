@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Handshake, Phone, Shield, Star, Tornado } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair-levelland/" },
   title: "Roof Repair Levelland TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function RoofRepairLevellandPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Repair",
-            url: "/roof-repair/",
-          },
-          {
-            name: "Levelland",
-            url: "/roof-repair-levelland/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -165,44 +148,29 @@ export default function RoofRepairLevellandPage() {
         }}
       />
       {/* schema-cleanup:faqpage:removed */}
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-orange-900/75 to-amber-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Repair in <span className="text-brand-gold-light">Levelland</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                South Plains Roof Repair Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional roof repair services in Levelland TX. South Plains experiences 7-10
-                hailstorms annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="levelland"
+        city="Levelland"
+        service="Roof Repair"
+        h1="Roof Repair in Levelland, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Levelland",
+            url: "/roof-repair-levelland/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -216,8 +184,9 @@ export default function RoofRepairLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -248,7 +217,7 @@ export default function RoofRepairLevellandPage() {
               Levelland properties demand specialized roofing expertise.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 350 properties throughout
+              5 Star Commercial Roofing has protected over 350 properties throughout
               Levelland and Hockley County with premium materials engineered for South Plains
               conditions. From historic buildings downtown near the Hockley County Courthouse to
               modern facilities along Highway 114, we understand the unique intersection of
@@ -464,16 +433,7 @@ export default function RoofRepairLevellandPage() {
               Serving Levelland, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-102.38!3d33.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sLevelland%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Levelland, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Levelland, TX" />
             </div>
           </section>
         </FadeIn>
@@ -508,7 +468,7 @@ export default function RoofRepairLevellandPage() {
                   damage with photos for insurance purposes. Contact us for a professional
                   inspection within 48-72 hours - early detection prevents secondary damage. Don't
                   climb on your roof, but check gutters for granule accumulation and look for
-                  damaged outdoor equipment. We provide tarping if needed while insurance processes
+                  damaged outdoor equipment. We place weatherproof sheeting if needed while insurance processes
                   your claim.
                 </AccordionContent>
               </AccordionItem>

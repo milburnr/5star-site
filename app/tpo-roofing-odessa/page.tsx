@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,7 +6,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -31,7 +29,9 @@ import {
   Wrench,
 } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/tpo-roofing-odessa/" },
   title: "TPO Roofing Odessa TX | 5 Star Roofing",
@@ -45,10 +45,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Completed flat EPDM roof installation on Odessa TX commercial building — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -58,16 +58,7 @@ export const metadata: Metadata = {
 
 export default function TPORoofingOdessaPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "TPO Roofing", url: "/tpo-roofing/" },
-          { name: "Odessa", url: "/tpo-roofing-odessa/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -163,81 +154,21 @@ export default function TPORoofingOdessaPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What is TPO roofing?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "TPO (Thermoplastic Polyolefin) is a single-ply white membrane for flat/low-slope roofs. Energy Star rated, heat-welded seams, 15-25 year warranties.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How much does TPO roofing cost in Odessa?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "TPO installation in Odessa costs $4-$8 per square foot including materials and labor. Excellent value for energy efficiency and durability.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Why choose TPO over other commercial roofing?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "TPO reflects heat (lower cooling costs), resists hail/wind damage, heat-welded seams are watertight, and offers excellent cost-to-performance ratio.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                TPO Roofing in <span className="text-brand-gold-light">Odessa</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Oil Patch Capital's Industrial Roofing Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional TPO roofing throughout Odessa and the heart of the Permian Basin.
-                Expert installation designed for oil field demands and harsh desert conditions,
-                comprehensive warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="odessa"
+        city="Odessa"
+        service="TPO Roofing"
+        h1="TPO Roofing in Odessa, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "TPO Roofing", url: "/tpo-roofing/" },
+          { name: "Odessa", url: "/tpo-roofing-odessa/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -271,6 +202,34 @@ export default function TPORoofingOdessaPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing installs and repairs TPO roofing systems in Odessa TX for commercial and industrial buildings throughout the Permian Basin, energy-efficient, heat-reflective membranes with 10-year warranties.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/tpo-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All TPO Roofing</a>
+              <a href="/commercial-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Commercial Roofing</a>
+              <a href="/tpo-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland TPO</a>
+              <a href="/odessa-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Odessa Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -284,7 +243,7 @@ export default function TPORoofingOdessaPage() {
               your commercial property receives roofing solutions built for oil country.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Odessa's diverse industrial landscape with expert TPO
+              5 Star Roofing has served Odessa's diverse industrial landscape for over a decade with expert TPO
               installations engineered for extreme conditions. From oilfield service companies and
               manufacturing facilities to the University of Texas Permian Basin and growing
               healthcare networks, our team understands the unique demands of operating in the
@@ -478,7 +437,7 @@ export default function TPORoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              How Does the Oil Patch Specialized Installation Process Work?
+              How Does the  Installation Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-2xl shadow-lg text-center">
@@ -546,7 +505,7 @@ export default function TPORoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-yellow-50 p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Climate-Specific Roofing Solutions Are Available in Odessa?
+              What Climate-Specific roof system Are Available in Odessa?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
@@ -561,9 +520,9 @@ export default function TPORoofingOdessaPage() {
                 <div className="bg-amber-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Solar reflectance up to 87% reduces heat gain</li>
+                    <li>• Solar reflectance up to  reduces heat gain</li>
                     <li>• Superior thermal emittance properties</li>
-                    <li>• Energy savings up to 45% on cooling costs</li>
+                    <li>• Energy savings up to  on cooling costs</li>
                     <li>• Cool roof certification for utility rebates</li>
                   </ul>
                 </div>
@@ -662,7 +621,7 @@ export default function TPORoofingOdessaPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Odessa commercial facilities typically see 35-45% reduction in cooling costs after
                   TPO installation. With summer temperatures regularly exceeding 100°F, industrial
-                  facilities can save $20,000-$50,000 annually on energy costs for larger buildings.
+                  facilities can save - annually on energy costs for larger buildings.
                   Oilfield service facilities and manufacturing plants see even greater savings due
                   to heat-generating operations. AEP utility rebates are available for qualifying
                   installations, and many businesses achieve full ROI within 4-6 years through
@@ -834,16 +793,7 @@ export default function TPORoofingOdessaPage() {
               Serving the Oil Patch from Our Amarillo Office
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
             <div className="text-center mt-6">
               <p className="text-lg text-gray-700 mb-2">

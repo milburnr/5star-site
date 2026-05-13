@@ -365,7 +365,7 @@ export default function HerefordRoofingPage() {
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Hail Damage Repair</h3>
                   <p className="text-gray-600 mb-4">
                     Hereford sits in America's hail belt, experiencing frequent severe storms. Our
-                    storm damage specialists provide storm response, comprehensive damage
+                    storm damage specialists provide post-storm documentation, comprehensive damage
                     assessment, and insurance claim support to get your roof restored quickly. We
                     work with all major insurance carriers and document damage thoroughly to
                     maximize your claim.
@@ -525,7 +525,7 @@ export default function HerefordRoofingPage() {
                       Storm Damage Response
                     </h3>
                     <p className="text-gray-600">
-                      Contact us for storm damage assessment and tarping services. Call (806)
+                      Contact us for storm damage assessment and weatherproof sheeting services. Call (806)
                       622-6041 for damage assessment. We respond quickly to minimize water damage
                       and begin the restoration process.
                     </p>
@@ -796,7 +796,7 @@ export default function HerefordRoofingPage() {
                   <AccordionContent className="text-gray-700 leading-relaxed">
                     We serve the entire Texas Panhandle region, including{" "}
                     <a
-                      href="/amarillo-texas-roofing/"
+                      href="/amarillo-tx-roofing/"
                       className="text-brand-brown hover:text-brand-gold underline"
                     >
                       Amarillo

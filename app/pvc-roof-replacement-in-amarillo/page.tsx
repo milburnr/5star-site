@@ -161,7 +161,7 @@ export default function Page() {
             PVC roofing system
           </a>{" "}
           provides decades of maintenance-free protection. In{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Amarillo
           </a>
           ,{" "}

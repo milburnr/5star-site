@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,12 +7,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-odessa/" },
   title: "Commercial Roofing Odessa TX | 5 Star Roofing",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-21-1280w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg",
         width: 1280,
         height: 720,
         alt: "Commercial metal roof installation on industrial facility in West Texas — 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function CommercialRoofingOdessaPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Commercial Roofing", url: "/commercial-roofing/" },
-          { name: "Odessa", url: "/commercial-roofing-odessa/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -153,43 +144,20 @@ export default function CommercialRoofingOdessaPage() {
       />
 
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-21-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Commercial Roofing in <span className="text-brand-gold-light">Odessa</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">for Texas Businesses</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert commercial roofing for Odessa businesses. TPO, EPDM, and metal roofing
-                systems engineered for harsh weather. Minimize operational disruption with our
-                after-hours installation.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="odessa"
+        city="Odessa"
+        service="Commercial Roofing"
+        h1="Commercial Roofing in Odessa, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-21-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Odessa", url: "/commercial-roofing-odessa/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -265,7 +233,7 @@ export default function CommercialRoofingOdessaPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              Since 2014, we've served Odessa with expert commercial roofing installations for oil
+              We've served Odessa with expert commercial roofing installations for oil
               and gas facilities, manufacturing operations, educational institutions, and healthcare
               facilities. We handle all permits, insurance claims, and warranty documentation. Free
               inspections and estimates available.
@@ -312,7 +280,7 @@ export default function CommercialRoofingOdessaPage() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Odessa's manufacturing sector supporting petroleum operations requires commercial
               roofing systems for steel fabrication, equipment manufacturing, and specialized
-              service providers that operate around the clock during peak drilling seasons. These
+              service providers that operate continuously during peak drilling seasons. These
               facilities need roofing systems that accommodate overhead crane systems, welding
               operations, and heavy equipment assembly while protecting valuable industrial
               equipment and work-in-progress materials.
@@ -329,7 +297,7 @@ export default function CommercialRoofingOdessaPage() {
               roofing systems that accommodate precision manufacturing equipment while providing
               adequate natural lighting and climate control for quality manufacturing processes.
               Specialized insulation and acoustical control become important for facilities
-              operating sensitive manufacturing equipment around the clock.
+              operating sensitive manufacturing equipment continuously.
             </p>
           </section>
         </FadeIn>
@@ -395,7 +363,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Retail and Commercial Center Roofing Solutions Involve?
+              What Does Retail and Commercial Center roof system Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Music City Mall and major retail corridors throughout Odessa serve petroleum industry
@@ -435,7 +403,7 @@ export default function CommercialRoofingOdessaPage() {
               roofing systems that accommodate loading dock operations, truck maintenance bays, and
               cargo storage areas while providing protection for petroleum industry equipment and
               supplies transported throughout the Permian Basin. These facilities often operate
-              around the clock during peak drilling and completion activities.
+              continuously during peak drilling and completion activities.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Railroad facilities serving petroleum industry transportation need roofing systems for
@@ -629,16 +597,7 @@ export default function CommercialRoofingOdessaPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

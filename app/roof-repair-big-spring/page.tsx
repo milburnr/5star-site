@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Handshake, Lock, Phone, Star, Zap } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair-big-spring/" },
   title: "Roof Repair Big Spring TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function RoofRepairBigSpringPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Repair",
-            url: "/roof-repair/",
-          },
-          {
-            name: "Big Spring",
-            url: "/roof-repair-big-spring/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -165,44 +148,29 @@ export default function RoofRepairBigSpringPage() {
         }}
       />
       {/* schema-cleanup:faqpage:removed */}
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-orange-900/75 to-amber-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Repair in <span className="text-brand-gold-light">Big Spring</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                West Texas Roof Repair Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional roof repair services in Big Spring TX. West Texas experiences 7-9
-                hailstorms annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Big Spring"
+        service="Roof Repair"
+        h1="Roof Repair in Big Spring, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Big Spring",
+            url: "/roof-repair-big-spring/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -216,8 +184,9 @@ export default function RoofRepairBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -248,7 +217,7 @@ export default function RoofRepairBigSpringPage() {
               roofing expertise.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 400 properties throughout Big
+              5 Star Commercial Roofing has protected over 400 properties throughout Big
               Spring and Howard County with premium materials and expert craftsmanship. From
               historic downtown buildings near the Howard County Courthouse to modern facilities
               along Interstate 20, we understand the unique intersection of weather patterns that
@@ -315,7 +284,7 @@ export default function RoofRepairBigSpringPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h4 className="text-xl font-bold mb-3 text-brand-brown">storm response Services</h4>
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">post-storm documentation Services</h4>
                 <p className="text-gray-600 mb-3">
                   availability for urgent repairs protecting Big Spring properties.
                 </p>
@@ -507,16 +476,7 @@ export default function RoofRepairBigSpringPage() {
               Serving Big Spring, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-101.47!3d32.25!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sBig%20Spring%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Big Spring, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Big Spring, TX" />
             </div>
           </section>
         </FadeIn>
@@ -662,9 +622,9 @@ export default function RoofRepairBigSpringPage() {
                   <div className="text-4xl mb-2">
                     <Zap className="w-6 h-6 inline-block" />
                   </div>
-                  <h4 className="font-bold mb-2 text-brand-brown">Rapid Storm Response</h4>
+                  <h4 className="font-bold mb-2 text-brand-brown">Rapid post-storm documentation</h4>
                   <p className="text-sm text-gray-600">
-                    prompt services when Big Spring weather strikes
+                    scheduling when Big Spring weather strikes
                   </p>
                 </div>
                 <div className="text-center">

@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,9 +7,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   BarChart3,
   CheckCircle,
@@ -34,11 +33,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-pampa/" },
   title: "Hail Damage Repair Pampa TX | 5 Star Roofing",
   description:
-    "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",
+    "Professional hail damage roof repair in Pampa TX. Insurance assistance, free inspections. Serving Gray County. Call (806) 622-6041",
   openGraph: {
     title: "Hail Damage Repair Pampa TX | 5 Star Roofing",
     description:
-      "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",
+      "Professional hail damage roof repair in Pampa TX. Insurance assistance, free inspections. Serving Gray County. Call (806) 622-6041",
     url: "https://5starroofingpros.com/hail-damage-repair-pampa/",
     siteName: "5 Star Roofing",
     images: [
@@ -56,16 +55,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairPampaPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Pampa", url: "/hail-damage-repair-pampa/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -188,7 +178,7 @@ export default function HailDamageRepairPampaPage() {
                 name: "Should I get Class 4 shingles in Pampa?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, Class 4 shingles reduce future hail damage by 90% and often qualify for 10-30% insurance premium discounts. Excellent investment for Gray County's hail-prone climate.",
+                  text: "Yes, Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range). Excellent investment for Gray County's hail-prone climate.",
                 },
               },
             ],
@@ -196,79 +186,21 @@ export default function HailDamageRepairPampaPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Pampa, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                Gray County's Trusted Storm Restoration Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Pampa—the county seat of Gray County and heart of the northern Texas Panhandle—faces
-                some of the region's most severe weather. Since 2014, 5 Star Roofing has helped
-                Pampa homeowners and businesses recover from hail damage with expert repairs,
-                insurance claim assistance, and Class 4 impact-resistant replacements.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="pampa"
+        city="Pampa"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Pampa, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Pampa", url: "/hail-damage-repair-pampa/" },
+        ]}
+    />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={55} suffix=" mi" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
-                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>
@@ -494,7 +426,7 @@ export default function HailDamageRepairPampaPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Pampa and Gray County since 2014. Located about 55
+              5 Star Roofing has been serving Pampa and Gray County serving the Texas Panhandle. Located about 55
               miles from our Amarillo headquarters. We understand Pampa's unique combination of industrial,
               residential, and agricultural properties, having helped hundreds of property owners
               protect their investments with expert repairs and storm-resistant materials. Our
@@ -693,14 +625,14 @@ export default function HailDamageRepairPampaPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-lg mb-2">
-                    Serving Pampa since 2014 with both residential and commercial expertise. We
+                    Serving Pampa serving the area with both residential and commercial expertise. We
                     understand the unique challenges of Gray County's industrial and residential
                     mix.
                   </p>
                 </div>
                 <div>
                   <p className="text-brand-gold-light font-semibold">
-                    96%+ approval rate on claims • Average: 98% of replacement cost • 72-hour storm
+                    Insurance claim documentation • Adjuster coordination • Post-storm
                     response
                   </p>
                 </div>
@@ -1210,7 +1142,7 @@ export default function HailDamageRepairPampaPage() {
                   </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
                     <li>
-                      <strong>Damage Reduction:</strong> 85-95% reduction in hail damage
+                      <strong>Impact Rating:</strong> UL 2218 Class 4 (2-inch hail tested)
                     </li>
                     <li>
                       <strong>Insurance Benefits:</strong> 10-30% premium discounts available

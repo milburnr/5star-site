@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Flame, Mountain, Phone, Star, Zap } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-monahans/" },
   title: "Hail Damage Repair Monahans TX | 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairMonahansPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
-          { name: "Monahans", url: "/hail-damage-repair-monahans/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -147,44 +138,20 @@ export default function HailDamageRepairMonahansPage() {
 
       {/* schema-cleanup:faqpage:removed */}
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-41-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Monahans</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Expert Service for Texas Properties
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional hail damage repair throughout Monahans. Expert installation,
-                comprehensive warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Monahans"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Monahans, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-41-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
+          { name: "Monahans", url: "/hail-damage-repair-monahans/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -229,7 +196,7 @@ export default function HailDamageRepairMonahansPage() {
               conditions including hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Monahans with expert installations, comprehensive warranties,
+              We've served Monahans with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>
@@ -369,7 +336,7 @@ export default function HailDamageRepairMonahansPage() {
                 <div className="text-4xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Response Protocol</h3>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Post-Storm Documentation Protocol</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
                     • <strong>Storm Tracking Technology:</strong> Advanced radar monitoring for
@@ -438,12 +405,12 @@ export default function HailDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-orange-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              How Does Our Storm Response Work in Monahans?
+              How Does Our Post-Storm Process Work in Monahans?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-                  Immediate Storm Response (0-2 Hours)
+                  Post-Storm Assessment (0-2 Hours)
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
@@ -477,7 +444,7 @@ export default function HailDamageRepairMonahansPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Industrial Coordination</h4>
                       <p className="text-gray-600 text-sm">
-                        Safety coordination with nearby oil and gas operations during storm response
+                        Safety coordination with nearby oil and gas operations during post-storm documentation
                         activities
                       </p>
                     </div>
@@ -488,7 +455,7 @@ export default function HailDamageRepairMonahansPage() {
                   <p className="text-gray-700 text-sm">
                     Established partnerships with Ward County Emergency Management, Monahans Fire
                     Department, and Permian Basin industrial safety coordinators ensure
-                    comprehensive storm response.
+                    comprehensive post-storm documentation.
                   </p>
                 </div>
               </div>
@@ -668,8 +635,7 @@ export default function HailDamageRepairMonahansPage() {
                   </h4>
                   <ul className="text-gray-700 space-y-1 text-sm">
                     <li>
-                      • <strong>94% approval rate</strong> for desert-environment hail damage claims
-                    </li>
+                                          </li>
                     <li>
                       • <strong>Average 19% increase</strong> in settlements with specialized
                       documentation
@@ -698,7 +664,7 @@ export default function HailDamageRepairMonahansPage() {
                       </h4>
                       <p className="text-gray-600 text-sm">
                         Documentation of how extreme temperatures compound hail damage requiring
-                        immediate attention
+                        professional attention
                       </p>
                     </div>
                   </div>
@@ -772,7 +738,7 @@ export default function HailDamageRepairMonahansPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, if damage occurred during your policy period. We document impacts, meet
-                  adjusters, and advocate for maximum coverage. 95%+ approval rate.
+                  adjusters, and advocate for maximum coverage.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem
@@ -783,8 +749,7 @@ export default function HailDamageRepairMonahansPage() {
                   Should I upgrade to Class 4 shingles after hail damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Absolutely. Class 4 shingles reduce future hail damage by 90% and qualify for
-                  insurance premium discounts up to 30% in Texas.
+                  Absolutely. Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range).
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -797,16 +762,7 @@ export default function HailDamageRepairMonahansPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

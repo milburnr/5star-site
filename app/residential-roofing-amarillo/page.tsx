@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,12 +7,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-amarillo/" },
   title: "Residential Roofing Amarillo TX | 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function ResidentialRoofingAmarilloPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Residential Roofing", url: "/residential-roofing/" },
-          { name: "Amarillo", url: "/residential-roofing-amarillo/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       {/* auto-linker:start */}
@@ -192,7 +183,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 name: "What are Class 4 shingles and why do I need them in Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Class 4 shingles pass UL 2218 impact testing—the highest rating available. They withstand 2-inch hail strikes without cracking. Given Potter County's 131 severe hail days since 2000, Class 4 shingles reduce future damage by 90% and qualify for 10-30% insurance premium discounts. They typically pay for themselves within 5-7 years through avoided claims and premium savings.",
+                  text: "Class 4 shingles pass UL 2218 impact testing—the highest rating available. They withstand 2-inch hail strikes without cracking. Given Potter County's 131 severe hail days since 2000, Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range). They typically pay for themselves within 5-7 years through avoided claims and premium savings.",
                 },
               },
               {
@@ -240,80 +231,21 @@ export default function ResidentialRoofingAmarilloPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-orange-900/75 to-yellow-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Residential Roofing in <span className="text-brand-gold-light">Amarillo</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Texas Panhandle Homes Since 2014
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert residential roofing in Hail Alley. Potter County has recorded 131 severe hail
-                days since 2000—our Class 4 impact-resistant shingles reduce future damage by 90%.
-                Free inspections and insurance claim assistance included.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="amarillo"
+        city="Amarillo"
+        service="Residential Roofing"
+        h1="Residential Roofing in Amarillo, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Residential Roofing", url: "/residential-roofing/" },
+          { name: "Amarillo", url: "/residential-roofing-amarillo/" },
+        ]}
+    />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={1100} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Homes Roofed</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={131} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Hail Days Since 2000</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">1-3</div>
-                <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>
@@ -329,7 +261,7 @@ export default function ResidentialRoofingAmarilloPage() {
               need roofing materials engineered for Potter County's extreme conditions.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected over 1,100 Amarillo homes with Class 4 impact-resistant
+              We've protected over 1,100 Amarillo homes with Class 4 impact-resistant
               shingles designed to withstand 2-inch hail strikes. From historic properties in
               Wolflin Historic District to upscale homes in Westcliff and Spanish Revival
               architecture in Vineyards-Hastings, we serve every corner of Amarillo. We handle 100%
@@ -435,11 +367,8 @@ export default function ResidentialRoofingAmarilloPage() {
                   Insurance Claim Specialists
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  85% of residential projects are hail damage insurance claims. We document every
-                  impact, meet with adjusters on-site, and advocate for maximum coverage. Our 95%+
-                  approval rate means homeowners get new roofs for only their deductible. We've
-                  processed over 1,200 claims with State Farm, Allstate, USAA, and every major
-                  carrier.
+                  We document every
+                  impact, meet with adjusters on-site, and advocate for maximum coverage. We work with State Farm, Allstate, USAA, and every major carrier.
                 </p>
               </div>
 
@@ -449,8 +378,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
                   We exclusively install Class 4 shingles rated to withstand 2-inch hail impacts.
-                  These premium materials reduce future damage by 90% and qualify for 10-30%
-                  insurance premium discounts in Texas. Available from Owens Corning, GAF, and
+                  Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range). in Texas. Available from Owens Corning, GAF, and
                   CertainTeed with warranties up to 50 years. Pays for itself through avoided claims
                   and premium savings.
                 </p>
@@ -631,8 +559,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Class 4 shingles pass UL 2218 impact testing—the highest rating available. They
                   withstand 2-inch hail strikes without cracking. Given Potter County's 131 severe
-                  hail days since 2000, Class 4 shingles reduce future damage by 90% and qualify for
-                  10-30% insurance premium discounts. They typically pay for themselves within 5-7
+                  hail days since 2000, Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range). They typically pay for themselves within 5-7
                   years through avoided claims and premium savings.
                 </AccordionContent>
               </AccordionItem>
@@ -726,16 +653,7 @@ export default function ResidentialRoofingAmarilloPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

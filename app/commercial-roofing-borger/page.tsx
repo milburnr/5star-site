@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-borger/" },
   title: "Commercial Roofing Borger TX | 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function CommercialRoofingBorgerPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Commercial Roofing", url: "/commercial-roofing/" },
-          { name: "Borger", url: "/commercial-roofing-borger/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -181,44 +172,20 @@ export default function CommercialRoofingBorgerPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-7-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Commercial Roofing in <span className="text-brand-gold-light">Borger</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Expert Service for Texas Properties
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional commercial roofing throughout Borger. Expert installation,
-                comprehensive warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="borger"
+        city="Borger"
+        service="Commercial Roofing"
+        h1="Commercial Roofing in Borger, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-7-1920w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Borger", url: "/commercial-roofing-borger/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -264,7 +231,7 @@ export default function CommercialRoofingBorgerPage() {
               industrial-grade applications serving Borger's petrochemical sector.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              Since 2014, we've served Borger with expert installations, comprehensive warranties,
+              We've served Borger with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>
@@ -352,7 +319,7 @@ export default function CommercialRoofingBorgerPage() {
               Hot work permits and fire watch procedures are mandatory for any heat-based
               installation techniques within refinery influence zones. We coordinate extensively
               with refinery safety personnel and maintain constant communication during installation
-              activities. storm response equipment and chemical exposure protocols are standard
+              activities. safety equipment and chemical exposure protocols are standard
               requirements for all crew members working in these environments.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -435,9 +402,9 @@ export default function CommercialRoofingBorgerPage() {
               system failures that could impact business operations.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              storm response capabilities are essential for commercial properties in Borger's
+              post-storm repair capabilities are essential for commercial properties in Borger's
               industrial area. Chemical spills, thermal events, and severe weather can compromise
-              roofing systems within hours. Our storm response teams maintain equipment specifically
+              roofing systems within hours. Our repair crews maintain equipment specifically
               designed for chemical-contaminated environments and coordinate with industrial storm
               response protocols.
             </p>
@@ -447,7 +414,7 @@ export default function CommercialRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Commercial Roofing Solutions for Borger's Diverse Business Sectors Involve?
+              What Does Commercial roof system for Borger's Diverse Business Sectors Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               While the Phillips 66 refinery dominates Borger's economy, the community supports
@@ -573,15 +540,15 @@ export default function CommercialRoofingBorgerPage() {
               professional roofing services and Response Capabilities
             </h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Borger's industrial environment requires immediate storm response capabilities for
-              roofing failures that could impact critical operations. Our storm response teams
+              Borger's industrial environment requires immediate post-storm repair capabilities for
+              roofing failures that could impact critical operations. Our repair crews
               maintain specialized equipment for chemical-contaminated environments and coordinate
-              with industrial storm response protocols established by major facilities including
+              with industrial post-storm protocols established by major facilities including
               Phillips 66.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Severe weather events including hailstorms, tornadoes, and high winds can cause
-              catastrophic damage to commercial roofing systems. tarping and temporary weather
+              catastrophic damage to commercial roofing systems. weatherproof sheeting and temporary weather
               protection services prevent secondary damage while permanent repairs are planned and
               executed. our roofing service times minimize business interruption and protect valuable
               interior assets.
@@ -643,16 +610,7 @@ export default function CommercialRoofingBorgerPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

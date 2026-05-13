@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -275,7 +275,7 @@ export default function Page() {
         <p>
           If you're looking for reliable <strong>roofing services</strong> in Amarillo, contact 5
           Star Commercial Roofing today for a free consultation and estimate. We offer same-day
-          prompt services for storm damage and provide comprehensive insurance claim assistance.
+          scheduling for storm damage and provide comprehensive insurance claim assistance.
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">
@@ -467,7 +467,7 @@ export default function Page() {
 
         <p>
           For comprehensive{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             roofing services in Amarillo
           </a>{" "}
           and the surrounding areas, trust the experts at 5 Star Commercial Roofing. We combine
@@ -478,7 +478,7 @@ export default function Page() {
         <p>
           Ready to get started? Call us today at <strong>(806) 622-6041</strong> to schedule your
           free roof inspection. We offer flexible scheduling, including evening and weekend
-          appointments, and provide same-day prompt services for storm damage. Don't wait until
+          appointments, and provide same-day scheduling for storm damage. Address issues before
           minor issues become major problems— contact us today for a free estimate.
         </p>
       </div>
@@ -490,7 +490,7 @@ export default function Page() {
         </h2>
         <p className="mb-6 text-gray-700">
           Contact 5 Star Commercial Roofing for expert residential roofing service in Amarillo and
-          surrounding areas. Free inspections and same-day storm response available.
+          surrounding areas. Free inspections and same-day post-storm documentation available.
         </p>
         <div className="flex gap-4 flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero">
@@ -629,7 +629,7 @@ export default function Page() {
             </p>
           </a>
           <a
-            href="/amarillo-texas-roofing/"
+            href="/amarillo-tx-roofing/"
             className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200"
           >
             <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing</h3>

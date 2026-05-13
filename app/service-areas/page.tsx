@@ -1,34 +1,26 @@
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import {
-  Briefcase,
-  Building2,
-  Car,
-  ClipboardList,
-  Fuel,
-  MapPin,
-  Phone,
-  Settings,
-  Tornado,
-} from "lucide-react";
+import Link from "next/link";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import MapEmbed from "@/components/MapEmbed";
+import { Phone, MapPin, Truck, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/service-areas/" },
   title: "Roofing Service Areas in West Texas | 5 Star Roofing",
   description:
-    "Roofing services across West Texas. Serving Amarillo, Midland, Odessa, Lubbock, and 20+ Texas Panhandle cities. Hail damage specialists. Call (806) 622-6041",
+    "5 Star Commercial Roofing serves Amarillo, Lubbock, Midland, Odessa, and 16+ West Texas cities. Residential and commercial roof replacement, hail damage repair, insurance claim assistance.",
   openGraph: {
-    title: "Service Areas | 5 Star Roofing",
+    title: "Roofing Service Areas in West Texas | 5 Star Roofing",
     description:
-      "Roofing services across West Texas. Serving Amarillo, Midland, Odessa, Lubbock, and 20+ Texas Panhandle cities. Hail damage specialists. Call (806) 622-6041",
+      "5 Star Commercial Roofing serves Amarillo, Lubbock, Midland, Odessa, and 16+ West Texas cities. Residential and commercial roof replacement, hail damage repair, insurance claim assistance.",
     url: "https://5starroofingpros.com/service-areas/",
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/services-hero.jpg",
-        width: 1280,
-        height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        url: "https://5starroofingpros.com/images/heroes/cities/amarillo-hero-1200.webp",
+        width: 1200,
+        height: 675,
+        alt: "5 Star Commercial Roofing — serving West Texas from Amarillo to the Permian Basin",
       },
     ],
     locale: "en_US",
@@ -36,749 +28,335 @@ export const metadata: Metadata = {
   },
 };
 
+// Featured cities — get the photo card treatment. Each has both a hub page
+// AND a pre-optimized city hero in /public/images/heroes/cities/.
+const FEATURED_CITIES = [
+  {
+    name: "Amarillo",
+    href: "/amarillo-tx-roofing/",
+    slug: "amarillo",
+    blurb: "HQ city. Hundreds of completed jobs across Potter and Randall counties.",
+  },
+  {
+    name: "Lubbock",
+    href: "/lubbock-tx-roofing/",
+    slug: "lubbock",
+    blurb: "South Plains hail belt. Insurance claims + residential and commercial roof replacement.",
+  },
+  {
+    name: "Midland",
+    href: "/midland-tx-roofing/",
+    slug: "midland",
+    blurb: "Permian Basin energy hub. TPO, PVC, and metal for oilfield and commercial properties.",
+  },
+  {
+    name: "Odessa",
+    href: "/odessa-tx-roofing/",
+    slug: "odessa",
+    blurb: "Heavy industrial and chemical-resistant systems. Class 4 impact residential roofing.",
+  },
+  {
+    name: "Canyon",
+    href: "/canyon-texas-roofing/",
+    slug: "canyon",
+    blurb: "WT A&M area + Palo Duro region. Residential repair and replacement.",
+  },
+  {
+    name: "Borger",
+    href: "/borger-texas-roofing/",
+    slug: "borger",
+    blurb: "Hutchinson County. Petrochemical industrial roofing and residential hail repair.",
+  },
+];
+
+// All other cities we serve — get a simple link tile, no photo.
+const OTHER_CITIES = [
+  { name: "Andrews", href: "/andrews-tx-roofing/" },
+  { name: "Big Spring", href: "/big-spring-tx-roofing/" },
+  { name: "Bushland", href: "/bushland-tx-roofing/" },
+  { name: "Claude", href: "/claude-tx-roofing/" },
+  { name: "Dumas", href: "/dumas-texas-roofing/" },
+  { name: "Hereford", href: "/hereford-texas-roofing/" },
+  { name: "Levelland", href: "/levelland-tx-roofing/" },
+  { name: "Monahans", href: "/monahans-tx-roofing/" },
+  { name: "Pampa", href: "/pampa-texas-roofing/" },
+  { name: "Perryton", href: "/perryton-texas-roofing/" },
+  { name: "Plainview", href: "/plainview-texas-roofing/" },
+  { name: "Snyder", href: "/snyder-tx-roofing/" },
+  { name: "Vega", href: "/vega-tx-roofing/" },
+  { name: "Wildorado", href: "/wildorado-tx-roofing/" },
+];
+
+const ALL_CITY_NAMES = [...FEATURED_CITIES, ...OTHER_CITIES].map((c) => c.name);
+
 export default function Page() {
-  // JSON-LD Schema for Service Areas
   const schema = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "RoofingContractor"],
     name: "5 Star Roofing",
     telephone: "(806) 622-6041",
+    url: "https://5starroofingpros.com/service-areas/",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Serving West Texas",
       addressLocality: "Amarillo",
       addressRegion: "TX",
       postalCode: "79101",
       addressCountry: "US",
     },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 35.222,
-      longitude: -101.8313,
-    },
-    areaServed: [
-      {
-        "@type": "City",
-        name: "Amarillo",
-        address: { "@type": "PostalAddress", addressRegion: "TX" },
-      },
-      {
-        "@type": "City",
-        name: "Midland",
-        address: { "@type": "PostalAddress", addressRegion: "TX" },
-      },
-      {
-        "@type": "City",
-        name: "Odessa",
-        address: { "@type": "PostalAddress", addressRegion: "TX" },
-      },
-      {
-        "@type": "City",
-        name: "Lubbock",
-        address: { "@type": "PostalAddress", addressRegion: "TX" },
-      },
-      {
-        "@type": "City",
-        name: "Canyon",
-        address: { "@type": "PostalAddress", addressRegion: "TX" },
-      },
-      {
-        "@type": "City",
-        name: "Bushland",
-        address: { "@type": "PostalAddress", addressRegion: "TX" },
-      },
-      {
-        "@type": "City",
-        name: "Claude",
-        address: { "@type": "PostalAddress", addressRegion: "TX" },
-      },
-      { "@type": "City", name: "Vega", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      {
-        "@type": "City",
-        name: "Wildorado",
-        address: { "@type": "PostalAddress", addressRegion: "TX" },
-      },
-    ],
-    description:
-      "Professional roofing services across West Texas including Amarillo, Midland, Odessa, Lubbock and the entire Texas Panhandle. Hail damage repair specialists.",
+    geo: { "@type": "GeoCoordinates", latitude: 35.222, longitude: -101.8313 },
+    areaServed: ALL_CITY_NAMES.map((city) => ({
+      "@type": "City",
+      name: city,
+      address: { "@type": "PostalAddress", addressRegion: "TX", addressCountry: "US" },
+    })),
     serviceType: [
       "Residential Roofing",
       "Commercial Roofing",
       "Hail Damage Repair",
       "Storm Damage Restoration",
       "Roof Replacement",
+      "Metal Roofing",
+      "TPO Roofing",
     ],
+    description:
+      "Roofing services across West Texas — Panhandle, South Plains, and Permian Basin. Residential and commercial roof replacement, hail damage repair, and insurance claim assistance.",
   };
 
   return (
-    <div className="container-custom py-12">
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Service Areas",
-            url: "/service-areas/",
-          },
-        ]}
-      />
-      {/* Schema.org Structured Data */}
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <h1 className="text-4xl font-bold mb-6">Serving All of West Texas</h1>
-      {/* Hero Image */}
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-14-1280w.jpg"
-        alt="Roofing services across West Texas - Professional team serving Amarillo Midland Odessa - 5 Star Commercial Roofing"
-        className="w-full h-96 object-cover rounded-lg mb-8"
-        loading="lazy"
+
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Service Areas"
+        citySlug="amarillo"
+        h1="Roofing Across West Texas"
+        image="/images/heroes/cities/amarillo-hero-1200.webp"
+        ctaText="Get Your Free Roof Inspection"
+        ctaHref="/contact/"
+        breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Service Areas", url: "/service-areas/" },
+        ]}
       />
-      <div className="content-block mb-12">
-        <p className="text-lg">
-          5 Star Commercial Roofing proudly serves Amarillo and the entire Texas Panhandle, plus
-          Midland, Odessa, and surrounding West Texas communities. With over 10 years of experience
-          in the hail belt, we understand the unique roofing challenges faced by homes and
-          businesses across this region.
-        </p>
-      </div>
-      {/* Primary Service Areas */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center">Primary Service Areas</h2>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {/* Amarillo */}
-          <a
-            href="/amarillo-texas-roofing/"
-            className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
-          >
-            <div className="card-body">
-              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">
-                <Building2 className="w-6 h-6 inline-block" /> Amarillo, TX
-              </h3>
-              <p className="text-gray-600 mb-4">
-                <strong>Population:</strong> ~200,000
-                <br />
-                <strong>Region:</strong> Texas Panhandle
-                <br />
-                <strong>Hail Risk:</strong> 8-12 storms/year
-              </p>
-              <p className="mb-4">
-                Our headquarters is located in Amarillo, where we've served hundreds of residential
-                and commercial clients with hail damage repair, roof replacements, and insurance
-                claim assistance.
-              </p>
-              <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
-                <li>Downtown Amarillo commercial buildings</li>
-                <li>Residential neighborhoods throughout Potter & Randall Counties</li>
-                <li>Industrial facilities and warehouses</li>
-                <li>Churches, schools, and municipal buildings</li>
-              </ul>
-            </div>
-          </a>
-
-          {/* Midland */}
-          <a
-            href="/midland-tx-roofing/"
-            className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
-          >
-            <div className="card-body">
-              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">
-                <Fuel className="w-6 h-6 inline-block" /> Midland, TX
-              </h3>
-              <p className="text-gray-600 mb-4">
-                <strong>Population:</strong> ~146,000
-                <br />
-                <strong>Region:</strong> Permian Basin
-                <br />
-                <strong>Hail Risk:</strong> 6-10 storms/year
-              </p>
-              <p className="mb-4">
-                Major oil & gas hub requiring specialized commercial and industrial roofing. We
-                provide TPO, PVC, and metal roofing for Midland's energy sector facilities, offices,
-                and residential properties.
-              </p>
-              <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
-                <li>Oil & gas facilities and refineries</li>
-                <li>Commercial office buildings</li>
-                <li>Industrial warehouses and distribution centers</li>
-                <li>Residential developments</li>
-              </ul>
-            </div>
-          </a>
-
-          {/* Odessa */}
-          <a
-            href="/odessa-tx-roofing/"
-            className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
-          >
-            <div className="card-body">
-              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">
-                <Settings className="w-6 h-6 inline-block" /> Odessa, TX
-              </h3>
-              <p className="text-gray-600 mb-4">
-                <strong>Population:</strong> ~123,000
-                <br />
-                <strong>Region:</strong> Permian Basin
-                <br />
-                <strong>Hail Risk:</strong> 6-10 storms/year
-              </p>
-              <p className="mb-4">
-                Adjacent to Midland, Odessa is another major energy industry center. We specialize
-                in chemical-resistant PVC roofing for industrial applications and Class 4
-                impact-resistant residential systems.
-              </p>
-              <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
-                <li>Chemical plants and processing facilities</li>
-                <li>Manufacturing and production plants</li>
-                <li>Commercial and retail buildings</li>
-                <li>Residential hail damage repair</li>
-              </ul>
-            </div>
-          </a>
-        </div>
-
-        <div className="bg-yellow-50 border-l-4 border-brand-gold p-6">
-          <h3 className="font-bold text-lg mb-2">
-            <MapPin className="w-6 h-6 inline-block" /> Why These Regions Choose Us
-          </h3>
-          <p className="text-gray-700">
-            Amarillo, Midland, and Odessa all sit within America's hail belt, requiring specialized
-            roofing expertise. We've completed hundreds of insurance claims totaling over $50
-            million in approved coverage across these markets. Our teams understand the specific
-            challenges of West Texas weather and work efficiently to minimize downtime for
-            commercial operations.
+      {/* Lead — storm-response identity */}
+      <section className="bg-gradient-to-b from-amber-50 to-white py-16">
+        <div className="container-custom max-w-4xl text-center">
+          <p className="text-xl md:text-2xl text-brand-brown font-light leading-relaxed">
+            We&apos;re a West Texas roofing crew based in Amarillo. We serve homeowners and
+            commercial properties across {ALL_CITY_NAMES.length}+ cities — from the Texas Panhandle
+            south through the South Plains and into the Permian Basin.
           </p>
-        </div>
-      </section>
-      {/* Texas Panhandle Cities */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">Texas Panhandle Service Area</h2>
-        <p className="text-center text-lg mb-8 max-w-3xl mx-auto">
-          We serve all communities throughout the Texas Panhandle with comprehensive residential,
-          commercial, and industrial roofing services.
-        </p>
-
-        <div className="grid md:grid-cols-4 gap-6">
-          <a
-            href="/canyon-texas-roofing/"
-            className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">
-              Canyon, TX
-            </h4>
-            <p className="text-sm text-gray-600 mb-2">Randall County</p>
-            <p className="text-xs text-gray-500">Home to West Texas A&M University</p>
-          </a>
-
-          <a
-            href="/borger-texas-roofing/"
-            className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">
-              Borger, TX
-            </h4>
-            <p className="text-sm text-gray-600 mb-2">Hutchinson County</p>
-            <p className="text-xs text-gray-500">Oil refining & manufacturing</p>
-          </a>
-
-          <a
-            href="/pampa-texas-roofing/"
-            className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">
-              Pampa, TX
-            </h4>
-            <p className="text-sm text-gray-600 mb-2">Gray County</p>
-            <p className="text-xs text-gray-500">Industrial & residential roofing</p>
-          </a>
-
-          <a
-            href="/dumas-texas-roofing/"
-            className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">
-              Dumas, TX
-            </h4>
-            <p className="text-sm text-gray-600 mb-2">Moore County</p>
-            <p className="text-xs text-gray-500">Agricultural & commercial center</p>
-          </a>
-
-          <a
-            href="/hereford-texas-roofing/"
-            className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">
-              Hereford, TX
-            </h4>
-            <p className="text-sm text-gray-600 mb-2">Deaf Smith County</p>
-            <p className="text-xs text-gray-500">"Beef Capital of the World"</p>
-          </a>
-
-          <a
-            href="/contact/"
-            className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">
-              Childress, TX
-            </h4>
-            <p className="text-sm text-gray-600 mb-2">Childress County</p>
-            <p className="text-xs text-gray-500">Residential & agricultural</p>
-          </a>
-
-          <a
-            href="/contact/"
-            className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">
-              Dalhart, TX
-            </h4>
-            <p className="text-sm text-gray-600 mb-2">Dallam & Hartley Counties</p>
-            <p className="text-xs text-gray-500">Northern Panhandle</p>
-          </a>
-
-          <a
-            href="/perryton-texas-roofing/"
-            className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">
-              Perryton, TX
-            </h4>
-            <p className="text-sm text-gray-600 mb-2">Ochiltree County</p>
-            <p className="text-xs text-gray-500">Oil, gas & agriculture</p>
-          </a>
-        </div>
-
-        <div className="mt-8 text-center">
-          <p className="text-gray-600 mb-4">
-            <strong>Also serving:</strong> Bushland, Claude, Fritch, Vega, Tulia, Friona, Muleshoe,
-            Plainview, Floydada, and surrounding Panhandle communities
-          </p>
-        </div>
-      </section>
-      {/* West Texas & South Plains */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8">West Texas & South Plains</h2>
-        <p className="text-center text-lg mb-8 max-w-3xl mx-auto">
-          Extended service area including Lubbock and the South Plains region, plus West Texas
-          communities surrounding the Permian Basin.
-        </p>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          <a
-            href="/lubbock-tx-roofing/"
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">
-              Lubbock, TX
-            </h4>
-            <p className="text-gray-600 mb-2">
-              <strong>Population:</strong> ~260,000
-              <br />
-              <strong>Region:</strong> South Plains
-            </p>
-            <p className="text-sm text-gray-600">
-              Major commercial and residential market. We provide comprehensive roofing services for
-              homes, businesses, Texas Tech facilities, and industrial properties.
-            </p>
-          </a>
-
-          <a
-            href="/big-spring-tx-roofing/"
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">
-              Big Spring, TX
-            </h4>
-            <p className="text-gray-600 mb-2">
-              <strong>Population:</strong> ~28,000
-              <br />
-              <strong>Region:</strong> West Texas
-            </p>
-            <p className="text-sm text-gray-600">
-              Oil industry town between Midland-Odessa and Abilene. Commercial roofing for
-              industrial facilities and residential hail damage repair.
-            </p>
-          </a>
-
-          <a
-            href="/plainview-texas-roofing/"
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">
-              Plainview, TX
-            </h4>
-            <p className="text-gray-600 mb-2">
-              <strong>Population:</strong> ~20,000
-              <br />
-              <strong>Region:</strong> South Plains
-            </p>
-            <p className="text-sm text-gray-600">
-              Agricultural hub with commercial warehouses and distribution centers. Residential and
-              commercial roofing services available.
-            </p>
-          </a>
-
-          <a
-            href="/levelland-tx-roofing/"
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">
-              Levelland, TX
-            </h4>
-            <p className="text-gray-600 mb-2">
-              <strong>Population:</strong> ~14,000
-              <br />
-              <strong>Region:</strong> South Plains
-            </p>
-            <p className="text-sm text-gray-600">
-              Cotton capital with agricultural and commercial roofing needs. Close proximity to
-              Lubbock for efficient scheduling.
-            </p>
-          </a>
-
-          <a
-            href="/snyder-tx-roofing/"
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">
-              Snyder, TX
-            </h4>
-            <p className="text-gray-600 mb-2">
-              <strong>Population:</strong> ~11,000
-              <br />
-              <strong>Region:</strong> West Texas
-            </p>
-            <p className="text-sm text-gray-600">
-              Oil and agriculture community. Residential hail damage repair and commercial roofing
-              for local businesses.
-            </p>
-          </a>
-
-          <a
-            href="/contact/"
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">
-              Lamesa, TX
-            </h4>
-            <p className="text-gray-600 mb-2">
-              <strong>Population:</strong> ~9,000
-              <br />
-              <strong>Region:</strong> West Texas
-            </p>
-            <p className="text-sm text-gray-600">
-              Agricultural center in Dawson County. Residential and agricultural building roofing
-              services.
-            </p>
-          </a>
-
-          <a
-            href="/monahans-tx-roofing/"
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">
-              Monahans, TX
-            </h4>
-            <p className="text-gray-600 mb-2">
-              <strong>Population:</strong> ~8,000
-              <br />
-              <strong>Region:</strong> Permian Basin
-            </p>
-            <p className="text-sm text-gray-600">
-              Permian Basin oil community near Monahans Sandhills State Park. Residential and
-              commercial roofing for extreme heat conditions.
-            </p>
-          </a>
-
-          <a
-            href="/andrews-tx-roofing/"
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group"
-          >
-            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">
-              Andrews, TX
-            </h4>
-            <p className="text-gray-600 mb-2">
-              <strong>Population:</strong> ~18,000
-              <br />
-              <strong>Region:</strong> Permian Basin
-            </p>
-            <p className="text-sm text-gray-600">
-              Top oil-producing county in Texas. Residential and commercial roofing for growing
-              Permian Basin community.
-            </p>
-          </a>
-        </div>
-      </section>
-      {/* Why We Cover Such a Large Area */}
-      <section className="mb-16 bg-gray-50 p-8 rounded-lg">
-        <h2 className="text-3xl font-bold mb-6 text-center">
-          Why We Cover Such a Large Service Area
-        </h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="font-bold text-xl mb-3">
-              <Car className="w-6 h-6 inline-block" /> Mobile Expertise
-            </h3>
-            <p className="text-gray-600 mb-4">
-              West Texas's rural nature means many towns lack specialized hail damage roofing
-              contractors. We travel throughout the region to bring expert service to every
-              community, no matter the size.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-bold text-xl mb-3">
-              <Tornado className="w-6 h-6 inline-block" /> Storm Response
-            </h3>
-            <p className="text-gray-600 mb-4">
-              Hailstorms don't respect city limits. When severe weather hits multiple areas
-              simultaneously, our teams mobilize across the entire region to provide rapid storm
-              response.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-bold text-xl mb-3">
-              <ClipboardList className="w-6 h-6 inline-block" /> Insurance Networks
-            </h3>
-            <p className="text-gray-600 mb-4">
-              We work with all major insurance companies serving Texas. Our established
-              relationships help clients in any location get claims processed efficiently.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-bold text-xl mb-3">
-              <Briefcase className="w-6 h-6 inline-block" /> Commercial Clients
-            </h3>
-            <p className="text-gray-600 mb-4">
-              Many of our commercial and industrial clients have facilities across multiple West
-              Texas locations. We provide consistent quality service at all their properties.
-            </p>
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/contact/"
+              className="cta-primary"
+            >
+              Get Your Free Roof Inspection
+            </a>
+            <a
+              href="tel:8066226041"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border-2 border-brand-gold text-brand-brown font-semibold hover:bg-brand-gold/10 transition-colors"
+            >
+              <Phone className="w-4 h-4" /> (806) 622-6041
+            </a>
           </div>
         </div>
       </section>
-      {/* Service Area Stats */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center">By the Numbers</h2>
-        <div className="grid md:grid-cols-4 gap-6 text-center">
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-4xl font-bold text-brand-gold mb-2">20+</div>
-            <div className="text-gray-600">Cities Served</div>
+
+      {/* Stats band */}
+      <section className="bg-brand-brown py-12 text-amber-50">
+        <div className="container-custom grid grid-cols-3 gap-8 text-center">
+          <div>
+            <div className="text-4xl md:text-5xl font-light text-brand-gold mb-2">
+              {ALL_CITY_NAMES.length}+
+            </div>
+            <div className="text-sm uppercase tracking-wider text-amber-50/80">Cities Served</div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-4xl font-bold text-brand-gold mb-2">15</div>
-            <div className="text-gray-600">Counties Covered</div>
+          <div>
+            <div className="text-4xl md:text-5xl font-light text-brand-gold mb-2">10+</div>
+            <div className="text-sm uppercase tracking-wider text-amber-50/80">Years in West TX</div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-4xl font-bold text-brand-gold mb-2">150mi</div>
-            <div className="text-gray-600">Service Radius</div>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-4xl font-bold text-brand-gold mb-2">24/7</div>
-            <div className="text-gray-600">Storm Response</div>
+          <div>
+            <div className="text-4xl md:text-5xl font-light text-brand-gold mb-2">Free</div>
+            <div className="text-sm uppercase tracking-wider text-amber-50/80">Inspections</div>
           </div>
         </div>
       </section>
-      {/* Complete City Directory */}
-      <section className="mb-16 bg-white p-8 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-          Complete City Directory
-        </h2>
-        <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-          Click any city below to learn more about our roofing services in that area, including hail
-          damage repair, insurance claim assistance, and local project examples.
-        </p>
-        <div className="grid md:grid-cols-5 gap-4">
-          <div>
-            <h3 className="text-lg font-bold mb-3 text-brand-gold">Major Cities</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="/amarillo-texas-roofing/" className="hover:text-brand-gold">
-                  Amarillo
-                </a>
-              </li>
-              <li>
-                <a href="/midland-tx-roofing/" className="hover:text-brand-gold">
-                  Midland
-                </a>
-              </li>
-              <li>
-                <a href="/odessa-tx-roofing/" className="hover:text-brand-gold">
-                  Odessa
-                </a>
-              </li>
-              <li>
-                <a href="/lubbock-tx-roofing/" className="hover:text-brand-gold">
-                  Lubbock
-                </a>
-              </li>
-            </ul>
+
+      {/* Featured cities */}
+      <section className="py-20 bg-amber-50">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-light text-brand-brown mb-3">
+              Where we work
+            </h2>
+            <p className="text-brand-brown/70 max-w-2xl mx-auto">
+              Pick your city to see roof replacement, hail damage, and commercial services tailored
+              to your area.
+            </p>
           </div>
 
-          <div>
-            <h3 className="text-lg font-bold mb-3 text-brand-gold">Amarillo Area</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="/canyon-texas-roofing/" className="hover:text-brand-gold">
-                  Canyon
-                </a>
-              </li>
-              <li>
-                <a href="/bushland-tx-roofing/" className="hover:text-brand-gold">
-                  Bushland
-                </a>
-              </li>
-              <li>
-                <a href="/claude-tx-roofing/" className="hover:text-brand-gold">
-                  Claude
-                </a>
-              </li>
-              <li>
-                <a href="/vega-tx-roofing/" className="hover:text-brand-gold">
-                  Vega
-                </a>
-              </li>
-              <li>
-                <a href="/wildorado-tx-roofing/" className="hover:text-brand-gold">
-                  Wildorado
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold mb-3 text-brand-gold">Panhandle Cities</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="/borger-texas-roofing/" className="hover:text-brand-gold">
-                  Borger
-                </a>
-              </li>
-              <li>
-                <a href="/pampa-texas-roofing/" className="hover:text-brand-gold">
-                  Pampa
-                </a>
-              </li>
-              <li>
-                <a href="/dumas-texas-roofing/" className="hover:text-brand-gold">
-                  Dumas
-                </a>
-              </li>
-              <li>
-                <a href="/perryton-texas-roofing/" className="hover:text-brand-gold">
-                  Perryton
-                </a>
-              </li>
-              <li>
-                <a href="/hereford-texas-roofing/" className="hover:text-brand-gold">
-                  Hereford
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold mb-3 text-brand-gold">Service Type</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="/hail-damage-repair-amarillo/" className="hover:text-brand-gold">
-                  Hail Damage - Amarillo
-                </a>
-              </li>
-              <li>
-                <a href="/hail-damage-repair-midland/" className="hover:text-brand-gold">
-                  Hail Damage - Midland
-                </a>
-              </li>
-              <li>
-                <a href="/hail-damage-repair-odessa/" className="hover:text-brand-gold">
-                  Hail Damage - Odessa
-                </a>
-              </li>
-              <li>
-                <a href="/hail-damage-repair-lubbock/" className="hover:text-brand-gold">
-                  Hail Damage - Lubbock
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold mb-3 text-brand-gold">Resources</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="/gallery/" className="hover:text-brand-gold">
-                  Project Gallery
-                </a>
-              </li>
-              <li>
-                <a href="/blog/" className="hover:text-brand-gold">
-                  Roofing Blog
-                </a>
-              </li>
-              <li>
-                <a href="/services/" className="hover:text-brand-gold">
-                  All Services
-                </a>
-              </li>
-              <li>
-                <a href="/reviews/" className="hover:text-brand-gold">
-                  Customer Reviews
-                </a>
-              </li>
-              <li>
-                <a href="/contact/" className="hover:text-brand-gold">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {FEATURED_CITIES.map((city) => (
+              <Link
+                key={city.slug}
+                href={city.href}
+                className="group relative block overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`/images/heroes/cities/${city.slug}-hero-900.webp`}
+                  alt={`Roofing in ${city.name}, TX`}
+                  loading="lazy"
+                  className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-5">
+                  <h3 className="text-2xl font-light text-amber-50 mb-1">
+                    {city.name}, TX
+                  </h3>
+                  <p className="text-sm text-amber-50/85 mb-3 leading-snug">
+                    {city.blurb}
+                  </p>
+                  <span className="inline-flex items-center gap-1 text-xs uppercase tracking-wider text-brand-gold font-semibold">
+                    View {city.name} Services →
+                  </span>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
+
       {/* Map */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6 text-center">Find Us in Amarillo</h2>
-        <p className="text-center text-gray-600 mb-6">
-          5 Star Commercial Roofing - Amarillo Headquarters
-        </p>
-        <div className="rounded-lg overflow-hidden shadow-lg">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.448294086623!2d-101.92196172298247!3d35.14543897276488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20Star%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1703734967292!5m2!1sen!2sus"
-            width="100%"
-            height="450"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+      <section className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-light text-brand-brown mb-3">
+              Our service radius
+            </h2>
+            <p className="text-brand-brown/70 max-w-2xl mx-auto">
+              Based in Amarillo, serving the Texas Panhandle, South Plains, and Permian Basin.
+              Free roof inspections across all listed cities.
+            </p>
+          </div>
+          {/* Wide-region embeds: pin on Amarillo HQ. Two iframes because
+              iframe src cannot be responsive — mobile (4:3 aspect) needs
+              zoom 6 to span Amarillo at the top through Midland at the
+              bottom; desktop (16:9 aspect) needs zoom 7 or the same z=6
+              shows half the country. Only the matching breakpoint's iframe
+              is shown; the other is hidden via display:none. Service area
+              is geographically tall (Amarillo 35.2N to Midland 32.0N). */}
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-brand-gold/20 aspect-[4/3] md:aspect-[16/9] md:hidden">
+            <iframe
+              src="https://www.google.com/maps?q=Amarillo,+TX&z=6&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="5 Star Roofing service area — West Texas"
+              aria-label="Map showing 5 Star Roofing service area across the Texas Panhandle, South Plains, and Permian Basin"
+            />
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-brand-gold/20 aspect-[16/9] hidden md:block">
+            <iframe
+              src="https://www.google.com/maps?q=Amarillo,+TX&z=7&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="5 Star Roofing service area — West Texas"
+              aria-label="Map showing 5 Star Roofing service area across the Texas Panhandle, South Plains, and Permian Basin"
+              aria-hidden="true"
+            />
+          </div>
         </div>
       </section>
-      {/* CTA */}
-      <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-lg text-center">
-        <h2 className="text-3xl font-bold mb-4">Serving Your Community</h2>
-        <p className="text-xl mb-8 max-w-2xl mx-auto">
-          No matter where you're located in West Texas or the Panhandle, we're here to help with
-          expert roofing services and insurance claim assistance. Call us today for a free
-          inspection.
-        </p>
-        <div className="flex gap-4 justify-center flex-wrap">
-          <a
-            href="tel:8066226041"
-            className="btn-primary text-lg bg-white text-brand-brown hover:bg-gray-100"
-          >
-            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-          </a>
-          <a
-            href="/contact/"
-            className="btn-secondary text-lg border-2 border-white hover:bg-white hover:text-brand-brown"
-          >
-            Request Free Inspection
-          </a>
+
+      {/* Other cities */}
+      <section className="py-20 bg-amber-50">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-light text-brand-brown mb-3">
+              Smaller communities we serve
+            </h2>
+            <p className="text-brand-brown/70 max-w-2xl mx-auto">
+              Same crew, same response time, same workmanship — in every town where the storms hit.
+            </p>
+          </div>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 max-w-5xl mx-auto">
+            {OTHER_CITIES.map((city) => (
+              <li key={city.href}>
+                <Link
+                  href={city.href}
+                  className="block px-4 py-3 rounded-lg bg-white border border-brand-gold/20 text-brand-brown hover:border-brand-gold hover:bg-brand-gold/5 hover:shadow-md transition-all text-center font-medium"
+                >
+                  {city.name}, TX
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
-    </div>
+
+      {/* Don't see your city */}
+      <section className="py-20 bg-gradient-to-b from-brand-brown to-[#1f1408] text-amber-50">
+        <div className="container-custom max-w-3xl text-center">
+          <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand-gold/20 mb-6">
+            <MapPin className="w-7 h-7 text-brand-gold" />
+          </div>
+          <h2 className="text-3xl md:text-4xl font-light mb-4">Don&apos;t see your city listed?</h2>
+          <p className="text-amber-50/80 text-lg mb-8 max-w-2xl mx-auto">
+            We routinely take jobs beyond this list across West and Central Texas. Call us with
+            your address and we&apos;ll let you know whether your property falls inside our
+            service area.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/contact/"
+              className="cta-primary"
+            >
+              Request a Free Inspection
+            </a>
+            <a
+              href="tel:8066226041"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border-2 border-brand-gold text-amber-50 font-semibold hover:bg-brand-gold/10 transition-colors"
+            >
+              <Phone className="w-4 h-4" /> (806) 622-6041
+            </a>
+          </div>
+          <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 text-left max-w-2xl mx-auto">
+            <div className="flex gap-3 items-start">
+              <Truck className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+              <div>
+                <div className="font-semibold text-amber-50">On-site management</div>
+                <div className="text-sm text-amber-50/70">Project managers on every job, start to finish</div>
+              </div>
+            </div>
+            <div className="flex gap-3 items-start">
+              <Zap className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+              <div>
+                <div className="font-semibold text-amber-50">Insurance experts</div>
+                <div className="text-sm text-amber-50/70">We handle claims end to end</div>
+              </div>
+            </div>
+            <div className="flex gap-3 items-start">
+              <MapPin className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+              <div>
+                <div className="font-semibold text-amber-50">West Texas locals</div>
+                <div className="text-sm text-amber-50/70">Headquartered in Amarillo since 2014</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

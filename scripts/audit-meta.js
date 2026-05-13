@@ -277,7 +277,7 @@ ${table}
 
 ## Known Resolved Conflicts (Phase 2)
 
-- \`expert-roofing-services-in-amarillo\` + \`roofing-services-in-amarillo-tx\` -- both deleted (redirected to amarillo-texas-roofing)
+- \`expert-roofing-services-in-amarillo\` + \`roofing-services-in-amarillo-tx\` -- both deleted (redirected to amarillo-tx-roofing)
 - \`roof-heavy-rain-damage-in-amarillo\` + \`heavy-rain-damage-roof-repair-in-amarillo\` -- first deleted (redirected to second)
 - 36 additional variant pages consolidated in Phase 2 plans 01-02
 - 8 more redundant pages consolidated in Phase 2 gap closure plan 03

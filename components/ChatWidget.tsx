@@ -79,7 +79,7 @@ export function ChatWidget() {
         document.addEventListener(e, handler, { once: true, passive: true });
         interactionListeners.push([e, handler]);
       });
-      timeoutId = setTimeout(loadWidget, 5000);
+      // Defer load until first scroll/click/touch — no auto-load fallback.
     }, 250);
 
     return () => {

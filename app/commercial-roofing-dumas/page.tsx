@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-dumas/" },
   title: "Commercial Roofing Dumas TX | 5 Star Roofing",
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Commercial flat roof installation in West Texas — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function CommercialRoofingDumasPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Commercial Roofing", url: "/commercial-roofing/" },
-          { name: "Dumas", url: "/commercial-roofing-dumas/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -145,80 +136,21 @@ export default function CommercialRoofingDumasPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "How much does commercial roofing cost in Dumas?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Commercial roofing costs in Dumas vary by size, type, and complexity. TPO: $4-$8/sq ft, Metal: $7-$12/sq ft, EPDM: $3-$6/sq ft. We provide free estimates with transparent pricing.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do you work after hours in Dumas?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. We schedule installations during evenings, weekends, or planned closures to minimize business disruption in Dumas.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What commercial roofing systems work best in Texas?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "TPO (energy efficient, reflective), Metal (durable, 50+ year lifespan), and EPDM (cost-effective) perform excellently in Texas climate.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-6-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Commercial Roofing in <span className="text-brand-gold-light">Dumas</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Expert Service for Texas Properties
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional commercial roofing throughout Dumas. Expert installation, comprehensive
-                warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="dumas"
+        city="Dumas"
+        service="Commercial Roofing"
+        h1="Commercial Roofing in Dumas, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-9-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Dumas", url: "/commercial-roofing-dumas/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -252,6 +184,34 @@ export default function CommercialRoofingDumasPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides commercial roofing services in Dumas TX including TPO, metal, and flat roof systems for local businesses and agricultural facilities in Moore County.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Commercial Roofing</a>
+              <a href="/commercial-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Commercial</a>
+              <a href="/commercial-roofing-borger/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Borger Commercial</a>
+              <a href="/dumas-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Dumas Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -264,7 +224,7 @@ export default function CommercialRoofingDumasPage() {
               temperature swings common in the High Plains agricultural environment.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              Since 2014, we've served Dumas with expert installations, comprehensive warranties,
+              For over a decade, we've served Dumas with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>
@@ -281,14 +241,14 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Commercial Roofing Solutions for Dumas' Agricultural Economy?
+              What Commercial roof system for Dumas' Agricultural Economy?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Dumas serves as the agricultural hub of Moore County, supporting extensive grain
               production, cattle feeding operations, and agricultural processing facilities across
               the Texas High Plains. This agricultural foundation creates unique commercial roofing
               demands requiring specialized expertise in large-span agricultural buildings, grain
-              storage facilities, and processing plants that operate around the clock during harvest
+              storage facilities, and processing plants that operate continuously during harvest
               and shipping seasons.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
@@ -403,7 +363,7 @@ export default function CommercialRoofingDumasPage() {
               Cool roofing technologies prove especially beneficial for facilities operating
               temperature-sensitive processes during summer months when High Plains temperatures
               exceed 100°F for extended periods. High-reflectance membrane systems reduce cooling
-              loads by 25-35% while protecting processing equipment from heat-related failures
+              loads by 25- while protecting processing equipment from heat-related failures
               during peak agricultural seasons.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -448,7 +408,7 @@ export default function CommercialRoofingDumasPage() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Moore County Hospital and medical facilities serving Dumas' agricultural community
               require specialized commercial roofing systems that support critical healthcare
-              delivery while accommodating medical equipment and prompt services. Hospital roofing
+              delivery while accommodating medical equipment and specialized building systems. Hospital roofing
               must accommodate helicopter access, medical gas systems, and backup power equipment
               while maintaining sterile environments.
             </p>
@@ -534,9 +494,9 @@ export default function CommercialRoofingDumasPage() {
               market conditions.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              storm response capabilities specifically designed for agricultural environments
+              Post-storm repair capabilities specifically designed for agricultural environments
               include specialized safety equipment for working around grain handling equipment and
-              agricultural chemicals. Our storm response teams maintain training and equipment
+              agricultural chemicals. Our repair crews maintain training and equipment
               necessary for safe operations in agricultural facility environments during storm
               repair situations.
             </p>
@@ -650,7 +610,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Climate-Specific Roofing Solutions Are Available in Dumas?
+              What Climate-Specific roof system Are Available in Dumas?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               The High Plains climate around Dumas presents unique challenges for commercial roofing
@@ -692,10 +652,10 @@ export default function CommercialRoofingDumasPage() {
               budget constraints.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              storm repair capabilities specifically designed for post-storm response ensure rapid
+              Post-storm repair capabilities for agricultural facilities ensure thorough
               restoration of weather protection following major hail events. Pre-positioned
-              materials and trained crews provide immediate temporary protection while permanent
-              repairs are scheduled and completed to restore full building protection quickly.
+              materials and trained crews help restore full building protection as quickly as possible
+              once inspections and insurance documentation are complete.
             </p>
           </section>
         </FadeIn>
@@ -804,16 +764,7 @@ export default function CommercialRoofingDumasPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

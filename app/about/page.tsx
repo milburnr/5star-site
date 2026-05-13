@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { ClipboardList, Home, Target, Zap } from "lucide-react";
 import { ReviewsSection } from "@/components/page-sections/ReviewsSection";
 
@@ -49,7 +48,7 @@ export default function Page() {
       addressCountry: "US",
     },
     description:
-      "Licensed and insured roofing contractor serving Amarillo, Midland, Odessa, and West Texas since 2014. Specializing in hail damage repair, storm restoration, and insurance claim assistance.",
+      "Licensed and insured roofing contractor serving Amarillo, Midland, Odessa, and West Texas serving the Texas Panhandle. Specializing in hail damage repair, storm restoration, and insurance claim assistance.",
     foundingDate: "2014",
     areaServed: [
       "Amarillo, TX",
@@ -72,20 +71,7 @@ export default function Page() {
   };
 
   return (
-    <div className="container-custom py-12">
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "About Us",
-            url: "/about/",
-          },
-        ]}
-      />
+    <>
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -114,23 +100,17 @@ export default function Page() {
           }),
         }}
       />
-      <FadeIn>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">
-          About 5 Star Commercial Roofing
-        </h1>
-      </FadeIn>
-      {/* Team/Company Hero Image */}
-      <FadeIn delay={0.2}>
-        <div className="relative mb-6 md:mb-8 rounded-2xl overflow-hidden shadow-2xl">
-          <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-1-1280w.jpg"
-            alt="5 Star Commercial Roofing team in Amarillo Texas - Professional roofing contractors and crew - Locally owned and operated"
-            className="w-full h-48 sm:h-64 md:h-96 object-cover"
-            loading="lazy"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20"></div>
-        </div>
-      </FadeIn>
+      <InteriorHeroSection
+        heroVariant="service"
+        service="About Us"
+        h1="About 5 Star Commercial Roofing"
+        image="/images/heroes/cities/amarillo-hero-1200.webp"
+        breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "About Us", url: "/about/" },
+        ]}
+      />
+    <div className="container-custom py-12">
       {/* Stats Section */}
       <FadeIn delay={0.3}>
         <section className="mb-16 py-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50 rounded-3xl relative overflow-hidden">
@@ -161,13 +141,13 @@ export default function Page() {
             </div>
             <div className="p-3 md:p-6">
               <div className="text-2xl sm:text-3xl md:text-5xl font-bold bg-gradient-to-r from-brand-gold to-brand-gold-vibrant bg-clip-text text-transparent mb-1 md:mb-2">
-                <AnimatedCounter to={100} suffix="%" />
+                Since 2014
               </div>
               <div className="text-sm sm:text-base md:text-xl font-semibold text-brand-brown">
-                Satisfaction
+                Texas Panhandle
               </div>
               <p className="text-gray-600 mt-1 md:mt-2 text-xs sm:text-sm md:text-base hidden sm:block">
-                Guaranteed
+                Headquartered in Amarillo
               </p>
             </div>
           </div>
@@ -189,7 +169,7 @@ export default function Page() {
               </a>
               and storm damage restoration throughout{" "}
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-brown hover:text-brand-gold underline"
               >
                 Amarillo
@@ -301,38 +281,49 @@ export default function Page() {
           </FadeIn>
         </div>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">Our Services</h2>
-        <ul className="space-y-2 mb-8">
-          <li>
-            <strong>Hail Damage Repair:</strong> Expert assessment and repair of hail-damaged roofs
-          </li>
-          <li>
-            <strong>Storm Damage Restoration:</strong> Wind, rain, and weather-related roof repairs
-          </li>
-          <li>
-            <strong>Insurance Claims:</strong> Complete assistance with filing and managing claims
-          </li>
-          <li>
-            <strong>Residential Roofing:</strong> New installations, replacements, and repairs for
-            homes
-          </li>
-          <li>
-            <strong>Commercial Roofing:</strong> TPO, PVC, and built-up roofing systems for
-            businesses
-          </li>
-          <li>
-            <strong>Free Inspections:</strong> No-obligation roof assessments and damage
-            documentation
-          </li>
-        </ul>
+        <FadeIn delay={0.2}>
+          <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20 mb-8">
+            <h2 className="text-2xl font-bold mb-4 text-brand-brown">Our Services</h2>
+            <ul className="space-y-2">
+              <li>
+                <strong>Hail Damage Repair:</strong> Expert assessment and repair of hail-damaged
+                roofs
+              </li>
+              <li>
+                <strong>Storm Damage Restoration:</strong> Wind, rain, and weather-related roof
+                repairs
+              </li>
+              <li>
+                <strong>Insurance Claims:</strong> Complete assistance with filing and managing
+                claims
+              </li>
+              <li>
+                <strong>Residential Roofing:</strong> New installations, replacements, and repairs
+                for homes
+              </li>
+              <li>
+                <strong>Commercial Roofing:</strong> TPO, PVC, and built-up roofing systems for
+                businesses
+              </li>
+              <li>
+                <strong>Free Inspections:</strong> No-obligation roof assessments and damage
+                documentation
+              </li>
+            </ul>
+          </div>
+        </FadeIn>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">Serving All of West Texas</h2>
-        <p className="mb-4">
-          We proudly serve Amarillo and the entire Texas Panhandle, plus Midland, Odessa, Lubbock,
-          and surrounding West Texas communities. Our team understands the specific roofing
-          challenges that come with our region's climate—from severe hailstorms and high winds to
-          extreme temperature fluctuations and intense UV exposure.
-        </p>
+        <FadeIn delay={0.3}>
+          <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20 mb-8">
+            <h2 className="text-2xl font-bold mb-4 text-brand-brown">Serving All of West Texas</h2>
+            <p>
+              We proudly serve Amarillo and the entire Texas Panhandle, plus Midland, Odessa,
+              Lubbock, and surrounding West Texas communities. Our team understands the specific
+              roofing challenges that come with our region's climate—from severe hailstorms and
+              high winds to extreme temperature fluctuations and intense UV exposure.
+            </p>
+          </div>
+        </FadeIn>
 
         {/* Company Trucks/Equipment Images */}
         <div className="grid md:grid-cols-2 gap-6 mb-12">
@@ -391,18 +382,20 @@ export default function Page() {
           customer satisfaction across all of West Texas.
         </p>
 
-        <div className="bg-gray-100 p-6 rounded-lg">
-          <h3 className="text-xl font-bold mb-3">Our Promise</h3>
-          <p className="mb-4">
-            We treat every roof like it's our own. From the initial free inspection to the final
-            nail, we're committed to quality workmanship, honest pricing, and exceptional customer
-            service.
-          </p>
-          <p className="text-brand-brown font-semibold">
-            Don't wait until a small problem becomes a big one. Call us today for your free roof
-            inspection.
-          </p>
-        </div>
+        <FadeIn delay={0.2}>
+          <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
+            <h3 className="text-2xl font-bold mb-3 text-brand-brown">Our Promise</h3>
+            <p className="mb-4 text-gray-700 leading-relaxed">
+              We treat every roof like it's our own. From the initial free inspection to the final
+              nail, we're committed to quality workmanship, honest pricing, and exceptional
+              customer service.
+            </p>
+            <p className="text-brand-brown font-semibold">
+              Address issues before a small problem becomes a big one. Call us today for your free
+              roof inspection.
+            </p>
+          </div>
+        </FadeIn>
       </div>
       <ReviewsSection heading="What our customers say" />
       <section className="mt-12 bg-brand-gold text-white p-8 rounded-lg">
@@ -427,5 +420,6 @@ export default function Page() {
         </div>
       </section>
     </div>
+    </>
   );
 }

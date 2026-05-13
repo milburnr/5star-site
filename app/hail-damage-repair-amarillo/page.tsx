@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,27 +7,28 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { InsuranceLogos } from "@/components/InsuranceLogos";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-amarillo/" },
   title: "Hail Damage Roof Repair Amarillo TX | 5 Star Roofing",
   description:
-    "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help, 95%+ approval rate. Call (806) 622-6041 for a free estimate!",
+    "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help. Call (806) 622-6041 for a free estimate!",
   openGraph: {
     title: "Hail Damage Roof Repair Amarillo TX | 5 Star Roofing",
     description:
-      "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help, 95%+ approval rate. Call (806) 622-6041 for a free estimate!",
+      "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help. Call (806) 622-6041 for a free estimate!",
     url: "https://5starroofingpros.com/hail-damage-repair-amarillo/",
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -41,16 +41,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairAmarilloPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
-          { name: "Amarillo", url: "/hail-damage-repair-amarillo/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -173,7 +164,7 @@ export default function HailDamageRepairAmarilloPage() {
                 name: "Will insurance cover hail damage repair in Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, if damage occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact, meet adjusters on-site, and advocate for maximum coverage. Our 95%+ approval rate means most homeowners pay only their deductible ($1,000-$2,500) for complete roof replacement.",
+                  text: "Yes, if damage occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact, meet adjusters on-site, and advocate for maximum coverage.",
                 },
               },
               {
@@ -197,7 +188,7 @@ export default function HailDamageRepairAmarilloPage() {
                 name: "Should I get Class 4 shingles after hail damage repair?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Absolutely. Class 4 impact-resistant shingles withstand 2-inch hail strikes and reduce future damage by 90%. Given Potter County's extreme hail frequency, they're essential. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, offsetting the initial cost through avoided future claims and insurance savings.",
+                  text: "Absolutely. Class 4 impact-resistant shingles withstand 2-inch hail strikes and meet UL 2218 Class 4 impact testing. Given Potter County's extreme hail frequency, they're essential. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, offsetting the initial cost through avoided future claims and insurance savings.",
                 },
               },
               {
@@ -205,15 +196,15 @@ export default function HailDamageRepairAmarilloPage() {
                 name: "How long does hail damage repair take in Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most Amarillo homes are completed in 1-3 days once insurance approves. The claim process typically takes 2-4 weeks: initial inspection (same day), adjuster meeting (1-2 weeks), approval (3-5 days), then installation (1-3 days). We provide tarping within hours if you have active leaks while waiting for insurance approval.",
+                  text: "Most Amarillo homes are completed in 1-3 days once insurance approves. The claim process typically takes 2-4 weeks: initial inspection (same day), adjuster meeting (1-2 weeks), approval (3-5 days), then installation (1-3 days). We place weatherproof sheeting within hours if you have active leaks while waiting for insurance approval.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Do you provide tarping for hail-damaged roofs?",
+                name: "Do you place weatherproof sheeting for hail-damaged roofs?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, we provide tarping services throughout Amarillo. If hailstorms cause active leaks, we responds promptly to install temporary waterproof tarps protecting your home until permanent repairs are completed. tarping costs are typically covered by insurance as part of your claim.",
+                  text: "Yes, we provide weatherproof sheeting services throughout Amarillo. If hailstorms cause active leaks, we responds promptly to install temporary waterproof tarps protecting your home until permanent repairs are completed. weatherproof sheeting costs are typically covered by insurance as part of your claim.",
                 },
               },
             ],
@@ -221,46 +212,20 @@ export default function HailDamageRepairAmarilloPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Roof Repair in <span className="text-brand-gold-light">Amarillo</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                storm response in Hail Alley
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert hail damage repair in Potter County - one of America's most hail-prone
-                regions. Potter County has recorded 131 severe hail days since 2000. We provide
-                Complete insurance claim assistance and Class 4 impact-resistant
-                replacements.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="amarillo"
+        city="Amarillo"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Amarillo, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
+          { name: "Amarillo", url: "/hail-damage-repair-amarillo/" },
+        ]}
+    />
 
       {/* Phase 12 Stream C (12.14): insurance carrier strip below hero */}
       <InsuranceLogos />
@@ -274,8 +239,9 @@ export default function HailDamageRepairAmarilloPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hail Days Since 2000</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">95%+</div>
@@ -509,7 +475,7 @@ export default function HailDamageRepairAmarilloPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-lg mb-2">
-                    We've handled over 1,000 Amarillo hail claims since 2014. Our systematic
+                    We work hail claims across the Texas Panhandle every storm season. Our systematic
                     approach ensures maximum coverage.
                   </p>
                 </div>
@@ -556,9 +522,7 @@ export default function HailDamageRepairAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, if damage occurred during your policy period and you file within your
                   carrier's timeframe (typically 1-2 years). We document every impact, meet
-                  adjusters on-site, and advocate for maximum coverage. Our 95%+ approval rate means
-                  most homeowners pay only their deductible ($1,000-$2,500) for complete roof
-                  replacement.
+                  adjusters on-site, and advocate for maximum coverage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -602,7 +566,7 @@ export default function HailDamageRepairAmarilloPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Absolutely. Class 4 impact-resistant shingles withstand 2-inch hail strikes and
-                  reduce future damage by 90%. Given Potter County's extreme hail frequency, they're
+                  meet UL 2218 Class 4 impact testing. Given Potter County's extreme hail frequency, they're
                   essential. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs,
                   offsetting the initial cost through avoided future claims and insurance savings.
                 </AccordionContent>
@@ -618,7 +582,7 @@ export default function HailDamageRepairAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Most Amarillo homes are completed in 1-3 days once insurance approves. The claim
                   process typically takes 2-4 weeks: initial inspection (same day), adjuster meeting
-                  (1-2 weeks), approval (3-5 days), then installation (1-3 days). We provide tarping
+                  (1-2 weeks), approval (3-5 days), then installation (1-3 days). We place weatherproof sheeting
                   within hours if you have active leaks while waiting for insurance approval.
                 </AccordionContent>
               </AccordionItem>
@@ -628,12 +592,12 @@ export default function HailDamageRepairAmarilloPage() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Do you provide tarping for hail-damaged roofs?
+                  Do you place weatherproof sheeting for hail-damaged roofs?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide tarping services throughout Amarillo. If hailstorms cause active
+                  Yes, we provide weatherproof sheeting services throughout Amarillo. If hailstorms cause active
                   leaks, we responds promptly to install temporary waterproof tarps protecting your
-                  home until permanent repairs are completed. tarping costs are typically covered by
+                  home until permanent repairs are completed. weatherproof sheeting costs are typically covered by
                   insurance as part of your claim.
                 </AccordionContent>
               </AccordionItem>
@@ -647,16 +611,7 @@ export default function HailDamageRepairAmarilloPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

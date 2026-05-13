@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import { TPO_HUB_HERO } from "@/components/heroes/hubHeroSets";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -17,10 +18,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-8-1920w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/services-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Commercial building roof installation in West Texas — 5 Star TPO Roofing",
       },
     ],
     locale: "en_US",
@@ -229,26 +230,55 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="TPO Roofing"
+        h1="TPO Roofing in West Texas"
+        image="/images/heroes/services/tpo-hub-1200.webp"
+        imageSrcSet={TPO_HUB_HERO}
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Services", url: "/services/" },
           { name: "TPO Roofing", url: "/tpo-roofing/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+{/* FAQPage schema removed — faqSchema variable kept as dead code */}
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+          <p className="text-gray-800 font-medium leading-relaxed">
+            5 Star Roofing installs TPO roofing systems across the Texas Panhandle and Permian Basin — energy-efficient, heat-reflective single-ply membranes for commercial and industrial buildings.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-4 text-sm">
+            <a href="/tpo-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo TPO</a>
+            <a href="/tpo-roofing-lubbock/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Lubbock TPO</a>
+            <a href="/tpo-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland TPO</a>
+            <a href="/tpo-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa TPO</a>
+          </div>
+        </section>
+      </FadeIn>
+
+      {/* Author byline */}
+      <FadeIn>
+        <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+          <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+          <span>
+            Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+            &nbsp;·&nbsp; Updated May 2026
+          </span>
+        </div>
+      </FadeIn>
+
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         TPO Roofing Installation and Repair Across West Texas
-      </h1>
+      </h2>
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
@@ -287,12 +317,7 @@ export default function Page() {
           continuous, watertight bond that is actually stronger than the membrane itself.
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-          <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg"
-            alt="TPO membrane roofing on a commercial building in Pampa, Texas Panhandle"
-            className="w-full h-64 object-cover"
-            loading="lazy"
-          />
+          
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">

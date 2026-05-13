@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import {
   Accordion,
   AccordionContent,
@@ -7,13 +6,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Home, Phone, Search, Shield, Star, Wrench } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-dumas/" },
   title: "Residential Roofing Dumas TX | 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function ResidentialRoofingDumasPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Residential Roofing", url: "/residential-roofing/" },
-          { name: "Dumas", url: "/residential-roofing-dumas/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -181,44 +172,20 @@ export default function ResidentialRoofingDumasPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Residential Roofing in <span className="text-brand-gold-light">Dumas</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Expert Service for Texas Properties
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional residential roofing throughout Dumas. Expert installation,
-                comprehensive warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="dumas"
+        city="Dumas"
+        service="Residential Roofing"
+        h1="Residential Roofing in Dumas, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Residential Roofing", url: "/residential-roofing/" },
+          { name: "Dumas", url: "/residential-roofing-dumas/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
@@ -264,7 +231,7 @@ export default function ResidentialRoofingDumasPage() {
               characterize the High Plains climate.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Dumas homeowners with expert installations, comprehensive
+              We've served Dumas homeowners with expert installations, comprehensive
               warranties, and outstanding customer service. We handle all permits, insurance claims,
               and warranty documentation. Our team understands the unique roofing needs of Dumas's
               diverse housing stock, from historic homes in the original townsite to modern
@@ -564,7 +531,7 @@ export default function ResidentialRoofingDumasPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Late spring through early fall offers the best weather windows for roofing
-                  projects. However, we provide year-round service including prompt repairs. Winter
+                  projects. However, we provide year-round service including efficient repairs. Winter
                   installations are possible during mild periods, though scheduling flexibility is
                   important due to weather variability in the Texas Panhandle.
                 </AccordionContent>
@@ -644,9 +611,9 @@ export default function ResidentialRoofingDumasPage() {
 
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Response</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Post-Storm Process</h3>
                 <p className="text-gray-700 mb-6">
-                  When severe weather strikes Dumas and Moore County, our storm response team is
+                  When severe weather strikes Dumas and Moore County, our repair crew is
                   ready to protect your home and family. We understand that storm damage requires
                   prompt attention, especially during the active storm season in the Texas
                   Panhandle.
@@ -671,7 +638,7 @@ export default function ResidentialRoofingDumasPage() {
                   Temporary Protection Services
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  Our storm response includes temporary protection measures to prevent further
+                  Our our post-storm process includes temporary protection measures to prevent further
                   damage while permanent repairs are arranged. This service is often covered by
                   insurance and can save thousands in additional damage.
                 </p>
@@ -681,8 +648,8 @@ export default function ResidentialRoofingDumasPage() {
                     <Shield className="w-6 h-6 inline-block" /> Temporary Protection Includes:
                   </h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Tarping and weatherproofing</li>
-                    <li>• Board-up services for severe damage</li>
+                    <li>• Weatherproof sheeting and weatherproofing</li>
+                    <li>• Securing exposed areas for severe damage</li>
                     <li>• Water extraction and drying</li>
                     <li>• Debris removal and cleanup</li>
                     <li>• Damage documentation for insurance</li>
@@ -711,16 +678,7 @@ export default function ResidentialRoofingDumasPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>

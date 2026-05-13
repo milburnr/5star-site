@@ -133,7 +133,7 @@ const faqItems = [
   {
     question: "Does insurance cover wind damage in Snyder?",
     answer:
-      "Most homeowner and commercial insurance policies cover wind and hail damage to roofs minus your deductible. We provide detailed documentation including photographs, wind speed data from nearby weather stations and wind farm monitoring, and comprehensive damage reports that insurance adjusters require for claim approval. Our 95%+ approval rate reflects our thorough documentation process.",
+      "Most homeowner and commercial insurance policies cover wind and hail damage to roofs minus your deductible. We provide detailed documentation including photographs, wind speed data from nearby weather stations and wind farm monitoring, and comprehensive damage reports that insurance adjusters require for claim approval. Our thorough documentation process is built to carrier standards.",
   },
 ];
 

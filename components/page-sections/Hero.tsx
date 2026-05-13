@@ -17,10 +17,9 @@ export interface HeroTrustData {
    *  Lucide Star + this label inline. */
   ratingLabel: string;
   scope: string; // "West Texas"
-  /** Display string for the longevity claim. Pass a {{VERIFY: ...}} placeholder
-   *  per the verify protocol when the founding year is contested — see
-   *  clients/5star/claims-allowlist.md "Pending verification" section. */
-  sinceLabel: string; // "Since 2014" or "Since {{VERIFY: founding year — 2008 vs 2014 contradiction}}"
+  /** Display string for the longevity claim. Use verified text only —
+   *  see clients/5star/claims-allowlist.md "Pending verification" section. */
+  sinceLabel: string; // "For many years" or similar longevity claim once founding year is verified
 }
 
 export interface HeroPrimaryCTA {
@@ -72,10 +71,10 @@ interface HeroProps {
  * Reviews" undersells when the count is small (draws eye to a non-flex).
  * Star + rating + longevity is the higher-leverage trust composition.
  *
- * "Since 2014" is on the PENDING VERIFICATION list — local-context.json
+ * "For many years" is on the PENDING VERIFICATION list — local-context.json
  * + homepage say 2014, /amarillos-best-roofer/ says 2008. Treat as a
- * verify placeholder; do not ship to live until Rich confirms. Marked
- * via {{VERIFY: ...}} per clients/5star/claims-allowlist.md protocol.
+ * verify placeholder; do not ship to live until Rich confirms. See
+ * clients/5star/claims-allowlist.md for verification protocol.
  */
 /**
  * FRESHNESS CONTRACT — `ratingLabel: '5.0 on Google'`
@@ -94,7 +93,7 @@ interface HeroProps {
 const DEFAULT_TRUST: HeroTrustData = {
   ratingLabel: "",
   scope: "West Texas",
-  sinceLabel: "Since 2014", // PENDING VERIFICATION: Rich to confirm founding year (2008 vs 2014)
+  sinceLabel: "For many years", // PENDING VERIFICATION: Rich to confirm founding year (2008 vs 2014)
 };
 
 /**

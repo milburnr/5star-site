@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,9 +8,9 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   AlertTriangle,
   Church,
@@ -27,6 +26,7 @@ import {
   Zap,
 } from "lucide-react";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-levelland/" },
   title: "Wind Damage Repair Levelland TX | 5 Star Roofing",
@@ -54,24 +54,7 @@ export const metadata: Metadata = {
 export default function WindDamageRepairLevellandPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Wind Damage Repair",
-            url: "/wind-damage-repair/",
-          },
-          {
-            name: "Levelland",
-            url: "/wind-damage-repair-levelland/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -178,44 +161,29 @@ export default function WindDamageRepairLevellandPage() {
         }}
       />
       {/* schema-cleanup:faqpage:removed */}
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-18-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Wind Damage Repair in <span className="text-brand-gold-light">Levelland</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                South Plains Wind Damage Repair Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10
-                hailstorms annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="levelland"
+        city="Levelland"
+        service="Wind Damage Repair"
+        h1="Wind Damage Repair in Levelland, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-18-1280w.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Wind Damage Repair",
+            url: "/wind-damage-repair/",
+          },
+          {
+            name: "Levelland",
+            url: "/wind-damage-repair-levelland/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -229,8 +197,9 @@ export default function WindDamageRepairLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -259,7 +228,7 @@ export default function WindDamageRepairLevellandPage() {
               demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Levelland
+              5 Star Commercial Roofing has protected properties throughout Levelland
               and Hockley County with premium materials and expert installation. From properties
               near South Plains College to buildings throughout Levelland, we understand South
               Plains weather patterns, local building codes, and the specific needs of Hockley
@@ -274,16 +243,7 @@ export default function WindDamageRepairLevellandPage() {
               Serving Levelland, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-102.38!3d33.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sLevelland%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Levelland, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Levelland, TX" />
             </div>
           </section>
         </FadeIn>
@@ -542,8 +502,8 @@ export default function WindDamageRepairLevellandPage() {
                   What temporary repairs can protect my building until permanent repairs?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Temporary repairs include professional tarping, securing loose materials,
-                  temporary flashing installation, and prompt leak repairs. These measures protect
+                  Temporary repairs include professional weatherproof sheeting, securing loose materials,
+                  temporary flashing installation, and efficient leak repairs. These measures protect
                   your property from further damage while insurance claims are processed and
                   permanent repair materials are ordered. All temporary work is credited toward
                   final repair costs.
@@ -654,7 +614,7 @@ export default function WindDamageRepairLevellandPage() {
                 <AlertTriangle className="w-6 h-6 inline-block text-red-600" />
               </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                South Plains wind storms can strike without warning. Don't wait for minor damage to
+                South Plains wind storms can strike without warning. Address minor damage to
                 become major problems.
               </p>
             </div>
@@ -672,13 +632,13 @@ export default function WindDamageRepairLevellandPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-red-700 mb-4">Our prompt services</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-4">Our scheduling</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Professional tarping and securing</li>
+                  <li>• Professional weatherproof sheeting and securing</li>
                   <li>• Active-leak weatherproofing</li>
                   <li>• Structural safety assessment</li>
                   <li>• Insurance documentation assistance</li>
-                  <li>• Board-up services if needed</li>
+                  <li>• Securing services if needed</li>
                 </ul>
               </div>
             </div>

@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,9 +7,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   CheckCircle,
   ClipboardList,
@@ -26,19 +25,19 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-borger/" },
   title: "Hail Damage Repair Borger TX | 5 Star Roofing",
   description:
-    "Professional hail damage roof repair in Borger TX. Fast storm response, insurance assistance. Serving Hutchinson County. Call (806) 622-6041",
+    "Professional hail damage roof repair in Borger TX. Insurance assistance, free inspections. Serving Hutchinson County. Call (806) 622-6041",
   openGraph: {
     title: "Hail Damage Repair Borger TX | 5 Star Roofing",
     description:
-      "Professional hail damage roof repair in Borger TX. Fast storm response, insurance assistance. Serving Hutchinson County. Call (806) 622-6041",
+      "Professional hail damage roof repair in Borger TX. Insurance assistance, free inspections. Serving Hutchinson County. Call (806) 622-6041",
     url: "https://5starroofingpros.com/hail-damage-repair-borger/",
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-hail-damage.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Residential roof showing hail damage impact marks in Borger TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -48,16 +47,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairBorgerPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Borger", url: "/hail-damage-repair-borger/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -143,137 +133,54 @@ export default function HailDamageRepairBorgerPage() {
         }}
       />
 
-      {/* Schema: FAQPage */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "How do I know if my Borger roof has hail damage?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Signs of hail damage on Borger roofs include granule loss (shiny spots on shingles), dents on metal vents, flashing, and gutters, cracked or missing shingles, and bruised areas that feel soft. Hutchinson County's position in the Texas Panhandle means severe storms are common—schedule a free inspection after any hail event.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Will insurance cover hail damage repair in Borger?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, most Texas homeowners insurance policies cover hail damage if it occurred during your policy period and you file within 1-2 years. We document every impact with photos and measurements, meet adjusters on-site, and advocate for maximum coverage.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How much does hail damage repair cost in Borger?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Hail damage repair costs in Borger vary based on roof size, material, and damage extent. Most storm-related repairs are covered by insurance with homeowners paying only their deductible. Full roof replacements in Hutchinson County typically range from $7,000-$14,000 for residential properties.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What are Class 4 impact-resistant shingles?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing. For Borger homes facing frequent Panhandle storms, Class 4 shingles reduce future damage by up to 90% and often qualify for 10-30% insurance premium discounts.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How do you handle hail damage work in Borger?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "We schedule storm-damage documentation and inspections for Borger properties once conditions are safe — Borger is 47 miles from our Amarillo headquarters. We are not an emergency-dispatch service. Our value is thorough photo documentation, adjuster-ready reports, and Class 4 impact-resistant restoration for Hutchinson County properties.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
       {/* Hero Section */}
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Borger, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                Hutchinson County's Trusted Storm Restoration Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Borger's industrial heart beats with petrochemical production—and those facilities
-                and the homes that surround them all need protection from Texas Panhandle
-                hailstorms. Since 2014, 5 Star Roofing has helped Borger homeowners and businesses
-                recover from storm damage with expert repairs, insurance claim assistance, and Class
-                4 impact-resistant replacements.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="borger"
+        city="Borger"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Borger, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-dalhart-33-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Borger", url: "/hail-damage-repair-borger/" },
+        ]}
+    />
 
       {/* Stats Bar */}
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={47} suffix=" mi" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
-                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing repairs hail damage in Borger TX and Hutchinson County, free inspections, insurance claim documentation, and full roof replacement after Texas Panhandle storms.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/hail-damage-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Hail Damage Repair</a>
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Hail Repair</a>
+              <a href="/hail-damage-repair-dumas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Dumas Hail Repair</a>
+              <a href="/borger-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Borger Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         {/* Main Content Section */}
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -296,7 +203,7 @@ export default function HailDamageRepairBorgerPage() {
               black plants now test roofing systems across the community.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Borger and Hutchinson County since 2014. Located just
+              5 Star Roofing has been serving Borger and Hutchinson County for over a decade. Located just
               47 miles from our Amarillo headquarters, we can reach Borger quickly for emergencies
               and provide the same expert service we're known for throughout West Texas. Whether
               you're protecting a family home, a rental property, or a commercial building, we have
@@ -432,7 +339,7 @@ export default function HailDamageRepairBorgerPage() {
             </p>
             <div className="grid md:grid-cols-3 gap-6 mb-6">
               <div className="bg-white/10 p-6 rounded-xl">
-                <div className="text-4xl font-bold mb-2">90%</div>
+                <div className="text-4xl font-bold mb-2"></div>
                 <div className="font-semibold">Damage Reduction</div>
                 <p className="text-sm opacity-80 mt-2">vs. standard shingles</p>
               </div>
@@ -546,7 +453,7 @@ export default function HailDamageRepairBorgerPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Costs vary based on roof size, pitch, materials, and damage extent. For insurance
                   claims, most homeowners pay only their deductible. Full roof replacements in
-                  Borger typically range from $7,000-$14,000 for average-sized homes, though costs
+                  Borger typically range from - for average-sized homes, though costs
                   can be higher for larger or more complex roofs. We provide detailed estimates
                   using Xactimate—the same software insurance companies use.
                 </AccordionContent>

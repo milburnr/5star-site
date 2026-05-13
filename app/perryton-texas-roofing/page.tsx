@@ -162,7 +162,7 @@ export default function PerrytonRoofingPage() {
             <h2 className="content-block-title">Trusted Roofing Services in Perryton, Texas</h2>
             <p className="text-lg mb-4">
               As Perryton's premier{" "}
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 professional roofing contractor
               </a>
               , 5 Star Commercial Roofing brings over a decade of experience serving Ochiltree
@@ -224,7 +224,7 @@ export default function PerrytonRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Perryton, we respond with tarping and rapid roof
+                  When severe weather strikes Perryton, we respond with weatherproof sheeting and rapid roof
                   repairs. Call us immediately for storm damage assessment.
                 </p>
                 <a href="/storm-damage-repair-amarillo/" className="text-red-700 font-semibold">
@@ -501,8 +501,8 @@ export default function PerrytonRoofingPage() {
                       <div className="text-sm text-gray-700">Client Satisfaction</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-brand-gold mb-2">24/7</div>
-                      <div className="text-sm text-gray-700">Storm Response</div>
+                      <div className="text-3xl font-bold text-brand-gold mb-2">Free</div>
+                      <div className="text-sm text-gray-700">post-storm documentation</div>
                     </div>
                   </div>
                   <div className="mt-6 p-4 bg-brand-gold-light rounded-lg">
@@ -602,7 +602,7 @@ export default function PerrytonRoofingPage() {
         <FadeIn>
           <section className="bg-gray-50 rounded-lg p-8 mb-12">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              storm response for Perryton Weather Events
+              post-storm documentation for Perryton Weather Events
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -617,11 +617,11 @@ export default function PerrytonRoofingPage() {
                 <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded mb-4">
                   <p className="text-red-700 text-lg font-bold">(806) 622-6041</p>
                   <p className="text-red-700 text-sm">
-                    Available day or night for Ochiltree County emergencies
+                    Available throughout the region for Ochiltree County emergencies
                   </p>
                 </div>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• tarping to prevent water infiltration</li>
+                  <li>• weatherproof sheeting to help prevent water infiltration</li>
                   <li>• Documentation-first scheduling once conditions are safe</li>
                   <li>• Temporary repairs to secure property until permanent fixes</li>
                   <li>• Insurance claim initiation and documentation</li>
@@ -673,7 +673,7 @@ export default function PerrytonRoofingPage() {
               extends across the entire region:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 • Amarillo Roofing
               </a>
               <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">

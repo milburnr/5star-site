@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,9 +7,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   AlertTriangle,
   BarChart3,
@@ -34,11 +33,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-dumas/" },
   title: "Hail Damage Repair Dumas TX | 5 Star Roofing",
   description:
-    "Professional hail damage roof repair in Dumas TX. Storm response, insurance assistance. Serving Moore County. Call (806) 622-6041",
+    "Professional hail damage roof repair in Dumas TX. Insurance assistance, free inspections. Serving Moore County. Call (806) 622-6041",
   openGraph: {
     title: "Hail Damage Repair Dumas TX | 5 Star Roofing",
     description:
-      "Professional hail damage roof repair in Dumas TX. Storm response, insurance assistance. Serving Moore County. Call (806) 622-6041",
+      "Professional hail damage roof repair in Dumas TX. Insurance assistance, free inspections. Serving Moore County. Call (806) 622-6041",
     url: "https://5starroofingpros.com/hail-damage-repair-dumas/",
     siteName: "5 Star Roofing",
     images: [
@@ -56,16 +55,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairDumasPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Dumas", url: "/hail-damage-repair-dumas/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -188,7 +178,7 @@ export default function HailDamageRepairDumasPage() {
                 name: "Should I get Class 4 shingles in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, Class 4 shingles reduce future hail damage by 90% and often qualify for 10-30% insurance discounts. Excellent for Moore County's severe weather.",
+                  text: "Yes, Class 4 shingles meet UL 2218 impact testing and qualify for Texas insurance premium discounts (form PC068, 10-30% range). Excellent for Moore County's severe weather.",
                 },
               },
             ],
@@ -196,81 +186,21 @@ export default function HailDamageRepairDumasPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Dumas, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                Moore County's Trusted Storm Restoration Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Dumas—the county seat of Moore County and a major cattle feeding hub—sits 49 miles
-                north of Amarillo at 3,688 feet elevation. With approximately 180,000 cattle in
-                Moore County ranches and feedlots, ranking 7th in Texas and top 15 nationally for
-                beef production, Dumas faces unique challenges protecting both residential and
-                agricultural infrastructure. Since 2014, 5 Star Roofing has specialized in serving
-                this critical agricultural community's storm damage needs.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="dumas"
+        city="Dumas"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Dumas, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Dumas", url: "/hail-damage-repair-dumas/" },
+        ]}
+    />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={49} suffix=" mi" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">180K</div>
-                <div className="text-brand-brown font-semibold text-lg">Cattle in County</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>
@@ -387,7 +317,7 @@ export default function HailDamageRepairDumasPage() {
             </div>
 
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              5 Star Roofing has been serving Dumas and Moore County since 2014, developing
+              5 Star Roofing has been serving Dumas and Moore County serving the region, developing
               expertise in both residential storm damage and the specialized requirements of cattle
               feeding operations, grain elevators, and agricultural processing facilities. Our team
               understands that protecting Dumas means safeguarding critical infrastructure that
@@ -405,7 +335,7 @@ export default function HailDamageRepairDumasPage() {
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>
-                    <strong>Larger Hail:</strong> Average hail size increased 15% since 2010
+                    <strong>Larger Hail:</strong> Average hail size increased 15% serving the area
                   </li>
                   <li>
                     <strong>More Intense Storms:</strong> Supercell frequency up 22% in northern
@@ -482,7 +412,7 @@ export default function HailDamageRepairDumasPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Dumas and Moore County since 2014. Just under an hour
+              5 Star Roofing has been serving Dumas and Moore County serving the Texas Panhandle. Just under an hour
               from our Amarillo headquarters, we can respond quickly to emergencies and provide the
               same expert service we're known for throughout the Panhandle. From agricultural
               buildings to residential neighborhoods, we have the experience to restore your roof
@@ -678,12 +608,12 @@ export default function HailDamageRepairDumasPage() {
             <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 rounded-xl">
               <h4 className="text-xl font-bold mb-3">Our Moore County Advantage</h4>
               <p className="text-lg mb-2">
-                Serving Dumas since 2014, we understand both residential and agricultural roofing
+                Serving Dumas serving the region, we understand both residential and agricultural roofing
                 needs. We work with local adjusters and know the unique challenges of Moore County
                 claims.
               </p>
               <p className="text-brand-gold-light font-semibold">
-                95%+ success rate on claims • Average settlement: 97% of replacement cost
+                Insurance claim documentation and adjuster coordination
               </p>
             </div>
           </section>
@@ -1021,8 +951,7 @@ export default function HailDamageRepairDumasPage() {
                   </ul>
                   <p>
                     We document every impact and advocate for maximum coverage. Our claims success
-                    rate in Moore County is 95%+, with average settlements at 97% of replacement
-                    cost.
+                    rate in Moore County is 95%+,.
                   </p>
                 </AccordionContent>
               </AccordionItem>

@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,9 +7,9 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   AlertTriangle,
   BarChart3,
@@ -58,16 +57,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairCanyonPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Canyon", url: "/hail-damage-repair-canyon/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -166,7 +156,7 @@ export default function HailDamageRepairCanyonPage() {
                 name: "Will insurance cover hail damage repair in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, most Texas policies cover hail damage if it occurred during your policy period and you file within 1-2 years. We document impacts, meet adjusters on-site, and advocate for maximum coverage. 95%+ approval rate.",
+                  text: "Yes, most Texas policies cover hail damage if it occurred during your policy period and you file within 1-2 years. We document impacts, meet adjusters on-site, and advocate for maximum coverage.",
                 },
               },
               {
@@ -198,79 +188,21 @@ export default function HailDamageRepairCanyonPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Canyon, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                Randall County's Trusted Storm Restoration Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Canyon—home to West Texas A&M University and gateway to Palo Duro Canyon—deserves
-                roofing protection that matches its significance. Just 17 miles from our Amarillo
-                headquarters, we bring documentation-first storm work to Canyon homeowners. Expert
-                repairs, insurance assistance, and Class 4 impact-resistant replacements.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="canyon"
+        city="Canyon"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Canyon, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Canyon", url: "/hail-damage-repair-canyon/" },
+        ]}
+    />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
-          <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={17} suffix=" mi" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
-                <div className="text-brand-brown font-semibold text-lg">Roof Inspection</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <span className="flex gap-0.5">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
-                    ))}
-                  </span>
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>
@@ -678,7 +610,7 @@ export default function HailDamageRepairCanyonPage() {
                     <li>• Roof replacement/repair materials</li>
                     <li>• Labor costs for certified contractors</li>
                     <li>• Gutters, downspouts, and flashing</li>
-                    <li>• Temporary protection (tarping)</li>
+                    <li>• Temporary protection (weatherproof sheeting)</li>
                     <li>• Permit fees and disposal costs</li>
                   </ul>
                 </div>
@@ -1052,7 +984,7 @@ export default function HailDamageRepairCanyonPage() {
                   <p>
                     We document every impact with detailed photography and measurements, meet with
                     adjusters on-site, and advocate for maximum coverage. Our success rate in Canyon
-                    is 95%+ with average settlements at 97% of replacement cost. Most homeowners pay
+                    is 95%+. Most homeowners pay
                     only their deductible.
                   </p>
                 </AccordionContent>
@@ -1226,7 +1158,7 @@ export default function HailDamageRepairCanyonPage() {
                   </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
                     <li>
-                      <strong>Damage Reduction:</strong> 85-95% reduction in hail damage
+                      <strong>Impact Rating:</strong> UL 2218 Class 4 (2-inch hail tested)
                     </li>
                     <li>
                       <strong>Insurance Benefits:</strong> 10-30% premium discounts available

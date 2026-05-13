@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-andrews/" },
   title: "Wind Damage Repair Andrews TX | 5 Star Roofing",
@@ -74,24 +74,7 @@ export default function WindDamageRepairAndrewsPage() {
 
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Wind Damage Repair",
-            url: "/wind-damage-repair/",
-          },
-          {
-            name: "Andrews",
-            url: "/wind-damage-repair-andrews/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -211,44 +194,29 @@ export default function WindDamageRepairAndrewsPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-30-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Wind Damage Repair in <span className="text-brand-gold-light">Andrews</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Permian Basin Wind Damage Repair Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert wind damage roof repair in Andrews TX. Permian Basin experiences 6-8
-                hailstorms annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Andrews"
+        service="Wind Damage Repair"
+        h1="Wind Damage Repair in Andrews, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-30-1280w.jpg"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Wind Damage Repair",
+            url: "/wind-damage-repair/",
+          },
+          {
+            name: "Andrews",
+            url: "/wind-damage-repair-andrews/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -262,8 +230,9 @@ export default function WindDamageRepairAndrewsPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -296,7 +265,7 @@ export default function WindDamageRepairAndrewsPage() {
               systems year after year.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has specialized in wind damage repair throughout
+              5 Star Commercial Roofing has specialized in wind damage repair throughout
               Andrews and Andrews County, understanding the unique patterns that affect this Permian
               Basin community. From historic properties near the Andrews County Courthouse to modern
               developments along Highway 385, we've documented and repaired damage from dozens of
@@ -371,7 +340,7 @@ export default function WindDamageRepairAndrewsPage() {
                   severe wind events.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• tarping and board-up</li>
+                  <li>• weatherproof sheeting</li>
                   <li>• Structural damage assessment</li>
                   <li>• Active-leak weatherproofing</li>
                   <li>• Insurance documentation</li>
@@ -480,7 +449,7 @@ export default function WindDamageRepairAndrewsPage() {
                 </div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">
-                    storm response & Damage Assessment
+                    post-storm documentation & Damage Assessment
                   </h3>
                   <p className="text-gray-600">
                     Our roofing team provides immediate property protection after Andrews
@@ -664,16 +633,7 @@ export default function WindDamageRepairAndrewsPage() {
               Serving Andrews, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-102.55!3d32.32!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sAndrews%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Andrews, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Andrews, TX" />
             </div>
           </section>
         </FadeIn>

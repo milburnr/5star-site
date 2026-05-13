@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,10 +8,11 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { Check } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-perryton/" },
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function StormDamageRepairPerrytonPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Perryton",
-            url: "/storm-damage-repair-perryton/",
-          },
-        ]}
-      />
-      <script
+      {" "}      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -133,7 +116,7 @@ export default function StormDamageRepairPerrytonPage() {
                 name: "Will insurance cover my storm damage repairs in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most property policies cover storm damage including wind, hail, and rain infiltration from covered perils. Given Perryton's 7-9 annual hailstorms and High Plains winds exceeding 70+ mph, many roofing projects qualify for insurance coverage. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage. Our 95%+ approval rate demonstrates our insurance expertise serving Ochiltree County properties.",
+                  text: "Most property policies cover storm damage including wind, hail, and rain infiltration from covered perils. Given Perryton's 7-9 annual hailstorms and High Plains winds exceeding 70+ mph, many roofing projects qualify for insurance coverage. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage.",
                 },
               },
               {
@@ -148,7 +131,7 @@ export default function StormDamageRepairPerrytonPage() {
                 name: "How long does storm damage roof replacement take in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most properties. During major storm events affecting Perryton and wheat country areas, timelines may extend due to high demand—early claims get priority scheduling.",
+                  text: "Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most properties. During major storm events affecting Perryton and wheat country areas, timelines may extend due to high demand—early claims get priority scheduling.",
                 },
               },
               {
@@ -156,7 +139,7 @@ export default function StormDamageRepairPerrytonPage() {
                 name: "What should I do immediately after storm damage in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration for properties near downtown Perryton, the Perryton Museum, and throughout Ochiltree County.",
+                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration for properties near downtown Perryton, the Perryton Museum, and throughout Ochiltree County.",
                 },
               },
               {
@@ -171,76 +154,29 @@ export default function StormDamageRepairPerrytonPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-19-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Storm Damage Repair in <span className="text-brand-gold-light">Perryton</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                | Severe Weather Specialists
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Perryton's northernmost Panhandle location brings severe storms with hail, high
-                winds, torrential rain, and extreme weather. We provide temporary
-                repairs, complete damage assessment, and insurance claim assistance for
-                storm-damaged roofs throughout Ochiltree County.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a
-                  href="tel:8066226041"
-                  className="bg-gradient-to-r from-red-600 to-red-700 text-white text-lg px-10 py-5 rounded-full font-bold shadow-2xl hover:scale-110 transition-all duration-300 animate-pulse-subtle"
-                >
-                  urgent: (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-red-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={2} />
-                  -4hr
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Response Time</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">FREE</div>
-                <div className="text-brand-brown font-semibold text-lg">Storm Inspections</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">100%</div>
-                <div className="text-brand-brown font-semibold text-lg">Insurance Help</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="perryton"
+        city="Perryton"
+        service="Storm Damage Repair"
+        h1="Storm Damage Repair in Perryton, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-19-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Perryton",
+            url: "/storm-damage-repair-perryton/",
+          },
+        ]}
+    />
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -256,7 +192,7 @@ export default function StormDamageRepairPerrytonPage() {
               issues, and exponentially higher costs.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              We've documented storm damage across Perryton since 2014, serving properties from
+              We've documented storm damage across Perryton serving the region, serving properties from
               downtown Perryton to agricultural facilities, from the Perryton Museum area to homes
               throughout Ochiltree County. We schedule documentation and inspections once conditions
               are safe, handle the entire insurance-claim process, and restore with upgraded Class 4
@@ -310,7 +246,7 @@ export default function StormDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Perryton?
+              How Does Our Post-Storm Process Work in Perryton?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
@@ -319,7 +255,7 @@ export default function StormDamageRepairPerrytonPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Safety assessment and area securing</li>
-                  <li>• tarping for active leaks</li>
+                  <li>• weatherproof sheeting for active leaks</li>
                   <li>• Structural stability evaluation</li>
                   <li>• Initial damage documentation</li>
                   <li>• Insurance company notification</li>
@@ -486,8 +422,7 @@ export default function StormDamageRepairPerrytonPage() {
                   infiltration from covered perils. Given Perryton's 7-9 annual hailstorms and High
                   Plains winds exceeding 70+ mph, many roofing projects qualify for insurance
                   coverage. We document all damage professionally, work directly with adjusters, and
-                  handle supplement requests for hidden damage. Our 95%+ approval rate demonstrates
-                  our insurance expertise serving Ochiltree County properties.
+                  handle supplement requests for hidden damage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -509,7 +444,7 @@ export default function StormDamageRepairPerrytonPage() {
                   How long does storm damage roof replacement take in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Tarping and temporary repairs are typically scheduled within 1-2 business days.
+                  Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days.
                   Complete roof replacement typically occurs 2-4 weeks after insurance approval,
                   depending on material availability and scheduling. Actual installation takes 1-3
                   days for most properties. During major storm events affecting Perryton and wheat
@@ -528,7 +463,7 @@ export default function StormDamageRepairPerrytonPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage
                   with photos/video from the ground. (3) Call us for professional inspection—we
-                  handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5)
+                  handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5)
                   DO NOT make permanent repairs before insurance inspection—this can void coverage.
                   We coordinate the entire process from initial assessment through final restoration
                   for properties near downtown Perryton, the Perryton Museum, and throughout
@@ -566,16 +501,7 @@ export default function StormDamageRepairPerrytonPage() {
               County and surrounding regions.
             </p>
             <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51842.39857816842!2d-101.11919287832031!3d36.39832690000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87a8e9f9f9f9f9f9%3A0x9f9f9f9f9f9f9f9f!2sPerryton%2C%20TX!5e0!3m2!1sen!2sus!4v1647890123456!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Perryton Texas Service Area Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Perryton, TX" />
             </div>
           </section>
         </FadeIn>
@@ -584,8 +510,8 @@ export default function StormDamageRepairPerrytonPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Storm Damage? We're Here</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            storm response. Free storm inspections. Complete insurance assistance. Serving Perryton
-            and Ochiltree County around the clock.
+            post-storm documentation. Free storm inspections. Complete insurance assistance. Serving Perryton
+            and Ochiltree County continuously.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import { HAIL_HUB_HERO } from "@/components/heroes/hubHeroSets";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -132,7 +133,7 @@ export default function Page() {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Emergency Tarping After Hail",
+            name: "Weatherproof Sheeting After Hail",
           },
         },
         {
@@ -168,27 +169,27 @@ export default function Page() {
 
   return (
     <div className="container-custom py-12">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in West Texas"
+        image="/images/heroes/services/hail-hub-1200.webp"
+        imageSrcSet={HAIL_HUB_HERO}
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
         ]}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Hail Damage Roof Repair Across West Texas
-      </h1>
+      </h2>
 
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-12-1280w.webp"
-        alt="Hail damage impact marks on West Texas asphalt shingles — 5 Star Roofing inspection and repair"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-      />
+      
 
       {/* TL;DR */}
       <div className="bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6 mb-8">
@@ -533,7 +534,7 @@ export default function Page() {
               necessary.
             </p>
             <p className="text-sm text-gray-500">
-              <strong>Action:</strong> Emergency tarping followed by full replacement. File a claim
+              <strong>Action:</strong> Emergency weatherproof sheeting followed by full replacement. File a claim
               immediately and request expedited processing.
             </p>
           </div>

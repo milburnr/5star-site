@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,12 +7,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Fuel, Phone } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-midland/" },
   title: "Residential Roofing Midland TX | 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function ResidentialRoofingMidlandPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Residential Roofing", url: "/residential-roofing/" },
-          { name: "Midland", url: "/residential-roofing-midland/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -180,7 +171,7 @@ export default function ResidentialRoofingMidlandPage() {
                 name: "Why do Midland homes need superior roofing materials?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Midland County has recorded 144 trained spotter hail reports with 125 radar-detected hail occasions. The Permian Basin's geography creates intense weather patterns combining hail, wind, and extreme UV exposure. Class 4 impact-resistant shingles reduce future damage by 90% and qualify for 10-30% insurance premium discounts.",
+                  text: "Midland County has recorded 144 trained spotter hail reports with 125 radar-detected hail occasions. The Permian Basin's geography creates intense weather patterns combining hail, wind, and extreme UV exposure. Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range).",
                 },
               },
               {
@@ -220,75 +211,21 @@ export default function ResidentialRoofingMidlandPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-black-900/85 via-gray-800/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Residential Roofing in <span className="text-brand-gold-light">Midland</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Serving Oil Country's Premium Homes Since 2014
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert residential roofing for Grassland Estates, Saddle Club, and all Midland's
-                energy executive communities. With 144 hail reports recorded, our Class 4
-                impact-resistant shingles protect your premium investment and maintain neighborhood
-                aesthetics.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Midland"
+        service="Residential Roofing"
+        h1="Residential Roofing in Midland, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Residential Roofing", url: "/residential-roofing/" },
+          { name: "Midland", url: "/residential-roofing-midland/" },
+        ]}
+    />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={600} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Midland Homes Roofed</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">144</div>
-                <div className="text-brand-brown font-semibold text-lg">Hail Reports Recorded</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">$350K+</div>
-                <div className="text-brand-brown font-semibold text-lg">Median Home Value</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <Fuel className="w-6 h-6 inline-block" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Oil Country</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>
@@ -305,7 +242,7 @@ export default function ResidentialRoofingMidlandPage() {
               protect Midland's premium homes worth $350,000+.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected over 600 Midland homes with premium Class 4
+              We install premium Class 4
               impact-resistant shingles engineered for Permian Basin weather extremes. From
               executive estates in Grassland Estates to gated communities like Saddle Club, we serve
               every prestigious neighborhood in Midland County. We handle 100% of insurance claims
@@ -400,7 +337,7 @@ export default function ResidentialRoofingMidlandPage() {
                   Midland County's 144 documented hail reports and 125 radar-detected hail occasions
                   create extreme roofing challenges. The Permian Basin's geography intensifies storm
                   systems, producing devastating hail that can destroy premium homes in minutes.
-                  We've weathered every major storm since 2014, protecting energy executives'
+                  We've weathered every major storm serving the region, protecting energy executives'
                   investments while others suffered costly damage.
                 </p>
               </div>
@@ -412,7 +349,7 @@ export default function ResidentialRoofingMidlandPage() {
                 <p className="text-gray-700 leading-relaxed">
                   We exclusively install Class 4 impact-resistant shingles from premium
                   manufacturers, available in architectural styles that complement Midland's upscale
-                  neighborhoods. These materials reduce future damage by 90% and qualify for
+                  neighborhoods. These materials meet UL 2218 Class 4 impact testing and qualify for
                   substantial insurance premium discounts that typically offset the upgrade cost
                   within 5-7 years.
                 </p>
@@ -617,9 +554,7 @@ export default function ResidentialRoofingMidlandPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Midland County has recorded 144 trained spotter hail reports with 125
                   radar-detected hail occasions. The Permian Basin's geography creates intense
-                  weather patterns combining hail, wind, and extreme UV exposure. Class 4
-                  impact-resistant shingles reduce future damage by 90% and qualify for 10-30%
-                  insurance premium discounts.
+                  weather patterns combining hail, wind, and extreme UV exposure. Class 4 impact-resistant shingles meet UL 2218 testing for 2-inch hail and qualify for Texas insurance premium discounts (form PC068, 10-30% range).
                 </AccordionContent>
               </AccordionItem>
 
@@ -693,16 +628,7 @@ export default function ResidentialRoofingMidlandPage() {
               Serving All of Midland County
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124932.62304775766!2d-102.12872399999999!3d31.997350000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe0decf8780e23%3A0xf2d5ad4f62e3d82b!2sMidland%2C%20TX!5e0!3m2!1sen!2sus!4v1698765432100!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Midland, TX" />
             </div>
             <p className="text-center text-gray-600 mt-4">
               Based in Amarillo, proudly serving Midland's energy industry communities

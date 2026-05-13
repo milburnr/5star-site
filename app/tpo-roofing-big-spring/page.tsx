@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,9 +8,9 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Building2,
   Check,
@@ -27,6 +26,7 @@ import {
   Zap,
 } from "lucide-react";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/tpo-roofing-big-spring/" },
   title: "TPO Roofing Big Spring TX | 5 Star Roofing",
@@ -87,24 +87,7 @@ export default function TPORoofingBigSpringPage() {
 
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "TPO Roofing",
-            url: "/tpo-roofing/",
-          },
-          {
-            name: "Big Spring",
-            url: "/tpo-roofing-big-spring/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -224,44 +207,29 @@ export default function TPORoofingBigSpringPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                TPO Roofing in <span className="text-brand-gold-light">Big Spring</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                West Texas TPO Roofing Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9
-                hailstorms annually. Free inspections. Call (806) 622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="midland"
+        city="Big Spring"
+        service="TPO Roofing"
+        h1="TPO Roofing in Big Spring, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "TPO Roofing",
+            url: "/tpo-roofing/",
+          },
+          {
+            name: "Big Spring",
+            url: "/tpo-roofing-big-spring/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -275,8 +243,9 @@ export default function TPORoofingBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -305,7 +274,7 @@ export default function TPORoofingBigSpringPage() {
               withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Big Spring
+              5 Star Commercial Roofing has protected properties throughout Big Spring
               and Howard County with premium TPO membrane systems and expert installation. From
               properties near Big Spring State Park to buildings throughout Big Spring, we
               understand West Texas weather patterns, local building codes, and the specific energy
@@ -519,7 +488,7 @@ export default function TPORoofingBigSpringPage() {
                     <p className="text-gray-700 mb-4">
                       Big Spring's climate creates significant opportunities for energy savings
                       through reflective roofing systems. TPO installations can reduce building
-                      cooling loads by 25-40%, providing substantial utility cost savings for local
+                      cooling loads, providing utility cost savings for local
                       businesses.
                     </p>
                     <ul className="space-y-2 text-gray-700 text-sm">
@@ -1039,16 +1008,7 @@ export default function TPORoofingBigSpringPage() {
               Serving Big Spring, Texas
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-101.47!3d32.25!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sBig%20Spring%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Big Spring, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Big Spring, TX" />
             </div>
           </section>
         </FadeIn>

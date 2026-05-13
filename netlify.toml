@@ -561,65 +561,81 @@
   status = 301
   force = true
 
-# --- General Roofing Amarillo variants -> /amarillo-texas-roofing/ ---
+# --- General Roofing Amarillo variants -> /amarillo-tx-roofing/ ---
 
 [[redirects]]
   from = "/roofing-amarillo-tx"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/roofing-amarillo-tx/"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/roofing-services-in-amarillo-tx"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/roofing-services-in-amarillo-tx/"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/roofing-companies-in-amarillo-tx"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/roofing-companies-in-amarillo-tx/"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/expert-roofing-services-in-amarillo"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/expert-roofing-services-in-amarillo/"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/roofers-in-amarillo"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/roofers-in-amarillo/"
-  to = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
+  status = 301
+  force = true
+
+# --- 2026-05-12: amarillo slug standardized to -tx- pattern (matches the
+#     12 other city pages). Old -texas- slug may be indexed in GSC, so keep
+#     a 301 to preserve link equity and avoid soft-404s during reindexing. ---
+
+[[redirects]]
+  from = "/amarillo-texas-roofing"
+  to = "/amarillo-tx-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/amarillo-texas-roofing/"
+  to = "/amarillo-tx-roofing/"
   status = 301
   force = true
 

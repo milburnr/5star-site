@@ -87,7 +87,7 @@ export default function Page() {
       <div className="prose max-w-none">
         <p>
           As a homeowner in{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Amarillo
           </a>
           , you know that wear and tear on your property is inevitable. Appliances will break down,{" "}
@@ -409,7 +409,7 @@ export default function Page() {
           <li>
             <strong>Certified Contractors:</strong> Work with licensed, insured, and
             manufacturer-certified{" "}
-            <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+            <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
               contractors
             </a>{" "}
             who understand local conditions and codes
@@ -535,7 +535,7 @@ export default function Page() {
             <p className="text-sm text-gray-600">We handle storm damage insurance claims</p>
           </a>
           <a
-            href="/amarillo-texas-roofing/"
+            href="/amarillo-tx-roofing/"
             className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200"
           >
             <h3 className="font-bold text-brand-brown mb-2">All Roofing Services</h3>

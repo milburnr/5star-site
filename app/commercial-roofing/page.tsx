@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import { COMMERCIAL_HUB_HERO } from "@/components/heroes/hubHeroSets";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import { Briefcase, Shield, Zap } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -118,8 +119,14 @@ export default function Page() {
   return (
     <div className="container-custom py-12">
       {" "}
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Commercial Roofing"
+        h1="Commercial Roofing in West Texas"
+        image="/images/heroes/services/commercial-hub-1200.webp"
+        imageSrcSet={COMMERCIAL_HUB_HERO}
+      
+      breadcrumbItems={[
           {
             name: "Home",
             url: "/",
@@ -129,23 +136,17 @@ export default function Page() {
             url: "/commercial-roofing/",
           },
         ]}
-      />
+    />
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Commercial Roofing Services in Amarillo
-      </h1>
+      </h2>
       {/* Hero Image — AI-generated commercial roofing hero */}
-      <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial.jpg"
-        alt="Commercial roofing crew working on a flat roof system at golden hour across West Texas"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-        width={2560}
-        height={1440}
-      />
+      
       <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
         <h2 className="text-2xl font-bold text-brand-brown mb-4">
           Protect Your Business Investment
@@ -314,14 +315,14 @@ export default function Page() {
       </p>
       <ul className="list-disc list-inside space-y-2 mb-6 text-gray-700">
         <li>
-          <strong>storm response:</strong> Available for{" "}
+          <strong>post-storm documentation:</strong> Available for{" "}
           <a
             href="/storm-damage-repair-amarillo/"
             className="text-brand-brown hover:text-brand-gold underline"
           >
-            prompt leak repairs
+            efficient leak repairs
           </a>{" "}
-          and tarping
+          and weatherproof sheeting
         </li>
         <li>
           <strong>Comprehensive Damage Assessment:</strong> Detailed documentation for insurance
@@ -329,7 +330,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Insurance Claim Assistance:</strong> We work directly with your adjuster to ensure
-          full coverage—95% claim approval rate
+          full coverage—
         </li>
         <li>
           <strong>Minimal Business Disruption:</strong> Strategic scheduling to keep your operations
@@ -347,7 +348,7 @@ export default function Page() {
           <p className="text-sm text-gray-600 mb-2">
             I-40 corridor shopping centers in{" "}
             <a
-              href="/amarillo-texas-roofing/"
+              href="/amarillo-tx-roofing/"
               className="text-brand-brown hover:text-brand-gold underline"
             >
               Amarillo
@@ -570,7 +571,7 @@ export default function Page() {
             Most commercial property insurance policies cover hail damage roof replacement, minus
             your deductible. We provide comprehensive damage documentation including drone aerial
             photos, infrared moisture scans, and detailed reports that insurance adjusters require.
-            Our team has achieved a 95%+ claim approval rate. Contact us for a{" "}
+            Our team has achieved a . Contact us for a{" "}
             <a
               href="/roof-inspections-amarillo/"
               className="text-brand-brown hover:text-brand-gold underline"

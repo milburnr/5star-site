@@ -111,7 +111,7 @@ export default function DumasRoofingPage() {
             <h2 className="content-block-title">Trusted Roofing Services in Dumas, Texas</h2>
             <p className="text-lg mb-4">
               As Dumas's premier{" "}
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 professional roofing contractor
               </a>
               , 5 Star Commercial Roofing brings over a decade of experience serving Moore County
@@ -455,7 +455,7 @@ export default function DumasRoofingPage() {
               <p className="text-gray-700">
                 We provide service for agricultural facilities throughout Moore County.
                 Storm damage to barns or feed storage can be critical for livestock welfare and crop
-                protection. We carry tarping materials sized for large agricultural buildings and
+                protection. We carry weatherproof sheeting materials sized for large agricultural buildings and
                 can provide temporary repairs quickly to protect livestock, equipment, and stored
                 feed or grain from further weather damage.
               </p>
@@ -507,7 +507,7 @@ export default function DumasRoofingPage() {
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Tarping services
+                    Post-storm protection services
                   </li>
                 </ul>
                 <a
@@ -704,7 +704,7 @@ export default function DumasRoofingPage() {
                 expert roofing services throughout the Texas Panhandle and West Texas. Our service
                 area includes{" "}
                 <a
-                  href="/amarillo-texas-roofing/"
+                  href="/amarillo-tx-roofing/"
                   className="text-brand-gold hover:text-brand-gold-vibrant"
                 >
                   Amarillo
@@ -772,7 +772,7 @@ export default function DumasRoofingPage() {
 
         <FadeIn>
           <section className="cta-section my-16">
-            <h2 className="cta-title">Protecting Dumas Properties Since 2010</h2>
+            <h2 className="cta-title">Protecting Dumas Properties For many years</h2>
             <p className="cta-text">
               Free inspections and expert roofing throughout Moore County. Call today for immediate
               service.
@@ -951,7 +951,7 @@ export default function DumasRoofingPage() {
                 name: "How quickly can you respond to storm damage for agricultural buildings?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We provide service for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry tarping materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage.",
+                  text: "We provide service for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry weatherproof sheeting materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage.",
                 },
               },
               {

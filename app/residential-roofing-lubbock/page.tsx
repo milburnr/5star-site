@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -8,12 +7,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { GraduationCap, Phone } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-lubbock/" },
   title: "Residential Roofing Lubbock TX | 5 Star Roofing",
@@ -40,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function ResidentialRoofingLubbockPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Residential Roofing", url: "/residential-roofing/" },
-          { name: "Lubbock", url: "/residential-roofing-lubbock/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -164,7 +155,7 @@ export default function ResidentialRoofingLubbockPage() {
                 name: "How much does residential roof replacement cost in Lubbock?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Typical costs range from $7,000-$22,000 for most Lubbock homes, with the median home ($245,000 value) requiring $12,000-$16,000 for complete replacement. However, most Lubbock projects are insurance-covered hail damage claims where homeowners pay only their deductible ($1,000-$2,500). We maximize insurance coverage to minimize out-of-pocket costs.",
+                  text: "Typical costs range from - for most Lubbock homes, with the median home (,000 value) requiring - for complete replacement. However, most Lubbock projects are insurance-covered hail damage claims where homeowners pay only their deductible (-). We maximize insurance coverage to minimize out-of-pocket costs.",
                 },
               },
               {
@@ -180,7 +171,7 @@ export default function ResidentialRoofingLubbockPage() {
                 name: "Why do Lubbock homes need Class 4 impact-resistant shingles?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Lubbock County experiences frequent severe hail, with recent events producing 2.75-4.00 inch hail (baseball to softball size). Class 4 shingles withstand 2-inch impacts without cracking, reducing future damage by 90%. They qualify for 10-30% insurance premium discounts and typically pay for themselves within 5-7 years through avoided claims.",
+                  text: "Lubbock County experiences frequent severe hail, with recent events producing 2.75-4.00 inch hail (baseball to softball size). Class 4 shingles withstand 2-inch impacts without cracking, reducing future damage by . They qualify for 10-30% insurance premium discounts and typically pay for themselves within 5-7 years through avoided claims.",
                 },
               },
               {
@@ -212,7 +203,7 @@ export default function ResidentialRoofingLubbockPage() {
                 name: "What financing options are available for Lubbock homeowners?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "For out-of-pocket projects, we offer 0% financing options through our lending partners. Many Tech faculty and staff qualify for educator discounts. Additionally, Lubbock's median home value ($245,000) makes HELOC options attractive, with most homeowners having substantial equity. We help evaluate the best financing approach for your situation.",
+                  text: "For out-of-pocket projects, we offer 0% financing options through our lending partners. Many Tech faculty and staff qualify for educator discounts. Additionally, Lubbock's median home value () makes HELOC options attractive, with most homeowners having substantial equity. We help evaluate the best financing approach for your situation.",
                 },
               },
             ],
@@ -220,74 +211,21 @@ export default function ResidentialRoofingLubbockPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-red-900/85 via-red-800/75 to-black-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Residential Roofing in <span className="text-brand-gold-light">Lubbock</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Serving Texas Tech University Area Since 2014
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert residential roofing serving Tech Terrace, Raider Ranch, and all Lubbock
-                neighborhoods. Recent hail events produced baseball-size (2.75+ inch) hail—our Class
-                4 impact-resistant shingles protect your investment and reduce future damage by 90%.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="lubbock"
+        city="Lubbock"
+        service="Residential Roofing"
+        h1="Residential Roofing in Lubbock, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp"
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Residential Roofing", url: "/residential-roofing/" },
+          { name: "Lubbock", url: "/residential-roofing-lubbock/" },
+        ]}
+    />
 
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-red-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={800} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Lubbock Homes Roofed</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">4.00"</div>
-                <div className="text-brand-brown font-semibold text-lg">Largest Hail Recorded</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">$245K</div>
-                <div className="text-brand-brown font-semibold text-lg">Median Home Value</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">
-                  <GraduationCap className="w-6 h-6 inline-block" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Texas Tech Area</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
 
       <div className="container-custom py-12">
         <FadeIn>
@@ -303,10 +241,10 @@ export default function ResidentialRoofingLubbockPage() {
               need Class 4 impact-resistant materials engineered for South Plains weather.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected over 800 Lubbock homes with premium Class 4 shingles
+              We've protected over 800 Lubbock homes with premium Class 4 shingles
               designed to withstand 2-inch hail impacts. From historic Tech Terrace bungalows to
               modern Raider Ranch estates, we serve every neighborhood in Lubbock County. We handle
-              100% of insurance claims paperwork, secure all City of Lubbock building permits, and
+               of insurance claims paperwork, secure all City of Lubbock building permits, and
               deliver expert installation in 1-3 days. Most homeowners pay only their insurance
               deductible when hail damage is covered—typically $1,000-$2,500 for a complete roof
               replacement worth $12,000-$16,000 on Lubbock's median $245,000 homes.
@@ -328,7 +266,7 @@ export default function ResidentialRoofingLubbockPage() {
               <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-xl shadow-md border-l-4 border-red-600">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Tech Terrace</h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Median Home Price:</strong> $275,000
+                  <strong>Median Home Price:</strong> 
                   <br />
                   <strong>Established:</strong> 1920s-1950s
                   <br />
@@ -346,7 +284,7 @@ export default function ResidentialRoofingLubbockPage() {
               <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-xl shadow-md border-l-4 border-red-600">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Raider Ranch</h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Home Prices:</strong> $350K-$750K
+                  <strong>Home Prices:</strong> K-K
                   <br />
                   <strong>Location:</strong> Southwest Lubbock
                   <br />
@@ -367,7 +305,7 @@ export default function ResidentialRoofingLubbockPage() {
                   <br />
                   <strong>Rental Market:</strong> High Density
                   <br />
-                  <strong>Average Rent:</strong> $1,129/month
+                  <strong>Average Rent:</strong> /month
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Surrounding Texas Tech campus with mix of student rentals and faculty housing.
@@ -394,7 +332,7 @@ export default function ResidentialRoofingLubbockPage() {
                   We understand Lubbock County's unique weather patterns—from baseball-size hail to
                   intense UV exposure and temperature extremes. Recent storms produced 4.00-inch
                   hail that destroyed standard shingles but barely scratched our Class 4
-                  installations. We've weathered every major hail event since 2014, protecting
+                  installations. We've weathered every major hail event serving the region, protecting
                   hundreds of homes while others required repeated repairs.
                 </p>
               </div>
@@ -416,8 +354,8 @@ export default function ResidentialRoofingLubbockPage() {
                   Insurance Claim Masters
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  80% of our Lubbock projects are hail damage insurance claims. We document every
-                  impact, meet with adjusters on-site, and advocate for maximum coverage. Our 95%+
+                   of our Lubbock projects are hail damage insurance claims. We document every
+                  impact, meet with adjusters on-site, and advocate for maximum coverage. Our +
                   approval rate means homeowners get new roofs for only their deductible. We've
                   processed over 600 Lubbock claims with all major carriers.
                 </p>
@@ -684,16 +622,7 @@ export default function ResidentialRoofingLubbockPage() {
               Serving All of Lubbock County
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206598.0951796434!2d-101.94746439453125!3d33.57735899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe75b9ae4c4bcd%3A0x73d9c88eeb693d8c!2sLubbock%2C%20TX!5e0!3m2!1sen!2sus!4v1698765432100!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Lubbock, TX" />
             </div>
             <p className="text-center text-gray-600 mt-4">
               Based in Amarillo, proudly serving Lubbock and all South Plains communities

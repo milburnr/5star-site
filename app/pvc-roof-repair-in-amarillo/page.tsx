@@ -150,7 +150,7 @@ export default function Page() {
           </a>{" "}
           can suffer damage from hailstorms, wind, or aging. When your PVC roof develops leaks or
           damage in{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Amarillo
           </a>
           ,{" "}
@@ -238,12 +238,12 @@ export default function Page() {
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">
           Amarillo's severe weather patterns including hailstorms and high winds can cause sudden
           PVC membrane damage that threatens critical commercial operations and valuable interior
-          assets. storm response capabilities include availability, rapid deployment, and
+          assets. post-storm repair capabilities include availability, rapid deployment, and
           specialized equipment for immediate temporary repairs that protect facilities until
           permanent solutions can be implemented during optimal weather conditions.
         </p>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-          tarping systems specifically designed for PVC membrane protection utilize compatible
+          weatherproof sheeting systems specifically designed for PVC membrane protection utilize compatible
           materials that won't cause chemical reactions or membrane damage during temporary
           installation periods. Professional-grade fastening systems withstand wind loads while
           preventing additional membrane damage from storm protection procedures during storm
@@ -526,7 +526,7 @@ export default function Page() {
       <div className="bg-yellow-50 border-l-4 border-brand-gold p-6 mb-8">
         <p className="mb-4">
           Active roof leaks can cause tens of thousands of dollars in interior damage within hours.
-          Don't wait—call for service:
+          Contact us for service:
         </p>
         <ul className="space-y-2">
           <li>
@@ -536,7 +536,7 @@ export default function Page() {
             <strong>2-Hour Response:</strong> our crews dispatched immediately in Amarillo area
           </li>
           <li>
-            <strong>Same-Day Tarping:</strong> Temporary protection while permanent repairs are
+            <strong>Same-Day weatherproof sheeting:</strong> Temporary protection while permanent repairs are
             scheduled
           </li>
           <li>

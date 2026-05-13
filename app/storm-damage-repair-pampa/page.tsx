@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-pampa/" },
   title: "Storm Damage Repair Pampa TX | 5 Star Roofing",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function StormDamageRepairPampaPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Pampa",
-            url: "/storm-damage-repair-pampa/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -208,52 +191,36 @@ export default function StormDamageRepairPampaPage() {
                 name: "What storm damage repairs do you handle in Pampa?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, prompt leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties.",
+                  text: "We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, efficient leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties.",
                 },
               },
             ],
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-pampa-47-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Storm Damage Repair in <span className="text-brand-gold-light">Pampa</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Storm Damage Experts | Panhandle Weather Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8
-                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
-                622-6041
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  urgent: (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="pampa"
+        city="Pampa"
+        service="Storm Damage Repair"
+        h1="Storm Damage Repair in Pampa, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-pampa-47-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Pampa",
+            url: "/storm-damage-repair-pampa/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -300,9 +267,9 @@ export default function StormDamageRepairPampaPage() {
               professional response.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've responded to 220+ storm damage emergencies across Pampa's ranching
+              We've responded to 220+ storm damage emergencies across Pampa's ranching
               community with service. From historic areas near Woody Guthrie Folk Music Center to
-              properties near Hobart Street Park and White Deer Land Museum, we provide tarping,
+              properties near Hobart Street Park and White Deer Land Museum, we place weatherproof sheeting,
               complete damage documentation, insurance claim management, and permanent repairs. We
               understand Gray County building codes and work efficiently to restore your property.
               Most owners pay only their deductible when insurance covers storm damage.
@@ -406,7 +373,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Pampa?
+              How Does Our Post-Storm Process Work in Pampa?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
@@ -498,7 +465,7 @@ export default function StormDamageRepairPampaPage() {
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>
                       <span>
-                        <strong>storm repairs:</strong> Tarping and temporary protection measures
+                        <strong>storm repairs:</strong> Weatherproof sheeting and temporary protection measures
                       </span>
                     </li>
                   </ul>
@@ -617,7 +584,7 @@ export default function StormDamageRepairPampaPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   We handle all storm-related repairs for properties near Hobart Street Park, White
                   Deer Land Museum, and throughout Pampa: hail damage shingle replacement,
-                  wind-damaged section rebuilding, prompt leak repairs, debris impact damage,
+                  wind-damaged section rebuilding, efficient leak repairs, debris impact damage,
                   blown-off metal panels, damaged flashing, and complete roof replacements when
                   storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for
                   commercial properties.
@@ -646,7 +613,7 @@ export default function StormDamageRepairPampaPage() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Why is immediate storm response crucial in Pampa's climate?
+                  Why is professional damage documentation crucial in Pampa's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Pampa's extreme weather doesn't pause between storms. A roof damaged by hail in
@@ -815,15 +782,7 @@ export default function StormDamageRepairPampaPage() {
               Serving Pampa, Texas
             </h2>
             <div className="w-full h-96 rounded-2xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104282.72655892584!2d-101.02071843828125!3d35.53617399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870148b3c6f516d3%3A0x4f1e89dc3c2b7e7d!2sPampa%2C%20TX!5e0!3m2!1sen!2sus!4v1644444444444!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Pampa, TX" />
             </div>
           </section>
         </FadeIn>

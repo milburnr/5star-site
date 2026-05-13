@@ -1,5 +1,4 @@
 import { FadeIn } from "@/components/FadeIn";
-import { AnimatedCounter } from "@/components/AnimatedCounter";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -9,11 +8,12 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Wrench, Zap } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-amarillo/" },
   title: "Wind Damage Repair Amarillo TX | 5 Star Roofing",
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-27-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Aerial view of Amarillo TX roof with wind damage — missing shingles exposing decking — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -41,24 +41,7 @@ export const metadata: Metadata = {
 export default function WindDamageRepairAmarilloPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Wind Damage Repair",
-            url: "/wind-damage-repair/",
-          },
-          {
-            name: "Amarillo",
-            url: "/wind-damage-repair-amarillo/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -164,148 +147,58 @@ export default function WindDamageRepairAmarilloPage() {
           }),
         }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What wind speeds typically cause roof damage in Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Sustained winds above 45 mph begin lifting shingle tabs on older roofs. Gusts exceeding 60 mph can remove entire shingles even from relatively new roofs if installation quality was poor. Amarillo regularly experiences wind events in this range, especially during spring and fall frontal passages. High-wind rated installation methods dramatically improve performance.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Will insurance cover wind damage to my Amarillo roof?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Most homeowner policies cover wind damage when sustained winds or gusts exceed thresholds specified in your policy—typically 50-60 mph. We help document wind speeds from National Weather Service reports and link damage patterns to specific wind events. Our professional documentation improves claim approval rates significantly.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How do you prevent future wind damage?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "High-wind installation methods are critical in Amarillo. We use 6-nail patterns instead of standard 4-nail, install premium starter strips with enhanced adhesion, seal all flashing with high-grade sealants, and use Class 4 shingles rated for 130 mph winds. These methods reduce wind damage risk by 80-90% compared to standard installations.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How quickly can you repair wind damage after a storm?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Should I get a wind damage inspection after every windstorm?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Inspect after wind events with sustained winds above 45 mph or gusts exceeding 60 mph. Even if you see no obvious damage from the ground, lifted shingles and flashing issues may exist. We offer free inspections that identify problems early before they cause leaks. Early detection prevents minor wind damage from becoming major water damage.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Why is wind damage different from hail damage in Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Wind damage occurs through uplift forces and sustained stress rather than impact like hail. While hail damage is immediately visible, wind damage often appears subtle initially but progresses rapidly. Amarillo's frequent high winds mean roofs experience cumulative stress over time, affecting different components than hail's uniform surface impact patterns.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do dust storms cause additional roofing problems in Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, Amarillo's frequent dust storms create unique challenges. Wind-driven sand gradually erodes protective granules from shingles, reducing UV resistance. Dust infiltration can compromise flashing seals. Some insurance policies exclude dust-related damage, so documenting wind speeds during damage events is crucial.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What's the best time of year for wind damage repairs in Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Late fall through early spring offers the most stable weather for roofing work, with reduced wind speeds and fewer severe weather events. However, storm repairs can't wait—we're equipped for year-round installation with specialized techniques for high-wind conditions.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-27-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Wind Damage Repair in <span className="text-brand-gold-light">Amarillo</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                High Wind Roofing Experts |
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Amarillo's location in the Texas Panhandle creates perfect conditions for extreme
-                winds. Sustained winds of 30-50 mph with gusts exceeding 70 mph damage shingles,
-                flashing, and underlayment. We specialize in wind damage assessment and high-wind
-                roofing systems designed for Panhandle conditions.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  urgent: (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
-      <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
-          <div className="container-custom">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">70+</div>
-                <div className="text-brand-brown font-semibold text-lg">MPH Gusts</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={950} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Wind Claims</div>
-              </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">FREE</div>
-                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </FadeIn>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        citySlug="amarillo"
+        city="Amarillo"
+        service="Wind Damage Repair"
+        h1="Wind Damage Repair in Amarillo, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-wichita-falls-17-1280w.webp"
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Wind Damage Repair",
+            url: "/wind-damage-repair/",
+          },
+          {
+            name: "Amarillo",
+            url: "/wind-damage-repair-amarillo/",
+          },
+        ]}
+    />
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing repairs wind damage to roofs throughout Amarillo TX, from lifted shingles to full roof replacement after severe Texas Panhandle storms.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/wind-damage-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Wind Damage Repair</a>
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Hail Damage</a>
+              <a href="/storm-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Storm Repair</a>
+              <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -314,7 +207,7 @@ export default function WindDamageRepairAmarilloPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Amarillo's location at 3,605 feet above sea level on the high plains creates perfect
               conditions for extreme wind events. The city averages 14.1 mph sustained winds
-              year-round—higher than 98% of cities nationwide. With zero natural windbreaks across
+              year-round—higher than  of cities nationwide. With zero natural windbreaks across
               hundreds of miles of flat terrain, wind accelerates freely from the north and west.
               Strong frontal systems regularly produce gusts of 50-80 mph, with recorded gusts
               exceeding 100 mph during severe weather outbreaks. NOAA weather data shows Amarillo
@@ -674,7 +567,7 @@ export default function WindDamageRepairAmarilloPage() {
                   <h4 className="font-bold text-yellow-800 mb-2">Wind vs. Hail Deductibles</h4>
                   <p className="text-sm text-gray-600">
                     Many Amarillo policies have separate deductibles for wind damage vs. hail
-                    damage. Wind-only events may carry higher deductibles (1-5% of dwelling value)
+                    damage. Wind-only events may carry higher deductibles (1- of dwelling value)
                     compared to hail claims.
                   </p>
                 </div>
@@ -735,7 +628,7 @@ export default function WindDamageRepairAmarilloPage() {
                 <ul className="space-y-3 text-gray-700">
                   <li>
                     <strong>6-nail pattern:</strong> Exceeds standard 4-nail requirement—reduces
-                    blow-off risk by 40-60% in wind speeds above 70 mph
+                    blow-off risk by 40- in wind speeds above 70 mph
                   </li>
                   <li>
                     <strong>Premium starter strips:</strong> Enhanced adhesive provides additional
@@ -853,10 +746,10 @@ export default function WindDamageRepairAmarilloPage() {
                       Temporary Storm Repairs
                     </h3>
                     <p className="text-gray-700">
-                      If your roof is actively leaking or exposed to elements, we provide tarping
-                      and temporary leak repairs within hours. This prevents water damage to
-                      interior while insurance claim processes. throughout Amarillo and surrounding
-                      Potter County communities.
+                      If your roof is actively leaking or exposed to elements, we schedule
+                      storm documentation and weatherproof sheeting as quickly as possible.
+                      This helps prevent further water damage while the insurance claim processes
+                      for Amarillo and surrounding Potter County properties.
                     </p>
                   </div>
                 </div>
@@ -962,7 +855,7 @@ export default function WindDamageRepairAmarilloPage() {
                   flashing with structural-grade sealants, and specify Class 4 shingles rated for
                   130+ mph winds. Enhanced underlayment with superior tear strength handles
                   wind-driven debris common in Panhandle storms. These methods reduce wind damage
-                  risk by 80-90% compared to standard installations, often qualifying homeowners for
+                  risk by 80- compared to standard installations, often qualifying homeowners for
                   insurance discounts.
                 </AccordionContent>
               </AccordionItem>
@@ -1069,16 +962,7 @@ export default function WindDamageRepairAmarilloPage() {
               Visit Our Amarillo Location
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </FadeIn>
