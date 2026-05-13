@@ -162,9 +162,9 @@ export default function PlainviewRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Plainview Roofing Contractor You Can Count On</h1>
+            <h1 className="hero-title">Plainview Roofing Contractor on the I-27 South Plains Corridor</h1>
             <p className="hero-subtitle">
-              Hale County Hail Damage Experts &amp; Complete Roofing Services
+              Wayland Baptist, Covenant Health, and Hale County commercial + residential roofing
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero">
@@ -212,7 +212,7 @@ export default function PlainviewRoofingPage() {
           <section className="section">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-6 text-center">
-                Your Trusted Roofing Partner in Plainview, Texas
+                Plainview Roofing for Hale County&apos;s University &amp; Hospital Belt
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
                 Plainview, the Hale County seat with approximately 19,800 residents, sits on the

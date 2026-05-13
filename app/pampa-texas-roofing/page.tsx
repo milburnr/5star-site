@@ -162,9 +162,9 @@ export default function PampaRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Pampa Roofing Contractor You Can Count On</h1>
+            <h1 className="hero-title">Pampa Roofing Contractor &mdash; Oilfield &amp; Downtown Specialists</h1>
             <p className="hero-subtitle">
-              Gray County Hail &amp; Wind Damage Experts &amp; Complete Roofing Services
+              Gray County residential, oilfield service-yard metal, and historic-downtown commercial roofing
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero">
@@ -212,7 +212,7 @@ export default function PampaRoofingPage() {
           <section className="section">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-6 text-center">
-                Your Trusted Roofing Partner in Pampa, Texas
+                Pampa Roofing for Oil-Patch and Home
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
                 Pampa, the Gray County seat with approximately 16,800 residents, sits roughly 55

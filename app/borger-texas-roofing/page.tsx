@@ -162,9 +162,9 @@ export default function BorgerRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Borger Roofing Contractor You Can Count On</h1>
+            <h1 className="hero-title">Borger Roofing Contractor for Hutchinson County&apos;s Oil Patch</h1>
             <p className="hero-subtitle">
-              Hutchinson County Storm Damage Experts &amp; Complete Roofing Services
+              Industrial-facility roofs, storm repair, and Phillips 66 / CPChem corridor commercial work
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero">
@@ -212,7 +212,7 @@ export default function BorgerRoofingPage() {
           <section className="section">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-6 text-center">
-                Your Trusted Roofing Partner in Borger, Texas
+                Borger&apos;s Industrial-Strength Roofing Market
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
                 Borger, the seat of Hutchinson County with a population of roughly 12,000, sits about

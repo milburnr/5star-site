@@ -162,9 +162,9 @@ export default function LubbockRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Lubbock Roofing Contractor You Can Count On</h1>
+            <h1 className="hero-title">Lubbock Roofing Contractor &mdash; Hub City Hail &amp; Wind Specialists</h1>
             <p className="hero-subtitle">
-              South Plains Hail &amp; Wind Specialists &mdash; Residential and Commercial Roofing
+              Storm recovery, replacement, and TPO/metal commercial roofing across Lubbock and the South Plains
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero">
@@ -212,7 +212,7 @@ export default function LubbockRoofingPage() {
           <section className="section">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-6 text-center">
-                Your Trusted Roofing Partner in Lubbock, Texas
+                Lubbock Roofing for the South Plains Hub City
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
                 Lubbock, the Lubbock County seat with approximately 257,000 residents, is the Hub

@@ -162,9 +162,9 @@ export default function PerrytonRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Perryton Roofing Contractor You Can Count On</h1>
+            <h1 className="hero-title">Perryton Roofing Company &mdash; Tornado Country Storm Recovery</h1>
             <p className="hero-subtitle">
-              Ochiltree County Storm Damage Experts &amp; Complete Roofing Services
+              EF-3 rebuilds, ag-building metal roofs, and Ochiltree County storm-resilience work
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero">
@@ -212,7 +212,7 @@ export default function PerrytonRoofingPage() {
           <section className="section">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-6 text-center">
-                Your Trusted Roofing Partner in Perryton, Texas
+                Perryton Roofing in Tornado Country
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
                 Perryton, the Ochiltree County seat with approximately 8,500 residents, sits in the

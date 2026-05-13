@@ -162,9 +162,9 @@ export default function HerefordRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Hereford Roofing Contractor You Can Count On</h1>
+            <h1 className="hero-title">Hereford Roofing Company for Feedlot &amp; Ag-Country Work</h1>
             <p className="hero-subtitle">
-              Deaf Smith County Hail &amp; Wind Damage Experts &amp; Complete Roofing Services
+              Feedlot, ag-facility, and Deaf Smith County residential &mdash; Llano Estacado wind-rated
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero">
@@ -212,7 +212,7 @@ export default function HerefordRoofingPage() {
           <section className="section">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold mb-6 text-center">
-                Your Trusted Roofing Partner in Hereford, Texas
+                Hereford Roofing for Cattle-Country Properties
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
                 Hereford, the Deaf Smith County seat with approximately 14,700 residents, sits on
