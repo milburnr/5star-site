@@ -79,3 +79,6 @@ public/images/jobs/
 !public/assets/**/*.jpg
 !public/assets/**/*.jpeg
 !public/assets/**/*.webp
+
+# Local Playwright screenshot output (large binary; not for commits)
+runs/design-screenshots/
