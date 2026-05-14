@@ -437,6 +437,15 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     font-family: Georgia, "Times New Roman", serif;
   }
 
+  /* Homepage hero only — anchor the right edge so the sun + glow on the right
+     side of the image stay visible as the viewport narrows. The left side
+     overflows off-screen on narrower widths (acceptable: all the editorial
+     text — WEST TEXAS / eyebrow / H1 / CTA — sits over the dark overlay on
+     the left, not the photo content). Interior heroes keep the centered crop. */
+  .alt-home-hero.alt-hero-fullscreen {
+    background-position: right center;
+  }
+
   /* Asymmetric overlay: heavier on the left where all the text lives
      (WEST TEXAS / side rule / eyebrow / H1 / CTA), light on the right
      so the sunset and sun glow carry through. Subtle top-right vignette
@@ -1010,6 +1019,10 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
       background-position: 64% 50%;
     }
 
+    .alt-home-hero.alt-hero-fullscreen {
+      background-position: right center;
+    }
+
     .alt-home-hero::before {
       background:
         radial-gradient(circle at 90% 24%, rgba(255, 174, 45, 0.16), transparent 30%),
@@ -1129,6 +1142,10 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
   @media (max-width: 520px) {
     .alt-home-hero {
       background-position: 68% 50%;
+    }
+
+    .alt-home-hero.alt-hero-fullscreen {
+      background-position: right center;
     }
 
     .alt-home-nav {
