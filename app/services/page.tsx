@@ -389,8 +389,8 @@ export default function Page() {
             <FadeIn delay={0.2} direction="up">
               <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp"
-                  alt="Standing seam metal roof with premium finish on Amarillo TX residence - 5 Star Roofing"
+                  src="/images/materials/standing-seam-metal.jpg"
+                  alt="Close-up of gray standing seam metal roof panels with raised vertical seams &mdash; 5 Star Roofing"
                   className="card-image"
                 />
                 <div className="card-body">
@@ -594,8 +594,8 @@ export default function Page() {
             <FadeIn delay={0.4} direction="right">
               <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-                  alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-50-1280w.webp"
+                  alt="Built-up gravel flat roof with granular cap-sheet surface and metal edge flashing &mdash; 5 Star Roofing"
                   className="card-image"
                 />
                 <div className="card-body">

@@ -228,8 +228,8 @@ export default function CommercialRoofingMidlandPage() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-20-1280w.jpg"
-                  alt="TPO membrane roof on Midland oil industry office building - Chemical-resistant system"
+                  src="/images/materials/tpo-commercial.webp"
+                  alt="White single-ply TPO membrane installation on a commercial flat roof &mdash; 5 Star Roofing"
                   className="w-full h-48 object-cover rounded-lg mb-6"
                 />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Roofing Systems</h3>
@@ -261,8 +261,8 @@ export default function CommercialRoofingMidlandPage() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp"
-                  alt="Massive white single-ply membrane roof with rows of dome skylights under blue sky — strong real TPO/PVC reference. Top scarce-category ca... — 5 Star Roofing"
+                  src="/images/materials/standing-seam-metal.jpg"
+                  alt="Close-up of gray standing seam metal roof panels with raised vertical seams &mdash; 5 Star Roofing"
                   className="w-full h-48 object-cover rounded-lg mb-6"
                 />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing</h3>
@@ -294,8 +294,8 @@ export default function CommercialRoofingMidlandPage() {
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
-                  alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
+                  src="/images/materials/epdm-commercial.webp"
+                  alt="EPDM black rubber membrane installation on a commercial flat roof &mdash; 5 Star Roofing"
                   className="w-full h-48 object-cover rounded-lg mb-6"
                 />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>

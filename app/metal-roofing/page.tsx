@@ -341,8 +341,8 @@ export default function Page() {
 
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
-            alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
+            src="/images/materials/standing-seam-metal.jpg"
+            alt="Close-up of gray standing seam metal roof panels with raised vertical seams &mdash; 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />
@@ -534,8 +534,8 @@ export default function Page() {
         </h2>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
-            alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
+            src="/images/materials/standing-seam-metal.jpg"
+            alt="Close-up of gray standing seam metal roof panels with raised vertical seams &mdash; 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />

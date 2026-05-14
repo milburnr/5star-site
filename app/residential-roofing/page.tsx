@@ -209,8 +209,8 @@ export default function Page() {
         <FadeIn delay={0.2} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp"
-              alt="Standing seam metal roofing on Texas Panhandle home - Durable hail-resistant residential roof - 5 Star Commercial Roofing"
+              src="/images/materials/standing-seam-metal.jpg"
+              alt="Close-up of gray standing seam metal roof panels with raised vertical seams &mdash; hail-resistant residential roofing by 5 Star Roofing"
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
@@ -321,8 +321,8 @@ export default function Page() {
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="relative h-48 bg-gray-200">
             <img
-              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-7-1280w.jpg"
-              alt="Texas home before metal roof upgrade - Transitioning from shingles to metal - 5 Star Commercial Roofing"
+              src="/images/materials/standing-seam-metal.jpg"
+              alt="Premium standing seam metal roof installed on a Texas home &mdash; 5 Star Roofing"
               className="w-full h-full object-cover"
             />
           </div>

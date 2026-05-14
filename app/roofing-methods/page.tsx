@@ -235,8 +235,8 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">Standing Seam Metal Roof Installation</h2>
       <div className="card mb-8">
         <img
-          src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
-          alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
+          src="/images/materials/standing-seam-metal.jpg"
+          alt="Close-up of gray standing seam metal roof panels with raised vertical seams &mdash; 5 Star Roofing"
           className="card-image"
         />
         <div className="card-body">
@@ -313,8 +313,8 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">TPO & PVC Single-Ply Membrane Installation</h2>
       <div className="card mb-8">
         <img
-          src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg"
-          alt="TPO commercial roofing installation - White membrane flat roof system - 5 Star Commercial Roofing"
+          src="/images/materials/tpo-commercial.webp"
+          alt="White single-ply TPO membrane on a commercial flat roof &mdash; 5 Star Roofing"
           className="card-image"
         />
         <div className="card-body">

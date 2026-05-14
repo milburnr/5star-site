@@ -159,8 +159,8 @@ export default function Page() {
         <FadeIn delay={0.1} direction="left">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg"
-              alt="TPO commercial roofing installation Midland TX - White membrane heat-welded seams - 5 Star Commercial Roofing"
+              src="/images/materials/tpo-commercial.webp"
+              alt="White single-ply TPO membrane being installed on a commercial flat roof with heat-welded seams &mdash; 5 Star Roofing"
               className="w-full h-48 object-cover"
             />
             <div className="p-6">

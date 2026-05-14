@@ -266,7 +266,7 @@ export default function BushlandRoofingPage() {
                   <div className="md:w-1/3">
                     <img
                       src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg"
-                      alt="Commercial flat roof with TPO membrane on agricultural building near Pampa TX"
+                      alt="Commercial flat built-up gravel roof on an agricultural facility near Bushland TX &mdash; 5 Star Roofing"
                       className="w-full h-48 object-cover rounded-lg mb-4"
                     />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
