@@ -153,7 +153,7 @@ export default function MetalRoofingSnyderPage() {
         city="Snyder"
         service="Metal Roofing"
         h1="Metal Roofing in Snyder, TX"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-25-1280w.webp"
+        image="https://5starroofingpros.com/images/materials/standing-seam-metal.jpg"
       
       breadcrumbItems={[
           {

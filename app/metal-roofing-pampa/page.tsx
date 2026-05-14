@@ -205,7 +205,7 @@ export default function MetalRoofingPampaPage() {
         city="Pampa"
         service="Metal Roofing"
         h1="Metal Roofing in Pampa, TX"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-50-1280w.webp"
+        image="https://5starroofingpros.com/images/materials/standing-seam-metal.jpg"
       
       breadcrumbItems={[
           {

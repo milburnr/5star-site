@@ -65,7 +65,7 @@ export default function MetalRoofingLubbockPage() {
             name: "5 Star Roofing",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             image:
-              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-4-1280w.webp",
+              "https://5starroofingpros.com/images/materials/standing-seam-metal.jpg",
             telephone: "(806) 622-6041",
             email: "admin@5starroofingpros.com",
             priceRange: "$$",
@@ -190,7 +190,7 @@ export default function MetalRoofingLubbockPage() {
         city="Lubbock"
         service="Metal Roofing"
         h1="Metal Roofing in Lubbock, TX"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-23-1280w.webp"
+        image="https://5starroofingpros.com/images/materials/standing-seam-metal.jpg"
       
       breadcrumbItems={[
           { name: "Home", url: "/" },

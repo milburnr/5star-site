@@ -161,7 +161,7 @@ export default function TPORoofingOdessaPage() {
         city="Odessa"
         service="TPO Roofing"
         h1="TPO Roofing in Odessa, TX"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.webp"
+        image="https://5starroofingpros.com/images/materials/tpo-commercial.webp"
       
       breadcrumbItems={[
           { name: "Home", url: "/" },

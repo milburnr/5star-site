@@ -204,7 +204,7 @@ export default function MetalRoofingCanyonPage() {
         city="Canyon"
         service="Metal Roofing"
         h1="Metal Roofing in Canyon, TX"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-23-1280w.webp"
+        image="https://5starroofingpros.com/images/materials/standing-seam-metal.jpg"
       
       breadcrumbItems={[
           {

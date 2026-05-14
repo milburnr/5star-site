@@ -166,7 +166,7 @@ export default function TPORoofingLevellandPage() {
         city="Levelland"
         service="TPO Roofing"
         h1="TPO Roofing in Levelland, TX"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg"
+        image="https://5starroofingpros.com/images/materials/tpo-commercial.webp"
       
       breadcrumbItems={[
           {
