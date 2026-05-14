@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { InsuranceLogos } from "@/components/InsuranceLogos";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import {
@@ -136,83 +136,37 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
 
-      {/* Hero Section — mirrors /contact/ treatment (task 12.1) */}
-      <section
-        className="hero-services relative bg-cover bg-center text-white section-major min-h-[400px] flex items-center"
-        style={{
-          backgroundImage: "url(/images/heroes/services/commercial-hub-1200.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/75 via-orange-900/55 to-yellow-900/45"></div>
-        <div className="container-custom relative z-10">
-          <div className="max-w-3xl">
-            <Breadcrumb
-              items={[
-                { name: "Home", url: "/" },
-                { name: "Services", url: "/services/" },
-              ]}
-            />
-            <h1
-              className="text-4xl sm:text-5xl md:text-6xl font-bold mt-4 mb-6 text-white leading-tight"
-              style={{ textShadow: "0 4px 12px rgba(0,0,0,0.9)" }}
-            >
-              Complete Roofing Services for{" "}
-              <span className="text-brand-gold-light">West Texas</span>
-            </h1>
-            <p
-              className="text-xl md:text-2xl text-white leading-relaxed mb-8"
-              style={{ textShadow: "0 2px 4px rgba(0,0,0,0.8)" }}
-            >
-              Residential, commercial, and industrial roofing specialists — hail damage repair,
-              storm restoration, insurance claim help, and full replacements across Amarillo,
-              Midland, Odessa, and the Texas Panhandle.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <a
-                href="tel:8066226041"
-                className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-lg px-8 py-4 rounded-full font-bold shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
-              >
-                <Phone className="w-6 h-6" /> Call (806) 622-6041
-              </a>
-              <a
-                href="/contact/"
-                className="bg-white text-brand-brown px-8 py-4 rounded-full font-bold hover:bg-gray-50 hover:scale-105 transition-all duration-300 text-lg shadow-xl border-2 border-brand-gold text-center"
-              >
-                Free Inspection
-              </a>
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Roofing Services"
+        h1="Complete Roofing Services for West Texas"
+        eyebrow="Residential, commercial & industrial roofing across the Texas Panhandle"
+        image="/images/heroes/services/commercial-hub-1200.webp"
+        breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Services", url: "/services/" },
+        ]}
+      />
+
+      {/* Trust badges — moved out of hero so we can use the standardized hero treatment */}
+      <section className="bg-brand-brown text-white py-6 md:py-8">
+        <div className="container-custom">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 text-sm md:text-base">
+            <div className="flex items-center justify-center gap-2 text-white">
+              <Star className="w-5 h-5 fill-brand-gold-light text-brand-gold-light shrink-0" />
+              <span className="font-semibold">5.0/5 Google</span>
             </div>
-            {/* Trust row — 4 compact badges matching the home hero signal set */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 text-sm sm:text-base">
-              <div
-                className="flex items-center gap-2 text-white/95"
-                style={{ textShadow: "0 1px 3px rgba(0,0,0,0.8)" }}
-              >
-                <Star className="w-5 h-5 fill-brand-gold-light text-brand-gold-light shrink-0" />
-                <span className="font-semibold">5.0/5 Google</span>
-              </div>
-              <div
-                className="flex items-center gap-2 text-white/95"
-                style={{ textShadow: "0 1px 3px rgba(0,0,0,0.8)" }}
-              >
-                <Shield className="w-5 h-5 text-brand-gold-light shrink-0" />
-                <span className="font-semibold">Class 4 Hail-Rated</span>
-              </div>
-              <div
-                className="flex items-center gap-2 text-white/95"
-                style={{ textShadow: "0 1px 3px rgba(0,0,0,0.8)" }}
-              >
-                <CheckCircle className="w-5 h-5 text-brand-gold-light shrink-0" />
-                <span className="font-semibold">Free Inspections</span>
-              </div>
-              <div
-                className="flex items-center gap-2 text-white/95"
-                style={{ textShadow: "0 1px 3px rgba(0,0,0,0.8)" }}
-              >
-                <Sparkles className="w-5 h-5 text-brand-gold-light shrink-0" />
-                <span className="font-semibold">Insurance Experts</span>
-              </div>
+            <div className="flex items-center justify-center gap-2 text-white">
+              <Shield className="w-5 h-5 text-brand-gold-light shrink-0" />
+              <span className="font-semibold">Class 4 Hail-Rated</span>
+            </div>
+            <div className="flex items-center justify-center gap-2 text-white">
+              <CheckCircle className="w-5 h-5 text-brand-gold-light shrink-0" />
+              <span className="font-semibold">Free Inspections</span>
+            </div>
+            <div className="flex items-center justify-center gap-2 text-white">
+              <Sparkles className="w-5 h-5 text-brand-gold-light shrink-0" />
+              <span className="font-semibold">Insurance Experts</span>
             </div>
           </div>
         </div>
