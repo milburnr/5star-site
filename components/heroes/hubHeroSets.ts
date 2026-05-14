@@ -24,6 +24,13 @@ function buildHubSet(basename: string): HeroImageSet {
 }
 
 export const METAL_HUB_HERO = buildHubSet("metal-hub");
-export const TPO_HUB_HERO = buildHubSet("tpo-hub");
 export const COMMERCIAL_HUB_HERO = buildHubSet("commercial-hub");
 export const HAIL_HUB_HERO = buildHubSet("hail-hub");
+// BUR hero set — formerly named tpo-hub on disk, renamed 2026-05-14 after
+// confirming the files showed a gravel built-up roof close-up, not white TPO
+// membrane. Available for built-up roofing pages if one is created.
+export const BUR_HUB_HERO = buildHubSet("bur-hub");
+// TPO_HUB_HERO removed 2026-05-14 — no genuine TPO single-ply hero exists yet.
+// /tpo-roofing/ temporarily uses COMMERCIAL_HUB_HERO (Texas Med-Tech building,
+// real white commercial flat roof — visually accurate for single-ply membrane).
+// Restore this export when a real TPO hero asset is regenerated.
