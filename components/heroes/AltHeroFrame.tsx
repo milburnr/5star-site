@@ -384,12 +384,13 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     overflow-x: hidden;
   }
 
-  /* Chrome-hiding rules are scoped to .alt-hero-fullscreen so they ONLY fire
-     on the homepage's full-bleed editorial hero. Interior pages render
-     AltHeroFrame without this class and keep their <header>, <footer>,
-     sticky contact bar, and chat widget. See AltHeroFrameProps.hideSiteChrome. */
-  body:has(.alt-home-hero.alt-hero-fullscreen) > header,
-  body:has(.alt-home-hero.alt-hero-fullscreen) > footer {
+  /* Header-hide is scoped to .alt-hero-fullscreen — the homepage hero has its
+     own editorial nav rendered inline and is 100svh, so keeping the site's
+     <header> on top would push the hero below the fold. Interior pages render
+     AltHeroFrame without this class and keep their site <header>.
+     Footer is INTENTIONALLY NOT hidden on either case — every page on the
+     site should render its footer, including the homepage. */
+  body:has(.alt-home-hero.alt-hero-fullscreen) > header {
     display: none;
   }
 
