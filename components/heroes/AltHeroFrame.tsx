@@ -109,6 +109,15 @@ export type AltHeroFrameProps = {
    * used by variant pages to inject a content section under the hero.
    */
   children?: React.ReactNode;
+  /**
+   * Hide the site's <header>, <footer>, sticky contact bar, and chat widget
+   * while this hero is on the page. Intended ONLY for the homepage's
+   * full-bleed editorial hero — interior heroes must NOT enable this or the
+   * site chrome disappears beneath the fold (regression observed 2026-05-14
+   * after migrating /services and city pages to InteriorHeroSection).
+   * Default false.
+   */
+  hideSiteChrome?: boolean;
 };
 
 // Cormorant Garamond is now loaded via next/font in app/layout.tsx with
@@ -132,6 +141,7 @@ export function AltHeroFrame({
   displayScale = 1,
   breadcrumbItems,
   children,
+  hideSiteChrome = false,
 }: AltHeroFrameProps) {
   const displayLines = Array.isArray(displayText)
     ? displayText
@@ -171,7 +181,7 @@ export function AltHeroFrame({
       />
 
       <section
-        className="alt-home-hero"
+        className={hideSiteChrome ? "alt-home-hero alt-hero-fullscreen" : "alt-home-hero"}
         aria-labelledby="alt-hero-h1"
         style={{ ["--hero-display-scale" as string]: String(displayScale) }}
       >
@@ -374,26 +384,30 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     overflow-x: hidden;
   }
 
-  body:has(.alt-home-hero) > header,
-  body:has(.alt-home-hero) > footer {
+  /* Chrome-hiding rules are scoped to .alt-hero-fullscreen so they ONLY fire
+     on the homepage's full-bleed editorial hero. Interior pages render
+     AltHeroFrame without this class and keep their <header>, <footer>,
+     sticky contact bar, and chat widget. See AltHeroFrameProps.hideSiteChrome. */
+  body:has(.alt-home-hero.alt-hero-fullscreen) > header,
+  body:has(.alt-home-hero.alt-hero-fullscreen) > footer {
     display: none;
   }
 
-  body:has(.alt-home-hero) button[aria-label="Open Next.js Dev Tools"],
-  body:has(.alt-home-hero) button[aria-label="Select to open the chat widget"],
-  body:has(.alt-home-hero) nextjs-portal,
-  body:has(.alt-home-hero) [data-nextjs-dev-tools-button],
-  body:has(.alt-home-hero) #lc-chat-widget,
-  body:has(.alt-home-hero) .chat-widget,
-  body:has(.alt-home-hero) .lc-chat-widget,
-  body:has(.alt-home-hero) div[class*="chat-widget"],
-  body:has(.alt-home-hero) [class*="lc_text-widget"],
-  body:has(.alt-home-hero) iframe[src*="leadconnectorhq"],
-  body:has(.alt-home-hero) iframe[src*="chat-widget"],
-  body:has(.alt-home-hero) iframe[id*="lc_"],
-  body:has(.alt-home-hero) div[id^="lc_"],
-  body:has(.alt-home-hero) [class*="StickyContactBar"],
-  body:has(.alt-home-hero) .sticky-contact-bar {
+  body:has(.alt-home-hero.alt-hero-fullscreen) button[aria-label="Open Next.js Dev Tools"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) button[aria-label="Select to open the chat widget"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) nextjs-portal,
+  body:has(.alt-home-hero.alt-hero-fullscreen) [data-nextjs-dev-tools-button],
+  body:has(.alt-home-hero.alt-hero-fullscreen) #lc-chat-widget,
+  body:has(.alt-home-hero.alt-hero-fullscreen) .chat-widget,
+  body:has(.alt-home-hero.alt-hero-fullscreen) .lc-chat-widget,
+  body:has(.alt-home-hero.alt-hero-fullscreen) div[class*="chat-widget"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) [class*="lc_text-widget"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) iframe[src*="leadconnectorhq"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) iframe[src*="chat-widget"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) iframe[id*="lc_"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) div[id^="lc_"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) [class*="StickyContactBar"],
+  body:has(.alt-home-hero.alt-hero-fullscreen) .sticky-contact-bar {
     display: none !important;
   }
 

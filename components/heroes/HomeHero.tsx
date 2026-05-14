@@ -64,6 +64,7 @@ export function HomeHero() {
       eyebrow="5 Star Residential and Commercial Roofing"
       h1="Your West Texas Roofing Company"
       ctaText="Get Your Free Roof Inspection"
+      hideSiteChrome
     />
   );
 }
