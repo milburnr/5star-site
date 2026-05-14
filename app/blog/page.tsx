@@ -1,6 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Clock } from "lucide-react";
 import { getAllArticles } from "@/lib/articles";
@@ -70,31 +70,19 @@ export default function BlogIndexPage() {
 
   return (
     <div className="min-h-screen">
-      <Breadcrumb
-        items={[
+      <StickyContactBar />
+
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Blog & Resources"
+        h1="Roofing Blog & Resources"
+        eyebrow="Expert Advice for Texas Homeowners"
+        image="/images/heroes/cities/amarillo-hero-1200.webp"
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Blog", url: "/blog/" },
         ]}
       />
-
-      <StickyContactBar />
-
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-1280w.jpg)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Roofing Blog &amp; Resources</h1>
-            <p className="hero-subtitle">Expert Advice for Texas Homeowners</p>
-          </div>
-        </FadeIn>
-      </section>
 
       <div className="container-custom">
         <FadeIn>

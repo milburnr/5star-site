@@ -140,8 +140,7 @@ export default function Page() {
       <section
         className="hero-services relative bg-cover bg-center text-white section-major min-h-[400px] flex items-center"
         style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
+          backgroundImage: "url(/images/heroes/services/commercial-hub-1200.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -271,8 +270,8 @@ export default function Page() {
             <FadeIn delay={0.2} direction="right">
               <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-                  alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-wichita-falls-17-1280w.jpg"
+                  alt="Aerial view of a brown asphalt shingle roof with missing shingles and exposed underlayment from wind and storm damage — 5 Star Roofing"
                   className="card-image"
                 />
                 <div className="card-body">
@@ -302,8 +301,8 @@ export default function Page() {
             <FadeIn delay={0.3} direction="left">
               <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-                  alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.jpg"
+                  alt="Gray asphalt shingle roof showing multiple roof planes with chalk inspection markings used for damage documentation and measurement — 5 Star Roofing"
                   className="card-image"
                 />
                 <div className="card-body">
@@ -562,8 +561,8 @@ export default function Page() {
             <FadeIn delay={0.3} direction="left">
               <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg"
-                  alt="PVC commercial roofing system at sunset in West Texas - Premium flat roof by 5 Star Roofing"
+                  src="/images/heroes/services/tpo-hub-1200.webp"
+                  alt="White single-ply membrane flat roof on a West Texas commercial building — PVC roofing systems by 5 Star Roofing"
                   className="card-image"
                 />
                 <div className="card-body">
@@ -594,8 +593,8 @@ export default function Page() {
             <FadeIn delay={0.4} direction="right">
               <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-50-1280w.webp"
-                  alt="Built-up gravel flat roof with granular cap-sheet surface and metal edge flashing &mdash; 5 Star Roofing"
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-40-1280w.jpg"
+                  alt="Commercial built-up gravel flat roof with HVAC unit on a West Texas building — Built-Up Roofing (BUR) by 5 Star Roofing"
                   className="card-image"
                 />
                 <div className="card-body">

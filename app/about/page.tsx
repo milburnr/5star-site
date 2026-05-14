@@ -330,8 +330,8 @@ export default function Page() {
           <FadeIn delay={0.1} direction="left">
             <div className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <img
-                src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg"
-                alt="5 Star Commercial Roofing company truck in Amarillo TX - Professional roofing equipment and materials ready for service"
+                src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-stinnett-16-1280w.webp"
+                alt="5 Star Roofing crew installing a red R-panel metal roof on a West Texas residential property"
                 className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-brown/60 to-transparent"></div>
@@ -340,8 +340,8 @@ export default function Page() {
           <FadeIn delay={0.2} direction="right">
             <div className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <img
-                src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-                alt="Professional roofing crew installing roof in Amarillo Texas - Quality craftsmanship and safety equipment - 5 Star Commercial Roofing"
+                src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-29-1280w.webp"
+                alt="5 Star Roofing crew working on a residential roof replacement with ladders and safety equipment in West Texas"
                 className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-brown/60 to-transparent"></div>
@@ -398,23 +398,17 @@ export default function Page() {
         </FadeIn>
       </div>
       <ReviewsSection heading="What our customers say" />
-      <section className="mt-12 bg-brand-gold text-white p-8 rounded-lg">
-        <h2 className="text-2xl font-bold mb-4">Ready to Get Started?</h2>
-        <p className="mb-6 text-lg">
+      <section className="mt-12 bg-gradient-to-br from-brand-gold to-brand-gold-vibrant text-white p-8 md:p-12 rounded-3xl shadow-xl">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
+        <p className="mb-8 text-lg md:text-xl text-white/95 max-w-3xl">
           Free inspections. Expert repairs. Insurance claim assistance. Contact us today to see why
           Amarillo, Midland, Odessa and all of West Texas trusts 5 Star Commercial Roofing.
         </p>
-        <div className="flex gap-4 flex-wrap">
-          <a
-            href="tel:8066226041"
-            className="btn-primary bg-white text-brand-brown hover:bg-gray-100"
-          >
+        <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
+          <a href="tel:8066226041" className="btn-primary-hero">
             Call (806) 622-6041
           </a>
-          <a
-            href="/contact/"
-            className="btn-secondary border-2 border-white hover:bg-white hover:text-brand-brown"
-          >
+          <a href="/contact/" className="btn-secondary-hero">
             Request Free Inspection
           </a>
         </div>
