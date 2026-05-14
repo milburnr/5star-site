@@ -129,7 +129,7 @@ export default function Page() {
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Residential Roofing Services in Amarillo
       </h2>
-      {/* Hero Image — AI-generated residential roofing hero */}
+      {/* Hero Image — decorative residential roofing hero */}
       
       <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
         <h2 className="text-2xl font-bold text-brand-brown mb-4">
