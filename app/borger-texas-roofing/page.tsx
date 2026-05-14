@@ -1,6 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Accordion,
   AccordionContent,
@@ -140,43 +140,21 @@ const faqItems = [
 export default function BorgerRoofingPage() {
   return (
     <div className="min-h-screen">
-      <Breadcrumb
-        items={[
+      <StickyContactBar />
+
+      <InteriorHeroSection
+        heroVariant="location"
+        city="Borger"
+        citySlug="borger"
+        h1="Borger Roofing Contractor for Hutchinson County's Oil Patch"
+        eyebrow="Industrial-facility roofs, storm repair & Phillips 66 / CPChem corridor commercial work"
+        image="/images/heroes/cities/borger-hero-1200.webp"
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Service Areas", url: "/service-areas/" },
           { name: "Borger", url: "/borger-texas-roofing/" },
         ]}
       />
-
-      <StickyContactBar />
-
-      {/* Hero Section */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.webp)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Borger Roofing Contractor for Hutchinson County&apos;s Oil Patch</h1>
-            <p className="hero-subtitle">
-              Industrial-facility roofs, storm repair, and Phillips 66 / CPChem corridor commercial work
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero">
-                Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary-hero">
-                Get Free Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
 
       <div className="container-custom">
 

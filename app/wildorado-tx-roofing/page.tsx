@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { Check, Smile, Sun, Thermometer, Tornado, Wheat, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -37,50 +37,19 @@ export const metadata: Metadata = {
 export default function WildoradoRoofingPage() {
   return (
     <div className="min-h-screen">
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Service Areas",
-            url: "/service-areas/",
-          },
-          {
-            name: "Wildorado",
-            url: "/wildorado-tx-roofing/",
-          },
+      <InteriorHeroSection
+        heroVariant="location"
+        city="Wildorado"
+        citySlug="amarillo"
+        h1="Professional Roofing Services in Wildorado, Texas"
+        eyebrow="Proudly serving Wildorado from our Amarillo location — just 15 miles away"
+        image="/images/heroes/cities/amarillo-hero-1200.webp"
+        breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Service Areas", url: "/service-areas/" },
+          { name: "Wildorado", url: "/wildorado-tx-roofing/" },
         ]}
       />
-      {/* Hero Section */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.webp)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Professional Roofing Services in Wildorado, Texas</h1>
-            <p className="hero-subtitle">
-              Proudly Serving Wildorado from Our Amarillo Location - Just 15 Miles Away
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
-                Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary text-lg px-8 py-4">
-                Get Free Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
       <div className="container-custom">
 
         {/* TL;DR */}

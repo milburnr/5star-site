@@ -1,6 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Accordion,
   AccordionContent,
@@ -140,43 +140,21 @@ const faqItems = [
 export default function LevellandRoofingPage() {
   return (
     <div className="min-h-screen">
-      <Breadcrumb
-        items={[
+      <StickyContactBar />
+
+      <InteriorHeroSection
+        heroVariant="location"
+        city="Levelland"
+        citySlug="levelland"
+        h1="Levelland Roofing Services You Can Trust"
+        eyebrow="Hockley County Hail Damage Experts & Full-Service Roofing Contractor"
+        image="/images/heroes/cities/levelland-hero-1200.webp"
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Service Areas", url: "/service-areas/" },
           { name: "Levelland", url: "/levelland-tx-roofing/" },
         ]}
       />
-
-      <StickyContactBar />
-
-      {/* Hero Section */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-levelland-44-1280w.webp)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Levelland Roofing Services You Can Trust</h1>
-            <p className="hero-subtitle">
-              Hockley County Hail Damage Experts &amp; Full-Service Roofing Contractor
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero">
-                Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary-hero">
-                Get Free Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
 
       <div className="container-custom">
 

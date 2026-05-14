@@ -1,5 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import type { Metadata } from "next";
 import {
   AlertTriangle,
@@ -48,38 +48,18 @@ export const metadata: Metadata = {
 export default function RoofMaintenanceChecklistPage() {
   return (
     <div className="min-h-screen">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Blog"
+        h1="Roof Maintenance Checklist for Texas 2025"
+        eyebrow="Extend your roof's life with proper maintenance"
+        image="/images/heroes/cities/amarillo-hero-1200.webp"
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Blog", url: "/blog/" },
           { name: "Roof Maintenance Checklist", url: "/blog/roof-maintenance-checklist-texas/" },
         ]}
       />
-
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-1920w.webp)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Roof Maintenance Checklist for Texas 2025</h1>
-            <p className="hero-subtitle">Extend Your Roof's Life with Proper Maintenance</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary text-lg px-8 py-4">
-                Schedule Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
 
       <div className="container-custom py-12">
         <FadeIn>

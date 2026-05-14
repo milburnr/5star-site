@@ -1,6 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Accordion,
   AccordionContent,
@@ -140,43 +140,21 @@ const faqItems = [
 export default function HerefordRoofingPage() {
   return (
     <div className="min-h-screen">
-      <Breadcrumb
-        items={[
+      <StickyContactBar />
+
+      <InteriorHeroSection
+        heroVariant="location"
+        city="Hereford"
+        citySlug="hereford"
+        h1="Hereford Roofing Company for Feedlot & Ag-Country Work"
+        eyebrow="Feedlot, ag-facility & Deaf Smith County residential — Llano Estacado wind-rated"
+        image="/images/heroes/cities/hereford-hero-1200.webp"
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Service Areas", url: "/service-areas/" },
           { name: "Hereford", url: "/hereford-texas-roofing/" },
         ]}
       />
-
-      <StickyContactBar />
-
-      {/* Hero Section */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hereford-hero.jpg)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Hereford Roofing Company for Feedlot &amp; Ag-Country Work</h1>
-            <p className="hero-subtitle">
-              Feedlot, ag-facility, and Deaf Smith County residential &mdash; Llano Estacado wind-rated
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero">
-                Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary-hero">
-                Get Free Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
 
       <div className="container-custom">
 

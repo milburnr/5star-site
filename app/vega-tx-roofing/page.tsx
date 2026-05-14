@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Check,
   CloudLightning,
@@ -46,50 +46,19 @@ export const metadata: Metadata = {
 export default function VegaRoofingPage() {
   return (
     <div className="min-h-screen">
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Service Areas",
-            url: "/service-areas/",
-          },
-          {
-            name: "Vega",
-            url: "/vega-tx-roofing/",
-          },
+      <InteriorHeroSection
+        heroVariant="location"
+        city="Vega"
+        citySlug="amarillo"
+        h1="Professional Roofing Services in Vega, Texas"
+        eyebrow="Proudly serving Vega from our Amarillo location — 35 miles east on I-40"
+        image="/images/heroes/cities/amarillo-hero-1200.webp"
+        breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Service Areas", url: "/service-areas/" },
+          { name: "Vega", url: "/vega-tx-roofing/" },
         ]}
       />
-      {/* Hero Section */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Professional Roofing Services in Vega, Texas</h1>
-            <p className="hero-subtitle">
-              Proudly Serving Vega from Our Amarillo Location - 35 Miles East on I-40
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
-                Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary text-lg px-8 py-4">
-                Get Free Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
       <div className="container-custom">
         {/* Introduction */}
         <FadeIn>

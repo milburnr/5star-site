@@ -1,5 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import type { Metadata } from "next";
 import {
   AlertTriangle,
@@ -44,40 +44,18 @@ export const metadata: Metadata = {
 export default function BestRoofingMaterialsTexasPage() {
   return (
     <div className="min-h-screen">
-      <Breadcrumb
-        items={[
+      <InteriorHeroSection
+        heroVariant="service"
+        service="Blog"
+        h1="Best Roofing Materials for Texas Climate 2025"
+        eyebrow="Expert guide to choosing the right roof for Texas weather"
+        image="/images/heroes/cities/amarillo-hero-1200.webp"
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Blog", url: "/blog/" },
           { name: "Best Roofing Materials", url: "/blog/best-roofing-materials-texas-2025/" },
         ]}
       />
-
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-1920w.webp)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Best Roofing Materials for Texas Climate 2025</h1>
-            <p className="hero-subtitle">
-              Expert Guide to Choosing the Right Roof for Texas Weather
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary text-lg px-8 py-4">
-                Free Consultation
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
 
       <div className="container-custom py-12">
         <FadeIn>

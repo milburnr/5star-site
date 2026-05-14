@@ -1,6 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import {
@@ -48,16 +48,23 @@ export const metadata: Metadata = {
 export default function MetalRoofOdessaPage() {
   return (
     <div className="min-h-screen">
-      <Breadcrumb
-        items={[
+      {/* Sticky Contact Bar */}
+      <StickyContactBar />
+
+      <InteriorHeroSection
+        heroVariant="service-location"
+        city="Odessa"
+        citySlug="odessa"
+        service="Metal Roof Installation"
+        h1="Metal Roof Installation in Odessa, TX"
+        eyebrow="Permian Basin metal roofing specialists"
+        image="/images/heroes/cities/odessa-hero-1200.webp"
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Metal Roofing", url: "/metal-roofing-amarillo/" },
           { name: "Odessa", url: "/metal-roof-installation-odessa-texas/" },
         ]}
       />
-
-      {/* Sticky Contact Bar */}
-      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -110,30 +117,6 @@ export default function MetalRoofOdessaPage() {
         }}
       />
 
-      <section
-        className="hero"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-channing-33-1280w.jpg)",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">Metal Roof Installation in Odessa, TX</h1>
-            <p className="hero-subtitle">Permian Basin Metal Roofing Specialists</p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
-                Free Estimate
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
 
       {/* Lead Form - Above the Fold */}
       <div className="container-custom">
