@@ -515,7 +515,7 @@ export default function Page() {
             <FadeIn delay={0.3} direction="left">
               <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 <img
-                  src="/images/heroes/services/tpo-hub-1200.webp"
+                  src="/images/heroes/services/commercial-hub-1200.webp"
                   alt="White single-ply membrane flat roof on a West Texas commercial building — PVC roofing systems by 5 Star Roofing"
                   className="card-image"
                 />
