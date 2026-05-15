@@ -79,6 +79,12 @@ public/images/jobs/
 !public/assets/**/*.jpg
 !public/assets/**/*.jpeg
 !public/assets/**/*.webp
+# Favicons (App Router auto-wired + dark-mode variants in public/)
+!app/icon.png
+!app/apple-icon.png
+!public/favicon-dark.png
+!public/icon-dark.png
+!public/apple-icon-dark.png
 
 # Local Playwright screenshot output (large binary; not for commits)
 runs/design-screenshots/
