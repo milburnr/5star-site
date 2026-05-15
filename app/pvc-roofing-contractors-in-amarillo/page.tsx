@@ -148,6 +148,15 @@ export default function Page() {
           </div>
         </section>
       </FadeIn>
+      {/* auto-link:pass-1 */}
+      <aside className="container-custom mt-6 mb-8">
+        <div className="max-w-5xl mx-auto bg-white border-l-4 border-brand-brown rounded-r-2xl p-5 text-sm text-gray-700">
+          <p className="font-semibold text-brand-brown mb-1">Related on this site</p>
+          <p>For the next step, see <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold underline">our commercial roofing team</a> or <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold underline">our Amarillo roofing crew</a>.</p>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
 
       </FadeIn>
       <div className="content-block">
