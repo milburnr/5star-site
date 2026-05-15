@@ -302,9 +302,7 @@ export default function HailDamageRepairMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
                 <p className="text-gray-600">
-                  We thoroughly inspect your Midland property for hail damage, documenting every
-                  impact with photos and measurements. Our inspections are always free with no
-                  obligation.
+                  We walk every slope of your Midland property, photographing hail strikes and measuring impacts against UL 2218 Class 3 and Class 4 criteria. Inspections in Midland and the broader Permian Basin are always free, with no obligation and no high-pressure sales pitch.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -324,8 +322,7 @@ export default function HailDamageRepairMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
                 <p className="text-gray-600">
-                  We provide a detailed, line-item estimate using Xactimate—the same software
-                  insurance companies use. No surprises, no hidden costs.
+                  Our estimates are built in Xactimate, the same line-item software your Permian Basin carrier uses. That lets us match scope and unit pricing directly against the adjuster&apos;s estimate. No surprises, no shifting numbers, no hidden costs.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -344,8 +341,7 @@ export default function HailDamageRepairMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
                 <p className="text-gray-600">
-                  We conduct a thorough final inspection to ensure every detail meets our high
-                  standards. You'll receive complete documentation for your records.
+                  We conduct a final walk of the roof to confirm fasteners meet Midland County wind-load requirements, sealants are cured, and flashing details are right. You receive complete photo documentation, manufacturer warranty registration on GAF, CertainTeed, or Owens Corning systems, and our workmanship warranty for your records.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">

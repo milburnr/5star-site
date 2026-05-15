@@ -398,15 +398,13 @@ export default function TpoRoofingBorgerPage() {
                   Phase 4: Quality Control & Final Inspection
                 </h3>
                 <p className="text-gray-700 mb-3">
-                  Comprehensive testing ensures system integrity. Every seam is tested, all
-                  penetrations are verified watertight, and the complete system undergoes final
-                  inspection before project completion and warranty activation.
+                  Before we hand a Borger TPO roof back to the building owner, every heat-welded seam is probe-tested and every penetration (HVAC curbs, vents, drains) is verified watertight under the manufacturer&apos;s installation standard. Final inspection takes place on the roof, with the building owner walking the system before the Carlisle or Firestone warranty activates.
                 </p>
                 <ul className="text-gray-600 space-y-1 ml-4">
-                  <li>• Electronic leak detection testing</li>
-                  <li>• Seam strength verification</li>
-                  <li>• Final walkthrough with building owner</li>
-                  <li>• Warranty documentation and maintenance schedule</li>
+                  <li>• Electronic leak detection testing on the completed membrane field</li>
+                  <li>• Seam strength verification with a hand probe along every weld</li>
+                  <li>• Final walkthrough with the Borger building owner on the roof</li>
+                  <li>• Warranty documentation (system warranty plus our workmanship coverage) and a maintenance schedule</li>
                 </ul>
               </div>
             </div>
@@ -525,34 +523,31 @@ export default function TpoRoofingBorgerPage() {
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2">•</span>
                       <span>
-                        <strong>Drain clearing:</strong> Prevent ponding water that can stress the
-                        membrane
+                        <strong>Drain clearing:</strong> Keep roof drains and overflow scuppers clear so spring Panhandle rain runs off instead of ponding on the TPO membrane
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2">•</span>
                       <span>
-                        <strong>Seam inspection:</strong> Check heat-welded seams for integrity
+                        <strong>Seam inspection:</strong> Visual and probe-check of the heat-welded seams once a year on Borger commercial buildings
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2">•</span>
                       <span>
-                        <strong>Penetration sealing:</strong> Maintain watertight seals around HVAC
-                        and other penetrations
+                        <strong>Penetration sealing:</strong> Maintain watertight detail around HVAC curbs, plumbing vents, and electrical conduit, where most TPO leaks start
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2">•</span>
                       <span>
-                        <strong>Edge detail review:</strong> Ensure proper termination at walls and
-                        parapets
+                        <strong>Edge detail review:</strong> Verify membrane termination at walls and parapets, especially where Hutchinson County wind drives water sideways
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2">•</span>
                       <span>
-                        <strong>Fastener inspection:</strong> Verify mechanical attachment security
+                        <strong>Fastener inspection:</strong> Confirm mechanical attachment security on the field of the membrane and along perimeters
                       </span>
                     </li>
                   </ul>

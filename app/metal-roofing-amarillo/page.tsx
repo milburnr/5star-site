@@ -383,19 +383,19 @@ export default function MetalRoofingAmarilloPage() {
                   <div>
                     <h4 className="font-bold text-brand-brown mb-2">Structural Design</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Engineered clip systems for thermal movement</li>
-                      <li>• Reinforced panel connections at ridges and eaves</li>
-                      <li>• Proper deck attachment every 12 inches</li>
-                      <li>• Hurricane-rated underlayment systems</li>
+                      <li>• Concealed-fastener floating clip systems for thermal movement</li>
+                      <li>• Reinforced 24-gauge panel terminations at ridges and eaves</li>
+                      <li>• Deck attachment per UL 580 wind uplift requirements</li>
+                      <li>• High-temperature peel-and-stick underlayment</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-brand-brown mb-2">Installation Excellence</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Factory-trained installation teams</li>
-                      <li>• Proper seaming tools for weathertight seals</li>
-                      <li>• Building code compliance and inspections</li>
-                      <li>• Manufacturer certification and warranties</li>
+                      <li>• Crews trained on standing seam and R-panel profiles</li>
+                      <li>• Mechanical seamers for weathertight 180-degree double-locks</li>
+                      <li>• City of Amarillo permit and code compliance</li>
+                      <li>• Manufacturer certifications honoring the panel warranty</li>
                     </ul>
                   </div>
                 </div>
@@ -571,8 +571,11 @@ export default function MetalRoofingAmarilloPage() {
                     Energy Efficiency
                   </h3>
                   <p className="text-gray-700">
-                    Reflective coatings and proper ventilation reduce cooling costs significantly.
-                    In Amarillo's hot summers, this can mean hundreds of dollars in annual savings.
+                    Light-colored Kynar 500 finishes and ENERGY STAR cool-roof coatings on standing
+                    seam panels reflect a large share of the summer sun, cutting air-conditioning
+                    load during the long Amarillo heat stretch from June through September. Paired
+                    with a balanced ridge-and-soffit ventilation system, this can mean noticeable
+                    summer savings on the electric bill.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -583,9 +586,10 @@ export default function MetalRoofingAmarilloPage() {
                     Fire Resistance
                   </h3>
                   <p className="text-gray-700">
-                    Class A fire rating provides maximum protection. Important for Amarillo area
-                    where wildfire risk and dry conditions make fire resistance a priority for
-                    homeowners.
+                    Standing seam steel and aluminum panels carry a Class A fire rating, the
+                    highest available. That matters across the Texas Panhandle, where dry
+                    conditions and grassland fires around Potter and Randall counties make a
+                    non-combustible roof surface a real safety advantage.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -608,9 +612,10 @@ export default function MetalRoofingAmarilloPage() {
                     Low Maintenance
                   </h3>
                   <p className="text-gray-700">
-                    Minimal upkeep required. Occasional inspections and gutter cleaning are
-                    typically all that's needed. No replacing missing shingles or dealing with
-                    granule loss.
+                    Standing seam and R-panel metal roofs need annual inspection of fasteners,
+                    sealant at penetrations, and gutter cleaning. There are no missing tabs to
+                    replace and no granule loss on a Kynar 500 finish. For most Amarillo homes
+                    the only recurring task is keeping debris out of valleys and downspouts.
                   </p>
                 </div>
               </div>
@@ -792,8 +797,10 @@ export default function MetalRoofingAmarilloPage() {
               <div className="bg-brand-gold text-white p-6 rounded-xl text-center">
                 <h3 className="text-xl font-bold mb-2">Our Installation Warranty</h3>
                 <p className="text-lg">
-                  10-year workmanship warranty on all installations. We stand behind our work with
-                  complete coverage for labor and installation-related issues.
+                  Every metal roof we install in Amarillo carries a 10-year workmanship warranty.
+                  That covers our labor and the installation details, sitting on top of the
+                  manufacturer&apos;s panel and finish warranty from the standing seam or R-panel
+                  supplier. Both warranties stay with the home through resale.
                 </p>
               </div>
             </div>
@@ -817,8 +824,10 @@ export default function MetalRoofingAmarilloPage() {
                   </div>
                   <h3 className="font-bold text-brand-brown mb-2">Permit Acquisition</h3>
                   <p className="text-gray-600">
-                    We obtain all required permits from the City of Amarillo, ensuring compliance
-                    with local building codes.
+                    We pull every required permit through the City of Amarillo Building Safety
+                    department, including the structural review for standing seam installations
+                    over an existing deck. Homes in Canyon and Bushland follow their own
+                    municipal permitting paths; we handle those filings directly.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -850,19 +859,19 @@ export default function MetalRoofingAmarilloPage() {
                   <div>
                     <h4 className="font-bold text-brand-brown mb-2">Wind Load Requirements</h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• 90 mph basic wind speed</li>
-                      <li>• Exposure C wind exposure category</li>
-                      <li>• Enhanced fastening in high-wind zones</li>
-                      <li>• Special provisions for corners and perimeters</li>
+                      <li>• 90 mph basic wind speed for the Amarillo IBC reference</li>
+                      <li>• Exposure C category for open Texas Panhandle terrain</li>
+                      <li>• Enhanced clip fastening at corners and perimeter zones</li>
+                      <li>• UL 580 wind uplift compliance for the panel system</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-brand-brown mb-2">Installation Standards</h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Proper deck attachment specifications</li>
-                      <li>• Underlayment requirements for climate</li>
-                      <li>• Flashing and penetration sealing standards</li>
-                      <li>• Thermal movement accommodation</li>
+                      <li>• Deck attachment specs sized for OSB or plywood substrate</li>
+                      <li>• High-temperature self-adhered underlayment under metal panels</li>
+                      <li>• Closed-cell butyl sealant at every panel penetration</li>
+                      <li>• Floating clips that accept the panel&apos;s thermal movement</li>
                     </ul>
                   </div>
                 </div>

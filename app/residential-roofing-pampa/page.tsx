@@ -338,13 +338,15 @@ export default function ResidentialRoofingPampaPage() {
                   Storm Damage Restoration
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Expert restoration for severe weather damage including hail, tornadoes, and
-                  straight-line winds common in Gray County.
+                  Hail, tornadoes, and straight-line wind events are recurring in Gray County.
+                  We rebuild roofs after severe weather using Class 4 impact-rated architectural
+                  shingles or 24-gauge standing seam metal so the next storm meets a stronger
+                  system. Most projects in Pampa run through insurance.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Tornado damage specialists</li>
-                  <li>• Complete insurance coordination</li>
-                  <li>• Structural assessment services</li>
+                  <li>• Tornado and microburst damage repair across Gray County</li>
+                  <li>• Documentation packaged for State Farm, Allstate, USAA, and Farmers</li>
+                  <li>• Structural assessment of rafters and OSB decking</li>
                 </ul>
               </div>
 

@@ -131,8 +131,7 @@ export default function VegaRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">High Plains Specialists</h3>
                 <p className="text-gray-600">
-                  Vega's exposed high plains location requires specialized roofing. We use materials
-                  rated for extreme wind, hail, and temperature conditions.
+                  Vega sits on the open Llano Estacado at the I-40 corridor with no terrain to break the wind. We default to UL 580 wind-uplift-rated standing seam metal or Class 4 UL 2218 asphalt installed with six-nail patterns on Vega homes, so the system holds up to the 60-to-70 mph Panhandle gusts that arrive every spring.
                 </p>
               </div>
             </div>

@@ -286,10 +286,7 @@ export default function WindDamageRepairLevellandPage() {
                   Straight-Line Wind Damage
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Unlike tornado damage, straight-line winds create consistent directional forces
-                  that can lift entire roof sections, tear membranes, and damage flashing systems.
-                  The South Plains' flat topography allows these winds to maintain intensity over
-                  vast distances, affecting multiple properties simultaneously.
+                  Unlike tornado damage, straight-line winds drive consistent directional forces that lift sections of asphalt shingles, peel TPO and EPDM membranes at the perimeter, and dislodge metal flashing along parapet walls. The flat South Plains topography around Levelland and Hockley County lets these winds maintain intensity for miles across open cotton ground, damaging multiple properties along the same line.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -297,10 +294,7 @@ export default function WindDamageRepairLevellandPage() {
                   Seasonal Wind Variations
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Hockley County experiences different wind patterns throughout the year. Spring
-                  brings severe thunderstorms with microbursts, summer has sustained thermal winds,
-                  fall features powerful cold fronts, and winter brings arctic blasts. Each requires
-                  specific repair and reinforcement approaches.
+                  Hockley County wind patterns shift through the year. Spring delivers supercell thunderstorms and microbursts coming off the Llano Estacado. Summer brings sustained thermal winds across cotton country. Fall arrives with strong cold fronts off the high plains. Winter throws arctic blasts down out of the north. Each season changes which fastening pattern, edge detail, or membrane reinforcement actually matters.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -308,10 +302,7 @@ export default function WindDamageRepairLevellandPage() {
                   Uplift vs. Lateral Forces
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Panhandle winds create both uplift forces that try to pull roofing materials off
-                  and lateral forces that push against vertical surfaces. Our repair techniques
-                  address both force vectors, ensuring comprehensive protection against future wind
-                  events common in the region.
+                  South Plains winds work in two directions at once. Uplift pulls upward at shingles, membranes, and ridge details. Lateral pressure pushes against parapet walls, fascia, and flashing. Repairs need to address both. We upgrade fastener patterns to handle uplift loads consistent with UL 580 wind-uplift performance, and we anchor edge metal and counter-flashing to resist the lateral push that comes with 70-90 mph gusts off the Hockley County plains.
                 </p>
               </div>
             </div>
@@ -330,9 +321,7 @@ export default function WindDamageRepairLevellandPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Membrane Uplift</h3>
                 <p className="text-gray-700">
-                  High winds can lift and tear roofing membranes, especially at edges and corners
-                  where wind forces concentrate. This damage often starts small but spreads rapidly
-                  if not immediately addressed with proper repair techniques.
+                  High winds peel TPO, EPDM, and modified bitumen membranes at the edges and corners where pressure concentrates. A small lifted seam on a Levelland warehouse can run open along an entire roof line if it is not properly heat-welded, re-fastened, and detailed back into the perimeter system.
                 </p>
               </div>
               <div className="text-center">
@@ -341,9 +330,7 @@ export default function WindDamageRepairLevellandPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Fastener Failure</h3>
                 <p className="text-gray-700">
-                  Sustained winds can work loose mechanical fasteners, creating weak points that
-                  lead to progressive roof failure. South Plains properties need upgraded fastening
-                  patterns and enhanced attachment systems.
+                  Sustained 25-45 mph winds back screws and nails out a fraction at a time, leaving low spots that progress into ridge or field failure. Levelland and Whitharral buildings benefit from tighter fastener patterns and corrosion-resistant fasteners spec&apos;d against UL 580 wind-uplift criteria.
                 </p>
               </div>
               <div className="text-center">
@@ -352,9 +339,7 @@ export default function WindDamageRepairLevellandPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Flashing Displacement</h3>
                 <p className="text-gray-700">
-                  Wind-driven rain and lateral forces can damage flashing systems around
-                  penetrations, parapets, and roof edges, creating leak points that compromise the
-                  entire building envelope.
+                  Wind-driven rain and lateral pressure pry metal flashing loose at HVAC curbs, parapets, and roof-to-wall transitions. Even a quarter-inch gap behind counter-flashing routes water under the membrane or shingle field, creating leaks that surface yards away from the actual failure point.
                 </p>
               </div>
             </div>
@@ -399,10 +384,7 @@ export default function WindDamageRepairLevellandPage() {
                     Comprehensive Safety Inspection
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our certified inspectors conduct thorough safety assessments to identify
-                    structural integrity issues, loose materials, and immediate hazards. We secure
-                    dangerous areas and provide prompt stabilization to prevent further damage while
-                    planning comprehensive repairs.
+                    Our inspectors walk the building and adjacent grade to find loose decking, lifted shingles or membrane edges, and the kind of hazards that follow a Hockley County wind event. We mark off unsafe areas, photograph every concern, and document the scope before quoting permanent repairs. Temporary weather protection can be scheduled separately if the building envelope is compromised.
                   </p>
                 </div>
               </div>
@@ -429,10 +411,7 @@ export default function WindDamageRepairLevellandPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Structural Evaluation</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our engineers evaluate the roof's structural components to identify compromised
-                    decking, damaged insulation, and stressed structural members. We assess the
-                    roof's ability to withstand future wind events and recommend reinforcement
-                    upgrades where needed.
+                    We evaluate the deck, insulation, and structural members from above and from the attic side. On commercial buildings that means inspecting steel deck, ISO insulation, and parapet construction. On homes around Levelland and Whitharral that means checking CDX plywood or 1x6 plank decking, rafter connections, and ridge integrity. The findings drive whether reinforcement is needed before reroofing.
                   </p>
                 </div>
               </div>
@@ -445,10 +424,7 @@ export default function WindDamageRepairLevellandPage() {
                     Repair Strategy Development
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Based on damage assessment and local wind patterns, we develop customized repair
-                    strategies that not only restore the roof but enhance its wind resistance. This
-                    includes upgraded fastening patterns, reinforced edge details, and improved
-                    drainage systems.
+                    The repair scope is built around what the inspection found and what Hockley County typically throws at a roof. That usually includes tighter fastener spacing along eaves and ridges, reinforced metal edge details rated for UL 580 wind uplift, and drainage corrections so wind-driven rain off the South Plains has somewhere to go besides through the parapet.
                   </p>
                 </div>
               </div>
@@ -461,10 +437,7 @@ export default function WindDamageRepairLevellandPage() {
                     Insurance Coordination
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    We work directly with insurance adjusters to ensure fair settlements and
-                    complete coverage of wind damage repairs. Our detailed documentation and local
-                    expertise help maximize claim settlements while minimizing property owner
-                    out-of-pocket expenses.
+                    We work directly with adjusters from State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau, walking the roof together when scheduling allows. Documentation is delivered before the adjuster meeting so the conversation centers on scope and pricing rather than evidence. Commercial claims also reference the Texas Prompt Payment Act for payment timing.
                   </p>
                 </div>
               </div>
@@ -637,24 +610,25 @@ export default function WindDamageRepairLevellandPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-red-700 mb-4">
-                  Immediate Actions After Wind Damage
+                  Steps to Take After Wind Damage
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Ensure personal safety - stay away from damaged areas</li>
-                  <li>• Document damage with photos from ground level</li>
-                  <li>• Move valuable items away from leak areas</li>
-                  <li>• Place tarps or buckets to catch water</li>
-                  <li>• Notify your insurance company</li>
+                  <li>• Stay clear of damaged sections of the roof, attic, and any down power lines</li>
+                  <li>• Photograph damage from ground level around the full perimeter of the building</li>
+                  <li>• Move furniture and electronics away from active leak areas and ceiling stains</li>
+                  <li>• Set buckets under interior drips and lay towels at exterior threshold flow points</li>
+                  <li>• Notify your carrier (State Farm, Allstate, USAA, Farmers, or Texas Farm Bureau) and start a claim</li>
+                  <li>• Save receipts for any short-term protective measures the insurer asks you to take</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-red-700 mb-4">Our scheduling</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-4">What We Schedule</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Professional weatherproof sheeting and securing</li>
-                  <li>• Active-leak weatherproofing</li>
-                  <li>• Structural safety assessment</li>
-                  <li>• Insurance documentation assistance</li>
-                  <li>• Securing services if needed</li>
+                  <li>• Professional weatherproof sheeting on compromised roof sections</li>
+                  <li>• Temporary weather protection over active leak areas</li>
+                  <li>• Structural safety assessment of decking, framing, and parapets</li>
+                  <li>• Insurance documentation packages for the adjuster meeting</li>
+                  <li>• Permanent repair scheduling once the claim scope is settled</li>
                 </ul>
               </div>
             </div>

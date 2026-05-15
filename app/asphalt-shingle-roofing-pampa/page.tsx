@@ -272,23 +272,23 @@ export default function AsphaltShingleRoofingPampaPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Oil & gas industry professionals
+                    Oil and gas operations and pipeline workers across Gray County
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Energy sector family homes
+                    Pampa Industrial District and refining-adjacent neighborhoods
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Professional service workers
+                    Field service technicians and welders working Panhandle oil and gas
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Growing residential communities
+                    Newer residential developments north and west of downtown
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Executive housing developments
+                    Executive housing in the established south-side neighborhoods
                   </li>
                 </ul>
               </div>
@@ -299,23 +299,23 @@ export default function AsphaltShingleRoofingPampaPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Enhanced chemical resistance
+                    Architectural asphalt shingles with chemically resistant top coats
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Air quality protection features
+                    Balanced ridge and soffit ventilation for industrial-area attics
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Superior fire resistance
+                    Class A fire-rated shingle systems (GAF, CertainTeed, Owens Corning)
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    High-performance ventilation systems
+                    Continuous ridge vents matched to soffit intake net free area
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Maintenance-friendly designs
+                    Detail work designed for straightforward future maintenance
                   </li>
                 </ul>
               </div>
@@ -350,14 +350,13 @@ export default function AsphaltShingleRoofingPampaPage() {
                   Enhanced Air Quality Features
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Specialized shingle systems and ventilation solutions help maintain indoor air
-                  quality in areas with industrial operations.
+                  Pampa neighborhoods near industrial operations get more dust and particulate in the air than most Panhandle communities. The right shingle system and a properly balanced attic help keep indoor air cleaner over the life of the roof.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Advanced ventilation systems</li>
-                  <li>• Sealed deck installation</li>
-                  <li>• Air barrier integration</li>
-                  <li>• Filtration system compatibility</li>
+                  <li>• Continuous ridge and soffit ventilation for full attic airflow</li>
+                  <li>• Synthetic underlayment with sealed deck details</li>
+                  <li>• Air barrier integration at the soffit and ridge transitions</li>
+                  <li>• Vent placement compatible with attic-mounted filtration</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -365,14 +364,13 @@ export default function AsphaltShingleRoofingPampaPage() {
                   Executive Home Standards
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Premium materials and installation techniques that meet the high standards
-                  expected by energy industry professionals.
+                  Larger Pampa homes call for upgraded materials and finish details that hold up across decades of West Texas wind, sun, and the occasional Class 4-rated hail event. We work from the architectural asphalt and impact-resistant lines offered by GAF, CertainTeed, and Owens Corning.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Designer color selections</li>
-                  <li>• Architectural enhancement options</li>
-                  <li>• Extended warranty packages</li>
-                  <li>• Professional project management</li>
+                  <li>• Architectural and designer-series shingle color palettes</li>
+                  <li>• Class 4 UL 2218 impact-resistant options on every quote</li>
+                  <li>• Manufacturer system warranties with extended coverage</li>
+                  <li>• Single project manager from contract through final walkthrough</li>
                 </ul>
               </div>
             </div>
@@ -411,14 +409,13 @@ export default function AsphaltShingleRoofingPampaPage() {
                     Executive Service Standards
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Energy industry professionals expect and deserve the highest levels of service,
-                    communication, and workmanship quality.
+                    A reroof on a Pampa home is a significant investment and the family is usually balancing it against demanding work schedules in oil and gas. The service standard has to match. We assign a single point of contact for the duration of the job.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Dedicated project managers</li>
-                    <li>• Daily progress updates</li>
-                    <li>• Flexible scheduling around work demands</li>
-                    <li>• Premium material selections</li>
+                    <li>• Single project manager from contract through final walkthrough</li>
+                    <li>• Daily progress updates by text or email</li>
+                    <li>• Scheduling that works around field-service and rig rotations</li>
+                    <li>• Architectural and Class 4 impact-resistant material options</li>
                   </ul>
                 </div>
                 <div>
@@ -426,14 +423,13 @@ export default function AsphaltShingleRoofingPampaPage() {
                     Industry Professional Discounts
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    We offer special pricing for Pampa's energy industry workers as appreciation for
-                    their contribution to the local economy.
+                    Pampa&apos;s economy runs on oil and gas, and we offer pricing programs that recognize the long hours those workers put in. Ask about active programs when you call (806) 622-6041.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Energy industry employee discounts</li>
-                    <li>• Referral rewards programs</li>
-                    <li>• Multiple home project pricing</li>
-                    <li>• Flexible payment terms</li>
+                    <li>• Pricing programs for Pampa energy industry employees</li>
+                    <li>• Referral credits when neighbors and coworkers schedule reroofs</li>
+                    <li>• Multi-property pricing for landlords and rental owners</li>
+                    <li>• Financing options to spread payments across the year</li>
                   </ul>
                 </div>
               </div>

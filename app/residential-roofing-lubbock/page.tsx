@@ -317,17 +317,12 @@ export default function ResidentialRoofingLubbockPage() {
               <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-xl shadow-md border-l-4 border-red-600">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">University Area</h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Property Type:</strong> Student & Faculty Housing
+                  <strong>Property Type:</strong> Student and Faculty Housing
                   <br />
                   <strong>Rental Market:</strong> High Density
-                  <br />
-                  <strong>Average Rent:</strong> /month
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Surrounding Texas Tech campus with mix of student rentals and faculty housing.
-                  Many properties are investment rentals requiring fast turnaround and durable
-                  materials. We coordinate with property managers and work around academic
-                  schedules. Special educator discounts available for Texas Tech faculty and staff.
+                  The neighborhoods surrounding Texas Tech, including the historic Tech Terrace district just west of campus, mix older single-family homes, faculty-owned residences, and a heavy concentration of investor-owned student rentals. We work with Lubbock-area property managers to schedule reroofs around the academic calendar so vacancy windows line up with summer break. Educator pricing is available for Texas Tech faculty and staff.
                 </p>
               </div>
             </div>
@@ -358,10 +353,7 @@ export default function ResidentialRoofingLubbockPage() {
                   Texas Tech University Expertise
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  We specialize in university-area properties, from historic Tech Terrace homes to
-                  modern faculty housing. We coordinate around academic calendars, offer educator
-                  discounts, and understand the unique needs of rental properties and student
-                  housing. Fast turnaround times minimize vacancy periods for investment properties.
+                  Our crews work the Texas Tech University district regularly, from the older brick-and-shingle homes in Tech Terrace to the faculty housing west of campus and the apartment-style rentals that fill in between. We schedule around the academic calendar, offer educator pricing for Tech faculty and staff, and turn jobs around in tight windows when an investor needs the property leasable for the next semester.
                 </p>
               </div>
 
@@ -382,10 +374,7 @@ export default function ResidentialRoofingLubbockPage() {
                   Complete Permit & Code Service
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  We handle all City of Lubbock building permits and code compliance at no extra
-                  charge. Important note: Properties in unincorporated Lubbock County have different
-                  requirements since the county doesn't issue building permits. We navigate these
-                  distinctions expertly, ensuring your project meets all applicable regulations.
+                  We pull all City of Lubbock building permits and handle code compliance through Building Safety at no extra charge. Worth knowing: properties in unincorporated Lubbock County follow different rules because the county itself does not issue building permits, though subdivision regulations and HOA covenants may still apply. We work both sides of that line and make sure the project meets every applicable Texas Panhandle requirement.
                 </p>
               </div>
             </div>
@@ -431,24 +420,23 @@ export default function ResidentialRoofingLubbockPage() {
                   </h3>
                   <ul className="space-y-2 text-gray-700">
                     <li>
-                      <strong>Building Permits:</strong> Not required by county
+                      <strong>Building Permits:</strong> Not issued by Lubbock County
                     </li>
                     <li>
-                      <strong>Regulations:</strong> Subdivision regulations apply
+                      <strong>Regulations:</strong> Subdivision regulations and county ordinances still apply
                     </li>
                     <li>
-                      <strong>Note:</strong> Different rules than city limits
+                      <strong>Note:</strong> Different rules than inside Lubbock city limits
                     </li>
                     <li>
-                      <strong>HOA:</strong> Private community rules may apply
+                      <strong>HOA:</strong> Private community covenants may govern materials and color
                     </li>
                   </ul>
                 </div>
               </div>
 
               <p className="text-gray-600 italic">
-                We handle all permitting requirements and navigate these jurisdictional differences
-                at no extra charge, ensuring full compliance and warranty protection.
+                We pull City of Lubbock permits when required, follow subdivision and HOA rules in the county, and handle the jurisdictional differences at no extra charge so the install stays in full compliance and the manufacturer warranty (GAF, CertainTeed, Owens Corning) remains intact.
               </p>
             </div>
           </section>
@@ -498,14 +486,10 @@ export default function ResidentialRoofingLubbockPage() {
               <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-amber-600">
                 <h3 className="text-xl font-bold text-amber-800 mb-3">Extreme UV & Temperature</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>Intense solar radiation</strong> at 3,200 feet elevation with little
-                  atmospheric protection. Temperature swings from winter freezes to summer heat
-                  create thermal cycling stress.
+                  <strong>Intense solar radiation</strong> at the 3,200-foot elevation of the South Plains, where thinner atmosphere means more UV reaches the roof every day. The temperature swings from winter freezes to summer triple digits cycle the shingles through expansion and contraction year after year.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  UV radiation accelerates shingle aging and granule loss. Poor ventilation
-                  amplifies heat damage. Premium materials and proper ventilation extend roof life
-                  significantly.
+                  UV exposure accelerates granule loss and dries out the asphalt mat. Inadequate ridge and soffit ventilation amplifies attic heat and shortens shingle life further. Class 4 impact-resistant shingles paired with balanced ventilation extend usable roof life meaningfully on Lubbock homes.
                 </p>
               </div>
             </div>

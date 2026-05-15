@@ -403,6 +403,13 @@ export default function TPORoofingAmarilloPage() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Building Types</h3>
+                <p className="text-gray-700 mb-4">
+                  TPO single-ply membrane is the workhorse low-slope roof across Amarillo
+                  commercial property, from the warehouse corridor along I-40 to medical offices
+                  and shopping centers off Soncy Road. The building types below all see TPO
+                  installs in 60-mil or 80-mil thickness with mechanically attached or fully
+                  adhered systems depending on wind exposure and deck type.
+                </p>
                 <div className="bg-white p-8 rounded-xl shadow-sm">
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-center">
@@ -484,8 +491,10 @@ export default function TPORoofingAmarilloPage() {
                   Comprehensive Inspection
                 </h3>
                 <p className="text-gray-700">
-                  Thorough assessment of your existing roof structure, including moisture detection,
-                  structural evaluation, and measurement for accurate material calculations.
+                  We core-sample the existing membrane and substrate, run an infrared moisture
+                  scan over the deck, document insulation condition, and pull accurate field
+                  measurements. That data drives the TPO thickness, fastening pattern, and
+                  insulation R-value spec for the Amarillo wind zone.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg text-center">
@@ -519,9 +528,11 @@ export default function TPORoofingAmarilloPage() {
                   Professional Installation
                 </h3>
                 <p className="text-gray-700">
-                  Expert installation by certified technicians using proper heat-welding techniques,
-                  mechanical attachment systems, and quality control procedures throughout the
-                  process.
+                  Crews installing the TPO use automated hot-air welders for the main field seams
+                  and hand welders for corners and penetrations. Seams are probe-tested as each
+                  section closes. Fasteners and termination bars are installed to the
+                  manufacturer&apos;s pattern so the warranty stays intact when the inspector
+                  signs off.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
@@ -530,8 +541,10 @@ export default function TPORoofingAmarilloPage() {
                   Final Inspection & Warranty
                 </h3>
                 <p className="text-gray-700">
-                  Comprehensive final inspection, cleanup, and delivery of all warranty
-                  documentation including manufacturer warranties and our workmanship guarantee.
+                  We walk the finished roof with the building owner, verify the City of Amarillo
+                  final inspection has signed off, complete the site cleanup, and hand over the
+                  manufacturer NDL or system warranty paperwork from Carlisle, Firestone, or
+                  GAF along with our workmanship guarantee on the install.
                 </p>
               </div>
             </div>

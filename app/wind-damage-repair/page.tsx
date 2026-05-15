@@ -284,35 +284,25 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Lifted and Missing Shingles</h3>
             <p className="text-gray-700">
-              Wind catches the exposed edge of a shingle and peels it upward, breaking the adhesive
-              seal. Once one shingle lifts, surrounding shingles lose their overlap protection and
-              become vulnerable too. Missing shingles leave the underlayment and deck directly
-              exposed to rain.
+              Texas Panhandle wind catches the exposed edge of a shingle and peels it upward, breaking the factory adhesive seal that holds the tab to the course below. Once one shingle lifts, the surrounding shingles lose their overlap protection and the seal strip starts to fail on either side. Once the tabs are gone, the synthetic or felt underlayment is the only thing between rain and the OSB deck.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Exposed Underlayment</h3>
             <p className="text-gray-700">
-              When shingles blow off, the synthetic or felt underlayment beneath them becomes the
-              only barrier between your roof deck and the weather. Underlayment is not designed for
-              prolonged UV exposure and will degrade quickly, making emergency repair critical.
+              When shingles blow off in a 60-plus-mph Panhandle gust, the synthetic or felt underlayment is the only barrier between your roof deck and the next rain. Underlayment is not designed for prolonged UV exposure across a Texas summer and will degrade within weeks. Reshingling that section is a priority before the next storm front rolls through.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Flashing Separation</h3>
             <p className="text-gray-700">
-              Metal flashing around chimneys, vents, and roof edges can bend, lift, or separate
-              completely under high winds. This creates immediate leak points at the most vulnerable
-              junctions of your roof system, where water infiltration is most likely.
+              Metal step flashing around chimneys, pipe boots, sidewalls, and roof edges can bend, lift, or separate completely under sustained Panhandle winds. The joints between flashing and the shingle field are the most vulnerable points on the entire roof system. Even a quarter-inch gap at a chimney saddle becomes a direct leak path during the next West Texas thunderstorm.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Ridge Cap and Soffit Damage</h3>
             <p className="text-gray-700">
-              Ridge caps sit at the highest point of your roof and take the full force of wind. Once
-              damaged, they allow wind-driven rain into the attic. Soffits and fascia boards along
-              the eaves can crack, warp, or blow off, compromising your roof&apos;s ventilation
-              system.
+              Ridge caps sit at the highest point of your roof and take the full force of West Texas wind. Once a ridge cap shingle breaks loose, wind-driven rain blows straight into the attic. Soffits and fascia along the eaves can crack, warp, or blow off entirely. That damages the ventilation balance between intake and ridge exhaust that keeps your attic dry through Amarillo summers.
             </p>
           </div>
         </div>
@@ -333,9 +323,7 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-1">Weatherproof Sheeting</h3>
               <p className="text-gray-700">
-                If your roof has exposed areas, we tarp the damaged sections to prevent further
-                water intrusion. This is especially critical during active storm seasons when
-                follow-up rain is likely within days.
+                If a Panhandle windstorm has left sections of decking exposed, we install temporary weather protection over the damaged area to keep water out until the permanent repair is scheduled. This step matters most during peak storm season from March through September, when a follow-up cell can sweep across the South Plains within days of the first event.
               </p>
             </div>
           </div>
@@ -346,9 +334,7 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-1">Damage Assessment</h3>
               <p className="text-gray-700">
-                We inspect every section of your roof to identify all wind damage, not just the
-                obvious spots. This includes checking flashing, ridge caps, underlayment, and the
-                attic interior for signs of water entry. You receive a written report with photos.
+                We inspect every slope of your roof to identify the full extent of wind damage, not just the obvious missing tabs. That includes step flashing, ridge caps, pipe boots, drip edge, and the attic interior for early signs of water entry around the rafters. You receive a written report with slope-by-slope photos that an Allstate, State Farm, or USAA adjuster can work from.
               </p>
             </div>
           </div>
@@ -359,9 +345,7 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-1">Insurance Documentation</h3>
               <p className="text-gray-700">
-                We prepare detailed damage reports with photographs, measurements, and material
-                specifications formatted for insurance adjusters. Our documentation helps streamline
-                your claim and supports full coverage of the repair costs.
+                We prepare a detailed damage report with photographs, tape-measure dimensions, and material specifications (manufacturer, profile, UL 580 wind-uplift rating) formatted the way Texas adjusters expect. Solid documentation helps the claim move through your carrier without the back-and-forth that drags out repair timelines.
               </p>
             </div>
           </div>
@@ -374,10 +358,7 @@ export default function Page() {
                 Targeted Repair or Full Replacement
               </h3>
               <p className="text-gray-700">
-                Depending on the extent of damage, we either repair the affected areas or recommend
-                full replacement. Localized damage typically requires replacing individual shingles,
-                re-securing flashing, and sealing penetrations. Widespread damage across 30% or more
-                of the roof surface often makes full replacement the more practical choice.
+                Depending on the extent of damage, we either repair the affected sections or recommend full replacement with a UL 580 wind-rated system. Localized damage typically means replacing individual architectural shingles, resecuring step flashing, and sealing penetrations. Widespread damage across 30 percent or more of the roof surface usually makes a full replacement the more practical choice on Amarillo and Lubbock homes.
               </p>
             </div>
           </div>
@@ -435,8 +416,7 @@ export default function Page() {
       <FadeIn delay={0.25}>
         <h2 className="text-2xl font-bold mt-8 mb-4">How Can You Prevent Future Wind Damage?</h2>
         <p className="mb-4">
-          Proactive maintenance is far less expensive than emergency repairs. These measures
-          significantly reduce your roof&apos;s vulnerability to wind:
+          Proactive maintenance on a Panhandle home costs a fraction of post-storm repairs, and a handful of installation upgrades will carry your roof through a 70-plus-mph gust the next time a spring thunderstorm pushes down the Llano Estacado. These are the measures that meaningfully reduce wind vulnerability on asphalt shingle, metal, and tile roofs across Amarillo, Canyon, Lubbock, and Midland:
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
@@ -451,9 +431,7 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Proper Nailing Patterns</h3>
             <p className="text-gray-700">
-              Using six nails per shingle instead of four, placed in the manufacturer&apos;s
-              recommended nailing zone, dramatically improves hold strength. This single upgrade can
-              mean the difference between a roof that survives a 70 mph gust and one that does not.
+              Six nails per shingle instead of four, placed inside the GAF or CertainTeed manufacturer nailing zone, meaningfully improves hold strength on architectural asphalt. This single upgrade can mean the difference between a roof that survives a 70-mph Panhandle gust and one that loses a slope. We install six-nail patterns by default on every reroof.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -467,9 +445,7 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Sealed Roof Decking</h3>
             <p className="text-gray-700">
-              Applying a peel-and-stick ice and water shield membrane over the entire roof deck, or
-              at minimum along eaves, rakes, and valleys, creates a secondary waterproof barrier
-              even if shingles are blown off.
+              A peel-and-stick ice and water shield membrane across the entire roof deck, or at minimum along eaves, rakes, and valleys, creates a secondary waterproof barrier even if shingles are blown off in a Panhandle storm. This detail is standard on every full reroof we quote and is what keeps an attic dry on a roof that has lost a few tabs.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">

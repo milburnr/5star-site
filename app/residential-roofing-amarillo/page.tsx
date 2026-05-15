@@ -383,8 +383,7 @@ export default function ResidentialRoofingAmarilloPage() {
                   Insurance Claim Specialists
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  We document every
-                  impact, meet with adjusters on-site, and advocate for maximum coverage. We work with State Farm, Allstate, USAA, and every major carrier.
+                  We document every hail impact and wind-lifted shingle, meet the adjuster on the Amarillo roof, and advocate for full coverage on items like ridge cap, ice and water shield, drip edge, and code-required underlayment upgrades. Carriers we work with regularly across Potter and Randall County include State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau.
                 </p>
               </div>
 

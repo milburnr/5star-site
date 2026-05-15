@@ -294,8 +294,7 @@ export default function Page() {
           Hail Damage Documentation for Industrial Facilities
         </h2>
         <p className="mb-4">
-          When hail strikes your industrial facility, thorough documentation is the first step to a
-          successful insurance claim. Our inspection team provides:
+          A hail event on a warehouse or processing building puts six figures of inventory and roof system at stake. Carriers including State Farm, Allstate, Texas Farm Bureau, and large commercial carriers all expect specific evidence before they will pay full scope on a TPO, EPDM, or modified bitumen roof. Our inspection team delivers a documentation package that meets that bar, with drone imagery, hail-strike measurement against UL 2218 criteria, and slope-by-slope reporting built for the adjuster meeting.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -304,10 +303,9 @@ export default function Page() {
               <Zap className="w-6 h-6 inline-block" />
             </span>
             <div>
-              <h3 className="font-bold mb-2"></h3>
+              <h3 className="font-bold mb-2">Temporary Weather Protection</h3>
               <p className="text-gray-600">
-                Available throughout the region for weatherproof sheeting and temporary repairs to protect inventory and
-                equipment
+                For warehouses, distribution centers, and processing buildings across the Texas Panhandle and Permian Basin, we install professional weatherproof sheeting over compromised roof areas so inventory, machinery, and inventory-control systems stay dry while the permanent scope is built.
               </p>
             </div>
           </div>
@@ -350,6 +348,9 @@ export default function Page() {
         </div>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Industrial Facilities We Serve in Amarillo</h2>
+        <p className="mb-4 text-gray-700">
+          Our industrial roofing work covers Amarillo&apos;s warehouse corridors along I-40 and the agricultural processing buildings that ring the Texas Panhandle. We install and repair TPO, PVC, EPDM, modified bitumen, and standing seam metal across the facility types below, with documentation built for adjusters at State Farm, Allstate, Texas Farm Bureau, and large commercial carriers.
+        </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <div className="feature-box">
             <p className="font-semibold">Warehouses</p>
@@ -404,15 +405,15 @@ export default function Page() {
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Free Industrial Roof Assessment</h2>
         <p className="mb-6">
-          Schedule an inspection to discover potential roof issues. Our comprehensive inspection includes:
+          Most industrial roof problems start small and stay invisible from the ground. We schedule on-site inspections at warehouses, distribution centers, and processing facilities across Amarillo, Lubbock, Midland, and the surrounding Texas Panhandle and Permian Basin. The walk-through is no cost, no obligation, and includes:
         </p>
         <ul className="list-disc list-inside mb-8 space-y-2">
-          <li>Aerial drone photography to identify hail damage</li>
-          <li>Moisture detection scans to find hidden leaks</li>
-          <li>Structural assessment of roof deck and supports</li>
-          <li>Drainage system evaluation</li>
-          <li>Detailed written report with photos</li>
-          <li>No-obligation repair or replacement estimate</li>
+          <li>Aerial drone photography to identify hail bruising and field-membrane wear</li>
+          <li>Moisture detection scans across TPO, EPDM, and modified bitumen to find hidden saturation</li>
+          <li>Structural assessment of metal deck, insulation, and parapet construction</li>
+          <li>Drainage system evaluation at scuppers, drains, and gutter terminations</li>
+          <li>Written report with slope-by-slope photos and notations</li>
+          <li>No-obligation repair or replacement estimate built in Xactimate</li>
         </ul>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Service Areas Across West Texas</h2>
@@ -482,9 +483,7 @@ export default function Page() {
         <div className="card mb-8">
           <div className="card-body">
             <p className="mb-4">
-              Industrial roofing is a significant investment, but understanding the long-term return
-              on investment helps facility managers make informed decisions. Key factors that affect
-              industrial roofing costs in West Texas include:
+              An industrial reroof is a six- or seven-figure decision. The right system pays back through reduced cooling load, fewer leaks into stored inventory, and longer time between major projects. Facility managers in Amarillo, Lubbock, and Midland generally weigh these cost drivers when scoping a TPO, PVC, EPDM, or modified bitumen install on a warehouse or processing building:
             </p>
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Cost Factors</h3>
             <ul className="list-disc pl-6 space-y-2 mb-4">
@@ -537,9 +536,7 @@ export default function Page() {
         <div className="card mb-8">
           <div className="card-body">
             <p className="mb-4">
-              Extend your industrial roof's lifespan and prevent costly storm repairs with our
-              preventive maintenance programs. Regular inspections and minor repairs catch problems
-              before they become major issues.
+              Industrial TPO, PVC, EPDM, and modified bitumen roofs all last longer with structured maintenance than they do under a fix-it-when-it-leaks approach. Spring and fall inspections catch sealant failure, drain clogs, and flashing displacement before the next Panhandle hail cell turns those small issues into a wet warehouse floor.
             </p>
             <h3 className="text-xl font-semibold text-brand-brown mb-3">
               Our Maintenance Program Includes:
@@ -576,10 +573,7 @@ export default function Page() {
             <div className="card-body">
               <h3 className="font-bold mb-2">Can you work around our production schedule?</h3>
               <p>
-                Absolutely. We understand industrial facilities can't afford extended downtime. Our
-                project managers coordinate closely with your team to schedule work during
-                low-activity periods, and we can phase installations to keep critical areas
-                operational.
+                Yes. Industrial facilities cannot absorb extended downtime, and our project managers know it. We sequence installations during shift changes, weekends, or planned maintenance windows depending on your operation. On a 50,000 sq ft warehouse, that usually means phasing the roof in three to five sections so loading docks and production lines stay open. Wind direction and forecast govern day-to-day staging, especially during spring storm season across the Texas Panhandle.
               </p>
             </div>
           </div>

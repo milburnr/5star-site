@@ -363,9 +363,7 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Chemical Resistance</h3>
             <p className="text-gray-700">
-              TPO resists oils, grease, and many industrial chemicals that can deteriorate other
-              membrane types. This makes it a practical choice for restaurants, manufacturing
-              facilities, and auto shops where rooftop HVAC units and exhaust systems are common.
+              TPO resists oils, grease, and many industrial chemicals that degrade EPDM and asphalt-based membranes. That makes it a strong fit for restaurants along I-40, manufacturing buildings in Amarillo&apos;s warehouse corridor, and auto and oilfield service shops across the Permian Basin where rooftop HVAC units and exhaust fans drop residue onto the membrane year-round.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -509,26 +507,19 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Seam Inspection</h3>
             <p className="text-gray-700">
-              Heat-welded seams are TPO&apos;s strongest feature, but edge seams and flashing
-              terminations should be inspected annually. We check every linear foot of seam for
-              signs of separation, fish-mouthing, or wear, particularly around penetrations like
-              HVAC units, vents, and drains.
+              Heat-welded seams are TPO&apos;s strongest feature, but Panhandle UV and 25-45 mph sustained winds put steady stress on edge seams and flashing terminations. We inspect every linear foot of seam annually for separation, fish-mouthing, and wear, with extra attention around HVAC curbs, plumbing vents, and roof drains where most failures start.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Membrane Patching</h3>
             <p className="text-gray-700">
-              Punctures from foot traffic, dropped tools, or hail are repaired by heat-welding a
-              matching TPO patch over the damaged area. These repairs restore the membrane to its
-              original waterproof integrity and can be completed in under an hour for small areas.
+              Punctures from foot traffic on HVAC service calls, dropped tools, or Texas Panhandle hail are repaired by heat-welding a matching TPO patch from manufacturers like Carlisle or Firestone over the damaged area. The patch restores the original waterproof bond and on small areas can be completed in under an hour without taking the building offline.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Drain Maintenance</h3>
             <p className="text-gray-700">
-              Standing water is the enemy of any flat roof. We clear roof drains, scuppers, and
-              gutters of debris, check for proper drainage slope, and verify that drain boots and
-              membrane terminations are secure. Clogged drains accelerate membrane degradation.
+              Standing water is the enemy of any flat TPO roof, especially across the Amarillo, Lubbock, and Midland-Odessa warehouse corridors where wind-driven caliche and grain dust pack into roof drains. We clear drains, scuppers, and parapet scuppers, verify slope is still draining toward the right points, and check that drain boots and membrane terminations remain bonded.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">

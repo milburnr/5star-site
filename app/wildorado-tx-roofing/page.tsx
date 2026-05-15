@@ -124,8 +124,11 @@ export default function WildoradoRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Rural Community Focus</h3>
                 <p className="text-gray-600">
-                  We understand small rural communities like Wildorado. Honest pricing, quality
-                  work, and treating every customer like a neighbor - not a number.
+                  Wildorado sits along I-40 in Oldham County, about 20 miles west of Amarillo,
+                  where most projects are residential homes plus a handful of agricultural
+                  outbuildings. We give the same straightforward pricing, the same brand
+                  materials, and the same warranty terms whether the job is a single home or a
+                  ranch headquarters.
                 </p>
               </div>
               <div className="text-center">
@@ -134,8 +137,10 @@ export default function WildoradoRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Ranch & Farm Experience</h3>
                 <p className="text-gray-600">
-                  From homes to barns, shops to grain storage - we handle all types of rural roofing
-                  including agricultural structures common around Wildorado.
+                  Rural Oldham County roofs run the full range, from architectural asphalt shingle
+                  homes to R-panel metal on barns, equipment sheds, and grain bins. We handle the
+                  full mix, including standing seam ranch headquarters and the loafing sheds and
+                  shops you see around Wildorado and Vega.
                 </p>
               </div>
             </div>

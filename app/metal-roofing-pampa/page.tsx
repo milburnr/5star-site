@@ -273,19 +273,19 @@ export default function MetalRoofingPampaPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Oil & gas processing facilities
+                    Oil and gas processing facilities across Gray County
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Equipment storage buildings
+                    Equipment storage buildings and pipe yards on Highway 60
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Administrative and office complexes
+                    Administrative and field office complexes
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Maintenance and repair shops
+                    Maintenance and pump repair shops with standing seam metal
                   </li>
                 </ul>
               </div>
@@ -296,23 +296,23 @@ export default function MetalRoofingPampaPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Class A fire resistance
+                    Class A fire rating, the highest for roof assemblies
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Lightning protection systems
+                    Bonded lightning protection paths along the standing seam
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Chemical exposure resistance
+                    Kynar 500 finishes that resist petroleum vapors and chlorides
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    High temperature tolerance
+                    Stable performance across Panhandle summer highs and winter cold
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Explosion-resistant construction
+                    Detailing options for blast-rated and hazardous-area construction
                   </li>
                 </ul>
               </div>

@@ -384,9 +384,7 @@ export default function RoofRepairCanyonPage() {
                   Palo Duro Canyon Wind Patterns
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon's proximity to Palo Duro Canyon creates unique wind patterns and
-                  microclimates that affect roofing systems. Our team understands how canyon
-                  geography influences weather damage and material selection.
+                  Canyon sits just north of Palo Duro Canyon, where the 800-foot drop into the gorge funnels High Plains winds and produces gust patterns you do not see in flat-prairie Amarillo or Hereford. Homes along the rim and the FM 1541 corridor catch the strongest channeled gusts, and that geography drives our material selection toward UL 580-rated standing seam metal and six-nail asphalt installation on every reroof.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Wind-channel damage assessment</li>
@@ -401,15 +399,13 @@ export default function RoofRepairCanyonPage() {
                   Historic Downtown Preservation
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon's historic downtown district requires specialized attention to preserve
-                  architectural integrity while upgrading roofing systems. We balance historical
-                  preservation with modern performance standards.
+                  Canyon&apos;s historic district around the Randall County Courthouse and the brick storefronts off 4th Avenue calls for materials and details that match the building era. We work with architectural asphalt and standing seam metal in profiles and colors that fit period-appropriate facades while still meeting current City of Canyon building code for wind uplift and ice and water shield coverage.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Historical building compliance</li>
-                  <li>• Period-appropriate materials</li>
-                  <li>• Preservation society coordination</li>
-                  <li>• Code-compliant upgrades</li>
+                  <li>• City of Canyon historic-district compliance</li>
+                  <li>• Period-appropriate architectural asphalt and standing seam metal</li>
+                  <li>• Coordination with the local preservation review</li>
+                  <li>• Current building-code upgrades on underlayment and flashing</li>
                 </ul>
               </div>
 
@@ -418,15 +414,13 @@ export default function RoofRepairCanyonPage() {
                   Agricultural Community Support
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon serves the surrounding agricultural community with ranching and farming
-                  operations. We provide specialized roofing services for agricultural buildings,
-                  barns, and rural residential properties.
+                  Canyon anchors the surrounding ranching and farming country across Randall County, and the building stock includes ranch headquarters, hay barns, equipment sheds, and rural homesteads scattered along Highway 217 and FM 1541. We install R-panel and standing seam metal for the long spans these buildings require, with fastening details rated for the unobstructed wind exposure rural properties face.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Agricultural building repairs</li>
-                  <li>• Ranch and farm structures</li>
-                  <li>• Rural residential services</li>
-                  <li>• Large-span roof systems</li>
+                  <li>• Hay barn and equipment shed reroofs</li>
+                  <li>• Ranch headquarters and rural homestead work</li>
+                  <li>• Rural residential service across Randall County</li>
+                  <li>• R-panel and standing seam metal on large-span structures</li>
                 </ul>
               </div>
             </div>
@@ -445,9 +439,7 @@ export default function RoofRepairCanyonPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Canyon Geography</h3>
                 <p className="text-gray-700">
-                  Located near Palo Duro Canyon, America's second-largest canyon, creating unique
-                  wind funneling effects and microclimate variations that impact roofing system
-                  performance and longevity.
+                  Canyon sits at the rim of Palo Duro Canyon, the second-largest canyon system in the country. The 800-foot drop creates wind-funneling along the rim that pushes gusts higher than flat-prairie Amarillo and creates microclimate variation block by block across the city.
                 </p>
               </div>
               <div className="text-center">
@@ -456,9 +448,7 @@ export default function RoofRepairCanyonPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">University Environment</h3>
                 <p className="text-gray-700">
-                  West Texas A&M University brings diverse architectural styles and high-density
-                  housing that requires specialized roofing approaches for both historic and modern
-                  campus buildings.
+                  West Texas A&amp;M University and its surrounding student-rental district mix brick academic halls, mid-century housing stock, and newer apartment construction. That variety calls for different roofing approaches across the same neighborhood, from architectural asphalt on older single-family homes to TPO and modified bitumen on small multi-unit buildings.
                 </p>
               </div>
               <div className="text-center">
@@ -467,9 +457,7 @@ export default function RoofRepairCanyonPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Hub</h3>
                 <p className="text-gray-700">
-                  Canyon serves as a regional agricultural center, requiring roofing solutions for
-                  diverse building types from residential homes to large agricultural facilities and
-                  grain storage structures.
+                  Canyon serves as a regional ag center for Randall County, which means our service calendar covers ranch headquarters, hay barns, grain storage structures along the rail line, and rural homes scattered across the county. Each building type calls for a different material spec, from asphalt shingle on a farmhouse to standing seam metal across a 60-foot hay barn span.
                 </p>
               </div>
             </div>
@@ -611,15 +599,13 @@ export default function RoofRepairCanyonPage() {
                       Long-Term Performance Monitoring
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Given Canyon's unique weather patterns, we provide extended monitoring
-                      services to ensure repairs perform as expected under local conditions. Our
-                      warranty service includes regular check-ins during severe weather seasons.
+                      Canyon&apos;s rim-of-the-canyon weather puts more wear on a roof than the open-prairie average across the Panhandle, so we schedule follow-up walks on completed work through the high-wind months from March through June. Warranty service includes a check-in after the first heavy hail or wind event each season to verify that flashing, ridge caps, and seam welds are still performing.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Seasonal performance monitoring</li>
-                      <li>• Storm damage follow-up</li>
-                      <li>• Warranty compliance tracking</li>
-                      <li>• Preventive maintenance scheduling</li>
+                      <li>• Seasonal performance walks during March-June storm months</li>
+                      <li>• Post-event follow-up after hail or 60-plus-mph wind events</li>
+                      <li>• Warranty compliance tracking on every reroof</li>
+                      <li>• Preventive maintenance scheduled around the academic calendar</li>
                     </ul>
                   </div>
                 </div>
@@ -656,30 +642,26 @@ export default function RoofRepairCanyonPage() {
                   Canyon Geographic Expertise
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Our team understands how Palo Duro Canyon geography affects local weather patterns
-                  and building performance. We factor these unique conditions into every repair
-                  recommendation and material selection.
+                  The 800-foot drop into Palo Duro Canyon changes wind behavior on the rim above it, and that translates to different uplift loads and impact patterns on Canyon homes than what we see on flat-prairie Amarillo just 18 miles north. We factor that geography into every material recommendation, especially on homes near the FM 1541 corridor and the canyon rim itself.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Canyon wind pattern expertise</li>
-                  <li>• Microclimate damage assessment</li>
-                  <li>• Geographic risk evaluation</li>
-                  <li>• Location-specific solutions</li>
+                  <li>• Rim-of-canyon wind pattern experience</li>
+                  <li>• Microclimate damage assessment by neighborhood</li>
+                  <li>• UL 580 wind-uplift-rated material selection</li>
+                  <li>• Location-specific solutions for canyon-edge properties</li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Historical Preservation</h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon's historic downtown district requires specialized knowledge of preservation
-                  standards and period-appropriate materials. We balance historical integrity with
-                  modern performance requirements.
+                  Working in the historic district around the Randall County Courthouse calls for material profiles and color palettes that match the era of the building, not just whatever happens to be on the truck. We source architectural asphalt and standing seam metal in the profiles that fit Canyon&apos;s brick storefronts and older single-family stock while still meeting current building code.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Historic building compliance</li>
-                  <li>• Preservation society coordination</li>
-                  <li>• Period-appropriate materials</li>
-                  <li>• Architectural integrity maintenance</li>
+                  <li>• Randall County historic-district compliance</li>
+                  <li>• Coordination with the local preservation review</li>
+                  <li>• Period-appropriate asphalt and metal profiles</li>
+                  <li>• Underlayment and flashing upgraded to current code</li>
                 </ul>
               </div>
 
@@ -688,15 +670,13 @@ export default function RoofRepairCanyonPage() {
                   Agricultural Community Support
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  We serve Canyon's broader agricultural community with specialized services for
-                  farming and ranching operations, understanding the unique requirements of
-                  agricultural buildings and rural properties.
+                  Outside the city limits, our work covers the ranching and farming operations spread across Randall County off Highway 217 and FM 1541. Hay barns, equipment sheds, cattle facilities, and rural homes each call for a different material spec. We install R-panel and standing seam metal across the long spans these buildings require, with fastening patterns matched to the open-exposure wind loads.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Agricultural building expertise</li>
-                  <li>• Ranch and farm services</li>
-                  <li>• Large-span roof systems</li>
-                  <li>• Rural property specialization</li>
+                  <li>• Hay barn and equipment shed reroofs</li>
+                  <li>• Ranch headquarters and cattle facility work</li>
+                  <li>• R-panel and standing seam on long-span roofs</li>
+                  <li>• Rural-property service across Randall County</li>
                 </ul>
               </div>
             </div>

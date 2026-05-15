@@ -349,16 +349,14 @@ export default function ResidentialRoofingAndrewsPage() {
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Preventive Maintenance</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Regular maintenance programs designed for Andrews's harsh climate. Preventive care
-                  extends roof life significantly and helps identify potential problems before they
-                  become costly repairs.
+                  Maintenance programs built for Andrews County&apos;s Permian Basin conditions, where wind-driven caliche, oil field exposure, and high UV all shorten the life of an unmaintained roof. Catching cracked pipe boots, lifted sealant, or a separated flashing line in spring keeps it from becoming a winter leak.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Annual inspection services</li>
-                  <li>• Gutter cleaning and maintenance</li>
-                  <li>• Ventilation system optimization</li>
-                  <li>• Minor repair services</li>
-                  <li>• Seasonal preparation checks</li>
+                  <li>• Annual inspections with photo documentation of every slope</li>
+                  <li>• Gutter and downspout cleaning, including caliche removal at corners</li>
+                  <li>• Attic ventilation balancing of soffit intake and ridge exhaust</li>
+                  <li>• Minor repairs on sealants, pipe boots, and flashing terminations</li>
+                  <li>• Seasonal readiness checks ahead of spring hail and winter freeze</li>
                 </ul>
               </div>
             </div>

@@ -270,23 +270,23 @@ export default function TpoRoofingDumasPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Grain storage facilities
+                    White TPO membranes on flat-roof grain storage and elevator outbuildings in Moore County
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Equipment buildings and barns
+                    Low-slope sections of equipment buildings and pole barns where shingles would not perform
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Feed mills and processing plants
+                    Feed mills and processing plants where chemical and moisture exposure is constant
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Agricultural supply warehouses
+                    Agricultural supply warehouses along Highway 287 and the Dumas industrial corridor
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Administrative farm offices
+                    Administrative and office sections of larger farm operations, including reflective ENERGY STAR systems
                   </li>
                 </ul>
               </div>
@@ -297,23 +297,23 @@ export default function TpoRoofingDumasPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Manufacturing and processing facilities
+                    TPO membrane installs on manufacturing and processing buildings around Dumas
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Chemical resistant membranes
+                    Chemical-resistant TPO that handles oils, greases, and agricultural compounds without softening
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    High-temperature performance
+                    Heat-welded seams that hold up under triple-digit Texas Panhandle summer surface temperatures
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Easy maintenance and cleaning
+                    Smooth white surface that hoses down cleanly between maintenance cycles
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Long-term durability guarantees
+                    Manufacturer-backed warranties from Carlisle, Firestone, and GAF on qualifying systems
                   </li>
                 </ul>
               </div>

@@ -285,27 +285,31 @@ export default function WindDamageRepairMonahansPage() {
                   Industrial Wind Loading
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Oil and gas facilities in Ward County experience additional wind loading from
-                  industrial equipment, flare stacks, and processing units that create turbulence
-                  and pressure variations. This complex wind environment requires advanced
-                  understanding of aerodynamic forces for effective repairs.
+                  Ward County oil and gas sites carry wind loads that an ordinary commercial roof
+                  never sees. Flare stacks, compressor stations, and processing units create
+                  turbulence and localized pressure spikes that lift TPO and EPDM membrane at
+                  perimeter fastening rows. Repairs in the Permian Basin need to be sized to those
+                  real-world wind paths, not to a generic ASCE 7 zone map.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Sand Abrasion Impact</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  High winds in the Monahans area carry sand and debris that can scour roofing
-                  materials, accelerating wear and creating weak points. Wind damage repairs must
-                  account for ongoing abrasion and include protective measures against sand-laden
-                  winds from nearby sandhills.
+                  Wind off the Monahans Sandhills loads up with fine quartz sand that scours
+                  membrane surfaces, polishes acrylic coatings off cap sheets, and chews exposed
+                  fastener heads. Wind damage repairs here include reinforced fabrics at flashings
+                  and the option of a sand-resistant elastomeric topcoat on PVC or TPO sections
+                  facing the prevailing southwest wind.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Thermal Wind Stress</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Desert temperature extremes create thermal winds and expansion stresses that
-                  compound mechanical wind damage. Our repair methods account for thermal cycling
-                  effects that can cause secondary damage after initial wind events.
+                  Monahans can climb past 100°F in summer and drop to the low 20s on a January
+                  night. White TPO membrane expands and contracts across that range, working the
+                  perimeter fasteners and seams. After a microburst, that thermal cycling will
+                  open hairline tears in any seam the wind already stressed unless the repair
+                  addresses both forces.
                 </p>
               </div>
             </div>
@@ -324,9 +328,10 @@ export default function WindDamageRepairMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Downdraft Microbursts</h3>
                 <p className="text-gray-700">
-                  Intense downdrafts from thunderstorms create concentrated wind zones with speeds
-                  exceeding 100 mph. These microbursts can completely destroy roofing systems in
-                  small areas while leaving adjacent properties untouched.
+                  Permian Basin thunderstorms produce downdraft cores with measured gusts above
+                  100 mph. A microburst can shear the membrane off one 60-foot section of a
+                  Monahans warehouse while the building next door keeps every shingle. Repairs
+                  start with mapping the wind footprint before scoping material.
                 </p>
               </div>
               <div className="text-center">
@@ -391,10 +396,11 @@ export default function WindDamageRepairMonahansPage() {
                     Industrial Safety Protocol
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Oil and gas facilities require specialized safety protocols including H2S
-                    training, hot work permits, and confined space procedures. Our certified
-                    technicians follow strict industrial safety standards while conducting damage
-                    assessments and repairs around active operations.
+                    Working on an active Permian Basin facility means H2S awareness, hot work
+                    permits coordinated with the operator, and confined space procedures for tank
+                    tops and process buildings. Our crews work under each site&apos;s safety plan,
+                    coordinate JSAs with the on-duty safety manager, and stand down whenever the
+                    facility flags a hot work suspension.
                   </p>
                 </div>
               </div>
@@ -407,10 +413,11 @@ export default function WindDamageRepairMonahansPage() {
                     Advanced Damage Analysis
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Using thermal imaging, drone surveys, and wind load calculations, we analyze
-                    damage patterns specific to desert wind events. Our assessments consider not
-                    only visible damage but also underlying structural stress and thermal effects
-                    that may cause future failures.
+                    Documentation pairs thermal imaging of wet insulation, FAA Part 107 drone
+                    photography of the membrane surface, and ASCE 7 wind load calculations against
+                    the local Monahans exposure category. The report covers visible tears and
+                    invisible substrate damage, so the insurance scope reflects what the next
+                    Permian storm will actually expose.
                   </p>
                 </div>
               </div>
@@ -423,9 +430,11 @@ export default function WindDamageRepairMonahansPage() {
                     Operational Continuity Planning
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Industrial facilities cannot shut down for repairs. We develop phased repair
-                    plans that maintain operational continuity while addressing wind damage. Our
-                    scheduling accommodates production requirements and repair scheduling needs.
+                    A Ward County gas plant cannot drop production for a roof. We sequence the
+                    work in zones, schedule any hot work outside of fluid handling, and stage TPO
+                    membrane and mechanical fasteners so each section closes the same shift it
+                    opens. Production windows, turnaround calendars, and tank gauging schedules
+                    drive the plan.
                   </p>
                 </div>
               </div>
@@ -454,10 +463,11 @@ export default function WindDamageRepairMonahansPage() {
                     Environmental Compliance
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Industrial repairs must meet environmental regulations and air quality
-                    standards. Our processes minimize dust generation, prevent contamination, and
-                    ensure all repair activities comply with EPA and TCEQ requirements for
-                    industrial facilities.
+                    Permian repairs need to keep the site inside its TCEQ air permit and any
+                    SPCC plan. We use HEPA vacuums for tear-off debris, contain old membrane
+                    cuttings in covered bins, and document fugitive dust controls so the
+                    operator&apos;s environmental staff can close out the work order without an
+                    EPA or TCEQ deviation.
                   </p>
                 </div>
               </div>
@@ -597,15 +607,15 @@ export default function WindDamageRepairMonahansPage() {
                 </div>
                 <h3 className="font-bold text-brand-brown mb-2">Municipal Facilities</h3>
                 <p className="text-gray-600 text-sm">
-                  Government buildings, scheduling, public works
+                  City of Monahans buildings, Ward County offices, and public works facilities
                 </p>
               </div>
             </div>
             <div className="mt-8 text-center">
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                From major energy operations to municipal buildings throughout Ward County, we've
-                helped Permian Basin property owners recover from severe wind damage and prepare for
-                future desert storm events.
+                From processing plants along Highway 18 to City of Monahans facilities and Ward
+                County public buildings, we have helped Permian Basin owners recover from
+                microburst and dust storm damage and tighten their roofs for the next event.
               </p>
             </div>
           </section>
@@ -621,8 +631,11 @@ export default function WindDamageRepairMonahansPage() {
                 <AlertTriangle className="w-6 h-6 inline-block text-red-600" />
               </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                Desert microbursts and dust storms can cause catastrophic damage to industrial
-                facilities. quick documentation and repair is critical.
+                A single Permian Basin microburst can lift acres of TPO membrane and a haboob can
+                drive sand under raised flashing. Once the facility is safe, the priority is
+                accurate documentation for the State Farm, Allstate, or commercial carrier on the
+                policy. Scheduling inspections promptly protects the claim before weathering
+                obscures the wind footprint.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -631,11 +644,11 @@ export default function WindDamageRepairMonahansPage() {
                   Industrial Emergency Protocols
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Establish safety perimeter around damaged areas</li>
-                  <li>• Contact facility safety manager immediately</li>
-                  <li>• Document damage for insurance and regulatory compliance</li>
-                  <li>• Secure any hazardous material exposures</li>
-                  <li>• Coordinate with environmental compliance officers</li>
+                  <li>• Establish a safety perimeter around lifted membrane and debris</li>
+                  <li>• Notify the facility safety manager and operations supervisor</li>
+                  <li>• Document the wind footprint for the insurance and TCEQ files</li>
+                  <li>• Secure any exposed hazardous material or process equipment</li>
+                  <li>• Coordinate with the on-site environmental compliance officer</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -643,12 +656,12 @@ export default function WindDamageRepairMonahansPage() {
                   Our Post-Storm Repair Services
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• certified industrial response team</li>
-                  <li>• Storm containment and securing</li>
-                  <li>• Hot work permits and safety compliance</li>
-                  <li>• Environmental protection measures</li>
-                  <li>• Regulatory documentation assistance</li>
-                  <li>• Operational continuity planning</li>
+                  <li>• Trained crew working under each operator&apos;s safety plan</li>
+                  <li>• Temporary weather protection on lifted TPO or EPDM sections</li>
+                  <li>• Hot work permits coordinated with the facility safety manager</li>
+                  <li>• Dust and debris containment to TCEQ standards</li>
+                  <li>• Documentation packets formatted for State Farm or Allstate adjusters</li>
+                  <li>• Zoned repair sequencing that keeps production online</li>
                 </ul>
               </div>
             </div>

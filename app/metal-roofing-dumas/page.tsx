@@ -233,23 +233,23 @@ export default function MetalRoofingDumasPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Large-span agricultural buildings
+                    Large-span standing seam metal and R-panel installs on Moore County farm buildings
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Chemical resistance for farm operations
+                    Chemical-resistant galvanized and Galvalume panels for fertilizer, feed, and pesticide exposure
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Weather protection for equipment storage
+                    Weather protection rated for the open Texas Panhandle plains around Dumas
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Cost-effective solutions for grain facilities
+                    Cost-effective panel systems for grain storage and equipment buildings
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Easy cleaning and maintenance
+                    Smooth panel surfaces that shed grain dust and clean down quickly between seasons
                   </li>
                 </ul>
               </div>
@@ -260,23 +260,23 @@ export default function MetalRoofingDumasPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Manufacturing facility protection
+                    Standing seam and R-panel systems for Dumas manufacturing and processing buildings
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Fire resistance for safety compliance
+                    Class A fire-rated assemblies suitable for facilities with combustible inventory
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Lightning strike protection
+                    Properly bonded and grounded metal panels for lightning protection on the High Plains
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Extreme temperature tolerance
+                    Coatings rated for the Moore County temperature range, from sub-freezing winters to triple-digit summers
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    High wind uplift resistance
+                    UL 580 wind-uplift-rated panel and fastener assemblies for Texas Panhandle gust loads
                   </li>
                 </ul>
               </div>

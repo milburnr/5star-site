@@ -313,26 +313,22 @@ export default function HailDamageRepairAndrewsPage() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Roof System Evaluation</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
-                    • <strong>Shingle Impact Assessment:</strong> Granule loss patterns, exposed
-                    mat, cracking
+                    • <strong>Shingle impact assessment:</strong> Granule loss patterns, exposed fiberglass mat, UL 2218 bruising
                   </li>
                   <li>
-                    • <strong>Metal Component Inspection:</strong> Dents in flashing, gutters,
-                    vents, and HVAC units
+                    • <strong>Metal component inspection:</strong> Dents in step flashing, aluminum gutters, vent caps, and HVAC condenser fins
                   </li>
                   <li>
-                    • <strong>Underlayment Integrity:</strong> Punctures or tears that compromise
-                    waterproofing
+                    • <strong>Underlayment integrity:</strong> Punctures or tears in synthetic or felt underlayment
                   </li>
                   <li>
-                    • <strong>Decking Evaluation:</strong> Impact damage to OSB or plywood substrate
+                    • <strong>Decking evaluation:</strong> Hail-driven punctures or soft spots in OSB or plywood substrate
                   </li>
                   <li>
-                    • <strong>Fastener Assessment:</strong> Loosened nails or screws from impact
-                    vibration
+                    • <strong>Fastener assessment:</strong> Loosened nails or screws from repeated impact vibration on Permian Basin homes
                   </li>
                   <li>
-                    • <strong>Ridge and Hip Analysis:</strong> Critical seal point damage evaluation
+                    • <strong>Ridge and hip analysis:</strong> Damage to the seal strips that hold cap shingles in place
                   </li>
                 </ul>
               </div>
@@ -345,28 +341,22 @@ export default function HailDamageRepairAndrewsPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
-                    • <strong>Photographic Evidence:</strong> High-resolution damage documentation
-                    from multiple angles
+                    • <strong>Photographic evidence:</strong> High-resolution slope-by-slope photos at the angles State Farm, Allstate, and USAA adjusters expect
                   </li>
                   <li>
-                    • <strong>Moisture Detection:</strong> Thermal imaging to identify hidden water
-                    intrusion
+                    • <strong>Moisture detection:</strong> Thermal imaging to find hidden water intrusion in the attic and behind drywall
                   </li>
                   <li>
-                    • <strong>Measurement Reports:</strong> Precise square footage calculations for
-                    claims
+                    • <strong>Measurement reports:</strong> Precise square footage and slope dimensions for accurate Xactimate pricing
                   </li>
                   <li>
-                    • <strong>Code Compliance Review:</strong> Upgrade requirements for current
-                    building standards
+                    • <strong>Code compliance review:</strong> Underlayment, drip edge, and ice and water shield upgrades the current building code requires
                   </li>
                   <li>
-                    • <strong>Matching Requirements:</strong> Color and granule specifications for
-                    seamless repairs
+                    • <strong>Matching requirements:</strong> Manufacturer, profile, and granule specs (GAF, CertainTeed, Owens Corning) so the repair blends into the existing field
                   </li>
                   <li>
-                    • <strong>Adjuster Coordination:</strong> Professional representation during
-                    claim evaluations
+                    • <strong>Adjuster coordination:</strong> On-site representation when your Andrews carrier sends an adjuster to walk the roof
                   </li>
                 </ul>
               </div>
@@ -377,25 +367,22 @@ export default function HailDamageRepairAndrewsPage() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Mitigation</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
-                    • <strong>Immediate weatherproof sheeting:</strong> Professional-grade tarps with secure
-                    fastening systems
+                    • <strong>Temporary weather protection:</strong> Commercial-grade reinforced sheeting installed with perimeter fastening that avoids extra penetrations
                   </li>
                   <li>
-                    • <strong>Securing Services:</strong> Temporary protection for compromised
-                    openings
+                    • <strong>Opening protection:</strong> Coverage for compromised areas of the shingle field until the permanent repair is scheduled
                   </li>
                   <li>
-                    • <strong>Water Extraction:</strong> our roofing service to prevent secondary damage
+                    • <strong>Drying assistance:</strong> Coordination with restoration partners to limit secondary damage in the attic and ceilings
                   </li>
                   <li>
-                    • <strong>Interior Protection:</strong> Contents coverage and moisture barriers
+                    • <strong>Interior protection:</strong> Plastic sheeting over furniture and electronics where water has come through
                   </li>
                   <li>
-                    • <strong>Structural Assessment:</strong> Engineering evaluation for safety
-                    concerns
+                    • <strong>Structural assessment:</strong> Decking and rafter inspection for safety concerns before the reroof begins
                   </li>
                   <li>
-                    • <strong>Response Team:</strong> Mitigation within hours of storm events
+                    • <strong>Scheduling:</strong> Inspection windows aligned to your carrier&apos;s adjuster timeline so the documentation hits the right desk
                   </li>
                 </ul>
               </div>
@@ -649,7 +636,7 @@ export default function HailDamageRepairAndrewsPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Initial Damage Assessment</h4>
                       <p className="text-gray-600 text-sm">
-                        Professional documentation meeting insurance industry standards
+                        Slope-by-slope photo documentation formatted for State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau adjusters
                       </p>
                     </div>
                   </div>
@@ -660,7 +647,7 @@ export default function HailDamageRepairAndrewsPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Adjuster Meeting Coordination</h4>
                       <p className="text-gray-600 text-sm">
-                        Professional representation and technical expertise during inspections
+                        On-site representation when your carrier walks the roof in Andrews
                       </p>
                     </div>
                   </div>
@@ -671,7 +658,7 @@ export default function HailDamageRepairAndrewsPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Supplement Negotiation</h4>
                       <p className="text-gray-600 text-sm">
-                        Additional damage identification and settlement enhancement
+                        Additional damage filings (ridge caps, valley metal, drip edge) with current Xactimate line-item pricing
                       </p>
                     </div>
                   </div>
@@ -682,7 +669,7 @@ export default function HailDamageRepairAndrewsPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Code Upgrade Advocacy</h4>
                       <p className="text-gray-600 text-sm">
-                        Ensuring coverage for required building code improvements
+                        Coverage requests for ice and water shield, drip edge, and underlayment upgrades required by current code
                       </p>
                     </div>
                   </div>
@@ -693,7 +680,7 @@ export default function HailDamageRepairAndrewsPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Final Settlement Review</h4>
                       <p className="text-gray-600 text-sm">
-                        Complete verification of claim accuracy before project completion
+                        Line-item verification of the claim summary before the crew rolls
                       </p>
                     </div>
                   </div>

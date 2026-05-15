@@ -326,23 +326,23 @@ export default function Page() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
-                <h3 className="text-xl font-bold text-brand-brown mb-3">UTPB & Academic Areas</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">UTPB &amp; Academic Areas</h3>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• University of Texas Permian Basin</li>
-                  <li>• Academic research facilities</li>
-                  <li>• Student housing complexes</li>
-                  <li>• Faculty residential areas</li>
-                  <li>• Campus support services</li>
+                  <li>• University of Texas Permian Basin (UTPB) main campus</li>
+                  <li>• UTPB-area academic and research facilities</li>
+                  <li>• Student housing complexes off University Boulevard</li>
+                  <li>• Faculty residential neighborhoods west of campus</li>
+                  <li>• Campus-adjacent commercial and support buildings</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Central Odessa</h3>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Downtown Historic District</li>
-                  <li>• Music City Mall area</li>
-                  <li>• Ratliff Stadium vicinity</li>
-                  <li>• Ector County Coliseum</li>
-                  <li>• Presidential Museum area</li>
+                  <li>• Downtown Odessa historic district along Grant Avenue</li>
+                  <li>• Music City Mall area off Loop 338</li>
+                  <li>• Neighborhoods near Ratliff Stadium</li>
+                  <li>• Ector County Coliseum and surrounding properties</li>
+                  <li>• Presidential Museum and Leadership Library area</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">

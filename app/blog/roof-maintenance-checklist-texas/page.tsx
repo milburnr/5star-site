@@ -372,10 +372,10 @@ export default function RoofMaintenanceChecklistPage() {
                     <Eye className="w-6 h-6 inline-block" /> Visual Inspection from Ground
                   </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Look for obvious missing or damaged shingles</li>
-                    <li>• Check gutters for sagging or separations</li>
-                    <li>• Look for debris accumulation</li>
-                    <li>• Notice any new stains on soffits</li>
+                    <li>• Scan for missing or wind-lifted architectural asphalt shingles</li>
+                    <li>• Check K-style gutters for sagging hangers and seam separations</li>
+                    <li>• Watch for leaf and Panhandle dust debris piling in valleys</li>
+                    <li>• Look for fresh stains on soffit boards and aluminum fascia</li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">
@@ -383,10 +383,10 @@ export default function RoofMaintenanceChecklistPage() {
                     <Home className="w-6 h-6 inline-block" /> Interior Check
                   </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Walk through home looking at ceilings</li>
-                    <li>• Check for new water stains or discoloration</li>
-                    <li>• Notice any musty smells (indicates moisture)</li>
-                    <li>• Look in attic briefly if accessible</li>
+                    <li>• Walk every room and look up at ceilings under bath and kitchen vents</li>
+                    <li>• Check for new water rings or yellow-brown discoloration on drywall</li>
+                    <li>• Notice musty odors, especially in closets along exterior walls</li>
+                    <li>• Pop the attic hatch and scan rafters for frost or staining on OSB</li>
                   </ul>
                 </div>
               </div>
@@ -406,8 +406,11 @@ export default function RoofMaintenanceChecklistPage() {
                   Intrusion
                 </h3>
                 <p className="text-gray-700">
-                  Water actively coming through ceiling or walls. Call storm repair
-                  immediately—continuing leaks cause exponential damage.
+                  Water moving through a ceiling or down an interior wall is doing real damage to
+                  drywall, insulation, and framing every hour it continues. Move belongings away
+                  from the affected area, place a bucket, and call a Texas-licensed roofer. A
+                  qualified crew can install temporary weather protection over the entry point
+                  until a permanent repair is scheduled.
                 </p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
@@ -415,8 +418,11 @@ export default function RoofMaintenanceChecklistPage() {
                   <AlertTriangle className="w-6 h-6 inline-block" /> Sagging Roof Deck
                 </h3>
                 <p className="text-gray-700">
-                  Visible sagging or dips in roof line indicate structural damage. This is a safety
-                  hazard requiring immediate professional assessment.
+                  A visible dip in the ridge line or a wave along the eave usually means the
+                  rafters, trusses, or OSB deck are compromised. On older Panhandle homes this
+                  often traces back to a long-term roof leak that rotted the deck. Step away
+                  from the affected interior space and have a roofer plus a Texas-licensed
+                  structural engineer inspect before further use.
                 </p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
@@ -424,8 +430,11 @@ export default function RoofMaintenanceChecklistPage() {
                   <Tornado className="w-6 h-6 inline-block" /> Large Missing Sections
                 </h3>
                 <p className="text-gray-700">
-                  Wind has blown off large sections of roofing. Exposed decking needs weatherproof sheeting to
-                  prevent interior damage.
+                  When a Panhandle thunderstorm or microburst strips entire courses of architectural
+                  shingles off a roof, the bare OSB or plywood decking is exposed to the next rain.
+                  Schedule a roofer to install temporary weather protection over the open area
+                  while the insurance scope is prepared with State Farm, Allstate, or whichever
+                  carrier holds the policy.
                 </p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
@@ -433,8 +442,11 @@ export default function RoofMaintenanceChecklistPage() {
                   <Droplets className="w-6 h-6 inline-block" /> Multiple New Water Stains
                 </h3>
                 <p className="text-gray-700">
-                  Multiple new water stains appearing after rain indicate serious leak(s). These
-                  will worsen rapidly—call for inspection.
+                  Several new water rings appearing after the same rainfall point to multiple leak
+                  paths, often around chimney flashing, plumbing vent boots, or a compromised
+                  underlayment. The damage compounds quickly across drywall and insulation. Call
+                  to schedule a free inspection so the points of entry can be mapped before the
+                  next storm.
                 </p>
               </div>
             </div>
@@ -447,8 +459,10 @@ export default function RoofMaintenanceChecklistPage() {
               Professional Maintenance Services
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              DIY maintenance is important, but professional services catch problems you can't see
-              and provide expert repairs:
+              Monthly self-checks catch the obvious. Professional services catch the things you
+              cannot see from the ground: bruised shingle granules from hail, lifted step flashing
+              at chimneys, and saturated underlayment under intact-looking shingles. For most
+              Texas Panhandle homes these inspections happen at least once a year.
             </p>
             <div className="space-y-4">
               <div className="bg-white p-6 rounded-lg">
@@ -467,8 +481,11 @@ export default function RoofMaintenanceChecklistPage() {
                   <Brush className="w-6 h-6 inline-block" /> Professional Roof Cleaning ($300-$600)
                 </h3>
                 <p className="text-gray-700">
-                  Removes algae, moss, and debris that accelerate aging. Especially important in
-                  humid climates. Done carefully to avoid shingle damage.
+                  Soft washing with low-pressure equipment removes algae, lichen, and the gritty
+                  Llano Estacado dust that piles in valleys and accelerates granule loss. This
+                  matters more in humid stretches of Texas, but Amarillo and Lubbock roofs still
+                  benefit during a wet spring. Pressure washing is never used because it strips
+                  the protective granules off architectural shingles.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg">
@@ -514,9 +531,11 @@ export default function RoofMaintenanceChecklistPage() {
                   <Wind className="w-6 h-6 inline-block" /> Wind Damage Checks
                 </h3>
                 <p className="text-gray-700">
-                  West Texas winds are extreme. Check that shingles are properly sealed—wind can
-                  lift unsealed edges and cause blow-offs. Look for lifted or loose shingles after
-                  wind events.
+                  West Texas wind is a constant load on a roof. Amarillo regularly sees gusts
+                  past 60 mph on storm fronts, and the Permian Basin runs higher. Confirm that
+                  shingle tabs have sealed to the course below. Once a tab edge lifts in the
+                  wind, the next gust drives water under it. After any wind event, look for
+                  lifted shingle tabs along the windward eave and at the ridge.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">

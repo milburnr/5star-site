@@ -321,25 +321,22 @@ export default function HailDamageRepairBigSpringPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
-                    • <strong>Thermal Imaging:</strong> FLIR technology to detect hidden moisture
-                    intrusion
+                    • <strong>Thermal imaging:</strong> Handheld FLIR cameras to find hidden moisture in attic decking after a Big Spring hail event
                   </li>
                   <li>
-                    • <strong>Drone Inspections:</strong> High-resolution aerial damage assessment
+                    • <strong>Drone inspections:</strong> High-resolution aerial photos that capture the full slope without leaving the gutter line
                   </li>
                   <li>
-                    • <strong>Impact Measurement:</strong> Precise documentation of hail strike
-                    patterns
+                    • <strong>Impact measurement:</strong> Documentation of hail strike density per UL 2218 Class 4 assessment standards
                   </li>
                   <li>
-                    • <strong>Moisture Meters:</strong> Detection of water penetration in critical
-                    areas
+                    • <strong>Moisture meters:</strong> Pin-probe readings on OSB decking and attic rafters where leaks first appear
                   </li>
                   <li>
-                    • <strong>Digital Documentation:</strong> GPS-tagged photos for insurance claims
+                    • <strong>Digital documentation:</strong> GPS-tagged photos that tie each strike to a slope and elevation
                   </li>
                   <li>
-                    • <strong>Granule Collection:</strong> Physical evidence sampling for adjusters
+                    • <strong>Granule collection:</strong> Physical samples from gutters and downspouts to corroborate the impact pattern for adjusters
                   </li>
                 </ul>
               </div>
@@ -352,21 +349,19 @@ export default function HailDamageRepairBigSpringPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
-                    • <strong>Priority Triage:</strong> Active leaks and structural concerns first
+                    • <strong>Priority triage:</strong> Active leaks and structural concerns walked and documented first
                   </li>
                   <li>
-                    • <strong>Temporary Protection:</strong> Professional weatherproof sheeting
-                    services
+                    • <strong>Temporary protection:</strong> Commercial-grade reinforced sheeting installed where the shingle field is open
                   </li>
                   <li>
-                    • <strong>Contents Safeguarding:</strong> Interior protection from additional
-                    damage
+                    • <strong>Contents safeguarding:</strong> Plastic sheeting over furniture and electronics in rooms with active drips
                   </li>
                   <li>
-                    • <strong>Utility Safety:</strong> Electrical and gas line inspection protocols
+                    • <strong>Utility safety:</strong> Visual inspection around electrical penetrations and gas line stacks for damage
                   </li>
                   <li>
-                    • <strong>Communication Hub:</strong> Regular updates to property owners
+                    • <strong>Communication:</strong> Single Big Spring project contact who calls or texts updates through the State Farm or Allstate claim cycle
                   </li>
                 </ul>
               </div>
@@ -660,8 +655,7 @@ export default function HailDamageRepairBigSpringPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Storm-Specific Documentation</h4>
                       <p className="text-gray-600 text-sm">
-                        Correlating damage with specific weather events using NOAA storm reports and
-                        local weather station data
+                        Damage tied back to specific weather events using NOAA Storm Events records and Howard County weather station data
                       </p>
                     </div>
                   </div>
@@ -672,8 +666,7 @@ export default function HailDamageRepairBigSpringPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Code Upgrade Advocacy</h4>
                       <p className="text-gray-600 text-sm">
-                        Ensuring coverage for current building code requirements and enhanced wind
-                        resistance standards
+                        Coverage requests for current building code line items: ice and water shield, drip edge, synthetic underlayment, and UL 580 wind-uplift detailing
                       </p>
                     </div>
                   </div>
@@ -684,8 +677,7 @@ export default function HailDamageRepairBigSpringPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Adjuster Education</h4>
                       <p className="text-gray-600 text-sm">
-                        Professional presentation of damage scope using industry-standard
-                        terminology and measurement techniques
+                        Damage walk presented in the Xactimate line-item terminology State Farm, Allstate, and USAA adjusters work from every day
                       </p>
                     </div>
                   </div>
@@ -696,8 +688,7 @@ export default function HailDamageRepairBigSpringPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Supplement Management</h4>
                       <p className="text-gray-600 text-sm">
-                        Systematic identification and documentation of additional damage discovered
-                        during installation
+                        Additional damage uncovered during tear-off (rotted decking, hidden hail strikes) documented and filed as a supplement while the crew is still on the Big Spring roof
                       </p>
                     </div>
                   </div>

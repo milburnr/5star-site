@@ -329,14 +329,13 @@ export default function ResidentialRoofingPerrytonPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Agricultural Housing</h3>
                 <p className="text-gray-700 mb-4">
-                  Specialized roofing services for farming families and rural properties throughout
-                  the wheat belt region.
+                  Farming family homes and rural properties across Ochiltree County and the broader wheat belt, where grain dust, chemical exposure, and open-plains wind all shape the roof spec.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Dust-resistant sealing systems</li>
-                  <li>• Barn and outbuilding roofing</li>
-                  <li>• Seasonal scheduling flexibility</li>
-                  <li>• Large property coordination</li>
+                  <li>• Dust-resistant sealing on flashing and penetrations</li>
+                  <li>• Barn, hay shed, and outbuilding roofing in R-panel or standing seam metal</li>
+                  <li>• Scheduling planned around the winter wheat harvest window</li>
+                  <li>• Combined visits across residence, shop, and outbuildings on one site trip</li>
                 </ul>
               </div>
 
@@ -346,14 +345,13 @@ export default function ResidentialRoofingPerrytonPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Wind Energy Housing</h3>
                 <p className="text-gray-700 mb-4">
-                  Comprehensive services for workers and facilities supporting Ochiltree County's
-                  expanding wind energy operations.
+                  Residential roofing for workers and properties tied to Ochiltree County&apos;s growing wind energy sector, where exposure conditions differ from typical agricultural ground.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• High-wind rated systems</li>
-                  <li>• Energy worker housing</li>
-                  <li>• Industrial environment protection</li>
-                  <li>• Vibration-resistant installations</li>
+                  <li>• UL 580 wind-uplift-rated metal or Class 4 impact-rated asphalt systems</li>
+                  <li>• Housing roofs near turbine sites with enhanced wind exposure</li>
+                  <li>• Industrial-grade fasteners and sealants for nearby industrial environments</li>
+                  <li>• Mechanical attachment patterns that hold up under sustained vibration</li>
                 </ul>
               </div>
 
@@ -363,14 +361,13 @@ export default function ResidentialRoofingPerrytonPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Historic Preservation</h3>
                 <p className="text-gray-700 mb-4">
-                  Expert restoration of historic homes and buildings reflecting Perryton's
-                  agricultural heritage and early development.
+                  Restoration work on early-20th-century homes and buildings that anchor Perryton&apos;s agricultural heritage along the Texas-Oklahoma border.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Period-appropriate materials</li>
-                  <li>• Historic district compliance</li>
-                  <li>• Architectural character preservation</li>
-                  <li>• Modern efficiency upgrades</li>
+                  <li>• Period-appropriate composition shingles or standing seam metal profiles</li>
+                  <li>• Documentation supporting historic district and county preservation rules</li>
+                  <li>• Roof line, dormer, and chimney detail work that respects original character</li>
+                  <li>• Underlayment and ventilation upgrades that meet current code without changing the streetside look</li>
                 </ul>
               </div>
             </div>
@@ -651,10 +648,7 @@ export default function ResidentialRoofingPerrytonPage() {
                   Understanding Farm Cycles
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  The "Wheatheart of the Plains" operates on agricultural rhythms that affect
-                  housing maintenance and roofing schedules. We coordinate our services around
-                  critical farming periods to minimize disruption to essential agricultural
-                  operations.
+                  The &quot;Wheatheart of the Plains&quot; runs on a calendar built around winter wheat. Planting, harvest, and storage all dictate when farm families can host a roofing project without disrupting field operations. We plan reroofs and major repairs in Ochiltree County around those windows, including coordination with combine traffic during harvest.
                 </p>
 
                 <div className="bg-green-50 p-6 rounded-xl">
@@ -662,10 +656,10 @@ export default function ResidentialRoofingPerrytonPage() {
                     <Wheat className="w-6 h-6 inline-block" /> Optimal Roofing Seasons:
                   </h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Early Spring (March-April): Pre-planting season</li>
-                    <li>• Late Summer (August): Post-harvest coordination</li>
-                    <li>• Fall (September): Before winter preparations</li>
-                    <li>• Winter (December-February): Planning season</li>
+                    <li>• Early Spring (March-April): pre-planting window with stable Panhandle weather</li>
+                    <li>• Late Summer (August): post-harvest, after winter wheat is in storage</li>
+                    <li>• Fall (September): before winter preparations and the first arctic fronts</li>
+                    <li>• Winter (December-February): planning, quoting, and insurance work for spring builds</li>
                   </ul>
                 </div>
               </div>
@@ -675,9 +669,7 @@ export default function ResidentialRoofingPerrytonPage() {
                   Wind Energy Considerations
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  Ochiltree County's expanding wind energy sector creates new considerations for
-                  residential roofing, from worker housing needs to environmental factors affecting
-                  nearby properties.
+                  Ochiltree County&apos;s growing wind energy sector changes the calculus on residential roofing near turbine corridors. Homes within sight of working turbines see steadier wind loads, occasional vibration, and access patterns shaped by service-road traffic. The roof spec has to account for all three.
                 </p>
 
                 <div className="bg-amber-50 p-6 rounded-xl">
@@ -685,11 +677,11 @@ export default function ResidentialRoofingPerrytonPage() {
                     <Wind className="w-6 h-6 inline-block" /> Wind Energy Impact Areas:
                   </h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Enhanced wind exposure considerations</li>
-                    <li>• Low-frequency vibration resistance</li>
-                    <li>• Infrastructure coordination requirements</li>
-                    <li>• Worker housing roofing demands</li>
-                    <li>• Environmental monitoring integration</li>
+                    <li>• Higher wind exposure addressed with UL 580 wind-uplift-rated systems</li>
+                    <li>• Mechanical attachment that resists low-frequency turbine vibration</li>
+                    <li>• Coordination with energy-sector service roads and equipment traffic</li>
+                    <li>• Reroof work scoped for the housing stock that supports energy workers</li>
+                    <li>• Documentation that holds up if monitoring equipment is mounted to the structure</li>
                   </ul>
                 </div>
               </div>

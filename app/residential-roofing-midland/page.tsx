@@ -322,17 +322,18 @@ export default function ResidentialRoofingMidlandPage() {
                   Petroleum Executive District
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Residents:</strong> Energy Industry Leaders
+                  <strong>Residents:</strong> Petroleum engineers and energy operators
                   <br />
-                  <strong>Properties:</strong> Custom Luxury Homes
+                  <strong>Properties:</strong> Custom homes in central and west Midland
                   <br />
-                  <strong>Features:</strong> Oil Country Lifestyle
+                  <strong>Features:</strong> Larger lots, custom architecture, HOA review boards
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Custom homes throughout central and west Midland housing petroleum engineers, oil
-                  executives, and energy company leadership. These properties often feature unique
-                  architectural elements and require materials that reflect the success and
-                  sophistication of the Texas energy industry.
+                  Custom homes through central and west Midland often run larger square footage,
+                  multiple roof planes, and architectural details like clay tile accents or
+                  standing seam dormers that need careful flashing. Class 4 impact-rated shingles
+                  and proper synthetic underlayment matter here because a hail event in Midland
+                  County can otherwise total the roof in a single storm.
                 </p>
               </div>
             </div>
@@ -376,11 +377,12 @@ export default function ResidentialRoofingMidlandPage() {
                   Energy Industry Scheduling
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  We understand the demanding schedules of petroleum executives, engineers, and
-                  energy professionals. We offer flexible project timing, expedited service for
-                  urgent repairs, and can coordinate around travel schedules, business meetings, and
-                  industry events. Our team respects the professional demands of oil country
-                  success.
+                  Midland County homeowners working in the energy sector tend to keep tight
+                  travel and operations calendars. We plan around drilling rotation schedules,
+                  permit timing, and HOA approval cycles. For most projects we can stage material
+                  delivery to a side gate, work continuous days while the homeowner is on
+                  rotation, and coordinate inspection appointments through email and text rather
+                  than disrupting the workday.
                 </p>
               </div>
 
@@ -419,16 +421,16 @@ export default function ResidentialRoofingMidlandPage() {
                   </h3>
                   <ul className="space-y-2 text-gray-700">
                     <li>
-                      <strong>Permits:</strong> Required for all roofing projects
+                      <strong>Permits:</strong> Required for full reroofs and most major repairs
                     </li>
                     <li>
-                      <strong>Contractors:</strong> Must be licensed and bonded
+                      <strong>Contractors:</strong> Texas-licensed, bonded, and insured for the trade
                     </li>
                     <li>
-                      <strong>Registration:</strong> Contractors registered with city
+                      <strong>Registration:</strong> Filed with the City of Midland Building Inspection office
                     </li>
                     <li>
-                      <strong>Inspections:</strong> Required for code compliance
+                      <strong>Inspections:</strong> Mid-job and final inspections against the adopted IRC
                     </li>
                   </ul>
                 </div>
@@ -438,27 +440,28 @@ export default function ResidentialRoofingMidlandPage() {
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-1">
                       <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      <strong>All permits handled</strong> at no extra charge
+                      <strong>City of Midland permit</strong> pulled and paid by us
                     </li>
                     <li className="flex items-start gap-1">
                       <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Licensed and bonded Texas contractor
+                      Texas-licensed and bonded contractor on every job
                     </li>
                     <li className="flex items-start gap-1">
                       <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      City of Midland registered
+                      Registered with the Midland building inspection office
                     </li>
                     <li className="flex items-start gap-1">
                       <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      All inspections coordinated
+                      Mid-job and final inspections scheduled on your behalf
                     </li>
                   </ul>
                 </div>
               </div>
 
               <p className="text-gray-600 italic">
-                We maintain full licensing and insurance to protect your investment and ensure
-                warranty validity on your premium home.
+                We carry the licensing and general liability coverage required in Midland and
+                maintain manufacturer certifications so the GAF, Owens Corning, or CertainTeed
+                warranty stays valid on your finished roof.
               </p>
             </div>
           </section>
@@ -494,28 +497,31 @@ export default function ResidentialRoofingMidlandPage() {
               <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Oil Field Wind Patterns</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>Intense sustained winds</strong> across open petroleum drilling areas
-                  create constant stress on roofing systems. Combined with industrial activity and
-                  dust, creates accelerated wear patterns unique to oil country environments.
+                  <strong>Sustained winds across open Permian Basin terrain</strong> work shingle
+                  tabs and lap seams day after day. The flat ground around Midland gives the wind
+                  almost nothing to break against, so a 30 mph daily wind plus a 60 mph gust front
+                  loads a roof harder than a comparable home in Dallas would see.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  Flat terrain amplifies wind effects. Industrial dust and drilling activity create
-                  additional environmental stress. Premium materials and enhanced installation
-                  methods essential for longevity.
+                  Fine dust from drilling operations and caliche roads abrades shingle granules
+                  along the windward slope. Class 4 impact-rated asphalt shingles or 24-gauge
+                  standing seam panels both hold up better than 3-tab shingles in this exposure.
                 </p>
               </div>
 
               <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-amber-600">
                 <h3 className="text-xl font-bold text-amber-800 mb-3">Desert Sun & Heat</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>Intense UV radiation</strong> in high-altitude desert climate with minimal
-                  cloud cover accelerates shingle aging. Temperature extremes from winter freezes to
-                  summer heat create thermal stress cycles that damage inferior materials.
+                  <strong>UV exposure on the Permian Basin</strong> runs harder than in the
+                  Houston or Dallas markets thanks to elevation around 2,800 feet and mostly
+                  cloudless summer skies. That UV breaks down the asphalt binder in standard
+                  shingles. Pair that with summer highs over 100°F and winter overnight lows in
+                  the 20s, and the freeze-and-bake cycle wears out lower-grade roofs early.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  UV exposure more intense than coastal areas. Poor ventilation compounds heat
-                  damage in luxury homes. Premium materials and proper ventilation systems critical
-                  for protecting high-value properties.
+                  Cool-roof rated architectural shingles or light-color standing seam panels
+                  reflect a larger share of the sun, and a balanced ridge-and-soffit ventilation
+                  system pulls the heat out of the attic before it cooks the decking.
                 </p>
               </div>
             </div>

@@ -368,15 +368,13 @@ export default function RoofRepairPerrytonPage() {
                   Wheat Country Agricultural Specialist
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Perryton sits in the heart of Texas wheat country, with vast grain operations and
-                  storage facilities throughout Ochiltree County. We specialize in agricultural
-                  building roofing designed for grain storage and farm operations.
+                  Perryton sits at the top of the Texas Panhandle, anchoring the wheat economy of Ochiltree County with elevators, equipment sheds, and processing buildings spread across the High Plains. Most of those buildings run R-panel or standing seam metal, and that is the equipment we know.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Grain elevator roofing systems</li>
-                  <li>• Wheat storage facility repairs</li>
-                  <li>• Farm building maintenance</li>
-                  <li>• Agricultural equipment storage</li>
+                  <li>• R-panel and standing seam metal repairs on grain elevators</li>
+                  <li>• Wheat storage facility re-fastening, sealant refresh, and panel replacement</li>
+                  <li>• Farm building maintenance including barns, sheds, and equipment shelters</li>
+                  <li>• Re-roofing of equipment storage buildings with hail-rated profiles</li>
                 </ul>
               </div>
 
@@ -385,15 +383,13 @@ export default function RoofRepairPerrytonPage() {
                   Ochiltree County Seat Services
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  As Ochiltree County's county seat, Perryton hosts government buildings, courthouse
-                  facilities, and municipal structures requiring specialized expertise for public
-                  buildings and institutional requirements.
+                  As Ochiltree County&apos;s county seat, Perryton runs courthouse facilities, school buildings, and municipal structures that follow public-procurement rules and the Texas Prompt Payment Act on commercial work. We handle the documentation, bonding, and code paperwork those projects require.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• County courthouse maintenance</li>
-                  <li>• Municipal building repairs</li>
-                  <li>• Government facility roofing</li>
-                  <li>• Public building code compliance</li>
+                  <li>• Courthouse and county facility maintenance on TPO, modified bitumen, or metal</li>
+                  <li>• Municipal building repairs scoped to current Ochiltree County code</li>
+                  <li>• Public-bid government facility roofing with proper bonding and insurance</li>
+                  <li>• Public building inspections aligned with Texas commercial roofing standards</li>
                 </ul>
               </div>
 
@@ -418,15 +414,13 @@ export default function RoofRepairPerrytonPage() {
                   Rural Community Support
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Perryton serves the broader rural community of Ochiltree County, including ranch
-                  properties, farm residences, and rural commercial buildings that require
-                  specialized roofing approaches.
+                  Beyond town limits, our Perryton work covers ranch headquarters, farm residences, and the smaller commercial buildings that serve the agricultural community across northern Ochiltree County. Long drives between properties are part of the job, and we plan routes around harvest traffic.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Rural residential services</li>
-                  <li>• Ranch building repairs</li>
-                  <li>• Remote property access</li>
-                  <li>• Agricultural community support</li>
+                  <li>• Rural residential reroofs in architectural asphalt or standing seam metal</li>
+                  <li>• Ranch outbuilding repairs including barns, hay sheds, and shop buildings</li>
+                  <li>• Remote property access with crews staged out of our Amarillo headquarters</li>
+                  <li>• Coordinated visits combining residence, shop, and outbuilding work on one trip</li>
                 </ul>
               </div>
             </div>
@@ -445,9 +439,7 @@ export default function RoofRepairPerrytonPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Wheat Production</h3>
                 <p className="text-gray-700">
-                  Perryton serves as a major wheat production center with massive grain elevators
-                  and storage facilities requiring specialized roofing systems capable of handling
-                  structural loads and moisture control.
+                  Perryton is a primary wheat production hub for the northern Panhandle, anchored by tall grain elevators, flat-roof storage buildings, and processing facilities that need roofing systems built for structural loading, moisture control, and wind exposure across the open High Plains.
                 </p>
               </div>
               <div className="text-center">
@@ -467,9 +459,7 @@ export default function RoofRepairPerrytonPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">County Services</h3>
                 <p className="text-gray-700">
-                  As Ochiltree County's seat, Perryton maintains essential government services and
-                  facilities requiring specialized roofing knowledge for public buildings and
-                  institutional structures.
+                  As county seat, Perryton runs the Ochiltree County courthouse, school district facilities, and city service buildings. Public roofing projects here involve formal procurement, current Texas code compliance, and documentation that holds up to public records review.
                 </p>
               </div>
             </div>
@@ -481,9 +471,7 @@ export default function RoofRepairPerrytonPage() {
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-brand-gold">Grain Dust Exposure</h4>
                   <p className="text-gray-700 mb-4">
-                    Wheat processing and storage operations create significant airborne grain dust
-                    that can accumulate on roof surfaces and clog drainage systems, requiring
-                    specialized maintenance approaches.
+                    Wheat harvest and grain handling around Perryton put fine dust in the air for weeks at a stretch. That dust settles on roof surfaces, packs into scuppers and gutters, and clogs roof drains on flat membranes. Annual cleaning and inspection of drainage paths keeps water flowing off and prevents ponding-related membrane failure.
                   </p>
                 </div>
                 <div>
@@ -491,9 +479,7 @@ export default function RoofRepairPerrytonPage() {
                     Agricultural Chemical Exposure
                   </h4>
                   <p className="text-gray-700 mb-4">
-                    Farming operations use herbicides, pesticides, and fertilizers that can create
-                    airborne chemicals affecting roofing material longevity and requiring resistant
-                    material selection.
+                    Field operations across Ochiltree County put herbicides, pesticides, and nitrogen fertilizers in the wind. Those compounds settle on roofing materials and shorten the life of standard asphalt and certain coatings. For agricultural buildings we lean toward TPO, PVC, or galvanized standing seam metal, which hold up better against chemical exposure.
                   </p>
                 </div>
               </div>
@@ -589,15 +575,13 @@ export default function RoofRepairPerrytonPage() {
                       Weather-Resistant Installation
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Our installation teams use enhanced attachment methods and sealing techniques
-                      designed for extreme weather zones, ensuring repairs can withstand future
-                      hailstorms and High Plains winds.
+                      Repairs in Perryton are built for what the High Plains actually delivers. We use Class 4 impact-rated shingles where the application allows, UL 580 wind-uplift-rated metal panels, and ASTM-tested sealants. The goal is a repair that survives the next hail cell off Hail Alley, not just the inspection.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Enhanced attachment systems</li>
-                      <li>• Weather-resistant sealing</li>
-                      <li>• Extreme weather preparation</li>
-                      <li>• Agricultural building considerations</li>
+                      <li>• Tightened fastener patterns on standing seam and R-panel installs</li>
+                      <li>• ASTM-rated sealants at penetrations, pipe boots, and flashing terminations</li>
+                      <li>• UL 2218 Class 4 impact-rated materials for hail-prone exposures</li>
+                      <li>• Agricultural building details with chemical-resistant fasteners and panels</li>
                     </ul>
                   </div>
                 </div>
@@ -613,15 +597,13 @@ export default function RoofRepairPerrytonPage() {
                       Severe Weather Zone Monitoring
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Given Perryton's extreme weather exposure, we provide enhanced post-repair
-                      monitoring and proactive storm damage assessment to ensure continued
-                      protection through severe weather seasons.
+                      Perryton sits in Hail Alley, so the work does not end at completion. Post-repair follow-up checks are scheduled after the spring storm season and again before winter. If a hail cell hits the property, we document the slope condition for the insurance carrier before damage gets covered up by snow or further wear.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Storm season monitoring</li>
-                      <li>• Post-hail damage assessment</li>
-                      <li>• Proactive maintenance scheduling</li>
-                      <li>• Enhanced warranty support</li>
+                      <li>• Post-storm inspections coordinated with the carrier (State Farm, Allstate, USAA, Farmers, Texas Farm Bureau)</li>
+                      <li>• Hail damage documentation with slope-by-slope photo evidence</li>
+                      <li>• Maintenance visits scheduled around the High Plains storm calendar</li>
+                      <li>• Manufacturer warranty support on GAF, CertainTeed, and Owens Corning systems</li>
                     </ul>
                   </div>
                 </div>
@@ -673,15 +655,13 @@ export default function RoofRepairPerrytonPage() {
                   Agricultural Schedule Accommodation
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  We understand that agricultural operations in wheat country follow critical
-                  seasonal schedules. Our repair scheduling accommodate the demands of
-                  farming cycles.
+                  Wheat country runs on a calendar most contractors ignore. We schedule repair work around planting and the June-through-July winter wheat harvest in Ochiltree County, and we plan staging and material delivery so trucks do not block farm access during peak field traffic.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Harvest season scheduling</li>
-                  <li>• Agricultural priority response</li>
-                  <li>• Seasonal operation consideration</li>
-                  <li>• Farm equipment protection</li>
+                  <li>• Repair scheduling planned around the winter wheat harvest window</li>
+                  <li>• Priority sequencing for agricultural buildings ahead of storage season</li>
+                  <li>• Coordination with planting, spraying, and irrigation cycles</li>
+                  <li>• Equipment shed and shop-building work scheduled when bays are clear</li>
                 </ul>
               </div>
 
@@ -690,15 +670,13 @@ export default function RoofRepairPerrytonPage() {
                   Ochiltree County Compliance
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  As the county seat, Perryton requires specialized knowledge of local building
-                  codes, government building requirements, and rural property considerations
-                  throughout Ochiltree County.
+                  Perryton work has to clear current Texas commercial roofing codes, IBC requirements adopted by the county, and the Texas Prompt Payment Act on public-sector jobs. We pull permits, file the right manufacturer documentation, and keep the paperwork in order so the project closes cleanly.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• County building code expertise</li>
-                  <li>• Government facility compliance</li>
-                  <li>• Rural property specialization</li>
-                  <li>• Municipal building experience</li>
+                  <li>• Ochiltree County permitting and adopted-code compliance</li>
+                  <li>• Bonded and insured public-bid work on government facilities</li>
+                  <li>• Rural property considerations including septic and well clearances</li>
+                  <li>• Municipal building experience across Perryton, Booker, and Spearman</li>
                 </ul>
               </div>
             </div>

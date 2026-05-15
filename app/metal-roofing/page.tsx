@@ -294,9 +294,7 @@ export default function Page() {
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-2">Hail Resistance</h3>
               <p className="text-sm text-gray-600">
-                Standing seam and thick-gauge metal panels resist denting from all but the largest
-                hailstones. While shingle roofs often need full replacement after a major hail
-                event, metal roofs frequently survive with cosmetic damage only.
+                Standing seam and thick-gauge R-panel metal hold up to West Texas hail in a way asphalt simply cannot. A Class 4 UL 2218 rating is realistic on most 24-gauge standing seam systems. After a major hail event on the Llano Estacado, an asphalt shingle roof often needs full replacement while the metal roof next door has cosmetic dents and keeps performing.
               </p>
             </div>
             <div className="bg-white p-4 rounded-lg">
@@ -517,11 +515,11 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-2">Commercial Advantages</h3>
               <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-                <li>Lower lifecycle cost than repeated membrane replacements</li>
-                <li>Minimal disruption during installation compared to built-up roofing</li>
-                <li>Insurance premium discounts for impact-resistant metal systems</li>
-                <li>Energy savings reduce operating costs for climate-controlled buildings</li>
-                <li>Metal panels can span long distances without interior support columns</li>
+                <li>Lower lifecycle cost over decades than repeated TPO, PVC, or EPDM membrane replacements</li>
+                <li>Minimal tenant disruption during installation compared to built-up roofing or modified bitumen</li>
+                <li>Texas carrier (State Farm, Allstate, Texas Farm Bureau) premium discounts on UL 2218 Class 4 impact-resistant metal</li>
+                <li>ENERGY STAR cool-roof finishes that cut summer cooling load on Amarillo, Midland, and Lubbock buildings</li>
+                <li>Standing seam panels span long distances, freeing the interior of support columns on warehouses and retail boxes</li>
               </ul>
             </div>
           </div>

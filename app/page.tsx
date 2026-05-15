@@ -460,15 +460,14 @@ export default async function Page() {
               <div>
                 <h3 className="font-bold text-lg mb-2">Insurance Claim Experts</h3>
                 <p>
-                  We handle all the paperwork and work directly with adjusters to get you full
-                  coverage. From{" "}
+                  We work directly with adjusters from State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau, walking the roof together when scheduling allows. From{" "}
                   <a
                     href="/roof-inspections-amarillo/"
                     className="text-brand-brown hover:text-brand-gold underline"
                   >
                     free roof inspections
                   </a>{" "}
-                  to claim filing, we manage the entire process.
+                  to Xactimate scope and final paperwork, we manage the claim from notice of loss through depreciation release.
                 </p>
               </div>
             </div>
@@ -478,17 +477,16 @@ export default async function Page() {
                 <Check className="w-8 h-8 text-brand-gold" />
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">Fast post-storm documentation</h3>
+                <h3 className="font-bold text-lg mb-2">Insurance-Grade Storm Documentation</h3>
                 <p>
-                  Insurance-grade storm-damage documentation: After a storm, we document damage with
-                  photos and adjuster-ready reports, then handle{" "}
+                  After Panhandle hail or wind events, we document damage slope by slope with drone imagery, ground-level photos, and measurements against UL 2218 Class 3 and Class 4 criteria. The adjuster-ready report ties findings to the carrier&apos;s scope language, and{" "}
                   <a
                     href="/storm-damage-repair-amarillo/"
                     className="text-brand-brown hover:text-brand-gold underline"
                   >
                     storm damage repair
                   </a>{" "}
-                  scheduling once your claim is approved.
+                  scheduling moves forward once the claim is approved.
                 </p>
               </div>
             </div>

@@ -657,6 +657,14 @@ export default function RoofInspectionsAndrewsPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">
                   Advanced Detection Methods for Permian Basin Conditions
                 </h3>
+                <p className="text-gray-700 mb-6">
+                  Andrews sits at roughly 3,176 feet on the western edge of the Permian Basin,
+                  where bright sun and wind-borne caliche dust can mask hail damage and obscure
+                  early signs of underlayment failure. We use infrared thermography to find wet
+                  insulation under a still-intact membrane, and FAA Part 107 drone work to
+                  document tile, standing seam, and built-up roof surfaces without putting an
+                  inspector on a hot or icy roof.
+                </p>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h4 className="font-bold text-gray-800 mb-4">Infrared Thermal Analysis</h4>
@@ -788,27 +796,28 @@ export default function RoofInspectionsAndrewsPage() {
                   <Leaf className="w-6 h-6 inline-block" /> Fall Preparation (October-November)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Season Wrap-up Assessment:</strong> Comprehensive evaluation after storm
-                  season and before winter.
+                  <strong>Season wrap-up assessment:</strong> a full inspection after the spring
+                  supercell season and before Andrews County&apos;s first freeze, typically in
+                  mid-November.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Annual Assessment:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Cumulative storm damage evaluation</li>
-                      <li>• Preventive maintenance planning</li>
-                      <li>• Winter weather preparation</li>
-                      <li>• End-of-year insurance considerations</li>
-                      <li>• Repair project scheduling</li>
+                      <li>• Cumulative spring-and-summer hail and wind damage review</li>
+                      <li>• Preventive maintenance plan tailored to the roof system in place</li>
+                      <li>• Winter prep: ice and water shield, vent boots, chimney flashing</li>
+                      <li>• Documentation that resets the baseline for any winter claim</li>
+                      <li>• Slot the repair scope on the schedule before mid-November</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Optimal Conditions:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Moderate temperatures for comfort</li>
-                      <li>• Reduced wind speeds</li>
-                      <li>• Clear skies for documentation</li>
-                      <li>• Contractor availability before winter</li>
+                      <li>• Daytime highs in the 60s and 70s typical for Andrews</li>
+                      <li>• Lower wind speeds between Pacific fronts</li>
+                      <li>• Long clear afternoons for photo documentation</li>
+                      <li>• Crew availability before winter project demand picks up</li>
                     </ul>
                   </div>
                 </div>
@@ -820,27 +829,28 @@ export default function RoofInspectionsAndrewsPage() {
                   (December-February)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Limited Access Period:</strong> Emergency-only inspections due to weather
-                  and safety concerns.
+                  <strong>Limited access period:</strong> we focus on interior diagnostics and
+                  ground-level review during Andrews County&apos;s freeze stretches, scheduling
+                  the rooftop work for the next safe weather window.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Winter Challenges:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Ice formation safety hazards</li>
-                      <li>• Reduced daylight hours</li>
-                      <li>• Equipment functionality in cold</li>
-                      <li>• Storm-related roof access</li>
-                      <li>• Interior focus on leak detection</li>
+                      <li>• Ice on metal panels and shingles creates real fall hazards</li>
+                      <li>• Reduced daylight cuts into safe inspection windows</li>
+                      <li>• Cold drains drone batteries and slows thermal cameras</li>
+                      <li>• Storm-related roof access waits for ice and wind to clear</li>
+                      <li>• Interior focus on attic moisture and leak detection</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Alternative Methods:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Interior moisture detection</li>
-                      <li>• Thermal imaging from inside</li>
-                      <li>• Ground-level visual assessment</li>
-                      <li>• Drone inspection when weather permits</li>
+                      <li>• Moisture meter sweeps along interior ceilings and walls</li>
+                      <li>• Thermal imaging from the attic side of the roof deck</li>
+                      <li>• Ground-level visual review with telephoto lens</li>
+                      <li>• FAA Part 107 drone flight when wind drops below 20 mph</li>
                     </ul>
                   </div>
                 </div>
@@ -859,6 +869,14 @@ export default function RoofInspectionsAndrewsPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">
                   Permian Basin Insurance Challenges
                 </h3>
+                <p className="text-gray-700 mb-4">
+                  Andrews County roofs often see multiple hail events in a single spring. That
+                  layered damage history is the single hardest thing to document for the
+                  insurance carrier, because State Farm, Allstate, or USAA adjusters need to
+                  separate fresh impacts from prior storm scarring. The list below covers the
+                  recurring sticking points we work through on Permian Basin claims and the
+                  documentation that resolves them.
+                </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">Common Claim Issues</h4>
@@ -913,21 +931,21 @@ export default function RoofInspectionsAndrewsPage() {
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">Meeting Preparation</h4>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Schedule during optimal weather conditions</li>
-                      <li>• Provide safe roof access equipment</li>
-                      <li>• Organize documentation chronologically</li>
-                      <li>• Prepare damage location maps</li>
-                      <li>• Have repair estimates ready</li>
+                      <li>• Schedule the adjuster visit on a clear, low-wind morning</li>
+                      <li>• Provide our extension ladder and roof-grip cleats for safe access</li>
+                      <li>• Organize photos chronologically by storm date</li>
+                      <li>• Prepare a marked-up damage map by roof slope and elevation</li>
+                      <li>• Have the line-item repair scope and Xactimate-style pricing ready</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">Professional Advocacy</h4>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Technical damage explanation</li>
-                      <li>• Industry standard repair methods</li>
-                      <li>• Code compliance requirements</li>
-                      <li>• Material matching challenges</li>
-                      <li>• Long-term performance implications</li>
+                      <li>• Plain-English explanation of bruising vs. cosmetic granule loss</li>
+                      <li>• Documentation tied to GAF and CertainTeed repair specifications</li>
+                      <li>• Andrews County code upgrade requirements where they apply</li>
+                      <li>• Shingle and standing seam color-match constraints from the supplier</li>
+                      <li>• Long-term performance implications of patch versus full slope replace</li>
                     </ul>
                   </div>
                 </div>

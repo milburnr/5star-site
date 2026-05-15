@@ -231,9 +231,7 @@ export default function Page() {
           What Are the Signs of Hail Damage on Your Roof?
         </h2>
         <p className="mb-4">
-          Hail damage is not always obvious from the ground. Knowing what to look for can save you
-          from expensive water damage down the road. Here are the most common indicators our
-          inspectors check:
+          Hail damage on Texas Panhandle homes often hides in plain sight. A stone the size of a quarter can crack the fiberglass mat under an architectural asphalt shingle without leaving a mark visible from your driveway. Catching it early protects the decking and prevents attic leaks that show up months later as ceiling stains. Here is what our inspectors check on every Amarillo, Lubbock, and Midland roof we walk:
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
@@ -250,19 +248,13 @@ export default function Page() {
               Cracked or Bruised Shingles
             </h3>
             <p className="text-gray-700">
-              Hail impacts fracture the fiberglass mat beneath the surface granules. These cracks
-              may not be visible from the ground, but they compromise the shingle&apos;s ability to
-              shed water. Dark spots or soft areas when pressed indicate bruised shingles that will
-              fail prematurely.
+              Hail impacts fracture the fiberglass mat beneath the surface granules on standard architectural and 3-tab asphalt shingles. These cracks rarely show from the ground, but they compromise the shingle&apos;s ability to shed water. Dark spots or soft areas that give under thumb pressure are the classic UL 2218 bruise pattern, and these shingles will fail well before the warranty period ends.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Granule Loss in Gutters</h3>
             <p className="text-gray-700">
-              After a hail storm, check your gutters and downspout outlets for excessive granule
-              accumulation. Granules protect shingles from UV degradation, and their loss
-              accelerates aging by several years. Heavy granule deposits after a storm are a strong
-              indicator of widespread hail impact.
+              After any hail event in Hail Alley, check your gutters and downspout outlets for excessive granule accumulation. The granules protect asphalt shingles from intense Texas Panhandle UV exposure, and once they are knocked loose the mat ages quickly. Heavy granule deposits at downspout outlets after a storm are a reliable signal of widespread impact across the field of the roof.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
@@ -280,10 +272,7 @@ export default function Page() {
               Soft Spots and Exposed Felt
             </h3>
             <p className="text-gray-700">
-              Large hailstones can punch through shingle layers entirely, exposing the felt
-              underlayment beneath. Even without full penetration, the impact creates soft spots
-              where water will eventually pool and leak into your attic. These areas need immediate
-              attention.
+              The two-inch-plus stones that hit Amarillo and Lubbock during peak hail season can punch clean through shingle layers and expose the felt underlayment. Even without full penetration, the impact crushes the shingle and creates soft spots where water pools and works its way to the attic. These areas need to be repaired before the next rain, not left for a future inspection.
             </p>
           </div>
         </div>
@@ -311,25 +300,21 @@ export default function Page() {
             <div className="text-3xl font-bold text-brand-gold mb-2">1</div>
             <h3 className="font-bold mb-2 text-brand-brown">Free Inspection</h3>
             <p className="text-sm text-gray-600">
-              We inspect your roof, siding, gutters, and screens for hail impact. Our inspectors
-              climb the roof and document every point of damage with photos and measurements.
+              We walk the roof, AC fins, window screens, and aluminum gutters looking for the dent pattern that confirms a covered hail event. Every impact point is logged with photos and a tape measure so the report matches what your State Farm, Allstate, or USAA adjuster expects to see.
             </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <div className="text-3xl font-bold text-brand-gold mb-2">2</div>
             <h3 className="font-bold mb-2 text-brand-brown">Damage Documentation</h3>
             <p className="text-sm text-gray-600">
-              We prepare a detailed report with photo evidence, damage maps, and material
-              specifications that meet insurance company requirements for claim approval.
+              We prepare a detailed report with photo evidence, slope-by-slope damage maps, and material specifications (manufacturer, shingle profile, UL 2218 rating) that meet the documentation standard Texas carriers expect for claim approval.
             </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <div className="text-3xl font-bold text-brand-gold mb-2">3</div>
             <h3 className="font-bold mb-2 text-brand-brown">Insurance Coordination</h3>
             <p className="text-sm text-gray-600">
-              We meet your adjuster on-site, walk the roof together, and ensure nothing is missed.
-              If the initial estimate falls short, we file supplements with additional
-              documentation.
+              We meet your adjuster on-site, walk the roof together, and point out the impacts they would otherwise miss from the gutter line. If the initial Xactimate estimate falls short, we file a supplement with the additional photos, measurements, and line items needed to close the gap.
             </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
@@ -357,11 +342,11 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-2">What We Handle</h3>
               <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
-                <li>Initial claim filing with detailed damage documentation</li>
-                <li>On-site adjuster meetings to walk the damage together</li>
-                <li>Supplement filings when the first estimate misses damage</li>
-                <li>Material and labor cost verification against Xactimate</li>
-                <li>Coordination between your insurance and our crew schedule</li>
+                <li>Initial claim filing with slope-by-slope photo documentation</li>
+                <li>On-site adjuster meetings with State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau</li>
+                <li>Supplement filings when the first estimate misses ridge, valley, or flashing damage</li>
+                <li>Material and labor cost verification against current Xactimate pricing for the Amarillo and Lubbock markets</li>
+                <li>Scheduling between your carrier&apos;s approval timeline and our crew calendar</li>
               </ul>
             </div>
             <div>
@@ -400,10 +385,7 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Metal Roofing</h3>
             <p className="text-gray-700">
-              Standing seam and corrugated metal roofs resist hail better than most materials, but
-              large stones still cause cosmetic denting and can compromise panel seams. We repair
-              dented panels, replace damaged sections, and reseal seams to restore full weather
-              protection.
+              Standing seam and R-panel metal roofs hold up to West Texas hail better than asphalt, but two-inch-plus stones still cause cosmetic denting on the pans and can open up seams or fastener gaskets. We repair dented panels, replace damaged sections, and reseal seams so the roof keeps its UL 580 wind-uplift performance and stays watertight through the next storm.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
@@ -419,10 +401,7 @@ export default function Page() {
               Tile and Specialty Roofing
             </h3>
             <p className="text-gray-700">
-              Clay and concrete tile roofs crack and shatter under hail impact. We source matching
-              replacement tiles and repair the underlayment beneath. For specialty materials like
-              slate and cedar shake, we work with specialty suppliers to maintain the roof&apos;s
-              original appearance.
+              Clay and concrete tile roofs crack and shatter under hail impact, especially on the south- and west-facing slopes that take the brunt of Panhandle storms. We source matching replacement tiles, repair the underlayment beneath, and reset the courses so the roof field stays uniform. For specialty materials like slate and cedar shake, we coordinate with regional suppliers to keep the original look intact.
             </p>
           </div>
         </div>
@@ -469,18 +448,14 @@ export default function Page() {
             <div className="text-2xl font-bold text-brand-gold mb-2">Step 4</div>
             <h3 className="font-bold text-brand-brown mb-2">Meet With the Insurance Adjuster</h3>
             <p className="text-sm text-gray-600">
-              We attend the adjuster meeting on your behalf, walk the roof together, and point out
-              every area of damage. Having a roofing professional present ensures nothing gets
-              overlooked in the adjuster&apos;s scope of work.
+              We meet the State Farm, Allstate, USAA, or Texas Farm Bureau adjuster on-site, walk the roof together, and point out the impacts they would otherwise miss on ridge caps, valleys, and metal flashing. Having a roofer on the roof during the inspection keeps small details from getting left out of the scope of work.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-brand-gold">
             <div className="text-2xl font-bold text-brand-gold mb-2">Step 5</div>
             <h3 className="font-bold text-brand-brown mb-2">Review the Scope of Work</h3>
             <p className="text-sm text-gray-600">
-              Compare the adjuster&apos;s estimate against our independent assessment. If the
-              insurance estimate falls short, we file a supplement with additional documentation and
-              line-item pricing from Xactimate.
+              Compare the adjuster&apos;s estimate against our independent assessment line by line. If the carrier scope falls short on items like drip edge, ice and water shield, or ridge venting, we file a supplement with the photos and current Xactimate pricing the adjuster needs to release additional funds.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-brand-gold">
@@ -506,36 +481,28 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-yellow-500">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Cosmetic Damage</h3>
             <p className="text-gray-700 mb-3">
-              Dents in metal components, minor granule displacement on shingles, and small dings in
-              gutters. The roof still functions properly and sheds water as designed.
+              Dents in aluminum gutters and vent caps, light granule displacement on architectural shingles, and small dings on metal flashing. The roof is still shedding water and the underlayment is intact, so the shingles continue to perform within their UL 2218 rating.
             </p>
             <p className="text-sm text-gray-500">
-              <strong>Action:</strong> Monitor during next inspection. May not warrant a claim
-              depending on your deductible and premium impact.
+              <strong>Action:</strong> Monitor on the next inspection. May not warrant a claim depending on your deductible and the premium impact your Texas carrier (State Farm, Allstate, Texas Farm Bureau) applies after a claim is filed.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-orange-500">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Functional Damage</h3>
             <p className="text-gray-700 mb-3">
-              Cracked shingles, broken sealant strips, exposed underlayment, and significant granule
-              loss that accelerates UV degradation. The roof&apos;s ability to protect your home is
-              compromised.
+              Cracked shingles, broken sealant strips along the ridge, exposed felt, and granule loss heavy enough to accelerate UV degradation through Panhandle summers. The shingle field is no longer performing the way it did off the truck, and minor leaks will follow.
             </p>
             <p className="text-sm text-gray-500">
-              <strong>Action:</strong> File an insurance claim. Repairs prevent further
-              deterioration and interior water damage within months.
+              <strong>Action:</strong> File an insurance claim with your carrier. Repairs prevent further deterioration and interior water damage from showing up at the first hard rain.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-red-500">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Critical Damage</h3>
             <p className="text-gray-700 mb-3">
-              Punctures through the decking, active leaks into living spaces, large areas of missing
-              shingles, and structural compromise from repeated impacts. Immediate repair is
-              necessary.
+              Punctures through the OSB or plywood decking, active leaks into living spaces, large sections of missing shingles, and structural compromise from repeated two-inch-plus impacts. The roof cannot keep the next rain out without repair.
             </p>
             <p className="text-sm text-gray-500">
-              <strong>Action:</strong> Emergency weatherproof sheeting followed by full replacement. File a claim
-              immediately and request expedited processing.
+              <strong>Action:</strong> Temporary weather protection is installed followed by full replacement. File a claim with your carrier and ask the adjuster to expedite given the active leak.
             </p>
           </div>
         </div>
@@ -546,39 +513,37 @@ export default function Page() {
           How Do You Tell the Difference Between Hail, Wind, and Water Damage?
         </h2>
         <p className="mb-4">
-          Insurance adjusters need to verify the cause of damage before approving a claim. Knowing
-          how to identify each type helps you communicate accurately with your carrier and ensures
-          the right repairs are performed:
+          Texas adjusters need to verify the cause of damage before approving a claim, and hail, wind, and water each leave a distinct signature. Knowing how to identify each type helps you describe the loss accurately when you call State Farm, Allstate, USAA, or Texas Farm Bureau, and it helps make sure the right line items end up in the scope of work:
         </p>
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Hail Damage Signs</h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
-              <li>Circular dents or dimples on shingles and metal</li>
-              <li>Bruised shingles that feel soft when pressed</li>
-              <li>Random impact pattern across the roof surface</li>
-              <li>Cracked tiles with star or spider-web fractures</li>
-              <li>Granule accumulation in gutters after storms</li>
+              <li>Circular dents on architectural asphalt shingles and aluminum gutter aprons</li>
+              <li>Bruised shingles that feel soft under thumb pressure (classic UL 2218 signature)</li>
+              <li>Random impact pattern across the full roof field, not directional</li>
+              <li>Cracked clay or concrete tiles with star or spider-web fractures</li>
+              <li>Granule accumulation at downspout outlets after a Panhandle storm</li>
             </ul>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Wind Damage Signs</h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
-              <li>Lifted or curled shingle edges along ridges and edges</li>
-              <li>Missing shingle sections, especially on windward slopes</li>
-              <li>Debris impact marks from airborne objects</li>
-              <li>Damaged or displaced ridge cap shingles</li>
-              <li>Directional pattern following prevailing wind</li>
+              <li>Lifted or curled shingle edges along eaves, rakes, and ridges</li>
+              <li>Missing shingle tabs on the south- and southwest-facing slopes (the prevailing wind direction across the Texas Panhandle)</li>
+              <li>Debris impact marks from airborne tree limbs or yard objects</li>
+              <li>Damaged or displaced ridge cap shingles where the seal broke loose</li>
+              <li>Directional damage pattern that traces the storm path, not the random pattern hail leaves</li>
             </ul>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Water Damage Signs</h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
-              <li>Interior ceiling stains or discoloration</li>
-              <li>Sagging or bubbling areas on the roof surface</li>
-              <li>Mold or mildew growth in attic spaces</li>
-              <li>Rotted fascia boards or decking underneath</li>
-              <li>Peeling paint on exterior walls near the roofline</li>
+              <li>Interior ceiling stains, especially near valleys and chimney flashing</li>
+              <li>Sagging or bubbling on the roof surface where the OSB or plywood deck has absorbed water</li>
+              <li>Mold or mildew growth on the underside of attic decking</li>
+              <li>Rotted fascia boards or decking where gutters back up</li>
+              <li>Peeling paint on exterior walls near the roofline, a sign of trapped attic moisture</li>
             </ul>
           </div>
         </div>

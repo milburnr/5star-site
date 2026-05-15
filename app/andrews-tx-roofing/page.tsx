@@ -229,8 +229,10 @@ export default function AndrewsRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Andrews</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Andrews and Andrews County. Select a service below for details.
+              From architectural asphalt shingles on a Permian Basin home to standing seam metal
+              and TPO on an oilfield service building, we cover both residential and commercial
+              roofing across Andrews and Andrews County. Pick the service that fits below for
+              details on materials, scope, and local code considerations.
             </p>
           </FadeIn>
 
@@ -254,8 +256,10 @@ export default function AndrewsRoofingPage() {
             <h2 className="section-title">Andrews Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From established neighborhoods near downtown to newer oil-boom developments, we
-                provide roofing services throughout all of Andrews:
+                We cover everything from older homes on the streets around the Andrews County
+                Courthouse to newer subdivisions along the US-385 corridor and oilfield housing
+                built up during recent Permian Basin booms. Service area extends across all of
+                Andrews and the surrounding Andrews County ranches.
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>

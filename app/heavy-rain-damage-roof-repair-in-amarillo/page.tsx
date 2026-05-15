@@ -352,19 +352,14 @@ export default function Page() {
 
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Failed Flashing</h3>
             <p className="mb-4">
-              Flashing around chimneys, skylights, vents, and valleys is critical for directing
-              water away from vulnerable areas. Extreme temperature swings in West Texas cause
-              flashing sealant to crack and metal to expand/contract, leading to gaps where water
-              enters.
+              Step flashing around chimneys, skylights, plumbing vents, and valleys does the heavy lifting on steering rainwater away from the weakest joints in the roof system. West Texas temperature swings (winter cold snaps to triple-digit Amarillo summers) crack the sealant and force the metal to expand and contract season after season. The result is the quarter-inch gaps where rain enters during a Panhandle thunderstorm.
             </p>
 
             <h3 className="text-xl font-semibold text-brand-brown mb-3">
               Clogged Gutters and Downspouts
             </h3>
             <p className="mb-4">
-              When gutters fill with debris, water backs up under shingles at the roof edge. During
-              heavy downpours common in Texas, this overflow can quickly saturate roof decking and
-              penetrate into the attic.
+              When aluminum gutters fill with cottonwood debris and roof grit, rainwater backs up under the shingles at the roof edge instead of running down the downspout to the drip line. During the kind of fast downpours the Texas Panhandle sees in spring, that overflow saturates OSB or plywood decking within minutes and works its way into the attic along the fascia.
             </p>
 
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Aging Roofing Materials</h3>
@@ -460,8 +455,7 @@ export default function Page() {
             <div className="card-body">
               <h3 className="font-bold mb-3">Proper Ventilation</h3>
               <p>
-                Adequate ridge and soffit ventilation prevents moisture buildup in the attic that
-                can weaken roof decking and make rain damage worse.
+                Balanced ridge and soffit ventilation pulls moist air out of the attic before it condenses on the underside of the OSB decking. Without that airflow, even a minor roof leak in Amarillo or Lubbock spreads moisture across the deck and accelerates the wood rot that turns a small rain event into a full reroof.
               </p>
             </div>
           </div>
@@ -478,8 +472,7 @@ export default function Page() {
             <div className="card-body">
               <h3 className="font-bold mb-3">Regular Gutter Maintenance</h3>
               <p>
-                Clean gutters twice per year (spring and fall) to ensure proper water drainage away
-                from roof edges and foundation.
+                Clean aluminum gutters twice a year, once in spring after cottonwood seed-fall and once in fall after the cottonwood and elm leaves drop. Clear gutters keep rainwater moving from the drip edge to the downspout outlet, away from fascia and away from the foundation, where it would otherwise pool during Panhandle thunderstorms.
               </p>
             </div>
           </div>
@@ -601,19 +594,17 @@ export default function Page() {
         <div className="card mb-8">
           <div className="card-body">
             <p className="mb-4">
-              Most homeowners insurance policies in Texas cover water damage resulting from storm
-              events, including heavy rain. However, coverage can be complex and depends on several
-              factors:
+              Most Texas homeowner insurance policies, including the major carriers we work with regularly (State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau), cover water damage that results from a sudden storm event. Coverage is rarely as simple as a single line item, though, and what gets approved depends on policy language, deductible structure, and how clearly the damage ties back to a specific weather event:
             </p>
             <h3 className="text-xl font-semibold text-brand-brown mb-3">
               What's Typically Covered
             </h3>
             <ul className="list-disc pl-6 space-y-2 mb-4">
-              <li>Sudden and accidental water intrusion from storm events</li>
-              <li>Wind-driven rain damage through roof openings created by storms</li>
-              <li>weatherproof sheeting to help prevent further damage</li>
-              <li>Roof repairs or replacement if damage is extensive</li>
-              <li>Interior water damage resulting from roof failure during storms</li>
+              <li>Sudden and accidental water intrusion from a documented storm event in Amarillo or surrounding cities</li>
+              <li>Wind-driven rain that entered through roof openings created during the storm</li>
+              <li>Temporary weather protection installed to limit further interior damage</li>
+              <li>Roof repairs or full replacement (asphalt shingle or metal) when the damage is extensive</li>
+              <li>Interior water damage that resulted from the roof failure, including ceiling drywall and insulation</li>
             </ul>
             <h3 className="text-xl font-semibold text-brand-brown mb-3">What May Not Be Covered</h3>
             <ul className="list-disc pl-6 space-y-2 mb-4">
@@ -655,9 +646,7 @@ export default function Page() {
             <div className="card-body">
               <h3 className="font-bold mb-2">Will weatherproof sheeting damage my roof further?</h3>
               <p>
-                No. Our crews use professional-grade tarps and installation methods that secure the
-                tarp without creating additional penetrations or damage. Weatherproof sheeting prevents
-                exponentially more damage than it could possibly cause.
+                No. Our crews use commercial-grade reinforced sheeting and fastening methods that secure the cover at the perimeter without driving extra penetrations into a sound shingle field. The temporary weather protection prevents far more damage than it could ever cause by keeping the OSB deck and attic insulation dry until the permanent repair is scheduled.
               </p>
             </div>
           </div>

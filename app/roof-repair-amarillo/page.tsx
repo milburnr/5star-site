@@ -254,19 +254,21 @@ export default function RoofRepairAmarilloPage() {
                   Historic Housing Challenges
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• 1950s-1970s homes with original wood shake and asphalt roofs</li>
-                  <li>• Deteriorated roof decking in Potter County's older neighborhoods</li>
-                  <li>• Inadequate attic ventilation in mid-century construction</li>
-                  <li>• Failing flashing around brick chimneys and skylights</li>
+                  <li>• 1950s-1970s homes in Wolflin and North Heights still carrying original wood shake or 3-tab asphalt</li>
+                  <li>• Brittle 1x6 plank decking in older Potter County neighborhoods that flexes under modern shingle weight</li>
+                  <li>• Mid-century attics built with ridge venting alone, leaving intake airflow short of current code</li>
+                  <li>• Galvanized step flashing corroded at brick chimneys and skylights, a common leak source in homes east of Western Street</li>
+                  <li>• Two-layer roof systems from earlier re-roofs that hide rotted decking beneath the top course</li>
                 </ul>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Climate-Related Damage</h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Hail damage from Panhandle supercells</li>
-                  <li>• Wind uplift from sustained 25+ mph gusts</li>
-                  <li>• UV degradation accelerated by high altitude exposure</li>
-                  <li>• Freeze-thaw cycles damaging flashing and gutters</li>
+                  <li>• Hail bruising and granule loss from Panhandle supercells tracking out of the Llano Estacado</li>
+                  <li>• Wind uplift along eaves and ridges from sustained 25+ mph gusts off I-40</li>
+                  <li>• Accelerated UV degradation at Amarillo&apos;s 3,605-foot elevation, especially on south- and west-facing slopes</li>
+                  <li>• Freeze-thaw cycles that crack pipe boots, splitting sealant lines along valleys and flashing</li>
+                  <li>• Wind-driven caliche and grit that abrades shingle granules years ahead of schedule</li>
                 </ul>
               </div>
             </div>
@@ -287,37 +289,37 @@ export default function RoofRepairAmarilloPage() {
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Historic Districts</h3>
                 <p className="text-gray-600 mb-4">
-                  1940s-1960s construction requiring specialized restoration
+                  1940s-1960s construction in Potter County that calls for careful restoration work.
                 </p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Wolflin - Historic brick homes, original wood shakes</li>
-                  <li>• Paramount Terrace - Mid-century modern, flat roof challenges</li>
-                  <li>• North Heights - 1950s construction, composition shingles</li>
-                  <li>• Olsen Park - Post-war homes, gutter system upgrades</li>
+                  <li>• Wolflin: brick homes with steep gables, often still carrying original wood shake under composition layers</li>
+                  <li>• Paramount Terrace: mid-century modern with low-slope sections better suited to TPO or modified bitumen than shingles</li>
+                  <li>• North Heights: 1950s ranch builds running 3-tab asphalt that we typically replace with Class 4 impact-rated shingles</li>
+                  <li>• Olsen Park: post-war homes where the gutter and fascia systems are the first thing to upgrade before the deck</li>
                 </ul>
               </div>
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Established Areas</h3>
                 <p className="text-gray-600 mb-4">
-                  1970s-1990s developments with aging roofing systems
+                  1970s-1990s developments across Randall and Potter Counties with aging roofing systems.
                 </p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Westover Hills - 1980s construction, architectural shingles</li>
-                  <li>• River Road - Executive homes, complex rooflines</li>
-                  <li>• Sleepy Hollow - Ranch-style homes, ventilation issues</li>
-                  <li>• Tascosa - Suburban development, standard maintenance needs</li>
+                  <li>• Westover Hills: 1980s builds running first-generation architectural shingles now past their service life</li>
+                  <li>• River Road area: executive homes with hips, valleys, and dormers that need custom-fabricated step and counter flashing</li>
+                  <li>• Sleepy Hollow: ranch profiles where soffit intake is undersized and we add baffled intake plus ridge vent in pairs</li>
+                  <li>• Tascosa: suburban tracts where a GAF or Owens Corning architectural reroof handles the next 25-year cycle</li>
                 </ul>
               </div>
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Newer Communities</h3>
                 <p className="text-gray-600 mb-4">
-                  2000s+ construction with modern roofing systems
+                  2000s and newer construction with current roofing systems and active manufacturer warranties.
                 </p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• The Colonies - Impact-resistant shingles, warranty repairs</li>
-                  <li>• Ridgecrest - Modern construction, hail damage claims</li>
-                  <li>• Quail Creek - Energy-efficient homes, proper ventilation</li>
-                  <li>• Westcliff - Contemporary designs, metal roofing options</li>
+                  <li>• The Colonies: Class 4 impact-rated asphalt shingles where most repair work is warranty documentation and selective replacement</li>
+                  <li>• Ridgecrest: modern builds where hail claims with State Farm, Allstate, and USAA are the routine call</li>
+                  <li>• Quail Creek: energy-efficient homes that benefit from reflective shingle colors and properly balanced soffit-to-ridge ventilation</li>
+                  <li>• Westcliff: contemporary designs where standing seam metal or R-panel is often the better long-term choice over asphalt</li>
                 </ul>
               </div>
             </div>
@@ -336,8 +338,7 @@ export default function RoofRepairAmarilloPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Detailed Inspection</h3>
                 <p className="text-gray-700">
-                  Comprehensive assessment of visible and hidden damage, structural integrity, and
-                  climate-related wear patterns specific to Amarillo conditions.
+                  A walk of the roof field, eaves, valleys, and penetrations, with attic-side checks for moisture and decking condition. We look for hail bruising, wind uplift along ridges, and the Panhandle-specific wear patterns that show up at Amarillo&apos;s 3,605-foot elevation.
                 </p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
@@ -366,8 +367,7 @@ export default function RoofRepairAmarilloPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Quality Assurance</h3>
                 <p className="text-gray-700">
-                  Final inspection ensuring all repairs meet wind load requirements and provide
-                  long-term protection against future weather events.
+                  A second-set-of-eyes walkthrough confirms fastening patterns meet the 110+ mph wind ratings Potter County jobs call for, and that flashing, underlayment, and ridge details are sealed against the next hail season.
                 </p>
               </div>
             </div>
@@ -385,23 +385,23 @@ export default function RoofRepairAmarilloPage() {
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Hail Damage:</strong> Impact craters, granule loss, and cracked shingles
-                    from frequent Panhandle storms
+                    <strong>Hail Damage:</strong> Bruised mats, granule loss, and split shingles from supercells rolling east out of the Llano Estacado
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Wind Uplift:</strong> Loose or missing shingles from sustained high
-                    winds and gusts
+                    <strong>Wind Uplift:</strong> Lifted tabs and missing shingles along eaves and ridges where sustained gusts off I-40 work fasteners loose
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Temperature Stress:</strong> Expansion/contraction damage from extreme
-                    temperature swings
+                    <strong>Temperature Stress:</strong> Sealant strips and pipe boots that crack as Amarillo swings from sub-freezing winter nights to triple-digit July afternoons
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>UV Degradation:</strong> Accelerated aging from intense high-altitude
-                    sun exposure
+                    <strong>UV Degradation:</strong> Accelerated aging on south- and west-facing slopes from the high-altitude Panhandle sun
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-brand-gold mr-2">•</span>
+                    <strong>Wind-Driven Grit:</strong> Caliche dust off the plains that abrades shingle granules years ahead of typical wear
                   </li>
                 </ul>
               </div>
@@ -410,23 +410,19 @@ export default function RoofRepairAmarilloPage() {
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Deteriorated Decking:</strong> Rotted plywood in 1970s construction
-                    lacking proper ventilation
+                    <strong>Deteriorated Decking:</strong> Rotted CDX plywood in 1970s North Heights and Olsen Park homes where attic ventilation never kept up with the insulation upgrades
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Failed Flashing:</strong> Corroded metal around chimneys and
-                    penetrations in older homes
+                    <strong>Failed Flashing:</strong> Corroded galvanized step and counter flashing around brick chimneys, skylights, and parapet walls in older Wolflin builds
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Gutter Failure:</strong> Ice damage and wind stress on aging gutter
-                    systems
+                    <strong>Gutter Failure:</strong> Sectional aluminum gutters that have separated at the seams from freeze-thaw expansion and 25+ mph wind loading
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Ventilation Problems:</strong> Inadequate airflow in mid-century ranch
-                    designs
+                    <strong>Ventilation Problems:</strong> Mid-century Tascosa and Sleepy Hollow ranch designs running ridge vent only, with undersized soffit intake choking airflow
                   </li>
                 </ul>
               </div>
@@ -600,48 +596,52 @@ export default function RoofRepairAmarilloPage() {
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">
                   <Snowflake className="w-6 h-6 inline-block" /> Winter (Dec-Feb)
                 </h3>
-                <p className="text-gray-600 mb-4">Freeze-thaw cycles and ice dam formation</p>
+                <p className="text-gray-600 mb-4">Freeze-thaw cycles, blowing snow, and ice dam formation along north-facing eaves.</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Ice dam prevention and removal</li>
-                  <li>• Gutter system winterization</li>
-                  <li>• Prompt leak response</li>
-                  <li>• Attic insulation assessment</li>
+                  <li>• Ice dam prevention with heat cable layout and self-adhered membrane along eaves</li>
+                  <li>• Gutter winterization, debris clearing, and downspout extension checks</li>
+                  <li>• Active-leak inspections scheduled around safe roof access</li>
+                  <li>• Attic insulation and air-sealing assessment against current R-value targets</li>
+                  <li>• Pipe boot and flashing checks where sealants split in sub-freezing temperatures</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-green-700">
                   <Sprout className="w-6 h-6 inline-block" /> Spring (Mar-May)
                 </h3>
-                <p className="text-gray-600 mb-4">Prime storm season with severe hail threats</p>
+                <p className="text-gray-600 mb-4">Prime storm season across the Panhandle, with severe hail and damaging wind events.</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Post-storm damage assessment</li>
-                  <li>• Preventive maintenance checks</li>
-                  <li>• Hail damage documentation</li>
-                  <li>• Insurance claim preparation</li>
+                  <li>• Post-storm damage assessment with photo evidence and slope-by-slope notes</li>
+                  <li>• Preventive maintenance checks on fasteners, sealants, and pipe boots</li>
+                  <li>• Hail documentation packages built for State Farm, Allstate, USAA, and Texas Farm Bureau adjusters</li>
+                  <li>• Insurance claim preparation including Xactimate line-item estimates</li>
+                  <li>• Class 4 impact-rated shingle quotes for homeowners eligible for carrier discounts</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-red-700">
                   <Sun className="w-6 h-6 inline-block" /> Summer (Jun-Aug)
                 </h3>
-                <p className="text-gray-600 mb-4">Extreme heat and UV exposure stress</p>
+                <p className="text-gray-600 mb-4">Triple-digit highs and intense UV exposure at 3,605 feet of elevation.</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Heat-related material expansion</li>
-                  <li>• Ventilation system optimization</li>
-                  <li>• Energy efficiency improvements</li>
-                  <li>• Cool roof installation options</li>
+                  <li>• Inspections for thermal expansion damage at sealant lines and metal flashing</li>
+                  <li>• Soffit-to-ridge ventilation balancing to pull attic temps down</li>
+                  <li>• Energy efficiency upgrades including radiant barrier and reflective shingle colors</li>
+                  <li>• ENERGY STAR cool-roof options for residential and light-commercial buildings</li>
+                  <li>• TPO or PVC membrane quotes for low-slope sections on Paramount Terrace and similar profiles</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-orange-700">
                   <Leaf className="w-6 h-6 inline-block" /> Fall (Sep-Nov)
                 </h3>
-                <p className="text-gray-600 mb-4">Ideal repair season with stable weather</p>
+                <p className="text-gray-600 mb-4">Stable weather and moderate temperatures make fall the strongest window for major roof work.</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Major repair projects</li>
-                  <li>• Preparation for winter</li>
-                  <li>• Gutter cleaning and repair</li>
-                  <li>• Preventive maintenance work</li>
+                  <li>• Full reroof projects in architectural asphalt, standing seam metal, or R-panel</li>
+                  <li>• Winter readiness work including ice-and-water shield at vulnerable eaves</li>
+                  <li>• Gutter cleaning, re-sloping, and downspout repair before freezing weather</li>
+                  <li>• Preventive maintenance and sealant refresh at flashing and penetrations</li>
+                  <li>• Attic ventilation upgrades while installers can work comfortably</li>
                 </ul>
               </div>
             </div>
@@ -692,19 +692,19 @@ export default function RoofRepairAmarilloPage() {
                   <div className="border-l-4 border-red-500 pl-4">
                     <h4 className="font-bold text-red-700">Standard 3-Tab Shingles</h4>
                     <p className="text-gray-600">
-                      Poor wind resistance, rapid granule loss, frequent replacement needed
+                      Typically rated to 60 mph and frequently lifted by sustained Panhandle gusts. Granule loss accelerates under wind-driven caliche, and most policies will only depreciate them at claim time.
                     </p>
                   </div>
                   <div className="border-l-4 border-orange-500 pl-4">
-                    <h4 className="font-bold text-orange-700">Wood Shake (without treatment)</h4>
+                    <h4 className="font-bold text-orange-700">Untreated Wood Shake</h4>
                     <p className="text-gray-600">
-                      High maintenance, fire risk, poor performance in freeze-thaw cycles
+                      High maintenance, real fire risk on the dry Panhandle plains, and steady cupping and splitting through Amarillo freeze-thaw cycles. Many carriers including State Farm and Allstate restrict or surcharge wood-shake roofs.
                     </p>
                   </div>
                   <div className="border-l-4 border-yellow-500 pl-4">
                     <h4 className="font-bold text-yellow-700">Standard Clay Tiles</h4>
                     <p className="text-gray-600">
-                      Heavy weight issues, crack in freeze cycles without proper installation
+                      Heavy on framing not engineered for the load, and prone to cracking when temperatures drop below freezing. Better suited to milder South Texas climates than the Panhandle.
                     </p>
                   </div>
                 </div>
@@ -732,21 +732,21 @@ export default function RoofRepairAmarilloPage() {
                   <div>
                     <h4 className="font-bold mb-2 text-gray-800">Exterior Inspection</h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Drone-assisted roof surface evaluation</li>
-                      <li>• Wind damage pattern analysis</li>
-                      <li>• Hail impact crater measurement</li>
-                      <li>• Flashing and penetration assessment</li>
-                      <li>• Gutter and downspout inspection</li>
+                      <li>• Drone-assisted roof surface evaluation with high-resolution slope photos</li>
+                      <li>• Wind damage pattern analysis along eaves, ridges, and field tabs</li>
+                      <li>• Hail impact measurement against UL 2218 Class 3 and Class 4 criteria</li>
+                      <li>• Flashing and penetration assessment at chimneys, skylights, and pipe boots</li>
+                      <li>• Gutter, downspout, and fascia inspection for separation and freeze-thaw stress</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold mb-2 text-gray-800">Interior Assessment</h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Attic moisture and ventilation check</li>
-                      <li>• Structural beam and decking evaluation</li>
-                      <li>• Insulation condition assessment</li>
-                      <li>• Active leak detection</li>
-                      <li>• Historical damage documentation</li>
+                      <li>• Attic moisture readings and soffit-to-ridge ventilation balance check</li>
+                      <li>• Structural beam and CDX decking evaluation for rot or sag</li>
+                      <li>• Insulation condition assessment against current R-value targets</li>
+                      <li>• Active leak detection with stain mapping in ceilings and gable walls</li>
+                      <li>• Historical damage documentation built for insurance adjusters</li>
                     </ul>
                   </div>
                 </div>
@@ -835,22 +835,22 @@ export default function RoofRepairAmarilloPage() {
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    Workmanship warranty
+                    Workmanship warranty on repair labor and installation
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    Material defect coverage
+                    Material defect coverage backed by manufacturers including GAF, CertainTeed, and Owens Corning
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    prompt leak repair
+                    Scheduled leak repair on covered workmanship
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
-                    Annual inspection included
+                    Annual inspection included with photo report
                   </li>
                 </ul>
-                <p className="text-gray-600">Perfect for minor repairs and maintenance work</p>
+                <p className="text-gray-600">A fit for minor repairs and ongoing maintenance on Amarillo homes.</p>
               </div>
 
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg border-4 border-brand-gold/50">
@@ -894,26 +894,26 @@ export default function RoofRepairAmarilloPage() {
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />
-                    All Storm Shield features
+                    All Storm Shield features included
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />
-                    Extended material warranty
+                    Extended manufacturer material warranty on Class 4 impact-rated shingles or standing seam metal
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />
-                    Energy efficiency guarantee
+                    Energy efficiency support on ENERGY STAR cool-roof systems
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />
-                    Bi-annual professional maintenance
+                    Bi-annual professional maintenance visits including a post-spring storm season check
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />
-                    Transferable to new homeowner
+                    Transferable to the next homeowner if you sell within the term
                   </li>
                 </ul>
-                <p className="text-gray-600">Maximum protection for new roofing systems</p>
+                <p className="text-gray-600">The full coverage tier for new roof installations in Potter and Randall Counties.</p>
               </div>
             </div>
           </section>

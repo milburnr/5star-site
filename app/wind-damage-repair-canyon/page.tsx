@@ -346,43 +346,40 @@ export default function WindDamageRepairCanyonPage() {
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
                 <h3 className="text-xl font-bold mb-3 text-red-700">Canyon Rim Properties</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Extreme wind uplift damage</li>
-                  <li>• Debris impact from canyon</li>
-                  <li>• Sustained high wind stress</li>
-                  <li>• Rapid material degradation</li>
-                  <li>• Directional wind patterns</li>
+                  <li>• Wind uplift across the full slope where shingles lift at the eave</li>
+                  <li>• Debris impact from the canyon below carried up by funneling gusts</li>
+                  <li>• Sustained high-wind stress that fatigues the factory adhesive seal</li>
+                  <li>• Faster granule loss on the south- and west-facing slopes</li>
+                  <li>• Directional wind patterns shaped by the 800-foot canyon edge</li>
                 </ul>
                 <p className="text-gray-600 text-sm">
-                  Properties with scenic canyon views face the most severe wind exposure and require
-                  the highest-grade wind-resistant materials and installation methods.
+                  Homes along the Palo Duro Canyon rim and the FM 1541 corridor face the most severe wind exposure in Canyon. We default to UL 580 wind-uplift-rated standing seam metal or six-nail Class 4 asphalt installations on these properties.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
                 <h3 className="text-xl font-bold mb-3 text-orange-700">WTAMU Campus</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Building height turbulence</li>
-                  <li>• Multi-directional wind stress</li>
-                  <li>• Large roof area challenges</li>
-                  <li>• Academic building complexity</li>
-                  <li>• Dormitory wind exposure</li>
+                  <li>• Turbulence around the taller West Texas A&amp;M University buildings</li>
+                  <li>• Multi-directional wind stress at the rooflines of clustered structures</li>
+                  <li>• Large flat-roof areas common on academic halls and classroom buildings</li>
+                  <li>• Mixed shingle, modified bitumen, and TPO assemblies across the campus</li>
+                  <li>• High wind exposure on dormitory roofs along the campus perimeter</li>
                 </ul>
                 <p className="text-gray-600 text-sm">
-                  University buildings require coordinated wind damage repairs that minimize
-                  disruption to academic schedules while providing superior protection.
+                  Repairs on West Texas A&amp;M and the surrounding student-rental district have to be scheduled around the academic calendar. We sequence the work to limit disruption while still installing UL 580-rated assemblies built for canyon-rim wind exposure.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-yellow-500">
                 <h3 className="text-xl font-bold mb-3 text-yellow-700">Downtown Canyon</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Historic building challenges</li>
-                  <li>• Mixed architectural styles</li>
-                  <li>• Building-to-building turbulence</li>
-                  <li>• Commercial signage damage</li>
-                  <li>• Street-level wind patterns</li>
+                  <li>• Historic brick storefronts around the Randall County Courthouse square</li>
+                  <li>• Mixed architectural styles from the original commercial era through mid-century infill</li>
+                  <li>• Building-to-building turbulence in the densely built blocks downtown</li>
+                  <li>• Commercial signage and parapet damage from sustained 60-mph gusts</li>
+                  <li>• Street-level wind patterns that funnel along 4th Avenue and Highway 217</li>
                 </ul>
                 <p className="text-gray-600 text-sm">
-                  Downtown buildings benefit from some wind protection but require specialized
-                  approaches for historic preservation and architectural compatibility.
+                  Downtown buildings get some sheltering from neighboring structures, but the wind that does reach them tends to be turbulent. We use material profiles compatible with historic-district preservation while still meeting the City of Canyon&apos;s current code for fastening and underlayment.
                 </p>
               </div>
             </div>

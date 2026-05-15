@@ -474,33 +474,32 @@ export default function Page() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <div className="bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-slate-600">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Oil Field Debris Damage</h3>
+                <p className="text-gray-700 mb-3">
+                  Permian Basin wind events around Midland and Odessa carry debris that you do not see in residential markets elsewhere. The roof has to handle both wind load and what the wind picks up off active pad sites.
+                </p>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-slate-600 font-bold">•</span>
                     <span>
-                      <strong>Equipment covers:</strong> Drilling rig tarps and equipment covers
-                      become large projectiles in high-wind events
+                      <strong>Equipment covers:</strong> Drilling rig sheeting and equipment covers become large projectiles in high-wind events along Highway 158 and the I-20 corridor
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-slate-600 font-bold">•</span>
                     <span>
-                      <strong>Caliche gravel:</strong> Wind-driven caliche from drilling roads
-                      creates sandblasting effect on roof surfaces
+                      <strong>Caliche gravel:</strong> Wind-driven caliche off lease roads sandblasts shingle granules and pits standing seam metal panels
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-slate-600 font-bold">•</span>
                     <span>
-                      <strong>Metal debris:</strong> Pipe sections, valve covers, and drilling
-                      components become dangerous projectiles
+                      <strong>Metal debris:</strong> Pipe sections, valve covers, and well-pad components turn into dangerous projectiles during 70+ mph gusts
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-slate-600 font-bold">•</span>
                     <span>
-                      <strong>Chemical contamination:</strong> Oil field chemicals carried by wind
-                      can degrade roofing material compounds
+                      <strong>Chemical contamination:</strong> Oil field hydrocarbons and produced-water aerosols degrade asphalt and certain coatings over time
                     </span>
                   </li>
                 </ul>
@@ -510,33 +509,32 @@ export default function Page() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">
                   Industrial Heat Island Effects
                 </h3>
+                <p className="text-gray-700 mb-3">
+                  Buildings near Permian Basin processing facilities and active flare stacks experience wind and heat patterns that ordinary suburban roofing systems were never designed for. The thermal environment changes the failure modes.
+                </p>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span>
-                      <strong>Flare stack influence:</strong> Gas flares create thermal columns that
-                      generate localized turbulence and wind acceleration
+                      <strong>Flare stack influence:</strong> Gas flares around Midland and Odessa create thermal columns that drive localized turbulence and wind acceleration above adjacent rooflines
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span>
-                      <strong>Processing facility heat:</strong> Large oil processing plants create
-                      temperature differentials that intensify wind effects
+                      <strong>Processing facility heat:</strong> Large oil and gas processing plants generate temperature differentials that intensify gust loading on nearby buildings
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span>
-                      <strong>Thermal cycling stress:</strong> Rapid temperature changes from
-                      industrial heat sources accelerate material fatigue
+                      <strong>Thermal cycling stress:</strong> Rapid swings between cooler ambient air and industrial heat sources fatigue sealants, fasteners, and TPO seams faster than residential exposure
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span>
-                      <strong>Enhanced convection:</strong> Heat islands trigger stronger localized
-                      thunderstorm development with intense downdrafts
+                      <strong>Enhanced convection:</strong> Heat islands feed stronger localized thunderstorm development, with intense downdrafts that hit fascia, soffit, and parapet details first
                     </span>
                   </li>
                 </ul>
@@ -684,22 +682,21 @@ export default function Page() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">
                   Permian Basin Installation Enhancements
                 </h3>
+                <p className="text-gray-700 mb-3">
+                  Wind damage repairs in Midland and Odessa get spec&apos;d up from a standard residential package to handle the chemical, thermal, and debris exposure unique to the Permian Basin.
+                </p>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Industrial-grade fastening:</strong> Corrosion-resistant fasteners
-                    handle chemical exposure and extreme wind loads
+                    <strong>Industrial-grade fastening:</strong> Corrosion-resistant stainless or coated fasteners rated to UL 580 wind-uplift performance handle chemical exposure and 70+ mph gusts
                   </li>
                   <li>
-                    <strong>Chemical-barrier underlayment:</strong> Synthetic materials resist oil
-                    field chemical penetration
+                    <strong>Chemical-barrier underlayment:</strong> Synthetic self-adhered membranes resist oil field hydrocarbon and produced-water penetration
                   </li>
                   <li>
-                    <strong>Enhanced edge protection:</strong> Additional sealing and mechanical
-                    fastening for industrial debris resistance
+                    <strong>Enhanced edge protection:</strong> Additional sealing plus mechanical fastening at eaves, ridges, and rakes to withstand wind-borne pipe and debris impacts
                   </li>
                   <li>
-                    <strong>Thermal expansion joints:</strong> Accommodate extreme temperature
-                    cycling from industrial heat sources
+                    <strong>Thermal expansion joints:</strong> Detailing that accommodates the extreme cycling that comes with flare-stack and processing-plant heat sources next door
                   </li>
                 </ul>
               </div>

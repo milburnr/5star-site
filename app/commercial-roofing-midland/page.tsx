@@ -540,14 +540,16 @@ export default function CommercialRoofingMidlandPage() {
                   Chemical & Industrial Exposure
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>Petroleum vapors and industrial chemicals</strong> create unique
-                  challenges for oil field facilities and processing plants. Roofing materials must
-                  resist chemical degradation while maintaining fire safety ratings critical for
-                  petroleum operations.
+                  <strong>Petroleum vapors and refining chemistry</strong> create roof-specific
+                  challenges across Permian Basin processing plants and oilfield service yards.
+                  Standard EPDM can soften when exposed to long-term hydrocarbon vapor. PVC
+                  membrane, certain TPO formulations, and modified bitumen systems hold up better
+                  in those exposures while keeping a Class A fire rating.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  Specialized roofing systems engineered for petroleum environments ensure safety
-                  compliance and long-term performance in Midland's industrial facilities.
+                  Material choice on Midland commercial sites also considers TCEQ air permit
+                  language and the operator&apos;s SPCC plan, so the roof system works alongside
+                  the facility&apos;s broader safety and environmental compliance.
                 </p>
               </div>
             </div>

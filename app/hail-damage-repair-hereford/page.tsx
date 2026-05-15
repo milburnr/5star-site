@@ -345,25 +345,34 @@ export default function HailDamageRepairHerefordPage() {
                 <h3 className="text-xl font-bold text-green-700 mb-4">
                   <Factory className="w-6 h-6 inline-block" /> Agricultural Roofing Challenges
                 </h3>
-                <p className="text-gray-700 mb-4">Unique requirements for cattle industry:</p>
+                <p className="text-gray-700 mb-4">
+                  Cattle and dairy operations around Hereford and Deaf Smith County push roofing
+                  systems harder than most commercial buildings ever see:
+                </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>
-                    <strong>Large Surface Areas:</strong> Feedlot buildings span acres
+                    <strong>Large surface areas:</strong> Feedlot shade structures and dry-lot
+                    covers span acres of standing seam or R-panel metal
                   </li>
                   <li>
-                    <strong>Environmental Controls:</strong> Ventilation and climate systems
+                    <strong>Environmental controls:</strong> Tunnel ventilation, evaporative
+                    cooling pads, and ridge openings must remain weathertight
                   </li>
                   <li>
-                    <strong>Equipment Protection:</strong> Expensive machinery and feed
+                    <strong>Equipment and feed protection:</strong> Mixer wagons, grain bins, and
+                    feed bunks under cover stay dry through Panhandle hailstorms
                   </li>
                   <li>
-                    <strong>Animal Welfare:</strong> Shelter continuity critical
+                    <strong>Animal welfare:</strong> Shelter continuity is critical during heat
+                    stress events and winter storms
                   </li>
                   <li>
-                    <strong>Operational Continuity:</strong> Minimize production disruption
+                    <strong>Operational continuity:</strong> Repairs sequenced around feeding,
+                    milking, and shipping schedules
                   </li>
                   <li>
-                    <strong>Code Compliance:</strong> USDA and EPA requirements
+                    <strong>Code compliance:</strong> USDA and EPA requirements on dairy and
+                    feedlot facilities, plus Texas Department of Agriculture inspection notes
                   </li>
                 </ul>
               </div>
@@ -487,29 +496,31 @@ export default function HailDamageRepairHerefordPage() {
                 <li className="flex items-start">
                   <span className="text-brand-gold mr-2">•</span>
                   <span>
-                    <strong>Llano Estacado Position:</strong> Sits on high plains where storms
-                    intensify before reaching population centers
+                    <strong>Llano Estacado position:</strong> Hereford sits at roughly 3,800 feet
+                    on the high plains, where storms have hundreds of miles of flat terrain to
+                    organize on their approach
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-brand-gold mr-2">•</span>
                   <span>
-                    <strong>Storm Development Zone:</strong> Location where supercells often reach
-                    maximum intensity
+                    <strong>Storm development zone:</strong> Deaf Smith County sits in the
+                    Texas-Panhandle corridor where supercell rotation often reaches peak
+                    intensity
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-brand-gold mr-2">•</span>
                   <span>
-                    <strong>Agricultural Exposure:</strong> Vast feedlot facilities create large
-                    surface areas vulnerable to hail
+                    <strong>Agricultural exposure:</strong> feedlot shade structures and dairy
+                    barns present acres of metal roofing as a single hail target
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-brand-gold mr-2">•</span>
                   <span>
-                    <strong>Limited Wind Breaks:</strong> Open terrain allows hail-producing winds
-                    to maintain strength
+                    <strong>Limited wind breaks:</strong> open Panhandle terrain lets storm
+                    outflow winds keep their force right through town
                   </span>
                 </li>
               </ul>
@@ -626,8 +637,10 @@ export default function HailDamageRepairHerefordPage() {
               Serving All of Hereford & Deaf Smith County
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Our service area encompasses all residential neighborhoods and agricultural facilities
-              throughout Hereford and Deaf Smith County:
+              We cover every residential neighborhood and agricultural facility across Hereford and
+              Deaf Smith County, from downtown Hereford homes to feedlots and dairy operations
+              south toward Dimmitt and north toward Vega. Travel time from our Amarillo
+              headquarters keeps inspections and repairs practical for the entire county.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
               {[
@@ -660,37 +673,37 @@ export default function HailDamageRepairHerefordPage() {
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-center">
                     <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Cattle
-                    feedlot roofing
+                    feedlot shade and dry-lot R-panel roofs
                   </li>
                   <li className="flex items-center">
                     <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Dairy
-                    facility repairs
+                    free-stall and milking parlor repairs
                   </li>
                   <li className="flex items-center">
                     <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Grain
-                    storage buildings
+                    elevator headhouses and storage buildings
                   </li>
                   <li className="flex items-center">
                     <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" />{" "}
-                    Equipment storage barns
+                    Equipment storage barns with metal panel roofs
                   </li>
                 </ul>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-center">
-                    <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" />{" "}
-                    Processing plant facilities
+                    <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Beef
+                    processing plant TPO and BUR systems
                   </li>
                   <li className="flex items-center">
                     <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" />{" "}
-                    Administrative buildings
+                    Administrative buildings and offices on-site
                   </li>
                   <li className="flex items-center">
                     <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" />{" "}
-                    Residential ranch homes
+                    Residential ranch homes on Deaf Smith County land
                   </li>
                   <li className="flex items-center">
                     <Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" />{" "}
-                    Commercial livestock facilities
+                    Commercial livestock facilities and hay storage barns
                   </li>
                 </ul>
               </div>

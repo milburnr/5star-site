@@ -436,33 +436,32 @@ export default function Page() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">
                   Agricultural Debris Impact
                 </h3>
+                <p className="text-gray-700 mb-3">
+                  Lubbock County sits in the middle of one of the largest cotton-producing regions in the country, and South Plains winds carry farm debris that residential roofing manufacturers never test against.
+                </p>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-slate-600 font-bold">•</span>
                     <span>
-                      <strong>Cotton boll damage:</strong> Wind-driven cotton bolls puncture and
-                      abrade shingle surfaces during harvest season (August-October)
+                      <strong>Cotton boll damage:</strong> Wind-driven cotton bolls puncture and abrade shingle surfaces during the August-through-October Lubbock County cotton harvest
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-slate-600 font-bold">•</span>
                     <span>
-                      <strong>Crop residue scour:</strong> Corn stalks and wheat stubble become
-                      projectiles, damaging gutters and flashing systems
+                      <strong>Crop residue scour:</strong> Corn stalks and wheat stubble become projectiles, denting gutters and tearing flashing along the South Plains
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-slate-600 font-bold">•</span>
                     <span>
-                      <strong>Topsoil abrasion:</strong> Fine agricultural dust erodes protective
-                      granules faster than standard wind events
+                      <strong>Topsoil abrasion:</strong> Fine Llano Estacado dust erodes shingle granules faster than typical wind events, especially on south- and west-facing slopes
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-slate-600 font-bold">•</span>
                     <span>
-                      <strong>Equipment debris:</strong> High winds tear loose agricultural
-                      equipment covers, creating large projectile hazards
+                      <strong>Equipment debris:</strong> High winds tear loose farm equipment sheeting and tarps, creating large projectile hazards across rural Lubbock County
                     </span>
                   </li>
                 </ul>

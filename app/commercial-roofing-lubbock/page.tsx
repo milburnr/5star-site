@@ -577,13 +577,10 @@ export default function CommercialRoofingLubbockPage() {
                   High Elevation UV Exposure
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>3,202 feet elevation</strong> increases UV radiation intensity,
-                  accelerating roofing material degradation. Commercial buildings with large roof
-                  areas face significant UV damage without proper membrane protection.
+                  <strong>3,202 feet of elevation</strong> on the South Plains intensifies UV radiation hitting Lubbock commercial roofs every day. That accelerates breakdown of TPO, EPDM, modified bitumen, and asphalt-based systems across Lubbock County&apos;s warehouse and agricultural processing buildings, especially on south- and west-facing exposures.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  Agriculture facilities and warehouse complexes require UV-resistant roofing
-                  systems with reflective coatings to extend lifespan and reduce cooling costs.
+                  Cotton gins, agricultural processing facilities, and warehouse complexes along I-27 benefit from white TPO or PVC membranes with reflective coatings and ENERGY STAR cool-roof ratings. The result is longer membrane life and lower summer cooling load.
                 </p>
               </div>
             </div>

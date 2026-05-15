@@ -272,23 +272,23 @@ export default function MetalRoofingPerrytonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Large clear-span capabilities (150+ feet)
+                    Clear-span standing seam systems past 150 feet for grain storage
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Heavy load capacity for grain storage
+                    24-gauge R-panel and standing seam rated for heavy snow loads
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Dust-resistant smooth surfaces
+                    Smooth Kynar 500 finish that resists fine grain dust accumulation
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Easy cleaning and maintenance
+                    Maintenance limited to fastener checks and gutter clearing
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Cost-effective per square foot
+                    Strong cost-per-square-foot on long-run agricultural buildings
                   </li>
                 </ul>
               </div>
@@ -299,23 +299,23 @@ export default function MetalRoofingPerrytonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Grain elevators and storage
+                    Grain elevator headhouses and steel storage bin tops
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Feed processing facilities
+                    Feed mill and processing facility roofs
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Equipment storage buildings
+                    Equipment storage and combine sheds across Ochiltree County
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Loading dock structures
+                    Loading dock covers tied into existing R-panel buildings
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Administrative offices
+                    Administrative offices attached to the operating facility
                   </li>
                 </ul>
               </div>
@@ -368,19 +368,19 @@ export default function MetalRoofingPerrytonPage() {
                 <div>
                   <h4 className="text-xl font-bold mb-3">Structural Efficiency</h4>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• Maximum usable space</li>
-                    <li>• Minimal interior columns</li>
-                    <li>• Optimal storage capacity</li>
-                    <li>• Equipment access optimization</li>
+                    <li>• Clear floor area for wheat and milo storage in Perryton</li>
+                    <li>• Pre-engineered rigid frames eliminate interior columns</li>
+                    <li>• Storage capacity sized to Ochiltree County harvest volume</li>
+                    <li>• Roll-up door access for combines and tandem trucks</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="text-xl font-bold mb-3">Operational Advantages</h4>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• Easy maintenance access</li>
-                    <li>• Dust accumulation resistance</li>
-                    <li>• Chemical cleaning compatibility</li>
-                    <li>• Lightning protection integration</li>
+                    <li>• Safe walkable seam patterns for annual fastener checks</li>
+                    <li>• Smooth Kynar 500 finish that sheds grain dust</li>
+                    <li>• Compatible with mild soapy water and standard agricultural cleaning</li>
+                    <li>• Integrated lightning protection bonded to the standing seam</li>
                   </ul>
                 </div>
               </div>

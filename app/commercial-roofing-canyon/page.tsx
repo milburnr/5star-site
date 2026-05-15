@@ -393,8 +393,7 @@ export default function CommercialRoofingCanyonPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Documentation-First</h3>
                 <p className="text-gray-700">
-                  Thorough damage documentation and insurance-claim support for university
-                  operations and tourist facilities in Canyon.
+                  Slope-by-slope photo documentation and full claim support for West Texas A&amp;M University facilities, Palo Duro Canyon-area tourist properties, and the commercial buildings around downtown Canyon. We work with State Farm, Allstate, USAA, and Texas Farm Bureau adjusters.
                 </p>
               </div>
 
