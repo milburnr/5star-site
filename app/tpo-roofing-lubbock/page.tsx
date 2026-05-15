@@ -33,8 +33,7 @@ import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/tpo-roofing-lubbock/" },
   title: "TPO Roofing Lubbock TX | 5 Star Roofing",
-  description:
-    "Professional tpo roofing in Lubbock TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional tpo roofing in Lubbock TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041 Class 4 hail-rated systems available.",
   openGraph: {
     title: "TPO Roofing Lubbock TX | 5 Star Roofing",
     description:

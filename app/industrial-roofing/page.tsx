@@ -6,8 +6,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/industrial-roofing/" },
   title: "Industrial Roofing Amarillo TX | 5 Star Roofing",
-  description:
-    "Industrial roofing in Amarillo. TPO, EPDM, and metal roofing for warehouses and manufacturing facilities. Call (806) 622-6041",
+  description: "Industrial roofing in Amarillo. TPO, EPDM, and metal roofing for warehouses and manufacturing facilities. Call (806) 622-6041 Free site assessments for property managers.",
   openGraph: {
     title: "Industrial Roofing Amarillo TX | 5 Star Roofing",
     description:

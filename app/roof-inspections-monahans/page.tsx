@@ -33,8 +33,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/roof-inspections-monahans/" },
   title: "Roof Inspections Monahans TX | 5 Star Roofing",
-  description:
-    "Professional roof inspections in Monahans TX. Permian Basin experiences 6-8 severe hailstorms annually. Call (806) 622-6041",
+  description: "Professional roof inspections in Monahans TX. Permian Basin experiences 6-8 severe hailstorms annually. Call (806) 622-6041 Free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Roof Inspections Monahans TX | 5 Star Roofing",
     description:

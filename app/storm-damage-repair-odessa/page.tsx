@@ -17,8 +17,7 @@ import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-odessa/" },
   title: "Storm Damage Repair Odessa | 5 Star Roofing",
-  description:
-    "Expert storm damage repair in Odessa.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+  description: "Expert storm damage repair in Odessa.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041 Same-day scheduling after most storms.",
   openGraph: {
     title: "Storm Damage Repair Odessa | 5 Star Roofing",
     description:

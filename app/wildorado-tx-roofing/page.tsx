@@ -13,8 +13,7 @@ import { Check, Smile, Sun, Thermometer, Tornado, Wheat, Wind, Zap } from "lucid
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wildorado-tx-roofing/" },
   title: "Roofing Wildorado TX | Hail Damage | 5 Star Roofing",
-  description:
-    "Roofing services in Wildorado, Texas Panhandle. Just 15 miles west of Amarillo on I-40. Hail damage repair. Call (806) 622-6041",
+  description: "Roofing services in Wildorado, Texas Panhandle. Just 15 miles west of Amarillo on I-40. Hail damage repair. Call (806) 622-6041 Free inspections, insurance documentation support.",
   openGraph: {
     title: "Roofing Wildorado TX | Hail Damage | 5 Star Roofing",
     description:

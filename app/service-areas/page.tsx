@@ -8,8 +8,7 @@ import { Phone, MapPin, Truck, Zap } from "lucide-react";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/service-areas/" },
   title: "Roofing Service Areas in West Texas | 5 Star Roofing",
-  description:
-    "5 Star Commercial Roofing serves Amarillo, Lubbock, Midland, Odessa, and 16+ West Texas cities. Residential and commercial roof replacement, hail damage repair, insurance claim assistance.",
+  description: "5 Star Roofing serves Amarillo, Lubbock, Midland, Odessa, and 16+ West Texas cities. Residential and commercial roof replacement and hail damage repair.",
   openGraph: {
     title: "Roofing Service Areas in West Texas | 5 Star Roofing",
     description:

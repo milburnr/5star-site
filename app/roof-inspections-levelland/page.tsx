@@ -33,8 +33,7 @@ import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-inspections-levelland/" },
   title: "Roof Inspections Levelland TX | 5 Star Roofing",
-  description:
-    "Expert roof inspections in Levelland TX. South Plains experiences 7-10 severe hailstorms annually. Call (806) 622-6041",
+  description: "Expert roof inspections in Levelland TX. South Plains experiences 7-10 severe hailstorms annually. Call (806) 622-6041 Free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Roof Inspections Levelland TX | 5 Star Roofing",
     description:

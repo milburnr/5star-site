@@ -7,8 +7,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/amarillos-best-roofer/" },
   title: "Amarillo's Best Roofer | 5 Star Roofing",
-  description:
-    "Amarillo's highest-rated roofer for hail damage, storm repair, and full replacements. Insurance claim experts. Free inspection — (806) 622-6041",
+  description: "5 Star Roofing is Amarillo's local roofing company since 2014. Class 4 hail-rated installs, real Google reviews, free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Amarillo's Best Roofer | 5 Star Roofing",
     description:

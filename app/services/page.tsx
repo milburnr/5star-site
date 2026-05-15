@@ -21,8 +21,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/services/" },
   title: "Roofing Services Amarillo TX | 5 Star Roofing",
-  description:
-    "Complete roofing services for West Texas including residential, commercial, and industrial. Call for a free quote!",
+  description: "Complete roofing services for West Texas including residential, commercial, and industrial. Call for a free quote! Headquartered in Amarillo since 2014. Free inspections available.",
   openGraph: {
     title: "Roofing Services Amarillo TX | 5 Star Roofing",
     description:

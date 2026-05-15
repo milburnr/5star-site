@@ -28,8 +28,7 @@ import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair-midland/" },
   title: "Roof Repair Midland TX | Free Inspection | 5 Star Roofing",
-  description:
-    "Professional roof repair in Midland TX. Desert climate specialists, oil industry housing experts, . Call (806) 622-6041",
+  description: "Professional roof repair in Midland TX. Desert climate specialists, oil industry housing experts, . Call (806) 622-6041 Free inspections, fast scheduling. Call (806) 622-6041.",
   openGraph: {
     title: "Roof Repair Midland TX | Free Inspection | 5 Star Roofing",
     description:

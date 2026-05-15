@@ -17,8 +17,7 @@ import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-replacement-lubbock/" },
   title: "Roof Replacement Lubbock TX | 5 Star Roofing",
-  description:
-    "Expert roof replacement in Lubbock TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041",
+  description: "Expert roof replacement in Lubbock TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041 Free inspections, fast scheduling.",
   openGraph: {
     title: "Roof Replacement Lubbock TX | 5 Star Roofing",
     description:

@@ -8,8 +8,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing/" },
   title: "Residential Roofing in Amarillo | 5 Star Roofing",
-  description:
-    "Residential roofing in Amarillo. Asphalt shingles, metal roofing, and hail damage repair. Call for a free quote!",
+  description: "Residential roofing in Amarillo. Asphalt shingles, metal roofing, and hail damage repair. Call for a free quote! Class 4 hail-rated options. Free inspections available.",
   openGraph: {
     title: "Residential Roofing in Amarillo | 5 Star Roofing",
     description:

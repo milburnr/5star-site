@@ -24,8 +24,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/amarillo-tx-roofing/" },
   title: "Roofing Contractor Amarillo TX | 5 Star Roofing",
-  description:
-    "Roofing in Amarillo TX. Hail Alley specialists serving Potter & Randall Counties. Residential and commercial roofing for Wolflin, Sleepy Hollow, Tascosa, San Jacinto. Call (806) 622-6041",
+  description: "Roofing in Amarillo TX. Hail Alley specialists for Potter & Randall Counties. Residential and commercial work. Free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Roofing Contractor Amarillo TX | 5 Star Roofing",
     description:

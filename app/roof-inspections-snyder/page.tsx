@@ -29,8 +29,7 @@ import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-inspections-snyder/" },
   title: "Roof Inspections Snyder TX | 5 Star Roofing",
-  description:
-    "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+  description: "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041 Insurance documentation support.",
   openGraph: {
     title: "Roof Inspections Snyder TX | 5 Star Roofing",
     description:
