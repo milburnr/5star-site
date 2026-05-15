@@ -1,0 +1,10139 @@
+# Chunk Density Report
+
+## Summary
+- Total pages analyzed: 240
+- Total chunks analyzed: 4129
+- High density: 1635 (39.6%)
+- Medium density: 1278 (31.0%)
+- Low density: 1216 (29.5%) — need rewrite
+
+## Pages with most low-density chunks
+- `/app/roof-repair-lubbock/` — 25/40 low
+- `/app/metal-roofing-odessa/` — 23/36 low
+- `/app/roof-inspections/` — 23/34 low
+- `/app/hail-damage-repair-snyder/` — 21/30 low
+- `/app/roof-repair-amarillo/` — 20/42 low
+- `/app/roof-inspections-snyder/` — 20/25 low
+- `/app/roof-rot-damage-in-amarillo/` — 19/42 low
+- `/app/roof-repair-midland/` — 19/40 low
+- `/app/services/` — 19/39 low
+- `/app/hail-damage-repair/` — 19/37 low
+- `/app/metal-roofing-midland/` — 19/32 low
+- `/app/roof-snow-and-ice-damage-in-amarillo/` — 17/34 low
+- `/app/wind-damage-repair-levelland/` — 17/26 low
+- `/app/wind-damage-repair-monahans/` — 17/26 low
+- `/app/wind-damage-repair-snyder/` — 17/26 low
+- `/app/roof-repair-snyder/` — 16/35 low
+- `/app/roof-repair-monahans/` — 16/34 low
+- `/app/commercial-roofing-pampa/` — 16/30 low
+- `/app/` — 15/42 low
+- `/app/metal-roofing-amarillo/` — 15/35 low
+- `/app/metal-roofing-lubbock/` — 15/34 low
+- `/app/residential-roofing/` — 15/32 low
+- `/app/flat-roof-repair-midland-texas/` — 15/30 low
+- `/app/commercial-roofing-perryton/` — 14/27 low
+- `/app/blog/roof-maintenance-checklist-texas/` — 14/23 low
+- `/app/heavy-rain-damage-roof-repair-in-amarillo/` — 13/31 low
+- `/app/wind-damage-repair/` — 13/28 low
+- `/app/commercial-roofing-snyder/` — 13/27 low
+- `/app/hail-damage-repair-hereford/` — 13/24 low
+- `/app/storm-damage-repair/` — 13/24 low
+
+## Low-density chunks by page
+### `/app/roof-repair-lubbock/`
+- **Heading:** University District Challenges
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** South Plains Environmental Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** University Area
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Southwest Lubbock
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Newer Developments
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dust Damage Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Uplift Analysis
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** University District Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Environmental Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Structural & Age Issues
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Lubbock Market Considerations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dust Storm Protection Systems
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Resistance Upgrades
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What Does University District Maintenance Strategies Include?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Student Rental Properties
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 70
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historic Tech Terrace
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 57
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Materials to Avoid in South Plains
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 1: Environmental Impact Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 62
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 2: Specialized Material Procurement
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 3: Installation with Environmental Protections
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 56
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dust Storm Damage Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Claims Process Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 43
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 43 words
+  - Suggested fix: expand from 43 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 9
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 9 words
+  - Suggested fix: expand from 9 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 9
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 9 words
+  - Suggested fix: expand from 9 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Metal Roofing Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-odessa/`
+- **Heading:** Oil Field Durability Features:
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Metal Systems
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** mph Wind Rating
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 4
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 4 words
+  - Suggested fix: expand from 4 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Gauge Steel
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 4
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 4 words
+  - Suggested fix: expand from 4 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fastener Spacing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Listed
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 2
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 2 words; no concrete specifics
+  - Suggested fix: expand from 2 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Wind Resistance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Environmental Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Exposure
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Vibration
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fire & Explosion Risk
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Resistance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Durability
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fire Safety
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Low Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Equipment Compatibility
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 8
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 8 words
+  - Suggested fix: expand from 8 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Custom Engineering
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 10
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 10 words
+  - Suggested fix: expand from 10 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 8
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 8 words
+  - Suggested fix: expand from 8 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Performance Certification
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Advantages
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 37
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 37 words; no concrete specifics
+  - Suggested fix: expand from 37 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Safety Features
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Protection for Oil Country Living
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections/`
+- **Heading:** When Do You Need a Roof Inspection?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** After Storms
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Annual Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Requirements
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Warranty Compliance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Before Filing a Claim
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What Does a Professional Roof Inspection Cover?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Structural Integrity
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 36
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 36 words; no concrete specifics
+  - Suggested fix: expand from 36 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Material Condition
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 36
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 36 words; no concrete specifics
+  - Suggested fix: expand from 36 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing and Penetrations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 43
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 43 words; no concrete specifics
+  - Suggested fix: expand from 43 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Gutters and Drainage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Photo Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What Types of Roof Inspections Are Available?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Storm Damage Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Pre-Purchase / Pre-Sale Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 36
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 36 words; no concrete specifics
+  - Suggested fix: expand from 36 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Maintenance Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance and Warranty Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** No Obligation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Written Report with Photos
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Repair Estimates
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Inspections by City
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Can a roof inspection help with my insurance claim?
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+
+### `/app/hail-damage-repair-snyder/`
+- **Heading:** Comprehensive Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 52
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claim Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 44
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 44 words
+  - Suggested fix: expand from 44 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What Does Types of Hail Damage in Snyder Properties Look Like?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Asphalt Shingle Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Metal Roofing Impact
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 32
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 32 words
+  - Suggested fix: expand from 32 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing and Accessory Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Immediate vs. Progressive Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind-Driven Hail Patterns
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 31
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 31 words
+  - Suggested fix: expand from 31 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Interior Impact Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Does the Insurance Claims Process Work in Snyder?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Professional Documentation Standards
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 59
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Adjuster Interaction Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 57
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Enhanced Protection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Does Our Post-Storm Process Work in Snyder?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** First 48 Hours
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 59
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Assessment and Claims (3-14 Days)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Complete Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Local Availability
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Warranties
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-amarillo/`
+- **Heading:** Historic Housing Challenges
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Climate-Related Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 26
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 26 words
+  - Suggested fix: expand from 26 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historic Districts
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 35
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 35 words; no concrete specifics
+  - Suggested fix: expand from 35 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Established Areas
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 32
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 32 words
+  - Suggested fix: expand from 32 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Newer Communities
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 32
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 32 words
+  - Suggested fix: expand from 32 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Detailed Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Assurance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Weather-Related Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Age-Related Issues
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Winter (Dec-Feb)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Spring (Mar-May)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Summer (Jun-Aug)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fall (Sep-Nov)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Materials to Avoid
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 1: Comprehensive Assessment (Day 1)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Basic Protection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ultimate Guard
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 26
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 26 words
+  - Suggested fix: expand from 26 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Full Roof Replacement
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 10
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 10 words
+  - Suggested fix: expand from 10 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-snyder/`
+- **Heading:** Storm Damage Detection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Preventive Maintenance Planning
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 30
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 30 words; no concrete specifics
+  - Suggested fix: expand from 30 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Efficiency Analysis
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 30
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 30 words; no concrete specifics
+  - Suggested fix: expand from 30 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Drone Surveys
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Thermal Imaging
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Electronic Leak Detection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Pre-Inspection Planning
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Exterior Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Interior Investigation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Technical Analysis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Reporting
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Educational Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Healthcare Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Properties
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Government Buildings
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 32
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 32 words
+  - Suggested fix: expand from 32 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Spring Inspection (March-April)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fall Inspection (October-November)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-rot-damage-in-amarillo/`
+- **Heading:** Types of Rot Fungi Common in Texas
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Moisture Detection Technology
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Infrared Thermal Imaging
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Moisture Meters & Probes
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Valley Leaks
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sagging Roof Line
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Water Stains on Ceilings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Mold/Mildew Odors
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Soft/Spongy Roof Deck
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Visible Wood Decay in Attic
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Pest Infestations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Roof Rot Remediation Process
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 1: Complete Assessment & Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 3: Structural Reconstruction
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Annual Roof Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Repair Hail Damage Promptly
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Keep Gutters Clean
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Address Leaks Immediately
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Rot is a Safety Hazard
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 40
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 40 words; no concrete specifics
+  - Suggested fix: expand from 40 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-midland/`
+- **Heading:** Oil Boom Construction Issues
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Climate Challenges
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Executive Districts
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Oil Boom Developments
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Modern Communities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Thermal Stress Analysis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** UV Damage Evaluation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Boom-Era Construction Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert-Rated Solutions
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Climate Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Boom-Era Construction Issues
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** UV Protection Strategies
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Boom Period Construction (1970s-2000s)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 66
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 1: Desert-Specific Damage Assessment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 47 words; no concrete specifics
+  - Suggested fix: expand from 47 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 3: Installation with Climate Adaptations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Bust Period Opportunities
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 71
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 10
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 10 words
+  - Suggested fix: expand from 10 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flat Roof Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cool Roof Installation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/services/`
+- **Heading:** Storm Damage Restoration
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 46
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 46 words
+  - Suggested fix: expand from 46 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Standing Seam Metal Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Repairs
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Warehouses & Distribution
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** New Construction
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Licensed & Insured
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Documentation Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Warranties
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 14
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 14 words
+  - Suggested fix: expand from 14 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Amarillo
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 2
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 2 words
+  - Suggested fix: expand from 2 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Midland
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 2
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 2 words
+  - Suggested fix: expand from 2 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Odessa
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 2
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 2 words
+  - Suggested fix: expand from 2 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Lubbock
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 2
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 2 words
+  - Suggested fix: expand from 2 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Canyon
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 2
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 2 words
+  - Suggested fix: expand from 2 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Borger
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 2
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 2 words; no concrete specifics
+  - Suggested fix: expand from 2 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Pampa
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 2
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 2 words; no concrete specifics
+  - Suggested fix: expand from 2 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** View All
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 2
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 2 words
+  - Suggested fix: expand from 2 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair/`
+- **Heading:** What Are the Signs of Hail Damage on Your Roof?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Cracked or Bruised Shingles
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 43
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 43 words; no concrete specifics
+  - Suggested fix: expand from 43 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Granule Loss in Gutters
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Soft Spots and Exposed Felt
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 37
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 37 words; no concrete specifics
+  - Suggested fix: expand from 37 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Damage Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Coordination
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What We Handle
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Metal Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Tile and Specialty Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Meet With the Insurance Adjuster
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Review the Scope of Work
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cosmetic Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Functional Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Critical Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 40
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 40 words; no concrete specifics
+  - Suggested fix: expand from 40 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Do You Tell the Difference Between Hail, Wind, and Water Damage?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Hail Damage Signs
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 36
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 36 words; no concrete specifics
+  - Suggested fix: expand from 36 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Damage Signs
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Water Damage Signs
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-midland/`
+- **Heading:** Permian Basin Durability Features:
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** mph Average Wind
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 4
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 4 words
+  - Suggested fix: expand from 4 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** mph Storm Rating
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 4
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 4 words
+  - Suggested fix: expand from 4 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sandstorm Days
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 4
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 4 words
+  - Suggested fix: expand from 4 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sunny Days
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 3
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 3 words; no concrete specifics
+  - Suggested fix: expand from 3 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sandstorm Resistance Features
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Uplift Engineering
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Resistance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dust & Particulates
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Extreme Heat
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Durability
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Resistance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Performance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** UV Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Low Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 10
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 10 words
+  - Suggested fix: expand from 10 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Custom Engineering
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 8
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 8 words
+  - Suggested fix: expand from 8 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Expert Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Performance Verification
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 7
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 7 words; no concrete specifics
+  - Suggested fix: expand from 7 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-snow-and-ice-damage-in-amarillo/`
+- **Heading:** The Physics of Winter Roof Damage
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Thermal Stress
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 37
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 37 words; no concrete specifics
+  - Suggested fix: expand from 37 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Capillary Action
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ice Dam Formation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 50
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Freeze-Thaw Cycling
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Gutter and Downspout Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 36
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 36 words; no concrete specifics
+  - Suggested fix: expand from 36 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing Contraction
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Condensation Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Winter Damage Detection & Assessment
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Thermal Imaging Analysis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Structural Load Assessment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 35
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 35 words; no concrete specifics
+  - Suggested fix: expand from 35 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Specialized Winter Damage Repair Techniques
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Emergency Ice Dam Removal
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 67
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Structural Reinforcement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 43
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 43 words; no concrete specifics
+  - Suggested fix: expand from 43 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Winter Roof Protection Strategy
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Safety-First Approach
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 35
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 35 words; no concrete specifics
+  - Suggested fix: expand from 35 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Post-Winter Roof Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-levelland/`
+- **Heading:** Straight-Line Wind Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Seasonal Wind Variations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 37
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 37 words; no concrete specifics
+  - Suggested fix: expand from 37 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Uplift vs. Lateral Forces
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Membrane Uplift
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fastener Failure
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing Displacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Safety Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Structural Evaluation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Repair Strategy Development
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Coordination
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 35
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 35 words; no concrete specifics
+  - Suggested fix: expand from 35 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Educational Facilities
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 6
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 6 words
+  - Suggested fix: expand from 6 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Properties
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Healthcare Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Religious Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Immediate Actions After Wind Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our scheduling
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-monahans/`
+- **Heading:** Industrial Wind Loading
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sand Abrasion Impact
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Thermal Wind Stress
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Downdraft Microbursts
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Safety Protocol
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Damage Analysis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Operational Continuity Planning
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Environmental Compliance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Oil & Gas Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 7
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 7 words; no concrete specifics
+  - Suggested fix: expand from 7 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Power Generation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Manufacturing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Transportation Hubs
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Municipal Facilities
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Does Industrial Wind Damage Response Work?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Industrial Emergency Protocols
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Post-Storm Repair Services
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-snyder/`
+- **Heading:** Supercell Wind Patterns
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cap Rock Wind Acceleration
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dryline Convergence Zones
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Seasonal Wind Variations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Rotating Mesocyclones
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Rear Flank Downbursts
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Pattern Analysis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Coordination
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Enhanced Wind Resistance Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 32
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 32 words
+  - Suggested fix: expand from 32 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Long-Term Monitoring Strategy
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Operations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Educational Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Downtown Businesses
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Healthcare Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Community Buildings
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** During Supercell Warnings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-snyder/`
+- **Heading:** What West Texas Agricultural Roofing Specialization?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Commercial Agriculture Operations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Central Snyder
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** West Snyder
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Rural Scurry County
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Corridor
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Does the Comprehensive West Texas Repair Process Work?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Phase 1: Agricultural Environment Assessment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 45
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 45 words; no concrete specifics
+  - Suggested fix: expand from 45 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 2: Storm Damage Documentation & Insurance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 3: Agricultural-Specific Installation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Property Considerations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 30
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 30 words; no concrete specifics
+  - Suggested fix: expand from 30 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Value Maximization Strategies
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Barn & Livestock Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** post-storm documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 9
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 9 words
+  - Suggested fix: expand from 9 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Agriculture
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Metal Roofing Systems
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-monahans/`
+- **Heading:** Desert Assessment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Oil Field Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** post-storm documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What Areas Do We Cover Near Monahans?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Central Monahans
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** North Monahans
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Corridor
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Rural Ward County
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What Roofing Material Specifications Matter in Monahans?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** How Does This Roofing Improve Energy Efficiency?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Insulation Upgrades
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ventilation Solutions
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 14
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 14 words
+  - Suggested fix: expand from 14 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Storm Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cool Roof Installation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Metal Roofing Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-pampa/`
+- **Heading:** Industrial Facility Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Retail and Office Buildings
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Processing Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Healthcare and Educational Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Roof Repairs
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Preventive Maintenance Programs
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Does This Roofing Improve Energy Efficiency?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Insulation and Air Sealing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Pre-Installation Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 14
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 14 words
+  - Suggested fix: expand from 14 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Installation Supervision
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Post-Installation Verification
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Local Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Technology
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Service
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 13
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 13 words
+  - Suggested fix: expand from 13 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Transparent Pricing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/`
+- **Heading:** Our Specialized Services
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Restoration
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Roof Inspections
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Residential Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claims Help
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claim Experts
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fast post-storm documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Damage Repair - Midland
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement - Odessa
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 10
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 10 words
+  - Suggested fix: expand from 10 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Proven 6-Step Process
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 1
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 1 words
+  - Suggested fix: expand from 1 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claim
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 14
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 14 words
+  - Suggested fix: expand from 14 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 13
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 13 words
+  - Suggested fix: expand from 13 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Your Satisfaction
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-amarillo/`
+- **Heading:** Gauge Steel
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Secure Fastening
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Resistance Technology
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 46
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 46 words
+  - Suggested fix: expand from 46 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Custom Quote
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 8
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 8 words
+  - Suggested fix: expand from 8 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Expert Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Efficiency
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fire Resistance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Low Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Installation Warranty
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Permit Acquisition
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Code Compliance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Amarillo Building Code Requirements:
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 43
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 43 words
+  - Suggested fix: expand from 43 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-lubbock/`
+- **Heading:** Gauge Minimum
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fastener Spacing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Approved
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Lubbock-Specific Considerations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Tornado Activity
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 26
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 26 words
+  - Suggested fix: expand from 26 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Intense UV Exposure
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Research-Backed Installation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Continuous Innovation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Scientifically Proven Performance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Tornado Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Savings
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sustainability
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Weather Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 8
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 8 words
+  - Suggested fix: expand from 8 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Final Certification
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing/`
+- **Heading:** Hail Damage? We Can Help
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claim Assistance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Repairs
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Warranty Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Residential Roofing Process
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 1
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 1 words
+  - Suggested fix: expand from 1 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspection & Estimate
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Material Selection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Final Inspection & Cleanup
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Amarillo Areas
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Warranty Protection
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Workmanship Guarantee
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Alley Specialists
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 95%+ Insurance Approval
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/flat-roof-repair-midland-texas/`
+- **Heading:** Leak Detection & Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ponding Water Solutions
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fast Response
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Expert Diagnosis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 17 words
+  - Suggested fix: expand from 17 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Repairs
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ponding Water
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Impact
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Seam Failures
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing Issues
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Emergency Flat Roof Repair
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Interior Water Stains
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ponding Water 48+ Hours
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Visible Membrane Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Rising Energy Bills
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** More Midland Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 8
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 8 words
+  - Suggested fix: expand from 8 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-perryton/`
+- **Heading:** Agricultural Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Sector Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Retail and Office Buildings
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Does This Roofing Improve Energy Efficiency?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Advanced Insulation Systems
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Detailed Planning Phase
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 17 words
+  - Suggested fix: expand from 17 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Expert Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Assurance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Environmental Responsibility
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Texas Panhandle Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industry-Specific Solutions
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Project Management
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Technology
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/blog/roof-maintenance-checklist-texas/`
+- **Heading:** Twice Yearly
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** After Major Storms
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Annual Professional Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Monthly Quick Checks (5 Minutes)
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 14
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 14 words
+  - Suggested fix: expand from 14 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Visual Inspection from Ground
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Interior Check
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Active Water Intrusion
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sagging Roof Deck
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Large Missing Sections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Multiple New Water Stains
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Maintenance Services
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Roof Cleaning ($300-$600)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Damage Checks
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Related Resources
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/heavy-rain-damage-roof-repair-in-amarillo/`
+- **Heading:** Water Stains on Ceilings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dripping Water During/After Storms
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Musty Odors in Attic
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 7
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 7 words; no concrete specifics
+  - Suggested fix: expand from 7 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sagging or Bulging Ceiling
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Water Running Down Interior Walls
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 7
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 7 words; no concrete specifics
+  - Suggested fix: expand from 7 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Visible Roof Penetrations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Failed Flashing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Clogged Gutters and Downspouts
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Proper Ventilation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Regular Gutter Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Understanding Your Insurance Coverage
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 26
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 26 words; no concrete specifics
+  - Suggested fix: expand from 26 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What's Typically Covered
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Will weatherproof sheeting damage my roof further?
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+
+### `/app/wind-damage-repair/`
+- **Heading:** Lifted and Missing Shingles
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Exposed Underlayment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing Separation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 37
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 37 words; no concrete specifics
+  - Suggested fix: expand from 37 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ridge Cap and Soffit Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 46
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 46 words
+  - Suggested fix: expand from 46 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Weatherproof Sheeting
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Damage Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Targeted Repair or Full Replacement
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 47
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 47 words
+  - Suggested fix: expand from 47 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Can You Prevent Future Wind Damage?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Proper Nailing Patterns
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sealed Roof Decking
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Regular Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Damage Repair by City
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-snyder/`
+- **Heading:** Agricultural Processing Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 47 words; no concrete specifics
+  - Suggested fix: expand from 47 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy and Manufacturing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 47 words; no concrete specifics
+  - Suggested fix: expand from 47 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial and Healthcare
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 43
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 43 words; no concrete specifics
+  - Suggested fix: expand from 43 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Does This Roofing Improve Energy Efficiency?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Detailed Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Verification
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Environmental Responsibility
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 47
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 47 words
+  - Suggested fix: expand from 47 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** West Texas Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Technology
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Complete Service
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Competitive Value
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-hereford/`
+- **Heading:** Agricultural Roofing Challenges
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 40
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 40 words; no concrete specifics
+  - Suggested fix: expand from 40 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Unique Weather Factors in Hereford
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 1. Comprehensive Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Insurance Advocacy
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Specialized Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 13
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 13 words
+  - Suggested fix: expand from 13 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 4. Agricultural Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. post-storm documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 6. Long-term Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Serving All of Hereford & Deaf Smith County
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Specialized Agricultural Services
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 7
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 7 words; no concrete specifics
+  - Suggested fix: expand from 7 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair/`
+- **Heading:** Hail Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 31
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 31 words
+  - Suggested fix: expand from 31 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Tornado and Severe Wind
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 26
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 26 words; no concrete specifics
+  - Suggested fix: expand from 26 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flash Flooding and Ponding
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flying Debris
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Temporary Weatherproofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Permanent Repairs
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 30
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 30 words; no concrete specifics
+  - Suggested fix: expand from 30 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Adjuster Coordination
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Supplemental Claims
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Permian Basin (Midland-Odessa)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** South Plains (Lubbock Area)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-dumas/`
+- **Heading:** Agricultural Industry Specialist
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** County Seat Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Ammonia Environment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Residential Community Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Feedlot Operations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Grain Storage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** County Government
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural-Grade Materials
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industry-Sensitive Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Environment Monitoring
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical-Resistant Solutions
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Operational Coordination
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Moore County Compliance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-pampa/`
+- **Heading:** Oil & Gas Industry Specialist
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 47
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 47 words
+  - Suggested fix: expand from 47 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Gray County Seat Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historic Downtown Preservation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Worker Community
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Oil & Gas Operations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** County Government
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Community
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy-Grade Material Selection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industry-Coordinated Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Performance Monitoring
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Environment Solutions
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Sector Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Gray County Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-plainview/`
+- **Heading:** Severe Weather Factors in Plainview
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Infrastructure
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 1. Comprehensive Assessment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Insurance Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Detailed Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 4. Expert Installation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Educational Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 6. Long-term Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Serving All of Plainview & Hale County
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Specialized Services for Plainview
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-amarillo/`
+- **Heading:** Roofing Materials
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Water Management
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Weather Damage Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Company Standards We Meet
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 48
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 48 words
+  - Suggested fix: expand from 48 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Winter Inspections (December-February)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Thermal Imaging
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Drone Photography
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Moisture Detection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 2: Interior Investigation (15-30 minutes)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 67
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 3: Technology Integration (15-20 minutes)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 63
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Photography Requirements
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 74
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Report Content Standards
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 65
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing/`
+- **Heading:** Variety
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Easy Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 49 words
+  - Suggested fix: expand from 49 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Proven Performance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 32
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 32 words
+  - Suggested fix: expand from 32 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Deck Preparation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Starter Strip
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ridge Cap and Flashing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cleanup and Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 35
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 35 words; no concrete specifics
+  - Suggested fix: expand from 35 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Do You Repair and Maintain Asphalt Shingles?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Addressing Granule Loss
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fixing Leaks
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 43
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 43 words; no concrete specifics
+  - Suggested fix: expand from 43 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Extending Lifespan
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/blog/how-to-file-hail-damage-insurance-claim/`
+- **Heading:** Step 1: Document the Hail Event
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 77
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Step 4: Get a Professional Roofing Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 95
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Step 6: Review the Adjuster's Report
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 72
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 1. Waiting Too Long to File
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 49 words
+  - Suggested fix: expand from 49 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Making Temporary Repairs Without Photos
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 4. Accepting the First Offer Without Review
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Not Documenting Everything
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Texas "Anti-Steering" Laws
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 46
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 46 words; no concrete specifics
+  - Suggested fix: expand from 46 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Working with a Roofing Contractor During Your Claim
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Should I make temporary repairs before filing?
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Next Steps
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing/`
+- **Heading:** Commercial Projects We've Completed
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Restaurants
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Manufacturing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** ROI & Energy Efficiency Benefits
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Long-Term Value
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fast Response
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 7
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 7 words; no concrete specifics
+  - Suggested fix: expand from 7 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Business-Focused
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fully Licensed & Insured
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Properties We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Will insurance cover commercial roof hail damage?
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+
+### `/app/hail-damage-repair-pampa/`
+- **Heading:** Atmospheric Dynamics
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 1. Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Insurance Claim
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Detailed Estimate
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 6. Warranty Protection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 9
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 9 words
+  - Suggested fix: expand from 9 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Major Employers & Industrial Areas
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/industrial-roofing/`
+- **Heading:** Hail Damage Documentation for Industrial Facilities
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Minimal Downtime
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claim Management
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Facilities We Serve in Amarillo
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Industrial Roof Assessment
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 47 words; no concrete specifics
+  - Suggested fix: expand from 47 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Understanding Industrial Roofing Costs & ROI
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 31
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 31 words
+  - Suggested fix: expand from 31 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Preventive Maintenance Programs
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Can you work around our production schedule?
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 35 words; no concrete specifics
+  - Suggested fix: expand from 35 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+
+### `/app/roof-repair/`
+- **Heading:** Roof Leaks
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 65
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing Failures
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Should You Repair or Replace Your Roof?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Weatherproof Sheeting
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Damage Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Metal Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 32
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 32 words
+  - Suggested fix: expand from 32 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Built-Up and Modified Bitumen
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** How Severe Is Your Roof Damage?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Cosmetic Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 44
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 44 words
+  - Suggested fix: expand from 44 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Critical Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 46
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 46 words
+  - Suggested fix: expand from 46 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-canyon/`
+- **Heading:** Palo Duro Canyon Wind Patterns
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 43
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 43 words
+  - Suggested fix: expand from 43 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historic Downtown Preservation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Community Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Canyon Geography
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** University Environment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Hub
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Long-Term Performance Monitoring
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 44
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 44 words
+  - Suggested fix: expand from 44 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Canyon Geographic Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historical Preservation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Community Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-perryton/`
+- **Heading:** Wheat Country Agricultural Specialist
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 46
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 46 words
+  - Suggested fix: expand from 46 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ochiltree County Seat Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Rural Community Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wheat Production
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** County Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Environment Impact
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 51
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Weather-Resistant Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Severe Weather Zone Monitoring
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Schedule Accommodation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ochiltree County Compliance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-midland/`
+- **Heading:** Winter Freezing Rain Events
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Central Midland
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Residential Areas
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Zones
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Debris Impact
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 47
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 47 words
+  - Suggested fix: expand from 47 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flash Flood Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 44
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 44 words
+  - Suggested fix: expand from 44 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** March 2023 - Ice Storm Event
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Assessment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Safety Compliance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Enhanced Restoration
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/contact/`
+- **Heading:** Request a Free Inspection
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Contact Information
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Email
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 3
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 3 words; no concrete specifics
+  - Suggested fix: expand from 3 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Service Areas
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Experts
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fast Response
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Roofing Services
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Residential Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-dumas/`
+- **Heading:** Geographic Storm Enhancement
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 1. Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Insurance Claim
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Detailed Estimate
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 6. Warranty Protection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 9
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 9 words
+  - Suggested fix: expand from 9 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-odessa/`
+- **Heading:** UTPB & Academic Areas
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 17 words
+  - Suggested fix: expand from 17 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Central Odessa
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Petroleum Industrial
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Process Precipitation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** April 2023 - Chemical Dust Storm
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 43
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 43 words
+  - Suggested fix: expand from 43 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Basin-Aware Response
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Assessment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Campus Coordination
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Enhanced Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-replacement-perryton/`
+- **Heading:** Agricultural Community Challenges
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Grain Storage Facilities
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Serving Greater Perryton Area
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Primary Service Communities:
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Perryton Weather & Your Roof
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 31
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 31 words
+  - Suggested fix: expand from 31 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Why Perryton Farmers Choose Us
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Wheat & Grain Operations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cattle Ranch & Community
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-big-spring/`
+- **Heading:** Exterior Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 47 words; no concrete specifics
+  - Suggested fix: expand from 47 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Interior Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Signs
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 54
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Damage Indicators
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 85
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Complete Documentation Package
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Visual Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Written Reports
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Technology
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Partnership
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-perryton/`
+- **Heading:** 4K Drone Imaging
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Property Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Moisture Detection Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Damage Analysis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Impact Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Structural Integrity Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wheat Country Challenges
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** High Plains Weather
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Agriculture
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/pvc-roof-replacement-in-amarillo/`
+- **Heading:** Signs Your Commercial Roof Needs Replacement
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 0
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 0 words; no concrete specifics
+  - Suggested fix: expand from 0 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Multiple Leak Points
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Severe Hail Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Frequent Repairs
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Membrane Shrinkage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Bills Increasing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Installation Quality Control
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 77
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Performance Monitoring Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 54
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-canyon/`
+- **Heading:** 1. Free Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Insurance Claim
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Detailed Estimate
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 6. Warranty Protection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 9
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 9 words
+  - Suggested fix: expand from 9 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-levelland/`
+- **Heading:** Precise Measurements & Design
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Substrate Preparation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Control & Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Manufacturing Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Office Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Retail Centers
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 7
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 7 words; no concrete specifics
+  - Suggested fix: expand from 7 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Healthcare Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Educational Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-midland/`
+- **Heading:** Hazard Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Engineering
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Safety Compliance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Precision Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Performance Validation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Risk Management
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Midland Metro
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Permian Basin
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-snyder/`
+- **Heading:** Agricultural Industry Solutions
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Intense UV Radiation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Simplified Maintenance Programs
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Main Street Businesses
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Educational Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Healthcare Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-replacement/`
+- **Heading:** When Is It Time for a Full Roof Replacement?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** What Roofing Materials Are Available for Replacement?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 40 words; no concrete specifics
+  - Suggested fix: expand from 40 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Estimate and Material Selection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cleanup and Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Payment Options
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claim Coordination
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Estimates
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-odessa/`
+- **Heading:** Air Quality and Visibility Issues
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Mixed-Use Development Impacts
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Petroleum Industry Insurance Considerations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 65
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Spring Air Quality Assessment (March-May)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 68
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Winter Industry Maintenance Period (December-February)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 64
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Air Quality Correlation Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 26
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 26 words
+  - Suggested fix: expand from 26 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Residue Analysis
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historical Incident Database
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/privacy/`
+- **Heading:** Information We Collect
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 68
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Lead Routing &amp; Service Providers
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 44
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 44 words
+  - Suggested fix: expand from 44 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cookies &amp; Analytics
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 61
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** SMS &amp; Phone Communications
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 47 words; no concrete specifics
+  - Suggested fix: expand from 47 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Data Security
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Your Rights
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Third-Party Links
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Changes to This Policy
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 26
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 26 words; no concrete specifics
+  - Suggested fix: expand from 26 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-odessa/`
+- **Heading:** Industrial Heritage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Site Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Specialized System Design
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Safety Coordination
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Expert Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Performance Validation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Odessa Metro
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-odessa/`
+- **Heading:** Storm Damage Restoration
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 47
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 47 words
+  - Suggested fix: expand from 47 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Contamination Remediation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 40
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 40 words; no concrete specifics
+  - Suggested fix: expand from 40 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Structural and Foundation Issues
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** post-storm documentation Services
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** our roofing service and scheduling
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Materials and Technology
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance and Financial Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-replacement-snyder/`
+- **Heading:** Permian Basin Challenges
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Service Communities:
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 10
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 10 words
+  - Suggested fix: expand from 10 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Sector Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Permian Basin Operations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Service Companies
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Community Infrastructure Protection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 47
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 47 words
+  - Suggested fix: expand from 47 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-midland/`
+- **Heading:** Industrial Traffic Effects
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Environment Challenges
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Infrastructure Stress Factors
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 51
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Oil Field Industry Insurance Considerations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 66
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Contamination Detection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Vibration Monitoring Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Environmental Monitoring
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-levelland/`
+- **Heading:** Exterior Roof Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 51
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Interior Inspection Services
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 47 words; no concrete specifics
+  - Suggested fix: expand from 47 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Inspection Technology
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 56
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Technical Reporting
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 50
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Technology
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Partnership
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-pampa/`
+- **Heading:** Summer (Jun-Aug)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fall (Sep-Nov)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Winter (Dec-Feb)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Permanent Restoration
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What's Typically Covered
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Visual Inspection Checklist
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 46
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 46 words; no concrete specifics
+  - Suggested fix: expand from 46 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 53
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-borger/`
+- **Heading:** 1. Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Insurance Claim
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Detailed Estimate
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-lubbock/`
+- **Heading:** 1. Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Insurance Claim
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Detailed Estimate
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-odessa/`
+- **Heading:** 1. Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 2. Insurance Claim
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Detailed Estimate
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-pampa/`
+- **Heading:** Aerial Drone Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 44
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 44 words
+  - Suggested fix: expand from 44 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ground-Level Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Interior Attic Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Thermal Imaging Analysis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 31
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 31 words
+  - Suggested fix: expand from 31 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Structural Safety Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Environment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** post-storm documentation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 33
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 33 words; no concrete specifics
+  - Suggested fix: expand from 33 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-perryton/`
+- **Heading:** Agricultural Community
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Durability
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dust Resistance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 30
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 30 words; no concrete specifics
+  - Suggested fix: expand from 30 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Value Engineering
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Small Town Values
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Scheduling
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-borger/`
+- **Heading:** Advanced Detection Methods for Industrial Environments
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 76
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Spring Industrial Assessment (March-May)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 50
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Summer Heat & Chemical Stress (June-August)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 50
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fall Comprehensive Review (September-November)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Winter Industrial Monitoring (December-February)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 45
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 45 words; no concrete specifics
+  - Suggested fix: expand from 45 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Specialized Documentation for Industrial Environments
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 70
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Expert Testimony & Technical Support
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-dumas/`
+- **Heading:** Advanced Detection for Agricultural Environments
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 75
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Spring Agricultural Operations (March-May)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 57
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Summer Growing Season (June-August)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 56
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Harvest Season Assessment (September-November)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 57
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Winter Agricultural Dormancy (December-February)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 55
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Environment Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 74
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Insurance Challenges
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 56
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/amarillo-weather-impact-on-roofing/`
+- **Heading:** Maintenance Tips to Extend Roof Longevity
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Considerations for Amarillo Homeowners
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 49 words
+  - Suggested fix: expand from 49 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Warranty Protection for Amarillo Roofs
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 8
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 8 words
+  - Suggested fix: expand from 8 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 7
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 7 words; no concrete specifics
+  - Suggested fix: expand from 7 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Amarillo Roofing Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/amarillos-best-roofer/`
+- **Heading:** Our Pricing Philosophy
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 59
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Warranty Protection
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 39
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 39 words; no concrete specifics
+  - Suggested fix: expand from 39 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Assurance Standards
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 63
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Residential Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 5
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 5 words; no concrete specifics
+  - Suggested fix: expand from 5 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 6
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 6 words
+  - Suggested fix: expand from 6 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-replacement-pampa/`
+- **Heading:** Commercial Downtown
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Serving Greater Pampa Area
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Primary Service Areas:
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Corridor Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Celanese Industrial Complex
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Oil & Gas Operations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-midland/`
+- **Heading:** Petroleum Executive District
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 49 words
+  - Suggested fix: expand from 49 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Industry Scheduling
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 43
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 43 words; no concrete specifics
+  - Suggested fix: expand from 43 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** City of Midland Requirements
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Complete Service
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Oil Field Wind Patterns
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 52
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Sun & Heat
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 58
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-replacement-monahans/`
+- **Heading:** Serving Greater Monahans Area
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 31
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 31 words; no concrete specifics
+  - Suggested fix: expand from 31 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Service Areas Include:
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 10
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 10 words
+  - Suggested fix: expand from 10 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Local Expertise Matters
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Winter & Storm Concerns
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Desert Climate Solutions
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 46
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 46 words; no concrete specifics
+  - Suggested fix: expand from 46 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our post-storm documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-odessa/`
+- **Heading:** Asphalt Shingle Options for Every Odessa Family?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 2
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 2 words; no concrete specifics
+  - Suggested fix: expand from 2 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Protecting Your Family's Health
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 57
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Odessa Color & Style Recommendations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 70
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Odessa Installation Considerations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Environment Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Family-Friendly Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-monahans/`
+- **Heading:** Exterior Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 55
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Environment Factors
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Evidence Package
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Technical Analysis Reports
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 45
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 45 words; no concrete specifics
+  - Suggested fix: expand from 45 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Specialized Analysis
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industry Relationships
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-flat-roof-repair-in-amarillo/`
+- **Heading:** Thermal Splitting
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 17 words
+  - Suggested fix: expand from 17 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Blister Formation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Punctures
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing Failures
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ponding Water
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** UV Degradation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-midland/`
+- **Heading:** 1. Free Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 3. Detailed Estimate
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** 5. Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 22
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 22 words; no concrete specifics
+  - Suggested fix: expand from 22 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 6
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 6 words; no concrete specifics
+  - Suggested fix: expand from 6 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Free Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-canyon/`
+- **Heading:** Educational & Institutional
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cost-Effective Solutions
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Mechanically Attached
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 26
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 26 words
+  - Suggested fix: expand from 26 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ballasted Systems
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Canyon Energy Savings Examples
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** TPO Membrane Installation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 40
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 40 words; no concrete specifics
+  - Suggested fix: expand from 40 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-dumas/`
+- **Heading:** Rural & Agricultural Homes
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Durability Features
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Enhanced Granules
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Modified Asphalt
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Algae Resistance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Farm Family Value
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 35
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 35 words; no concrete specifics
+  - Suggested fix: expand from 35 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-pampa/`
+- **Heading:** Energy Worker Families
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Environment Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Enhanced Air Quality Features
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Executive Home Standards
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Executive Service Standards
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 29
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 29 words; no concrete specifics
+  - Suggested fix: expand from 29 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industry Professional Discounts
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 33
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 33 words
+  - Suggested fix: expand from 33 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-borger/`
+- **Heading:** Emergency Phase (0-24 hours)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Assessment Phase (1-7 days)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Restoration Phase (1-4 weeks)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical-Resistant Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind-Resistant Features
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Heat/UV Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-perryton/`
+- **Heading:** Grain Industry Solutions
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Performance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dust Management
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Large Span Capability
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Resistance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Temperature Control Benefits
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 31
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 31 words
+  - Suggested fix: expand from 31 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-perryton/`
+- **Heading:** Grain Facility Advantages
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Applications
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Clear Spans
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 4
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 4 words
+  - Suggested fix: expand from 4 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Load Capacity
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 5
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 5 words
+  - Suggested fix: expand from 5 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Service Life
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 5
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 5 words
+  - Suggested fix: expand from 5 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Building Benefits
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-dumas/`
+- **Heading:** Shingle Blow-Off Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 49 words
+  - Suggested fix: expand from 49 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Edge Lifting & Curling
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Flashing & Metal Work
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Debris Impact
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Building Stress
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Electrical & Utility Damage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-perryton/`
+- **Heading:** First 4 Hours
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Documentation Phase (1-3 days)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Restoration Phase (1-3 weeks)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 14
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 14 words
+  - Suggested fix: expand from 14 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Farm Building Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 60
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Insurance Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 70
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Serving Perryton, Texas
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 17 words
+  - Suggested fix: expand from 17 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/blog/roof-replacement-cost-texas-2025/`
+- **Heading:** Cost Per Square Foot: The Roofing Industry Standard
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cost Breakdown: What You're Actually Paying For
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** What a Proper Quote Should Include:
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 36 words; no concrete specifics
+  - Suggested fix: expand from 36 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** Red Flags in Quotes:
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 30
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 30 words
+  - Suggested fix: expand from 30 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** When is the best time of year to replace a roof in Texas?
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+
+### `/app/claude-tx-roofing/`
+- **Heading:** Small Town Values
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Damage Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Canyon Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 8
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 8 words
+  - Suggested fix: expand from 8 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Residential Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 4
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 4 words; no concrete specifics
+  - Suggested fix: expand from 4 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/budgeting-for-roof-replacement-expenses/`
+- **Heading:** Budget-Friendly Roofing Material Options
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Creating Your Roof Replacement Budget
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Replacement
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 6
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 6 words
+  - Suggested fix: expand from 6 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claims
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 6
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 6 words
+  - Suggested fix: expand from 6 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** All Roofing Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 5
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 5 words
+  - Suggested fix: expand from 5 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-lubbock/`
+- **Heading:** University Area
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 55
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Texas Tech University Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 43
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 43 words; no concrete specifics
+  - Suggested fix: expand from 43 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Complete Permit & Code Service
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Lubbock County (Unincorporated)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Extreme UV & Temperature
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 46
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 46 words
+  - Suggested fix: expand from 46 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-andrews/`
+- **Heading:** Advanced Detection Methods for Permian Basin Conditions
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 98
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fall Preparation (October-November)
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 49
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 49 words; no concrete specifics
+  - Suggested fix: expand from 49 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Winter Monitoring (December-February)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 52
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Permian Basin Insurance Challenges
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 71
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Adjuster Coordination
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 42
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 42 words; no concrete specifics
+  - Suggested fix: expand from 42 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-perryton/`
+- **Heading:** Agricultural Housing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Energy Housing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historic Preservation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Understanding Farm Cycles
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 57
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Wind Energy Considerations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 45
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 45 words; no concrete specifics
+  - Suggested fix: expand from 45 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-canyon/`
+- **Heading:** WTAMU Campus Area
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 45
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 45 words; no concrete specifics
+  - Suggested fix: expand from 45 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historic Downtown Canyon
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Canyon Rim Residential
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 38
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 38 words
+  - Suggested fix: expand from 38 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Student Housing Specialization
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 84
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Preservation Challenges
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 73
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-pampa/`
+- **Heading:** Energy Sector Solutions
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 15
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 15 words; no concrete specifics
+  - Suggested fix: expand from 15 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Safety & Performance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fire Safety
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Lightning Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical Resistance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-dumas/`
+- **Heading:** Livestock Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Grain Storage
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Equipment Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 9
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 9 words; no concrete specifics
+  - Suggested fix: expand from 9 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Processing Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 8
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 8 words; no concrete specifics
+  - Suggested fix: expand from 8 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Storm Preparedness
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 91
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-pampa/`
+- **Heading:** Energy Industry Applications
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Performance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Chemical-Resistant TPO Formulations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 47
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 47 words
+  - Suggested fix: expand from 47 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cooling Cost Reduction
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Equipment Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 30
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 30 words; no concrete specifics
+  - Suggested fix: expand from 30 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roofing-methods-in-amarillo/`
+- **Heading:** Installation Process: The 5 Star Method
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 1
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 1 words
+  - Suggested fix: expand from 1 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Complete Tear-Off & Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Starter Strip Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Cleanup & Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing/`
+- **Heading:** Chemical Resistance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 36
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 36 words
+  - Suggested fix: expand from 36 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Seam Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Membrane Patching
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Drain Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 38
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 38 words; no concrete specifics
+  - Suggested fix: expand from 38 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-amarillo/`
+- **Heading:** Spring (Mar-May)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Summer (Jun-Aug)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hidden Wind Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 68
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Coverage Basics
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 59
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-lubbock/`
+- **Heading:** Commercial Buildings
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 45
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 45 words; no concrete specifics
+  - Suggested fix: expand from 45 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Final Quality Assurance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Lubbock Metro
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 17 words
+  - Suggested fix: expand from 17 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** South Plains Communities
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/bushland-tx-roofing/`
+- **Heading:** Rural Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** post-storm documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Metal Roofing Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-borger/`
+- **Heading:** post-storm documentation Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Quality Assurance & Warranty Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Specialists
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 42
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 42 words
+  - Suggested fix: expand from 42 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Premium Materials
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-canyon/`
+- **Heading:** Historic District Preservation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 48
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 48 words
+  - Suggested fix: expand from 48 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Canyon Community Involvement
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 43
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 43 words
+  - Suggested fix: expand from 43 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** University Standard Compliance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 43
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 43 words; no concrete specifics
+  - Suggested fix: expand from 43 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Student & Young Professional Financing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 48
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 48 words
+  - Suggested fix: expand from 48 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-amarillo/`
+- **Heading:** Building Types
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 37
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 37 words; no concrete specifics
+  - Suggested fix: expand from 37 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Comprehensive Inspection
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 19 words
+  - Suggested fix: expand from 19 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Installation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Final Inspection & Warranty
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-borger/`
+- **Heading:** Shift Worker Accommodation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Corporate Housing Programs
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** post-storm documentation network
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Workforce Financing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 52
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-amarillo/`
+- **Heading:** Central Amarillo
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Southwest Amarillo
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 10
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 10 words; no concrete specifics
+  - Suggested fix: expand from 10 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Damage Assessment
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Coordination
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/blog/best-roofing-materials-texas-2025/`
+- **Heading:** Texas Roofing Challenges
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 11
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 11 words; no concrete specifics
+  - Suggested fix: expand from 11 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** South Texas (San Antonio, Corpus Christi - Heat & Humidity)
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 28
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 28 words
+  - Suggested fix: expand from 28 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Expert Recommendation for Texas
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 13
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 13 words
+  - Suggested fix: expand from 13 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Related Resources
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-lubbock/`
+- **Heading:** Agricultural Impact Assessment
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 52
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Weather Correlation Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Particulate Analysis
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Foundation Monitoring
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 26
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 26 words
+  - Suggested fix: expand from 26 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-monahans/`
+- **Heading:** Documentation-First
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Multi-Industry Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Durability
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Security-Enhanced Systems for Military Manufacturing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 94
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/pampa-texas-roofing/`
+- **Heading:** Roofing Services in Pampa
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Pampa Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Spring &amp; Summer Supercell Season
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 1
+  - Filler hits: 1
+  - Issues: filler: one of the most; length: 47 words
+  - Suggested fix: strip filler: one of the most; expand from 47 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historic Downtown Buildings
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-andrews/`
+- **Heading:** Documentation-First
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Expertise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 14
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 14 words
+  - Suggested fix: expand from 14 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Complete Project Management
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 17
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 17 words
+  - Suggested fix: expand from 17 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claims
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-andrews/`
+- **Heading:** Roof System Evaluation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 55
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Documentation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 51
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Storm Mitigation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Claims Process Support
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-borger/`
+- **Heading:** Commercial Applications
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 20
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 20 words; no concrete specifics
+  - Suggested fix: expand from 20 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Standing Seam
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 23
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 23 words; no concrete specifics
+  - Suggested fix: expand from 23 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Through-Fastened
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Structural Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 26
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 26 words
+  - Suggested fix: expand from 26 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/about/`
+- **Heading:** Hail Damage Experts
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 26
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 26 words; no concrete specifics
+  - Suggested fix: expand from 26 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claim Help
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Fast Response
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 21
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 21 words; no concrete specifics
+  - Suggested fix: expand from 21 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Our Promise
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 48
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 48 words
+  - Suggested fix: expand from 48 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/vega-tx-roofing/`
+- **Heading:** High Plains Specialists
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Metal Roofing Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 5
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 5 words
+  - Suggested fix: expand from 5 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wildorado-tx-roofing/`
+- **Heading:** Rural Community Focus
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Ranch & Farm Experience
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-big-spring/`
+- **Heading:** Documentation-First
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 17
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 17 words; no concrete specifics
+  - Suggested fix: expand from 17 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Security Clearances
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Healthcare Compliance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-canyon/`
+- **Heading:** Documentation-First
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Educational Experience
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 13
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 13 words; no concrete specifics
+  - Suggested fix: expand from 13 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Historic Preservation
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-levelland/`
+- **Heading:** Documentation-First
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 14
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 14 words
+  - Suggested fix: expand from 14 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Expertise
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Clear-Span Specialists
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 12
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 12 words; no concrete specifics
+  - Suggested fix: expand from 12 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-big-spring/`
+- **Heading:** Historic District Preservation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Medical Center Area Homes
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Retiree Community Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-midland/`
+- **Heading:** Oil Field Debris Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 54
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Heat Island Effects
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 54
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Permian Basin Installation Enhancements
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 46
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 46 words; no concrete specifics
+  - Suggested fix: expand from 46 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-midland/`
+- **Heading:** Desert Installation Protocols
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Desert Heat Maintenance Program
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 48
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 48 words; no concrete specifics
+  - Suggested fix: expand from 48 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Performance Monitoring
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 54
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/dumas-texas-roofing/`
+- **Heading:** Roofing Services in Dumas
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Dumas Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural &amp; Feedlot Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 52
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/plainview-texas-roofing/`
+- **Heading:** Roofing Services in Plainview
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Plainview Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** University &amp; Healthcare Campuses
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 45
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 45 words
+  - Suggested fix: expand from 45 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-canyon/`
+- **Heading:** Family Home Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Value & Affordability
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Insurance Claim Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-big-spring/`
+- **Heading:** Advanced Assessment Technology
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 48
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 48 words
+  - Suggested fix: expand from 48 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Post-Storm Documentation Protocol
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 36
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 36 words; no concrete specifics
+  - Suggested fix: expand from 36 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Claim Optimization Strategies
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 59
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-borger/`
+- **Heading:** Industrial Applications
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Phase 4: Quality Control & Final Inspection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Common Maintenance Items
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 44
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 44 words; no concrete specifics
+  - Suggested fix: expand from 44 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-levelland/`
+- **Heading:** College Housing Specialists
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 25
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 25 words
+  - Suggested fix: expand from 25 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** College Housing Specialists
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 46
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 46 words
+  - Suggested fix: expand from 46 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Seasonal Scheduling & Planning
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 43
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 43 words
+  - Suggested fix: expand from 43 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-monahans/`
+- **Heading:** Desert Climate Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 30
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 30 words; no concrete specifics
+  - Suggested fix: expand from 30 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Energy Sector Housing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Sandstorm Protection
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 26
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 26 words; no concrete specifics
+  - Suggested fix: expand from 26 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/amarillo-homes-roofing-services/`
+- **Heading:** Residential Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Hail Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Amarillo Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 6
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 6 words
+  - Suggested fix: expand from 6 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-borger/`
+- **Heading:** Commercial Buildings
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 37
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 37 words
+  - Suggested fix: expand from 37 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Facilities
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 32
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 32 words; no concrete specifics
+  - Suggested fix: expand from 32 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Advanced Fastening Systems
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 67
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-canyon/`
+- **Heading:** Canyon Rim Properties
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 40
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 40 words
+  - Suggested fix: expand from 40 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** WTAMU Campus
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Downtown Canyon
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 34
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 34 words; no concrete specifics
+  - Suggested fix: expand from 34 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/service-areas/`
+- **Heading:** Where we work
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 19
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 19 words; no concrete specifics
+  - Suggested fix: expand from 19 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+- **Heading:** , TX
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 2
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 2 words; no concrete specifics
+  - Suggested fix: expand from 2 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Smaller communities we serve
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roof-installation-odessa-texas/`
+- **Heading:** Hail Resistance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 16 words
+  - Suggested fix: expand from 16 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** More Odessa Services
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 7
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 7 words
+  - Suggested fix: expand from 7 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing/`
+- **Heading:** Hail Resistance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 35
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 35 words
+  - Suggested fix: expand from 35 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Advantages
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 43
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 43 words
+  - Suggested fix: expand from 43 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/lubbock-tx-roofing/`
+- **Heading:** Roofing Services in Lubbock
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Lubbock Neighborhoods We Serve
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/odessa-tx-roofing/`
+- **Heading:** Roofing Services in Odessa
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Odessa Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/perryton-texas-roofing/`
+- **Heading:** Roofing Services in Perryton
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Perryton Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 27
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 27 words
+  - Suggested fix: expand from 27 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/snyder-tx-roofing/`
+- **Heading:** Roofing Services in Snyder
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Snyder Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/andrews-tx-roofing/`
+- **Heading:** Roofing Services in Andrews
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Andrews Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 18
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 18 words
+  - Suggested fix: expand from 18 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/big-spring-tx-roofing/`
+- **Heading:** Roofing Services in Big Spring
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Big Spring Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 23
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 23 words
+  - Suggested fix: expand from 23 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/canyon-texas-roofing/`
+- **Heading:** Educational &amp; Institutional Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 41
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 41 words; no concrete specifics
+  - Suggested fix: expand from 41 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Museum &amp; Historic Building Roofing
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-levelland/`
+- **Heading:** Scientific Documentation Methods
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 75
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Specialized Damage Advocacy
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 55
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hail-damage-repair-perryton/`
+- **Heading:** Disaster Response Protocol
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 58
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Agricultural Claims Specialization
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 53
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-inspections-canyon/`
+- **Heading:** University District Building Considerations
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 78
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Specialized Claim Support for Canyon
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 48
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 48 words
+  - Suggested fix: expand from 48 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-replacement-midland/`
+- **Heading:** Dust Storm Damage
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Installation & Scheduling
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 34
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 34 words
+  - Suggested fix: expand from 34 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-odessa/`
+- **Heading:** Roof Repairs & Maintenance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 37
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 37 words; no concrete specifics
+  - Suggested fix: expand from 37 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Professional Inspections
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-borger/`
+- **Heading:** Homeowner Benefits
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 20
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 20 words
+  - Suggested fix: expand from 20 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Designer Series
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-dumas/`
+- **Heading:** Storm Damage Repair
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Roof Inspections
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 21
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 21 words
+  - Suggested fix: expand from 21 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-snyder/`
+- **Heading:** Oil Industry Housing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 28
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 28 words; no concrete specifics
+  - Suggested fix: expand from 28 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** College Community Roofing
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 27
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 27 words; no concrete specifics
+  - Suggested fix: expand from 27 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-dumas/`
+- **Heading:** Agricultural Applications
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Solutions
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-dumas/`
+- **Heading:** Agricultural Excellence
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 24
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 24 words; no concrete specifics
+  - Suggested fix: expand from 24 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Industrial Performance
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 18
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 18 words; no concrete specifics
+  - Suggested fix: expand from 18 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/metal-roofing-canyon/`
+- **Heading:** Educational Excellence
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 15
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 15 words
+  - Suggested fix: expand from 15 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+- **Heading:** Commercial Solutions
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/pvc-roof-repair-in-amarillo/`
+- **Heading:** Fastener Blow-Off
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 39
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 39 words
+  - Suggested fix: expand from 39 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-andrews/`
+- **Heading:** Preventive Maintenance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-lubbock/`
+- **Heading:** High Elevation UV Exposure
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 46
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 46 words
+  - Suggested fix: expand from 46 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/commercial-roofing-midland/`
+- **Heading:** Chemical & Industrial Exposure
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 49
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 49 words
+  - Suggested fix: expand from 49 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-amarillo/`
+- **Heading:** Insurance Claim Specialists
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 25
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 25 words; no concrete specifics
+  - Suggested fix: expand from 25 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/wind-damage-repair-lubbock/`
+- **Heading:** Agricultural Debris Impact
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 58
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/tpo-roofing-big-spring/`
+- **Heading:** TPO Repair & Maintenance
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/amarillo-tx-roofing/`
+- **Heading:** Amarillo Neighborhoods We Serve
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 26
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 26 words
+  - Suggested fix: expand from 26 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-lubbock/`
+- **Heading:** Lubbock Installation Considerations
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 26
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 26 words; no concrete specifics
+  - Suggested fix: expand from 26 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/borger-texas-roofing/`
+- **Heading:** Roofing Services in Borger
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/hereford-texas-roofing/`
+- **Heading:** Roofing Services in Hereford
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 24
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 24 words
+  - Suggested fix: expand from 24 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/levelland-tx-roofing/`
+- **Heading:** Roofing Services in Levelland
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/midland-tx-roofing/`
+- **Heading:** Roofing Services in Midland
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/monahans-tx-roofing/`
+- **Heading:** Roofing Services in Monahans
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 22
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 22 words
+  - Suggested fix: expand from 22 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-replacement-canyon/`
+- **Heading:** What Does Roofing Materials for Canyon's Academic Community Include?
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 16
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 16 words; no concrete specifics
+  - Suggested fix: expand from 16 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218)
+
+### `/app/asphalt-shingle-roofing-andrews/`
+- **Heading:** Final Inspection & Warranty Activation
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 41
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 41 words
+  - Suggested fix: expand from 41 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/asphalt-shingle-roofing-snyder/`
+- **Heading:** Complete Warranty & Ongoing Support
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 29
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 29 words
+  - Suggested fix: expand from 29 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/pvc-roofing-contractors-in-amarillo/`
+- **Heading:** Commercial Buildings We Serve
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 14
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 14 words; no concrete specifics
+  - Suggested fix: expand from 14 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/residential-roofing-pampa/`
+- **Heading:** Storm Damage Restoration
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 26
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 26 words; no concrete specifics
+  - Suggested fix: expand from 26 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/roof-repair-big-spring/`
+- **Heading:** Advanced Materials & Methods
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 48
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 48 words
+  - Suggested fix: expand from 48 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-big-spring/`
+- **Heading:** Climate-Specific Damage Patterns
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 54
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-levelland/`
+- **Heading:** High Plains Damage Patterns
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 47
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 47 words; no concrete specifics
+  - Suggested fix: expand from 47 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-monahans/`
+- **Heading:** Desert Climate Damage Patterns
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 52
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/storm-damage-repair-snyder/`
+- **Heading:** Common Damage Types in Scurry County
+  - Level: H3
+  - Score: 0 (low)
+  - Words: 59
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/content/blog/`
+- **Heading:** Related Resources
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/content/blog/`
+- **Heading:** Wood Shakes and Shingles
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 71
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: no concrete specifics
+  - Suggested fix: add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/articles/`
+- **Heading:** 
+  - Level: H2
+  - Score: -1 (low)
+  - Words: 2
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 2 words; no concrete specifics
+  - Suggested fix: expand from 2 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
+
+### `/content/blog/`
+- **Heading:** Related Resources
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/content/blog/`
+- **Heading:** Related Resources
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 11
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 11 words
+  - Suggested fix: expand from 11 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/content/blog/`
+- **Heading:** Related Resources
+  - Level: H2
+  - Score: 0 (low)
+  - Words: 12
+  - Specificity hits: 1
+  - Filler hits: 0
+  - Issues: length: 12 words
+  - Suggested fix: expand from 12 words toward 100-300; consider phrasing the heading as a question (AI retrieval signal)
+
+### `/app/blog/`
+- **Heading:** 
+  - Level: H3
+  - Score: -1 (low)
+  - Words: 2
+  - Specificity hits: 0
+  - Filler hits: 0
+  - Issues: length: 2 words; no concrete specifics
+  - Suggested fix: expand from 2 words toward 100-300; add a concrete number, named city, material, or standard (e.g., Class 4, UL 2218); consider phrasing the heading as a question (AI retrieval signal)
