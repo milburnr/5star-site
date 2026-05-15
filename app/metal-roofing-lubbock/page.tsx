@@ -405,10 +405,10 @@ export default function MetalRoofingLubbockPage() {
                     Lubbock-Specific Considerations
                   </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Tornado-zone construction standards</li>
-                    <li>• Enhanced corner and edge reinforcement</li>
-                    <li>• Impact-resistant penetration details</li>
-                    <li>• Debris-resistant ventilation systems</li>
+                    <li>• Fastening patterns sized for Lubbock County&apos;s South Plains gust history</li>
+                    <li>• Reinforced clip spacing at hips, ridges, and rakes where uplift loads concentrate</li>
+                    <li>• Pipe boots and curbs built to UL 2218 Class 4 impact resistance</li>
+                    <li>• Ridge and gable vents designed to keep blowing sand and hail debris out of the attic</li>
                   </ul>
                 </div>
               </div>
@@ -444,13 +444,14 @@ export default function MetalRoofingLubbockPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-4 text-center">Tornado Activity</h3>
                   <p className="mb-4">
-                    Located in Tornado Alley with documented F4/F5 tornado events requiring maximum
-                    wind resistance.
+                    Lubbock sits in Tornado Alley and the 1970 F5 that struck downtown still
+                    drives local building codes for wind uplift and structural connection
+                    detailing.
                   </p>
                   <ul className="space-y-1 text-sm">
-                    <li>• 175+ mph wind uplift resistance</li>
-                    <li>• Reinforced structural connections</li>
-                    <li>• Debris impact resistance features</li>
+                    <li>• 175+ mph wind uplift resistance on engineered standing seam systems</li>
+                    <li>• Reinforced clip-and-screw connections at the roof deck</li>
+                    <li>• Class 4 impact-rated penetration details for debris strikes</li>
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-yellow-500 to-orange-500 text-white p-8 rounded-xl">
@@ -459,13 +460,14 @@ export default function MetalRoofingLubbockPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-4 text-center">Intense UV Exposure</h3>
                   <p className="mb-4">
-                    High plains elevation and clear skies create extreme UV conditions requiring
-                    premium coatings.
+                    Lubbock&apos;s 3,200-foot elevation on the Llano Estacado and 270-plus sun days
+                    a year mean metal panels need a coating that holds color and gloss for decades,
+                    not a few summers.
                   </p>
                   <ul className="space-y-1 text-sm">
-                    <li>• PVDF and SMP coating systems</li>
-                    <li>• UV-resistant color formulations</li>
-                    <li>• 30-year fade and chalk warranties</li>
+                    <li>• PVDF (Kynar 500) finishes for top-tier UV stability</li>
+                    <li>• SMP coatings on budget-conscious agricultural builds</li>
+                    <li>• 30-year fade and chalk warranties through major panel manufacturers</li>
                   </ul>
                 </div>
               </div>
@@ -515,19 +517,19 @@ export default function MetalRoofingLubbockPage() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>{" "}
-                      <span>Wind tunnel testing data applied to local installations</span>
+                      <span>Texas Tech wind-tunnel pressure data applied to Lubbock County panel layouts</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>{" "}
-                      <span>Pressure mapping studies for optimal fastening patterns</span>
+                      <span>Corner-and-edge fastening upgraded where pressure mapping shows uplift spikes</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>{" "}
-                      <span>Debris impact research influences material selection</span>
+                      <span>Debris impact research drives Class 4 UL 2218 material selection</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>{" "}
-                      <span>Local climate data integration for design optimization</span>
+                      <span>South Plains gust and hail history integrated into panel-and-clip specs</span>
                     </li>
                   </ul>
                 </div>
@@ -536,19 +538,19 @@ export default function MetalRoofingLubbockPage() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>{" "}
-                      <span>Partnership with local engineering professionals</span>
+                      <span>Working relationships with Lubbock-area structural engineers on commercial jobs</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>{" "}
-                      <span>Access to latest wind resistance technologies</span>
+                      <span>Standing seam, R-panel, and concealed-fastener systems from established manufacturers</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>{" "}
-                      <span>Field testing of new materials and methods</span>
+                      <span>Field checks of fastener patterns and clip spacing after the first South Plains windstorm</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>{" "}
-                      <span>Documentation of real-world performance data</span>
+                      <span>Photo and measurement records kept on each Lubbock install for warranty support</span>
                     </li>
                   </ul>
                 </div>
@@ -556,8 +558,10 @@ export default function MetalRoofingLubbockPage() {
               <div className="mt-8 bg-red-600 text-white p-6 rounded-xl text-center">
                 <h3 className="text-xl font-bold mb-2">Scientifically Proven Performance</h3>
                 <p>
-                  Our installations incorporate findings from Texas Tech's decades of wind damage
-                  research, ensuring your roof can withstand Lubbock's most severe weather events.
+                  Our standing seam and R-panel installs apply findings from Texas Tech&apos;s
+                  Wind Science and Engineering Center, which has studied South Plains storms since
+                  the 1970 Lubbock tornado. The result is fastener spacing, clip selection, and
+                  edge details sized to local gust and uplift data.
                 </p>
               </div>
             </div>
@@ -659,9 +663,10 @@ export default function MetalRoofingLubbockPage() {
                     Tornado Protection
                   </h3>
                   <p className="text-gray-700">
-                    Superior wind uplift resistance designed for Tornado Alley conditions. Our
-                    installations exceed building codes with enhanced fastening and structural
-                    connections proven in extreme wind events.
+                    Standing seam metal anchored with concealed clips and #12 pancake-head screws
+                    delivers UL 580 wind uplift performance built for Tornado Alley. Edge zones
+                    along Lubbock County rakes and eaves get tighter clip spacing where uplift
+                    pressure peaks.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -685,9 +690,10 @@ export default function MetalRoofingLubbockPage() {
                     Energy Savings
                   </h3>
                   <p className="text-gray-700">
-                    Reflective coatings reduce cooling costs in Lubbock's intense summer heat. High
-                    plains elevation and minimal shade make energy-efficient roofing especially
-                    valuable.
+                    ENERGY STAR cool-roof PVDF finishes in lighter colors reflect a large share of
+                    solar heat off the panels. On the Llano Estacado with 270-plus sun days a
+                    year and very little tree cover over most Lubbock neighborhoods, that cuts
+                    air-conditioning demand through the long South Plains summer.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -724,9 +730,10 @@ export default function MetalRoofingLubbockPage() {
                     Sustainability
                   </h3>
                   <p className="text-gray-700">
-                    Environmentally responsible choice with high recycled content and complete
-                    recyclability. Reduces landfill waste compared to frequent asphalt shingle
-                    replacement.
+                    Steel and aluminum panels often contain 25 percent or more recycled content
+                    and stay recyclable at end of service. A 40-to-50 year metal roof keeps two
+                    or three asphalt tear-offs out of Lubbock County landfills over the same
+                    period.
                   </p>
                 </div>
               </div>

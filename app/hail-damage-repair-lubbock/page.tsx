@@ -303,9 +303,10 @@ export default function HailDamageRepairLubbockPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
                 <p className="text-gray-600">
-                  We thoroughly inspect your Lubbock property for hail damage, documenting every
-                  impact with photos and measurements. Our inspections are always free with no
-                  obligation.
+                  We walk every slope on the Lubbock County home, measure impact bruising against
+                  UL 2218 hail benchmarks, and photograph soft hits, granule displacement, and
+                  collateral damage to gutters, vents, and screens. The inspection is free with
+                  no obligation, and the photo set goes with you whether you file a claim or not.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -314,9 +315,10 @@ export default function HailDamageRepairLubbockPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
                 <p className="text-gray-600">
-                  We prepare comprehensive documentation for your claim and meet with your adjuster
-                  on-site. We know what Lubbock-area insurance adjusters look for and how to
-                  maximize your coverage.
+                  We assemble the documentation package and meet the adjuster on-site for State
+                  Farm, Allstate, USAA, Farmers, or Texas Farm Bureau claims. South Plains hail
+                  events show up regularly in adjuster training, and we make sure ridge caps,
+                  vents, and step flashing get scoped along with the field shingles.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -325,8 +327,10 @@ export default function HailDamageRepairLubbockPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
                 <p className="text-gray-600">
-                  We provide a detailed, line-item estimate using Xactimate—the same software
-                  insurance companies use. No surprises, no hidden costs.
+                  A line-item estimate in Xactimate, the same scope-and-pricing tool the major
+                  carriers use, so the math lines up with what the adjuster has on file. Class 4
+                  impact-rated shingle and standing seam metal upgrades are quoted alongside the
+                  baseline replacement.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -345,8 +349,10 @@ export default function HailDamageRepairLubbockPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
                 <p className="text-gray-600">
-                  We conduct a thorough final inspection to ensure every detail meets our high
-                  standards. You'll receive complete documentation for your records.
+                  A slope-by-slope walkthrough confirms ridge caps, step and counter flashing,
+                  pipe boots, drip edge, and gutter aprons all pass before the punch list closes.
+                  You get the photo set, the manufacturer warranty registration, and the
+                  Xactimate scope of work for your records.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">

@@ -252,9 +252,12 @@ export default function AmarilloRoofingPage() {
             <h2 className="section-title">Amarillo Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From the historic neighborhoods near downtown to the newer developments on
-                Amarillo&apos;s southwest and southeast edges, we provide expert roofing services
-                across the entire city:
+                From the historic streets in Wolflin and San Jacinto Heights to the newer
+                developments along Soncy Road on the southwest edge and Eastridge to the
+                southeast, we work on roofs across every part of Amarillo. As a local outfit
+                headquartered here since 2014, we know which Potter County and Randall County
+                subdivisions get hit hardest by Hail Alley storms and which slopes catch the worst
+                Texas Panhandle wind exposure.
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>

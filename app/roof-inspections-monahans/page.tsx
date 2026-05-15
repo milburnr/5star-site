@@ -280,28 +280,28 @@ export default function RoofInspectionsMonahansPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    • <strong>Industrial Contamination Analysis:</strong> Oil field dust, chemical
-                    exposure, atmospheric corrosion
+                    • <strong>Industrial Contamination Analysis:</strong> Permian Basin oil field
+                    dust, hydrocarbon residue, and atmospheric corrosion on metal flashing
                   </li>
                   <li>
-                    • <strong>Hail Damage Documentation:</strong> Impact patterns, granule
-                    displacement, substrate exposure
+                    • <strong>Hail Damage Documentation:</strong> impact bruising on asphalt mat,
+                    granule displacement, and exposed substrate compared to UL 2218 benchmarks
                   </li>
                   <li>
-                    • <strong>Wind Damage Evaluation:</strong> Desert wind effects, sandblasting,
-                    thermal movement
+                    • <strong>Wind Damage Evaluation:</strong> sandblasting from southwest
+                    Chihuahuan Desert winds, ridge cap lift, and panel-lap fatigue
                   </li>
                   <li>
-                    • <strong>UV Degradation Assessment:</strong> Extreme solar exposure, material
-                    breakdown analysis
+                    • <strong>UV Degradation Assessment:</strong> south-slope brittleness and
+                    color fade from Ward County&apos;s long solar season
                   </li>
                   <li>
-                    • <strong>Flashing System Integrity:</strong> Metal deterioration, thermal
-                    expansion damage
+                    • <strong>Flashing System Integrity:</strong> step, counter, and pipe-boot
+                    flashing checked for corrosion and thermal-cycle fatigue
                   </li>
                   <li>
-                    • <strong>Drainage System Analysis:</strong> Sand accumulation, oil field
-                    debris, proper function
+                    • <strong>Drainage System Analysis:</strong> scuppers, gutters, and downspouts
+                    cleared of caliche dust and Permian Basin grit
                   </li>
                 </ul>
               </div>
@@ -311,28 +311,28 @@ export default function RoofInspectionsMonahansPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    • <strong>Chemical Exposure Effects:</strong> Hydrogen sulfide, hydrocarbon
-                    vapor, acid rain damage
+                    • <strong>Chemical Exposure Effects:</strong> hydrogen sulfide, hydrocarbon
+                    vapor, and acid rain that etch asphalt mat and oxidize metal panels
                   </li>
                   <li>
-                    • <strong>Dust Accumulation Impact:</strong> Caliche dust, sand infiltration,
-                    abrasive wear
+                    • <strong>Dust Accumulation Impact:</strong> caliche dust and sand carried off
+                    the Llano Estacado that wears down ceramic granules
                   </li>
                   <li>
-                    • <strong>Thermal Cycling Stress:</strong> Extreme temperature swings, material
-                    fatigue
+                    • <strong>Thermal Cycling Stress:</strong> Permian Basin summer-to-winter
+                    swings approaching 100°F that fatigue panel laps and pipe-boot sealant
                   </li>
                   <li>
-                    • <strong>Vibration Damage:</strong> Nearby drilling operations, pumping units,
-                    traffic
+                    • <strong>Vibration Damage:</strong> pumping units, compressors, and Highway
+                    158 truck traffic that loosen fasteners on adjacent buildings
                   </li>
                   <li>
-                    • <strong>Air Quality Impact:</strong> Particulate exposure, oxidation
-                    acceleration
+                    • <strong>Air Quality Impact:</strong> particulate fallout that accelerates
+                    oxidation on galvanized step and counter flashing
                   </li>
                   <li>
-                    • <strong>Regulatory Compliance:</strong> Environmental protection, safety
-                    requirements
+                    • <strong>Regulatory Compliance:</strong> TCEQ environmental rules and OSHA
+                    safety practices factored into inspection planning
                   </li>
                 </ul>
               </div>
@@ -550,27 +550,28 @@ export default function RoofInspectionsMonahansPage() {
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    • <strong>Environmental Context Photography:</strong> Industrial conditions
-                    affecting roof
+                    • <strong>Environmental Context Photography:</strong> wide shots that capture
+                    adjacent pumping units, compressors, and Highway 158 traffic
                   </li>
                   <li>
-                    • <strong>Multi-Spectral Imaging:</strong> Standard and infrared documentation
+                    • <strong>Multi-Spectral Imaging:</strong> infrared sweeps to find wet
+                    insulation and trapped moisture under TPO and modified bitumen
                   </li>
                   <li>
-                    • <strong>Microscopic Analysis:</strong> Granule loss, chemical damage, material
-                    degradation
+                    • <strong>Close-Up Analysis:</strong> macro photos of granule loss, chemical
+                    etching, and panel-lap fatigue
                   </li>
                   <li>
-                    • <strong>Time-Stamped Documentation:</strong> Precise damage dating for claim
-                    correlation
+                    • <strong>Time-Stamped Documentation:</strong> photo metadata cross-checked
+                    against storm event dates
                   </li>
                   <li>
-                    • <strong>Weather Event Correlation:</strong> National Weather Service data
-                    integration
+                    • <strong>Weather Event Correlation:</strong> Midland NWS office data and SPC
+                    storm reports attached to the file
                   </li>
                   <li>
-                    • <strong>Industry-Standard Reporting:</strong> Formats acceptable to all major
-                    insurers
+                    • <strong>Industry-Standard Reporting:</strong> Xactimate-compatible scopes
+                    formatted for State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau
                   </li>
                 </ul>
               </div>
@@ -580,26 +581,28 @@ export default function RoofInspectionsMonahansPage() {
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    • <strong>Environmental Impact Assessment:</strong> Industrial vs. storm damage
-                    differentiation
+                    • <strong>Environmental Impact Assessment:</strong> separating Permian Basin
+                    industrial wear from documented hail and wind events
                   </li>
                   <li>
-                    • <strong>Material Failure Analysis:</strong> Chemical compatibility, thermal
-                    stress evaluation
+                    • <strong>Material Failure Analysis:</strong> chemical compatibility checks
+                    plus thermal stress evaluation on TPO, EPDM, and modified bitumen
                   </li>
                   <li>
-                    • <strong>Regulatory Compliance Review:</strong> Safety, environmental, building
-                    code issues
+                    • <strong>Regulatory Compliance Review:</strong> Ward County building code,
+                    TCEQ, and OSHA factors documented in writing
                   </li>
                   <li>
-                    • <strong>Life Expectancy Analysis:</strong> Remaining useful life calculations
+                    • <strong>Life Expectancy Analysis:</strong> remaining useful life calculated
+                    against ASTM D3462 and manufacturer specs
                   </li>
                   <li>
-                    • <strong>Replacement Specifications:</strong> Improved materials for harsh
-                    conditions
+                    • <strong>Replacement Specifications:</strong> recommendations for PVDF-coated
+                    metal, Class 4 impact-rated shingles, or upgraded single-ply membranes
                   </li>
                   <li>
-                    • <strong>Cost-Benefit Analysis:</strong> Repair vs. replacement recommendations
+                    • <strong>Cost-Benefit Analysis:</strong> repair-versus-replace recommendation
+                    with line-item pricing
                   </li>
                 </ul>
               </div>
@@ -772,8 +775,9 @@ export default function RoofInspectionsMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Specialized Analysis</h3>
                 <p className="text-gray-600">
-                  Advanced testing for chemical exposure, thermal stress, and environmental damage
-                  unique to oil and gas producing areas.
+                  Surface pH testing, infrared moisture sweeps, and ASTM-referenced material
+                  evaluation for the chemical, thermal, and dust exposure unique to Ward County
+                  oil and gas country.
                 </p>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">

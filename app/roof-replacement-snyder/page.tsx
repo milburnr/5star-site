@@ -223,20 +223,24 @@ export default function RoofReplacementSnyderPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-3">
                   <li>
-                    • <strong>Extreme Heat:</strong> Summer temperatures regularly exceed 105°F
+                    • <strong>Extreme Heat:</strong> Snyder summer highs regularly clear 105°F,
+                    pushing dark asphalt roof surfaces well above 160°F
                   </li>
                   <li>
-                    • <strong>Severe Hailstorms:</strong> Located in active hail corridor
+                    • <strong>Severe Hailstorms:</strong> Scurry County sits inside Hail Alley
+                    where quarter to golf-ball-sized stones are routine in spring
                   </li>
                   <li>
-                    • <strong>High Winds:</strong> Open terrain creates extreme wind exposure
+                    • <strong>High Winds:</strong> Llano Estacado exposure puts perimeter and
+                    corner zones in the upper ASCE 7 wind brackets
                   </li>
                   <li>
-                    • <strong>Oil Field Emissions:</strong> Industrial pollutants accelerate
-                    deterioration
+                    • <strong>Oil Field Emissions:</strong> Permian Basin hydrocarbon vapors and
+                    H2S off sour-gas wells age standard polyester paint inside five years
                   </li>
                   <li>
-                    • <strong>Ground Vibrations:</strong> Heavy equipment causes structural stress
+                    • <strong>Ground Vibrations:</strong> Pump jacks, compressors, and heavy
+                    truck traffic transmit constant low-frequency vibration into nearby roofs
                   </li>
                 </ul>
               </div>
@@ -307,13 +311,13 @@ export default function RoofReplacementSnyderPage() {
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Commercial Buildings</h3>
-                <p className="text-gray-700 mb-4">Downtown and business district solutions:</p>
+                <p className="text-gray-700 mb-4">Downtown Snyder and Scurry County business-district solutions:</p>
                 <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• Historic building preservation</li>
-                  <li>• Modern efficiency upgrades</li>
-                  <li>• Minimal business disruption</li>
-                  <li>• Aesthetic enhancement options</li>
-                  <li>• Long-term warranty protection</li>
+                  <li>• Historic facade and parapet preservation around the courthouse square</li>
+                  <li>• White TPO or PVC cool-roof upgrades that cut AC load through Permian Basin summers</li>
+                  <li>• Phased crews so shops and offices stay open through replacement</li>
+                  <li>• Standing seam metal or modified bitumen retrofits matched to existing rooflines</li>
+                  <li>• GAF Diamond Pledge and Carlisle full-system warranty options</li>
                 </ul>
               </div>
             </div>
@@ -349,11 +353,11 @@ export default function RoofReplacementSnyderPage() {
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Energy Sector Expertise</h3>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Understanding of oil field operations</li>
-                  <li>• Experience with industrial safety requirements</li>
-                  <li>• Knowledge of Permian Basin conditions</li>
-                  <li>• Relationships with energy contractors</li>
-                  <li>• Flexible scheduling for operations</li>
+                  <li>• Familiarity with Scurry County oilfield operations and lease access protocols</li>
+                  <li>• OSHA-compliant crews trained for industrial site safety requirements</li>
+                  <li>• Materials specified for Permian Basin H2S and hydrocarbon exposure</li>
+                  <li>• Working relationships with local energy operators and general contractors</li>
+                  <li>• Project scheduling that flexes around drilling and workover programs</li>
                 </ul>
               </div>
             </div>
@@ -576,13 +580,13 @@ export default function RoofReplacementSnyderPage() {
                   Permian Basin Operations
                 </h3>
                 <p className="text-orange-700 mb-4">
-                  Serving the heart of America's energy production:
+                  Serving the heart of the Permian Basin oil and gas economy:
                 </p>
                 <ul className="text-orange-700 space-y-2">
-                  <li>• Oil field facility maintenance</li>
-                  <li>• Well site building protection</li>
-                  <li>• Pipeline facility roofing</li>
-                  <li>• Equipment storage buildings</li>
+                  <li>• Lease and tank-battery building roof maintenance with PVDF-coated metal panels</li>
+                  <li>• Well-pad office and dog-house structure replacement on producing leases</li>
+                  <li>• Pipeline compressor station and pump-station roof systems built to NACE corrosion specs</li>
+                  <li>• Equipment storage and pipe-yard shop roofs in 24-gauge standing seam</li>
                 </ul>
               </div>
               <div className="bg-amber-50 p-8 rounded-xl border border-brand-gold/30">
@@ -590,14 +594,14 @@ export default function RoofReplacementSnyderPage() {
                   Energy Service Companies
                 </h3>
                 <p className="text-brand-brown mb-4">
-                  Supporting the service sector that keeps energy flowing:
+                  Supporting the Snyder service sector that keeps Permian Basin production moving:
                 </p>
                 <ul className="text-brand-brown space-y-2">
-                  <li>• Fleet maintenance facilities</li>
-                  <li>• Parts warehouses and distribution</li>
-                  <li>• Office building upgrades</li>
-                  <li>• Workshop and fabrication shops</li>
-                  <li>• Administrative complex roofing</li>
+                  <li>• Truck and frac-fleet maintenance shops with R-panel metal roofing</li>
+                  <li>• Tubing, valve, and parts warehouse re-roofs in PVC or TPO membrane</li>
+                  <li>• Office building cool-roof upgrades cutting AC load through 105°F summers</li>
+                  <li>• Welding, fabrication, and machine-shop roofs engineered for crane and equipment loads</li>
+                  <li>• Administrative campus assemblies with GAF Diamond Pledge or Carlisle warranty backing</li>
                 </ul>
               </div>
             </div>
@@ -607,8 +611,11 @@ export default function RoofReplacementSnyderPage() {
                 Community Infrastructure Protection
               </h3>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Snyder's role as the Scurry County seat means protecting vital community
-                infrastructure. We provide specialized services for:
+                Snyder is the Scurry County seat, which means Cogdell Memorial Hospital,
+                Western Texas College, Snyder ISD campuses, and the county courthouse all sit
+                inside our service radius. Public roofs need UL 2218 Class 4 hail-rated and
+                UL 580 wind-tested assemblies because they shelter operations that cannot
+                shut down for storm repairs. Below is how we approach each category:
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div>

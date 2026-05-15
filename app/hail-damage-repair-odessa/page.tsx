@@ -303,9 +303,10 @@ export default function HailDamageRepairOdessaPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
                 <p className="text-gray-600">
-                  We thoroughly inspect your Odessa property for hail damage, documenting every
-                  impact with photos and measurements. Our inspections are always free with no
-                  obligation.
+                  A full walk of every slope on your Odessa or Ector County property, including
+                  10-by-10 chalk test squares to count impacts per 100 square feet. Photos of
+                  bruised mats, fractured granules, and damaged metal flashings are tagged by
+                  slope, and the inspection is free with no obligation.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -314,9 +315,10 @@ export default function HailDamageRepairOdessaPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
                 <p className="text-gray-600">
-                  We prepare comprehensive documentation for your claim and meet with your adjuster
-                  on-site. We know what Odessa-area insurance adjusters look for and how to maximize
-                  your coverage.
+                  Documentation is prepared for the carrier file, and we meet your adjuster on
+                  site for the walk. We work claim files with State Farm, Allstate, Farmers,
+                  USAA, and Texas Farm Bureau adjusters regularly across the Permian Basin and
+                  know what they need to see slope by slope.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -325,8 +327,10 @@ export default function HailDamageRepairOdessaPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
                 <p className="text-gray-600">
-                  We provide a detailed, line-item estimate using Xactimate—the same software
-                  insurance companies use. No surprises, no hidden costs.
+                  The estimate is built in Xactimate, the same line-item software State Farm,
+                  Allstate, Farmers, and USAA adjusters write their scopes in. Every line ties
+                  to a specific Odessa-area material code so the price matches the carrier&apos;s
+                  own pricing database.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -345,8 +349,10 @@ export default function HailDamageRepairOdessaPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
                 <p className="text-gray-600">
-                  We conduct a thorough final inspection to ensure every detail meets our high
-                  standards. You'll receive complete documentation for your records.
+                  The crew lead walks every slope, valley, and penetration with the homeowner
+                  before signoff. You receive the GAF or CertainTeed manufacturer warranty
+                  paperwork, our written workmanship coverage, and a closeout packet for the
+                  insurance file.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">

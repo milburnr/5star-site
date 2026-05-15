@@ -615,16 +615,17 @@ export default function RoofRepairBigSpringPage() {
                   Advanced Materials & Methods
                 </h3>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                  We continuously research and test the latest materials and installation methods
-                  designed for extreme weather regions. Our partnerships with leading manufacturers
-                  ensure access to the most advanced products suited for Big Spring's challenging
-                  environment.
+                  We work with established manufacturers like GAF, CertainTeed, Owens Corning,
+                  Carlisle, and Firestone so we can match the right product to Big Spring&apos;s
+                  Howard County weather. That usually means Class 4 impact-rated asphalt shingles
+                  or PVDF-coated standing seam metal on homes, and TPO or modified bitumen on flat
+                  commercial work.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Climate-tested material selection</li>
-                  <li>• Advanced installation techniques</li>
-                  <li>• Energy efficiency optimization</li>
-                  <li>• Comprehensive maintenance programs</li>
+                  <li>• Class 4 UL 2218 hail-rated shingles when the storm record supports them</li>
+                  <li>• Six-nail fastening within the manufacturer&apos;s nailing zone for UL 580 wind uplift</li>
+                  <li>• ENERGY STAR cool-roof shingle and PVDF metal options for Permian Basin summer heat</li>
+                  <li>• Scheduled inspection programs sized to local hail and wind history</li>
                 </ul>
               </div>
             </div>

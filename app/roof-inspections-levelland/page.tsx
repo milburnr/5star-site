@@ -279,28 +279,33 @@ export default function RoofInspectionsLevellandPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    • <strong>Shingle Condition Analysis:</strong> Granule loss, cracking, curling,
-                    thermal damage
+                    • <strong>Shingle Condition Analysis:</strong> Granule loss, mat cracking,
+                    curling at tabs, and South Plains UV-driven thermal aging on architectural
+                    asphalt shingles
                   </li>
                   <li>
-                    • <strong>Hail Damage Detection:</strong> Impact patterns, bruising, exposed
-                    substrate
+                    • <strong>Hail Damage Detection:</strong> Test-square impact counts,
+                    bruising, and substrate exposure that matches Class 4 impact-rating
+                    criteria
                   </li>
                   <li>
-                    • <strong>Wind Damage Evaluation:</strong> Tab lifting, blow-off, nail head
-                    exposure
+                    • <strong>Wind Damage Evaluation:</strong> Tab lifting, full blow-off,
+                    nail head exposure, and starter strip failure on slopes facing the
+                    prevailing southwest wind
                   </li>
                   <li>
-                    • <strong>Flashing System Inspection:</strong> Chimneys, vents, penetrations,
-                    valley integrity
+                    • <strong>Flashing System Inspection:</strong> Chimney counter-flashing,
+                    pipe boots, HVAC curb flashing, and valley metal integrity
                   </li>
                   <li>
-                    • <strong>Drainage System Review:</strong> Gutters, downspouts, scuppers,
-                    overflow drains
+                    • <strong>Drainage Review:</strong> K-style gutters, downspouts, scuppers,
+                    and overflow drains sized for the heavy spring rain events common in
+                    Hockley County
                   </li>
                   <li>
                     • <strong>Structural Assessment:</strong> Decking condition, truss integrity,
-                    load capacity
+                    and load capacity, including the older 1x6 plank decks found on many
+                    pre-1990 Levelland homes
                   </li>
                 </ul>
               </div>
@@ -310,28 +315,29 @@ export default function RoofInspectionsLevellandPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    • <strong>Attic Space Analysis:</strong> Water penetration, insulation damage,
-                    ventilation adequacy
+                    • <strong>Attic Space Analysis:</strong> Water staining at rafters, wet
+                    fiberglass or blown-in insulation, and ridge or soffit vent capacity
                   </li>
                   <li>
-                    • <strong>Ceiling Examination:</strong> Staining, sagging, structural stress
-                    indicators
+                    • <strong>Ceiling Examination:</strong> Water rings, sagging drywall, and
+                    drywall tape lifting near recessed lights and ceiling fans
                   </li>
                   <li>
-                    • <strong>Moisture Detection:</strong> Hidden water damage, mold growth
-                    potential
+                    • <strong>Moisture Detection:</strong> Moisture meter readings at sheathing
+                    and decking, plus thermal scans that flag hidden leaks before mold
+                    establishes
                   </li>
                   <li>
-                    • <strong>Insulation Evaluation:</strong> Thermal performance, compression,
-                    contamination
+                    • <strong>Insulation Evaluation:</strong> R-value, compression around HVAC
+                    ducts, and contamination from prior leaks
                   </li>
                   <li>
-                    • <strong>Ventilation Assessment:</strong> Airflow patterns, moisture control
-                    effectiveness
+                    • <strong>Ventilation Assessment:</strong> Intake-to-exhaust balance under
+                    the South Plains 100-degree summer load
                   </li>
                   <li>
-                    • <strong>Electrical Safety Review:</strong> Water damage to systems, fire
-                    hazard identification
+                    • <strong>Electrical Safety Review:</strong> Water tracking on junction
+                    boxes and recessed cans, with photos for the adjuster file
                   </li>
                 </ul>
               </div>
@@ -342,22 +348,24 @@ export default function RoofInspectionsLevellandPage() {
                 <Plane className="w-6 h-6 inline-block" /> Advanced Inspection Technology
               </h3>
               <p className="text-lg mb-6">
-                We employ cutting-edge technology including professional drone inspections, thermal
-                imaging cameras, and moisture detection equipment to provide the most comprehensive
-                assessment possible. Our digital documentation meets all insurance industry
-                requirements for claim processing.
+                Inspections use licensed drone pilots, FLIR thermal imaging, and pinless
+                moisture meters so the report holds up to scrutiny from State Farm, Allstate,
+                USAA, Farmers, and Texas Farm Bureau adjusters working Hockley County claims.
+                The same documentation feeds into manufacturer warranty packages for GAF,
+                CertainTeed, and Owens Corning.
               </p>
               <div className="grid md:grid-cols-3 gap-4 text-sm">
                 <div>
-                  <strong>• 4K Drone Photography:</strong> High-resolution aerial documentation
+                  <strong>• 4K Drone Photography:</strong> Full-roof aerial maps usable in
+                  Xactimate
                 </div>
                 <div>
-                  <strong>• Thermal Imaging:</strong> Hidden moisture and insulation defect
-                  detection
+                  <strong>• Thermal Imaging:</strong> Wet insulation and air-leakage points
+                  invisible to the eye
                 </div>
                 <div>
-                  <strong>• Digital Measurements:</strong> Precise calculations for material
-                  estimates
+                  <strong>• Digital Measurements:</strong> Slope-by-slope square counts that
+                  match adjuster scope sheets
                 </div>
               </div>
             </div>
@@ -534,27 +542,28 @@ export default function RoofInspectionsLevellandPage() {
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    • <strong>High-Resolution Photography:</strong> Close-up and wide shots of all
-                    damage
+                    • <strong>High-Resolution Photography:</strong> Close-up shingle photos and
+                    wide-angle slope coverage of every elevation
                   </li>
                   <li>
-                    • <strong>Aerial Drone Imagery:</strong> Comprehensive roof overview
-                    documentation
+                    • <strong>Aerial Drone Imagery:</strong> 4K overviews of the full roof so
+                    the adjuster sees what we see
                   </li>
                   <li>
-                    • <strong>Test Square Photography:</strong> Insurance industry standard damage
-                    documentation
+                    • <strong>Test-Square Photography:</strong> 10-foot-by-10-foot squares on
+                    each slope with impact counts, the standard format adjusters expect
                   </li>
                   <li>
-                    • <strong>Comparative Analysis:</strong> Before/after storm condition
-                    photography
+                    • <strong>Comparative Analysis:</strong> Pre-storm baseline photos compared
+                    against post-storm conditions where available
                   </li>
                   <li>
-                    • <strong>GPS-Tagged Images:</strong> Location-specific damage documentation
+                    • <strong>GPS-Tagged Images:</strong> Each photo carries geocoordinates so
+                    the repair crew lands on the right slope
                   </li>
                   <li>
-                    • <strong>Video Documentation:</strong> Detailed video inspection for complex
-                    damage
+                    • <strong>Video Documentation:</strong> Drone flyovers and walkthrough
+                    video for complex damage like wind-driven debris impact
                   </li>
                 </ul>
               </div>
@@ -564,28 +573,29 @@ export default function RoofInspectionsLevellandPage() {
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    • <strong>Detailed Damage Assessment:</strong> Professional evaluation of all
-                    damage types
+                    • <strong>Damage Assessment:</strong> Separate findings for hail, wind, and
+                    age-related issues so the carrier can scope each correctly
                   </li>
                   <li>
-                    • <strong>Material Specifications:</strong> Current and recommended replacement
-                    materials
+                    • <strong>Material Specifications:</strong> Existing roof identified by
+                    manufacturer (GAF, CertainTeed, Owens Corning) with like-kind-and-quality
+                    replacement options
                   </li>
                   <li>
-                    • <strong>Measurement Documentation:</strong> Precise calculations for material
-                    quantities
+                    • <strong>Measurement Documentation:</strong> Slope-level square footage
+                    sized for accurate material orders
                   </li>
                   <li>
-                    • <strong>Cost Estimates:</strong> Detailed line-item estimates for repair or
-                    replacement
+                    • <strong>Cost Estimates:</strong> Xactimate-format line items the adjuster
+                    can match without rework
                   </li>
                   <li>
-                    • <strong>Code Compliance Notes:</strong> Building code requirements and
-                    necessary upgrades
+                    • <strong>Code Compliance Notes:</strong> Required upgrades under the
+                    Levelland and Hockley County building code edition in effect
                   </li>
                   <li>
-                    • <strong>Timeline Projections:</strong> Realistic schedules for completion of
-                    work
+                    • <strong>Timeline Projections:</strong> Material lead times and crew
+                    scheduling, factoring in West Texas storm season demand
                   </li>
                 </ul>
               </div>
@@ -750,8 +760,9 @@ export default function RoofInspectionsLevellandPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Advanced Technology</h3>
                 <p className="text-gray-600">
-                  State-of-the-art inspection equipment including drones, thermal imaging, and
-                  moisture detection for comprehensive damage assessment.
+                  Licensed drone pilots, FLIR thermal imaging, and pinless moisture meters
+                  capture the test-square evidence Hockley County adjusters and GAF or
+                  CertainTeed warranty files require.
                 </p>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
@@ -760,8 +771,9 @@ export default function RoofInspectionsLevellandPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Insurance Partnership</h3>
                 <p className="text-gray-600">
-                  Established relationships with major insurance carriers. Our documentation and
-                  reporting meet industry standards for successful claims.
+                  Reports are formatted for State Farm, Allstate, USAA, Farmers, and Texas
+                  Farm Bureau adjusters working South Plains wind-and-hail claims, with
+                  Xactimate-ready line items and test-square photos included.
                 </p>
               </div>
             </div>

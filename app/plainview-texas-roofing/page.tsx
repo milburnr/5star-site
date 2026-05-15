@@ -229,8 +229,10 @@ export default function PlainviewRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Plainview</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Plainview and Hale County. Select a service below for details.
+              From architectural and Class 4 impact-rated asphalt shingles to standing seam metal,
+              TPO, modified bitumen, and built-up roofing, we cover residential and commercial
+              roofs across Plainview and Hale County. Select a service below for local details on
+              materials, scheduling, and insurance coordination.
             </p>
           </FadeIn>
 
@@ -254,9 +256,11 @@ export default function PlainviewRoofingPage() {
             <h2 className="section-title">Plainview Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From the historic downtown core to the residential streets around Wayland Baptist
-                University and the newer subdivisions on the city&apos;s edges, we provide expert
-                roofing services throughout Plainview:
+                From the historic downtown around Broadway and the Hale County Courthouse to the
+                residential streets near Wayland Baptist University and the newer subdivisions
+                pushing toward I-27, we work on roofs across every part of Plainview. The South
+                Plains weather profile here means hail planning, UV-rated materials, and balanced
+                attic ventilation matter on every install.
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>
@@ -397,10 +401,11 @@ export default function PlainviewRoofingPage() {
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
                   Wayland Baptist University and Covenant Health Plainview operate large
-                  campus-style facilities that require institutional-grade roofing scheduled
-                  around academic calendars and patient-care continuity. These projects benefit
-                  from phased installation plans, careful coordination with facilities
-                  management, and commercial systems sized for long service life.
+                  campus-style facilities that need institutional-grade roofing scheduled around
+                  academic calendars and patient-care continuity. We plan tear-offs in phases,
+                  coordinate with facilities and infection-control staff, and spec TPO, PVC, or
+                  standing seam metal systems sized for long service life and UL 580 wind uplift
+                  performance against South Plains storms.
                 </p>
               </div>
             </div>

@@ -228,8 +228,11 @@ export default function OdessaRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Odessa</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Odessa and Ector County. Select a service below for details.
+              Architectural and Class 4 impact-rated asphalt shingles, standing seam metal, R-panel
+              metal, and on the commercial side TPO, PVC, EPDM, modified bitumen, and built-up
+              roofing. We work across Odessa and Ector County, sizing each system to handle Permian
+              Basin heat and the hail and wind that move through the region. Select a service for
+              local details.
             </p>
           </FadeIn>
 
@@ -253,8 +256,11 @@ export default function OdessaRoofingPage() {
             <h2 className="section-title">Odessa Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From established residential neighborhoods to the commercial corridors and
-                industrial districts, we provide expert roofing services throughout Odessa:
+                From the established residential streets in north Odessa to the commercial
+                corridors along I-20 and the industrial yards near Highway 158, we work on roofs
+                across every part of Ector County. The Permian Basin climate here calls for
+                cool-roof shingles or PVDF-coated metal on most homes and PVC or upgraded TPO on
+                facilities exposed to hydrocarbons.
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>

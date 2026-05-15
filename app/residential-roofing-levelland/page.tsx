@@ -316,14 +316,16 @@ export default function ResidentialRoofingLevellandPage() {
                   College Housing Specialists
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Specialized services for property managers and landlords serving South Plains
-                  College student housing market.
+                  Roofing work for the property managers and landlords serving the South Plains
+                  College housing market on the north side of Levelland.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Rental property roofing</li>
-                  <li>• Maintenance programs</li>
-                  <li>• Summer installation scheduling</li>
-                  <li>• Property management partnerships</li>
+                  <li>• Architectural asphalt shingle replacements on rental duplexes and
+                    single-family homes</li>
+                  <li>• Spring and fall maintenance programs across the rental portfolio</li>
+                  <li>• Summer installation windows that work around the academic calendar</li>
+                  <li>• Documentation packages built for Texas Farm Bureau and State Farm
+                    landlord policies</li>
                 </ul>
               </div>
 
@@ -646,9 +648,10 @@ export default function ResidentialRoofingLevellandPage() {
                   College Housing Specialists
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  South Plains College's student population creates unique housing demands. We
-                  understand the academic calendar constraints and provide specialized scheduling
-                  for student housing providers.
+                  South Plains College in Levelland brings a steady flow of student renters,
+                  which means the property managers around the campus schedule roof work on a
+                  tight academic calendar. Our crews work the summer break window between
+                  spring graduation and fall move-in so tenants are not displaced.
                 </p>
 
                 <div className="bg-amber-50 p-6 rounded-xl">
@@ -656,12 +659,14 @@ export default function ResidentialRoofingLevellandPage() {
                     <GraduationCap className="w-6 h-6 inline-block" /> Student Housing Features:
                   </h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Summer installation priority</li>
-                    <li>• Academic calendar coordination</li>
-                    <li>• Minimal disruption protocols</li>
-                    <li>• Durable, low-maintenance materials</li>
-                    <li>• Energy-efficient systems</li>
-                    <li>• Safety-focused installations</li>
+                    <li>• Summer installation priority between June and early August</li>
+                    <li>• Project schedules built around the SPC academic calendar</li>
+                    <li>• Quiet-hours protocols and parking coordination at multi-unit
+                      buildings</li>
+                    <li>• Class 4 impact-rated architectural shingles built for South Plains
+                      hail seasons</li>
+                    <li>• ENERGY STAR cool-roof options on metal and TPO recover projects</li>
+                    <li>• OSHA-compliant fall protection on every Hockley County jobsite</li>
                   </ul>
                 </div>
               </div>
@@ -678,8 +683,9 @@ export default function ResidentialRoofingLevellandPage() {
                   </div>
                   <h4 className="font-bold text-brand-brown mb-2">Summer (June-August)</h4>
                   <p className="text-gray-700 text-sm">
-                    Peak season for student housing projects. Maximum availability, minimal tenant
-                    disruption, ideal weather conditions.
+                    Peak window for South Plains College rental tear-offs and new installs.
+                    Crews work full schedules and the South Plains weather is generally
+                    cooperative for asphalt shingle and standing seam metal work.
                   </p>
                 </div>
 
@@ -689,8 +695,9 @@ export default function ResidentialRoofingLevellandPage() {
                   </div>
                   <h4 className="font-bold text-brand-brown mb-2">Fall/Spring (Sept-May)</h4>
                   <p className="text-gray-700 text-sm">
-                    storm repairs and insurance claims. Coordinated scheduling to minimize academic
-                    disruption.
+                    Hail repair and wind-damage claim work for State Farm, Allstate, USAA,
+                    Farmers, and Texas Farm Bureau policyholders, scheduled to avoid
+                    overlapping with SPC class periods at occupied properties.
                   </p>
                 </div>
 

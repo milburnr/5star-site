@@ -236,29 +236,33 @@ export default function HailDamageRepairPlainviewPage() {
                 <li className="flex items-start">
                   <span className="text-brand-gold mr-2">•</span>
                   <span>
-                    <strong>Supercell Development:</strong> Open terrain allows thunderstorms to
-                    organize and intensify rapidly
+                    <strong>Supercell Development:</strong> The flat Llano Estacado terrain lets
+                    thunderstorms organize fast, often producing golf-ball-to-baseball-size hail
+                    over Hale County
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-brand-gold mr-2">•</span>
                   <span>
-                    <strong>Storm Convergence:</strong> Location where multiple weather systems
-                    often collide
+                    <strong>Dryline Convergence:</strong> Plainview sits where dry continental
+                    air meets Gulf moisture, the same setup that drives the South Plains hail
+                    season from April through June
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-brand-gold mr-2">•</span>
                   <span>
-                    <strong>Agricultural Exposure:</strong> Large warehouse and storage facilities
-                    present significant surface area
+                    <strong>Agricultural Exposure:</strong> Cotton warehouses, grain elevators,
+                    and gin facilities present large low-slope TPO and metal roof areas that
+                    take direct hail impact
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-brand-gold mr-2">•</span>
                   <span>
-                    <strong>Seasonal Extremes:</strong> Rapid temperature changes stress roofing
-                    materials throughout the year
+                    <strong>Seasonal Extremes:</strong> Summer surface temperatures over 150°F
+                    on dark membranes followed by sub-freezing winter nights stress asphalt
+                    shingles, sealants, and pipe boots year after year
                   </span>
                 </li>
               </ul>
@@ -285,22 +289,24 @@ export default function HailDamageRepairPlainviewPage() {
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-center">
-                    <span className="text-brand-gold mr-2">•</span> Cotton warehouses and processing
-                    facilities
+                    <span className="text-brand-gold mr-2">•</span> Cotton warehouses and gin
+                    facilities, typically R-panel metal or TPO membrane
                   </li>
                   <li className="flex items-center">
                     <span className="text-brand-gold mr-2">•</span> Grain elevators and storage
-                    buildings
+                    buildings with standing seam metal roofs
                   </li>
                   <li className="flex items-center">
-                    <span className="text-brand-gold mr-2">•</span> Irrigation equipment
-                    manufacturing
+                    <span className="text-brand-gold mr-2">•</span> Center-pivot irrigation
+                    equipment yards and parts buildings
                   </li>
                   <li className="flex items-center">
                     <span className="text-brand-gold mr-2">•</span> Farm machinery dealerships
+                    along the I-27 corridor
                   </li>
                   <li className="flex items-center">
-                    <span className="text-brand-gold mr-2">•</span> Agricultural research facilities
+                    <span className="text-brand-gold mr-2">•</span> Agricultural research
+                    facilities tied to West Texas A&amp;M and Texas Tech extension work
                   </li>
                 </ul>
               </div>
@@ -457,8 +463,11 @@ export default function HailDamageRepairPlainviewPage() {
               Serving All of Plainview & Hale County
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              Our comprehensive service area encompasses all residential neighborhoods, commercial
-              districts, and agricultural facilities throughout Plainview and Hale County:
+              Hail damage work covers the full footprint of Plainview and Hale County, from
+              residential neighborhoods near Wayland Baptist University to the cotton gin sites
+              and grain handling operations along I-27 and Highway 70. Same Class 4 impact-rated
+              shingle options, same TPO and modified bitumen choices, whether the property is in
+              town or out on the section roads.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-6">

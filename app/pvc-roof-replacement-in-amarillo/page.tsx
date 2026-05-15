@@ -679,24 +679,26 @@ export default function Page() {
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li>
-                  <strong className="text-brand-brown">Seam Testing:</strong> Every welded seam
-                  undergoes probe testing to verify proper bonding before proceeding to adjacent
-                  areas of the roof installation.
+                  <strong className="text-brand-brown">Seam Testing:</strong> Every hot-air
+                  welded PVC seam is probe-tested before crews move to the next bay,
+                  catching cold welds that would otherwise fail under Panhandle wind uplift.
                 </li>
                 <li>
-                  <strong className="text-brand-brown">Membrane Tension Control:</strong> Proper
-                  membrane tension prevents wrinkles and stress concentrations that could lead to
-                  premature failure in high-wind conditions.
+                  <strong className="text-brand-brown">Membrane Tension Control:</strong>{" "}
+                  Proper membrane tension prevents wrinkles and stress concentrations that
+                  drive premature failure during the 70+ mph spring wind events common over
+                  Amarillo.
                 </li>
                 <li>
                   <strong className="text-brand-brown">Fastener Pattern Verification:</strong>{" "}
-                  Mechanical attachment patterns are verified against engineering specifications for
-                  wind uplift resistance requirements.
+                  Mechanical attachment patterns are verified against engineered wind-uplift
+                  calculations, matching the UL 580 rating specified for the building.
                 </li>
                 <li>
-                  <strong className="text-brand-brown">Detail Fabrication Inspection:</strong> All
-                  flashing and detail work receives individual inspection to ensure watertight
-                  performance at critical transition points.
+                  <strong className="text-brand-brown">Detail Fabrication Inspection:</strong>{" "}
+                  Each flashing, scupper, and parapet termination is individually checked,
+                  including the HVAC curb flashings that are the most common leak path on
+                  Amarillo commercial roofs.
                 </li>
               </ul>
             </div>
@@ -774,17 +776,18 @@ export default function Page() {
                 Performance Monitoring Services
               </h3>
               <p className="text-gray-700 mb-4">
-                Advanced monitoring techniques help identify potential issues before they become
-                costly problems while verifying continued energy performance and warranty compliance
-                throughout the roof's service life.
+                Ongoing monitoring catches small PVC roof issues before they turn into
+                interior damage, keeps the ENERGY STAR cool-roof reflectivity claim defensible,
+                and preserves the manufacturer warranty (Carlisle, Firestone, or other) over
+                the full 25 to 30 year service life.
               </p>
               <ul className="text-sm text-gray-600 space-y-2">
-                <li>• Thermal imaging for early problem detection</li>
-                <li>• Moisture scanning to prevent hidden damage</li>
-                <li>• Energy performance tracking and optimization</li>
-                <li>• Warranty compliance documentation</li>
-                <li>• Storm damage assessment and repair</li>
-                <li>• System upgrade recommendations</li>
+                <li>• FLIR thermal imaging for early detection of wet insulation</li>
+                <li>• Pinless moisture scanning across the membrane surface</li>
+                <li>• Reflectivity tracking against the original ENERGY STAR rating</li>
+                <li>• Annual warranty-compliance documentation packets</li>
+                <li>• Post-hail walk-throughs after Amarillo storm events</li>
+                <li>• Coatings, recover, or full-replacement recommendations as the roof ages</li>
               </ul>
             </div>
           </div>

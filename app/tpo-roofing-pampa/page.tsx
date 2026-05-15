@@ -294,23 +294,23 @@ export default function TpoRoofingPampaPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Chemical resistance for harsh environments
+                    Chemical resistance for the hydrocarbons and acid rain common in Pampa industrial settings
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Fire resistance ratings
+                    Class A fire ratings on most TPO assemblies
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    High wind uplift performance
+                    UL 580 wind uplift performance for Texas Panhandle gust loads
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Temperature extremes tolerance
+                    Holds up through Pampa&apos;s wide temperature swings between winter cold fronts and summer heat
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Low maintenance requirements
+                    Simple annual inspections compared to built-up or modified bitumen systems
                   </li>
                 </ul>
               </div>
@@ -348,34 +348,37 @@ export default function TpoRoofingPampaPage() {
                   <div className="p-4 bg-gray-50 rounded-xl">
                     <h4 className="font-bold mb-2">Standard TPO</h4>
                     <p className="text-gray-700 text-sm mb-2">
-                      Basic chemical resistance for light industrial applications.
+                      Base 45-mil formulation from Carlisle, Firestone, GAF, or Johns Manville for
+                      light industrial exposure.
                     </p>
                     <ul className="text-xs text-gray-600 space-y-1">
-                      <li>• Office buildings</li>
-                      <li>• Light manufacturing</li>
-                      <li>• Retail facilities</li>
+                      <li>• Office buildings off Highway 60 in Pampa</li>
+                      <li>• Light manufacturing and assembly shops</li>
+                      <li>• Retail facilities and convenience stores</li>
                     </ul>
                   </div>
                   <div className="p-4 bg-amber-50 rounded-xl">
                     <h4 className="font-bold mb-2">Enhanced TPO</h4>
                     <p className="text-gray-700 text-sm mb-2">
-                      Superior chemical resistance for moderate industrial exposure.
+                      60-mil thickness with stronger weld seams for moderate hydrocarbon and
+                      particulate exposure.
                     </p>
                     <ul className="text-xs text-gray-600 space-y-1">
-                      <li>• Processing facilities</li>
-                      <li>• Equipment buildings</li>
-                      <li>• Storage warehouses</li>
+                      <li>• Gray County processing facilities</li>
+                      <li>• Equipment storage buildings</li>
+                      <li>• Distribution warehouses</li>
                     </ul>
                   </div>
                   <div className="p-4 bg-green-50 rounded-xl">
                     <h4 className="font-bold mb-2">Industrial-Grade TPO</h4>
                     <p className="text-gray-700 text-sm mb-2">
-                      Maximum chemical resistance for harsh industrial environments.
+                      80-mil membrane or PVC alternative for the harshest Texas Panhandle oil and
+                      gas exposures.
                     </p>
                     <ul className="text-xs text-gray-600 space-y-1">
-                      <li>• Oil & gas facilities</li>
-                      <li>• Chemical processing</li>
-                      <li>• Heavy industrial</li>
+                      <li>• Active oil and gas operating facilities</li>
+                      <li>• Chemical handling and storage buildings</li>
+                      <li>• Heavy industrial sites near Pampa city limits</li>
                     </ul>
                   </div>
                 </div>
@@ -394,8 +397,10 @@ export default function TpoRoofingPampaPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-4">Cooling Cost Reduction</h3>
                   <p className="text-gray-700 mb-4">
-                    White TPO membranes reflect + of solar energy, significantly reducing cooling
-                    loads for industrial facilities and improving working conditions.
+                    White TPO and PVC membranes carry ENERGY STAR cool-roof ratings and bounce a
+                    large share of solar heat off the building. On a Pampa warehouse or processing
+                    facility, that means lower air-conditioning runtime through Texas Panhandle
+                    summers and better working conditions for crews on the floor.
                   </p>
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div>
@@ -411,14 +416,15 @@ export default function TpoRoofingPampaPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-4">Equipment Protection</h3>
                   <p className="text-gray-700 mb-4">
-                    Cooler building temperatures extend the life of sensitive industrial equipment
-                    and improve worker comfort in extreme Texas heat.
+                    Lower interior temperatures take stress off HVAC compressors, control panels,
+                    and inventory in Pampa warehouses where outside readings can top 100°F across
+                    summer afternoons.
                   </p>
                   <ul className="text-gray-600 space-y-1">
-                    <li>• Extended equipment lifespan</li>
-                    <li>• Reduced maintenance costs</li>
-                    <li>• Improved worker safety</li>
-                    <li>• Lower insurance premiums</li>
+                    <li>• Reduced thermal load on rooftop HVAC units and refrigeration compressors</li>
+                    <li>• Fewer service calls on heat-sensitive controls and electronics</li>
+                    <li>• Cooler floor and platform temperatures for crews working through Texas Panhandle summers</li>
+                    <li>• Carrier-recognized cool-roof and Class 4 upgrades that can support premium discussions</li>
                   </ul>
                 </div>
               </div>

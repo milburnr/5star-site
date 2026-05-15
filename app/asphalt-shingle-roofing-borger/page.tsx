@@ -271,23 +271,23 @@ export default function AsphaltShingleRoofingBorgerPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Affordable upfront investment
+                    Lower upfront cost than standing seam metal or tile for most Hutchinson County homes
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Wide variety of colors and styles
+                    Color and profile options across GAF, CertainTeed, Owens Corning, and Atlas lines
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Proven performance in Texas weather
+                    Field-tested through Texas Panhandle hail seasons and winter cold fronts
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Insurance claim expertise
+                    Documentation prepared for State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau claims
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Comprehensive warranty coverage
+                    Manufacturer warranties up to 50 years on qualifying laminated shingles
                   </li>
                 </ul>
               </div>
@@ -374,14 +374,14 @@ export default function AsphaltShingleRoofingBorgerPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Designer Series</h3>
                 <p className="text-gray-700 mb-3">
-                  Premium luxury shingles that replicate the appearance of wood, slate, or tile
-                  while providing superior performance.
+                  Heavy laminated shingles like GAF Camelot II, CertainTeed Grand Manor, and Owens
+                  Corning Berkshire that mimic wood shake or slate on Hutchinson County homes.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Authentic material appearance</li>
-                  <li>• Enhanced dimensional profile</li>
-                  <li>• Premium color blends</li>
-                  <li>• Lifetime limited warranties</li>
+                  <li>• Realistic wood, slate, or tile look without the structural weight</li>
+                  <li>• Thicker dimensional profile with deeper shadow lines</li>
+                  <li>• Premium color blends that hold up against Texas Panhandle UV</li>
+                  <li>• Lifetime limited manufacturer warranties on qualifying installs</li>
                 </ul>
               </div>
             </div>

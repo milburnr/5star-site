@@ -549,6 +549,14 @@ export default function RoofInspectionsDumasPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">
                   Advanced Detection for Agricultural Environments
                 </h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">
+                  Dumas and Moore County sit in the heart of Texas Panhandle cattle and corn
+                  country, with feedlots producing ammonia and hydrogen sulfide at concentrations
+                  that pit galvanized metal and dull PVDF paint finishes. Standard residential
+                  inspection gear misses these failures. The agricultural inspection adds gas
+                  detection and surface chemistry testing tied to specific livestock and crop
+                  operations within prevailing wind range of the property.
+                </p>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h4 className="font-bold text-gray-800 mb-4">Chemical Analysis Technology</h4>
@@ -556,10 +564,10 @@ export default function RoofInspectionsDumasPage() {
                       <div>
                         <h5 className="font-semibold text-gray-800">Air Quality Monitoring</h5>
                         <ul className="space-y-1 text-gray-700 text-sm">
-                          <li>• Ammonia concentration measurement</li>
-                          <li>• Hydrogen sulfide level detection</li>
-                          <li>• Particulate matter assessment</li>
-                          <li>• Volatile organic compound analysis</li>
+                          <li>• Ambient ammonia readings near feedlot perimeters</li>
+                          <li>• Hydrogen sulfide spot checks at lagoon and manure-pit fence lines</li>
+                          <li>• PM10/PM2.5 particulate readings during harvest and grain handling</li>
+                          <li>• Volatile organic compound screening for herbicide drift events</li>
                         </ul>
                       </div>
                       <div>
@@ -567,10 +575,10 @@ export default function RoofInspectionsDumasPage() {
                           Surface Contamination Testing
                         </h5>
                         <ul className="space-y-1 text-gray-700 text-sm">
-                          <li>• pH testing of roof surfaces</li>
-                          <li>• Chemical residue identification</li>
-                          <li>• Corrosion rate assessment</li>
-                          <li>• Material compatibility analysis</li>
+                          <li>• pH swabs on Galvalume, painted steel, and TPO membranes</li>
+                          <li>• Chemical residue identification on roof drains and curbs</li>
+                          <li>• Sacrificial-coupon corrosion-rate readings season over season</li>
+                          <li>• Substrate compatibility check against PVDF, SMP, and silicone coatings</li>
                         </ul>
                       </div>
                     </div>
@@ -617,27 +625,28 @@ export default function RoofInspectionsDumasPage() {
                   (March-May)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Planting Season Impact:</strong> Field preparation and planting operations
-                  create dust and chemical exposure.
+                  <strong>Planting Season Impact:</strong> March through May around Dumas brings
+                  field discing, anhydrous ammonia knife-in, glyphosate burndown, and pivot
+                  irrigation startup. Each puts a different kind of stress on nearby roofs.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Agricultural Activity Coordination:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Pre-planting inspection timing</li>
-                      <li>• Chemical application schedule awareness</li>
-                      <li>• Field work dust generation periods</li>
-                      <li>• Irrigation system startup assessment</li>
-                      <li>• Livestock breeding season considerations</li>
+                      <li>• Inspections scheduled before anhydrous ammonia application windows</li>
+                      <li>• Awareness of 2,4-D and dicamba spray days based on Moore County wind</li>
+                      <li>• Avoiding peak field-discing dust plumes that compromise drone imagery</li>
+                      <li>• Center-pivot startup checks for overspray onto adjacent farm-shop roofs</li>
+                      <li>• Coordination with calving and breeding so feedlot access stays clear</li>
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800">Storm Season Preparation:</h4>
+                    <h4 className="font-bold text-gray-800">Hail Alley Storm Prep:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Chemical-resistant material assessment</li>
-                      <li>• Contamination cleanup before storms</li>
-                      <li>• Agricultural building vulnerability check</li>
-                      <li>• Drainage system agricultural debris clearing</li>
+                      <li>• Verification of Class 4 impact-rated roof assemblies before peak hail season</li>
+                      <li>• Removal of accumulated dust and residue ahead of severe weather</li>
+                      <li>• Vulnerability check on metal building purlin and clip connections</li>
+                      <li>• Gutter and scupper clearing of harvest debris and tumbleweed</li>
                     </ul>
                   </div>
                 </div>
@@ -648,27 +657,29 @@ export default function RoofInspectionsDumasPage() {
                   <Wheat className="w-6 h-6 inline-block" /> Summer Growing Season (June-August)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Peak Agricultural Activity:</strong> Irrigation, chemical applications,
-                  and peak feedlot operations.
+                  <strong>Peak Agricultural Activity:</strong> June through August around Dumas
+                  is when Moore County feedlots run at full headcount, center-pivot irrigation
+                  runs continuously, and 100-plus degree heat amplifies every chemical reaction
+                  on a roof surface.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">High Contamination Period:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Maximum feedlot animal populations</li>
-                      <li>• Peak ammonia and hydrogen sulfide levels</li>
-                      <li>• Intensive irrigation creating humidity</li>
-                      <li>• Chemical application frequency increases</li>
-                      <li>• Heat intensifying chemical reactions</li>
+                      <li>• Peak feedlot stocking inside the Dumas-Cactus corridor</li>
+                      <li>• Highest ammonia and hydrogen sulfide concentrations of the year</li>
+                      <li>• Pivot-irrigation humidity that accelerates galvanic corrosion on metal seams</li>
+                      <li>• Increased herbicide and insecticide application frequency</li>
+                      <li>• 100-plus degree surface temperatures driving faster sealant breakdown</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Inspection Timing Challenges:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Early morning inspections to avoid peak chemicals</li>
-                      <li>• Wind direction consideration</li>
-                      <li>• Enhanced safety equipment requirements</li>
-                      <li>• Agricultural operation scheduling coordination</li>
+                      <li>• Early-morning windows before ambient ammonia peaks</li>
+                      <li>• Upwind positioning to keep crew clear of feedlot odor plumes</li>
+                      <li>• OSHA-spec respiratory and gas detection equipment on every roof</li>
+                      <li>• Scheduling around feedlot operations and harvest equipment movement</li>
                     </ul>
                   </div>
                 </div>
@@ -680,27 +691,29 @@ export default function RoofInspectionsDumasPage() {
                   (September-November)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Harvest Operations Impact:</strong> Grain dust, equipment vibration, and
-                  storage facility loading.
+                  <strong>Harvest Operations Impact:</strong> September through November is
+                  corn and grain sorghum harvest across Moore County. Combine and grain-cart
+                  dust gets into every roof seam, and storage facilities take maximum loading
+                  stress as inbound trucks fill bins.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Harvest Activity Considerations:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Massive grain dust generation</li>
-                      <li>• Heavy equipment traffic vibration</li>
-                      <li>• Grain elevator and silo loading stress</li>
-                      <li>• Feedlot preparation for winter feeding</li>
-                      <li>• Agricultural building maximum capacity</li>
+                      <li>• Dense grain-dust plumes from combines and grain carts</li>
+                      <li>• Vibration from heavy truck traffic onto co-op and elevator scales</li>
+                      <li>• Cyclic loading stress on grain elevator and silo roof connections</li>
+                      <li>• Feedlot pen preparation for winter ration delivery</li>
+                      <li>• Pre-engineered metal building roofs at maximum operational loading</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Annual Assessment Priorities:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Cumulative chemical exposure evaluation</li>
-                      <li>• Structural stress from annual operations</li>
-                      <li>• Contamination cleanup before winter</li>
-                      <li>• Equipment-related damage assessment</li>
+                      <li>• Twelve-month cumulative chemical-exposure review per roof slope</li>
+                      <li>• Purlin sag, fastener backout, and clip-weld inspection on metal buildings</li>
+                      <li>• Drain and scupper clearing before first hard freeze</li>
+                      <li>• Damage documentation tied to specific harvest equipment events</li>
                     </ul>
                   </div>
                 </div>
@@ -712,27 +725,29 @@ export default function RoofInspectionsDumasPage() {
                   (December-February)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Reduced Operations:</strong> Optimal inspection timing with minimal
-                  agricultural interference.
+                  <strong>Reduced Operations:</strong> December through February is the cleanest
+                  inspection window in Moore County. Field activity drops to feeding and
+                  maintenance, ambient ammonia falls off, and the property owner can plan
+                  repairs ahead of the spring storm season.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Winter Advantages:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Minimal chemical applications</li>
-                      <li>• Reduced feedlot odors and contamination</li>
-                      <li>• Limited equipment operation disturbance</li>
-                      <li>• Clear assessment of cumulative damage</li>
-                      <li>• Planning time for repairs before spring</li>
+                      <li>• No herbicide application windows competing with the schedule</li>
+                      <li>• Reduced feedlot odor plume and lower ammonia readings</li>
+                      <li>• Combines and grain carts off the road for cleaner drone passes</li>
+                      <li>• Clear view of cumulative wear without active operations masking it</li>
+                      <li>• Lead time to order materials before Hail Alley spring storms arrive</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Winter Assessment Focus:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Annual chemical exposure damage review</li>
-                      <li>• Structural integrity after harvest stress</li>
-                      <li>• Contamination removal effectiveness</li>
-                      <li>• Material selection for spring replacements</li>
+                      <li>• Full-year chemical and corrosion damage review on every slope</li>
+                      <li>• Purlin, clip, and fastener check after harvest equipment loading</li>
+                      <li>• Verification that summer contamination cleanup actually worked</li>
+                      <li>• Material spec selection for Class 4, UL 580 spring replacements</li>
                     </ul>
                   </div>
                 </div>
@@ -751,28 +766,35 @@ export default function RoofInspectionsDumasPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">
                   Agricultural Environment Documentation
                 </h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Agricultural claims in Moore County need more than a hail-damage report. Carriers
+                  like State Farm, Allstate, Farmers, and Texas Farm Bureau look for evidence
+                  separating sudden storm damage from gradual chemical exposure, because the two
+                  coverage categories pay differently. The inspection package addresses both.
+                </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">Environmental Factor Evidence</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Chemical Exposure Mapping:</strong> Proximity to feedlots and
-                        processing
+                        • <strong>Chemical Exposure Mapping:</strong> distance and prevailing wind
+                        relationship to Dumas-area feedlots and processing facilities
                       </li>
                       <li>
-                        • <strong>Air Quality Documentation:</strong> Ammonia and hydrogen sulfide
-                        levels
+                        • <strong>Air Quality Documentation:</strong> on-site ammonia and hydrogen
+                        sulfide readings the day of inspection
                       </li>
                       <li>
-                        • <strong>Accelerated Aging Evidence:</strong> Chemical vs. normal
-                        weathering
+                        • <strong>Accelerated Aging Evidence:</strong> matched comparisons between
+                        chemically aged and weather-aged sections of the same roof
                       </li>
                       <li>
-                        • <strong>Agricultural Operation Impact:</strong> Dust, vibration, and
-                        contamination
+                        • <strong>Agricultural Operation Impact:</strong> dust loading, vibration
+                        cycles, and residue patterns photographed on each slope
                       </li>
                       <li>
-                        • <strong>Seasonal Variation Tracking:</strong> Peak exposure periods
+                        • <strong>Seasonal Variation Tracking:</strong> peak-exposure month notes
+                        across the year for the property
                       </li>
                     </ul>
                   </div>
@@ -805,27 +827,36 @@ export default function RoofInspectionsDumasPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">
                   Agricultural Insurance Challenges
                 </h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Farm and ranch policies through Texas Farm Bureau, Nationwide Agribusiness, or
+                  the agricultural arm of Allstate and Farmers handle exposures differently than
+                  standard homeowner coverage. Knowing which clause governs which damage pattern
+                  is the difference between a paid claim and a denial on a Moore County feedlot
+                  shop or Dumas grain operation roof.
+                </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">Common Claim Complications</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Pollution Exclusions:</strong> Chemical damage coverage disputes
+                        • <strong>Pollution Exclusions:</strong> disputed coverage where damage is
+                        attributed to ammonia or hydrogen sulfide exposure
                       </li>
                       <li>
-                        • <strong>Gradual Damage:</strong> Slow chemical deterioration vs. sudden
-                        loss
+                        • <strong>Gradual Damage:</strong> slow chemical deterioration usually
+                        excluded; sudden hail or wind events covered
                       </li>
                       <li>
-                        • <strong>Agricultural Business Coverage:</strong> Specialized commercial
-                        policies
+                        • <strong>Agricultural Business Coverage:</strong> specialized commercial
+                        farm policies with their own deductible structures
                       </li>
                       <li>
-                        • <strong>Equipment Integration:</strong> Roof-mounted agricultural
-                        equipment
+                        • <strong>Equipment Integration:</strong> roof-mounted grain dryers, augers,
+                        and ventilation that complicate scope of loss
                       </li>
                       <li>
-                        • <strong>Multi-Building Claims:</strong> Farm operation complex coverage
+                        • <strong>Multi-Building Claims:</strong> shop, machine shed, and grain
+                        storage covered under different policy schedules
                       </li>
                     </ul>
                   </div>

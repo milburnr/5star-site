@@ -292,25 +292,25 @@ export default function MetalRoofingOdessaPage() {
                       <span className="text-yellow-400 mr-2">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>{" "}
-                      H2S-resistant coatings and substrates
+                      PVDF (Kynar 500) finishes over G90 galvanized substrate for H2S resistance
                     </li>
                     <li className="flex items-center">
                       <span className="text-yellow-400 mr-2">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>{" "}
-                      Hydrocarbon emission protection
+                      Standing seam profiles that shed Permian Basin hydrocarbon residue
                     </li>
                     <li className="flex items-center">
                       <span className="text-yellow-400 mr-2">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>{" "}
-                      Enhanced vibration resistance
+                      Concealed clip attachment that absorbs drilling-rig vibration without fastener fatigue
                     </li>
                     <li className="flex items-center">
                       <span className="text-yellow-400 mr-2">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>{" "}
-                      Heavy-duty structural connections
+                      24-gauge steel decking connections engineered for equipment and snow loads across the Permian Basin
                     </li>
                   </ul>
                 </div>
@@ -321,22 +321,26 @@ export default function MetalRoofingOdessaPage() {
                   <div className="border-l-4 border-yellow-400 pl-4">
                     <h4 className="font-bold">Petrochemical Grade Steel</h4>
                     <p className="text-gray-300">
-                      G90 galvanization with additional protective layers for chemical resistance
-                      and longevity.
+                      G90 galvanized base steel with an additional zinc-aluminum (Galvalume) layer.
+                      This combination resists the sour-gas and hydrocarbon environment around
+                      Odessa and Midland production sites where typical G60 steel pits within
+                      a few years.
                     </p>
                   </div>
                   <div className="border-l-4 border-yellow-400 pl-4">
                     <h4 className="font-bold">PVDF Industrial Coatings</h4>
                     <p className="text-gray-300">
-                      Fluoropolymer finishes engineered to resist oil field chemicals and maintain
-                      appearance.
+                      PVDF (Kynar 500) fluoropolymer finishes hold color and chalk-resistance
+                      ratings under the Permian Basin sun while shrugging off the airborne
+                      hydrocarbons that fade standard polyester paint inside five years.
                     </p>
                   </div>
                   <div className="border-l-4 border-yellow-400 pl-4">
                     <h4 className="font-bold">Reinforced Panel Design</h4>
                     <p className="text-gray-300">
-                      Heavy-gauge substrates with enhanced rib profiles for maximum structural
-                      integrity.
+                      24-gauge standing seam panels with 1.75-inch rib heights and concealed
+                      clips. The stiffer profile reduces oil-canning across long Highway 158
+                      shop and warehouse runs typical of Odessa industrial buildings.
                     </p>
                   </div>
                 </div>
@@ -392,11 +396,11 @@ export default function MetalRoofingOdessaPage() {
                     Industrial Wind Resistance
                   </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Structural attachment every 4 inches on-center</li>
-                    <li>• Enhanced perimeter and corner reinforcement</li>
-                    <li>• Vibration-dampening connection systems</li>
-                    <li>• Equipment load accommodation design</li>
-                    <li>• High-strength mechanical seaming</li>
+                    <li>• Concealed clip spacing tightened at perimeter and corner zones per UL 580 wind uplift testing</li>
+                    <li>• Doubled clip density inside the ASCE 7 corner pressure zones where Permian Basin gusts spike</li>
+                    <li>• Floating clip design accommodates thermal movement across long Odessa shop and warehouse runs</li>
+                    <li>• Engineered substrate that carries HVAC, satellite, and oilfield monitoring equipment loads</li>
+                    <li>• Double-lock mechanical seaming on standing seam panels for 150-mph rated wind uplift performance</li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm">
@@ -404,10 +408,10 @@ export default function MetalRoofingOdessaPage() {
                     Environmental Protection
                   </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Chemical-resistant fastener coatings</li>
-                    <li>• Sealed connection systems</li>
-                    <li>• Corrosion monitoring access points</li>
-                    <li>• Heavy equipment clearance design</li>
+                    <li>• Stainless-steel fasteners with EPDM washers rated for hydrogen sulfide exposure</li>
+                    <li>• Butyl-sealed standing seam laps and curb flashings to keep blowing Permian Basin dust out of penetrations</li>
+                    <li>• Inspection ports at parapet transitions so corrosion can be spotted before it migrates into the deck</li>
+                    <li>• Walkway pad layouts that route service techs clear of seams and roof-mounted oilfield monitoring gear</li>
                   </ul>
                 </div>
               </div>
@@ -433,13 +437,14 @@ export default function MetalRoofingOdessaPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-4 text-center">Chemical Exposure</h3>
                   <p className="mb-4">
-                    Hydrogen sulfide, hydrocarbon vapors, and processing chemicals require
-                    specialized protection.
+                    Hydrogen sulfide off Permian Basin sour-gas wells, hydrocarbon vapors, and
+                    drilling fluid drift call for materials picked specifically for the chemistry,
+                    not generic galvanized steel.
                   </p>
                   <ul className="space-y-1 text-sm">
-                    <li>• NACE-compliant corrosion protection</li>
-                    <li>• Chemical-resistant elastomeric seals</li>
-                    <li>• Non-reactive coating formulations</li>
+                    <li>• AMPP/NACE-aligned coating systems for industrial atmospheric corrosion</li>
+                    <li>• EPDM gasketed fasteners with stainless heads for H2S service</li>
+                    <li>• PVDF (Kynar 500) topcoats that do not soften under hydrocarbon exposure</li>
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-yellow-600 to-orange-600 text-white p-8 rounded-xl">
@@ -448,13 +453,14 @@ export default function MetalRoofingOdessaPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-4 text-center">Industrial Vibration</h3>
                   <p className="mb-4">
-                    Constant drilling, pumping, and processing equipment creates structural
-                    vibration.
+                    Pump jacks, compressors, and processing units near Odessa industrial parks
+                    transmit low-frequency vibration into building structures. Roof systems have
+                    to absorb that motion without backing fasteners out of the deck.
                   </p>
                   <ul className="space-y-1 text-sm">
-                    <li>• Isolation mounting systems available</li>
-                    <li>• Flexible connection design</li>
-                    <li>• Fatigue-resistant fastener systems</li>
+                    <li>• Neoprene isolation pads under rooftop HVAC and compressor curbs</li>
+                    <li>• Concealed clip standing seam that lets panels float across thermal and vibration cycles</li>
+                    <li>• Fatigue-rated stainless fasteners specified for the connection, not generic field stock</li>
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-orange-600 to-red-600 text-white p-8 rounded-xl">
@@ -463,12 +469,14 @@ export default function MetalRoofingOdessaPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-4 text-center">Fire & Explosion Risk</h3>
                   <p className="mb-4">
-                    Enhanced fire resistance requirements for oil field proximity installations.
+                    Buildings within sight of Permian Basin flares and tank batteries have to
+                    treat ember and radiant heat exposure as a real design input, not a
+                    formality.
                   </p>
                   <ul className="space-y-1 text-sm">
-                    <li>• Class A fire rating standard</li>
-                    <li>• Non-combustible insulation systems</li>
-                    <li>• Emergency access integration</li>
+                    <li>• ASTM E108 / UL 790 Class A fire rated assemblies as the default specification</li>
+                    <li>• Mineral wool or polyiso cover boards over the deck for non-combustible separation</li>
+                    <li>• Roof-top fall protection and ladder anchor layouts coordinated with local fire-marshal requirements</li>
                   </ul>
                 </div>
               </div>
@@ -599,9 +607,10 @@ export default function MetalRoofingOdessaPage() {
                     Chemical Resistance
                   </h3>
                   <p className="text-gray-700">
-                    Essential protection against H2S emissions, hydrocarbon vapors, and processing
-                    chemicals common in America's oil capital. Premium coatings resist corrosion and
-                    maintain integrity.
+                    Buildings inside the Permian Basin live with H2S off sour-gas wells,
+                    hydrocarbon vapor drift, and processing chemicals. PVDF (Kynar 500) topcoats
+                    over G90 galvanized steel hold up where standard polyester paint blisters and
+                    bare galvanized steel pits within a few years.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -612,8 +621,10 @@ export default function MetalRoofingOdessaPage() {
                     Industrial Durability
                   </h3>
                   <p className="text-gray-700">
-                    Built to withstand constant vibration from drilling equipment, heavy traffic,
-                    and industrial operations. Reinforced connections prevent fatigue failure.
+                    Pump jacks, compressors, and heavy truck traffic off Highway 158 push
+                    constant vibration into nearby buildings. 24-gauge standing seam panels
+                    with concealed clips and stainless-steel fasteners hold their attachment
+                    through years of those cycles.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -636,8 +647,10 @@ export default function MetalRoofingOdessaPage() {
                     Fire Safety
                   </h3>
                   <p className="text-gray-700">
-                    Class A fire rating crucial for oil field proximity. Non-combustible
-                    construction provides maximum protection in high-risk environments.
+                    UL 790 / ASTM E108 Class A rated metal assemblies pair non-combustible
+                    panels with mineral wool or polyiso cover boards. That matters for buildings
+                    that sit within sight of Permian Basin flares, tank batteries, and
+                    compressor stations.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -648,9 +661,10 @@ export default function MetalRoofingOdessaPage() {
                     Low Maintenance
                   </h3>
                   <p className="text-gray-700">
-                    Critical for busy oil workers and industry professionals. Minimal upkeep
-                    required despite harsh conditions. Smooth surfaces shed industrial dust and
-                    debris.
+                    Standing seam panels with PVDF finishes shed Permian Basin caliche dust and
+                    hydrocarbon residue with seasonal rinses. There is no granule loss to track,
+                    no exposed fasteners to reseal, and no annual recoating cycle to budget
+                    around busy oilfield operations.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -661,8 +675,10 @@ export default function MetalRoofingOdessaPage() {
                     Equipment Compatibility
                   </h3>
                   <p className="text-gray-700">
-                    Designed to accommodate industrial equipment, communications gear, and safety
-                    systems required in oil field environments.
+                    Standing seam panels accept S-5! and similar clamp-on mounts for HVAC curbs,
+                    cellular and SCADA antennas, fall-protection anchors, and solar racking.
+                    That keeps the roof penetration-free where it counts on Odessa industrial
+                    and commercial buildings.
                   </p>
                 </div>
               </div>
@@ -862,29 +878,32 @@ export default function MetalRoofingOdessaPage() {
                     <li className="flex items-start">
                       <span className="text-black mr-2 mt-1">•</span>{" "}
                       <span>
-                        <strong>Fire Rating Discounts:</strong> Class A ratings reduce premiums for
-                        oil field proximity
+                        <strong>UL 790 Class A fire rating:</strong> carriers like State Farm,
+                        Allstate, and Farmers regularly credit non-combustible roof assemblies
+                        near Permian Basin flares and tank batteries
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-black mr-2 mt-1">•</span>{" "}
                       <span>
-                        <strong>Chemical Resistance:</strong> Lower claims risk from industrial
-                        exposure
+                        <strong>UL 2218 Class 4 hail rating:</strong> Texas Farm Bureau, USAA,
+                        and several Texas carriers apply an impact-resistant roof discount
+                        when the assembly is documented at install
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-black mr-2 mt-1">•</span>{" "}
                       <span>
-                        <strong>Wind Certification:</strong> Enhanced ratings for extreme weather
-                        protection
+                        <strong>UL 580 wind uplift documentation:</strong> commercial property
+                        underwriters look for tested assemblies on Odessa industrial buildings
+                        in open-plain wind exposure
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-black mr-2 mt-1">•</span>{" "}
                       <span>
-                        <strong>Reduced Maintenance Claims:</strong> Lower frequency of
-                        weather-related damage
+                        <strong>Cleaner loss history:</strong> PVDF-coated standing seam roofs
+                        generate fewer wind-flex and granule-loss claims over their service life
                       </span>
                     </li>
                   </ul>
@@ -895,27 +914,31 @@ export default function MetalRoofingOdessaPage() {
                     <li className="flex items-start">
                       <span className="text-black mr-2 mt-1">•</span>{" "}
                       <span>
-                        <strong>Non-Combustible:</strong> Critical protection in oil field
-                        environments
+                        <strong>Non-combustible deck assembly:</strong> 24-gauge steel panels over
+                        mineral wool or polyiso cover board for buildings near Permian Basin flares
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-black mr-2 mt-1">•</span>{" "}
                       <span>
-                        <strong>Lightning Protection:</strong> Compatible with surge protection
-                        systems
+                        <strong>Bonded lightning paths:</strong> standing seam roofs accept
+                        UL 96A-listed lightning protection without compromising the weather plane
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-black mr-2 mt-1">•</span>{" "}
                       <span>
-                        <strong>Emergency Access:</strong> Designed for first responder requirements
+                        <strong>OSHA-compliant roof access:</strong> ladder anchors, walkway
+                        pads, and tie-off points laid out for routine inspection and Odessa
+                        fire-marshal needs
                       </span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-black mr-2 mt-1">•</span>{" "}
                       <span>
-                        <strong>Equipment Integration:</strong> Safety system mounting capabilities
+                        <strong>Clamp-on equipment mounting:</strong> S-5! style attachments
+                        carry HVAC, SCADA, antennas, and solar racking without piercing the
+                        panel
                       </span>
                     </li>
                   </ul>
@@ -926,8 +949,10 @@ export default function MetalRoofingOdessaPage() {
                   Comprehensive Protection for Oil Country Living
                 </h3>
                 <p>
-                  Our installations meet the unique safety and insurance requirements of America's
-                  oil capital, providing peace of mind for homeowners and businesses.
+                  Standing seam metal assemblies built around UL 2218 Class 4 hail, UL 580
+                  wind uplift, and UL 790 Class A fire testing line up with what State Farm,
+                  Allstate, USAA, Farmers, and Texas Farm Bureau actually want to see on
+                  Odessa and broader Permian Basin properties.
                 </p>
               </div>
             </div>

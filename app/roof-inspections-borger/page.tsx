@@ -545,19 +545,19 @@ export default function RoofInspectionsBorgerPage() {
                       <div>
                         <h5 className="font-semibold text-gray-800">pH Testing</h5>
                         <ul className="space-y-1 text-gray-700 text-sm">
-                          <li>• Surface acidity measurement from acid rain</li>
-                          <li>• Material degradation correlation</li>
-                          <li>• Chemical exposure history assessment</li>
-                          <li>• Future performance prediction</li>
+                          <li>• Surface pH readings on shingles downwind of the Phillips 66 refinery</li>
+                          <li>• Acid etching mapped against the asphalt mat to gauge mat life</li>
+                          <li>• Comparison readings from sheltered eaves and exposed slopes</li>
+                          <li>• Remaining useful life estimated against ASTM D3462 benchmarks</li>
                         </ul>
                       </div>
                       <div>
                         <h5 className="font-semibold text-gray-800">Contamination Mapping</h5>
                         <ul className="space-y-1 text-gray-700 text-sm">
-                          <li>• Industrial source proximity analysis</li>
-                          <li>• Wind pattern contamination tracking</li>
-                          <li>• Seasonal exposure variation assessment</li>
-                          <li>• Material selection recommendations</li>
+                          <li>• Distance and bearing from Hutchinson County industrial sites recorded</li>
+                          <li>• Prevailing southwest wind correlated with windward slope wear</li>
+                          <li>• Seasonal pattern shifts between summer and winter prevailing winds</li>
+                          <li>• Material recommendations weighted toward TPO, PVC, or PVDF-coated metal</li>
                         </ul>
                       </div>
                     </div>
@@ -570,19 +570,19 @@ export default function RoofInspectionsBorgerPage() {
                       <div>
                         <h5 className="font-semibold text-gray-800">Air Quality Correlation</h5>
                         <ul className="space-y-1 text-gray-700 text-sm">
-                          <li>• Local air quality index integration</li>
-                          <li>• Pollution level damage correlation</li>
-                          <li>• Health impact assessment</li>
-                          <li>• Mitigation strategy development</li>
+                          <li>• TCEQ Hutchinson County air monitoring data cross-referenced with damage patterns</li>
+                          <li>• Particulate fallout matched to granule loss and ridge metal corrosion</li>
+                          <li>• Indoor air quality flagged where attic intake vents pull contaminated air</li>
+                          <li>• Mitigation steps focused on coating, flashing, and ventilation upgrades</li>
                         </ul>
                       </div>
                       <div>
                         <h5 className="font-semibold text-gray-800">Weather Station Data</h5>
                         <ul className="space-y-1 text-gray-700 text-sm">
-                          <li>• Local weather station correlation</li>
-                          <li>• Industrial heat island documentation</li>
-                          <li>• Wind pattern analysis</li>
-                          <li>• Storm intensity verification</li>
+                          <li>• Amarillo NWS office records pulled for the date of each suspected event</li>
+                          <li>• Borger heat-island temperature differentials documented in summer</li>
+                          <li>• Texas Panhandle wind pattern analysis for damage causation</li>
+                          <li>• Hail size and storm intensity verified against radar archives</li>
                         </ul>
                       </div>
                     </div>
@@ -605,27 +605,27 @@ export default function RoofInspectionsBorgerPage() {
                   (March-May)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Chemical Exposure Evaluation:</strong> Winter chemical accumulation
-                  assessment and storm season preparation.
+                  <strong>Chemical Exposure Evaluation:</strong> winter particulate buildup is
+                  documented and roofs are prepared for the Texas Panhandle hail and wind season.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Chemical Impact Assessment:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Winter chemical buildup documentation</li>
-                      <li>• Freeze-thaw with contamination damage</li>
-                      <li>• Industrial plant startup impact</li>
-                      <li>• Spring cleaning effectiveness</li>
-                      <li>• Storm season vulnerability preparation</li>
+                      <li>• Winter particulate and soot buildup photographed on south and west slopes</li>
+                      <li>• Freeze-thaw damage tracked alongside chemical etching on the asphalt mat</li>
+                      <li>• Hutchinson County refinery and plant startup cycles noted in the timeline</li>
+                      <li>• Effectiveness of any spring cleaning measured before the next inspection</li>
+                      <li>• Hail Alley storm-season vulnerabilities flagged for repair scoping</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Storm Preparation:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Fastener integrity verification</li>
-                      <li>• Emergency ventilation system checks</li>
-                      <li>• Chemical-resistant coating assessment</li>
-                      <li>• Drainage system decontamination</li>
+                      <li>• Fastener pull-through and back-out checks across windward slopes</li>
+                      <li>• Ridge and gable ventilation cleared of caliche dust and debris</li>
+                      <li>• Elastomeric and PVDF coatings inspected for cracking and chalking</li>
+                      <li>• Scuppers, gutters, and downspouts cleaned for the spring hail-rain mix</li>
                     </ul>
                   </div>
                 </div>
@@ -637,27 +637,28 @@ export default function RoofInspectionsBorgerPage() {
                   (June-August)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Thermal-Chemical Synergy:</strong> Combined heat and chemical exposure
-                  creating accelerated damage.
+                  <strong>Thermal-Chemical Synergy:</strong> Texas Panhandle summer heat combines
+                  with refinery and gas-plant emissions to age Borger roofs faster than open
+                  residential exposures.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Accelerated Aging:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Heat-activated chemical reactions</li>
-                      <li>• Thermal expansion with chemical stress</li>
-                      <li>• Industrial heat island amplification</li>
-                      <li>• Membrane outgassing acceleration</li>
-                      <li>• UV + chemical degradation synergy</li>
+                      <li>• Higher rooftop temperatures speed up acid and hydrocarbon reactions on asphalt mat</li>
+                      <li>• Membrane laps and panel seams cycle harder when both heat and chemical stress combine</li>
+                      <li>• Industrial heat-island effect raises midday surface temperatures across Borger</li>
+                      <li>• TPO and EPDM outgassing shows up earlier than the manufacturer&apos;s baseline curve</li>
+                      <li>• UV plus airborne particulate strips ceramic granules faster on south slopes</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Safety Considerations:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Heat stress protection protocols</li>
-                      <li>• Chemical vapor concentration increases</li>
-                      <li>• Early morning inspection timing</li>
-                      <li>• Enhanced PPE requirements</li>
+                      <li>• Inspections scheduled early in the day to keep crews under heat-stress limits</li>
+                      <li>• Crew briefing on local vapor sources and proximity to active flare stacks</li>
+                      <li>• Most rooftop walks completed before mid-morning during June through August</li>
+                      <li>• Respiratory and eye PPE upgraded near operating units</li>
                     </ul>
                   </div>
                 </div>
@@ -669,26 +670,26 @@ export default function RoofInspectionsBorgerPage() {
                   (September-November)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Annual Damage Assessment:</strong> Complete evaluation of year's chemical
-                  and weather exposure.
+                  <strong>Annual Damage Assessment:</strong> a full review of the year&apos;s
+                  industrial and weather exposure before Texas Panhandle winter sets in.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Annual Cumulative Assessment:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Storm season damage compilation</li>
-                      <li>• Chemical exposure annual impact</li>
-                      <li>• Material performance evaluation</li>
-                      <li>• Replacement timeline planning</li>
-                      <li>• Winter protection strategies</li>
+                      <li>• Spring and summer hail and wind events compiled into one report</li>
+                      <li>• Annual chemical exposure measured against the previous year&apos;s baseline</li>
+                      <li>• Performance review for installed TPO, modified bitumen, or asphalt shingle systems</li>
+                      <li>• Replacement budget timeline projected against remaining useful life</li>
+                      <li>• Winter protection plan for ice dams and freeze-thaw cycles in Hutchinson County</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Maintenance Planning:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Chemical-resistant coating renewal</li>
-                      <li>• Enhanced fastener replacement</li>
-                      <li>• Ventilation system upgrades</li>
+                      <li>• Elastomeric or aluminized coating renewal where ASTM testing flags wear</li>
+                      <li>• Replacement of corroded screws and ring-shank nails before winter</li>
+                      <li>• Ridge and soffit ventilation balanced for IRC airflow requirements</li>
                     </ul>
                   </div>
                 </div>
@@ -700,26 +701,26 @@ export default function RoofInspectionsBorgerPage() {
                   (December-February)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Chemical-Winter Interaction:</strong> Chemical effects combined with
-                  freeze-thaw cycles.
+                  <strong>Chemical-Winter Interaction:</strong> particulate fallout combines with
+                  Hutchinson County freeze-thaw cycles to do more damage than either factor alone.
                 </p>
                 <div className="space-y-3">
                   <div>
                     <h4 className="font-bold text-gray-800">Chemical-Freeze Interaction:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Contaminated ice formation effects</li>
-                      <li>• Chemical concentration from evaporation</li>
-                      <li>• Freeze-thaw cycle acceleration</li>
-                      <li>• Ice dam chemical contamination</li>
-                      <li>• Indoor air quality monitoring</li>
+                      <li>• Sooty ice formations that hold acidic moisture against flashing and seams</li>
+                      <li>• Concentration of residues as winter snow melts and refreezes</li>
+                      <li>• Freeze-thaw cycles accelerated by darker, contaminated surfaces</li>
+                      <li>• Ice dams at eaves trapping chemical-laden meltwater under shingles</li>
+                      <li>• Interior moisture and odor checks where attic intake pulls from contaminated air</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800">Limited Access Protocols:</h4>
                     <ul className="space-y-1 text-gray-700">
-                      <li>• Interior moisture monitoring</li>
-                      <li>• Remote sensor installation</li>
-                      <li>• Chemical vapor detection</li>
+                      <li>• Attic moisture readings when ice and snow block safe roof access</li>
+                      <li>• Temperature and humidity loggers placed inside problem attics</li>
+                      <li>• Walk-down scheduled for the first safe day after a Texas Panhandle thaw</li>
                     </ul>
                   </div>
                 </div>
@@ -743,22 +744,24 @@ export default function RoofInspectionsBorgerPage() {
                     <h4 className="font-bold text-gray-800 mb-3">Enhanced Evidence Requirements</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Chemical Exposure Documentation:</strong> Atmospheric condition
-                        records
+                        • <strong>Chemical Exposure Documentation:</strong> TCEQ air monitoring
+                        records pulled for the inspection date
                       </li>
                       <li>
-                        • <strong>Industrial Source Mapping:</strong> Proximity to emission sources
+                        • <strong>Industrial Source Mapping:</strong> bearing and distance from the
+                        Phillips 66 refinery and nearby gas-plant stacks
                       </li>
                       <li>
-                        • <strong>Accelerated Aging Proof:</strong> Comparison to non-industrial
-                        areas
+                        • <strong>Accelerated Aging Proof:</strong> side-by-side photos of Borger
+                        roofs versus comparable Amarillo or Canyon roofs of the same age
                       </li>
                       <li>
-                        • <strong>Multi-Factor Damage:</strong> Weather + chemical interaction
-                        evidence
+                        • <strong>Multi-Factor Damage:</strong> hail and wind events overlaid with
+                        chemical wear in one timeline
                       </li>
                       <li>
-                        • <strong>Health Impact Assessment:</strong> Indoor air quality correlation
+                        • <strong>Health Impact Assessment:</strong> attic intake and indoor air
+                        readings where carriers ask for them
                       </li>
                     </ul>
                   </div>
@@ -766,21 +769,24 @@ export default function RoofInspectionsBorgerPage() {
                     <h4 className="font-bold text-gray-800 mb-3">Insurance Company Challenges</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Coverage Exclusions:</strong> Industrial pollution clauses
+                        • <strong>Coverage Exclusions:</strong> industrial pollution clauses that
+                        State Farm, Allstate, and Farmers policies sometimes contain
                       </li>
                       <li>
-                        • <strong>Causation Disputes:</strong> Weather vs. chemical damage
+                        • <strong>Causation Disputes:</strong> distinguishing Hail Alley storm
+                        damage from gradual chemical wear
                       </li>
                       <li>
-                        • <strong>Accelerated Depreciation:</strong> Reduced material life
-                        expectations
+                        • <strong>Accelerated Depreciation:</strong> adjusters discounting useful
+                        life on roofs near industrial sites
                       </li>
                       <li>
-                        • <strong>Specialized Repairs:</strong> Chemical-resistant material
-                        requirements
+                        • <strong>Specialized Repairs:</strong> the case for TPO, PVC, or PVDF-
+                        coated metal instead of like-for-like asphalt
                       </li>
                       <li>
-                        • <strong>Health Concerns:</strong> Indoor air quality liability
+                        • <strong>Health Concerns:</strong> indoor air quality questions on attic
+                        intake routing
                       </li>
                     </ul>
                   </div>
@@ -795,21 +801,21 @@ export default function RoofInspectionsBorgerPage() {
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">Professional Advocacy</h4>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Industrial environment expertise</li>
-                      <li>• Chemical damage pattern recognition</li>
-                      <li>• Accelerated aging calculations</li>
-                      <li>• Multi-factor causation analysis</li>
-                      <li>• Specialized repair necessity justification</li>
+                      <li>• Field experience with Hutchinson County industrial roofs</li>
+                      <li>• Recognition of chemical wear patterns versus storm-event damage</li>
+                      <li>• Useful-life calculations referenced to ASTM D3462 and manufacturer specs</li>
+                      <li>• Multi-factor causation explained on-site to the adjuster</li>
+                      <li>• Written scope explaining why a TPO, PVC, or PVDF-coated metal upgrade is warranted</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-800 mb-3">Technical Documentation</h4>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Chemical analysis reports</li>
-                      <li>• Environmental monitoring data</li>
-                      <li>• Material compatibility assessments</li>
-                      <li>• Engineering failure analysis</li>
-                      <li>• Industry standard compliance verification</li>
+                      <li>• Photo and pH testing summaries</li>
+                      <li>• TCEQ and National Weather Service data attached to the claim file</li>
+                      <li>• Material compatibility notes for replacements near operating units</li>
+                      <li>• Plain-language failure analysis aligned with manufacturer literature</li>
+                      <li>• References to UL 580, UL 2218 Class 4, and ASTM ratings on installed systems</li>
                     </ul>
                   </div>
                 </div>

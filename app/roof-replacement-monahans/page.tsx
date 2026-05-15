@@ -336,9 +336,11 @@ export default function RoofReplacementMonahansPage() {
               Serving Greater Monahans Area
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Our roof replacement services extend throughout Ward County and surrounding areas.
-              We're familiar with local building codes, permitting requirements, and the specific
-              challenges faced by property owners in each community.
+              Roof replacement coverage extends across Ward County and into adjoining Pecos and
+              Winkler County communities. Crews work to the local 2018 IBC and IRC amendments
+              that Monahans, Wickett, and Barstow have adopted, pull permits through the
+              appropriate city or county office, and specify systems built for Permian Basin
+              wind, hail, and heat exposure.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -358,11 +360,11 @@ export default function RoofReplacementMonahansPage() {
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Local Expertise Matters</h3>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Familiar with Ward County building codes</li>
-                  <li>• Understanding of local insurance requirements</li>
-                  <li>• Knowledge of area weather patterns</li>
-                  <li>• Established relationships with local suppliers</li>
-                  <li>• Quick response times throughout the region</li>
+                  <li>• Ward County and City of Monahans permit and inspection requirements</li>
+                  <li>• Familiarity with State Farm, Allstate, Farmers, USAA, and Texas Farm Bureau claim workflows</li>
+                  <li>• Working knowledge of Permian Basin wind, hail, and Chihuahuan Desert UV exposure</li>
+                  <li>• Direct supplier accounts with GAF, CertainTeed, Carlisle, and Atlas distributors in Odessa-Midland</li>
+                  <li>• Scheduled inspections coordinated across Wickett, Pyote, Grandfalls, and Barstow</li>
                 </ul>
               </div>
             </div>
@@ -537,20 +539,24 @@ export default function RoofReplacementMonahansPage() {
                   </h3>
                   <ul className="text-gray-700 space-y-2">
                     <li>
-                      • <strong>Temperature Drops:</strong> Rapid cooling causes material
-                      contraction
+                      • <strong>Temperature Drops:</strong> 30 to 40 degree swings on a Ward
+                      County cold front contract metal panels and split aging sealant beads
                     </li>
                     <li>
-                      • <strong>Ice Formation:</strong> Rare but damaging freeze-thaw cycles
+                      • <strong>Ice Formation:</strong> rare freeze-thaw cycles still drive water
+                      into pinholes and split pipe-boot collars
                     </li>
                     <li>
-                      • <strong>Spring Hail:</strong> Severe thunderstorms with large hail
+                      • <strong>Spring Hail:</strong> Permian Basin spring thunderstorms produce
+                      quarter to golf-ball stones across Monahans and Wickett
                     </li>
                     <li>
-                      • <strong>High Winds:</strong> 50+ mph winds during weather fronts
+                      • <strong>High Winds:</strong> 50-plus mph gusts on frontal passages stress
+                      ridge caps and perimeter shingles first
                     </li>
                     <li>
-                      • <strong>Flash Flooding:</strong> Intense rain overwhelms drainage systems
+                      • <strong>Flash Flooding:</strong> Chihuahuan Desert downpours overload
+                      gutters and scuppers that are sized for normal rainfall
                     </li>
                   </ul>
                 </div>
@@ -561,11 +567,13 @@ export default function RoofReplacementMonahansPage() {
                   Our Desert Climate Solutions
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  We select and install roofing systems specifically designed for these challenging
-                  conditions. Our materials feature enhanced UV protection, superior thermal cycling
-                  resistance, and advanced wind uplift ratings. Proper installation techniques
-                  include upgraded fastener schedules, enhanced edge details, and improved
-                  ventilation systems to manage extreme heat buildup.
+                  Material selection for Monahans starts with UL 2218 Class 4 impact-rated
+                  asphalt shingles from GAF, CertainTeed, or Malarkey, or PVDF-coated 24-gauge
+                  standing seam metal where the budget allows. Commercial buildings get white
+                  TPO or PVC membrane to push reflectivity above 80 percent through the
+                  Chihuahuan Desert summer. Six-nail fastening, ice-and-water shield in valleys,
+                  drip-edge upgrades, and balanced ridge-soffit ventilation finish the assembly
+                  so the roof actually hits its UL 580 wind rating.
                 </p>
               </div>
             </div>
@@ -688,12 +696,12 @@ export default function RoofReplacementMonahansPage() {
               <div className="bg-amber-50 p-8 rounded-xl border border-brand-gold/30">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our post-storm documentation</h3>
                 <ul className="text-brand-brown space-y-3">
-                  <li>• Immediate damage assessment</li>
-                  <li>• weatherproof sheeting and weatherization</li>
-                  <li>• Rapid material procurement</li>
-                  <li>• Expedited permitting when possible</li>
-                  <li>• Insurance claim documentation</li>
-                  <li>• Priority scheduling for replacement</li>
+                  <li>• Scheduled damage assessment with photographs and slope-by-slope impact counts</li>
+                  <li>• Temporary weather protection on exposed sections once conditions are safe</li>
+                  <li>• Material ordering coordinated through GAF, CertainTeed, and Carlisle distributors in Odessa-Midland</li>
+                  <li>• Ward County and City of Monahans permit applications handled in-house</li>
+                  <li>• Insurance documentation prepared for State Farm, Allstate, Farmers, USAA, and Texas Farm Bureau claim files</li>
+                  <li>• Replacement scheduling sequenced ahead of normal queue when interior exposure exists</li>
                 </ul>
                 <div className="mt-6 p-4 bg-amber-100 rounded-lg">
                   <p className="text-brand-brown font-bold">

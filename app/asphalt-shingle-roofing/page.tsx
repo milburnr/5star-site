@@ -430,9 +430,11 @@ export default function Page() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-bold text-brand-brown mb-2">Variety</h3>
             <p className="text-gray-700">
-              Available in dozens of colors, profiles, and performance levels, asphalt shingles let
-              homeowners match any architectural style or neighborhood standard. From classic gray
-              to weathered wood tones, there is a shingle for every home.
+              GAF Timberline HDZ, CertainTeed Landmark, Owens Corning Duration, Malarkey
+              Vista, Atlas Pinnacle Pristine, and IKO Dynasty all show up on Amarillo and
+              Lubbock streets. Architectural shingles in weathered wood, charcoal, and
+              driftwood tones suit most Texas Panhandle subdivisions, and HOA-mandated palettes
+              are usually available in a Class 4 impact-rated upgrade.
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -452,9 +454,11 @@ export default function Page() {
               >
                 wind
               </a>{" "}
-              damages a section of shingle roof, individual shingles can be replaced without
-              disturbing the surrounding roofing. This makes storm damage repairs faster and more
-              affordable than with most other materials. For flat or low-slope sections, see our{" "}
+              damages a section of architectural shingles, individual three-tab or laminated
+              shingles can be lifted, the nails pulled, and replacements woven in without
+              disturbing the surrounding roof field. That keeps Hail Alley storm repairs in
+              the realm of a half-day patch instead of a section tear-off. For flat or
+              low-slope sections, see our{" "}
               <a
                 href="/asphalt-flat-roof-repair-in-amarillo/"
                 className="text-brand-brown hover:text-brand-gold underline"
@@ -467,9 +471,11 @@ export default function Page() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-bold text-brand-brown mb-2">Proven Performance</h3>
             <p className="text-gray-700">
-              Asphalt shingles have been the standard residential roofing material in Texas for
-              decades. Manufacturers continually improve formulations for better UV resistance,
-              impact performance, and wind uplift ratings specific to severe weather regions.
+              Architectural asphalt shingles have been the default residential roof across the
+              Texas Panhandle for decades. Today GAF, CertainTeed, Owens Corning, Malarkey,
+              Atlas, and IKO publish UL 2218 Class 4 impact ratings and ASTM D7158 Class H
+              (150-mph) wind ratings tested against the kind of storms the Llano Estacado
+              throws at Amarillo and Lubbock.
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -515,10 +521,12 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-1">Deck Preparation</h3>
               <p className="text-gray-700">
-                After removing old shingles, we inspect the roof deck for rot, water damage, and
-                structural integrity. Damaged decking is replaced with new plywood or OSB sheathing.
-                The deck must be clean, dry, and structurally sound before any new materials go
-                down.
+                After tearing the old shingles off, we walk the deck for rot, soft spots from
+                pipe-boot leaks, and any framing damage. Bad sections come out and get replaced
+                with 7/16-inch OSB or 1/2-inch CDX plywood depending on what the original deck
+                was. Older Amarillo and Canyon homes sometimes have 1-by plank decking that
+                needs OSB overlay to meet the manufacturer&apos;s nailing schedule. Nothing
+                goes back down until the deck is dry, flat, and tight.
               </p>
             </div>
           </div>
@@ -543,9 +551,11 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-1">Starter Strip</h3>
               <p className="text-gray-700">
-                Factory-adhesive starter strips are installed along eaves and rakes. These create
-                the critical first seal that prevents wind uplift along the most vulnerable roof
-                edges. Proper starter strip installation is essential for wind performance.
+                Factory-adhesive starter strips like GAF Pro-Start, CertainTeed SwiftStart, or
+                Owens Corning Starter Roll run along every eave and rake. The factory sealant
+                lines up under the first course so the bottom edge bonds across the full width,
+                which is what holds the field shingles down when Llano Estacado gusts come off
+                the open plains. ASTM D7158 Class H ratings depend on this detail being right.
               </p>
             </div>
           </div>
@@ -570,10 +580,13 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-1">Ridge Cap and Flashing</h3>
               <p className="text-gray-700">
-                Ridge cap shingles are installed along all peaks for a finished appearance and
-                weather seal. Metal flashing is installed around chimneys, vents, walls, and all
-                penetration points. Pipe boots and vent collars are sealed to prevent water entry at
-                every junction.
+                Manufacturer-matched ridge cap shingles like GAF TimberTex, CertainTeed
+                Mountain Ridge, or Owens Corning ProEdge close every peak and hip. Step flashing
+                ties the roof into chimneys and sidewalls, kick-out flashing diverts water off
+                wall claddings, and lead or rubber pipe boots seal plumbing vents. Pipe boots
+                are the single biggest leak source on West Texas roofs, so we upgrade to lead
+                or UV-rated EPDM rather than the builder-grade neoprene that splits inside
+                seven or eight summers.
               </p>
             </div>
           </div>
@@ -584,9 +597,11 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-1">Cleanup and Final Inspection</h3>
               <p className="text-gray-700">
-                We run magnetic nail sweeps across the yard and driveway, bag all debris for
-                disposal, and perform a final walkthrough with the homeowner. You receive warranty
-                documentation and a completed installation report for your records.
+                Rolling magnetic sweepers pass the yard, driveway, and street curb to collect
+                stray nails. Tear-off debris loads into a roll-off and leaves the property the
+                same day. The crew lead walks the roof with the homeowner before signoff and
+                hands over the GAF, CertainTeed, or Owens Corning manufacturer warranty
+                paperwork plus the workmanship coverage on our letterhead.
               </p>
             </div>
           </div>
@@ -598,8 +613,11 @@ export default function Page() {
           How Do You Repair and Maintain Asphalt Shingles?
         </h2>
         <p className="mb-4">
-          Efficient repairs and regular maintenance keep your shingle roof performing for its full
-          expected lifespan. Here are the most common maintenance tasks:
+          A GAF, CertainTeed, or Owens Corning architectural shingle roof can deliver its full
+          25 to 30-year service life in West Texas, but only with regular maintenance. The
+          combination of Hail Alley impact events, Llano Estacado wind, and Amarillo UV makes
+          pipe boots, sealant beads, and flashings the things that fail first. Here are the
+          maintenance items we see and address most often:
         </p>
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
@@ -614,10 +632,11 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Addressing Granule Loss</h3>
             <p className="text-gray-700">
-              Granules protect the asphalt layer from UV damage. Excessive granule loss (visible as
-              bare or dark patches on shingles) accelerates aging. While some granule shedding is
-              normal in new shingles, significant loss on established roofs indicates it may be time
-              to plan for{" "}
+              The ceramic-coated mineral granules on a GAF or CertainTeed shingle shield the
+              asphalt layer from Texas Panhandle UV exposure. Some shedding shows up in gutters
+              the first year after install, but bare or shiny black patches across the field
+              after a Hail Alley storm season point to impact bruising and accelerated aging.
+              When that pattern is widespread, it usually signals the roof is closer to{" "}
               <a
                 href="/roof-replacement-amarillo/"
                 className="text-brand-brown hover:text-brand-gold underline font-semibold"
@@ -630,10 +649,12 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Fixing Leaks</h3>
             <p className="text-gray-700">
-              Leaks typically originate at flashing points, damaged pipe boots, or sections with
-              missing shingles. We trace leaks to their source (which is often not directly above
-              the water stain), repair the entry point, and verify the fix with water testing when
-              conditions allow.
+              Leaks rarely start where the ceiling stain shows. Pipe-boot collars cracked by
+              Amarillo UV, lifted step flashing at a chimney, a missing shingle from last
+              spring&apos;s wind, or a back-pitched valley are the usual culprits. We chase
+              water entry from the attic side first, repair the failure point, then run a hose
+              test on the exterior when conditions allow to confirm the path is sealed before
+              we leave.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -646,9 +667,11 @@ export default function Page() {
               >
                 roof inspections
               </a>
-              , prompt minor repairs, proper attic ventilation, and keeping gutters clear all
-              contribute to maximizing your shingle roof&apos;s service life. These preventive
-              measures cost far less than premature replacement.
+              , quick attention to small repairs, proper attic ventilation through ridge and
+              soffit vents, and clear gutters all add years to a shingle roof in the Texas
+              Panhandle climate. Replacing a $30 pipe boot or resealing a chimney saddle costs
+              far less than a premature tear-off, and post-hail walkthroughs catch granule
+              loss and seal-strip failures before they become attic leaks.
             </p>
           </div>
         </div>

@@ -271,10 +271,12 @@ export default function RoofInspectionsSnyderPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Damage Detection</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  West Texas supercells and hailstorms can cause subtle damage that worsens over
-                  time. Our certified inspectors use advanced technology including thermal imaging,
-                  moisture meters, and electronic leak detection to identify hidden damage that
-                  could lead to expensive failures.
+                  Scurry County supercells produce hail that bruises asphalt shingle mats and
+                  punctures TPO or EPDM membranes without leaving obvious signs from the ground.
+                  Our inspectors document strike patterns with thermal imaging and moisture meters,
+                  the same evidence State Farm, Allstate, and Texas Farm Bureau adjusters ask for
+                  when reviewing a wind and hail claim. Catching micro-fractures early keeps a
+                  small repair from becoming a deck-and-decking tear-off later.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -282,10 +284,12 @@ export default function RoofInspectionsSnyderPage() {
                   Preventive Maintenance Planning
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Regular inspections prevent small issues from becoming major repairs. Our
-                  comprehensive assessment identifies maintenance needs, recommends improvement
-                  priorities, and develops customized maintenance schedules for Scurry County's
-                  challenging climate conditions.
+                  Snyder roofs sit through 100-degree summers, sub-freezing winters, and dust
+                  storms blowing off the Llano Estacado. That cycle loosens fasteners and dries out
+                  sealants every season. Our assessment maps which flashings, pipe boots, and seam
+                  laps are aging fastest on your specific roof. We then build a spring-and-fall
+                  maintenance schedule sized to your warranty terms and roof type, whether that is
+                  Class 4 impact-rated shingles or a mechanically-attached TPO membrane.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -293,10 +297,12 @@ export default function RoofInspectionsSnyderPage() {
                   Insurance Documentation
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Proper documentation supports insurance claims and warranty compliance. Our
-                  detailed inspection reports include high-resolution photography, precise
-                  measurements, and professional assessments that insurance adjusters and warranty
-                  administrators accept without question.
+                  Our inspection reports are built for the way Texas wind-and-hail claims actually
+                  get reviewed. Each report includes test-square photos, drone overviews, slope
+                  diagrams, and measured square-foot counts that adjusters from State Farm,
+                  Allstate, USAA, and Farmers can drop straight into Xactimate. Manufacturer
+                  warranty packages from GAF, CertainTeed, and Owens Corning use the same
+                  documentation, so one inspection covers both the claim and the warranty file.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -304,10 +310,12 @@ export default function RoofInspectionsSnyderPage() {
                   Energy Efficiency Analysis
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Rising energy costs make roof performance critical. Our inspections evaluate
-                  insulation effectiveness, air leakage, thermal bridging, and reflective surface
-                  condition to identify opportunities for energy savings and improved building
-                  comfort.
+                  West Texas cooling loads run hard from May through September. Our inspections
+                  use thermal cameras to map insulation gaps, wet insulation under membranes, and
+                  air leakage at parapet walls and curb flashings. On low-slope buildings we check
+                  whether the existing TPO or PVC still meets ENERGY STAR cool-roof reflectivity.
+                  Findings are written so you can weigh added insulation against a recover or
+                  replacement, instead of guessing.
                 </p>
               </div>
             </div>
@@ -326,9 +334,11 @@ export default function RoofInspectionsSnyderPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Drone Surveys</h3>
                 <p className="text-gray-700">
-                  Our professional drone pilots conduct comprehensive aerial surveys that provide
-                  detailed imagery of roof conditions, damage assessment, and safety documentation
-                  without putting inspectors at risk on dangerous roof areas.
+                  Licensed drone pilots fly a structured grid over your roof and capture 4K
+                  imagery of every slope, valley, and penetration. That works well on tall grain
+                  elevators south of Snyder and on standing seam metal roofs where walking the
+                  panels risks denting them. Adjusters get the same aerial views we do, which
+                  shortens claim reviews.
                 </p>
               </div>
               <div className="text-center">
@@ -337,9 +347,10 @@ export default function RoofInspectionsSnyderPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Thermal Imaging</h3>
                 <p className="text-gray-700">
-                  Advanced thermal cameras detect moisture intrusion, insulation defects, and energy
-                  loss patterns invisible to standard visual inspection. This technology identifies
-                  problems before they cause visible damage to your building.
+                  Thermal cameras read temperature differences across the roof surface and pick
+                  up wet insulation under TPO or modified bitumen long before a stain shows on the
+                  ceiling. The same scan flags missing insulation at parapet walls and HVAC curbs,
+                  which is where Snyder buildings tend to lose conditioned air during summer.
                 </p>
               </div>
               <div className="text-center">
@@ -350,9 +361,11 @@ export default function RoofInspectionsSnyderPage() {
                   Electronic Leak Detection
                 </h3>
                 <p className="text-gray-700">
-                  Specialized electronic equipment pinpoints the exact location of membrane breaches
-                  and water intrusion points. This precise detection eliminates guesswork and
-                  ensures repairs target actual problems rather than symptoms.
+                  Low-voltage electronic leak detection floods a TPO, PVC, or EPDM membrane with
+                  current and reads the exact spot where water is finding a path through. That is
+                  far more accurate than flood testing on a large Scurry County warehouse and
+                  keeps the repair scope tight. We mark every breach so the crew patches the real
+                  problem, not the visible stain three bays away.
                 </p>
               </div>
             </div>
@@ -397,10 +410,12 @@ export default function RoofInspectionsSnyderPage() {
                     Pre-Inspection Planning
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our team reviews property records, previous inspection reports, and local
-                    weather history to understand your roof's background. We coordinate access
-                    requirements, safety protocols, and any special considerations for agricultural
-                    or industrial properties common in Scurry County.
+                    Before we arrive in Snyder, we pull the property's prior permit records,
+                    review any previous inspection PDFs, and check NOAA hail-event history for
+                    Scurry County so we know which storm dates may apply to your claim. We confirm
+                    access for the building, ladder placement, and any operational constraints,
+                    which matters for cotton gins, grain handling sites, and active livestock
+                    barns where we cannot work directly over animals or product.
                   </p>
                 </div>
               </div>
@@ -411,10 +426,12 @@ export default function RoofInspectionsSnyderPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Exterior Assessment</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    We conduct thorough exterior inspection using drones and direct access where
-                    safe. This includes membrane condition, fastener integrity, flashing systems,
-                    drainage components, and equipment mounting areas. Every detail is photographed
-                    and documented with GPS coordinates.
+                    The exterior pass combines drone overflight with hands-on access where the
+                    roof can be safely walked. We check shingle granule loss, TPO seam welds,
+                    fastener back-out, pipe boot cracking, scupper and downspout flow, and the
+                    flashings at HVAC curbs and parapet caps. Each finding is geotagged so the
+                    repair crew lands on the right slope of the right building when the work is
+                    scheduled.
                   </p>
                 </div>
               </div>
@@ -427,10 +444,12 @@ export default function RoofInspectionsSnyderPage() {
                     Interior Investigation
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Interior inspection reveals moisture intrusion, insulation performance, and
-                    structural conditions. We use moisture meters, thermal imaging, and visual
-                    assessment to identify problems not visible from the exterior. This step is
-                    crucial for agricultural buildings with hay storage or livestock areas.
+                    From the attic or underside of a metal deck we read moisture content at
+                    sheathing, decking, and insulation, then run a thermal camera along the
+                    interior face of the roof. That is how we find wet insulation under a TPO
+                    membrane that still looks fine from above. For Scurry County hay barns and
+                    livestock buildings, this step also flags ventilation problems that lead to
+                    condensation damage on the underside of the deck.
                   </p>
                 </div>
               </div>
@@ -441,10 +460,12 @@ export default function RoofInspectionsSnyderPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Technical Analysis</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our certified inspectors analyze findings against manufacturer specifications,
-                    local building codes, and industry standards. We evaluate storm damage
-                    potential, energy efficiency opportunities, and prioritize recommendations based
-                    on risk assessment and budget considerations.
+                    Findings are compared against the original manufacturer specs (GAF,
+                    CertainTeed, Carlisle, or Firestone in most Snyder buildings), the adopted
+                    Texas building code edition, and UL 2218 Class 4 and UL 580 ratings where
+                    they apply. We then sort the list into urgent, near-term, and planned items
+                    so you can budget the work across one or two seasons rather than treating
+                    everything as same-day.
                   </p>
                 </div>
               </div>
@@ -457,10 +478,12 @@ export default function RoofInspectionsSnyderPage() {
                     Comprehensive Reporting
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Within 24 hours, you receive a detailed inspection report with high-resolution
-                    photos, thermal images, priority rankings, and cost estimates. Our reports meet
-                    insurance and warranty requirements while providing clear guidance for property
-                    management decisions.
+                    Within 24 hours you receive a written report with test-square photos, drone
+                    imagery, thermal scans, slope measurements, and a prioritized scope of work
+                    with line-item estimates. The format matches what State Farm, Allstate, and
+                    Texas Farm Bureau adjusters expect, and the same package satisfies GAF,
+                    CertainTeed, and Owens Corning warranty documentation so the file is ready
+                    if a claim opens later.
                   </p>
                 </div>
               </div>
@@ -618,9 +641,12 @@ export default function RoofInspectionsSnyderPage() {
             </div>
             <div className="mt-8 text-center">
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                From historic downtown Snyder buildings to modern agricultural operations throughout
-                the Rolling Plains, we provide comprehensive roof inspections that protect property
-                investments and ensure optimal building performance.
+                From the older brick storefronts along College Avenue in downtown Snyder to the
+                cotton gins, grain handling sites, and ranch headquarters scattered across the
+                Rolling Plains, we inspect the full range of roof systems found in Scurry County.
+                That includes architectural asphalt shingles on residential properties, R-panel
+                metal on barns, and TPO or modified bitumen on commercial buildings near U.S. 84
+                and U.S. 180.
               </p>
             </div>
           </section>
@@ -637,15 +663,15 @@ export default function RoofInspectionsSnyderPage() {
                   Spring Inspection (March-April)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Pre-storm season inspection to identify and repair winter damage before severe
-                  weather arrives.
+                  Pre-storm-season check that documents winter freeze and wind damage before
+                  the West Texas hail season ramps up in April and May.
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• Winter freeze damage assessment</li>
-                  <li>• Storm preparation checklist</li>
-                  <li>• Drainage system cleaning</li>
-                  <li>• Fastener tightening and replacement</li>
-                  <li>• Contact information update</li>
+                  <li>• Freeze-cycle cracking at shingle tabs, TPO seams, and sealant joints</li>
+                  <li>• Drainage check on scuppers, downspouts, and interior drains for Llano Estacado dust buildup</li>
+                  <li>• Fastener tightening on R-panel metal and standing seam clips</li>
+                  <li>• Pipe boot and flashing reseal at HVAC curbs</li>
+                  <li>• Baseline photo set saved for any wind and hail claim filed later that year</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -653,15 +679,15 @@ export default function RoofInspectionsSnyderPage() {
                   Fall Inspection (October-November)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Post-storm season inspection to assess summer weather damage and prepare for
-                  winter.
+                  Post-storm-season check that assesses summer hail and wind damage on Scurry
+                  County roofs before the first hard freeze.
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• Storm season damage evaluation</li>
-                  <li>• UV degradation assessment</li>
-                  <li>• Winter preparation measures</li>
-                  <li>• Insulation performance check</li>
-                  <li>• Annual maintenance planning</li>
+                  <li>• Test-square hail evaluation on asphalt shingles and TPO membranes</li>
+                  <li>• UV degradation on south-facing slopes after the West Texas summer</li>
+                  <li>• Attic and underside thermal scan for wet insulation</li>
+                  <li>• Drainage clearing ahead of winter storms</li>
+                  <li>• Twelve-month maintenance plan with prioritized line items and budget ranges</li>
                 </ul>
               </div>
             </div>

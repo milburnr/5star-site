@@ -267,10 +267,12 @@ export default function Page() {
             When Is It Time for a Full Roof Replacement?
           </h2>
           <p className="text-lg mb-4">
-            Not every roof problem requires a full replacement, but certain signs point to a roof
-            that has reached the end of its useful life. Knowing when to invest in a new roof saves
-            you from escalating repair costs and protects your home from water damage, mold, and
-            structural issues.
+            Not every roof problem calls for a full replacement. Texas Panhandle roofs that have
+            taken a decade or more of hail strikes, UV from 270-plus sun days a year, and 70°F
+            temperature swings often hit a point where one more patch costs more than the slope is
+            worth. The signs below are the ones we tell Amarillo, Canyon, and Lubbock homeowners
+            to watch for so a replacement happens before water reaches the decking or the
+            insulation.
           </p>
           <div className="grid md:grid-cols-2 gap-6 mt-6">
             <div>
@@ -312,9 +314,11 @@ export default function Page() {
           What Roofing Materials Are Available for Replacement?
         </h2>
         <p className="mb-6">
-          Choosing the right roofing material depends on your budget, how long you plan to stay in
-          the home, and what level of storm protection you need. We install every major roofing
-          system available and help you weigh the trade-offs.
+          The right roof depends on budget, how long you plan to stay, and how much Hail Alley
+          weather you want the roof to shrug off. We install architectural and Class 4 impact-rated
+          asphalt shingles, standing seam and R-panel metal, and on the commercial side TPO, PVC,
+          EPDM, modified bitumen, and built-up roofing. We&apos;ll walk through the trade-offs in
+          plain English so you pick something that fits the house and the West Texas climate.
         </p>
 
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
@@ -490,16 +494,20 @@ export default function Page() {
             <div className="text-3xl font-bold text-brand-gold mb-2">1</div>
             <h3 className="font-bold text-brand-brown mb-2">Inspection</h3>
             <p className="text-sm text-gray-600">
-              Thorough roof and attic inspection to document current condition, identify deck
-              damage, and determine the scope of work needed.
+              Slope-by-slope and attic walkthrough with photo documentation. We check ridge,
+              valleys, flashing, decking, and ventilation. Soft spots in the OSB or plywood deck
+              get flagged so the bid reflects the real scope, not a surprise on tear-off day in
+              Amarillo or Canyon.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow text-center">
             <div className="text-3xl font-bold text-brand-gold mb-2">2</div>
             <h3 className="font-bold text-brand-brown mb-2">Estimate and Material Selection</h3>
             <p className="text-sm text-gray-600">
-              Detailed written estimate with material options, color samples, and timeline. We walk
-              you through the trade-offs so you choose with confidence.
+              A line-item written estimate plus GAF, CertainTeed, or Owens Corning shingle boards
+              in hand. Class 4 impact-rated options and standing seam metal are quoted side by
+              side so you can compare cost against UL 2218 hail performance for the West Texas
+              climate.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow text-center">
@@ -514,7 +522,12 @@ export default function Page() {
             <div className="text-3xl font-bold text-brand-gold mb-2">4</div>
             <h3 className="font-bold text-brand-brown mb-2">Cleanup and Final Inspection</h3>
             <p className="text-sm text-gray-600">
-              Two magnetic nail sweeps across the yard, driveway, and street. Debris hauled off in our own dump trailer the same day. Final walkthrough with the homeowner to confirm ridge caps, flashings, vent boots, drip edge, and gutters all pass inspection before the punch list is closed.
+              Two magnetic nail sweeps across the yard, driveway, and street, with extra passes
+              around play areas. Tear-off debris hauled off in our own dump trailer the same day.
+              Final walkthrough with the homeowner to confirm ridge caps, step and counter
+              flashings, pipe boots, drip edge along eaves and rakes, and gutter aprons all pass
+              before the punch list closes. Manufacturer warranty paperwork is filed and a copy
+              goes to the homeowner.
             </p>
           </div>
         </div>
@@ -561,10 +574,11 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-2">Free Estimates</h3>
               <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-                <li>No-pressure written estimates within 48 hours</li>
-                <li>Line-item pricing with no hidden fees</li>
-                <li>Side-by-side material comparisons</li>
-                <li>Honest recommendation on repair vs. replace</li>
+                <li>Written estimate within 48 hours, no obligation, no high-pressure pitch</li>
+                <li>Line-item pricing covering tear-off, deck repair, underlayment, and flashing</li>
+                <li>Side-by-side comparison of architectural asphalt versus Class 4 impact-rated shingles or standing seam metal</li>
+                <li>Straight answer on repair versus replace based on slope condition and remaining useful life</li>
+                <li>Permit and Texas Prompt Payment Act handling included in the proposal</li>
               </ul>
             </div>
           </div>

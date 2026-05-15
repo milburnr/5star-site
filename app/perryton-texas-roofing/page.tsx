@@ -231,8 +231,11 @@ export default function PerrytonRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Perryton</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential, commercial, and agricultural roofing services
-              throughout Perryton and Ochiltree County. Select a service below for details.
+              Residential, commercial, and agricultural roofing coverage across Perryton and
+              the rest of Ochiltree County. Installs span Class 4 impact-rated asphalt shingles
+              from GAF, CertainTeed, and Malarkey, 24-gauge standing seam metal on farm and
+              ranch buildings, and TPO or R-panel systems for grain elevators and co-op
+              facilities along the Highway 83 corridor. Select a service below for details.
             </p>
           </FadeIn>
 
@@ -256,9 +259,10 @@ export default function PerrytonRoofingPage() {
             <h2 className="section-title">Perryton Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From homes near Wheatheart Park to grain facilities on the city&apos;s edges and
-                ranches across Ochiltree County, we provide expert roofing services throughout the
-                Perryton area:
+                From homes near Wheatheart Park and the Perryton ISD campuses to grain
+                elevators and co-op facilities on the city edges, and ranch outbuildings
+                spread across Ochiltree County wheat country, Class 4 hail-rated installations
+                and storm-damage claim work cover every part of the Perryton area:
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>

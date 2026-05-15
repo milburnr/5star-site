@@ -227,8 +227,11 @@ export default function BigSpringRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Big Spring</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout Big
-              Spring and Howard County. Select a service below for details.
+              Full residential and commercial roofing coverage across Big Spring, Coahoma, and
+              the rest of Howard County. Installs span Class 4 impact-rated asphalt shingles
+              from GAF, CertainTeed, and Malarkey, 24-gauge standing seam metal, and TPO or
+              PVC membrane on commercial buildings around the I-20 corridor. Select a service
+              below for details.
             </p>
           </FadeIn>
 
@@ -252,8 +255,10 @@ export default function BigSpringRoofingPage() {
             <h2 className="section-title">Big Spring Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From established neighborhoods near Comanche Trail Park to newer developments on the
-                city&apos;s edges, we provide expert roofing services throughout Big Spring:
+                From the older homes around Comanche Trail Park and the Scenic Mountain
+                Medical Center area to newer subdivisions on the east and south sides of
+                town, Class 4 impact-rated installations and storm-damage claim work cover
+                every Big Spring neighborhood:
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>

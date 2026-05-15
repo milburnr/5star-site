@@ -239,10 +239,10 @@ export default function RoofRepairMidlandPage() {
                   Oil Boom Construction Issues
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• 1970s-1990s rapid development with cost-cutting measures</li>
-                  <li>• Inadequate ventilation systems in boom-era construction</li>
-                  <li>• Lower-grade materials used during high-demand periods</li>
-                  <li>• Executive homes with complex rooflines requiring specialized care</li>
+                  <li>• 1970s through 1990s Permian Basin builds where speed often beat spec sheets</li>
+                  <li>• Soffit and ridge ventilation that falls short of current IRC airflow ratios</li>
+                  <li>• Lower-grade 3-tab asphalt shingles installed during peak crew shortages</li>
+                  <li>• Complex hip and valley layouts on Grassland Estates and Preston Place executive homes</li>
                 </ul>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl">
@@ -250,10 +250,10 @@ export default function RoofRepairMidlandPage() {
                   Desert Climate Challenges
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Extreme thermal cycling causing material fatigue</li>
-                  <li>• Intense UV radiation making shingles brittle</li>
-                  <li>• Hot, dry winds accelerating granule loss</li>
-                  <li>• Minimal precipitation causing drainage system neglect</li>
+                  <li>• 70°F daily temperature swings that fatigue asphalt mat and fastener heads</li>
+                  <li>• Permian Basin UV index above 10 for most summer afternoons, baking out shingle plasticizers</li>
+                  <li>• Hot southwest winds off the Llano Estacado that strip ceramic granules from aging shingles</li>
+                  <li>• Less than 15 inches of annual rainfall, leaving gutters and scuppers full of caliche dust until the next big storm</li>
                 </ul>
               </div>
             </div>
@@ -275,33 +275,33 @@ export default function RoofRepairMidlandPage() {
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Executive Districts</h3>
                 <p className="text-gray-600 mb-4">
-                  Premium neighborhoods built during oil prosperity
+                  Custom-built neighborhoods that grew during oil prosperity along the west side of Loop 250.
                 </p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Grassland Estates - 1990s-2000s custom homes, complex rooflines</li>
-                  <li>• Preston Place - Executive properties, premium materials</li>
-                  <li>• Fairway Estate - Golf course community, tile roofs</li>
-                  <li>• Wedgewood Park - Affluent area, architectural shingles</li>
+                  <li>• Grassland Estates: 1990s-2000s custom homes with multi-pitch hip rooflines</li>
+                  <li>• Preston Place: executive properties typically running GAF or CertainTeed architectural lines</li>
+                  <li>• Fairway Estate: golf course community with concrete and clay tile roofs that need underlayment replacement on most reroofs</li>
+                  <li>• Wedgewood Park: laminated architectural shingles installed during the late-1990s build-out</li>
                 </ul>
               </div>
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil Boom Developments</h3>
-                <p className="text-gray-600 mb-4">1970s-1980s rapid construction areas</p>
+                <p className="text-gray-600 mb-4">1970s and 1980s subdivisions where most roofs are now on a second or third installation.</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Northeast Midland - Boom-era housing, maintenance needs</li>
-                  <li>• Greenwood - 1980s suburban development</li>
-                  <li>• Holiday Hill - Mid-range homes, aging roofing systems</li>
-                  <li>• Wilshire Park - Family neighborhoods, ventilation issues</li>
+                  <li>• Northeast Midland: boom-era housing east of Big Spring Street with deferred maintenance backlogs</li>
+                  <li>• Greenwood: 1980s rural-suburban development off Highway 158 with longer drive times for inspections</li>
+                  <li>• Holiday Hill: mid-range homes with original 3-tab asphalt now well past their 20-year window</li>
+                  <li>• Wilshire Park: family neighborhoods where soffit vents were often painted over and need to be cut back open</li>
                 </ul>
               </div>
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Modern Communities</h3>
-                <p className="text-gray-600 mb-4">2000s+ developments with improved systems</p>
+                <p className="text-gray-600 mb-4">2000s and newer developments built to current IRC and IECC standards.</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• The Preserve - Mixed-use development, energy-efficient design</li>
-                  <li>• Vintage Park - New construction, proper ventilation</li>
-                  <li>• Rock Creek - Contemporary homes, desert-rated materials</li>
-                  <li>• Cimmaron - Planned community, HOA maintenance standards</li>
+                  <li>• The Preserve: mixed-use builds with ENERGY STAR cool-roof shingles and code-compliant ridge venting</li>
+                  <li>• Vintage Park: newer construction with balanced intake and exhaust ventilation in place from day one</li>
+                  <li>• Rock Creek: contemporary homes typically installed with Class 4 impact-rated asphalt shingles</li>
+                  <li>• Cimmaron: planned community where HOA color and material standards drive matched-system replacements</li>
                 </ul>
               </div>
             </div>
@@ -320,8 +320,10 @@ export default function RoofRepairMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Thermal Stress Analysis</h3>
                 <p className="text-gray-700">
-                  Comprehensive assessment of expansion/contraction damage, thermal shock cracking,
-                  and material fatigue specific to Midland's extreme temperature cycles.
+                  We map expansion and contraction cracks across the field, flashing, and ridge, then
+                  document fastener fatigue and sealant fracture lines. Permian Basin temperature
+                  swings between 30°F winter nights and 110°F summer afternoons drive most of the
+                  failure patterns we find on Midland asphalt and metal systems.
                 </p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
@@ -330,8 +332,10 @@ export default function RoofRepairMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">UV Damage Evaluation</h3>
                 <p className="text-gray-700">
-                  Specialized inspection for accelerated aging, granule loss, and brittleness caused
-                  by intense Permian Basin solar radiation and desert conditions.
+                  We inspect south and west exposures for granule loss, shingle curling, and the
+                  brittle mat fractures that follow 300-plus sun days a year on the Llano Estacado.
+                  ASTM D3462 testing benchmarks help us decide whether a slope can be repaired or
+                  whether the asphalt has aged past useful life.
                 </p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
@@ -342,8 +346,10 @@ export default function RoofRepairMidlandPage() {
                   Boom-Era Construction Expertise
                 </h3>
                 <p className="text-gray-700">
-                  Understanding of 1970s-1990s oil boom building practices, identifying common
-                  shortcuts and quality issues from rapid development periods.
+                  We know the shortcuts taken during the 1970s and 1980s Permian Basin building
+                  rush. Step flashing skipped on chimney sidewalls, drip edge omitted on rakes,
+                  and underventilated attics show up across Greenwood and Northeast Midland on
+                  almost every tear-off.
                 </p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
@@ -352,8 +358,10 @@ export default function RoofRepairMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Desert-Rated Solutions</h3>
                 <p className="text-gray-700">
-                  Implementation of cool-roof technology, high-reflectance materials, and
-                  ventilation systems specifically engineered for extreme desert environments.
+                  Repairs that match Midland conditions. ENERGY STAR cool-roof shingles from GAF
+                  or Owens Corning, standing seam metal with PVDF coatings for hot west slopes, and
+                  balanced ridge-and-soffit ventilation sized to the attic volume. Class 4
+                  impact-rated options are on the table whenever hail history justifies them.
                 </p>
               </div>
             </div>
@@ -371,22 +379,23 @@ export default function RoofRepairMidlandPage() {
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Thermal Shock Cracking:</strong> Rapid temperature changes causing
-                    material failure
+                    <strong>Thermal Shock Cracking:</strong> overnight temperature drops of 40°F
+                    or more split aging mat asphalt and metal panel laps
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>UV Brittleness:</strong> Shingles becoming fragile and easily damaged
+                    <strong>UV Brittleness:</strong> south-facing shingles in Wedgewood Park and
+                    Holiday Hill snap rather than flex under foot traffic
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Granule Loss:</strong> Accelerated degradation from intense solar
-                    exposure
+                    <strong>Granule Loss:</strong> gutter screens fill with ceramic granules,
+                    exposing the asphalt mat to direct Permian Basin sun
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Expansion Joint Failure:</strong> Sealant deterioration from thermal
-                    cycling
+                    <strong>Expansion Joint Failure:</strong> pipe boots, skylight curbs, and
+                    parapet sealant fracture from constant cycling
                   </li>
                 </ul>
               </div>
@@ -397,22 +406,25 @@ export default function RoofRepairMidlandPage() {
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Inadequate Ventilation:</strong> Poor airflow design in rapid-build
-                    homes
+                    <strong>Inadequate Ventilation:</strong> attic exhaust without matched soffit
+                    intake, common in Northeast Midland builds from the 1980s
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Substandard Flashing:</strong> Cost-cutting materials from boom periods
+                    <strong>Substandard Flashing:</strong> roll-roofing-grade metals around
+                    chimneys and skylights that should have been step-flashed in copper or
+                    galvanized
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Fastener Failure:</strong> Incorrect installation during high-demand
-                    periods
+                    <strong>Fastener Failure:</strong> overdriven or underdriven nails in the
+                    asphalt mat that back out under thermal cycling
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Executive Home Complexity:</strong> Intricate rooflines requiring
-                    specialized skills
+                    <strong>Executive Home Complexity:</strong> Grassland Estates and Preston
+                    Place rooflines with multiple valleys and dormers that require careful tie-in
+                    details
                   </li>
                 </ul>
               </div>
@@ -684,7 +696,8 @@ export default function RoofRepairMidlandPage() {
                     <div>
                       <h4 className="font-semibold">UV-Stabilized Materials</h4>
                       <p className="text-gray-600">
-                        Advanced polymers and additives preventing degradation
+                        Polymer-modified asphalt shingles and PVDF-coated metal panels rated for
+                        the Permian Basin&apos;s 300-plus sun days a year
                       </p>
                     </div>
                   </div>
@@ -705,7 +718,8 @@ export default function RoofRepairMidlandPage() {
                     <div>
                       <h4 className="font-semibold">Protective Coatings</h4>
                       <p className="text-gray-600">
-                        Ceramic and elastomeric coatings extending material life
+                        Elastomeric topcoats over TPO and modified bitumen flat sections, with
+                        ASTM-tested reflectivity values that hold up through Midland summers
                       </p>
                     </div>
                   </div>
@@ -726,7 +740,8 @@ export default function RoofRepairMidlandPage() {
                     <div>
                       <h4 className="font-semibold">Color Selection Optimization</h4>
                       <p className="text-gray-600">
-                        Light colors and reflective finishes reducing heat absorption
+                        Lighter shingle blends and white or light-stone metal finishes that drop
+                        attic temperatures in west-facing Midland exposures
                       </p>
                     </div>
                   </div>
@@ -747,7 +762,8 @@ export default function RoofRepairMidlandPage() {
                     <div>
                       <h4 className="font-semibold">Enhanced Granule Systems</h4>
                       <p className="text-gray-600">
-                        Ceramic-coated granules with superior adhesion and UV resistance
+                        GAF, CertainTeed, and Owens Corning lines with kiln-fired ceramic granules
+                        that resist the abrasive grit blown across the Llano Estacado
                       </p>
                     </div>
                   </div>
@@ -776,28 +792,28 @@ export default function RoofRepairMidlandPage() {
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Rapid Development Shortcuts</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Lower-grade materials to meet high demand</li>
-                      <li>• Inadequate quality control during construction rush</li>
-                      <li>• Simplified designs prioritizing speed over longevity</li>
-                      <li>• Insufficient desert climate considerations</li>
+                      <li>• Builder-grade 3-tab asphalt installed to meet boom-era demand</li>
+                      <li>• Inspection backlogs that left fastener patterns uncorrected</li>
+                      <li>• Simplified hip and ridge details that fail under thermal cycling</li>
+                      <li>• No allowance for Permian Basin UV exposure in material specs</li>
                     </ul>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Common Boom-Era Issues</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Substandard flashing installation</li>
-                      <li>• Inadequate attic ventilation systems</li>
-                      <li>• Poor fastener schedules and patterns</li>
-                      <li>• Incorrect underlayment specifications</li>
+                      <li>• Roll-flashing where step flashing was needed at chimneys and sidewalls</li>
+                      <li>• Attic exhaust without matched soffit intake, common in Greenwood and Wilshire Park</li>
+                      <li>• Nail patterns that miss the manufacturer&apos;s nailing zone</li>
+                      <li>• Felt underlayment below current code minimums and no ice-and-water shield in valleys</li>
                     </ul>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Retrofitting Requirements</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Ventilation system upgrades for desert conditions</li>
-                      <li>• Enhanced fastening for wind resistance</li>
-                      <li>• Modern flashing and waterproofing systems</li>
-                      <li>• Energy efficiency improvements</li>
+                      <li>• Balanced ridge and soffit ventilation sized to the attic volume</li>
+                      <li>• Six-nail fastening on architectural shingles for UL 580 wind uplift</li>
+                      <li>• Galvanized step and counter-flashing at chimney and wall intersections</li>
+                      <li>• Cool-roof granule blends or radiant barriers to cut summer attic temperatures</li>
                     </ul>
                   </div>
                 </div>
@@ -860,28 +876,28 @@ export default function RoofRepairMidlandPage() {
                   <div>
                     <h4 className="font-bold mb-3 text-gray-800">Thermal Stress Evaluation</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Expansion/contraction crack mapping</li>
-                      <li>• Fastener fatigue assessment</li>
-                      <li>• Sealant failure documentation</li>
-                      <li>• Structural movement analysis</li>
+                      <li>• Field, ridge, and valley crack mapping with photo documentation</li>
+                      <li>• Fastener back-out and pull-through assessment in the nailing zone</li>
+                      <li>• Pipe-boot, skylight curb, and parapet sealant fracture documentation</li>
+                      <li>• Deck movement and truss-uplift analysis at gable ends</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold mb-3 text-gray-800">UV Degradation Analysis</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Granule loss quantification</li>
-                      <li>• Material brittleness testing</li>
-                      <li>• Color fade assessment</li>
-                      <li>• Protective coating evaluation</li>
+                      <li>• Granule loss measured against ASTM D3462 benchmarks</li>
+                      <li>• Mat brittleness checked by flexing south-facing samples</li>
+                      <li>• Color fade comparison between exposed slopes and protected eaves</li>
+                      <li>• Elastomeric and aluminized coating condition on flat sections</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold mb-3 text-gray-800">Energy Efficiency Review</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Attic temperature measurement</li>
-                      <li>• Ventilation adequacy assessment</li>
-                      <li>• Insulation condition evaluation</li>
-                      <li>• Cool roof potential analysis</li>
+                      <li>• Attic temperature readings during peak afternoon heat</li>
+                      <li>• Net free vent area calculated against IRC minimums</li>
+                      <li>• Insulation depth and compression check across the attic floor</li>
+                      <li>• ENERGY STAR cool-roof shingle and metal options reviewed</li>
                     </ul>
                   </div>
                 </div>
@@ -943,19 +959,19 @@ export default function RoofRepairMidlandPage() {
                       Thermal Management Installation
                     </h4>
                     <ul className="text-gray-700 space-y-2">
-                      <li>• Enhanced ventilation system installation</li>
-                      <li>• Radiant barrier integration</li>
-                      <li>• Thermal expansion accommodation</li>
-                      <li>• Cool roof technology implementation</li>
+                      <li>• Balanced ridge and soffit ventilation sized to the attic cubic footage</li>
+                      <li>• Foil-faced radiant barrier integrated under the deck on hot west slopes</li>
+                      <li>• Expansion gaps at metal panel laps and counter-flashing details</li>
+                      <li>• ENERGY STAR cool-roof shingles or PVDF-coated standing seam metal</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold mb-3 text-gray-800">Quality Assurance Protocols</h4>
                     <ul className="text-gray-700 space-y-2">
-                      <li>• Temperature stress testing</li>
-                      <li>• Thermal imaging verification</li>
-                      <li>• Fastener torque specifications</li>
-                      <li>• Sealant adhesion testing</li>
+                      <li>• Post-install attic temperature readings to confirm ventilation works</li>
+                      <li>• Thermal imaging sweep to find missed insulation gaps and hot spots</li>
+                      <li>• Nail-gun pressure set to manufacturer specs for the asphalt mat</li>
+                      <li>• Sealant pull-tests at pipe boots, skylight curbs, and wall flashings</li>
                     </ul>
                   </div>
                 </div>
@@ -1017,28 +1033,28 @@ export default function RoofRepairMidlandPage() {
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2 text-green-700">Market Advantages</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Normalized labor costs and availability</li>
-                      <li>• Competitive pricing from contractors</li>
-                      <li>• Faster project scheduling and completion</li>
-                      <li>• Better attention to detail and quality</li>
+                      <li>• Labor costs settle back toward Texas Panhandle norms</li>
+                      <li>• Shorter lead times on GAF, CertainTeed, and Owens Corning shingles</li>
+                      <li>• Crews can give Midland County jobs full attention without juggling boom-era backlogs</li>
+                      <li>• More time for proper deck inspection and flashing detail work</li>
                     </ul>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2 text-green-700">Investment Strategy</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Optimal time for major roof replacements</li>
-                      <li>• Energy efficiency upgrades for long-term savings</li>
-                      <li>• Property improvement for next boom cycle</li>
-                      <li>• Preventive maintenance to extend roof life</li>
+                      <li>• Good window for full reroofs on Greenwood and Holiday Hill homes that are 25-plus years out</li>
+                      <li>• ENERGY STAR cool-roof shingles or standing seam metal pay back over Permian Basin summers</li>
+                      <li>• Tile and architectural shingle upgrades hold value into the next boom cycle</li>
+                      <li>• Scheduled maintenance keeps current systems running until replacement makes sense</li>
                     </ul>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2 text-green-700">Quality Focus</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
-                      <li>• Thorough inspections and proper diagnosis</li>
-                      <li>• Premium materials at competitive pricing</li>
-                      <li>• Enhanced workmanship with careful scheduling</li>
-                      <li>• Extended warranties and maintenance programs</li>
+                      <li>• Full attic and deck inspections, not just slope-level walkthroughs</li>
+                      <li>• Class 4 impact-rated asphalt available at fair pricing</li>
+                      <li>• Installation sequencing that lets each detail get verified before the next slope starts</li>
+                      <li>• Manufacturer warranty registration documented at handover</li>
                     </ul>
                   </div>
                 </div>

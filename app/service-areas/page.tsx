@@ -212,8 +212,9 @@ export default function Page() {
               Where we work
             </h2>
             <p className="text-brand-brown/70 max-w-2xl mx-auto">
-              Pick your city to see roof replacement, hail damage, and commercial services tailored
-              to your area.
+              Pick your city to see roof replacement, hail damage repair, and commercial
+              roofing services tailored to the Texas Panhandle and West Texas market, from
+              Amarillo and Canyon down through Lubbock, Midland, and Odessa.
             </p>
           </div>
 

@@ -230,8 +230,12 @@ export default function HerefordRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Hereford</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential, commercial, and agricultural roofing services
-              throughout Hereford and Deaf Smith County. Select a service below for details.
+              Residential, commercial, and agricultural roofing coverage across Hereford and
+              the rest of Deaf Smith County. Installs span Class 4 impact-rated asphalt
+              shingles from GAF, CertainTeed, and Malarkey, 24-gauge standing seam metal on
+              farm shops and feedyard buildings, and TPO or PVC membrane systems for
+              commercial roofs along the Highway 60 and Highway 385 corridors. Select a
+              service below for details.
             </p>
           </FadeIn>
 

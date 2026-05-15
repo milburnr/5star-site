@@ -163,24 +163,28 @@ export default function HailDamageInsuranceClaimBlogPage() {
 
               <h3>Step 1: Document the Hail Event</h3>
               <p>
-                The first step happens immediately after a hail storm. You need to establish that
-                hail occurred at your property:
+                Documentation work starts as soon as it is safe to step outside after a Panhandle
+                or Permian Basin storm passes. You need to establish that hail actually hit your
+                property and roughly what size it was:
               </p>
               <ul>
                 <li>
-                  <strong>Take photos/videos:</strong> Capture any visible damage immediately—dented
-                  vents, damaged gutters, hail on the ground
+                  <strong>Take photos and short video:</strong> Capture dented vents, bent
+                  gutters, stones on the lawn or driveway, and any hail still on the ground next
+                  to a coin for scale
                 </li>
                 <li>
-                  <strong>Note the date and time:</strong> Record when the storm occurred
+                  <strong>Note the date and time:</strong> Record when the storm started and
+                  ended so adjusters from State Farm, Allstate, USAA, or Texas Farm Bureau can
+                  match your file to a specific event
                 </li>
                 <li>
-                  <strong>Check local weather reports:</strong> Screenshot or save National Weather
-                  Service reports showing hail in your area
+                  <strong>Save the NWS Amarillo or Lubbock reports:</strong> Screenshot National
+                  Weather Service hail reports and storm summaries for your county
                 </li>
                 <li>
-                  <strong>Look for ground markers:</strong> Dents in metal mailboxes, AC units, or
-                  vehicles help prove hail occurred
+                  <strong>Look for ground markers:</strong> Dents in metal mailboxes, AC fins,
+                  and vehicle hoods are useful corroborating evidence
                 </li>
               </ul>
 
@@ -266,25 +270,33 @@ export default function HailDamageInsuranceClaimBlogPage() {
 
               <h3>Step 4: Get a Professional Roofing Inspection</h3>
               <p>
-                <strong>This is critical:</strong> Before the insurance adjuster visits, have a
-                professional roofing contractor inspect your roof. Here's why:
+                <strong>This step matters more than most homeowners realize.</strong> Before the
+                insurance adjuster visits, get a professional roofing contractor on the roof
+                first. The reasons:
               </p>
               <ul>
-                <li>Roofers spot damage adjusters might miss</li>
-                <li>Professional documentation strengthens your claim</li>
+                <li>A roofer who does this work daily will catch bruising, soft hits, and
+                  granule loss that a generalist adjuster scanning many trades may pass over</li>
+                <li>A test-square photo set in the format State Farm and Allstate adjusters
+                  already use makes the file easy to approve</li>
                 <li>
-                  Having a contractor present during adjuster visit ensures nothing is overlooked
+                  Having a contractor on the roof during the adjuster visit means the two
+                  professionals can walk the damage together
                 </li>
-                <li>Roofers speak the adjuster's language and know what evidence is needed</li>
+                <li>Roofers know the Xactimate line items and material codes the adjuster will
+                  reference</li>
               </ul>
 
-              <p>A good roofing contractor will:</p>
+              <p>A good contractor in West Texas should:</p>
               <ul>
-                <li>Conduct a thorough inspection (roof, gutters, vents, flashing)</li>
-                <li>Take detailed photos and measurements</li>
-                <li>Prepare a damage report with aerial drone photography</li>
-                <li>Identify all damaged components (not just obvious damage)</li>
-                <li>Provide a detailed estimate for repairs or replacement</li>
+                <li>Walk the roof and check gutters, vent boots, step flashing, and the
+                  underlayment exposure at any blown-off shingles</li>
+                <li>Capture test-square photos at multiple slopes</li>
+                <li>Fly a drone for aerial overviews on architectural asphalt shingle and
+                  standing seam metal roofs</li>
+                <li>Identify collateral damage (siding, soft metals, garage door, AC fins)</li>
+                <li>Deliver a written estimate priced in the same Xactimate format the carrier
+                  will use</li>
               </ul>
 
               <h3>Step 5: Meet with the Insurance Adjuster</h3>
@@ -336,27 +348,33 @@ export default function HailDamageInsuranceClaimBlogPage() {
 
               <h3>Step 6: Review the Adjuster's Report</h3>
               <p>
-                After the inspection, you'll receive an adjuster's report and estimate. Review it
-                carefully:
+                After the inspection, you will receive the adjuster's report and Xactimate
+                estimate. Read it side by side with your contractor's documentation:
               </p>
               <ul>
                 <li>
-                  <strong>Check square footage:</strong> Verify it matches your actual roof size
+                  <strong>Check square footage:</strong> Verify the total squares match the roof
+                  drawing from your contractor or the satellite measurement service
                 </li>
                 <li>
-                  <strong>Review line items:</strong> Ensure all damaged components are included
+                  <strong>Review line items:</strong> Confirm starter strip, ice and water
+                  shield where required, ridge cap, drip edge, pipe boots, and step flashing are
+                  all listed
                 </li>
                 <li>
-                  <strong>Compare to contractor estimate:</strong> Significant differences may
-                  indicate issues
+                  <strong>Compare to your contractor estimate:</strong> Material-grade
+                  substitutions (3-tab versus architectural shingles, or builder-grade asphalt
+                  versus Class 4 impact-rated) are the most common gap
                 </li>
                 <li>
-                  <strong>Look for depreciation:</strong> Some policies pay actual cash value (ACV)
-                  initially, then depreciation after repairs
+                  <strong>Look for depreciation:</strong> Many Texas policies pay actual cash
+                  value (ACV) on the first check and release recoverable depreciation after the
+                  work is completed and invoiced
                 </li>
                 <li>
-                  <strong>Verify material quality:</strong> Ensure they're approving materials
-                  equivalent to what you currently have
+                  <strong>Verify material quality:</strong> Like-kind-and-quality language
+                  should match what is on the roof now, whether that is GAF Timberline,
+                  CertainTeed Landmark, or a Class 4 product like Malarkey Vista
                 </li>
               </ul>
 
@@ -408,19 +426,27 @@ export default function HailDamageInsuranceClaimBlogPage() {
               <h2>Common Mistakes That Can Hurt Your Claim</h2>
 
               <h3>1. Waiting Too Long to File</h3>
-              <p>While Texas gives you up to 2 years, waiting causes problems:</p>
+              <p>Texas law gives you up to two years from the date of loss, but waiting
+                creates real problems in Hail Alley:</p>
               <ul>
-                <li>Additional storms make it hard to prove which damage came from which event</li>
+                <li>Another storm rolls through Amarillo, Lubbock, or Midland and now you
+                  cannot separate which hail event caused which damage on your shingles</li>
                 <li>
-                  Minor damage worsens over time (insurance may argue it's now "wear and tear")
+                  Marginal hits worsen through summer UV and winter freeze-thaw, and the
+                  carrier may reclassify them as wear and tear
                 </li>
-                <li>The sooner you file, the sooner you get your new roof</li>
+                <li>The longer the file sits, the more questions State Farm or Allstate
+                  underwriting asks about delayed reporting</li>
               </ul>
 
               <h3>2. Making Temporary Repairs Without Photos</h3>
               <p>
-                If you make storm repairs (weatherproof sheeting, etc.) before filing, insurance may argue the
-                damage wasn't severe. <strong>Always photograph BEFORE making any repairs.</strong>
+                If you put down weatherproof sheeting, replace a single missing shingle, or
+                reseal a vent boot before filing, the adjuster from your carrier may argue the
+                damage was minor. Photograph every damaged slope and every loose piece of
+                flashing first, then take a second set of photos showing the temporary
+                weather protection in place. <strong>The before-photos protect your claim;
+                the after-photos protect your duty to mitigate.</strong>
               </p>
 
               <h3>3. Not Getting a Professional Inspection</h3>
@@ -432,19 +458,26 @@ export default function HailDamageInsuranceClaimBlogPage() {
 
               <h3>4. Accepting the First Offer Without Review</h3>
               <p>
-                Insurance companies hope you'll accept their initial offer. Don't sign anything
-                until you've had your contractor review it. Once you accept and sign, re-negotiation
-                becomes very difficult.
+                Carriers expect a percentage of homeowners to sign the first ACV check without
+                challenging the scope. Before you sign anything from State Farm, Allstate,
+                USAA, Farmers, or Texas Farm Bureau, hand the report and Xactimate sheet to
+                your contractor. Missing line items (drip edge, ice and water shield,
+                code-required upgrades, decking replacement allowances) are routine on initial
+                estimates. Once you sign and cash the check, reopening the file becomes a
+                slow, paperwork-heavy process.
               </p>
 
               <h3>5. Not Documenting Everything</h3>
-              <p>Keep records of:</p>
+              <p>Build one folder, digital or paper, that holds every piece of the file. Keep:</p>
               <ul>
-                <li>All photos and videos</li>
-                <li>All correspondence with insurance (emails, letters, claim notes)</li>
-                <li>Contractor estimates and reports</li>
-                <li>Weather reports proving hail occurrence</li>
-                <li>Any temporary repair receipts</li>
+                <li>Every photo and video from the day of the storm through final cleanup</li>
+                <li>All correspondence with the carrier (emails, claim notes, voicemail
+                  transcripts) including the claim number and the adjuster's direct line</li>
+                <li>Contractor estimates, drone reports, and any drawings or measurements</li>
+                <li>NWS hail reports for Potter, Randall, Lubbock, or whichever county the
+                  property sits in</li>
+                <li>Receipts for any temporary weather protection materials, which are
+                  typically reimbursable under duty-to-mitigate</li>
               </ul>
 
               <h2>How Much Will Your Insurance Pay?</h2>
@@ -513,15 +546,19 @@ export default function HailDamageInsuranceClaimBlogPage() {
               </p>
 
               <h3>Texas "Anti-Steering" Laws</h3>
-              <p>Texas law prohibits insurance companies from:</p>
+              <p>Texas Insurance Code 1304 protects your right to pick the contractor.
+                Carriers may not:</p>
               <ul>
-                <li>Requiring you to use a specific contractor</li>
-                <li>Penalizing you for choosing your own contractor</li>
-                <li>Paying less if you don't use their "preferred" contractor</li>
+                <li>Require you to use a contractor from a preferred or managed-repair
+                  network</li>
+                <li>Penalize you for hiring an independent local roofer in Amarillo,
+                  Lubbock, Midland, Odessa, or anywhere else in the state</li>
+                <li>Pay a reduced amount because you declined the preferred contractor</li>
               </ul>
               <p>
-                <strong>You have the right to choose your roofing contractor</strong>—don't let
-                insurance pressure you otherwise.
+                <strong>You choose the roofer.</strong> If a carrier representative pressures
+                you toward a specific company, you can report it to the Texas Department of
+                Insurance.
               </p>
 
               <h3>Texas Fair Claims Settlement Laws</h3>
@@ -536,8 +573,11 @@ export default function HailDamageInsuranceClaimBlogPage() {
               <h2>Working with a Roofing Contractor During Your Claim</h2>
 
               <p>
-                Choosing the right roofing contractor for your hail damage claim is critical. Here's
-                what to look for:
+                The contractor you hire shapes everything from claim approval to the warranty
+                you end up holding on a new GAF, CertainTeed, or Owens Corning roof. Picking a
+                local West Texas company over a traveling crew is the single biggest factor in
+                whether you get a clean claim and a warranty you can still call on five years
+                from now. Here is what to look for:
               </p>
 
               <h3>What a Good Contractor Should Provide:</h3>
@@ -645,31 +685,42 @@ export default function HailDamageInsuranceClaimBlogPage() {
 
               <h3>Should I make temporary repairs before filing?</h3>
               <p>
-                Yes, if there's active leaking—you have a duty to mitigate damage. But photograph
-                EVERYTHING before making repairs. Cover holes with weatherproof sheeting, catch
-                interior drips with buckets, but don't do permanent repairs until the adjuster has
-                inspected. Keep receipts for temporary repairs—these are often reimbursable.
+                Yes, if water is actively coming through the deck. Texas policies require
+                duty-to-mitigate, meaning you must stop further damage. Photograph the damaged
+                slope and the entry point first. Cover the area with weatherproof sheeting,
+                position buckets under interior drips, and move any electronics or fabric out
+                of the path. Hold off on permanent repairs until the adjuster from State Farm,
+                Allstate, USAA, or Texas Farm Bureau has documented the scene. Keep the
+                receipts for sheeting, fasteners, and any rental costs because most carriers
+                reimburse these under the mitigation clause.
               </p>
 
               <h2>Next Steps</h2>
 
-              <p>If you suspect hail damage to your West Texas property:</p>
+              <p>If you suspect hail damage on a home or business in Amarillo, Canyon,
+                Lubbock, Midland, Odessa, or anywhere else across the Texas Panhandle and
+                West Texas:</p>
 
               <ol>
                 <li>
-                  <strong>Document visible damage</strong> with photos and videos
+                  <strong>Document visible damage</strong> with dated photos and short video
+                  from the ground
                 </li>
                 <li>
-                  <strong>Schedule a free professional inspection</strong>
+                  <strong>Schedule a free professional inspection</strong> with a local
+                  contractor familiar with Hail Alley claims
                 </li>
                 <li>
-                  <strong>Contact your insurance company</strong> to start the claim
+                  <strong>Contact your carrier</strong> (State Farm, Allstate, USAA, Farmers,
+                  or Texas Farm Bureau) to open the claim
                 </li>
                 <li>
-                  <strong>Have a roofing contractor present</strong> when the adjuster visits
+                  <strong>Have a roofing contractor on site</strong> the day the adjuster
+                  walks the roof
                 </li>
                 <li>
-                  <strong>Review all estimates carefully</strong> before accepting
+                  <strong>Review the Xactimate estimate</strong> line by line before signing
+                  anything
                 </li>
               </ol>
 

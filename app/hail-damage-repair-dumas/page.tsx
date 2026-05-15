@@ -490,20 +490,20 @@ export default function HailDamageRepairDumasPage() {
                   </h3>
                   <ul className="space-y-3 text-gray-700">
                     <li>
-                      <strong>High Plains Convergence:</strong> Multiple air mass boundaries meet
-                      near Dumas
+                      <strong>High Plains Convergence:</strong> dry air off the Llano Estacado
+                      meets Gulf moisture near Moore County, firing supercells
                     </li>
                     <li>
-                      <strong>Canadian River Valley Effect:</strong> Topography channels and
-                      intensifies storms
+                      <strong>Canadian River Valley Effect:</strong> the river breaks the prairie
+                      south of Dumas and channels storm outflow back across town
                     </li>
                     <li>
-                      <strong>Elevation Advantage:</strong> Higher altitude creates stronger
-                      temperature gradients
+                      <strong>Elevation Advantage:</strong> Dumas sits near 3,700 feet, sharpening
+                      temperature gradients that feed updraft strength
                     </li>
                     <li>
-                      <strong>Open Prairie Fetch:</strong> Storms gain strength across unobstructed
-                      terrain
+                      <strong>Open Prairie Fetch:</strong> miles of unbroken Texas Panhandle
+                      grassland let storms build wind speed before they reach roofs in town
                     </li>
                   </ul>
                 </div>

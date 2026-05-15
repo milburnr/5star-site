@@ -355,13 +355,15 @@ export default function RoofReplacementPampaPage() {
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Commercial Downtown</h3>
-                <p className="text-gray-700 mb-4">Solutions for Pampa's business district:</p>
+                <p className="text-gray-700 mb-4">Solutions for the older storefronts along
+                  Cuyler Street and the broader Pampa business district:</p>
                 <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• Historic building compatibility</li>
-                  <li>• Energy-efficient upgrades</li>
-                  <li>• Minimal business disruption</li>
-                  <li>• City code compliance</li>
-                  <li>• Aesthetic enhancement options</li>
+                  <li>• Parapet flashings and built-up roofing rework compatible with the
+                    brick facades</li>
+                  <li>• TPO and PVC membrane options that carry ENERGY STAR cool-roof ratings</li>
+                  <li>• Phased scheduling that keeps retail floors open during the work</li>
+                  <li>• City of Pampa permits and adopted IBC code compliance</li>
+                  <li>• Coping caps and edge metal finished to match the existing storefront</li>
                 </ul>
               </div>
             </div>
@@ -372,9 +374,11 @@ export default function RoofReplacementPampaPage() {
           <section className="mb-16 bg-gradient-to-r from-gray-50 to-amber-50 p-10 rounded-xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Serving Greater Pampa Area</h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Our roof replacement services extend throughout Gray County and the surrounding Texas
-              Panhandle communities. We're familiar with local building codes, weather patterns, and
-              the specific challenges faced by property owners in each area.
+              Roof replacement crews work out across Gray County and into the surrounding
+              Panhandle communities along U.S. 60 and Highway 287. That covers everything from
+              architectural asphalt shingles on Pampa homes to standing seam metal on barns
+              outside Lefors and McLean. We work to the adopted Texas building code edition,
+              the Pampa permit process, and the wind and hail loads typical of Hail Alley.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -396,10 +400,12 @@ export default function RoofReplacementPampaPage() {
                   Energy Corridor Expertise
                 </h3>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Familiar with Celanese plant operations</li>
-                  <li>• Understanding of oil field schedules</li>
-                  <li>• Knowledge of local safety requirements</li>
-                  <li>• Established supplier relationships</li>
+                  <li>• Familiar with the Celanese Pampa plant operating windows and lockout
+                    requirements</li>
+                  <li>• Coordination with oil-and-gas field schedules across Gray County</li>
+                  <li>• Compliance with site-specific PPE, hot-work, and confined-space rules</li>
+                  <li>• Direct supplier relationships for TPO, modified bitumen, and standing
+                    seam metal in the Panhandle</li>
                 </ul>
               </div>
             </div>
@@ -624,26 +630,32 @@ export default function RoofReplacementPampaPage() {
                   Celanese Industrial Complex
                 </h3>
                 <p className="text-brand-brown mb-4">
-                  Serving one of America's largest chemical plants requires specialized expertise:
+                  The Celanese Pampa chemical plant is one of the largest industrial sites in
+                  the northeast Panhandle. Working there means matching the roof system to the
+                  process environment:
                 </p>
                 <ul className="text-brand-brown space-y-2">
-                  <li>• Chemical-resistant roofing systems</li>
-                  <li>• High-temperature performance materials</li>
-                  <li>• Explosion-resistant construction</li>
-                  <li>• Environmental compliance standards</li>
-                  <li>• Efficient repair capabilities for minimal downtime</li>
+                  <li>• PVC and KEE-blend membranes for chemical and oil resistance</li>
+                  <li>• Modified bitumen and high-temperature TPO assemblies for hot zones</li>
+                  <li>• Class A fire-rated assemblies and detailed flashings around flares
+                    and vents</li>
+                  <li>• Documentation that aligns with plant environmental reporting
+                    requirements</li>
+                  <li>• Phased re-roofs scheduled around plant turnarounds</li>
                 </ul>
               </div>
               <div className="bg-amber-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-4 text-amber-800">Oil & Gas Operations</h3>
                 <p className="text-amber-700 mb-4">
-                  Supporting Pampa's extensive energy infrastructure:
+                  Roof work across the oil-and-gas operations that ring Pampa and Gray County:
                 </p>
                 <ul className="text-amber-700 space-y-2">
-                  <li>• Warehouse and storage facility roofing</li>
-                  <li>• Administrative building solutions</li>
-                  <li>• Equipment shelter replacements</li>
-                  <li>• Understanding of operational requirements</li>
+                  <li>• Warehouse and pipe-yard storage buildings, typically R-panel metal
+                    or TPO</li>
+                  <li>• Administrative and field-office buildings with architectural asphalt
+                    shingle or standing seam metal</li>
+                  <li>• Compressor station and equipment shelter replacements</li>
+                  <li>• Site safety coordination with operator HSE programs</li>
                 </ul>
               </div>
             </div>

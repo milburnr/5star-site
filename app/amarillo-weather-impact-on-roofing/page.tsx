@@ -501,9 +501,13 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Maintenance Tips to Extend Roof Longevity</h2>
 
         <p>
-          Regular maintenance is essential for protecting your investment and catching problems
-          before they become costly repairs. We recommend annual inspections, especially after
-          severe weather events.
+          A roof in Amarillo lives through 7-9 hailstorms a year, sustained spring winds, and
+          the dust loading that comes off the Llano Estacado. Routine maintenance catches the
+          slow problems (granule loss on architectural asphalt shingles, sealant failure at pipe
+          boots, scupper clogging on low-slope TPO) before they turn into ceiling stains. The
+          baseline pattern that works for most homes in Potter and Randall counties is a spring
+          inspection before hail season, a fall inspection after, and a same-week look any time
+          a major storm passes through.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-3">
@@ -650,11 +654,13 @@ export default function Page() {
         </h2>
 
         <p>
-          Understanding your insurance coverage is crucial in Amarillo's high-risk weather
-          environment. Most Texas homeowner policies include wind and hail coverage, but the details
-          matter significantly. Deductibles, coverage limits, and claim procedures can vary
-          dramatically between insurers, and many homeowners discover coverage gaps only after
-          suffering storm damage.
+          Coverage matters more in Amarillo than in most Texas markets because hail comes
+          through Potter and Randall counties every year. State Farm, Allstate, USAA, Farmers,
+          and Texas Farm Bureau policies in this market typically include wind and hail
+          coverage, but the deductible structure, depreciation rules, and claim deadlines vary
+          carrier to carrier. Many homeowners only learn the details after a hailstorm, when
+          the percentage-based wind-and-hail deductible turns out to be much larger than the
+          standard deductible.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-3">Key Insurance Factors:</h3>
@@ -772,10 +778,12 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Warranty Protection for Amarillo Roofs</h2>
 
         <p>
-          Understanding warranty coverage is essential when investing in a new roof. Weather-related
-          damage can void manufacturer warranties if materials fail due to improper installation or
-          lack of maintenance. We provide comprehensive warranty protection that covers both
-          materials and workmanship for up to 25 years.
+          Warranty terms decide what gets covered after a Panhandle storm. GAF, CertainTeed,
+          and Owens Corning material warranties can be voided by improper installation, poor
+          attic ventilation, or missed maintenance, which is why the manufacturer documentation
+          matters as much as the shingle itself. On full replacements in Amarillo we provide a
+          workmanship warranty alongside the manufacturer coverage, with terms running up to 25
+          years on most architectural asphalt shingle and standing seam metal systems.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-3">5 Star Roofing Warranty Benefits:</h3>

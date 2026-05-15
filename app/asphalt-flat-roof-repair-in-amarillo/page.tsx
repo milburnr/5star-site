@@ -265,8 +265,10 @@ export default function Page() {
           <div>
             <h3 className="font-bold mb-2">Thermal Splitting</h3>
             <p className="text-gray-600">
-              Temperature cycling causes asphalt to expand/contract, creating cracks—common in West
-              Texas with extreme temperature swings
+              Amarillo summer roof-surface temperatures clear 160°F on dark modified bitumen
+              and built-up (BUR) systems, then drop 50 to 60 degrees on a Llano Estacado cold
+              front the same night. That expansion-contraction cycle opens cracks at laps,
+              flashings, and field seams faster than in any other Texas climate zone.
             </p>
           </div>
         </div>

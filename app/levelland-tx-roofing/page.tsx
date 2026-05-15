@@ -220,8 +220,11 @@ export default function LevellandRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Levelland</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Levelland and Hockley County. Select a service below for details.
+              Crews cover residential and commercial roof work across Levelland and Hockley
+              County, from architectural asphalt shingles and Class 4 impact-rated shingles on
+              homes near South Plains College to TPO, PVC, and modified bitumen on the
+              commercial buildings along U.S. 385 and Highway 114. Select a service below for
+              details.
             </p>
           </FadeIn>
 

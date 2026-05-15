@@ -292,15 +292,17 @@ export default function ResidentialRoofingBigSpringPage() {
                   Historic District Preservation
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Big Spring's historic neighborhoods require specialized roofing approaches that
-                  respect architectural heritage while providing modern protection. We work closely
-                  with historic preservation guidelines and homeowner associations.
+                  Big Spring&apos;s older Edwards Heights and downtown-adjacent neighborhoods
+                  carry 1920s through 1950s architectural detail that needs roofing decisions
+                  matched to the era, not stock builder-grade specs. The work coordinates with
+                  Howard County permitting and any neighborhood architectural review the home
+                  is subject to.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Period-appropriate material selection</li>
-                  <li>• Architectural guideline compliance</li>
-                  <li>• Heritage district coordination</li>
-                  <li>• Restoration-quality craftsmanship</li>
+                  <li>• CertainTeed Presidential or GAF Slateline shingles for period-correct profile</li>
+                  <li>• Color and texture matched to historic facade rather than current trend palettes</li>
+                  <li>• Coordination with City of Big Spring permitting and any review board input</li>
+                  <li>• Hand-detailed valley, ridge, and copper-flashing work on heritage homes</li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
@@ -308,15 +310,16 @@ export default function ResidentialRoofingBigSpringPage() {
                   Medical Center Area Homes
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  The expanding medical district has attracted new residential development with
-                  modern homes requiring contemporary roofing solutions. We provide energy-efficient
-                  systems that reduce costs for growing families.
+                  The Scenic Mountain Medical Center area has drawn newer residential construction
+                  with modern rooflines, complex penetrations, and rising cooling bills. Material
+                  selection focuses on cutting attic temperatures through Permian Basin summers
+                  that regularly clear 105°F.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Energy-efficient installations</li>
-                  <li>• New construction partnerships</li>
-                  <li>• Builder-grade warranty upgrades</li>
-                  <li>• Smart home integration ready</li>
+                  <li>• ENERGY STAR cool-roof asphalt shingles or 24-gauge standing seam metal options</li>
+                  <li>• Coordination with Big Spring custom builders on new construction</li>
+                  <li>• Upgrades from builder-grade shingles to GAF Timberline HDZ or CertainTeed Landmark</li>
+                  <li>• Roof preparation for future solar racking and rooftop satellite installs</li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-xl shadow-lg border border-orange-100">
@@ -324,14 +327,15 @@ export default function ResidentialRoofingBigSpringPage() {
                   Retiree Community Support
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Big Spring's affordable cost of living attracts retirees who need reliable,
-                  low-maintenance roofing solutions. Our senior-focused programs include extended
-                  warranties and priority response.
+                  Big Spring&apos;s lower cost of living draws retirees who want roof systems
+                  they can leave alone for the long haul. Material selection leans toward
+                  Class 4 impact-rated asphalt shingles or standing seam metal so the next
+                  Hail Alley storm season does not turn into a project.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Senior citizen discounts</li>
-                  <li>• Extended warranty programs</li>
-                  <li>• Simplified claims assistance</li>
+                  <li>• Senior pricing on full residential replacements</li>
+                  <li>• GAF System Plus or CertainTeed SureStart Plus extended warranty options</li>
+                  <li>• Claim-file preparation and adjuster coordination with State Farm, Allstate, Farmers, USAA, and Texas Farm Bureau</li>
                 </ul>
               </div>
             </div>

@@ -275,10 +275,12 @@ export default function WindDamageRepairSnyderPage() {
                   Supercell Wind Patterns
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Snyder sits in prime supercell territory where rotating thunderstorms create
-                  complex wind patterns including straight-line winds, downbursts, and rotating
-                  mesocyclones. These multi-directional forces require sophisticated repair
-                  techniques that address various stress vectors simultaneously.
+                  Snyder sits in prime supercell country where rotating thunderstorms move off
+                  the dryline and across Scurry County. A single storm can hit a roof with
+                  straight-line winds above 100 mph, sharp downbursts at the rear flank, and
+                  rotating mesocyclone shear. Repairs have to address fastener withdrawal,
+                  shingle uplift along the ridge, and edge-metal failure together, not as
+                  separate problems.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -286,10 +288,11 @@ export default function WindDamageRepairSnyderPage() {
                   Cap Rock Wind Acceleration
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  The Caprock Escarpment near Snyder creates wind acceleration zones where storms
-                  intensify rapidly. Properties in Scurry County experience amplified wind speeds as
-                  air masses compress and accelerate over the terrain changes, creating unique
-                  damage patterns.
+                  The Caprock Escarpment east of the Llano Estacado climbs roughly 1,000 feet over a
+                  short distance, and air masses compress as they ride up the face. Scurry County
+                  properties just east of the cap, including Snyder at about 2,400 feet of
+                  elevation, see amplified gusts when a system crosses the escarpment. Ridge caps,
+                  rake metal, and gutter aprons take the worst of it.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -297,10 +300,11 @@ export default function WindDamageRepairSnyderPage() {
                   Dryline Convergence Zones
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  West Texas drylines create convergence zones that trigger intense thunderstorms
-                  with powerful wind shear. These atmospheric boundaries produce rapid wind
-                  direction changes and speed variations that stress roofing systems beyond normal
-                  design parameters.
+                  The West Texas dryline often sets up between Snyder and Lubbock in spring and
+                  early summer, where dry Chihuahuan Desert air meets Gulf moisture. The
+                  convergence triggers fast-building supercells with sharp wind-direction shifts.
+                  Roofs see sustained loads from one quadrant, then sudden reversal, which stresses
+                  shingle seal strips and metal panel laps past UL 580 design wind values.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -308,10 +312,11 @@ export default function WindDamageRepairSnyderPage() {
                   Seasonal Wind Variations
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Scurry County experiences distinct seasonal wind patterns from arctic northers in
-                  winter to desert thermal winds in summer. Each season brings different wind
-                  challenges requiring year-round maintenance strategies and seasonal damage
-                  prevention measures.
+                  Snyder gets winter northers blowing down from the Texas Panhandle that can drop
+                  the temperature 30°F in an hour, followed by hot summer thermals off the Rolling
+                  Plains. Spring and early summer bring the worst supercell window. Each season
+                  drives different wear, so maintenance schedules need to look at fasteners after
+                  the cold months and at sealants after the hot ones.
                 </p>
               </div>
             </div>
@@ -330,9 +335,11 @@ export default function WindDamageRepairSnyderPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Rotating Mesocyclones</h3>
                 <p className="text-gray-700">
-                  Supercell thunderstorms create rotating wind patterns that can cause
-                  multi-directional roof damage. These rotating mesocyclones stress roofing systems
-                  from multiple angles simultaneously, requiring comprehensive structural repairs.
+                  Supercells over Scurry County produce rotating mesocyclones that pull at the roof
+                  from one direction, then another, in the span of a few minutes. Shingle tabs
+                  uplift on the windward slope while the lee slope flexes deck sheathing against
+                  the rafters. Repairs need ridge-vent reattachment, edge-metal replacement, and
+                  often six-nail fastening to bring slopes back to UL 580 wind uplift.
                 </p>
               </div>
               <div className="text-center">
@@ -352,9 +359,11 @@ export default function WindDamageRepairSnyderPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Rear Flank Downbursts</h3>
                 <p className="text-gray-700">
-                  Powerful downbursts from supercell rear flanks create intense downward pressure
-                  combined with rapid wind direction changes. This combination can cause complete
-                  membrane failure and structural damage to commercial buildings.
+                  Rear-flank downbursts slam roofs with vertical pressure followed by horizontal
+                  outflow. On Snyder commercial buildings with TPO, PVC, or EPDM single-ply
+                  membranes, that combination can lift large sheet areas, fracture seams, and bend
+                  parapet coping. Recovery usually means full-perimeter inspection plus targeted
+                  membrane and edge-metal repair.
                 </p>
               </div>
             </div>
@@ -399,10 +408,12 @@ export default function WindDamageRepairSnyderPage() {
                     Storm Pattern Analysis
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our meteorologically-trained assessors analyze local weather radar data and
-                    storm reports to understand the specific wind forces that affected your
-                    property. This scientific approach ensures repairs address the actual damage
-                    mechanisms rather than just visible symptoms.
+                    We pull National Weather Service radar archives and Storm Prediction Center
+                    reports for the date and location of the event, then cross-reference local
+                    observations from the Snyder and Lubbock NWS offices. That tells us whether the
+                    damage came from straight-line winds, a rotating mesocyclone, or a downburst,
+                    so the repair scope addresses the actual load path instead of just the visible
+                    symptoms.
                   </p>
                 </div>
               </div>
@@ -431,10 +442,11 @@ export default function WindDamageRepairSnyderPage() {
                     Agricultural Coordination
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Many Scurry County properties combine commercial buildings with agricultural
-                    operations. We coordinate repairs around harvest schedules, livestock needs, and
-                    agricultural equipment requirements to minimize disruption to farming
-                    operations.
+                    A lot of Scurry County roofs sit on cotton gins, grain storage, equipment
+                    sheds, and ranch headquarters along the Rolling Plains. We schedule around
+                    cotton harvest in fall, calving in late winter, and pivot-irrigation seasons so
+                    work doesn&apos;t pull operators away from the field. Phased tear-offs keep at
+                    least part of the building under cover at all times.
                   </p>
                 </div>
               </div>
@@ -447,9 +459,12 @@ export default function WindDamageRepairSnyderPage() {
                     Enhanced Wind Resistance Installation
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our repairs exceed standard specifications to withstand future supercell events.
-                    We install enhanced fastening patterns, reinforced edge details, and improved
-                    membrane specifications based on local wind modeling and storm history analysis.
+                    For Snyder homes we install six-nail patterns within the manufacturer&apos;s
+                    nailing zone, drip edge along all eaves and rakes, and ice-and-water shield in
+                    valleys. On commercial single-ply we move to UL 580 Class 90 wind uplift
+                    assemblies with reinforced perimeter and corner fastening sized for Rolling
+                    Plains gust history. Class 4 impact-rated shingles are an option on residential
+                    where the storm record warrants them.
                   </p>
                 </div>
               </div>
@@ -462,9 +477,11 @@ export default function WindDamageRepairSnyderPage() {
                     Long-Term Monitoring Strategy
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    West Texas properties need ongoing monitoring for wind damage prevention. We
-                    provide maintenance schedules, seasonal inspection protocols, and early warning
-                    systems to identify potential problems before they become major failures.
+                    Snyder roofs need check-ins after the spring supercell window, after the worst
+                    summer heat, and before the first winter norther. We set a maintenance schedule
+                    that includes ridge and edge-metal fastener checks, sealant inspection at pipe
+                    boots and skylights, and gutter clearing. Catching a backed-out nail or a
+                    cracked seam early keeps a small fix from becoming a full slope replacement.
                   </p>
                 </div>
               </div>
@@ -652,12 +669,12 @@ export default function WindDamageRepairSnyderPage() {
                   During Supercell Warnings
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Monitor weather radar and warnings</li>
-                  <li>• Move vehicles away from buildings</li>
-                  <li>• Secure outdoor furniture and equipment</li>
-                  <li>• Stay away from windows and skylights</li>
-                  <li>• Have emergency supplies ready</li>
-                  <li>• Prepare to document any damage after the storm</li>
+                  <li>• Track radar through the Lubbock and Midland NWS offices plus the Storm Prediction Center</li>
+                  <li>• Move vehicles out from under tree limbs and away from gable-end walls</li>
+                  <li>• Secure patio furniture, trash cans, and metal panels that can become Rolling Plains wind missiles</li>
+                  <li>• Keep clear of skylights and windows on the windward side of the building</li>
+                  <li>• Stage flashlights, water, and weather radios where the family will shelter</li>
+                  <li>• Once the storm passes, photograph slopes from ground level before any cleanup begins</li>
                 </ul>
               </div>
             </div>

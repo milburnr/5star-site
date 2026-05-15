@@ -248,14 +248,16 @@ export default function Page() {
                     Storm Damage Restoration
                   </h3>
                   <p className="mb-4">
-                    Wind, rain, snow, ice, and severe weather damage require professional attention to
-                    prevent further interior damage and costly repairs.
+                    West Texas wind, hail, heavy rain, and the occasional ice event leave specific
+                    failure patterns on asphalt shingle and TPO roofs. We document the damage,
+                    coordinate with State Farm, Allstate, USAA, or Farmers on the claim, and then
+                    handle the repair or full replacement.
                   </p>
                   <ul className="list-disc list-inside text-gray-600 space-y-2 mb-4">
-                    <li>Wind damage from 60+ mph gusts</li>
-                    <li>Heavy rain and water intrusion</li>
-                    <li>Snow load and ice dam damage</li>
-                    <li>Tree and debris impact repair</li>
+                    <li>Wind damage from 60+ mph Panhandle gusts (blow-off, tab lifting, ridge cap loss)</li>
+                    <li>Heavy rain and water intrusion through aged flashings and pipe boots</li>
+                    <li>Snow load and ice dam damage on lower-slope Amarillo and Canyon roofs</li>
+                    <li>Tree, debris, and wind-driven object impact repair</li>
                   </ul>
                   <a
                     href="/storm-damage-repair-amarillo/"
@@ -366,8 +368,9 @@ export default function Page() {
                     Standing Seam Metal Roofing
                   </h3>
                   <p className="text-gray-600 mb-3">
-                    Ultimate hail protection with 50+ year lifespan. Energy-efficient,
-                    fire-resistant, and increasingly popular in the Panhandle.
+                    24-gauge standing seam panels carry UL 2218 Class 4 hail and UL 580 wind
+                    uplift ratings. The concealed-fastener design lasts 50 years or longer and
+                    is increasingly common on new Amarillo, Canyon, and Lubbock homes.
                   </p>
                   <a
                     href="/roofing-methods/"
@@ -401,8 +404,10 @@ export default function Page() {
                 <div className="card-body">
                   <h3 className="text-xl font-semibold text-brand-brown mb-3">Roof Repairs</h3>
                   <p className="text-gray-600 mb-3">
-                    Missing shingles, leak repairs, flashing replacement, vent boot replacement, and
-                    localized damage repairs for Amarillo homes.
+                    Missing architectural asphalt shingles, isolated leak repairs at HVAC curbs
+                    or chimneys, step-flashing replacement, EPDM pipe-boot swaps, and patch
+                    work on GAF, CertainTeed, and Owens Corning roofs in Amarillo, Canyon, and
+                    the surrounding Potter and Randall County neighborhoods.
                   </p>
                   <a
                     href="/residential-roofing/"
@@ -419,7 +424,11 @@ export default function Page() {
                 <div className="card-body">
                   <h3 className="text-xl font-semibold text-brand-brown mb-3">Roof Maintenance</h3>
                   <p className="text-gray-600 mb-3">
-                    Annual roof inspections, gutter and downspout clearing, sealant and flashing rework, and proactive shingle replacement before the next Panhandle hail or wind event. We document the work so future insurance claims have a clean baseline.
+                    Spring and fall inspections, gutter and downspout clearing of Llano Estacado
+                    dust buildup, sealant and step-flashing rework, pipe-boot replacement, and
+                    proactive shingle work ahead of the next Panhandle hail event. Each visit
+                    is photographed so future State Farm, Allstate, or Texas Farm Bureau claims
+                    have a clean baseline on file.
                   </p>
                   <a
                     href="/residential-roofing/"
@@ -662,7 +671,11 @@ export default function Page() {
               </div>
               <h3 className="font-bold text-xl mb-3">Licensed & Insured</h3>
               <p className="text-gray-600">
-                Licensed to operate in Texas. Carries general liability and Texas workers' compensation coverage on every crew member. Certificates of insurance available on request before any work begins.
+                Licensed to operate in Texas, with general liability and Texas workers'
+                compensation coverage on every crew member working in Amarillo, Lubbock,
+                Midland, Odessa, and the surrounding service area. Certificates of insurance
+                are emailed before any work begins, which is what commercial property managers
+                and HOA boards routinely ask for at contract signing.
               </p>
             </div>
             <div className="text-center p-6">
@@ -681,8 +694,10 @@ export default function Page() {
               </div>
               <h3 className="font-bold text-xl mb-3">Insurance Documentation Expertise</h3>
               <p className="text-gray-600">
-                We've provided professional documentation and roofing expertise supporting over $50M
-                in insurance claims. We know what adjusters need to see.
+                Reports are built in the Xactimate-ready format State Farm, Allstate, USAA,
+                Farmers, and Texas Farm Bureau adjusters work with daily. We have supported
+                over $50M in West Texas insurance claim documentation, with test-square photos,
+                drone overviews, and like-kind-and-quality material specs.
               </p>
             </div>
             <div className="text-center p-6">

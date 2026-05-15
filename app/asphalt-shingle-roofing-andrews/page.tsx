@@ -474,11 +474,13 @@ export default function AsphaltShingleRoofingAndrewsPage() {
                     Final Inspection & Warranty Activation
                   </h3>
                   <p className="text-gray-600">
-                    Final walkthrough includes comprehensive cleanup, detailed warranty
-                    documentation, and maintenance guidance specific to Andrews's climate
-                    challenges. We coordinate final inspections with Andrews building officials,
-                    activate manufacturer warranties, and provide prompt contact information for
-                    post-storm repair coverage throughout Andrews County.
+                    The final walkthrough covers a magnetic nail sweep of the lawn and
+                    landscape, debris haul-off, and a written punch list. Warranty paperwork
+                    is registered with GAF, CertainTeed, or Owens Corning, and we schedule the
+                    closing inspection with the Andrews building official. You leave the
+                    project with a maintenance summary covering the Permian Basin sun, wind,
+                    and occasional hail, plus the phone line to call if a storm hits Andrews
+                    County later and you want a follow-up inspection.
                   </p>
                 </div>
               </div>

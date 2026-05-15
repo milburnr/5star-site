@@ -112,8 +112,10 @@ export default function BushlandRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Rural Expertise</h3>
                 <p className="text-gray-600">
-                  We understand the unique needs of rural properties including metal buildings,
-                  barns, and agricultural structures common in Bushland.
+                  Bushland properties run heavy to R-panel metal barns, standing seam shop
+                  buildings, and architectural asphalt shingle homes on acreage. We work all
+                  three regularly, including the longer trim runs and exposed-fastener
+                  details that come with rural construction.
                 </p>
               </div>
               <div className="text-center">
@@ -122,8 +124,11 @@ export default function BushlandRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">post-storm documentation</h3>
                 <p className="text-gray-600">
-                  Bushland's exposed location means severe weather hits hard. We provide prompt
-                  weatherproof sheeting and rapid hail damage assessment.
+                  Bushland sits exposed on the Llano Estacado west of Amarillo, so hail and
+                  straight-line wind hit hard. We schedule inspections after storms move
+                  through, install temporary weather protection where the deck is open, and
+                  document damage for State Farm, Allstate, USAA, and Texas Farm Bureau
+                  claim files.
                 </p>
               </div>
             </div>

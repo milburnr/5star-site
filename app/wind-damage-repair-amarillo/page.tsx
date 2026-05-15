@@ -316,10 +316,10 @@ export default function WindDamageRepairAmarilloPage() {
                 <h3 className="text-xl font-bold text-green-900 mb-3">Spring (Mar-May)</h3>
                 <p className="text-sm text-green-800 mb-3">Average: 16.2 mph sustained</p>
                 <ul className="space-y-2 text-sm text-green-700">
-                  <li>• Peak wind season—most damage occurs</li>
-                  <li>• Severe thunderstorm derechos</li>
-                  <li>• Rapid temperature fluctuations</li>
-                  <li>• Optimal repair weather follows storms</li>
+                  <li>• Peak wind season for the Amarillo metro and Potter-Randall counties</li>
+                  <li>• Llano Estacado derechos with gust fronts that lift shingle laminates</li>
+                  <li>• 30 to 40 degree cold-front swings that crack aging sealant beads</li>
+                  <li>• Repair windows usually open within days of each storm passage</li>
                 </ul>
               </div>
 
@@ -327,10 +327,10 @@ export default function WindDamageRepairAmarilloPage() {
                 <h3 className="text-xl font-bold text-yellow-900 mb-3">Summer (Jun-Aug)</h3>
                 <p className="text-sm text-yellow-800 mb-3">Average: 13.4 mph sustained</p>
                 <ul className="space-y-2 text-sm text-yellow-700">
-                  <li>• Afternoon microburst events</li>
-                  <li>• Heat expansion worsens wind damage</li>
-                  <li>• Dust storms erode roof materials</li>
-                  <li>• Prime repair season availability</li>
+                  <li>• Afternoon microburst downdrafts off Texas Panhandle thunderstorms</li>
+                  <li>• 160-plus degree surface temperatures soften asphalt seal strips</li>
+                  <li>• Llano Estacado dust events scour granules and dull metal paint finishes</li>
+                  <li>• Stable warm-weather windows make this the prime install season</li>
                 </ul>
               </div>
 
@@ -433,32 +433,37 @@ export default function WindDamageRepairAmarilloPage() {
                   <li className="flex items-start gap-2">
                     <span className="text-red-600 font-bold">•</span>
                     <span>
-                      <strong>Sealant failure:</strong> High-wind stress breaks invisible adhesive
-                      bonds around flashing and penetrations—undetectable without professional
-                      inspection
+                      <strong>Seal-strip failure:</strong> Llano Estacado gusts break the
+                      factory adhesive bond between shingle courses around chimneys and pipe
+                      boots. The shingles look intact from the ground but no longer hold each
+                      other down. Visible only from a hands-on inspection on the roof.
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-600 font-bold">•</span>
                     <span>
-                      <strong>Fastener withdrawal:</strong> Uplift forces gradually pull roofing
-                      nails from decking—compromises structural integrity before visible damage
-                      appears
+                      <strong>Fastener withdrawal:</strong> Cycle after cycle of uplift backs
+                      nails partially out of the OSB or plywood deck, leaving the visible
+                      shingle in place but no longer mechanically attached. We catch this with
+                      a probe and a magnet sweep before it shows up as a missing section.
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-600 font-bold">•</span>
                     <span>
-                      <strong>Underlayment damage:</strong> Wind-driven debris penetrates felt paper
-                      through small tears—creates leak paths invisible from exterior inspection
+                      <strong>Underlayment tearing:</strong> Wind-driven Texas Panhandle debris
+                      and tumbleweed punctures synthetic underlayment or 30-pound felt through
+                      small tears under the shingles, creating leak paths invisible from the
+                      roof exterior.
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-600 font-bold">•</span>
                     <span>
-                      <strong>Thermal movement:</strong> Wind-accelerated temperature cycling
-                      expands/contracts materials at different rates, creating microscopic
-                      separation gaps
+                      <strong>Thermal-cycle stress:</strong> Amarillo&apos;s 30 to 40 degree
+                      cold-front swings combined with wind-accelerated cooling expand and
+                      contract metal flashings against asphalt shingles at very different
+                      rates, opening microscopic separation gaps at every junction.
                     </span>
                   </li>
                 </ul>
@@ -510,16 +515,20 @@ export default function WindDamageRepairAmarilloPage() {
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold text-green-900 mb-4">Coverage Basics</h3>
                 <p className="text-gray-700 mb-4">
-                  Most Texas homeowner policies include wind damage coverage under "windstorm and
-                  hail" provisions. However, coverage specifics vary significantly between carriers,
-                  especially regarding wind speed thresholds and deductible structures.
+                  Most Texas homeowner policies cover wind damage under the &quot;windstorm
+                  and hail&quot; section, but each Amarillo carrier handles deductibles and
+                  loss settlement differently. Knowing the rules of your specific policy is
+                  the difference between a paid claim and a denial in Potter and Randall
+                  County wind events.
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    <strong>State Farm:</strong> Named storm deductible vs. wind/hail deductible
+                    <strong>State Farm:</strong> separate named-storm deductible vs. standard
+                    wind/hail deductible, applied as a percentage of dwelling coverage
                   </li>
                   <li>
-                    <strong>Allstate:</strong> Catastrophic loss provisions for widespread events
+                    <strong>Allstate:</strong> catastrophic-loss provisions kick in for
+                    widespread Texas Panhandle wind events declared by state
                   </li>
                   <li>
                     <strong>USAA:</strong> Military families often have enhanced wind coverage

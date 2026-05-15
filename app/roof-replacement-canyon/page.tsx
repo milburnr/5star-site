@@ -449,8 +449,12 @@ export default function RoofReplacementCanyonPage() {
               What Does Roofing Materials for Canyon's Academic Community Include?
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
-              Material selection optimized for university town property types, from student housing
-              durability to executive home aesthetics.
+              Canyon sits on the southern edge of the Amarillo metro at the West Texas A&amp;M
+              University campus, with Randall County housing stock that runs from student
+              rentals and faculty cottages near the university to executive homes overlooking
+              Palo Duro Canyon. Material specs differ across those categories. Class 4 GAF
+              Timberline HDZ, CertainTeed Landmark, and Owens Corning Duration shingles plus
+              24-gauge standing seam metal cover most of what Canyon needs.
             </p>
 
             <div className="space-y-8">

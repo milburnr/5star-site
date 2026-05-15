@@ -269,10 +269,11 @@ export default function RoofInspectionsPerrytonPage() {
                 <div className="border-l-4 border-brand-gold pl-6">
                   <h3 className="text-xl font-bold text-brand-brown mb-3">4K Drone Imaging</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Ultra-high resolution aerial documentation captures subtle damage patterns
-                    across Perryton's vast wheat country properties. Our certified pilots navigate
-                    High Plains wind conditions to deliver comprehensive roof surface analysis
-                    impossible from ground level.
+                    FAA Part 107-certified pilots fly low-altitude 4K imaging passes across
+                    Ochiltree County roofs, capturing hail bruising, granule loss, and lifted
+                    shingles you cannot see from a ladder. The flight plan is paced for steady
+                    20 to 35-mph High Plains crosswinds that are normal across Perryton wheat
+                    fields, and the imagery is geotagged for the insurance file.
                   </p>
                 </div>
                 <div className="border-l-4 border-brand-gold pl-6">
@@ -280,10 +281,11 @@ export default function RoofInspectionsPerrytonPage() {
                     Agricultural Property Expertise
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Specialized assessment of farm structures, grain storage facilities, and
-                    equipment buildings. We understand the unique challenges of agricultural roofing
-                    in wheat country environments with constant exposure to dust, chemicals, and
-                    heavy machinery vibrations.
+                    Farm shops, equipment sheds, and grain storage in Ochiltree County share
+                    failure patterns we know to look for. Granular wheat dust packing into
+                    standing seam metal laps, fastener fatigue under combine and grain-cart
+                    vibration, and Galvalume edge corrosion from herbicide drift all show up
+                    in the report with photos and a recommended next step.
                   </p>
                 </div>
                 <div className="border-l-4 border-brand-gold pl-6">
@@ -291,9 +293,11 @@ export default function RoofInspectionsPerrytonPage() {
                     Moisture Detection Systems
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Advanced thermal imaging and moisture meters detect hidden water damage critical
-                    in Perryton's climate. Early detection prevents structural damage to valuable
-                    grain storage and equipment protection areas.
+                    Infrared thermal imaging picks up wet decking and saturated insulation
+                    that looks dry from a Perryton walkthrough. A pin-style moisture meter
+                    confirms the readings on suspect spots. Catching trapped water before it
+                    rots an OSB deck or rusts purlins on a grain-storage shop is what keeps a
+                    small repair from turning into a structural job.
                   </p>
                 </div>
               </div>
@@ -301,9 +305,11 @@ export default function RoofInspectionsPerrytonPage() {
                 <div className="border-l-4 border-brand-gold pl-6">
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Wind Damage Analysis</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Comprehensive evaluation of wind uplift patterns specific to High Plains
-                    geography. Perryton's open terrain creates unique wind load challenges requiring
-                    specialized inspection techniques and damage documentation methods.
+                    Perryton sits on flat, open High Plains terrain with no terrain breaks to
+                    slow gust fronts. That puts corner and perimeter zones in higher ASCE 7
+                    pressure brackets than the interior field. We document creased shingles,
+                    lifted laminate strips, and lost ridge caps in those exact zones so the
+                    claim ties to where the building code actually predicts the damage.
                   </p>
                 </div>
                 <div className="border-l-4 border-brand-gold pl-6">
@@ -311,9 +317,11 @@ export default function RoofInspectionsPerrytonPage() {
                     Hail Impact Documentation
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Precise measurement and photography of hail damage using industry-standard test
-                    squares. Our documentation meets insurance company requirements and has helped
-                    hundreds of Perryton property owners secure successful claims.
+                    10-by-10 chalk test squares on each roof slope, close-up photos of each
+                    impact with a coin or gauge for scale, and slope-by-slope impact counts.
+                    The package lines up with what State Farm, Allstate, Farmers, and Texas
+                    Farm Bureau adjusters expect when they open a Perryton hail file, and we
+                    walk it with the adjuster on site.
                   </p>
                 </div>
                 <div className="border-l-4 border-brand-gold pl-6">
@@ -321,9 +329,11 @@ export default function RoofInspectionsPerrytonPage() {
                     Structural Integrity Assessment
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Evaluation of roof support systems under agricultural loading conditions. We
-                    assess impact from grain dust accumulation, equipment storage, and operational
-                    stresses common in Perryton's farming community.
+                    Pre-engineered metal buildings around Perryton carry purlins, bar joists,
+                    and rigid frames that need a real eye on them. We check for fastener
+                    backout, purlin sag from packed wheat dust, and weld cracks at clip
+                    connections on grain-storage roofs. The Texas Panhandle&apos;s heat-cycle
+                    swing makes that connection hardware the first thing to fatigue.
                   </p>
                 </div>
               </div>
@@ -345,10 +355,11 @@ export default function RoofInspectionsPerrytonPage() {
                   Wheat Country Challenges
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Perryton sits in the heart of wheat country, creating unique roofing challenges.
-                  Constant grain dust exposure, chemical drift, and agricultural equipment
-                  vibrations accelerate roof aging. Our inspections account for these
-                  agricultural-specific stress factors.
+                  Perryton sits in the Texas Panhandle&apos;s wheat belt. Combine and grain-cart
+                  dust packs into standing seam laps and ridge vents, glyphosate and 2,4-D
+                  herbicide drift dulls paint finishes, and vibration from grain elevators and
+                  feed trucks works fasteners loose over the long haul. The inspection report
+                  flags those exposures by zone instead of writing them off as normal aging.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl">
@@ -357,10 +368,12 @@ export default function RoofInspectionsPerrytonPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">High Plains Weather</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Perryton's position in the High Plains exposes properties to extreme weather
-                  patterns. Sudden temperature drops, intense UV exposure, and severe thunderstorms
-                  with damaging hail require specialized roofing materials and regular professional
-                  inspections.
+                  Perryton sits at roughly 2,900 feet on the Llano Estacado escarpment. That
+                  means cold-front temperature drops of 30 to 40 degrees in a few hours, year-round
+                  UV intensity that ages asphalt shingles faster than coastal Texas, and a
+                  Hail Alley spring season that routinely produces quarter to golf-ball-sized
+                  stones. UL 2218 Class 4 impact-rated materials and an annual inspection cycle
+                  match that exposure.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl">
@@ -369,9 +382,11 @@ export default function RoofInspectionsPerrytonPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Industrial Agriculture</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Large-scale agricultural operations demand robust roofing systems. Our inspections
-                  evaluate the impact of grain elevators, equipment storage, and processing
-                  facilities on surrounding residential and commercial properties.
+                  Ochiltree County co-ops, grain elevators, and feed mills run R-panel, standing
+                  seam, and TPO assemblies that need different inspection eyes than a Perryton
+                  house roof. The report covers panel deflection, seam separation, curb flashing
+                  on rooftop fans, and dust-load drainage paths so an operations manager can
+                  plan repairs around harvest scheduling.
                 </p>
               </div>
             </div>
