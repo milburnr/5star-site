@@ -100,6 +100,18 @@ export default function Page() {
 
 
       </FadeIn>
+
+      {/* auto-link:pass-3 */}
+      <aside className="container-custom mt-8 mb-10">
+        <div className="max-w-5xl mx-auto bg-white border border-brand-gold/30 rounded-2xl p-5">
+          <p className="font-semibold text-brand-brown mb-2">You might also find these useful</p>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside text-sm">
+            <li><a href="/amarillo-weather-impact-on-roofing/" className="text-brand-brown hover:text-brand-gold underline">Amarillo weather impact</a></li>
+            <li><a href="/amarillo-homes-roofing-services/" className="text-brand-brown hover:text-brand-gold underline">Amarillo home roofing</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       <div className="content-block">
         <h2 className="content-block-title">
           Roofing Technology Built for Amarillo's Extreme Weather

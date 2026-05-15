@@ -175,6 +175,18 @@ export default function Page() {
 
 
       </FadeIn>
+
+      {/* auto-link:pass-3 */}
+      <aside className="container-custom mt-8 mb-10">
+        <div className="max-w-5xl mx-auto bg-white border border-brand-gold/30 rounded-2xl p-5">
+          <p className="font-semibold text-brand-brown mb-2">You might also find these useful</p>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside text-sm">
+            <li><a href="/heavy-rain-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">heavy rain damage</a></li>
+            <li><a href="/roof-snow-and-ice-damage-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">snow and ice damage</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       <div className="content-block">
         <h2 className="content-block-title">Roof Rot: A Hidden Threat to Texas Panhandle Homes</h2>
         <p className="text-lg">

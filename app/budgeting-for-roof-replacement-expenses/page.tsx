@@ -94,6 +94,18 @@ export default function Page() {
 
       </FadeIn>
 
+      {/* auto-link:pass-3 */}
+      <aside className="container-custom mt-8 mb-10">
+        <div className="max-w-5xl mx-auto bg-white border border-brand-gold/30 rounded-2xl p-5">
+          <p className="font-semibold text-brand-brown mb-2">You might also find these useful</p>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside text-sm">
+            <li><a href="/amarillo-homes-roofing-services/" className="text-brand-brown hover:text-brand-gold underline">Amarillo home roofing</a></li>
+            <li><a href="/amarillos-best-roofer/" className="text-brand-brown hover:text-brand-gold underline">Amarillo's best roofer</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       {/* Post Meta */}
       <div className="text-gray-600 mb-6 flex gap-4">
         <time dateTime="2023-12-06">December 6, 2023</time>

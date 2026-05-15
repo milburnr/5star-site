@@ -630,6 +630,18 @@ export default function Page() {
         </section>
       </FadeIn>
 
+      {/* auto-link:pass-3 */}
+      <aside className="container-custom mt-8 mb-10">
+        <div className="max-w-5xl mx-auto bg-white border border-brand-gold/30 rounded-2xl p-5">
+          <p className="font-semibold text-brand-brown mb-2">You might also find these useful</p>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside text-sm">
+            <li><a href="/amarillos-best-roofer/" className="text-brand-brown hover:text-brand-gold underline">Amarillo's best roofer</a></li>
+            <li><a href="/roofing-methods/" className="text-brand-brown hover:text-brand-gold underline">roofing methods</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       {/* Related Links */}
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Services</h2>

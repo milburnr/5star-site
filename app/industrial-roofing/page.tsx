@@ -153,6 +153,18 @@ export default function Page() {
           </div>
         </section>
       </FadeIn>
+
+      {/* auto-link:pass-3 */}
+      <aside className="container-custom mt-8 mb-10">
+        <div className="max-w-5xl mx-auto bg-white border border-brand-gold/30 rounded-2xl p-5">
+          <p className="font-semibold text-brand-brown mb-2">You might also find these useful</p>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside text-sm">
+            <li><a href="/pvc-roofing-contractors-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">PVC roofing contractors</a></li>
+            <li><a href="/pvc-roof-replacement-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">PVC roof replacement</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       {/* auto-link:pass-1 */}
       <aside className="container-custom mt-6 mb-8">
         <div className="max-w-5xl mx-auto bg-white border-l-4 border-brand-brown rounded-r-2xl p-5 text-sm text-gray-700">
