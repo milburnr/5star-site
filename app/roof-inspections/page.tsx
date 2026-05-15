@@ -463,9 +463,7 @@ export default function Page() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-bold text-brand-brown mb-2">Insurance and Warranty Inspection</h3>
             <p className="text-gray-700">
-              Some carriers and manufacturers require periodic documentation of roof condition. Our
-              reports satisfy these requirements with detailed findings, professional photographs,
-              and written assessments signed by our inspection team.
+              State Farm, Allstate, USAA, Farmers, Texas Farm Bureau, and most commercial carriers periodically request roof-condition reports on policy renewals. GAF, Owens Corning, CertainTeed, Carlisle, and Firestone warranty packages on Class 4 hail-rated and TPO systems also require documented inspections at year 5, year 10, and after every named storm. Our inspection reports include high-resolution photos, slope-by-slope measurements, an itemized findings list, and a written assessment signed by the inspecting estimator. Reports are delivered as a PDF within 48 hours.
             </p>
           </div>
         </div>

@@ -275,31 +275,26 @@ export default function Page() {
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-2">Tornado and Severe Wind</h3>
               <p className="text-sm text-gray-600">
-                Partial or complete roof removal, structural damage to trusses and decking, and
-                widespread debris impact. Tornado repairs often involve structural assessment before
-                roofing work can begin.
+                EF-0 to EF-2 events in the Panhandle frequently strip ridge caps, lift hip and ridge shingles, and pull plywood decking off rafters in 110+ mph gust zones. Repairs start with a structural assessment of trusses and decking before any new roofing system goes back on. UL 580 wind-rated reinstallation is standard on every replacement.
               </p>
             </div>
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-2">Flash Flooding and Ponding</h3>
               <p className="text-sm text-gray-600">
-                Standing water on flat roofs causes membrane deterioration, seam failure, and deck
-                rot. Clogged drains during{" "}
+                A 1-inch-per-hour Panhandle squall is enough to overwhelm Amarillo and Lubbock commercial drains. Standing water on TPO and PVC flat roofs accelerates membrane breakdown, opens heat-welded seams, and rots OSB or plywood decking. Clogged scuppers during{" "}
                 <a
                   href="/heavy-rain-damage-roof-repair-in-amarillo/"
                   className="text-brand-brown hover:text-brand-gold underline"
                 >
                   heavy rain events
                 </a>{" "}
-                compound the problem by trapping water on the roof surface.
+                trap inches of water on top of the membrane within an hour. Repair scope includes drain clearance, full ponding-area patching, and re-pitched insulation where deflection is permanent.
               </p>
             </div>
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-2">Flying Debris</h3>
               <p className="text-sm text-gray-600">
-                Tree branches, loose building materials, and airborne objects create punctures,
-                dents, and tears in roofing systems. Impact damage may be localized but can
-                compromise waterproofing across a wider area.
+                Hackberry and Bradford pear branches across Amarillo and Lubbock neighborhoods, loose construction materials from nearby job sites, and even small tumbleweeds all puncture asphalt shingles and tear single-ply TPO membranes during a high-wind event. A single 2-inch puncture in a TPO seam can wick water across 40+ square feet of insulation before showing through the ceiling.
               </p>
             </div>
           </div>
@@ -372,10 +367,11 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-2">Documentation</h3>
               <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-                <li>Detailed photo and video documentation of all damage</li>
-                <li>Measurements and damage mapping for the entire roof</li>
-                <li>Written damage assessment reports for your insurer</li>
-                <li>Before-and-after documentation of emergency repairs</li>
+                <li>High-resolution photo and 4K drone video of every slope, ridge, valley, and penetration</li>
+                <li>Measured square-footage diagrams and per-slope hail impact density maps</li>
+                <li>Written assessment reports formatted for State Farm, USAA, Allstate, Farmers, and Texas Farm Bureau adjusters</li>
+                <li>Before-and-after photos of every tarp-up and emergency patch, time-stamped and geo-tagged</li>
+                <li>Class 4 UL 2218 hail-rated upgrade options documented for premium-discount eligibility</li>
               </ul>
             </div>
             <div>
@@ -470,8 +466,7 @@ export default function Page() {
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-1">Permian Basin (Midland-Odessa)</h3>
               <p className="text-sm text-gray-600">
-                Peak season May-July. Severe thunderstorms with damaging straight-line winds and
-                hail. Dust storms can also abrade roofing surfaces throughout the year.
+                Permian Basin storm season runs May through July. Midland and Odessa see straight-line wind events at 70 to 90 mph, hail up to 2 inches, and occasional supercell rotation from the Stanton-to-Andrews dryline. Dust storms across Highway 158 abrade asphalt shingle granules and pit oxidized standing seam metal year-round. Class 4 hail-rated systems are the standard recommendation for the Basin.
               </p>
             </div>
             <div className="bg-white p-4 rounded-lg">

@@ -398,9 +398,9 @@ export default function Page() {
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="font-bold text-brand-brown mb-2">Restaurants</h3>
-          <p className="text-sm text-gray-600 mb-2">Quick-service and sit-down restaurants</p>
+          <p className="text-sm text-gray-600 mb-2">Quick-service drive-throughs, sit-down chains, and independent kitchens across Amarillo and West Texas</p>
           <p className="text-xs text-gray-500">
-            PVC chemical-resistant systems ideal for grease exhaust areas
+            PVC chemical-resistant single-ply membranes around grease exhaust hoods, with reinforced walking pads on rooftop HVAC service paths to extend membrane life
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -421,8 +421,7 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-12 mb-4">ROI & Energy Efficiency Benefits</h2>
       <div className="bg-brand-gold-light p-6 rounded-lg mb-8">
         <p className="mb-4">
-          A new commercial roof isn't just an expense—it's an investment that can reduce operating
-          costs and increase property value. Here's how:
+          A new TPO, PVC, or standing seam metal roof on an Amarillo, Lubbock, Midland, or Odessa commercial building pays back across three lines: lower summer cooling costs, fewer interior-damage claims, and an asset value bump on the property's next appraisal. Class 4 hail-rated systems also unlock insurance premium discounts on most major Texas carriers. Here is how the math typically lines up:
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -437,10 +436,11 @@ export default function Page() {
           <div>
             <h3 className="font-bold text-brand-brown mb-2">Long-Term Value</h3>
             <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
-              <li>Prevents interior damage from leaks (mold, ceiling tiles, inventory)</li>
-              <li>Increases property value and curb appeal</li>
-              <li>Reduces maintenance costs over roof lifespan</li>
-              <li>Insurance premium discounts for hail-resistant systems</li>
+              <li>Prevents interior damage from leaks: drywall, ceiling tile, inventory, and IT equipment downtime</li>
+              <li>Lifts capitalization-rate-adjusted property value on appraisal once the new roof appears on the building report</li>
+              <li>Cuts annual roof maintenance line items: leak callouts, ponding patches, and HVAC service-path repairs</li>
+              <li>Unlocks Class 4 UL 2218 hail-resistance insurance premium discounts on most major Texas commercial carriers</li>
+              <li>Manufacturer warranties available up to 30 years on TPO and PVC, 40 years on standing seam metal</li>
             </ul>
           </div>
         </div>

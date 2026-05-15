@@ -514,8 +514,7 @@ export default function Page() {
             <div className="text-3xl font-bold text-brand-gold mb-2">4</div>
             <h3 className="font-bold text-brand-brown mb-2">Cleanup and Final Inspection</h3>
             <p className="text-sm text-gray-600">
-              Magnetic nail sweep of your yard and driveway, debris hauled off-site, and a final
-              walkthrough to confirm everything meets our standards.
+              Two magnetic nail sweeps across the yard, driveway, and street. Debris hauled off in our own dump trailer the same day. Final walkthrough with the homeowner to confirm ridge caps, flashings, vent boots, drip edge, and gutters all pass inspection before the punch list is closed.
             </p>
           </div>
         </div>
@@ -542,19 +541,21 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-2">Payment Options</h3>
               <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-                <li>Free detailed estimates with no obligation</li>
-                <li>Flexible payment scheduling</li>
-                <li>No payment required until work is completed</li>
-                <li>Financing referrals available for qualified homeowners</li>
+                <li>Free written estimates within 48 hours, no obligation</li>
+                <li>Split-payment schedules: deposit on material delivery, balance on final inspection</li>
+                <li>No payment due until the City of Amarillo (or local jurisdiction) closes the permit</li>
+                <li>Texas Prompt Payment Act timing rules respected on every commercial job</li>
+                <li>Financing referrals for qualified homeowners through approved local lenders</li>
               </ul>
             </div>
             <div>
               <h3 className="font-bold text-brand-brown mb-2">Insurance Claim Coordination</h3>
               <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-                <li>Free storm damage documentation for your claim</li>
-                <li>We meet with your insurance adjuster on-site</li>
-                <li>Supplemental claim filing for missed damage</li>
-                <li>Direct billing to insurance when applicable</li>
+                <li>Free hail and wind damage documentation, including overhead drone photography and impact mapping</li>
+                <li>On-site meeting with State Farm, Allstate, USAA, Farmers, and other major Texas carriers' adjusters</li>
+                <li>Supplemental claim filing for missed damage on ridge caps, vents, gutters, and step flashing</li>
+                <li>Direct billing to the insurance carrier on approved replacements when allowed by the policy</li>
+                <li>Class 4 UL 2218 hail-rated upgrade options documented for premium-discount eligibility</li>
               </ul>
             </div>
             <div>

@@ -482,9 +482,7 @@ export default function Page() {
               >
                 roof inspections
               </a>{" "}
-              catch loose shingles, degraded caulking, and worn flashing before they become failure
-              points during the next windstorm. Preventative repairs cost a fraction of emergency
-              work.
+              catch loose ridge caps, broken shingle seal strips, degraded pipe-boot caulking, and worn step flashing well before the next Panhandle wind event tests them. Spring and fall walkovers in Amarillo, Canyon, Lubbock, and Midland routinely uncover six to ten small failure points whose total repair cost is a fraction of one tarp-up and emergency call after a storm strips a section of roof.
             </p>
           </div>
         </div>

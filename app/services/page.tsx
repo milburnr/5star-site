@@ -384,8 +384,7 @@ export default function Page() {
                 <div className="card-body">
                   <h3 className="text-xl font-semibold text-brand-brown mb-3">Roof Replacement</h3>
                   <p className="text-gray-600 mb-3">
-                    Complete tear-off and replacement for aging roofs or severe storm damage. We
-                    handle all aspects from permits to final cleanup.
+                    Full tear-off and replacement for aging roofs and post-storm total losses. Class 4 hail-rated asphalt shingles, standing seam metal, and synthetic underlayment options. We pull City of Amarillo permits, handle decking repair, and run the final magnetic nail sweep.
                   </p>
                   <a
                     href="/residential-roofing/"
@@ -420,8 +419,7 @@ export default function Page() {
                 <div className="card-body">
                   <h3 className="text-xl font-semibold text-brand-brown mb-3">Roof Maintenance</h3>
                   <p className="text-gray-600 mb-3">
-                    Annual inspections, gutter cleaning, minor repairs, and preventive maintenance
-                    to extend your roof's lifespan in harsh Texas weather.
+                    Annual roof inspections, gutter and downspout clearing, sealant and flashing rework, and proactive shingle replacement before the next Panhandle hail or wind event. We document the work so future insurance claims have a clean baseline.
                   </p>
                   <a
                     href="/residential-roofing/"
@@ -623,8 +621,7 @@ export default function Page() {
                 <Package className="w-6 h-6 inline-block" /> Warehouses & Distribution
               </h3>
               <p className="text-gray-600 mb-2">
-                Cost-effective roofing solutions for large warehouses, distribution centers, and
-                storage facilities with emphasis on durability and energy efficiency.
+                TPO and PVC membranes, R-panel and standing seam metal, and built-up systems for warehouses, distribution centers, and storage facilities along the I-40 and I-27 corridors. Cool-roof reflective membranes cut summer cooling loads on West Texas buildings without sacrificing hail resistance.
               </p>
             </div>
             <div>
@@ -632,8 +629,7 @@ export default function Page() {
                 <Construction className="w-6 h-6 inline-block" /> New Construction
               </h3>
               <p className="text-gray-600 mb-2">
-                Complete roofing systems for new industrial construction projects with coordinated
-                scheduling and quality control for general contractors.
+                Roofing for new industrial builds across Amarillo, Lubbock, Midland, and Odessa. We coordinate with general contractors on schedule, submit dry-in dates, and run weekly job-site walks so the roof package never holds up framing or interior trades.
               </p>
             </div>
           </div>
@@ -666,8 +662,7 @@ export default function Page() {
               </div>
               <h3 className="font-bold text-xl mb-3">Licensed & Insured</h3>
               <p className="text-gray-600">
-                Fully licensed in Texas with comprehensive general liability and workers'
-                compensation insurance for your protection.
+                Licensed to operate in Texas. Carries general liability and Texas workers' compensation coverage on every crew member. Certificates of insurance available on request before any work begins.
               </p>
             </div>
             <div className="text-center p-6">

@@ -304,7 +304,7 @@ export default function Page() {
               Smaller communities we serve
             </h2>
             <p className="text-brand-brown/70 max-w-2xl mx-auto">
-              Same crew, same response time, same workmanship — in every town where the storms hit.
+              From Vega and Bushland on I-40 to Plainview, Hereford, and Snyder out across the Llano Estacado, the same Amarillo crew shows up after a storm. UL 2218 Class 4 hail-rated installs, free inspections, and full insurance documentation are available in every smaller community we serve. Call (806) 622-6041 to schedule.
             </p>
           </div>
           <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 max-w-5xl mx-auto">

@@ -255,8 +255,7 @@ export default function LubbockRoofingPage() {
             <h2 className="section-title">Lubbock Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From historic neighborhoods near Texas Tech to newer developments on the city&apos;s
-                growing edges, we provide expert roofing services throughout the Hub City:
+                From Tech Terrace and Overton near Texas Tech to the newer developments on the Upland Avenue and 114th Street corridors, 5 Star Roofing crews work across every Lubbock neighborhood. Class 4 hail-rated installs are the standard recommendation on the South Plains because Lubbock County logs 7 to 10 hail events per year. Every Lubbock job is dispatched from the Amarillo headquarters that has served the region since 2014.
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>
