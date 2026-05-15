@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FadeIn } from "@/components/FadeIn";
 import Link from "next/link";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import MapEmbed from "@/components/MapEmbed";
@@ -142,6 +143,22 @@ export default function Page() {
           { name: "Service Areas", url: "/service-areas/" },
         ]}
       />
+
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: every city across the Texas Panhandle and West Texas that 5 Star serves.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Coverage: from Amarillo and Canyon in the Panhandle to Lubbock, Midland, and Odessa in West Texas.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Local crews: each market gets the same Class 4 hail-rated materials and the same insurance documentation workflow.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: pick your city to see services, or call (806) 622-6041 to talk to the team.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
 
       {/* Lead — storm-response identity */}
       <section className="bg-gradient-to-b from-amber-50 to-white py-16">

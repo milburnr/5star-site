@@ -148,6 +148,22 @@ export default function Page() {
         ]}
       />
 
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: every roofing service 5 Star offers, organized by residential, commercial, and storm work.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Residential: asphalt shingle, metal, hail damage repair, and full replacement with insurance documentation.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Commercial and industrial: TPO and PVC membrane systems, metal roofing, and built-up roofs for low-slope buildings.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Service area: Amarillo headquarters with crews across the Panhandle and West Texas. Call (806) 622-6041 to get started.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
+
       {/* Trust badges — moved out of hero so we can use the standardized hero treatment */}
       <section className="bg-brand-brown text-white py-6 md:py-8">
         <div className="container-custom">
