@@ -1,4 +1,5 @@
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone } from "lucide-react";
@@ -191,6 +192,21 @@ export default function Page() {
       <h1 className="text-4xl font-bold mb-6">
         Understanding Climate and Roof Longevity in Amarillo: A 5-Star Roofing Guide
       </h1>
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-4 mb-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: how Amarillo weather, hail, wind, UV, and freeze-thaw, affects roof life and what to do about it.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Local context: Amarillo sits in Hail Alley, averaging 7 to 10 significant hail events per year on top of regular wind and UV exposure.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What to do: schedule a roof inspection after every major storm and after every five years on a working roof.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: call (806) 622-6041 for a free inspection from a local Amarillo crew.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
 
       {/* Post Meta */}
       <div className="text-gray-600 mb-6 flex gap-4">

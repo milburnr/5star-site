@@ -1,0 +1,973 @@
+{
+  "modifiedFiles": [
+    "/wind-damage-repair-snyder/",
+    "/wind-damage-repair-perryton/",
+    "/wind-damage-repair-pampa/",
+    "/wind-damage-repair-odessa/",
+    "/wind-damage-repair-monahans/",
+    "/wind-damage-repair-midland/",
+    "/wind-damage-repair-lubbock/",
+    "/wind-damage-repair-levelland/",
+    "/wind-damage-repair-dumas/",
+    "/wind-damage-repair-canyon/",
+    "/wind-damage-repair-borger/",
+    "/wind-damage-repair-big-spring/",
+    "/wind-damage-repair-andrews/",
+    "/wind-damage-repair/",
+    "/vega-tx-roofing/",
+    "/tpo-roofing-snyder/",
+    "/tpo-roofing-perryton/",
+    "/tpo-roofing-pampa/",
+    "/tpo-roofing-monahans/",
+    "/tpo-roofing-midland/",
+    "/tpo-roofing-lubbock/",
+    "/tpo-roofing-levelland/",
+    "/tpo-roofing-dumas/",
+    "/tpo-roofing-canyon/",
+    "/tpo-roofing-borger/",
+    "/tpo-roofing-big-spring/",
+    "/tpo-roofing-andrews/",
+    "/tpo-roofing-amarillo/",
+    "/storm-damage-repair-snyder/",
+    "/storm-damage-repair-perryton/",
+    "/storm-damage-repair-pampa/",
+    "/storm-damage-repair-odessa/",
+    "/storm-damage-repair-monahans/",
+    "/storm-damage-repair-midland/",
+    "/storm-damage-repair-lubbock/",
+    "/storm-damage-repair-levelland/",
+    "/storm-damage-repair-dumas/",
+    "/storm-damage-repair-canyon/",
+    "/storm-damage-repair-borger/",
+    "/storm-damage-repair-big-spring/",
+    "/storm-damage-repair-andrews/",
+    "/storm-damage-repair-amarillo/",
+    "/snyder-tx-roofing/",
+    "/services/",
+    "/service-areas/",
+    "/roof-replacement-snyder/",
+    "/roof-replacement-perryton/",
+    "/roof-replacement-pampa/",
+    "/roof-replacement-odessa/",
+    "/roof-replacement-monahans/",
+    "/roof-replacement-midland/",
+    "/roof-replacement-levelland/",
+    "/roof-replacement-dumas/",
+    "/roof-replacement-canyon/",
+    "/roof-replacement-big-spring/",
+    "/roof-replacement-andrews/",
+    "/roof-replacement-amarillo/",
+    "/roof-replacement/",
+    "/roof-repair-snyder/",
+    "/roof-repair-perryton/",
+    "/roof-repair-pampa/",
+    "/roof-repair-odessa/",
+    "/roof-repair-monahans/",
+    "/roof-repair-levelland/",
+    "/roof-repair-dumas/",
+    "/roof-repair-canyon/",
+    "/roof-repair-borger/",
+    "/roof-repair-big-spring/",
+    "/roof-repair-amarillo/",
+    "/roof-inspections-snyder/",
+    "/roof-inspections-perryton/",
+    "/roof-inspections-pampa/",
+    "/roof-inspections-odessa/",
+    "/roof-inspections-monahans/",
+    "/roof-inspections-midland/",
+    "/roof-inspections-lubbock/",
+    "/roof-inspections-levelland/",
+    "/roof-inspections-dumas/",
+    "/roof-inspections-canyon/",
+    "/roof-inspections-borger/",
+    "/roof-inspections-big-spring/",
+    "/roof-inspections-amarillo/",
+    "/residential-roofing-snyder/",
+    "/residential-roofing-perryton/",
+    "/residential-roofing-pampa/",
+    "/residential-roofing-odessa/",
+    "/residential-roofing-monahans/",
+    "/residential-roofing-midland/",
+    "/residential-roofing-lubbock/",
+    "/residential-roofing-levelland/",
+    "/residential-roofing-dumas/",
+    "/residential-roofing-canyon/",
+    "/residential-roofing-borger/",
+    "/residential-roofing-big-spring/",
+    "/residential-roofing-andrews/",
+    "/residential-roofing-amarillo/",
+    "/residential-roofing/",
+    "/metal-roofing-snyder/",
+    "/metal-roofing-perryton/",
+    "/metal-roofing-pampa/",
+    "/metal-roofing-odessa/",
+    "/metal-roofing-monahans/",
+    "/metal-roofing-midland/",
+    "/metal-roofing-lubbock/",
+    "/metal-roofing-levelland/",
+    "/metal-roofing-canyon/",
+    "/metal-roofing-big-spring/",
+    "/metal-roofing-andrews/",
+    "/metal-roofing-amarillo/",
+    "/metal-roof-installation-odessa-texas/",
+    "/hail-damage-repair-snyder/",
+    "/hail-damage-repair-plainview/",
+    "/hail-damage-repair-perryton/",
+    "/hail-damage-repair-pampa/",
+    "/hail-damage-repair-odessa/",
+    "/hail-damage-repair-monahans/",
+    "/hail-damage-repair-midland/",
+    "/hail-damage-repair-lubbock/",
+    "/hail-damage-repair-levelland/",
+    "/hail-damage-repair-hereford/",
+    "/hail-damage-repair-dumas/",
+    "/hail-damage-repair-canyon/",
+    "/hail-damage-repair-big-spring/",
+    "/hail-damage-repair-andrews/",
+    "/hail-damage-repair-amarillo/",
+    "/commercial-roofing-snyder/",
+    "/commercial-roofing-perryton/",
+    "/commercial-roofing-pampa/",
+    "/commercial-roofing-monahans/",
+    "/commercial-roofing-lubbock/",
+    "/commercial-roofing-levelland/",
+    "/commercial-roofing-canyon/",
+    "/commercial-roofing-borger/",
+    "/commercial-roofing-big-spring/",
+    "/commercial-roofing-amarillo/",
+    "/commercial-roofing/",
+    "/claude-tx-roofing/",
+    "/bushland-tx-roofing/",
+    "/asphalt-shingle-roofing-snyder/",
+    "/asphalt-shingle-roofing-perryton/",
+    "/asphalt-shingle-roofing-pampa/",
+    "/asphalt-shingle-roofing-odessa/",
+    "/asphalt-shingle-roofing-monahans/",
+    "/asphalt-shingle-roofing-midland/",
+    "/asphalt-shingle-roofing-lubbock/",
+    "/asphalt-shingle-roofing-levelland/",
+    "/asphalt-shingle-roofing-dumas/",
+    "/asphalt-shingle-roofing-canyon/",
+    "/asphalt-shingle-roofing-borger/",
+    "/asphalt-shingle-roofing-big-spring/",
+    "/asphalt-shingle-roofing-andrews/",
+    "/asphalt-shingle-roofing-amarillo/"
+  ],
+  "skippedAlreadyHas": [
+    "wind-damage-repair-amarillo",
+    "wildorado-tx-roofing",
+    "tpo-roofing-odessa",
+    "tpo-roofing",
+    "storm-damage-repair",
+    "roofing-methods-in-amarillo",
+    "roof-replacement-lubbock",
+    "roof-replacement-borger",
+    "roof-repair-midland",
+    "roof-repair-lubbock",
+    "roof-repair-andrews",
+    "roof-repair",
+    "roof-inspections-andrews",
+    "roof-inspections",
+    "plainview-texas-roofing",
+    "perryton-texas-roofing",
+    "pampa-texas-roofing",
+    "odessa-tx-roofing",
+    "monahans-tx-roofing",
+    "midland-tx-roofing",
+    "metal-roofing-dumas",
+    "metal-roofing-borger",
+    "metal-roofing",
+    "lubbock-tx-roofing",
+    "levelland-tx-roofing",
+    "hereford-texas-roofing",
+    "hail-damage-repair-borger",
+    "hail-damage-repair",
+    "flat-roof-repair-midland-texas",
+    "dumas-texas-roofing",
+    "commercial-roofing-odessa",
+    "commercial-roofing-midland",
+    "commercial-roofing-dumas",
+    "commercial-roofing-andrews",
+    "canyon-texas-roofing",
+    "borger-texas-roofing",
+    "big-spring-tx-roofing",
+    "asphalt-shingle-roofing",
+    "asphalt-flat-roof-repair-in-amarillo",
+    "andrews-tx-roofing",
+    "amarillo-tx-roofing"
+  ],
+  "skippedExplicit": [
+    "(homepage)",
+    "reviews",
+    "privacy",
+    "gallery",
+    "contact",
+    "blog",
+    "blog",
+    "blog",
+    "blog",
+    "blog",
+    "articles",
+    "about"
+  ],
+  "skippedNoHero": [
+    "roofing-methods",
+    "roof-snow-and-ice-damage-in-amarillo",
+    "roof-rot-damage-in-amarillo",
+    "pvc-roofing-contractors-in-amarillo",
+    "pvc-roof-replacement-in-amarillo",
+    "pvc-roof-repair-in-amarillo",
+    "industrial-roofing",
+    "heavy-rain-damage-roof-repair-in-amarillo",
+    "budgeting-for-roof-replacement-expenses",
+    "amarillos-best-roofer",
+    "amarillo-weather-impact-on-roofing",
+    "amarillo-homes-roofing-services"
+  ],
+  "audit": {
+    "duplicate_titles": {
+      "Wind Damage Repair Snyder TX | 5 Star Roofing": [
+        "/wind-damage-repair-snyder/"
+      ],
+      "Wind Damage Repair Perryton TX | 5 Star Roofing": [
+        "/wind-damage-repair-perryton/"
+      ],
+      "Wind Damage Repair Pampa TX | 5 Star Roofing": [
+        "/wind-damage-repair-pampa/"
+      ],
+      "Wind Damage Repair Odessa | 5 Star Roofing": [
+        "/wind-damage-repair-odessa/"
+      ],
+      "Wind Damage Repair Monahans TX | 5 Star Roofing": [
+        "/wind-damage-repair-monahans/"
+      ],
+      "Wind Damage Repair Midland | 5 Star Roofing": [
+        "/wind-damage-repair-midland/"
+      ],
+      "Wind Damage Repair Lubbock | 5 Star Roofing": [
+        "/wind-damage-repair-lubbock/"
+      ],
+      "Wind Damage Repair Levelland TX | 5 Star Roofing": [
+        "/wind-damage-repair-levelland/"
+      ],
+      "Wind Damage Repair Dumas TX | 5 Star Roofing": [
+        "/wind-damage-repair-dumas/"
+      ],
+      "Wind Damage Repair Canyon TX | 5 Star Roofing": [
+        "/wind-damage-repair-canyon/"
+      ],
+      "Wind Damage Repair Borger TX | 5 Star Roofing": [
+        "/wind-damage-repair-borger/"
+      ],
+      "Wind Damage Repair Big Spring TX | 5 Star Roofing": [
+        "/wind-damage-repair-big-spring/"
+      ],
+      "Wind Damage Repair Andrews TX | 5 Star Roofing": [
+        "/wind-damage-repair-andrews/"
+      ],
+      "Wind Damage Repair Amarillo TX | 5 Star Roofing": [
+        "/wind-damage-repair-amarillo/"
+      ],
+      "Wind Damage Roof Repair Texas | 5 Star Roofing": [
+        "/wind-damage-repair/"
+      ],
+      "Roofing Wildorado TX | Hail Damage | 5 Star Roofing": [
+        "/wildorado-tx-roofing/"
+      ],
+      "Roofing Vega, TX | Hail Damage Specialists | 5 Star Roofing": [
+        "/vega-tx-roofing/"
+      ],
+      "TPO Roofing Snyder TX | 5 Star Roofing": [
+        "/tpo-roofing-snyder/"
+      ],
+      "TPO Roofing Perryton TX | 5 Star Roofing": [
+        "/tpo-roofing-perryton/"
+      ],
+      "TPO Roofing Pampa TX | 5 Star Roofing": [
+        "/tpo-roofing-pampa/"
+      ],
+      "TPO Roofing Odessa TX | 5 Star Roofing": [
+        "/tpo-roofing-odessa/"
+      ],
+      "TPO Roofing Monahans TX | 5 Star Roofing": [
+        "/tpo-roofing-monahans/"
+      ],
+      "TPO Roofing Midland TX | 5 Star Roofing": [
+        "/tpo-roofing-midland/"
+      ],
+      "TPO Roofing Lubbock TX | 5 Star Roofing": [
+        "/tpo-roofing-lubbock/"
+      ],
+      "TPO Roofing Levelland TX | 5 Star Roofing": [
+        "/tpo-roofing-levelland/"
+      ],
+      "TPO Roofing Dumas TX | 5 Star Roofing": [
+        "/tpo-roofing-dumas/"
+      ],
+      "TPO Roofing Canyon TX | 5 Star Roofing": [
+        "/tpo-roofing-canyon/"
+      ],
+      "TPO Roofing Borger TX | 5 Star Roofing": [
+        "/tpo-roofing-borger/"
+      ],
+      "TPO Roofing Big Spring TX | 5 Star Roofing": [
+        "/tpo-roofing-big-spring/"
+      ],
+      "TPO Roofing Andrews TX | 5 Star Roofing": [
+        "/tpo-roofing-andrews/"
+      ],
+      "TPO Roofing Amarillo TX | 5 Star Roofing": [
+        "/tpo-roofing-amarillo/"
+      ],
+      "TPO Roofing West Texas | 5 Star Roofing": [
+        "/tpo-roofing/"
+      ],
+      "Storm Damage Repair Snyder TX | 5 Star Roofing": [
+        "/storm-damage-repair-snyder/"
+      ],
+      "Storm Damage Roof Repair Perryton TX | 5 Star Roofing": [
+        "/storm-damage-repair-perryton/"
+      ],
+      "Storm Damage Repair Pampa TX | 5 Star Roofing": [
+        "/storm-damage-repair-pampa/"
+      ],
+      "Storm Damage Repair Odessa | 5 Star Roofing": [
+        "/storm-damage-repair-odessa/"
+      ],
+      "Storm Damage Repair Monahans TX | 5 Star Roofing": [
+        "/storm-damage-repair-monahans/"
+      ],
+      "Storm Damage Repair Midland | 5 Star Roofing": [
+        "/storm-damage-repair-midland/"
+      ],
+      "Storm Damage Repair Lubbock | 5 Star Roofing": [
+        "/storm-damage-repair-lubbock/"
+      ],
+      "Storm Damage Repair Levelland TX | 5 Star Roofing": [
+        "/storm-damage-repair-levelland/"
+      ],
+      "Storm Damage Repair Dumas TX | 5 Star Roofing": [
+        "/storm-damage-repair-dumas/"
+      ],
+      "Storm Damage Repair Canyon TX | 5 Star Roofing": [
+        "/storm-damage-repair-canyon/"
+      ],
+      "Storm Damage Repair Borger TX | 5 Star Roofing": [
+        "/storm-damage-repair-borger/"
+      ],
+      "Storm Damage Repair Big Spring TX | 5 Star Roofing": [
+        "/storm-damage-repair-big-spring/"
+      ],
+      "Storm Damage Repair Andrews TX | 5 Star Roofing": [
+        "/storm-damage-repair-andrews/"
+      ],
+      "Storm Damage Roof Repair Amarillo TX | 5 Star Roofing": [
+        "/storm-damage-repair-amarillo/"
+      ],
+      "Storm Damage Roof Repair Texas | 5 Star Roofing": [
+        "/storm-damage-repair/"
+      ],
+      "Roofing in Snyder TX | 5 Star Roofing": [
+        "/snyder-tx-roofing/"
+      ],
+      "Roofing Services Amarillo TX | 5 Star Roofing": [
+        "/services/"
+      ],
+      "Roofing Service Areas in West Texas | 5 Star Roofing": [
+        "/service-areas/"
+      ],
+      "Roofing Methods & Materials Amarillo TX | 5 Star Roofing": [
+        "/roofing-methods-in-amarillo/"
+      ],
+      "Roofing Methods Amarillo | 5 Star Roofing": [
+        "/roofing-methods/"
+      ],
+      "Snow & Ice Roof Repair Amarillo | 5 Star Roofing": [
+        "/roof-snow-and-ice-damage-in-amarillo/"
+      ],
+      "Roof Rot Damage Repair in Amarillo TX | 5 Star Roofing": [
+        "/roof-rot-damage-in-amarillo/"
+      ],
+      "Roof Replacement Snyder TX | 5 Star Roofing": [
+        "/roof-replacement-snyder/"
+      ],
+      "Roof Replacement Perryton TX | 5 Star Roofing": [
+        "/roof-replacement-perryton/"
+      ],
+      "Roof Replacement Pampa TX | 5 Star Roofing": [
+        "/roof-replacement-pampa/"
+      ],
+      "Roof Replacement Odessa TX | 5 Star Roofing": [
+        "/roof-replacement-odessa/"
+      ],
+      "Roof Replacement Monahans TX | 5 Star Roofing": [
+        "/roof-replacement-monahans/"
+      ],
+      "Roof Replacement Midland TX | 5 Star Roofing": [
+        "/roof-replacement-midland/"
+      ],
+      "Roof Replacement Lubbock TX | 5 Star Roofing": [
+        "/roof-replacement-lubbock/"
+      ],
+      "Roof Replacement Levelland TX | 5 Star Roofing": [
+        "/roof-replacement-levelland/"
+      ],
+      "Roof Replacement Dumas TX | 5 Star Roofing": [
+        "/roof-replacement-dumas/"
+      ],
+      "Roof Replacement Canyon TX | 5 Star Roofing": [
+        "/roof-replacement-canyon/"
+      ],
+      "Roof Replacement Borger TX | 5 Star Roofing": [
+        "/roof-replacement-borger/"
+      ],
+      "Roof Replacement Big Spring TX | 5 Star Roofing": [
+        "/roof-replacement-big-spring/"
+      ],
+      "Roof Replacement Andrews TX | 5 Star Roofing": [
+        "/roof-replacement-andrews/"
+      ],
+      "Roof Replacement Amarillo TX | 5 Star Roofing": [
+        "/roof-replacement-amarillo/"
+      ],
+      "Roof Replacement West Texas | 5 Star Roofing": [
+        "/roof-replacement/"
+      ],
+      "Roof Repair Snyder TX | 5 Star Roofing": [
+        "/roof-repair-snyder/"
+      ],
+      "Roof Repair Perryton TX | 5 Star Roofing": [
+        "/roof-repair-perryton/"
+      ],
+      "Roof Repair Pampa TX | 5 Star Roofing": [
+        "/roof-repair-pampa/"
+      ],
+      "Roof Repair Odessa TX | 5 Star Roofing": [
+        "/roof-repair-odessa/"
+      ],
+      "Roof Repair Monahans TX | 5 Star Roofing": [
+        "/roof-repair-monahans/"
+      ],
+      "Roof Repair Midland TX | Free Inspection | 5 Star Roofing": [
+        "/roof-repair-midland/"
+      ],
+      "Roof Repair Lubbock TX | Free Inspection | 5 Star Roofing": [
+        "/roof-repair-lubbock/"
+      ],
+      "Roof Repair Levelland TX | 5 Star Roofing": [
+        "/roof-repair-levelland/"
+      ],
+      "Roof Repair Dumas TX | 5 Star Roofing": [
+        "/roof-repair-dumas/"
+      ],
+      "Roof Repair Canyon TX | 5 Star Roofing": [
+        "/roof-repair-canyon/"
+      ],
+      "Roof Repair Borger TX | 5 Star Roofing": [
+        "/roof-repair-borger/"
+      ],
+      "Roof Repair Big Spring TX | 5 Star Roofing": [
+        "/roof-repair-big-spring/"
+      ],
+      "Roof Repair Andrews TX | 5 Star Roofing": [
+        "/roof-repair-andrews/"
+      ],
+      "Roof Repair Amarillo TX | 5 Star Roofing": [
+        "/roof-repair-amarillo/"
+      ],
+      "Roof Repair Services West Texas | 5 Star Roofing": [
+        "/roof-repair/"
+      ],
+      "Roof Inspections Snyder TX | 5 Star Roofing": [
+        "/roof-inspections-snyder/"
+      ],
+      "Roof Inspections Perryton TX | 5 Star Roofing": [
+        "/roof-inspections-perryton/"
+      ],
+      "Roof Inspections Pampa TX | 5 Star Roofing": [
+        "/roof-inspections-pampa/"
+      ],
+      "Roof Inspections Odessa TX | 5 Star Roofing": [
+        "/roof-inspections-odessa/"
+      ],
+      "Roof Inspections Monahans TX | 5 Star Roofing": [
+        "/roof-inspections-monahans/"
+      ],
+      "Roof Inspections Midland TX | 5 Star Roofing": [
+        "/roof-inspections-midland/"
+      ],
+      "Roof Inspections Lubbock TX | 5 Star Roofing": [
+        "/roof-inspections-lubbock/"
+      ],
+      "Roof Inspections Levelland TX | 5 Star Roofing": [
+        "/roof-inspections-levelland/"
+      ],
+      "Roof Inspections Dumas TX | 5 Star Roofing": [
+        "/roof-inspections-dumas/"
+      ],
+      "Roof Inspections Canyon TX | 5 Star Roofing": [
+        "/roof-inspections-canyon/"
+      ],
+      "Roof Inspections Borger TX | 5 Star Roofing": [
+        "/roof-inspections-borger/"
+      ],
+      "Roof Inspections Big Spring TX | 5 Star Roofing": [
+        "/roof-inspections-big-spring/"
+      ],
+      "Roof Inspections Andrews TX | 5 Star Roofing": [
+        "/roof-inspections-andrews/"
+      ],
+      "Roof Inspections Amarillo TX | 5 Star Roofing": [
+        "/roof-inspections-amarillo/"
+      ],
+      "Roof Inspections West Texas | 5 Star Roofing": [
+        "/roof-inspections/"
+      ],
+      "Residential Roofing Snyder TX | 5 Star Roofing": [
+        "/residential-roofing-snyder/"
+      ],
+      "Residential Roofing Perryton TX | 5 Star Roofing": [
+        "/residential-roofing-perryton/"
+      ],
+      "Residential Roofing Pampa TX | 5 Star Roofing": [
+        "/residential-roofing-pampa/"
+      ],
+      "Residential Roofing Odessa TX | 5 Star Roofing": [
+        "/residential-roofing-odessa/"
+      ],
+      "Residential Roofing Monahans TX | 5 Star Roofing": [
+        "/residential-roofing-monahans/"
+      ],
+      "Residential Roofing Midland TX | 5 Star Roofing": [
+        "/residential-roofing-midland/"
+      ],
+      "Residential Roofing Lubbock TX | 5 Star Roofing": [
+        "/residential-roofing-lubbock/"
+      ],
+      "Residential Roofing Levelland TX | 5 Star Roofing": [
+        "/residential-roofing-levelland/"
+      ],
+      "Residential Roofing Dumas TX | 5 Star Roofing": [
+        "/residential-roofing-dumas/"
+      ],
+      "Residential Roofing Canyon TX | 5 Star Roofing": [
+        "/residential-roofing-canyon/"
+      ],
+      "Residential Roofing Borger TX | 5 Star Roofing": [
+        "/residential-roofing-borger/"
+      ],
+      "Residential Roofing Big Spring TX | 5 Star Roofing": [
+        "/residential-roofing-big-spring/"
+      ],
+      "Residential Roofing Andrews TX | 5 Star Roofing": [
+        "/residential-roofing-andrews/"
+      ],
+      "Residential Roofing Amarillo TX | 5 Star Roofing": [
+        "/residential-roofing-amarillo/"
+      ],
+      "Residential Roofing in Amarillo | 5 Star Roofing": [
+        "/residential-roofing/"
+      ],
+      "PVC Roofing Amarillo TX | Commercial | 5 Star Roofing": [
+        "/pvc-roofing-contractors-in-amarillo/"
+      ],
+      "Commercial PVC Roof Replacement Amarillo TX | 5 Star Roofing": [
+        "/pvc-roof-replacement-in-amarillo/"
+      ],
+      "PVC Roof Repair Amarillo TX | 5 Star Roofing": [
+        "/pvc-roof-repair-in-amarillo/"
+      ],
+      "Roofing in Plainview TX | 5 Star Roofing": [
+        "/plainview-texas-roofing/"
+      ],
+      "Roofing in Perryton TX | 5 Star Roofing": [
+        "/perryton-texas-roofing/"
+      ],
+      "Roofing in Pampa TX | 5 Star Roofing": [
+        "/pampa-texas-roofing/"
+      ],
+      "Roofing Contractor Odessa TX | 5 Star Roofing": [
+        "/odessa-tx-roofing/"
+      ],
+      "Roofing in Monahans TX | 5 Star Roofing": [
+        "/monahans-tx-roofing/"
+      ],
+      "Roofing Contractor Midland TX | 5 Star Roofing": [
+        "/midland-tx-roofing/"
+      ],
+      "Metal Roofing Snyder TX | 5 Star Roofing": [
+        "/metal-roofing-snyder/"
+      ],
+      "Metal Roofing Perryton TX | 5 Star Roofing": [
+        "/metal-roofing-perryton/"
+      ],
+      "Metal Roofing Pampa TX | 5 Star Roofing": [
+        "/metal-roofing-pampa/"
+      ],
+      "Metal Roofing Odessa TX | 5 Star Roofing": [
+        "/metal-roofing-odessa/"
+      ],
+      "Metal Roofing Monahans TX | 5 Star Roofing": [
+        "/metal-roofing-monahans/"
+      ],
+      "Metal Roofing Midland TX | 5 Star Roofing": [
+        "/metal-roofing-midland/"
+      ],
+      "Metal Roofing Lubbock TX | 5 Star Roofing": [
+        "/metal-roofing-lubbock/"
+      ],
+      "Metal Roofing Levelland TX | 5 Star Roofing": [
+        "/metal-roofing-levelland/"
+      ],
+      "Metal Roofing Dumas TX | 5 Star Roofing": [
+        "/metal-roofing-dumas/"
+      ],
+      "Metal Roofing Canyon TX | 5 Star Roofing": [
+        "/metal-roofing-canyon/"
+      ],
+      "Metal Roofing Borger TX | 5 Star Roofing": [
+        "/metal-roofing-borger/"
+      ],
+      "Metal Roofing Big Spring TX | 5 Star Roofing": [
+        "/metal-roofing-big-spring/"
+      ],
+      "Metal Roofing Andrews TX | 5 Star Roofing": [
+        "/metal-roofing-andrews/"
+      ],
+      "Metal Roofing Amarillo TX | 5 Star Roofing": [
+        "/metal-roofing-amarillo/"
+      ],
+      "Metal Roofing West Texas | 5 Star Roofing": [
+        "/metal-roofing/"
+      ],
+      "Metal Roof Installation in Odessa, TX | 5 Star Roofing": [
+        "/metal-roof-installation-odessa-texas/"
+      ],
+      "Roofing in Lubbock TX | 5 Star Roofing": [
+        "/lubbock-tx-roofing/"
+      ],
+      "Roofing in Levelland TX | 5 Star Roofing": [
+        "/levelland-tx-roofing/"
+      ],
+      "Industrial Roofing Amarillo TX | 5 Star Roofing": [
+        "/industrial-roofing/"
+      ],
+      "Roofing in Hereford TX | 5 Star Roofing": [
+        "/hereford-texas-roofing/"
+      ],
+      "Heavy Rain Damage Roof Repair Amarillo | 5 Star Roofing": [
+        "/heavy-rain-damage-roof-repair-in-amarillo/"
+      ],
+      "Hail Damage Repair Snyder TX | 5 Star Roofing": [
+        "/hail-damage-repair-snyder/"
+      ],
+      "Hail Damage Repair Plainview TX | 5 Star Roofing": [
+        "/hail-damage-repair-plainview/"
+      ],
+      "Hail Damage Repair Perryton TX | 5 Star Roofing": [
+        "/hail-damage-repair-perryton/"
+      ],
+      "Hail Damage Repair Pampa TX | 5 Star Roofing": [
+        "/hail-damage-repair-pampa/"
+      ],
+      "Hail Damage Repair Odessa TX | 5 Star Roofing": [
+        "/hail-damage-repair-odessa/"
+      ],
+      "Hail Damage Repair Monahans TX | 5 Star Roofing": [
+        "/hail-damage-repair-monahans/"
+      ],
+      "Hail Damage Repair Midland TX | 5 Star Roofing": [
+        "/hail-damage-repair-midland/"
+      ],
+      "Hail Damage Repair Lubbock TX | 5 Star Roofing": [
+        "/hail-damage-repair-lubbock/"
+      ],
+      "Hail Damage Repair Levelland TX | 5 Star Roofing": [
+        "/hail-damage-repair-levelland/"
+      ],
+      "Hail Damage Repair Hereford TX | 5 Star Roofing": [
+        "/hail-damage-repair-hereford/"
+      ],
+      "Hail Damage Repair Dumas TX | 5 Star Roofing": [
+        "/hail-damage-repair-dumas/"
+      ],
+      "Hail Damage Repair Canyon TX | 5 Star Roofing": [
+        "/hail-damage-repair-canyon/"
+      ],
+      "Hail Damage Repair Borger TX | 5 Star Roofing": [
+        "/hail-damage-repair-borger/"
+      ],
+      "Hail Damage Repair Big Spring TX | 5 Star Roofing": [
+        "/hail-damage-repair-big-spring/"
+      ],
+      "Hail Damage Repair Andrews TX | 5 Star Roofing": [
+        "/hail-damage-repair-andrews/"
+      ],
+      "Hail Damage Roof Repair Amarillo TX | 5 Star Roofing": [
+        "/hail-damage-repair-amarillo/"
+      ],
+      "Hail Damage Roof Repair West Texas | 5 Star Roofing": [
+        "/hail-damage-repair/"
+      ],
+      "Flat Roof Repair in Midland, TX | 5 Star Roofing": [
+        "/flat-roof-repair-midland-texas/"
+      ],
+      "Roofing in Dumas TX | 5 Star Roofing": [
+        "/dumas-texas-roofing/"
+      ],
+      "Commercial Roofing Snyder TX | 5 Star Roofing": [
+        "/commercial-roofing-snyder/"
+      ],
+      "Commercial Roofing Perryton TX | 5 Star Roofing": [
+        "/commercial-roofing-perryton/"
+      ],
+      "Commercial Roofing Pampa TX | 5 Star Roofing": [
+        "/commercial-roofing-pampa/"
+      ],
+      "Commercial Roofing Odessa TX | 5 Star Roofing": [
+        "/commercial-roofing-odessa/"
+      ],
+      "Commercial Roofing Monahans TX | 5 Star Roofing": [
+        "/commercial-roofing-monahans/"
+      ],
+      "Commercial Roofing Midland TX | 5 Star Roofing": [
+        "/commercial-roofing-midland/"
+      ],
+      "Commercial Roofing Lubbock TX | 5 Star Roofing": [
+        "/commercial-roofing-lubbock/"
+      ],
+      "Commercial Roofing Levelland TX | 5 Star Roofing": [
+        "/commercial-roofing-levelland/"
+      ],
+      "Commercial Roofing Dumas TX | 5 Star Roofing": [
+        "/commercial-roofing-dumas/"
+      ],
+      "Commercial Roofing Canyon TX | 5 Star Roofing": [
+        "/commercial-roofing-canyon/"
+      ],
+      "Commercial Roofing Borger TX | 5 Star Roofing": [
+        "/commercial-roofing-borger/"
+      ],
+      "Commercial Roofing Big Spring TX | 5 Star Roofing": [
+        "/commercial-roofing-big-spring/"
+      ],
+      "Commercial Roofing Andrews TX | 5 Star Roofing": [
+        "/commercial-roofing-andrews/"
+      ],
+      "Commercial Roofing Amarillo TX | 5 Star Roofing": [
+        "/commercial-roofing-amarillo/"
+      ],
+      "Commercial Roofing in Amarillo TX | 5 Star Roofing": [
+        "/commercial-roofing/"
+      ],
+      "Roofing Claude TX | Hail Damage Specialists | 5 Star Roofing": [
+        "/claude-tx-roofing/"
+      ],
+      "Roofing Contractor Canyon TX | 5 Star Roofing": [
+        "/canyon-texas-roofing/"
+      ],
+      "Roofing Bushland TX | Hail Damage | 5 Star Roofing": [
+        "/bushland-tx-roofing/"
+      ],
+      "Budgeting for Roof Replacement Expenses | 5 Star Roofing": [
+        "/budgeting-for-roof-replacement-expenses/"
+      ],
+      "Roofing in Borger TX | 5 Star Roofing": [
+        "/borger-texas-roofing/"
+      ],
+      "Roofing in Big Spring TX | 5 Star Roofing": [
+        "/big-spring-tx-roofing/"
+      ],
+      "Asphalt Shingles Snyder TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-snyder/"
+      ],
+      "Asphalt Shingles Perryton TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-perryton/"
+      ],
+      "Asphalt Shingle Roofing Pampa TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-pampa/"
+      ],
+      "Asphalt Shingle Roofing Odessa TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-odessa/"
+      ],
+      "Asphalt Shingles Monahans TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-monahans/"
+      ],
+      "Asphalt Shingle Roofing Midland TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-midland/"
+      ],
+      "Asphalt Shingle Roofing Lubbock TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-lubbock/"
+      ],
+      "Asphalt Shingles Levelland TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-levelland/"
+      ],
+      "Asphalt Shingle Roofing Dumas TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-dumas/"
+      ],
+      "Asphalt Shingles Canyon TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-canyon/"
+      ],
+      "Asphalt Shingles Borger TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-borger/"
+      ],
+      "Asphalt Shingles Big Spring TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-big-spring/"
+      ],
+      "Asphalt Shingles Andrews TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-andrews/"
+      ],
+      "Asphalt Shingle Roofing Amarillo TX | 5 Star Roofing": [
+        "/asphalt-shingle-roofing-amarillo/"
+      ],
+      "Asphalt Shingle Roofing Texas | 5 Star Roofing": [
+        "/asphalt-shingle-roofing/"
+      ],
+      "Flat Roof Repair Amarillo TX | 5 Star Roofing": [
+        "/asphalt-flat-roof-repair-in-amarillo/"
+      ],
+      "Roofing in Andrews TX | 5 Star Roofing": [
+        "/andrews-tx-roofing/"
+      ],
+      "Amarillo": [
+        "/amarillos-best-roofer/"
+      ],
+      "How Amarillo Weather Impacts Your Roof | 5 Star Roofing": [
+        "/amarillo-weather-impact-on-roofing/"
+      ],
+      "Roofing Contractor Amarillo TX | 5 Star Roofing": [
+        "/amarillo-tx-roofing/"
+      ],
+      "Amarillo Homes Roofing | 5 Star Roofing": [
+        "/amarillo-homes-roofing-services/"
+      ]
+    },
+    "short_descriptions": [
+      {
+        "route": "/wildorado-tx-roofing/",
+        "len": 127,
+        "text": "Roofing services in Wildorado, Texas Panhandle. Just 15 miles west of Amarillo on I-40. Hail damage repair. Call (806) 622-6041"
+      },
+      {
+        "route": "/tpo-roofing-odessa/",
+        "len": 128,
+        "text": "Professional tpo roofing in Odessa TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041"
+      },
+      {
+        "route": "/tpo-roofing-midland/",
+        "len": 129,
+        "text": "Professional tpo roofing in Midland TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041"
+      },
+      {
+        "route": "/tpo-roofing-lubbock/",
+        "len": 129,
+        "text": "Professional tpo roofing in Lubbock TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041"
+      },
+      {
+        "route": "/storm-damage-repair-odessa/",
+        "len": 124,
+        "text": "Expert storm damage repair in Odessa. for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041"
+      },
+      {
+        "route": "/storm-damage-repair-midland/",
+        "len": 125,
+        "text": "Expert storm damage repair in Midland. for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041"
+      },
+      {
+        "route": "/storm-damage-repair-lubbock/",
+        "len": 125,
+        "text": "Expert storm damage repair in Lubbock. for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041"
+      },
+      {
+        "route": "/services/",
+        "len": 114,
+        "text": "Complete roofing services for West Texas including residential, commercial, and industrial. Call for a free quote!"
+      },
+      {
+        "route": "/roof-replacement-odessa/",
+        "len": 121,
+        "text": "Expert roof replacement in Odessa TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041"
+      },
+      {
+        "route": "/roof-replacement-midland/",
+        "len": 122,
+        "text": "Expert roof replacement in Midland TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041"
+      },
+      {
+        "route": "/roof-replacement-lubbock/",
+        "len": 122,
+        "text": "Expert roof replacement in Lubbock TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041"
+      },
+      {
+        "route": "/roof-repair-odessa/",
+        "len": 128,
+        "text": "Professional roof repair in Odessa TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041"
+      },
+      {
+        "route": "/roof-repair-midland/",
+        "len": 119,
+        "text": "Professional roof repair in Midland TX. Desert climate specialists, oil industry housing experts, . Call (806) 622-6041"
+      },
+      {
+        "route": "/roof-repair-lubbock/",
+        "len": 122,
+        "text": "Professional roof repair in Lubbock TX. South Plains weather specialists, dust storm damage experts, . Call (806) 622-6041"
+      },
+      {
+        "route": "/roof-inspections-snyder/",
+        "len": 129,
+        "text": "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041"
+      },
+      {
+        "route": "/roof-inspections-monahans/",
+        "len": 123,
+        "text": "Professional roof inspections in Monahans TX. Permian Basin experiences 6-8 severe hailstorms annually. Call (806) 622-6041"
+      },
+      {
+        "route": "/roof-inspections-levelland/",
+        "len": 118,
+        "text": "Expert roof inspections in Levelland TX. South Plains experiences 7-10 severe hailstorms annually. Call (806) 622-6041"
+      },
+      {
+        "route": "/residential-roofing/",
+        "len": 112,
+        "text": "Residential roofing in Amarillo. Asphalt shingles, metal roofing, and hail damage repair. Call for a free quote!"
+      },
+      {
+        "route": "/metal-roofing-snyder/",
+        "len": 129,
+        "text": "Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041"
+      },
+      {
+        "route": "/industrial-roofing/",
+        "len": 125,
+        "text": "Industrial roofing in Amarillo. TPO, EPDM, and metal roofing for warehouses and manufacturing facilities. Call (806) 622-6041"
+      },
+      {
+        "route": "/hail-damage-repair-amarillo/",
+        "len": 128,
+        "text": "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help. Call (806) 622-6041 for a free estimate!"
+      },
+      {
+        "route": "/amarillos-best-roofer/",
+        "len": 8,
+        "text": "Amarillo"
+      }
+    ],
+    "long_descriptions": [
+      {
+        "route": "/service-areas/",
+        "len": 188,
+        "text": "5 Star Commercial Roofing serves Amarillo, Lubbock, Midland, Odessa, and 16+ West Texas cities. Residential and commercial roof replacement, hail damage repair, insurance claim assistance."
+      },
+      {
+        "route": "/amarillo-tx-roofing/",
+        "len": 186,
+        "text": "Roofing in Amarillo TX. Hail Alley specialists serving Potter & Randall Counties. Residential and commercial roofing for Wolflin, Sleepy Hollow, Tascosa, San Jacinto. Call (806) 622-6041"
+      }
+    ],
+    "no_description": [],
+    "no_title": []
+  },
+  "trueDupes": []
+}

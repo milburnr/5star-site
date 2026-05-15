@@ -139,6 +139,21 @@ export default function Page() {
         <h1 className="text-4xl font-bold mb-6">
           Commercial PVC Roof Replacement in Amarillo, Midland & Odessa
         </h1>
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-4 mb-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: PVC membrane roof replacement for Amarillo commercial properties.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Why PVC for replacement: heat-welded seams, hail and chemical resistance, and 20+ year manufacturer warranties.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Scope of work: tear-off, deck repair where needed, insulation, and full PVC membrane installation.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: call (806) 622-6041 for a free roof assessment.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
       </FadeIn>
       <div className="content-block">
         <h2 className="content-block-title">

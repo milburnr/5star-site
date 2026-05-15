@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Droplets, Home, Phone, Search, Waves, Wind } from "lucide-react";
@@ -192,6 +193,21 @@ export default function Page() {
         <h1 className="text-4xl font-bold mb-6">
           Heavy Rain Damage Roof Repair in Amarillo & West Texas
         </h1>
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-4 mb-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: how to spot and fix heavy-rain damage on Amarillo roofs before it turns into structural problems.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Local context: Amarillo&apos;s flash storms drop more than an inch of rain per hour several times every spring, exposing weak flashing and worn shingles.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Repair scope: leak isolation, flashing repair, partial reroofs, and full replacement where the deck is compromised.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: call (806) 622-6041 for a free roof inspection.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
 
         <div className="content-block">
           <h2 className="content-block-title">When Heavy Rain Overwhelms Your Roof</h2>

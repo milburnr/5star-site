@@ -213,6 +213,21 @@ export default function Page() {
       />
 
       <h1 className="text-4xl font-bold mb-6">Amarillo Homes Roofing Services</h1>
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-4 mb-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: residential roofing services for Amarillo homes including replacement, repair, and storm damage work.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Materials and systems: Class 4 hail-rated asphalt shingles, standing seam metal, and architectural shingles from major manufacturers.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Local context: 5 Star Roofing is headquartered in Amarillo and has been serving Potter and Randall County homes since 2014.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: free inspections, same-day scheduling after most storms. Call (806) 622-6041.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
 
       {/* Post Meta */}
       <div className="text-gray-600 mb-6 flex gap-4">

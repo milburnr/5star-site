@@ -75,6 +75,21 @@ export default function Page() {
         <h1 className="text-4xl font-bold mb-6">
           Advanced Roofing Methods for the Texas Panhandle
         </h1>
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-4 mb-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: a plain-English guide to the modern roofing methods used across the Texas Panhandle, including TPO, standing seam metal, and Class 4 asphalt systems.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Why it matters here: every method on this page is rated for the Hail Alley conditions that hit Amarillo and West Texas every spring.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Who built it: 5 Star Roofing, headquartered in Amarillo since 2014.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Want one of these on your roof: call (806) 622-6041 for a free inspection.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
       </FadeIn>
       <div className="content-block">
         <h2 className="content-block-title">

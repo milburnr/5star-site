@@ -138,6 +138,21 @@ export default function Page() {
         <h1 className="text-4xl font-bold mb-6">
           PVC Roof Repair in Amarillo, Midland & West Texas
         </h1>
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-4 mb-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: PVC membrane roof repair for commercial buildings in Amarillo.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Repair scope: heat-welded seam repairs, puncture patching, flashing rework, and ponding-water correction.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Local context: PVC is the most common single-ply membrane on Amarillo commercial roofs and the system 5 Star repairs most often.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: free repair assessment. Call (806) 622-6041 to schedule.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
       </FadeIn>
       <div className="content-block">
         <h2 className="content-block-title">

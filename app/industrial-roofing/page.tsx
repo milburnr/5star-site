@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Briefcase, ClipboardList, Wrench, Zap } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -138,6 +139,21 @@ export default function Page() {
         <h1 className="text-4xl font-bold mb-6">
           Industrial Roofing Services in Amarillo & West Texas
         </h1>
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-4 mb-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: industrial roofing systems for warehouses, manufacturing facilities, and distribution centers across the Texas Panhandle.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Systems offered: TPO and PVC membranes, standing seam metal, and built-up roofs for large low-slope buildings.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Service area: Amarillo headquarters with crews working across the Panhandle and West Texas including Lubbock, Midland, and Odessa.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: free site assessments for property managers. Call (806) 622-6041.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
 
         <div className="content-block">
           <h2 className="content-block-title">Industrial Roofing Built for the Texas Panhandle</h2>
