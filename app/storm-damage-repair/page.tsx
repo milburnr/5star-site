@@ -503,6 +503,24 @@ export default function Page() {
         </section>
       </FadeIn>
 
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Storm Damage Repair by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/storm-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Amarillo storm damage repair</a></li>
+            <li><a href="/storm-damage-repair-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Lubbock storm damage repair</a></li>
+            <li><a href="/storm-damage-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland storm damage repair</a></li>
+            <li><a href="/storm-damage-repair-odessa/" className="text-brand-brown hover:text-brand-gold underline">Odessa storm damage repair</a></li>
+            <li><a href="/storm-damage-repair-canyon/" className="text-brand-brown hover:text-brand-gold underline">Canyon storm damage repair</a></li>
+            <li><a href="/storm-damage-repair-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger storm damage repair</a></li>
+            <li><a href="/storm-damage-repair-pampa/" className="text-brand-brown hover:text-brand-gold underline">Pampa storm damage repair</a></li>
+            <li><a href="/storm-damage-repair-dumas/" className="text-brand-brown hover:text-brand-gold underline">Dumas storm damage repair</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       <section>
         <h2 className="text-2xl font-bold mt-12 mb-4">
           Frequently Asked Questions About Storm Damage Repair

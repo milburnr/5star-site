@@ -594,6 +594,24 @@ export default function Page() {
         </section>
       </FadeIn>
 
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Roof Replacement by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/roof-replacement-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Amarillo roof replacement</a></li>
+            <li><a href="/roof-replacement-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Lubbock roof replacement</a></li>
+            <li><a href="/roof-replacement-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland roof replacement</a></li>
+            <li><a href="/roof-replacement-odessa/" className="text-brand-brown hover:text-brand-gold underline">Odessa roof replacement</a></li>
+            <li><a href="/roof-replacement-canyon/" className="text-brand-brown hover:text-brand-gold underline">Canyon roof replacement</a></li>
+            <li><a href="/roof-replacement-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger roof replacement</a></li>
+            <li><a href="/roof-replacement-pampa/" className="text-brand-brown hover:text-brand-gold underline">Pampa roof replacement</a></li>
+            <li><a href="/roof-replacement-dumas/" className="text-brand-brown hover:text-brand-gold underline">Dumas roof replacement</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       <section>
         <h2 className="text-2xl font-bold mt-12 mb-4">
           Frequently Asked Questions About Roof Replacement

@@ -561,6 +561,24 @@ export default function BorgerRoofingPage() {
             </div>
           </section>
         </FadeIn>
+
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Borger Roofing Services</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/hail-damage-repair-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger hail damage repair services</a></li>
+            <li><a href="/roof-replacement-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger roof replacement services</a></li>
+            <li><a href="/metal-roofing-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger metal roofing services</a></li>
+            <li><a href="/commercial-roofing-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger commercial roofing services</a></li>
+            <li><a href="/roof-repair-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger roof repair services</a></li>
+            <li><a href="/roof-inspections-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger roof inspections services</a></li>
+            <li><a href="/wind-damage-repair-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger wind damage repair services</a></li>
+            <li><a href="/storm-damage-repair-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger storm damage repair services</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       </div>
 
       {/* Schema.org Structured Data */}

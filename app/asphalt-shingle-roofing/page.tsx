@@ -654,6 +654,24 @@ export default function Page() {
         </div>
       </FadeIn>
 
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Asphalt Shingle Roofing by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Asphalt Shingle Roofing in Amarillo</a></li>
+            <li><a href="/asphalt-shingle-roofing-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Asphalt Shingle Roofing in Lubbock</a></li>
+            <li><a href="/asphalt-shingle-roofing-midland/" className="text-brand-brown hover:text-brand-gold underline">Asphalt Shingle Roofing in Midland</a></li>
+            <li><a href="/asphalt-shingle-roofing-odessa/" className="text-brand-brown hover:text-brand-gold underline">Asphalt Shingle Roofing in Odessa</a></li>
+            <li><a href="/asphalt-shingle-roofing-canyon/" className="text-brand-brown hover:text-brand-gold underline">Asphalt Shingle Roofing in Canyon</a></li>
+            <li><a href="/asphalt-shingle-roofing-borger/" className="text-brand-brown hover:text-brand-gold underline">Asphalt Shingle Roofing in Borger</a></li>
+            <li><a href="/asphalt-shingle-roofing-pampa/" className="text-brand-brown hover:text-brand-gold underline">Asphalt Shingle Roofing in Pampa</a></li>
+            <li><a href="/asphalt-shingle-roofing-dumas/" className="text-brand-brown hover:text-brand-gold underline">Asphalt Shingle Roofing in Dumas</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       {/* City Variant Link Grid */}
       <h2 className="text-2xl font-bold mt-12 mb-4">Asphalt Shingle Roofing by City</h2>
       <p className="mb-6 text-gray-700">

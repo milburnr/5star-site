@@ -302,6 +302,24 @@ export default function Page() {
             </div>
           </div>
         </FadeIn>
+
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/commercial-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Amarillo</a></li>
+            <li><a href="/commercial-roofing-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Lubbock</a></li>
+            <li><a href="/commercial-roofing-midland/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Midland</a></li>
+            <li><a href="/commercial-roofing-odessa/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Odessa</a></li>
+            <li><a href="/commercial-roofing-canyon/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Canyon</a></li>
+            <li><a href="/commercial-roofing-borger/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Borger</a></li>
+            <li><a href="/commercial-roofing-pampa/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Pampa</a></li>
+            <li><a href="/commercial-roofing-dumas/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Dumas</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       </div>
       <h2 className="text-2xl font-bold mt-8 mb-4">Commercial Hail Damage Services</h2>
       <div className="mb-6">

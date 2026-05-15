@@ -512,6 +512,24 @@ export default function Page() {
         </div>
       </FadeIn>
 
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Roof Inspections by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Amarillo homes and businesses</a></li>
+            <li><a href="/roof-inspections-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Lubbock homes and businesses</a></li>
+            <li><a href="/roof-inspections-midland/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Midland homes and businesses</a></li>
+            <li><a href="/roof-inspections-odessa/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Odessa homes and businesses</a></li>
+            <li><a href="/roof-inspections-canyon/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Canyon homes and businesses</a></li>
+            <li><a href="/roof-inspections-borger/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Borger homes and businesses</a></li>
+            <li><a href="/roof-inspections-pampa/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Pampa homes and businesses</a></li>
+            <li><a href="/roof-inspections-dumas/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Dumas homes and businesses</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       {/* City Variant Link Grid */}
       <h2 className="text-2xl font-bold mt-12 mb-4">Roof Inspections by City</h2>
       <p className="mb-6 text-gray-700">

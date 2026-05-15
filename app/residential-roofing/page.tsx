@@ -266,6 +266,24 @@ export default function Page() {
             </div>
           </div>
         </FadeIn>
+
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Residential Roofing by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/residential-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Amarillo residential roofing</a></li>
+            <li><a href="/residential-roofing-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Lubbock residential roofing</a></li>
+            <li><a href="/residential-roofing-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland residential roofing</a></li>
+            <li><a href="/residential-roofing-odessa/" className="text-brand-brown hover:text-brand-gold underline">Odessa residential roofing</a></li>
+            <li><a href="/residential-roofing-canyon/" className="text-brand-brown hover:text-brand-gold underline">Canyon residential roofing</a></li>
+            <li><a href="/residential-roofing-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger residential roofing</a></li>
+            <li><a href="/residential-roofing-pampa/" className="text-brand-brown hover:text-brand-gold underline">Pampa residential roofing</a></li>
+            <li><a href="/residential-roofing-dumas/" className="text-brand-brown hover:text-brand-gold underline">Dumas residential roofing</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       </div>
       <h2 className="text-2xl font-bold mt-8 mb-4">Hail Damage? We Can Help</h2>
       <p className="mb-4">

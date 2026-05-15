@@ -555,6 +555,24 @@ export default function AmarilloRoofingPage() {
             </div>
           </section>
         </FadeIn>
+
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Amarillo Roofing Services</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Amarillo</a></li>
+            <li><a href="/roof-replacement-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Roof Replacement in Amarillo</a></li>
+            <li><a href="/metal-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing in Amarillo</a></li>
+            <li><a href="/commercial-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing in Amarillo</a></li>
+            <li><a href="/roof-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Roof Repair in Amarillo</a></li>
+            <li><a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections in Amarillo</a></li>
+            <li><a href="/wind-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Amarillo</a></li>
+            <li><a href="/storm-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Storm Damage Repair in Amarillo</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       </div>
 
       {/* Schema.org Structured Data */}

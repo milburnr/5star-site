@@ -548,6 +548,24 @@ export default function MidlandRoofingPage() {
             </div>
           </section>
         </FadeIn>
+
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Midland Roofing Services</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/hail-damage-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland hail damage repair services</a></li>
+            <li><a href="/roof-replacement-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland roof replacement services</a></li>
+            <li><a href="/metal-roofing-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland metal roofing services</a></li>
+            <li><a href="/commercial-roofing-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland commercial roofing services</a></li>
+            <li><a href="/roof-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland roof repair services</a></li>
+            <li><a href="/roof-inspections-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland roof inspections services</a></li>
+            <li><a href="/wind-damage-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland wind damage repair services</a></li>
+            <li><a href="/storm-damage-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland storm damage repair services</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       </div>
 
       {/* Schema.org Structured Data */}

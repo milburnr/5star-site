@@ -604,6 +604,24 @@ export default function Page() {
         </section>
       </FadeIn>
 
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Metal Roofing by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/metal-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Amarillo homes and businesses</a></li>
+            <li><a href="/metal-roofing-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Lubbock homes and businesses</a></li>
+            <li><a href="/metal-roofing-midland/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Midland homes and businesses</a></li>
+            <li><a href="/metal-roofing-odessa/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Odessa homes and businesses</a></li>
+            <li><a href="/metal-roofing-canyon/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Canyon homes and businesses</a></li>
+            <li><a href="/metal-roofing-borger/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Borger homes and businesses</a></li>
+            <li><a href="/metal-roofing-pampa/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Pampa homes and businesses</a></li>
+            <li><a href="/metal-roofing-dumas/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Dumas homes and businesses</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       <section>
         <h2 className="text-2xl font-bold mt-12 mb-4">
           Frequently Asked Questions About Metal Roofing

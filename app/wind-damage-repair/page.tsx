@@ -488,6 +488,24 @@ export default function Page() {
         </div>
       </FadeIn>
 
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Wind Damage Repair by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/wind-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Amarillo</a></li>
+            <li><a href="/wind-damage-repair-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Lubbock</a></li>
+            <li><a href="/wind-damage-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Midland</a></li>
+            <li><a href="/wind-damage-repair-odessa/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Odessa</a></li>
+            <li><a href="/wind-damage-repair-canyon/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Canyon</a></li>
+            <li><a href="/wind-damage-repair-borger/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Borger</a></li>
+            <li><a href="/wind-damage-repair-pampa/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Pampa</a></li>
+            <li><a href="/wind-damage-repair-dumas/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Dumas</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       {/* City Variant Link Grid */}
       <h2 className="text-2xl font-bold mt-12 mb-4">Wind Damage Repair by City</h2>
       <p className="mb-6 text-gray-700">

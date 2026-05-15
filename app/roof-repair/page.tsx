@@ -528,6 +528,24 @@ export default function Page() {
         </div>
       </FadeIn>
 
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Roof Repair by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/roof-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Amarillo roof repair</a></li>
+            <li><a href="/roof-repair-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Lubbock roof repair</a></li>
+            <li><a href="/roof-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland roof repair</a></li>
+            <li><a href="/roof-repair-odessa/" className="text-brand-brown hover:text-brand-gold underline">Odessa roof repair</a></li>
+            <li><a href="/roof-repair-canyon/" className="text-brand-brown hover:text-brand-gold underline">Canyon roof repair</a></li>
+            <li><a href="/roof-repair-borger/" className="text-brand-brown hover:text-brand-gold underline">Borger roof repair</a></li>
+            <li><a href="/roof-repair-pampa/" className="text-brand-brown hover:text-brand-gold underline">Pampa roof repair</a></li>
+            <li><a href="/roof-repair-dumas/" className="text-brand-brown hover:text-brand-gold underline">Dumas roof repair</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       {/* City Variant Link Grid */}
       <section className="mb-16">
         <h2 className="text-2xl font-bold mb-6">Roof Repair Services Across West Texas</h2>

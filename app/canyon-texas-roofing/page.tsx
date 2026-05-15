@@ -511,6 +511,24 @@ export default function CanyonRoofingPage() {
             </div>
           </section>
         </FadeIn>
+
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Canyon Roofing Services</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/hail-damage-repair-canyon/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair for Canyon properties</a></li>
+            <li><a href="/roof-replacement-canyon/" className="text-brand-brown hover:text-brand-gold underline">Roof Replacement for Canyon properties</a></li>
+            <li><a href="/metal-roofing-canyon/" className="text-brand-brown hover:text-brand-gold underline">Metal Roofing for Canyon properties</a></li>
+            <li><a href="/commercial-roofing-canyon/" className="text-brand-brown hover:text-brand-gold underline">Commercial Roofing for Canyon properties</a></li>
+            <li><a href="/roof-repair-canyon/" className="text-brand-brown hover:text-brand-gold underline">Roof Repair for Canyon properties</a></li>
+            <li><a href="/roof-inspections-canyon/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections for Canyon properties</a></li>
+            <li><a href="/wind-damage-repair-canyon/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair for Canyon properties</a></li>
+            <li><a href="/storm-damage-repair-canyon/" className="text-brand-brown hover:text-brand-gold underline">Storm Damage Repair for Canyon properties</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
       </div>
 
       {/* Schema.org Structured Data */}

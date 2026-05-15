@@ -584,6 +584,24 @@ export default function Page() {
         </div>
       </FadeIn>
 
+      {/* auto-link:pass-2 */}
+      <aside className="container-custom mt-10 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Hail Damage Repair by City</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Amarillo</a></li>
+            <li><a href="/hail-damage-repair-lubbock/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Lubbock</a></li>
+            <li><a href="/hail-damage-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Midland</a></li>
+            <li><a href="/hail-damage-repair-odessa/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Odessa</a></li>
+            <li><a href="/hail-damage-repair-canyon/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Canyon</a></li>
+            <li><a href="/hail-damage-repair-borger/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Borger</a></li>
+            <li><a href="/hail-damage-repair-pampa/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Pampa</a></li>
+            <li><a href="/hail-damage-repair-dumas/" className="text-brand-brown hover:text-brand-gold underline">Hail Damage Repair in Dumas</a></li>
+          </ul>
+        </div>
+      </aside>
+      {/* /auto-link */}
+
       {/* City Variant Link Grid */}
       <section className="mb-16">
         <h2 className="text-2xl font-bold mb-6">Hail Damage Repair Across West Texas</h2>
