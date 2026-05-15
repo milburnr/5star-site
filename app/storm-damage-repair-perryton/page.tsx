@@ -270,11 +270,11 @@ export default function StormDamageRepairPerrytonPage() {
                   First 4 Hours
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Safety assessment and area securing</li>
-                  <li>• weatherproof sheeting for active leaks</li>
-                  <li>• Structural stability evaluation</li>
-                  <li>• Initial damage documentation</li>
-                  <li>• Insurance company notification</li>
+                  <li>• Safety walk of the Ochiltree County property</li>
+                  <li>• Weatherproof sheeting installed over active leak points</li>
+                  <li>• Structural stability check on decking and trusses</li>
+                  <li>• Initial photo documentation of hail and wind damage</li>
+                  <li>• Carrier notification with State Farm, Allstate, USAA, or Texas Farm Bureau</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
@@ -282,11 +282,11 @@ export default function StormDamageRepairPerrytonPage() {
                   Documentation Phase (1-3 days)
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Comprehensive damage inspection</li>
-                  <li>• Weather correlation analysis</li>
-                  <li>• Insurance adjuster coordination</li>
-                  <li>• Material specification development</li>
-                  <li>• Project timeline establishment</li>
+                  <li>• Slope-by-slope inspection with chalked test squares</li>
+                  <li>• Weather and storm-event correlation for the claim file</li>
+                  <li>• Adjuster meet-on-roof coordination with your carrier</li>
+                  <li>• Material spec with Class 4 impact-rated shingles or R-panel metal</li>
+                  <li>• Project timeline keyed to planting and harvest windows in Ochiltree County</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-green-500">
@@ -321,8 +321,9 @@ export default function StormDamageRepairPerrytonPage() {
                     <div>
                       <h4 className="font-semibold">Grain Storage Facilities</h4>
                       <p className="text-gray-600 text-sm">
-                        Specialized repairs for grain bins, elevators, and storage facilities with
-                        moisture protection and structural integrity focus.
+                        Repair and re-roofing for grain bins, elevators, and wheat storage buildings
+                        across Ochiltree County. We focus on moisture intrusion at penetrations and
+                        structural integrity after hail and wind events.
                       </p>
                     </div>
                   </div>
@@ -333,8 +334,9 @@ export default function StormDamageRepairPerrytonPage() {
                     <div>
                       <h4 className="font-semibold">Livestock Buildings</h4>
                       <p className="text-gray-600 text-sm">
-                        Rapid repair for cattle barns, milking facilities, and animal housing with
-                        ventilation system restoration.
+                        Scheduled repair for cattle barns and animal housing in the Texas
+                        Panhandle, with ridge ventilation and R-panel metal panel replacement to
+                        keep airflow correct after a storm.
                       </p>
                     </div>
                   </div>
@@ -345,8 +347,9 @@ export default function StormDamageRepairPerrytonPage() {
                     <div>
                       <h4 className="font-semibold">Equipment Storage</h4>
                       <p className="text-gray-600 text-sm">
-                        Protection restoration for expensive agricultural machinery and implement
-                        buildings.
+                        Standing seam and R-panel metal roof repair on machine sheds and implement
+                        barns, protecting combines, tractors, and other equipment from continued
+                        weather exposure.
                       </p>
                     </div>
                   </div>
@@ -357,8 +360,9 @@ export default function StormDamageRepairPerrytonPage() {
                     <div>
                       <h4 className="font-semibold">Processing Facilities</h4>
                       <p className="text-gray-600 text-sm">
-                        Specialized repairs for grain processing and agricultural production
-                        facilities with sanitation requirements.
+                        Repairs on grain processing and ag production buildings where sanitation
+                        rules govern the roof spec. TPO or PVC membrane with detailed flashing
+                        keeps the assembly compliant.
                       </p>
                     </div>
                   </div>
@@ -372,29 +376,33 @@ export default function StormDamageRepairPerrytonPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Farm Policy Requirements</h4>
                     <p className="text-gray-600 text-sm">
-                      We understand the unique requirements of agricultural insurance policies and
-                      document damage appropriately for maximum coverage.
+                      Texas Farm Bureau and farm-specific carrier policies have their own
+                      documentation rules. We photograph and itemize damage in the format adjusters
+                      need to scope the full claim correctly.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Operational Continuity</h4>
                     <p className="text-gray-600 text-sm">
-                      Our repairs prioritize getting agricultural operations back online quickly to
-                      minimize crop and livestock losses.
+                      Sequenced repairs across cattle barns, grain bins, and equipment sheds so the
+                      operation keeps running. We work around feeding schedules and harvest
+                      windows in Ochiltree County.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Multi-Structure Efficiency</h4>
                     <p className="text-gray-600 text-sm">
-                      Farms benefit from coordinated repairs across multiple buildings, reducing
-                      costs and timeline through efficient project management.
+                      One mobilization, one set of permits, and one warranty submittal across all
+                      farm buildings on the same property. Lower per-building cost than
+                      single-structure callouts.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Seasonal Scheduling</h4>
                     <p className="text-gray-600 text-sm">
-                      We understand farming schedules and prioritize repairs around planting,
-                      growing, and harvest seasons.
+                      Repairs sequenced around wheat planting in fall and harvest in summer.
+                      Storage roofs come first when grain is about to move; livestock buildings get
+                      priority during calving.
                     </p>
                   </div>
                 </div>
@@ -513,8 +521,10 @@ export default function StormDamageRepairPerrytonPage() {
               Serving Perryton, Texas
             </h2>
             <p className="text-center text-gray-600 mb-8">
-              From downtown Perryton to wheat country agricultural areas, we serve all of Ochiltree
-              County and surrounding regions.
+              From the Highway 83 corridor through downtown Perryton out to the wheat-country
+              ranches and pivot-irrigated farms north toward the Oklahoma line, we serve all of
+              Ochiltree County. Crews regularly work Lipscomb, Hansford, and Hemphill counties as
+              well.
             </p>
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Perryton, TX" />

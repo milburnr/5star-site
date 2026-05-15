@@ -411,10 +411,10 @@ export default function TPORoofingLevellandPage() {
                     Precise Measurements & Design
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Using advanced laser measurement technology, we create detailed roof plans that
-                    account for equipment, penetrations, and drainage requirements. Our design
-                    process ensures optimal membrane layout, minimizes waste, and maximizes the
-                    roof's performance and lifespan.
+                    Laser measurement at the roof level produces a shop drawing that accounts for
+                    HVAC curbs, vent stacks, scuppers, and drainage slope across the Levelland
+                    building footprint. The layout minimizes seam count and waste, and routes
+                    rolls so welded seams land where they hold up best against South Plains wind.
                   </p>
                 </div>
               </div>
@@ -425,10 +425,11 @@ export default function TPORoofingLevellandPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Substrate Preparation</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    We prepare the roof substrate by installing high-performance insulation boards,
-                    ensuring proper slopes for drainage, and creating a smooth, clean surface for
-                    membrane installation. This critical step ensures long-term performance and
-                    prevents common installation issues.
+                    Polyiso insulation boards are mechanically fastened or adhered to the deck with
+                    tapered sections added to direct water to drains. A cover board goes over the
+                    insulation to give the TPO membrane a smooth, clean substrate. This step is
+                    where most long-term membrane failures get prevented on flat roofs across
+                    Hockley County.
                   </p>
                 </div>
               </div>
@@ -457,10 +458,10 @@ export default function TPORoofingLevellandPage() {
                     Quality Control & Final Inspection
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Every installation undergoes rigorous quality control testing including
-                    electronic leak detection, seam pull tests, and comprehensive visual inspection.
-                    We provide detailed documentation and warranty registration to ensure your
-                    investment is fully protected.
+                    Closeout includes electronic leak detection across the membrane, probe-tested
+                    seam pull tests, and a slope-by-slope visual inspection. We register the
+                    Carlisle or Firestone warranty on your behalf and deliver a closeout binder
+                    with photos and material certifications for the Levelland building owner.
                   </p>
                 </div>
               </div>

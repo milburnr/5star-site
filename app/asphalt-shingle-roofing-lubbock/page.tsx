@@ -644,10 +644,11 @@ export default function AsphaltShingleRoofingLubbockPage() {
                   Lubbock Installation Considerations
                 </h3>
                 <ul className="grid md:grid-cols-2 gap-2 text-yellow-700 text-sm">
-                  <li>• Work schedule adjusted for high wind days</li>
-                  <li>• Enhanced temporary protection during installation</li>
-                  <li>• Extra attention to dust control and cleanup</li>
-                  <li>• Quality control inspection with wind resistance focus</li>
+                  <li>• Tear-off scheduled around forecast South Plains wind gusts above 30 mph</li>
+                  <li>• Synthetic underlayment fully fastened before end of each install day</li>
+                  <li>• Dust shrouds and magnetic nail sweep for Lubbock County dust load</li>
+                  <li>• 6-nail fastening pattern with verified shingle seal-strip activation</li>
+                  <li>• UL 580 wind-rated edge metal and ridge cap detail across the perimeter</li>
                 </ul>
               </div>
             </div>

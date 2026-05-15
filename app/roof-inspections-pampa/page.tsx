@@ -271,10 +271,11 @@ export default function RoofInspectionsPampaPage() {
                     Aerial Drone Inspection
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    High-resolution drone photography captures detailed roof conditions impossible
-                    to see from the ground. Our certified drone pilots document every inch of your
-                    Pampa property's roof surface, identifying hail damage, wind uplift, granule
-                    loss, and structural concerns specific to High Plains weather exposure.
+                    FAA Part 107 licensed drone pilots capture full-resolution slope photos
+                    on Pampa homes and commercial buildings. The imagery picks up hail
+                    bruises on asphalt shingles, wind-lifted ridge cap, and granule wash at
+                    valleys. That detail goes straight into the report your State Farm,
+                    USAA, or Texas Farm Bureau adjuster will review.
                   </p>
                 </div>
                 <div className="border-l-4 border-brand-gold pl-6">
@@ -282,10 +283,11 @@ export default function RoofInspectionsPampaPage() {
                     Ground-Level Assessment
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Close-up examination of accessible roof areas, gutters, and flashings reveals
-                    damage patterns common in Pampa's agricultural environment. We check for
-                    wind-driven debris impact, UV degradation from intense Panhandle sun, and
-                    thermal expansion damage from extreme temperature swings.
+                    Walkable slopes, gutters, downspouts, and step flashing get a close
+                    on-foot review. In Gray County we look hard at soft-metal denting on
+                    gutters and vent caps (a reliable hail indicator), UV cracking on
+                    asphalt shingles, and split sealant beads at pipe boots and chimney
+                    flashings.
                   </p>
                 </div>
                 <div className="border-l-4 border-brand-gold pl-6">
@@ -293,10 +295,11 @@ export default function RoofInspectionsPampaPage() {
                     Interior Attic Inspection
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Interior examination reveals hidden water damage, inadequate ventilation, and
-                    structural issues. In Pampa's climate, proper attic ventilation prevents ice dam
-                    formation during rare winter storms and reduces cooling costs during brutal
-                    summer heat.
+                    Inside the Pampa attic we check decking for staining, look at the
+                    underside of nail penetrations, and verify intake-to-exhaust ventilation
+                    balance. Sound ridge and soffit ventilation reduces ice damming during
+                    winter cold snaps and trims summer cooling load when Gray County highs
+                    hit triple digits.
                   </p>
                 </div>
               </div>
@@ -306,9 +309,10 @@ export default function RoofInspectionsPampaPage() {
                     Thermal Imaging Analysis
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Advanced thermal cameras detect moisture intrusion, insulation gaps, and air
-                    leaks invisible to traditional inspection methods. Critical for Pampa properties
-                    where small leaks can quickly escalate during High Plains storm seasons.
+                    Infrared cameras show wet insulation, gaps in attic R-value, and air
+                    leaks at penetrations that a visual inspection alone misses. On Pampa
+                    homes this matters most ahead of supercell season, when a small flashing
+                    failure can turn into wet drywall after the first big rain.
                   </p>
                 </div>
                 <div className="border-l-4 border-brand-gold pl-6">
@@ -326,9 +330,10 @@ export default function RoofInspectionsPampaPage() {
                     Structural Safety Assessment
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Evaluation of roof decking, trusses, and support structures for damage from High
-                    Plains wind loads and agricultural equipment vibrations common in Pampa's
-                    farming community.
+                    Decking, truss connections, and load-bearing rafters are checked for
+                    delamination, fastener pull-through, and stress fractures. Gray County
+                    homes near grain elevators and ag operations can see additional vibration
+                    fatigue around chimneys and HVAC curbs.
                   </p>
                 </div>
               </div>
@@ -374,9 +379,11 @@ export default function RoofInspectionsPampaPage() {
                   Agricultural Environment
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Farming operations create unique challenges: airborne debris, chemical exposure,
-                  and equipment vibrations. Our Pampa inspections account for agricultural-specific
-                  wear patterns and contamination that urban inspectors might miss.
+                  Pampa homes near working farmland see blowing grain dust, fertilizer
+                  particulate from spring application, and vibration from harvest equipment.
+                  Our inspections flag the wear patterns that follow: clogged gutters,
+                  granule-stripped slopes facing prevailing winds, and sealant fatigue at
+                  pipe boots.
                 </p>
               </div>
             </div>
@@ -494,26 +501,31 @@ export default function RoofInspectionsPampaPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-6">post-storm documentation</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Post-Storm Documentation</h3>
                 <div className="space-y-4">
                   <div className="bg-brand-gold/10 border-l-4 border-brand-gold p-6 rounded-xl">
                     <h4 className="text-lg font-semibold text-brand-brown mb-2">
                       Active Leak Documentation
                     </h4>
                     <p className="text-brand-brown mb-2">
-                      Documentation and weather-protective scheduling
+                      Photo-documented scope of interior and exterior water entry, with
+                      scheduled follow-up for weather protection.
                     </p>
                     <p className="text-sm text-gray-600">
-                      For properties experiencing active water infiltration
+                      For Pampa homes with visible interior staining or active drips
+                      after a hail or wind event
                     </p>
                   </div>
                   <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-xl">
                     <h4 className="text-lg font-semibold text-yellow-800 mb-2">
                       Severe Weather Awareness
                     </h4>
-                    <p className="text-yellow-700 mb-2">High Plains weather monitoring</p>
+                    <p className="text-yellow-700 mb-2">
+                      Gray County and broader Texas Panhandle weather tracking
+                    </p>
                     <p className="text-sm text-yellow-600">
-                      We track High Plains weather patterns to stay informed during storm seasons
+                      We follow NOAA Amarillo office forecasts so we know which hail and
+                      supercell events have actually moved through Pampa
                     </p>
                   </div>
                 </div>

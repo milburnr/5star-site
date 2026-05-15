@@ -458,24 +458,29 @@ export default function Page() {
         <div className="bg-green-50 p-6 rounded-lg mb-6">
           <ul className="space-y-3">
             <li>
-              <strong>No Hidden Fees:</strong> Every estimate includes detailed line items for
-              materials, labor, permits, and cleanup
+              <strong>No Hidden Fees:</strong> Estimates break out shingle, underlayment,
+              ice-and-water shield, edge metal, tear-off, City of Amarillo permit, and disposal
+              as separate line items
             </li>
             <li>
-              <strong>Competitive Material Costs:</strong> Direct relationships with manufacturers
-              ensure wholesale pricing benefits
+              <strong>Direct Manufacturer Relationships:</strong> Pricing on GAF, CertainTeed,
+              Owens Corning, Malarkey, and Atlas shingles reflects local supplier accounts, not
+              third-party markups
             </li>
             <li>
-              <strong>Efficient Labor Practices:</strong> Experienced crews complete projects faster
-              without sacrificing quality
+              <strong>Efficient Labor Practices:</strong> Most Amarillo residential tear-offs
+              and re-roofs finish in one to three days with the same crew on-site start to
+              finish
             </li>
             <li>
-              <strong>Transparent Communication:</strong> Any changes or additions are discussed and
-              approved before implementation
+              <strong>Transparent Communication:</strong> Decking replacement and other change
+              orders are written up with a price and approved by the homeowner or commercial
+              owner before the work happens
             </li>
             <li>
-              <strong>Written Guarantees:</strong> All pricing commitments are documented in
-              detailed contracts
+              <strong>Written Guarantees:</strong> Pricing, scope, and warranty terms are signed
+              into the contract before mobilization. Commercial work follows the Texas Prompt
+              Payment Act schedule
             </li>
           </ul>
         </div>
@@ -729,9 +734,12 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Comprehensive Warranty Protection</h2>
 
         <p>
-          Your investment in a quality roof should be protected by equally quality warranties. We
-          provide industry-leading warranty coverage that protects both our workmanship and the
-          materials we install, giving you complete peace of mind for decades to come.
+          A new roof on an Amarillo home or commercial building runs in serious dollars, so the
+          warranty matters as much as the install. Most asphalt-shingle systems from GAF,
+          CertainTeed, or Owens Corning carry 30 to 50 year material warranties when installed
+          to factory specs, and TPO and PVC commercial membranes typically run 15 to 30 years.
+          We register the manufacturer warranty after the job closes and provide our own written
+          workmanship warranty on top of it.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-3">Multi-Layered Warranty Coverage</h3>
@@ -814,28 +822,28 @@ export default function Page() {
 
         <ul className="list-disc pl-6 space-y-2 mb-6">
           <li>
-            <strong>Rigorous Crew Training:</strong> Ongoing education on new materials, techniques,
-            and safety protocols
+            <strong>Manufacturer-Certified Crew Training:</strong> Updates on GAF, CertainTeed,
+            and Carlisle installation specs whenever a product line changes
           </li>
           <li>
-            <strong>Quality Control Inspections:</strong> Multi-point quality checks during every
-            phase of installation
+            <strong>Quality Control Inspections:</strong> Walk-throughs at tear-off, decking,
+            underlayment, and shingle or membrane install phases
           </li>
           <li>
-            <strong>Professional Equipment:</strong> Investment in specialized tools and safety
-            equipment
+            <strong>Professional Equipment:</strong> Calibrated nail guns, hot-air welders for
+            TPO and PVC seams, and OSHA-compliant fall protection on every Amarillo job
           </li>
           <li>
-            <strong>Material Standards:</strong> Exclusive use of premium materials from trusted
-            manufacturers
+            <strong>Material Standards:</strong> Class 4 UL 2218 impact-rated shingles available
+            for Hail Alley exposure, with Owens Corning, Malarkey, and Atlas options
           </li>
           <li>
-            <strong>Clean Work Sites:</strong> Daily cleanup and debris removal to protect your
-            property
+            <strong>Clean Work Sites:</strong> Magnetic nail sweep across driveways and lawns,
+            plus dumpsters set on protective boards to keep Amarillo properties intact
           </li>
           <li>
-            <strong>Final Inspections:</strong> Comprehensive final inspection before project
-            completion
+            <strong>Final Inspections:</strong> City of Amarillo or Potter/Randall County
+            inspection sign-off and a manufacturer warranty registration before closeout
           </li>
         </ul>
 

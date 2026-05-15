@@ -439,32 +439,36 @@ export default function StormDamageRepairDumasPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Seasonal Inspection Schedule</h4>
                     <p className="text-gray-600 text-sm">
-                      Pre-storm season inspections in February and August identify vulnerabilities
-                      before peak weather periods, preventing catastrophic failures during critical
-                      farming periods.
+                      Pre-season inspections in February and August around Moore County
+                      identify lifted ridge cap, fastener back-out, and aged sealants
+                      before the heart of Texas Panhandle hail and wind activity.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold mb-2">post-storm documentation Planning</h4>
+                    <h4 className="font-semibold mb-2">Post-Storm Documentation Planning</h4>
                     <p className="text-gray-600 text-sm">
-                      Agricultural operations need our roofing service protocols for livestock
-                      protection, grain preservation, and equipment security during and after severe
-                      weather events.
+                      Dumas ag operations have priorities most general contractors miss:
+                      livestock shelter integrity, grain bin roof seals, and equipment
+                      shed weather protection. The inspection report calls out each one
+                      separately.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Multi-Building Efficiency</h4>
                     <p className="text-gray-600 text-sm">
-                      Farms with multiple structures benefit from coordinated repair projects that
-                      reduce costs and minimize operational disruptions during critical seasons.
+                      Moore County farms typically have a house, a metal pole barn, and
+                      one to several outbuildings. We sequence the work so crews and
+                      materials are on site once, which keeps the cost down and limits
+                      disruption during planting or harvest.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Insurance Coordination</h4>
                     <p className="text-gray-600 text-sm">
-                      Agricultural insurance requires specific documentation and timing. We
-                      understand farm policy requirements and work within agricultural insurance
-                      timelines.
+                      Texas Farm Bureau, State Farm, and Allstate ag policies have their
+                      own timing and documentation rules for farm structures. Our
+                      reports separate residential and outbuilding scope so claims close
+                      cleanly.
                     </p>
                   </div>
                 </div>

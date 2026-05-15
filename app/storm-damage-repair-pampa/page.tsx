@@ -355,11 +355,11 @@ export default function StormDamageRepairPampaPage() {
               <div className="bg-gradient-to-br from-orange-50 to-amber-100 p-6 rounded-2xl">
                 <h3 className="text-xl font-bold mb-3 text-orange-800">Summer (Jun-Aug)</h3>
                 <ul className="text-orange-700 space-y-2">
-                  <li>• Afternoon storms</li>
-                  <li>• Damaging straight-line winds</li>
-                  <li>• Heavy rainfall events</li>
-                  <li>• Heat-related material stress</li>
-                  <li>• UV damage acceleration</li>
+                  <li>• Afternoon supercells along the dryline</li>
+                  <li>• Straight-line winds and downbursts past 70 mph</li>
+                  <li>• Heavy rainfall and microburst events</li>
+                  <li>• Asphalt shingle softening on 100°F roofs</li>
+                  <li>• Intense Llano Estacado UV that ages sealants</li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-red-50 to-amber-100 p-6 rounded-2xl">
@@ -420,9 +420,10 @@ export default function StormDamageRepairPampaPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">Permanent Restoration</h3>
                 <p className="text-gray-700">
-                  After insurance approval, we execute complete repairs using materials designed for
-                  Panhandle weather. All work meets Gray County building codes and includes
-                  comprehensive warranties.
+                  Once the carrier signs off, we rebuild with Class 4 impact-rated asphalt
+                  shingles or standing seam metal sized for Texas Panhandle wind loads. All
+                  work is pulled under City of Pampa permits and ships with GAF, CertainTeed,
+                  or Owens Corning manufacturer warranties.
                 </p>
               </div>
             </div>
@@ -481,7 +482,8 @@ export default function StormDamageRepairPampaPage() {
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>
                       <span>
-                        <strong>storm repairs:</strong> Weatherproof sheeting and temporary protection measures
+                        <strong>Post-storm repairs:</strong> Scheduled leak repair and
+                        weather-protective sheeting on accepted claims
                       </span>
                     </li>
                   </ul>
@@ -713,7 +715,9 @@ export default function StormDamageRepairPampaPage() {
                       <div>
                         <h4 className="font-semibold">Hail Impact Assessment</h4>
                         <p className="text-gray-600 text-sm">
-                          Granule loss patterns, exposed mat, circular impacts, soft metal denting
+                          Granule loss patterns on asphalt shingles, exposed fiberglass mat,
+                          round impact bruises, and soft-metal denting on gutters and vent
+                          caps (a reliable hail-size indicator across Gray County)
                         </p>
                       </div>
                     </div>
@@ -724,7 +728,8 @@ export default function StormDamageRepairPampaPage() {
                       <div>
                         <h4 className="font-semibold">Wind Damage Analysis</h4>
                         <p className="text-gray-600 text-sm">
-                          Lifted shingles, torn materials, fastener failures, edge lifting
+                          Lifted shingle tabs, torn ridge cap, fastener back-out, and edge
+                          metal failure where Texas Panhandle gusts hit the leading slope
                         </p>
                       </div>
                     </div>
@@ -735,7 +740,9 @@ export default function StormDamageRepairPampaPage() {
                       <div>
                         <h4 className="font-semibold">Structural Evaluation</h4>
                         <p className="text-gray-600 text-sm">
-                          Decking damage, rafter stress, support beam condition, foundation issues
+                          Decking delamination, rafter stress at hips and valleys,
+                          load-bearing beam condition, and signs of long-term settlement
+                          that could affect a re-roof
                         </p>
                       </div>
                     </div>
@@ -746,7 +753,9 @@ export default function StormDamageRepairPampaPage() {
                       <div>
                         <h4 className="font-semibold">Water Intrusion Check</h4>
                         <p className="text-gray-600 text-sm">
-                          Interior damage, insulation condition, electrical safety, mold potential
+                          Interior ceiling staining, wet insulation, electrical safety near
+                          fixture penetrations, and conditions that could promote mold in
+                          the attic
                         </p>
                       </div>
                     </div>
@@ -760,29 +769,33 @@ export default function StormDamageRepairPampaPage() {
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Photographic Evidence</h4>
                       <p className="text-gray-600 text-sm">
-                        High-resolution images from multiple angles, close-up damage details,
-                        overview shots showing scope
+                        High-resolution imagery from drone and ground angles, close-ups of
+                        hail bruises and torn shingles, and overview shots that show damage
+                        across each slope
                       </p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Measurement Reports</h4>
                       <p className="text-gray-600 text-sm">
-                        Hail size documentation, wind speed estimates, damage area calculations,
-                        material lists
+                        Hail size noted against soft-metal denting, estimated wind speeds
+                        from NOAA Amarillo office data, damage-area square footage, and a
+                        material list keyed to GAF or CertainTeed specifications
                       </p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Weather Correlation</h4>
                       <p className="text-gray-600 text-sm">
-                        Storm timing verification, wind direction analysis, precipitation records,
-                        radar data
+                        Storm date and time tied to NOAA storm reports for Gray County,
+                        prevailing wind direction, recorded precipitation, and local radar
+                        snapshots
                       </p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Code Compliance</h4>
                       <p className="text-gray-600 text-sm">
-                        Gray County building codes, manufacturer specifications, warranty
-                        requirements, permit needs
+                        City of Pampa permit needs, Gray County building code references,
+                        manufacturer install specs for GAF and Owens Corning, and
+                        documentation needed to validate the warranty
                       </p>
                     </div>
                   </div>

@@ -434,10 +434,10 @@ export default function StormDamageRepairBigSpringPage() {
                       High Elevation Effects
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Accelerated UV degradation of materials</li>
-                      <li>• Thermal expansion stress cracking</li>
-                      <li>• Wind uplift at roof perimeters</li>
-                      <li>• Hail impact amplification</li>
+                      <li>• Faster UV breakdown of asphalt shingle granules at Big Spring elevation</li>
+                      <li>• Thermal stress cracking on TPO and EPDM membranes</li>
+                      <li>• Wind uplift at roof edges from the unobstructed South Plains gusts</li>
+                      <li>• Larger effective hail impact due to open Howard County terrain</li>
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -445,10 +445,10 @@ export default function StormDamageRepairBigSpringPage() {
                       Extreme Temperature Damage
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Membrane shrinkage and splitting</li>
-                      <li>• Joint and seam failures</li>
-                      <li>• Freeze-thaw cycling damage</li>
-                      <li>• HVAC equipment thermal stress</li>
+                      <li>• TPO and PVC membrane shrinkage across the 100°F to 20°F annual swing</li>
+                      <li>• Open seam welds and lap joint splits on aging single-ply systems</li>
+                      <li>• Freeze-thaw cycling damage along masonry parapets and copings</li>
+                      <li>• Stressed HVAC curbs from repeated thermal expansion cycles</li>
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -456,10 +456,10 @@ export default function StormDamageRepairBigSpringPage() {
                       Flash Flooding Impact
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Drainage system overwhelm</li>
-                      <li>• Ponding water infiltration</li>
-                      <li>• Foundation settlement effects</li>
-                      <li>• Interior water damage</li>
+                      <li>• Interior drains and scuppers overwhelmed by burst-rainfall events</li>
+                      <li>• Ponding water finding its way into open seams and pitch pockets</li>
+                      <li>• Foundation settlement near downspout outlets affecting drainage slope</li>
+                      <li>• Interior water damage from blocked or undersized roof drains</li>
                     </ul>
                   </div>
                 </div>

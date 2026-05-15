@@ -279,25 +279,28 @@ export default function RoofInspectionsBigSpringPage() {
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    • <strong>Shingle Assessment:</strong> Granule loss, cracking, curling, missing
-                    shingles
+                    • <strong>Shingle Assessment:</strong> Granule loss patterns, mat exposure, and
+                    field-aging on architectural and Class 4 impact-rated asphalt
                   </li>
                   <li>
-                    • <strong>Hail Damage Detection:</strong> Impact marks, bruising, exposed mat
+                    • <strong>Hail Damage Detection:</strong> Circular impact bruising consistent
+                    with the Howard County hail pattern, sized against industry chalk-test standards
                   </li>
                   <li>
-                    • <strong>Wind Damage Evaluation:</strong> Lifted tabs, blown-off shingles, edge
-                    damage
+                    • <strong>Wind Damage Evaluation:</strong> Lifted tabs, ridge-cap loss, and
+                    edge uplift from the 60-80 mph straight-line wind events common to West Texas
                   </li>
                   <li>
-                    • <strong>Flashing Inspection:</strong> Chimney, vent, skylight, and valley
-                    flashing
+                    • <strong>Flashing Inspection:</strong> Step, counter, and valley flashing at
+                    chimneys, plumbing vents, and skylights where most non-storm leaks originate
                   </li>
                   <li>
-                    • <strong>Gutter System:</strong> Damage, debris accumulation, proper drainage
+                    • <strong>Gutter System:</strong> Granule accumulation as a hail-damage signal,
+                    seam separation, and drainage flow back to the downspouts
                   </li>
                   <li>
-                    • <strong>Structural Assessment:</strong> Sagging, settlement, support issues
+                    • <strong>Structural Assessment:</strong> Decking sag, fastener back-out, and
+                    truss settlement signs visible from the roof plane
                   </li>
                 </ul>
               </div>
@@ -307,22 +310,28 @@ export default function RoofInspectionsBigSpringPage() {
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>
-                    • <strong>Attic Examination:</strong> Water stains, mold, insulation damage
+                    • <strong>Attic Examination:</strong> Daylight at nail penetrations, dark
+                    water staining on rafters, and mold signatures from undocumented past leaks
                   </li>
                   <li>
-                    • <strong>Ceiling Assessment:</strong> Discoloration, sagging, water marks
+                    • <strong>Ceiling Assessment:</strong> Discoloration mapped back to the deck
+                    location, sagging drywall, and ring stains from intermittent leaks
                   </li>
                   <li>
-                    • <strong>Ventilation Evaluation:</strong> Proper airflow, moisture control
+                    • <strong>Ventilation Evaluation:</strong> Ridge-to-soffit airflow balance and
+                    proper net free area for the Big Spring summer heat load
                   </li>
                   <li>
-                    • <strong>Insulation Check:</strong> Damage, compression, wet insulation
+                    • <strong>Insulation Check:</strong> Wet, compressed, or displaced batts and
+                    blown-in fiberglass that hint at decking moisture above
                   </li>
                   <li>
-                    • <strong>Structural Integrity:</strong> Rafters, trusses, decking condition
+                    • <strong>Structural Integrity:</strong> Rafter condition, truss-plate gap,
+                    and OSB or plywood decking soundness checked from below
                   </li>
                   <li>
-                    • <strong>Electrical Systems:</strong> Water damage to wiring, safety concerns
+                    • <strong>Electrical Systems:</strong> Water contact at attic wiring and junction
+                    boxes that should be flagged for an electrician before repairs begin
                   </li>
                 </ul>
               </div>
@@ -435,9 +444,11 @@ export default function RoofInspectionsBigSpringPage() {
                 <ClipboardList className="w-6 h-6 inline-block" /> Complete Documentation Package
               </h3>
               <p className="text-lg leading-relaxed">
-                Our comprehensive inspection reports provide all documentation required for
-                successful insurance claims. We work directly with insurance adjusters to ensure
-                your claim is properly documented and fairly assessed.
+                Inspection reports include the slope diagram, hit counts, NOAA storm correlation,
+                and line-item scope an adjuster needs to write the file. We meet adjusters from
+                State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau on-site when the
+                policy or carrier process calls for it, and the documentation is delivered
+                before the adjuster appointment.
               </p>
             </div>
 
@@ -447,12 +458,12 @@ export default function RoofInspectionsBigSpringPage() {
                   <Camera className="w-6 h-6 inline-block" /> Visual Documentation
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• High-resolution damage photographs</li>
-                  <li>• Before and after storm comparisons</li>
-                  <li>• Aerial drone inspection imagery</li>
-                  <li>• Close-up detail shots of damage</li>
-                  <li>• GPS-tagged photo locations</li>
-                  <li>• Video documentation of extensive damage</li>
+                  <li>• High-resolution photographs of every damaged shingle slope</li>
+                  <li>• Aerial drone imagery sized for slope measurement and pitch</li>
+                  <li>• Close-up shots of hail bruising with a chalk-test reference</li>
+                  <li>• GPS-tagged frames so each photo ties to a roof-plan location</li>
+                  <li>• Soft-metals documentation (gutters, downspouts, A/C fins, vent caps)</li>
+                  <li>• Video walk-through for larger Howard County claims</li>
                 </ul>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6">
@@ -460,12 +471,12 @@ export default function RoofInspectionsBigSpringPage() {
                   <FileText className="w-6 h-6 inline-block" /> Written Reports
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Detailed damage assessments</li>
-                  <li>• Measurement documentation</li>
-                  <li>• Material identification and specifications</li>
-                  <li>• Cost estimates for repairs/replacement</li>
-                  <li>• Building code compliance notes</li>
-                  <li>• Weather event correlation data</li>
+                  <li>• Slope-by-slope damage tally with hit counts per test square</li>
+                  <li>• Roof measurement diagram suitable for an adjuster&apos;s scope sheet</li>
+                  <li>• Material ID (GAF, CertainTeed, Owens Corning shingle line where known)</li>
+                  <li>• Line-item repair vs. replacement cost estimates</li>
+                  <li>• Notes on Howard County and City of Big Spring code compliance</li>
+                  <li>• NOAA storm-report correlation tying damage to a specific date</li>
                 </ul>
               </div>
             </div>
@@ -611,8 +622,10 @@ export default function RoofInspectionsBigSpringPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Insurance Partnership</h3>
                 <p className="text-gray-600">
-                  We work directly with all major insurance companies and understand the claims
-                  process to maximize your coverage.
+                  We work claims regularly with State Farm, Allstate, USAA, Farmers, and Texas
+                  Farm Bureau across Howard County. The inspection report is built around what
+                  those adjusters look for so the file moves through underwriting without
+                  back-and-forth.
                 </p>
               </div>
             </div>

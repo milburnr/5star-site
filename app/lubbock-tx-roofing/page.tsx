@@ -230,8 +230,11 @@ export default function LubbockRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Lubbock</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Lubbock and Lubbock County. Select a service below for details.
+              Across Lubbock and Lubbock County we install architectural and Class 4 impact-rated
+              asphalt shingles, standing seam metal, and commercial TPO and PVC membranes from
+              GAF, CertainTeed, Owens Corning, and Carlisle. Free inspections include written
+              documentation suitable for adjusters at State Farm, Allstate, USAA, and Farmers.
+              Select a service below for details.
             </p>
           </FadeIn>
 

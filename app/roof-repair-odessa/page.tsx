@@ -276,23 +276,24 @@ export default function RoofRepairOdessaPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Hail Impact Repairs:</strong> Specialized techniques for West Texas
-                    hailstorm damage patterns
+                    <strong>Hail Impact Repairs:</strong> Granule-loss replacement and Class 4
+                    impact-rated shingle upgrades for Hail Alley exposure
                   </li>
                   <li>
-                    <strong>Wind Uplift Restoration:</strong> Escarpment wind damage repair and
-                    reinforcement
+                    <strong>Wind Uplift Restoration:</strong> UL 580 rated re-fastening and
+                    edge-metal upgrades for Llano Estacado escarpment winds
                   </li>
                   <li>
-                    <strong>Flash Flood Recovery:</strong> Rapid water damage restoration for desert
-                    storm events
+                    <strong>Flash Flood Recovery:</strong> Decking dry-out, insulation replacement,
+                    and membrane patching after desert storm events
                   </li>
                   <li>
-                    <strong>Lightning Strike Repair:</strong> Electrical damage assessment and
-                    structural restoration
+                    <strong>Lightning Strike Repair:</strong> Penetration assessment, deck damage
+                    review, and structural restoration around strike points
                   </li>
                   <li>
-                    <strong>weatherproof sheeting:</strong> temporary protection during severe weather
+                    <strong>Temporary weather protection:</strong> Weatherproof sheeting installed
+                    during the repair window
                   </li>
                 </ul>
               </div>
@@ -302,24 +303,24 @@ export default function RoofRepairOdessaPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Chemical Cleaning:</strong> Petrochemical residue removal and surface
-                    restoration
+                    <strong>Chemical Cleaning:</strong> Petrochemical residue removal from PVC and
+                    TPO membrane surfaces
                   </li>
                   <li>
-                    <strong>Corrosion Treatment:</strong> Acid rain and refinery emission damage
-                    repair
+                    <strong>Corrosion Treatment:</strong> Acid-deposition and refinery-emission
+                    damage repair on standing seam metal panels
                   </li>
                   <li>
-                    <strong>Particulate Removal:</strong> Industrial dust and contamination cleaning
-                    services
+                    <strong>Particulate Removal:</strong> Permian Basin dust and contamination
+                    cleanup along drains, scuppers, and seams
                   </li>
                   <li>
-                    <strong>Material Replacement:</strong> Chemically damaged component replacement
-                    and upgrade
+                    <strong>Material Replacement:</strong> PVC membrane sections, flashing, and
+                    insulation swapped where chemical damage has degraded performance
                   </li>
                   <li>
-                    <strong>Protective Coatings:</strong> Industrial-grade protective system
-                    installation
+                    <strong>Protective Coatings:</strong> Industrial-grade reinforced coatings over
+                    aged BUR or modified bitumen substrates
                   </li>
                 </ul>
               </div>
@@ -329,24 +330,24 @@ export default function RoofRepairOdessaPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Settlement Damage Repair:</strong> Foundation movement impact
-                    restoration
+                    <strong>Settlement Damage Repair:</strong> Re-flashing and seam reconstruction
+                    where foundation movement has separated the membrane
                   </li>
                   <li>
-                    <strong>Structural Reinforcement:</strong> Load path strengthening and support
-                    upgrades
+                    <strong>Structural Reinforcement:</strong> Load path strengthening and
+                    fastener-pattern upgrades to meet UL 580 wind requirements
                   </li>
                   <li>
-                    <strong>Vibration Damage:</strong> Industrial activity impact repair and
-                    mitigation
+                    <strong>Vibration Damage:</strong> Fastener and seam repair around HVAC and
+                    pumping equipment common in Ector County buildings
                   </li>
                   <li>
-                    <strong>Historic Building Restoration:</strong> Heritage-compliant repair
-                    techniques
+                    <strong>Historic Building Restoration:</strong> Heritage-compliant repair on
+                    downtown Odessa storefronts and older Ector County structures
                   </li>
                   <li>
-                    <strong>Code Compliance Updates:</strong> Bringing older structures to current
-                    standards
+                    <strong>Code Compliance Updates:</strong> Bringing older roof assemblies into
+                    line with current Ector County and Texas IBC requirements
                   </li>
                 </ul>
               </div>
@@ -356,20 +357,20 @@ export default function RoofRepairOdessaPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Leak Stoppage:</strong> Immediate water intrusion control and
-                    containment
+                    <strong>Scheduled Leak Repair:</strong> Membrane patching, flashing rework, and
+                    seam welding once we are on the roof
                   </li>
                   <li>
-                    <strong>Safety Hazard Mitigation:</strong> Dangerous condition stabilization and
-                    repair
+                    <strong>Safety Hazard Mitigation:</strong> Stabilization of loose flashing,
+                    failed fasteners, and damaged edge metal
                   </li>
                   <li>
-                    <strong>Insurance Coordination:</strong> Direct billing and claim management
-                    services
+                    <strong>Insurance Coordination:</strong> Direct documentation and claim
+                    support with State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau
                   </li>
                   <li>
-                    <strong>Temporary Housing Assistance:</strong> Coordination for displacement
-                    situations
+                    <strong>Displacement Coordination:</strong> Help navigating policy provisions
+                    for additional living expenses when needed
                   </li>
                 </ul>
               </div>
@@ -669,9 +670,10 @@ export default function RoofRepairOdessaPage() {
                   <Zap className="w-6 h-6 inline-block" /> our roofing service and scheduling
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Mobile repair units equipped for post-storm assessment</li>
-                  <li>• Direct relationships with emergency management agencies</li>
-                  <li>• Coordination with industrial safety and environmental agencies</li>
+                  <li>• Service vehicles stocked for post-storm assessment across Ector County</li>
+                  <li>• Working relationships with Odessa permitting and inspection staff</li>
+                  <li>• Coordination with industrial safety and environmental contacts on Permian Basin sites</li>
+                  <li>• Inspections typically scheduled within a few business days of intake</li>
                 </ul>
               </div>
               <div>
@@ -679,10 +681,10 @@ export default function RoofRepairOdessaPage() {
                   <Microscope className="w-6 h-6 inline-block" /> Advanced Materials and Technology
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Industrial-grade materials specifically selected for Odessa conditions</li>
-                  <li>• Chemical-resistant systems designed for petroleum environment</li>
-                  <li>• Advanced testing equipment for quality assurance</li>
-                  <li>• Ongoing material research and development partnerships</li>
+                  <li>• PVC and TPO membranes from Carlisle and Firestone for industrial roofs</li>
+                  <li>• Chemical-resistant flashings and pitch pans for Permian Basin equipment</li>
+                  <li>• Electronic leak detection and seam pull-testing during QC</li>
+                  <li>• GAF and CertainTeed shingle lines for residential repairs in Odessa</li>
                 </ul>
               </div>
               <div>
@@ -690,10 +692,10 @@ export default function RoofRepairOdessaPage() {
                   <DollarSign className="w-6 h-6 inline-block" /> Insurance and Financial Services
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Expert insurance claim documentation and advocacy</li>
-                  <li>• Direct billing arrangements with major insurance providers</li>
-                  <li>• Financing options for non-covered repairs and upgrades</li>
-                  <li>• Third-party liability claim assistance for industrial contamination</li>
+                  <li>• Photo-documented claim reports for State Farm, Allstate, and USAA adjusters</li>
+                  <li>• Direct billing arrangements with Farmers and Texas Farm Bureau</li>
+                  <li>• Financing options for non-covered repairs and Class 4 shingle upgrades</li>
+                  <li>• Claim support coordination for industrial contamination on commercial sites</li>
                 </ul>
               </div>
             </div>

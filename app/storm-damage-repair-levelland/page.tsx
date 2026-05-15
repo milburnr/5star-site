@@ -456,10 +456,10 @@ export default function StormDamageRepairLevellandPage() {
                       Extreme Hail Damage
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Complete granule stripping</li>
-                      <li>• Membrane punctures and tears</li>
-                      <li>• Structural deck damage</li>
-                      <li>• Catastrophic system failure</li>
+                      <li>• Granule stripping on asphalt shingles across south-facing slopes</li>
+                      <li>• Punctures and tears on TPO and EPDM membranes</li>
+                      <li>• Deck damage where hail has driven through aged shingles</li>
+                      <li>• System failure on roofs already at the end of service life</li>
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -467,10 +467,10 @@ export default function StormDamageRepairLevellandPage() {
                       High Wind Damage
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Membrane blow-off and lifting</li>
-                      <li>• Dust abrasion damage</li>
-                      <li>• HVAC equipment displacement</li>
-                      <li>• Structural wind uplift</li>
+                      <li>• Membrane blow-off and seam lifting on Hockley County flat roofs</li>
+                      <li>• South Plains dust abrasion on flashing and edge metal</li>
+                      <li>• HVAC equipment displacement and curb damage</li>
+                      <li>• Wind uplift on under-fastened standing seam panels</li>
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -478,10 +478,10 @@ export default function StormDamageRepairLevellandPage() {
                       Thermal Extremes
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Rapid thermal cycling damage</li>
-                      <li>• UV degradation acceleration</li>
-                      <li>• Ice expansion cracking</li>
-                      <li>• Membrane brittleness</li>
+                      <li>• Day-night thermal cycling that stresses welded TPO seams</li>
+                      <li>• UV degradation on unprotected EPDM and modified bitumen</li>
+                      <li>• Ice expansion cracking at parapets and scuppers in winter</li>
+                      <li>• Membrane brittleness on aged roofs nearing the end of warranty</li>
                     </ul>
                   </div>
                 </div>

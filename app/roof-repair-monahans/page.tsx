@@ -423,8 +423,10 @@ export default function RoofRepairMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Desert Assessment</h3>
                 <p className="text-gray-700">
-                  Comprehensive evaluation of sand abrasion, thermal stress, and UV degradation
-                  specific to Chihuahuan Desert conditions.
+                  Blowing sand off the Monahans Sandhills strips granules and chews up flashing
+                  edges. We document abrasion, thermal cycling on dark surfaces, and UV damage on
+                  membranes so the repair scope matches what the Permian Basin climate actually
+                  did to your roof.
                 </p>
               </div>
               <div className="text-center p-6 bg-amber-50 rounded-xl">
@@ -433,8 +435,10 @@ export default function RoofRepairMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil Field Expertise</h3>
                 <p className="text-gray-700">
-                  Specialized knowledge of chemical exposure, industrial vibration, and
-                  facility-specific requirements for Permian Basin operations.
+                  Permian Basin operations expose roofs to hydrocarbon vapors, compressor
+                  vibration, and constant equipment penetrations. We specify PVC membranes for
+                  chemical resistance and detail flashings around dust collectors and exhaust
+                  stacks so seams hold up to industrial conditions in Ward County.
                 </p>
               </div>
               <div className="text-center p-6 bg-green-50 rounded-xl">
@@ -443,8 +447,10 @@ export default function RoofRepairMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">post-storm documentation</h3>
                 <p className="text-gray-700">
-                  Rapid mobilization for hail and wind damage with extensive experience in Ward
-                  County storm patterns and insurance requirements.
+                  After Hail Alley events and Permian Basin wind damage, we deliver photographic
+                  damage reports, hail-size evidence, and slope-by-slope measurements before the
+                  adjuster meeting. We work claims regularly with State Farm, Allstate, USAA,
+                  Farmers, and Texas Farm Bureau on Ward County properties.
                 </p>
               </div>
             </div>
@@ -551,49 +557,49 @@ export default function RoofRepairMonahansPage() {
               <div className="bg-white p-6 rounded-xl">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Central Monahans</h3>
                 <p className="text-gray-600 mb-3 text-sm">
-                  Historic downtown and established residential areas
+                  Historic downtown along Sealy Avenue and the older neighborhoods west of US 80.
                 </p>
                 <ul className="text-xs text-gray-700 space-y-1">
-                  <li>• Downtown business district</li>
-                  <li>• Residential neighborhoods near schools</li>
-                  <li>• Municipal and government buildings</li>
-                  <li>• Historic property preservation</li>
+                  <li>• Downtown storefronts and small-office TPO repairs</li>
+                  <li>• Older homes near Walker Junior High and Monahans HS</li>
+                  <li>• Ward County municipal and government buildings</li>
+                  <li>• Architectural shingle re-roofs that match historic streetscapes</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">North Monahans</h3>
                 <p className="text-gray-600 mb-3 text-sm">
-                  Modern residential and light commercial development
+                  Newer subdivisions and light commercial north of I-20.
                 </p>
                 <ul className="text-xs text-gray-700 space-y-1">
-                  <li>• Newer residential developments</li>
-                  <li>• Medical and professional offices</li>
-                  <li>• Educational facilities</li>
-                  <li>• Community service buildings</li>
+                  <li>• Architectural asphalt shingle re-roofs on newer subdivisions</li>
+                  <li>• Medical and professional offices with TPO flat roofs</li>
+                  <li>• Educational facilities and church campuses</li>
+                  <li>• Class 4 impact-rated shingle upgrades for hail discounts</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Industrial Corridor</h3>
                 <p className="text-gray-600 mb-3 text-sm">
-                  Oil field support and heavy industrial facilities
+                  Oil field service yards and industrial properties along I-20 and Highway 18.
                 </p>
                 <ul className="text-xs text-gray-700 space-y-1">
-                  <li>• Oil field service companies</li>
-                  <li>• Heavy equipment facilities</li>
-                  <li>• Storage and distribution centers</li>
-                  <li>• Transportation terminals</li>
+                  <li>• PVC membrane repairs on oil field service company shops</li>
+                  <li>• Standing seam metal panels on heavy equipment buildings</li>
+                  <li>• EPDM membranes on storage and distribution centers</li>
+                  <li>• Built-up roofing (BUR) repair on older transportation terminals</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Rural Ward County</h3>
                 <p className="text-gray-600 mb-3 text-sm">
-                  Remote properties and specialized facilities
+                  Ranches, remote pad sites, and Monahans Sandhills State Park-area properties.
                 </p>
                 <ul className="text-xs text-gray-700 space-y-1">
-                  <li>• Ranch and agricultural properties</li>
-                  <li>• Remote oil field installations</li>
-                  <li>• Sand mine operations</li>
-                  <li>• Recreation area facilities</li>
+                  <li>• R-panel metal roofs on ranch homes and outbuildings</li>
+                  <li>• Remote pad-site equipment buildings with PVC membrane</li>
+                  <li>• Roof systems engineered for blowing-sand abrasion</li>
+                  <li>• Lodging and recreation facilities near the Sandhills</li>
                 </ul>
               </div>
             </div>
@@ -606,8 +612,10 @@ export default function RoofRepairMonahansPage() {
               What Roofing Material Specifications Matter in Monahans?
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Advanced material systems engineered to withstand the unique combination of desert
-              climate and oil industry environmental challenges.
+              Monahans roofs face blowing sand off the Sandhills, hydrocarbon vapors from Permian
+              Basin operations, and intense UV. The right spec mixes PVC, EPDM, or modified bitumen
+              for flat roofs with standing seam or R-panel metal where wind uplift and abrasion are
+              the dominant loads.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">

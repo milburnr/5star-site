@@ -302,14 +302,16 @@ export default function ResidentialRoofingSnyderPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Oil Industry Housing</h3>
                 <p className="text-gray-700 mb-4">
-                  Specialized services for energy sector workers and properties supporting Scurry
-                  County's ongoing oil production operations.
+                  Roofs for the homes that keep Scurry County&apos;s oil production going. Class 4
+                  impact-rated asphalt shingles from GAF or CertainTeed hold up to Hail Alley
+                  exposure, and standing seam metal is a good fit on rural and executive properties
+                  east of Snyder.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Worker housing developments</li>
-                  <li>• Executive home installations</li>
-                  <li>• Industrial environment protection</li>
-                  <li>• Rapid project completion</li>
+                  <li>• Worker housing developments and rental portfolios</li>
+                  <li>• Executive home installations with architectural or metal roofing</li>
+                  <li>• Roof assemblies engineered for industrial environment exposure</li>
+                  <li>• Predictable project schedules around shift work</li>
                 </ul>
               </div>
 
@@ -321,14 +323,16 @@ export default function ResidentialRoofingSnyderPage() {
                   College Community Roofing
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Comprehensive services for Western Texas College area properties including faculty
-                  housing and student residences.
+                  Faculty homes, rental properties, and student residences near Western Texas
+                  College off College Avenue. Architectural shingle re-roofs and standing seam
+                  metal jobs scheduled around the academic calendar so move-in and exam weeks
+                  stay quiet.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Faculty and staff housing</li>
-                  <li>• Student housing properties</li>
-                  <li>• Academic calendar coordination</li>
-                  <li>• Educational facility experience</li>
+                  <li>• Faculty and staff housing along the College Avenue corridor</li>
+                  <li>• Multi-property rental and student housing portfolios</li>
+                  <li>• Tear-off and install scheduled outside finals week</li>
+                  <li>• Class 4 impact-rated shingle upgrades for hail insurance discounts</li>
                 </ul>
               </div>
             </div>

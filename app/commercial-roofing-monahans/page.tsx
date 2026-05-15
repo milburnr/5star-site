@@ -360,8 +360,9 @@ export default function CommercialRoofingMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Documentation-First</h3>
                 <p className="text-gray-700">
-                  Thorough damage documentation and insurance-claim support for diverse industrial
-                  and tourism operations in Monahans.
+                  Slope-by-slope photo reports, hail-size evidence, and measurement diagrams that
+                  State Farm, USAA, and Texas Farm Bureau adjusters use to scope Ward County
+                  industrial and Monahans Sandhills-area tourism properties.
                 </p>
               </div>
 
@@ -497,9 +498,12 @@ export default function CommercialRoofingMonahansPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-gray-700 leading-relaxed mb-4">
-                      Military gear manufacturing facilities require specialized roofing systems
-                      that meet security requirements while supporting precision manufacturing
-                      processes and protecting sensitive equipment and materials.
+                      Military gear manufacturing facilities in Ward County need roof systems that
+                      hold up to Permian Basin heat and blowing-sand abrasion while meeting
+                      access-control and environmental requirements. PVC membrane systems with
+                      hot-air welded seams give a chemical-resistant envelope over precision
+                      manufacturing areas, and badge-controlled crew access keeps the project
+                      compliant.
                     </p>
                     <h4 className="font-bold text-brand-brown mb-2">Manufacturing Applications:</h4>
                     <ul className="text-gray-700 space-y-1 ml-4">

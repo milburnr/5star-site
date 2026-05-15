@@ -370,8 +370,11 @@ export default function Page() {
           <div className="step-content">
             <h3 className="step-title">Complete Tear-Off & Inspection</h3>
             <p className="step-text">
-              Remove all existing roofing materials down to deck. Inspect and replace damaged or
-              rotted decking. This reveals hidden problems before they become expensive failures.
+              Strip all existing asphalt shingles and underlayment down to OSB or plywood
+              deck. We then check every sheet for hail-puncture damage, moisture staining,
+              and rotted nail-down areas around vents and chimneys. Bad decking gets
+              replaced before any new material goes down. This is where Amarillo hail
+              damage from past storms typically shows up.
             </p>
           </div>
         </div>
@@ -390,8 +393,11 @@ export default function Page() {
           <div className="step-content">
             <h3 className="step-title">Starter Strip Installation</h3>
             <p className="step-text">
-              Specialized starter shingles along eaves and rakes prevent blow-off. This is where
-              most DIY and budget contractors cut corners—we never skip it.
+              Manufacturer-spec starter shingles, like GAF Pro-Start or CertainTeed
+              Swiftstart, go down along eaves and rakes with a continuous sealant strip.
+              That sealant locks the first course against Amarillo wind uplift. Skipping
+              starter or substituting cut three-tabs is the single most common shortcut
+              we find when tearing off a failed roof.
             </p>
           </div>
         </div>
@@ -420,8 +426,11 @@ export default function Page() {
           <div className="step-content">
             <h3 className="step-title">Cleanup & Final Inspection</h3>
             <p className="step-text">
-              Magnetic sweep of entire property for nails. Remove all debris. Walk-through
-              inspection with homeowner. Provide warranty documentation and care instructions.
+              We run a rolling magnetic sweep across the yard, driveway, and flower beds
+              to catch loose roofing nails. All shingle wrappers and tear-off debris go
+              into the dumpster and off the property. Then we walk the roof and yard with
+              the Amarillo homeowner, leave GAF or CertainTeed warranty paperwork, and
+              cover what to watch for over the first season.
             </p>
           </div>
         </div>

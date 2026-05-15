@@ -645,10 +645,11 @@ export default function AsphaltShingleRoofingMidlandPage() {
                   Desert Installation Protocols
                 </h3>
                 <ul className="grid md:grid-cols-2 gap-2 text-orange-700 text-sm">
-                  <li>• Work suspended when surface temps exceed 150°F</li>
-                  <li>• Enhanced crew safety protocols for heat exposure</li>
-                  <li>• Material storage in climate-controlled environment</li>
-                  <li>• Quality control with thermal imaging verification</li>
+                  <li>• Work suspended when surface temps exceed 150°F to protect shingle seal</li>
+                  <li>• Crew hydration breaks and shade rotation during Permian Basin summer heat</li>
+                  <li>• GAF and CertainTeed shingle bundles stored under cover, off the hot deck</li>
+                  <li>• Hand-seal verification on shingles installed below the manufacturer&apos;s thermal-seal threshold</li>
+                  <li>• Six-nail pattern across all slopes for High Plains wind exposure</li>
                 </ul>
               </div>
             </div>
@@ -671,16 +672,16 @@ export default function AsphaltShingleRoofingMidlandPage() {
                     <h4 className="text-lg font-bold text-red-800 mb-2">Summer Heat Protocol</h4>
                     <ul className="space-y-1 text-red-700 text-sm">
                       <li>
-                        <strong>Monthly:</strong> Visual inspection for heat stress indicators
+                        <strong>Monthly:</strong> Ground-level visual check for granule loss and curling on south-facing slopes
                       </li>
                       <li>
-                        <strong>Quarterly:</strong> Professional thermal assessment
+                        <strong>Quarterly:</strong> On-roof thermal assessment with attic temperature spot-checks
                       </li>
                       <li>
-                        <strong>Pre-summer:</strong> Comprehensive ventilation check
+                        <strong>Pre-summer:</strong> Soffit, ridge, and gable ventilation check before Midland surface temps spike
                       </li>
                       <li>
-                        <strong>Post-storm:</strong> damage inspection and repairs
+                        <strong>Post-storm:</strong> Hail-bruise mapping and chalked test squares for any insurance claim
                       </li>
                     </ul>
                   </div>
@@ -690,10 +691,10 @@ export default function AsphaltShingleRoofingMidlandPage() {
                       Industrial Environment Care
                     </h4>
                     <ul className="space-y-1 text-brand-brown text-sm">
-                      <li>• Dust and particulate removal from surfaces</li>
-                      <li>• Chemical residue cleaning as needed</li>
-                      <li>• Fastener inspection for vibration effects</li>
-                      <li>• Fire safety system verification</li>
+                      <li>• Permian Basin dust and particulate cleared from drains and valleys</li>
+                      <li>• Hydrocarbon residue cleaning where wind has carried plant exhaust</li>
+                      <li>• Fastener inspection for vibration back-out near compressors and HVAC</li>
+                      <li>• Spark-arrester and fire-rated assembly verification on industrial outbuildings</li>
                     </ul>
                   </div>
                 </div>
@@ -707,10 +708,10 @@ export default function AsphaltShingleRoofingMidlandPage() {
                       Heat Damage Warning Signs
                     </h4>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Excessive granule loss on south-facing slopes</li>
-                      <li>• Shingle curling or cupping from heat cycling</li>
-                      <li>• Cracking along seal lines from thermal stress</li>
-                      <li>• Fading or discoloration beyond normal aging</li>
+                      <li>• Granules collecting at gutters and downspouts</li>
+                      <li>• Shingle curling or cupping after repeated Permian Basin heat cycles</li>
+                      <li>• Cracking along the factory seal line from thermal expansion</li>
+                      <li>• Discoloration beyond normal aging on south and west exposures</li>
                     </ul>
                   </div>
 
@@ -719,10 +720,10 @@ export default function AsphaltShingleRoofingMidlandPage() {
                       Energy Performance Tracking
                     </h4>
                     <ul className="space-y-1 text-sm text-gray-700">
-                      <li>• Monthly energy bill comparison analysis</li>
-                      <li>• Attic temperature monitoring in summer</li>
-                      <li>• HVAC system performance correlation</li>
-                      <li>• ROI calculation for cool roof investment</li>
+                      <li>• Month-over-month Oncor electric bill comparison</li>
+                      <li>• Attic temperature monitoring at the ridge during Midland summers</li>
+                      <li>• HVAC runtime correlation before and after the install</li>
+                      <li>• ROI estimate for ENERGY STAR cool-roof shingle upgrades</li>
                     </ul>
                   </div>
                 </div>

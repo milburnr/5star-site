@@ -269,16 +269,19 @@ export default function CommercialRoofingSnyderPage() {
                   Agricultural Processing Facilities
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Specialized roofing systems for cotton gins, grain storage, and processing
-                  facilities requiring superior moisture control, dust resistance, and accommodation
-                  for heavy equipment loads and conveyor systems.
+                  Cotton gins, grain elevators, and feed-processing plants across Scurry County deal
+                  with constant lint, dust, and humidity swings. We specify TPO or PVC membranes for
+                  large flat spans where moisture control matters, and standing seam or R-panel metal
+                  where conveyor systems and heavy mechanical loads cross the deck. Penetration
+                  flashings around vents and dust collectors get hand-detailed, since that is where
+                  agricultural roofs typically fail first.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Moisture and humidity control systems</li>
-                  <li>• Dust and debris resistant materials</li>
-                  <li>• Enhanced structural load capacity</li>
-                  <li>• Specialized ventilation integration</li>
-                  <li>• Fire-resistant assembly options</li>
+                  <li>• Moisture and humidity control detailing at seams and penetrations</li>
+                  <li>• Dust-tolerant membrane surfaces and welded TPO/PVC seams</li>
+                  <li>• Decking and fastening rated for conveyor and equipment loads</li>
+                  <li>• Ventilation integration for grain dryers and gin mill exhaust</li>
+                  <li>• Class A fire-rated assemblies for cotton and grain storage</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -286,16 +289,19 @@ export default function CommercialRoofingSnyderPage() {
                   Energy and Manufacturing
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  High-performance roofing for oil and gas operations, wind energy facilities, and
-                  manufacturing plants requiring chemical resistance, specialized equipment
-                  mounting, and enhanced safety features.
+                  Oil and gas operations on the eastern edge of the Permian Basin, wind farms north
+                  of Snyder, and manufacturing plants all share the same roof problem: hydrocarbon
+                  exposure, vibration, and lightning risk on exposed High Plains rooftops. We use
+                  PVC membranes where chemical resistance matters most, EPDM for ballasted systems
+                  on larger spans, and standing seam metal where wind uplift is the driver. Class A
+                  fire ratings and UL 580 wind certifications are standard on these specs.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Chemical and hydrocarbon resistant systems</li>
-                  <li>• Class A fire-rated assemblies</li>
-                  <li>• Equipment mounting and penetration sealing</li>
-                  <li>• Enhanced lightning protection</li>
-                  <li>• Emergency access and safety features</li>
+                  <li>• PVC membranes for hydrocarbon and chemical resistance</li>
+                  <li>• Class A fire-rated assemblies for industrial occupancies</li>
+                  <li>• Engineered curbs and pitch pans for equipment penetrations</li>
+                  <li>• Lightning protection coordination on West Texas plains buildings</li>
+                  <li>• Roof hatch and tie-off placement for OSHA-compliant access</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -303,16 +309,19 @@ export default function CommercialRoofingSnyderPage() {
                   Commercial and Healthcare
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Energy-efficient roofing solutions for retail centers, office buildings, and
-                  healthcare facilities focusing on interior comfort, noise reduction, and
-                  operational continuity during installation.
+                  Retail centers along College Avenue, professional offices, and Cogdell Memorial
+                  Hospital-adjacent facilities all share a need for quiet interiors and continuous
+                  operations during a reroof. White TPO and PVC membranes carry ENERGY STAR
+                  cool-roof ratings that cut summer air-conditioning load. Phased tear-off
+                  scheduling lets us keep storefronts and patient wings dry and open while crews
+                  work in sections.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Energy-efficient cool roofing systems</li>
-                  <li>• Superior insulation and air sealing</li>
-                  <li>• Noise reduction technologies</li>
-                  <li>• Non-disruptive installation methods</li>
-                  <li>• Aesthetic design integration</li>
+                  <li>• ENERGY STAR cool-roof TPO and PVC membrane options</li>
+                  <li>• Polyiso insulation packages for higher R-value and air sealing</li>
+                  <li>• Acoustic-rated decking assemblies for patient-care areas</li>
+                  <li>• Phased installation that keeps tenants open</li>
+                  <li>• Coordinated color and edge-metal options for retail facades</li>
                 </ul>
               </div>
             </div>
@@ -374,8 +383,9 @@ export default function CommercialRoofingSnyderPage() {
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">
-                Maximize energy savings and reduce operational costs with advanced commercial
-                roofing technologies designed for Texas climate conditions.
+                Reflective white TPO and PVC membranes, polyiso insulation, and ENERGY STAR
+                cool-roof options cut cooling load through long Snyder summers and lower
+                operating costs on the Llano Estacado.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -435,9 +445,9 @@ export default function CommercialRoofingSnyderPage() {
                   </div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Detailed Assessment</h3>
                   <p className="text-gray-600">
-                    Comprehensive building evaluation including structural analysis, moisture
-                    surveys, and code compliance review to ensure optimal system design and
-                    performance.
+                    Deck condition, structural load capacity, moisture survey on the existing
+                    membrane, and a Scurry County code-compliance check. The output is a written
+                    spec that drives material selection and warranty registration.
                   </p>
                 </div>
                 <div className="text-center">
@@ -448,9 +458,9 @@ export default function CommercialRoofingSnyderPage() {
                     Professional Installation
                   </h3>
                   <p className="text-gray-600">
-                    Certified installation teams following manufacturer specifications and industry
-                    best practices while maintaining strict safety protocols and quality control
-                    standards.
+                    Crews trained on GAF, Carlisle, and Firestone systems follow the manufacturer
+                    spec line by line, with on-site safety supervision and daily QC checks against
+                    UL 580 wind and Class A fire requirements.
                   </p>
                 </div>
                 <div className="text-center">
@@ -459,8 +469,9 @@ export default function CommercialRoofingSnyderPage() {
                   </div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Quality Verification</h3>
                   <p className="text-gray-600">
-                    Comprehensive final inspections, performance testing, and complete documentation
-                    to ensure system integrity and warranty compliance.
+                    Final punch-list inspection, electronic leak detection or flood testing on
+                    membrane roofs, and a closeout binder with warranty registration so the
+                    manufacturer coverage is locked in from day one.
                   </p>
                 </div>
               </div>
@@ -608,16 +619,17 @@ export default function CommercialRoofingSnyderPage() {
                     Environmental Responsibility
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    We implement sustainable practices throughout our operations including proper
-                    waste management, material recycling, and environmentally responsible product
-                    selection for Snyder commercial projects.
+                    Tear-off asphalt shingles go to recycling, scrap metal panels go to a Scurry
+                    County metal recycler, and salvageable insulation gets reused where the spec
+                    allows. White TPO and PVC membrane choices carry ENERGY STAR cool-roof ratings
+                    that lower long-term energy use on Snyder commercial buildings.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Comprehensive material recycling programs</li>
-                    <li>• Sustainable product selection and specification</li>
-                    <li>• Waste minimization and proper disposal practices</li>
-                    <li>• Environmental impact assessment and mitigation</li>
-                    <li>• Energy efficiency optimization and certification</li>
+                    <li>• Shingle and metal tear-off routed to recycling, not landfill</li>
+                    <li>• ENERGY STAR cool-roof TPO and PVC options on commercial installs</li>
+                    <li>• Polyiso insulation packages that raise R-value on existing decks</li>
+                    <li>• Low-VOC adhesives and sealants where the spec allows</li>
+                    <li>• Site protection plan to keep debris out of adjoining properties</li>
                   </ul>
                 </div>
               </div>
@@ -642,9 +654,10 @@ export default function CommercialRoofingSnyderPage() {
                         West Texas Expertise
                       </h3>
                       <p className="text-gray-700">
-                        Deep understanding of Snyder's climate challenges, local building
-                        requirements, and industry-specific needs gained through extensive regional
-                        experience.
+                        We work the Texas Panhandle and the Llano Estacado every week. That means
+                        familiarity with Scurry County building requirements, Hail Alley wind and
+                        impact ratings, and the oil-and-gas operations that drive Snyder property
+                        decisions.
                       </p>
                     </div>
                   </div>
@@ -672,9 +685,9 @@ export default function CommercialRoofingSnyderPage() {
                         Advanced Technology
                       </h3>
                       <p className="text-gray-700">
-                        Latest installation techniques, energy-efficient materials, and innovative
-                        roofing systems designed for optimal performance in challenging Texas
-                        conditions.
+                        Hot-air welded TPO and PVC seams, Class 4 impact-rated asphalt shingles for
+                        Hail Alley exposure, and standing seam metal panels with concealed-fastener
+                        clips that hold up to High Plains wind without back-out failure.
                       </p>
                     </div>
                   </div>
@@ -687,9 +700,10 @@ export default function CommercialRoofingSnyderPage() {
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Complete Service</h3>
                       <p className="text-gray-700">
-                        Comprehensive project management from initial consultation through long-term
-                        warranty service, including permits, inspections, and insurance
-                        coordination.
+                        One point of contact from the first walkthrough through final warranty
+                        registration. We pull the Scurry County permits, schedule the inspections,
+                        and coordinate billing with State Farm, Allstate, USAA, Farmers, or Texas
+                        Farm Bureau when insurance is involved.
                       </p>
                     </div>
                   </div>
@@ -700,9 +714,10 @@ export default function CommercialRoofingSnyderPage() {
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Storm Damage Documentation</h3>
                       <p className="text-gray-700">
-                        {" "}
-                        for storm damage, leak repairs, and urgent roofing issues affecting Snyder
-                        commercial operations and property protection.
+                        After Hail Alley events, we deliver photographic damage reports, hail-size
+                        evidence, and measurement diagrams that State Farm, USAA, and Texas Farm
+                        Bureau adjusters work from. Inspections are typically scheduled within a
+                        few days of the call.
                       </p>
                     </div>
                   </div>
@@ -713,9 +728,10 @@ export default function CommercialRoofingSnyderPage() {
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Competitive Value</h3>
                       <p className="text-gray-700">
-                        Transparent pricing, detailed estimates, and competitive rates backed by
-                        superior materials, expert installation, and comprehensive warranty
-                        protection.
+                        Line-item estimates so you can see material, labor, and disposal costs
+                        separately. Pricing is backed by GAF, CertainTeed, Carlisle, and Firestone
+                        warranties, and our payment timing follows the Texas Prompt Payment Act on
+                        commercial projects.
                       </p>
                     </div>
                   </div>

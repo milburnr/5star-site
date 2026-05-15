@@ -336,8 +336,11 @@ export default function MetalRoofOdessaPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Hail Resistance</h3>
                 <p className="text-gray-700">
-                  Metal roofs shed hail impacts that would destroy asphalt shingles. Dents are
-                  cosmetic—waterproofing remains intact.
+                  Standing seam metal panels on Odessa homes can carry UL 2218 Class 4
+                  impact ratings, the same rating that earns premium discounts from State
+                  Farm, Allstate, USAA, and Texas Farm Bureau. Hail that would crack a
+                  three-tab shingle typically leaves only cosmetic denting on metal, and
+                  the panel keeps water out.
                 </p>
               </div>
               <div className="text-center">

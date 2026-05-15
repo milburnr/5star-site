@@ -345,43 +345,44 @@ export default function StormDamageRepairCanyonPage() {
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">WTAMU Campus Area</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Elevated exposure to wind shear</li>
-                  <li>• Large flat roof areas catch more hail</li>
-                  <li>• Multiple building height turbulence</li>
-                  <li>• Student housing densities</li>
+                  <li>• Open campus on the Llano Estacado catches the full Texas Panhandle wind</li>
+                  <li>• Large TPO and modified-bitumen flat roofs collect more hail per square</li>
+                  <li>• Multi-story academic buildings create wind-load eddies at parapets</li>
+                  <li>• Dense residence halls share continuous roof planes, multiplying damage scope</li>
                 </ul>
                 <p className="text-gray-600 text-sm">
-                  The university's elevated campus faces maximum wind exposure with minimal
-                  protection. Academic buildings and residence halls require specialized attention
-                  to fastening systems and impact resistance.
+                  Buildings around WTAMU benefit from UL 580 wind-rated edge metal and 6-nail
+                  fastening on shingle systems. On flat roofs we specify mechanically fastened
+                  TPO with welded seams or fully adhered PVC for parapet detail work.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-green-500">
                 <h3 className="text-xl font-bold mb-3 text-green-700">Historic Downtown Canyon</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Older building vulnerabilities</li>
-                  <li>• Historic preservation requirements</li>
-                  <li>• Mixed architectural styles</li>
-                  <li>• Limited access for repairs</li>
+                  <li>• Plank decking and original framing common in early-1900s Canyon buildings</li>
+                  <li>• Historic district approvals before any visible material change</li>
+                  <li>• Mix of low-slope built-up roofs and steeper standing-seam additions</li>
+                  <li>• Tight Sixth Street setbacks limiting crane and dumpster placement</li>
                 </ul>
                 <p className="text-gray-600 text-sm">
-                  Downtown's historic buildings often require specialized materials and methods that
-                  preserve architectural integrity while providing storm protection meeting modern
-                  standards.
+                  Restoration work pairs traditional materials with modern underlayment and Class
+                  4 impact-rated shingles or standing seam metal where the historic district
+                  allows. We submit material samples with the application packet before tear-off.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
                 <h3 className="text-xl font-bold mb-3 text-orange-700">Canyon Rim Residential</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Maximum wind exposure</li>
-                  <li>• Channeled storm effects</li>
-                  <li>• Debris from canyon vegetation</li>
-                  <li>• Scenic view preservation needs</li>
+                  <li>• Palo Duro rim properties catch the full Texas Panhandle wind unbuffered</li>
+                  <li>• Storm channels through the canyon, accelerating gusts at the rim line</li>
+                  <li>• Mesquite and juniper debris driven into shingle granules</li>
+                  <li>• HOAs that restrict shingle colors to maintain canyon view aesthetics</li>
                 </ul>
                 <p className="text-gray-600 text-sm">
-                  Homes near the canyon rim face the most severe weather exposure but often have
-                  restrictions on visible modifications. We balance protection with aesthetic
-                  requirements.
+                  Class 4 impact-rated architectural shingles from GAF, CertainTeed, or Owens
+                  Corning come in earth tones approved by most canyon-rim HOAs. We pair the
+                  shingle with a UL 580 wind assembly and synthetic underlayment for the gust
+                  exposure typical along the rim.
                 </p>
               </div>
             </div>
@@ -457,29 +458,34 @@ export default function StormDamageRepairCanyonPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Multi-Unit Efficiency</h4>
                     <p className="text-gray-600 text-sm">
-                      Apartment complexes and residence halls benefit from our multi-unit repair
-                      expertise, reducing costs and timeline through coordinated projects.
+                      Continuous roof planes on WTAMU-area apartment complexes let one tear-off
+                      cover multiple units, which keeps per-unit cost on architectural asphalt
+                      shingle or TPO membrane work down compared to single-building jobs.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Temporary Housing Support</h4>
                     <p className="text-gray-600 text-sm">
-                      When storm damage requires temporary relocation, we work with property
-                      managers to expedite repairs and minimize displacement duration.
+                      When a Canyon storm makes residence halls or off-campus apartments
+                      uninhabitable, we coordinate temporary weather protection with property
+                      managers and document the displacement timeline for the insurance file.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Budget-Conscious Solutions</h4>
                     <p className="text-gray-600 text-sm">
-                      We understand student housing economics and recommend cost-effective materials
-                      that provide excellent protection without unnecessary premium features.
+                      For student housing we typically spec a standard architectural asphalt
+                      shingle from CertainTeed or Owens Corning with synthetic underlayment.
+                      That meets Texas Panhandle wind requirements without the upgrade cost of
+                      Class 4 impact-rated shingles.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Noise Management</h4>
                     <p className="text-gray-600 text-sm">
-                      Repair scheduling considers student sleep patterns and study periods,
-                      minimizing disruption during exam periods and late-night hours.
+                      Tear-off and nail-gun work happens in mid-morning windows on WTAMU-area
+                      jobs, scheduled around finals weeks and the late-night and weekend hours
+                      when students are studying or sleeping.
                     </p>
                   </div>
                 </div>
@@ -672,30 +678,33 @@ export default function StormDamageRepairCanyonPage() {
                     <div className="border-l-4 border-amber-400 pl-4">
                       <h4 className="font-semibold text-amber-700">Architectural Integrity</h4>
                       <p className="text-gray-600 text-sm">
-                        Maintaining historic character while adding modern storm protection requires
-                        specialized materials and techniques that blend with original architecture.
+                        Modern Class 4 impact-rated shingles in earth tones blend with early-1900s
+                        Canyon buildings near the courthouse square without losing wind and hail
+                        performance.
                       </p>
                     </div>
                     <div className="border-l-4 border-amber-400 pl-4">
                       <h4 className="font-semibold text-amber-700">Building Code Compliance</h4>
                       <p className="text-gray-600 text-sm">
-                        Historic buildings must meet modern safety standards while preserving
-                        historic designation, requiring creative solutions and variance
-                        applications.
+                        Randall County and City of Canyon code amendments since the original
+                        build need to be reconciled with historic designation. Variance requests
+                        cover items like updated ice-and-water shield and edge metal.
                       </p>
                     </div>
                     <div className="border-l-4 border-amber-400 pl-4">
                       <h4 className="font-semibold text-amber-700">Material Compatibility</h4>
                       <p className="text-gray-600 text-sm">
-                        Modern storm-resistant materials must be compatible with historic substrates
-                        and expansion characteristics of original construction.
+                        Original 1x6 plank decking and live-sawn rafters expand differently than
+                        modern OSB. We pair a vented underlayment with a Class 4 shingle from
+                        GAF or CertainTeed so the assembly moves together.
                       </p>
                     </div>
                     <div className="border-l-4 border-amber-400 pl-4">
                       <h4 className="font-semibold text-amber-700">Approval Processes</h4>
                       <p className="text-gray-600 text-sm">
-                        Historic district modifications require additional approvals from
-                        preservation committees and city planning departments.
+                        We submit material samples and elevation drawings to the Canyon historic
+                        review group before tear-off, and route any variance request through
+                        city planning before crews mobilize.
                       </p>
                     </div>
                   </div>

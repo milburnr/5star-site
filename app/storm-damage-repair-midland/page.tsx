@@ -305,12 +305,14 @@ export default function Page() {
                   Winter Freezing Rain Events
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  <strong>December through February:</strong> Midland's elevation and petroleum
-                  infrastructure create unique ice storm conditions. Freezing rain accumulation on
-                  heated surfaces creates rapid freeze-thaw cycles that stress roofing systems.
+                  <strong>December through February:</strong> Midland sits near 2,800 feet
+                  of elevation, which makes freezing-rain events more common than in lower
+                  West Texas towns. Ice loads can sit on TPO and standing seam metal long
+                  enough to cycle several freeze-thaw rounds in a single storm.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Industrial facilities require specialized ice load calculations for roof integrity
+                  Industrial roofs near processing heat sources see uneven thaw patterns that
+                  stress seams and flashings
                 </p>
               </div>
             </div>
@@ -346,11 +348,11 @@ export default function Page() {
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-orange-500">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Industrial Zones</h3>
                 <ul className="text-gray-700 space-y-1 text-sm">
-                  <li>• Petroleum company facilities</li>
-                  <li>• Midland International Airport</li>
-                  <li>• Oil field service companies</li>
-                  <li>• Tank farm areas</li>
-                  <li>• Pipeline operations centers</li>
+                  <li>• Permian Basin petroleum operations</li>
+                  <li>• Midland International Air & Space Port</li>
+                  <li>• Highway 158 oilfield service corridor</li>
+                  <li>• Tank farm and storage facilities</li>
+                  <li>• Pipeline operations and gathering stations</li>
                 </ul>
               </div>
             </div>
@@ -397,26 +399,28 @@ export default function Page() {
                   Industrial Debris Impact
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Permian Basin storms create unique debris fields from oil field equipment,
-                  industrial piping, and petroleum infrastructure. High winds can launch heavy
-                  industrial materials at structures, causing puncture damage and structural stress
-                  beyond typical residential storm debris.
+                  Permian Basin storms can pick up sheet metal, irrigation pivots, and
+                  loose oilfield equipment and drive it into nearby roofs. Puncture damage on
+                  asphalt shingles and TPO membranes from this kind of debris looks different
+                  than typical hail bruising, and the report needs to call that out clearly.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  post-storm documentation requires specialized safety protocols for petroleum facility areas
+                  Inspections near tank farms and gathering stations follow site-access and
+                  hot-work protocols
                 </p>
               </div>
 
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Flash Flood Damage</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Midland's relatively flat terrain combined with impermeable petroleum-contaminated
-                  soils creates rapid runoff during intense rainfall events. Flash flooding can
-                  overwhelm roof drainage systems quickly, leading to membrane stress and
-                  catastrophic water infiltration.
+                  Midland's flat terrain and caliche soils shed water quickly during a
+                  Permian Basin downpour. When 2 to 4 inches falls in an hour, scuppers and
+                  internal drains on commercial TPO roofs back up fast, and standing water
+                  stresses seams along the low side of the roof.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Enhanced drainage systems required for properties in petroleum-influenced areas
+                  Tapered polyiso insulation and oversized drain assemblies help on
+                  re-roofs in flood-prone areas
                 </p>
               </div>
             </div>
@@ -449,12 +453,14 @@ export default function Page() {
                   March 2023 - Ice Storm Event
                 </h3>
                 <p className="text-gray-700 mb-2">
-                  Unusual ice accumulation combined with petroleum facility heating created rapid
-                  freeze-thaw cycles that stressed roofing systems beyond normal parameters. Many
-                  properties near oil operations experienced membrane failures.
+                  An ice event that month layered glaze ice on Midland rooftops, with daytime
+                  thaws and overnight refreezes that pushed water under shingle courses and
+                  TPO laps. Membrane seams near processing-facility heat plumes saw the
+                  worst damage from accelerated freeze-thaw cycling.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Response: 134 damage inspections, specialized industrial facility repairs
+                  Response: 134 inspections across Midland County, including standing seam
+                  metal and TPO membrane repairs for industrial properties
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-yellow-500">
@@ -631,8 +637,9 @@ export default function Page() {
                 </div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Enhanced Restoration</h3>
                 <p className="text-sm text-gray-700">
-                  Complete restoration with industrial-grade materials designed for petroleum
-                  environment exposure and enhanced weather resistance.
+                  Replacement with PVC membrane or AZ55 galvalume standing seam, plus
+                  Class 4 impact-rated asphalt shingles where the homeowner prefers them. All
+                  spec'd for Permian Basin chemical exposure and sustained wind loads.
                 </p>
               </div>
             </div>

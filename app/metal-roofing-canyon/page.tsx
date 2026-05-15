@@ -273,23 +273,23 @@ export default function MetalRoofingCanyonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    WTAMU campus buildings
+                    WTAMU campus buildings with standing seam metal roofs
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Canyon ISD facilities
+                    Canyon ISD schools and gymnasiums in Randall County
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Student housing complexes
+                    Student housing complexes with multi-tenant roof access
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Athletic and recreational buildings
+                    Athletic and recreation buildings with long-span R-panel metal
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Administrative offices
+                    Administrative offices with concealed-fastener metal systems
                   </li>
                 </ul>
               </div>

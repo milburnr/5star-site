@@ -293,14 +293,15 @@ export default function ResidentialRoofingMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Desert Climate Roofing</h3>
                 <p className="text-gray-700 mb-4">
-                  Specialized systems engineered for extreme heat, UV exposure, and rapid
-                  temperature changes unique to the Chihuahuan Desert region.
+                  Monahans sits at the edge of the Chihuahuan Desert where summer rooftop
+                  temperatures climb well above 140°F. We spec materials that handle the daily
+                  swing without splitting.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Cool roof technology</li>
-                  <li>• UV-resistant materials</li>
-                  <li>• Thermal expansion joints</li>
-                  <li>• Reflective coating systems</li>
+                  <li>• ENERGY STAR cool-roof asphalt shingles in light reflective colors</li>
+                  <li>• UV-stabilized TPO or PVC membrane on low-slope sections</li>
+                  <li>• Synthetic underlayment rated for sustained high-deck temperatures</li>
+                  <li>• Silicone or acrylic reflective coating for existing modified bitumen</li>
                 </ul>
               </div>
 
@@ -310,14 +311,15 @@ export default function ResidentialRoofingMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Energy Sector Housing</h3>
                 <p className="text-gray-700 mb-4">
-                  Comprehensive roofing services for oil field housing, workforce developments, and
-                  industrial residential properties.
+                  Permian Basin workforce housing along Highway 80 and the I-20 corridor needs
+                  durable systems that handle the same caliche dust and UV load as nearby
+                  industrial sites.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Man camp roofing systems</li>
-                  <li>• Multi-unit housing projects</li>
-                  <li>• Rapid deployment capabilities</li>
-                  <li>• Industrial-grade materials</li>
+                  <li>• Asphalt-shingle and metal R-panel options for workforce duplex projects</li>
+                  <li>• Coordinated multi-unit tear-offs across whole housing blocks</li>
+                  <li>• Modified bitumen membranes for low-slope sections of mixed-use housing</li>
+                  <li>• Wind-rated edge metal and 6-nail fastening for the open Permian Basin terrain</li>
                 </ul>
               </div>
 
@@ -327,14 +329,15 @@ export default function ResidentialRoofingMonahansPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Sandstorm Protection</h3>
                 <p className="text-gray-700 mb-4">
-                  Advanced sealing and protection systems designed to withstand frequent dust storms
-                  and abrasive conditions.
+                  Ward County&apos;s open desert sends fine wind-driven sand into seams, vents,
+                  and ridge caps. Our detailing keeps the abrasion from working its way under
+                  the roof system.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Enhanced sealing systems</li>
-                  <li>• Abrasion-resistant materials</li>
-                  <li>• Dust infiltration prevention</li>
-                  <li>• Easy maintenance access</li>
+                  <li>• Closed-cell ridge vent with insect and sand screen</li>
+                  <li>• Heavier-gauge step flashing at walls and chimneys</li>
+                  <li>• Pre-formed pipe boots rated against UV and abrasion together</li>
+                  <li>• Accessible service path for annual ridge and valley cleaning</li>
                 </ul>
               </div>
             </div>

@@ -227,8 +227,10 @@ export default function PampaRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Pampa</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential, commercial, and industrial roofing services
-              throughout Pampa and Gray County. Select a service below for details.
+              Architectural asphalt shingles, Class 4 impact-rated shingles, standing seam
+              metal, and commercial TPO and PVC membranes for homes and businesses across
+              Pampa and Gray County. Pick a service below for material options and
+              installation detail.
             </p>
           </FadeIn>
 
@@ -252,8 +254,9 @@ export default function PampaRoofingPage() {
             <h2 className="section-title">Pampa Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From the historic downtown core to residential streets and the industrial corridor
-                on the city&apos;s edges, we provide expert roofing services throughout Pampa:
+                From the Gray County Courthouse area and Main Street downtown out to
+                residential streets and the chemical plant corridor on the city&apos;s
+                edges, we work all of Pampa and the surrounding rural acreage:
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>
@@ -306,10 +309,13 @@ export default function PampaRoofingPage() {
                   Spring &amp; Summer Supercell Season
                 </h3>
                 <p className="text-gray-700">
-                  Gray County sits in one of the most active hail corridors in the country. Between
-                  March and September, warm Gulf moisture meeting dry Panhandle air fuels supercell
-                  thunderstorms that regularly produce golf ball to baseball-sized hail. Pampa
-                  typically sees multiple damaging hail events each storm season.
+                  Gray County sits squarely in Hail Alley, the corridor stretching across the
+                  Texas Panhandle into the southern plains. Between March and September,
+                  warm Gulf moisture meeting dry Panhandle air fuels supercell thunderstorms
+                  along the dryline that regularly produce golf-ball to baseball-sized hail.
+                  Pampa typically sees multiple damaging hail events each storm season, which
+                  is why Class 4 impact-rated asphalt shingles and standing seam metal are
+                  the right call for most local roofs.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -390,10 +396,12 @@ export default function PampaRoofingPage() {
                   Historic Downtown Buildings
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Pampa&apos;s downtown core includes buildings dating to the early oil-boom era
-                  that need careful restoration-quality roofing work. Custom fabrication, specialty
-                  materials, and attention to historical appearance are often required alongside
-                  modern weatherproofing performance and current code compliance.
+                  Main Street and the courthouse area in Pampa include brick and masonry
+                  buildings dating to the 1920s oil-boom era, when the Panhandle field
+                  opened nearby. Many need shop-fabricated metal flashings and built-up
+                  roofing or modified-bitumen systems that protect the structure without
+                  changing the streetscape. We work alongside city historic-district
+                  guidelines and current Gray County building code.
                 </p>
               </div>
             </div>

@@ -360,8 +360,10 @@ export default function ResidentialRoofingOdessaPage() {
                   Roof Repairs & Maintenance
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Expert repair services for all types of residential roofing issues. Fast response
-                  times and quality materials ensure lasting solutions.
+                  Scheduled repairs on asphalt shingles, standing seam metal, and flat
+                  roofs across Odessa and Ector County. We replace torn shingles with
+                  matched GAF or CertainTeed material and reseal aged flashings with
+                  manufacturer-approved sealants so the work lasts.
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-1">
@@ -398,8 +400,10 @@ export default function ResidentialRoofingOdessaPage() {
                   Professional Inspections
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Comprehensive roof inspections for home purchases, insurance requirements, or
-                  regular maintenance assessments.
+                  Detailed inspections for Odessa home purchases, insurance claims, and
+                  routine maintenance. Each report includes drone and ground photos, a
+                  written condition summary, and notes formatted for State Farm, USAA,
+                  Allstate, Farmers, and Texas Farm Bureau adjusters.
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-1">

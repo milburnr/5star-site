@@ -315,24 +315,25 @@ export default function RoofInspectionsMidlandPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Vibration Damage:</strong> Structural loosening from heavy truck traffic
-                    and drilling operations
+                    <strong>Vibration Damage:</strong> Fastener back-out and shingle seal-strip
+                    failure along Highway 158 and the I-20 corridor where heavy truck traffic is
+                    constant
                   </li>
                   <li>
-                    <strong>Dust Load Assessment:</strong> Caliche road dust accumulation and
-                    filtration impacts
+                    <strong>Caliche Dust Load:</strong> Alkaline road dust collecting in shingle
+                    granules and on TPO membranes, accelerating UV breakdown
                   </li>
                   <li>
-                    <strong>Freight Impact:</strong> Damage from oversized load transport on nearby
-                    roadways
+                    <strong>Oversize Load Impact:</strong> Branch and debris strikes on perimeter
+                    edges near oilfield haul routes through the Permian Basin
                   </li>
                   <li>
-                    <strong>Equipment Noise:</strong> Sound vibration effects on roof attachment
-                    systems
+                    <strong>Equipment Vibration:</strong> Compressor and pump-jack vibration
+                    loosening curb flashing on commercial roofs near well pads
                   </li>
                   <li>
-                    <strong>Air Quality Impact:</strong> Industrial particulate effects on material
-                    longevity
+                    <strong>Particulate Buildup:</strong> Diesel exhaust and frac sand impacting
+                    asphalt-shingle and modified-bitumen lifespan
                   </li>
                 </ul>
               </div>
@@ -342,24 +343,24 @@ export default function RoofInspectionsMidlandPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Sandstorm Abrasion:</strong> Wind-driven sand damage to protective
-                    coatings and surfaces
+                    <strong>Sandstorm Abrasion:</strong> Wind-driven sand stripping reflective
+                    coatings off TPO and PVC membranes across the Permian Basin
                   </li>
                   <li>
-                    <strong>UV Intensification:</strong> High-altitude, low-humidity UV exposure
-                    acceleration
+                    <strong>UV Intensification:</strong> High UV index at Midland&apos;s elevation
+                    pulling more life out of asphalt shingles than coastal Texas climates
                   </li>
                   <li>
-                    <strong>Thermal Shock:</strong> Extreme temperature swings in desert climate
-                    conditions
+                    <strong>Thermal Shock:</strong> Swings between 105°F afternoons and cool nights
+                    that stress seam welds on single-ply membranes
                   </li>
                   <li>
-                    <strong>Flash Flood Drainage:</strong> Adequate drainage for sudden desert storm
-                    runoff
+                    <strong>Flash Flood Drainage:</strong> Drains, scuppers, and downspouts sized
+                    for the burst-rainfall pattern typical of desert storms
                   </li>
                   <li>
-                    <strong>Caliche Dust Infiltration:</strong> Alkaline dust impacts on roofing
-                    system components
+                    <strong>Caliche Dust Infiltration:</strong> Alkaline dust building up under
+                    coping and in scuppers, where it holds moisture against the membrane
                   </li>
                 </ul>
               </div>
@@ -369,24 +370,24 @@ export default function RoofInspectionsMidlandPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Power Grid Fluctuations:</strong> Electrical surge damage to powered
-                    roof components
+                    <strong>HVAC Curb Loads:</strong> Heavier rooftop units on Midland commercial
+                    buildings stressing curb flashing and the membrane around it
                   </li>
                   <li>
-                    <strong>Water Pressure Variations:</strong> Municipal system stress affecting
-                    roof-mounted equipment
+                    <strong>Solar Array Penetrations:</strong> Older mounting hardware that was
+                    never properly flashed for the high-wind Permian Basin environment
                   </li>
                   <li>
-                    <strong>Communication Tower Proximity:</strong> RF interference and guy-wire
-                    wind load effects
+                    <strong>Antenna and Satellite Mounts:</strong> Loose lag bolts and missing
+                    sealant at communication-equipment attachments
                   </li>
                   <li>
-                    <strong>Pipeline Right-of-Way:</strong> Maintenance access impact on property
-                    boundaries
+                    <strong>Pipeline Right-of-Way Access:</strong> Foot and equipment traffic
+                    across membranes near oilfield easements wearing down protective layers
                   </li>
                   <li>
-                    <strong>Utility Overload:</strong> Infrastructure strain from rapid development
-                    and population growth
+                    <strong>Lightning Activity:</strong> Direct and induced strikes around tower
+                    proximity damaging metal coping and roof-mounted equipment
                   </li>
                 </ul>
               </div>
@@ -409,11 +410,11 @@ export default function RoofInspectionsMidlandPage() {
                     Industrial Contamination Documentation
                   </h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Chemical exposure damage vs. normal weathering</li>
-                    <li>• Third-party liability for industrial contamination</li>
-                    <li>• Environmental impact assessment requirements</li>
-                    <li>• Specialized cleaning and restoration protocols</li>
-                    <li>• Worker safety compliance during inspection and repair</li>
+                    <li>• Photographic separation of hail bruising from oilfield chemical wear</li>
+                    <li>• Carrier-aligned documentation for State Farm, USAA, Farmers, and Texas Farm Bureau</li>
+                    <li>• Slope diagrams marked for hit counts that hold up at the second-level review</li>
+                    <li>• Cleaning vs. replace recommendations on contaminated TPO membranes</li>
+                    <li>• OSHA-compliant access plans for inspections near active well operations</li>
                   </ul>
                 </div>
                 <div>
@@ -421,11 +422,11 @@ export default function RoofInspectionsMidlandPage() {
                     Commercial and Residential Coverage
                   </h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Mixed-use property coverage complexities</li>
-                    <li>• High-value home specialization for oil executives</li>
-                    <li>• Temporary housing and man camp facility requirements</li>
-                    <li>• Rapid appreciation and replacement cost adjustments</li>
-                    <li>• Business interruption coverage for rental properties</li>
+                    <li>• Inspections sized for mixed-use buildings with both retail and apartment coverage</li>
+                    <li>• Class 4 UL 2218 hail-rated shingle recommendations for executive homes</li>
+                    <li>• Modified bitumen and TPO scopes appropriate for workforce housing</li>
+                    <li>• Replacement-cost documentation aligned with current Midland material pricing</li>
+                    <li>• Reports formatted for rental property owners filing under landlord policies</li>
                   </ul>
                 </div>
               </div>
@@ -633,9 +634,11 @@ export default function RoofInspectionsMidlandPage() {
                   Chemical Contamination Detection
                 </h3>
                 <p className="text-gray-700">
-                  Advanced chemical analysis equipment detects hydrogen sulfide damage, hydrocarbon
-                  residue, and other industrial contamination that affects roofing material
-                  integrity and insurance claim validity in oil field environments.
+                  Visual and tactile inspection identifies hydrocarbon staining, asphalt blistering
+                  from H2S exposure, and granule loss patterns specific to Permian Basin oilfield
+                  environments. When the source is unclear, we coordinate with a third-party
+                  environmental tester so the insurance file separates industrial wear from
+                  hail or wind damage.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -646,9 +649,10 @@ export default function RoofInspectionsMidlandPage() {
                   Vibration Monitoring Systems
                 </h3>
                 <p className="text-gray-700">
-                  Seismic monitoring equipment measures vibration damage from nearby drilling,
-                  fracking operations, and heavy truck traffic. Essential for documenting industrial
-                  impact on structural integrity in Permian Basin locations.
+                  Inspections near active drilling sites and the I-20 truck corridor focus on
+                  vibration-driven failures: backed-out roof fasteners, shifted ridge caps, and
+                  cracked sealant at HVAC curbs. We document these issues separately from
+                  weather damage so insurance scopes line up with policy language.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -659,9 +663,10 @@ export default function RoofInspectionsMidlandPage() {
                   Environmental Monitoring
                 </h3>
                 <p className="text-gray-700">
-                  Multi-parameter environmental sensors track temperature, humidity, air quality,
-                  and chemical exposure levels. Provides baseline data for correlating environmental
-                  conditions with material degradation rates.
+                  We pair NOAA storm-report data with on-site temperature and humidity notes so
+                  the inspection report shows why a Midland roof aged the way it did. That
+                  context helps the adjuster separate normal Permian Basin material wear from
+                  the hail or wind event that triggered the claim.
                 </p>
               </div>
             </div>

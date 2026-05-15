@@ -272,23 +272,23 @@ export default function AsphaltShingleRoofingCanyonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    WTAMU faculty and staff homes
+                    West Texas A&amp;M faculty and staff homes near campus
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Growing family neighborhoods
+                    Growing family neighborhoods on the south side of Canyon
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Historic district preservation
+                    Historic district homes near Conner Park requiring match-grade work
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    New construction communities
+                    New construction along the Hunsley Hills and Greenways corridors
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Ranch and rural properties
+                    Ranch homes across rural Randall County and Palo Duro Canyon rim
                   </li>
                 </ul>
               </div>
@@ -299,23 +299,23 @@ export default function AsphaltShingleRoofingCanyonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Budget-friendly installation costs
+                    Architectural asphalt shingles typically $3 to $6 per square foot
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Excellent return on investment
+                    Class 4 impact-rated shingles for hail-related premium discounts
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Flexible financing options
+                    Financing options with no prepayment penalty
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Insurance claim assistance
+                    Claim help for State Farm, Allstate, USAA, and Texas Farm Bureau
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Comprehensive warranties
+                    GAF, CertainTeed, and Owens Corning manufacturer warranties
                   </li>
                 </ul>
               </div>
@@ -408,14 +408,17 @@ export default function AsphaltShingleRoofingCanyonPage() {
                     Insurance Claim Support
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Many Canyon homeowners are surprised to learn their insurance covers storm
-                    damage. We help navigate the claims process from start to finish.
+                    Hail damage on Canyon roofs is usually a covered claim under standard
+                    homeowner policies. We handle the paperwork side from inspection
+                    through final invoice.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Free damage assessments</li>
-                    <li>• Insurance company negotiations</li>
-                    <li>• Detailed documentation</li>
-                    <li>• Deductible-only payment options</li>
+                    <li>• Free roof inspections for Randall County homeowners</li>
+                    <li>• Direct work with State Farm, Allstate, USAA, and Texas Farm
+                      Bureau adjusters</li>
+                    <li>• Photo-documented reports keyed to the storm date</li>
+                    <li>• Out-of-pocket cost limited to your policy deductible on
+                      approved claims</li>
                   </ul>
                 </div>
               </div>

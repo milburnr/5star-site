@@ -385,11 +385,15 @@ export default function BestRoofingMaterialsTexasPage() {
                       Christi - Heat & Humidity)
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      <strong>Best Choice:</strong> Metal Roofing or Tile
+                      <strong>Best Choice:</strong> Standing seam metal roofing or concrete tile
                     </p>
                     <p className="text-gray-600">
-                      Heat and humidity are primary concerns. Metal reflects heat excellently. Tile
-                      also performs well. IR shingles work but opt for light colors.
+                      Coastal humidity and the long South Texas cooling season drive the spec.
+                      Galvalume standing seam metal sheds Gulf-influenced thermal load and carries
+                      ENERGY STAR cool-roof color options. Concrete tile is the other strong
+                      choice, especially on stucco homes where the look fits. Class 4 impact-rated
+                      asphalt shingles from GAF, CertainTeed, or Owens Corning still work, but
+                      stick to lighter colors to manage attic temperatures.
                     </p>
                   </div>
                   <div>

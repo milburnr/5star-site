@@ -293,25 +293,25 @@ export default function MetalRoofingMidlandPage() {
                       <span className="text-orange-600 mr-2">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>{" "}
-                      Enhanced corrosion resistance for industrial environments
+                      AZ55 galvalume substrate resists Permian Basin H2S exposure
                     </li>
                     <li className="flex items-center">
                       <span className="text-orange-600 mr-2">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>{" "}
-                      Sand and dust abrasion-resistant coatings
+                      PVDF (Kynar 500) topcoats for sand and dust abrasion
                     </li>
                     <li className="flex items-center">
                       <span className="text-orange-600 mr-2">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>{" "}
-                      Extreme heat reflection and dissipation
+                      ENERGY STAR cool-roof colors for Chihuahuan Desert heat
                     </li>
                     <li className="flex items-center">
                       <span className="text-orange-600 mr-2">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>{" "}
-                      Reinforced fastening for desert wind conditions
+                      UL 580 wind-uplift fastening for sustained West Texas gusts
                     </li>
                   </ul>
                 </div>
@@ -393,11 +393,11 @@ export default function MetalRoofingMidlandPage() {
                     Sandstorm Resistance Features
                   </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Smooth surface finishes that shed sand and dust</li>
-                    <li>• Sealed panel connections prevent infiltration</li>
-                    <li>• Abrasion-resistant coating formulations</li>
-                    <li>• Enhanced underlayment systems</li>
-                    <li>• Reinforced edge and corner details</li>
+                    <li>• Smooth Kynar 500 finishes that shed Permian Basin sand</li>
+                    <li>• Concealed standing seam panel connections, mechanically locked</li>
+                    <li>• PVDF abrasion-resistant topcoat formulations</li>
+                    <li>• High-temp ice-and-water underlayment beneath panels</li>
+                    <li>• Reinforced eave, rake, and ridge flashing details</li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm">
@@ -405,11 +405,11 @@ export default function MetalRoofingMidlandPage() {
                     Wind Uplift Engineering
                   </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Continuous structural attachment systems</li>
-                    <li>• Enhanced perimeter and corner fastening</li>
-                    <li>• High-strength mechanical seaming</li>
-                    <li>• Pressure equalization design principles</li>
-                    <li>• Factory Mutual certified components</li>
+                    <li>• Continuous structural clip attachment to purlins</li>
+                    <li>• Tighter fastener spacing at perimeter and corner zones</li>
+                    <li>• Mechanically seamed standing seam panels at 24" widths</li>
+                    <li>• UL 580 Class 90 wind-uplift rated assemblies</li>
+                    <li>• FM Global approved clips, fasteners, and panel profiles</li>
                   </ul>
                 </div>
               </div>
@@ -435,13 +435,13 @@ export default function MetalRoofingMidlandPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-4 text-center">Chemical Resistance</h3>
                   <p className="mb-4">
-                    Oil field emissions and processing vapors require specialized coating
-                    protection.
+                    Permian Basin processing plants and pump stations vent hydrocarbons and
+                    sulfur compounds that attack standard paint finishes.
                   </p>
                   <ul className="space-y-1 text-sm">
-                    <li>• PVDF coatings resist chemical attack</li>
-                    <li>• Enhanced galvalume protection layers</li>
-                    <li>• Non-porous surface finishes</li>
+                    <li>• PVDF (Kynar 500) topcoats resist hydrocarbon vapors</li>
+                    <li>• AZ55 galvalume substrate for sulfide exposure areas</li>
+                    <li>• Non-porous fluoropolymer surface finish</li>
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-yellow-600 to-orange-600 text-white p-8 rounded-xl">
@@ -450,12 +450,13 @@ export default function MetalRoofingMidlandPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-4 text-center">Dust & Particulates</h3>
                   <p className="mb-4">
-                    Heavy industrial activity creates airborne particulates that can damage roofing.
+                    Oilfield traffic on Highway 158 and FM 1788 kicks fine caliche dust onto
+                    Midland rooftops year-round, where it sticks in seams and around vents.
                   </p>
                   <ul className="space-y-1 text-sm">
-                    <li>• Smooth, non-stick surface treatments</li>
-                    <li>• Minimal texture to prevent accumulation</li>
-                    <li>• Easy cleaning and maintenance design</li>
+                    <li>• Smooth PVDF surface that sheds dust with rainfall</li>
+                    <li>• Concealed-fastener profiles prevent seam buildup</li>
+                    <li>• Standing seam design rinses clean during gully washers</li>
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-red-600 to-orange-600 text-white p-8 rounded-xl">
@@ -464,12 +465,14 @@ export default function MetalRoofingMidlandPage() {
                   </div>
                   <h3 className="text-xl font-bold mb-4 text-center">Extreme Heat</h3>
                   <p className="mb-4">
-                    Desert conditions plus industrial heat islands create severe thermal stress.
+                    Midland summers push surface temperatures past 160°F on dark roofs.
+                    Metal expands and contracts daily, and the system has to absorb that
+                    movement without splitting seams.
                   </p>
                   <ul className="space-y-1 text-sm">
-                    <li>• High-reflectance cool roof coatings</li>
-                    <li>• Thermal expansion accommodation</li>
-                    <li>• Heat-resistant fastener systems</li>
+                    <li>• ENERGY STAR cool-roof finishes with high SRI values</li>
+                    <li>• Floating clip system for panel thermal expansion</li>
+                    <li>• Stainless-steel fasteners rated for high-temp service</li>
                   </ul>
                 </div>
               </div>
@@ -598,9 +601,10 @@ export default function MetalRoofingMidlandPage() {
                     Desert Durability
                   </h3>
                   <p className="text-gray-700">
-                    Engineered for Chihuahuan Desert conditions including sandstorms, extreme heat,
-                    and minimal rainfall. Metal roofing thrives where other materials deteriorate
-                    rapidly.
+                    The Permian Basin sits in the northern Chihuahuan Desert with around 14
+                    inches of annual rainfall. Standing seam metal with PVDF finish handles
+                    intense UV, blowing sand, and dramatic day-night temperature swings
+                    better than asphalt shingles in this climate.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -611,8 +615,10 @@ export default function MetalRoofingMidlandPage() {
                     Industrial Resistance
                   </h3>
                   <p className="text-gray-700">
-                    Superior protection against chemical emissions and industrial pollutants common
-                    in the Permian Basin. Coatings resist corrosion and maintain appearance.
+                    Homes and offices downwind of Permian Basin pump stations see hydrocarbon
+                    and sulfur exposure in the air. AZ55 galvalume with Kynar 500 finish
+                    holds color and resists corrosion where standard galvanized metal would
+                    chalk within a few years.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -623,8 +629,10 @@ export default function MetalRoofingMidlandPage() {
                     Wind Performance
                   </h3>
                   <p className="text-gray-700">
-                    Constant desert winds require superior fastening systems. Our installations
-                    exceed 120 mph wind ratings for reliable storm protection.
+                    Sustained Permian Basin winds and squall-line gusts hammer Midland roofs.
+                    We install standing seam panels with UL 580 Class 90 rated clip spacing
+                    and 120 mph design wind speeds, with tighter fastening at corner and
+                    perimeter zones.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -635,8 +643,10 @@ export default function MetalRoofingMidlandPage() {
                     UV Protection
                   </h3>
                   <p className="text-gray-700">
-                    High-altitude desert conditions create intense UV exposure. Premium coatings
-                    resist fading and chalking for decades of appearance retention.
+                    Midland sits near 2,800 feet of elevation with more than 280 sunny days a
+                    year, which intensifies UV exposure on roofs. PVDF (Kynar 500) finishes
+                    carry 30 to 35 year color and chalk warranties from manufacturers like
+                    Sherwin-Williams and Valspar.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -659,8 +669,10 @@ export default function MetalRoofingMidlandPage() {
                     Low Maintenance
                   </h3>
                   <p className="text-gray-700">
-                    Ideal for busy oil industry professionals. Minimal upkeep required compared to
-                    other roofing materials in harsh desert conditions.
+                    A standing seam metal roof on a Midland home typically needs only an
+                    annual visual check and gutter clearing. There are no shingles to lose in
+                    a Permian Basin windstorm and no granule loss to track over a 40 to 50
+                    year service life.
                   </p>
                 </div>
               </div>

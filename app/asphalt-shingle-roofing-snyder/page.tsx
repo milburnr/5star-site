@@ -472,10 +472,11 @@ export default function AsphaltShingleRoofingSnyderPage() {
                     Complete Warranty & Ongoing Support
                   </h3>
                   <p className="text-gray-600">
-                    Project completion includes thorough cleanup, comprehensive warranty
-                    documentation, and maintenance guidance for Snyder's diverse environmental
-                    challenges. We provide throughout Scurry County with maintenance schedules
-                    adapted to local conditions.
+                    Job close-out includes a rolling magnetic sweep for stray nails,
+                    on-site delivery of the GAF, CertainTeed, or Owens Corning manufacturer
+                    warranty packet, and a written maintenance schedule. For Snyder homes,
+                    that means annual gutter clearing, sealant checks after Scurry County
+                    hailstorms, and a five-year flashing review.
                   </p>
                 </div>
               </div>

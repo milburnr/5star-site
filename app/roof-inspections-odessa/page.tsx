@@ -342,24 +342,25 @@ export default function RoofInspectionsOdessaPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Particulate Loading:</strong> Industrial dust accumulation on roofing
-                    systems
+                    <strong>Particulate Loading:</strong> Caliche and oilfield dust that builds
+                    on TPO and EPDM membranes near Highway 158
                   </li>
                   <li>
-                    <strong>Ozone Degradation:</strong> Ground-level ozone effects on rubber and
-                    plastic components
+                    <strong>Ozone Degradation:</strong> Ground-level ozone breaking down EPDM
+                    seams and plastic vent boots faster than in cleaner air
                   </li>
                   <li>
-                    <strong>Visibility Reduction:</strong> Impact assessment during poor air quality
-                    episodes
+                    <strong>Visibility During Inspections:</strong> Hazy days from Permian
+                    Basin operations can hide flashing detail at distance
                   </li>
                   <li>
-                    <strong>Chemical Odor Events:</strong> Acute exposure episodes and material
-                    stress testing
+                    <strong>Chemical Odor Events:</strong> Notes added to the inspection
+                    report when sulfur or hydrocarbon exposure is observed on-site
                   </li>
                   <li>
-                    <strong>Stack Plume Direction:</strong> Prevailing wind pattern analysis for
-                    contamination sources
+                    <strong>Prevailing Wind Mapping:</strong> Southwesterly Permian Basin
+                    winds direct most fallout, which guides which roof slopes need closer
+                    review
                   </li>
                 </ul>
               </div>
@@ -369,24 +370,26 @@ export default function RoofInspectionsOdessaPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Industrial-Residential Interface:</strong> Differential exposure levels
-                    within city limits
+                    <strong>Industrial-Residential Interface:</strong> Odessa homes adjacent to
+                    refineries and tank farms see different exposure than those west of I-20
                   </li>
                   <li>
-                    <strong>Transportation Corridor Effects:</strong> Highway and rail traffic
-                    vibration and pollution
+                    <strong>Transportation Corridor Effects:</strong> Properties along I-20
+                    and the Union Pacific rail line see more diesel particulate and vibration
                   </li>
                   <li>
-                    <strong>Commercial District Variation:</strong> Different contamination patterns
-                    across city zones
+                    <strong>Commercial District Variation:</strong> Downtown Odessa, the
+                    Music City district, and the Loop 338 commercial belt each have
+                    different roof exposure patterns
                   </li>
                   <li>
-                    <strong>Historical District Considerations:</strong> Older construction
-                    materials and compatibility issues
+                    <strong>Older Construction Notes:</strong> Mid-century homes near the
+                    original downtown often have original decking and need careful flashing
+                    review
                   </li>
                   <li>
-                    <strong>Utility Corridor Access:</strong> Pipeline and electrical right-of-way
-                    maintenance impacts
+                    <strong>Utility Corridor Access:</strong> Permian Basin pipeline and
+                    Oncor electrical easements affect access routes for crews and equipment
                   </li>
                 </ul>
               </div>
@@ -406,26 +409,28 @@ export default function RoofInspectionsOdessaPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold mb-3 text-gray-800">
-                    Environmental Contamination Documentation
+                    Damage Documentation for Carriers
                   </h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Industrial pollution vs. storm damage differentiation</li>
-                    <li>• Air quality correlation with material degradation rates</li>
-                    <li>• Third-party environmental liability assessment</li>
-                    <li>• Refinery incident correlation with property damage</li>
-                    <li>• Clean Air Act compliance impact documentation</li>
+                    <li>• Hail and wind damage photos separated from long-term wear</li>
+                    <li>• Date-stamped imagery to support claim timing</li>
+                    <li>• Notes on adjacent industrial activity when relevant</li>
+                    <li>• Material degradation patterns documented per slope</li>
+                    <li>• Inspection reports formatted for State Farm, Allstate, USAA,
+                      and Texas Farm Bureau adjusters</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-3 text-gray-800">
-                    Historical District and Zoning Complexity
+                    Mixed-Use and Older Property Notes
                   </h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Mixed commercial-residential coverage requirements</li>
-                    <li>• Historic preservation compliance and material restrictions</li>
-                    <li>• Petroleum heritage site special considerations</li>
-                    <li>• Municipal utility service impact documentation</li>
-                    <li>• Economic development zone property value variations</li>
+                    <li>• Coverage notes on shared commercial-residential structures</li>
+                    <li>• Older Odessa downtown construction often requires matching
+                      historic profiles</li>
+                    <li>• Documentation of pre-existing wear on older decking</li>
+                    <li>• City of Odessa permit and inspection coordination</li>
+                    <li>• Notes on property condition factors that may affect resale</li>
                   </ul>
                 </div>
               </div>
@@ -470,16 +475,17 @@ export default function RoofInspectionsOdessaPage() {
                   (March-May)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Post-Winter Industrial Restart:</strong> Many industrial facilities
-                  undergo maintenance shutdowns in winter, resuming full operations in spring. This
-                  creates unique air quality conditions as systems restart.
+                  <strong>Spring Inspection Window:</strong> March through May is hail-season
+                  prep across the Permian Basin. We schedule pre-storm inspections so flashing
+                  weaknesses and granule loss are documented before the first severe weather.
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• Winter shutdown maintenance completion verification</li>
-                  <li>• Industrial emission resumption impact assessment</li>
-                  <li>• Spring storm preparation in industrial environment</li>
-                  <li>• Refinery turnaround schedule coordination for maintenance planning</li>
-                  <li>• Air quality monitoring correlation with material inspection</li>
+                  <li>• Pre-hail-season baseline photos for insurance reference</li>
+                  <li>• Sealant and flashing review after winter freeze-thaw cycles</li>
+                  <li>• Confirm attic ventilation is clear before cooling season</li>
+                  <li>• Identify Class 4 hail-rated upgrade candidates ahead of supercell
+                    weather</li>
+                  <li>• Document existing condition for State Farm and USAA carriers</li>
                 </ul>
                 <div className="mt-4 p-4 bg-green-100 rounded-lg">
                   <p className="text-sm text-green-800">
@@ -542,16 +548,17 @@ export default function RoofInspectionsOdessaPage() {
                   (December-February)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Industrial Facility Shutdowns:</strong> Many refineries and chemical
-                  plants conduct major maintenance during winter months, providing cleaner air
-                  conditions for detailed assessment work.
+                  <strong>Off-Season Repair Window:</strong> December through February is the
+                  quieter period for severe Permian Basin weather. We use it for non-urgent
+                  repairs, full replacements, and detailed inspections that benefit from
+                  stable working conditions.
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• Clean air condition advantage for detailed material analysis</li>
-                  <li>• Major repair and replacement project execution</li>
-                  <li>• Industrial facility shutdown coordination for access</li>
-                  <li>• Next year's maintenance planning and budget development</li>
-                  <li>• Real estate transaction inspection scheduling</li>
+                  <li>• Easier scheduling for full asphalt or metal replacements</li>
+                  <li>• Real estate transaction inspections with quicker turnaround</li>
+                  <li>• Detailed deck and underlayment evaluation under tear-off</li>
+                  <li>• Next-year maintenance planning and budget review</li>
+                  <li>• Sealant and flashing repairs before spring hail returns</li>
                 </ul>
                 <div className="mt-4 p-4 bg-gray-100 rounded-lg">
                   <p className="text-sm text-gray-800">
@@ -635,12 +642,13 @@ export default function RoofInspectionsOdessaPage() {
                   <Thermometer className="w-6 h-6 inline-block" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">
-                  Air Quality Correlation Systems
+                  Documentation for Insurance Claims
                 </h3>
                 <p className="text-gray-700">
-                  Real-time air quality monitoring equipment correlates material degradation with
-                  documented pollution events. Essential for distinguishing between normal aging and
-                  industrial exposure damage in insurance documentation.
+                  Detailed photo logs, slope-by-slope condition notes, and timeline references
+                  help adjusters from State Farm, Allstate, USAA, Farmers, and Texas Farm
+                  Bureau separate storm damage from long-term Permian Basin weathering. The
+                  report is delivered before the adjuster site visit.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -648,12 +656,14 @@ export default function RoofInspectionsOdessaPage() {
                   <FlaskConical className="w-6 h-6 inline-block" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">
-                  Chemical Residue Analysis
+                  Material-Condition Notes
                 </h3>
                 <p className="text-gray-700">
-                  Specialized laboratory analysis identifies specific industrial contaminants on
-                  roofing materials. Provides scientific evidence for environmental damage claims
-                  and helps establish liability for contamination sources.
+                  Inspection reports note observable surface conditions on asphalt, TPO, and
+                  metal roofing across Odessa properties: granule loss, seam separation,
+                  fastener back-out, and oxidation. Where deeper material testing is needed,
+                  we coordinate with the homeowner's insurance carrier and licensed
+                  engineers.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -661,12 +671,13 @@ export default function RoofInspectionsOdessaPage() {
                   <BarChart3 className="w-6 h-6 inline-block" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">
-                  Historical Incident Database
+                  Storm Timeline References
                 </h3>
                 <p className="text-gray-700">
-                  Comprehensive database of industrial incidents, air quality events, and weather
-                  patterns provides timeline correlation for damage assessment. Critical for
-                  establishing causation in complex environmental cases.
+                  When the inspection links damage to a specific event, we reference
+                  publicly available NOAA storm reports and Ector County weather records for
+                  the date in question. That timeline language is what insurance adjusters
+                  rely on to date hail and wind claims accurately.
                 </p>
               </div>
             </div>

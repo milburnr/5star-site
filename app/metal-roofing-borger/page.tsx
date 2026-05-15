@@ -259,23 +259,23 @@ export default function MetalRoofingBorgerPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Industrial facilities and plants
+                    Petrochemical plants and refinery support facilities near Phillips 66 operations
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Office buildings and complexes
+                    Office buildings along North Main Street and the downtown Borger core
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Warehouses and distribution centers
+                    Warehouses on Highway 152 with long-span standing seam roofs
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Municipal and government buildings
+                    Hutchinson County municipal buildings and emergency services facilities
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Retail and commercial structures
+                    Retail and farm-and-ranch supply structures serving surrounding ag operations
                   </li>
                 </ul>
               </div>
@@ -308,40 +308,40 @@ export default function MetalRoofingBorgerPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Standing Seam</h3>
                 <p className="text-gray-700 mb-3">
-                  Concealed fastener system perfect for industrial applications requiring maximum
-                  weather protection.
+                  Concealed-clip standing seam panels handle Texas Panhandle wind and hail
+                  exposure better than any other metal system on Borger industrial roofs.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• No exposed fasteners</li>
-                  <li>• Superior wind resistance</li>
-                  <li>• Thermal expansion accommodation</li>
-                  <li>• Clean, professional appearance</li>
+                  <li>• Hidden clips, no fasteners through the panel face</li>
+                  <li>• UL 580 wind-uplift rated for Texas Panhandle gusts</li>
+                  <li>• Floating clips that absorb 100°F to 20°F thermal swings</li>
+                  <li>• Galvalume or Kynar-coated steel for refinery-area corrosion exposure</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Through-Fastened</h3>
                 <p className="text-gray-700 mb-3">
-                  Cost-effective solution for large industrial buildings where value and performance
-                  are priorities.
+                  R-panel and PBR exposed-fastener systems remain a value choice for large
+                  warehouses and agricultural buildings across Hutchinson County.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Lower initial cost</li>
-                  <li>• Proven track record</li>
-                  <li>• Easy installation</li>
-                  <li>• Wide panel options</li>
+                  <li>• Lower per-square material cost than standing seam</li>
+                  <li>• Decades of proven performance across Texas Panhandle ag buildings</li>
+                  <li>• Faster install on long-span structures</li>
+                  <li>• Available in 26-gauge and 24-gauge Galvalume widths</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Structural Systems</h3>
                 <p className="text-gray-700 mb-3">
-                  Heavy-duty systems for maximum spans and ultimate durability in harsh industrial
-                  environments.
+                  Structural standing seam panels carry their own load, allowing 30-foot clear
+                  spans on Borger industrial buildings without a separate substrate.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• 30+ foot clear spans</li>
-                  <li>• Maximum load capacity</li>
-                  <li>• Industrial-grade materials</li>
-                  <li>• Custom engineering available</li>
+                  <li>• 30+ foot clear spans on properly engineered substructure</li>
+                  <li>• Carries snow, wind, and live load without decking below</li>
+                  <li>• 24-gauge Galvalume or Kynar-finish panel options</li>
+                  <li>• Engineered drawings for the Hutchinson County permit submittal</li>
                 </ul>
               </div>
             </div>

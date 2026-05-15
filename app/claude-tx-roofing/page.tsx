@@ -112,8 +112,10 @@ export default function ClaudeRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Small Town Values</h3>
                 <p className="text-gray-600">
-                  We understand Claude's tight-knit community. Our reputation is built on honesty,
-                  quality work, and treating customers like neighbors.
+                  Claude has under a thousand residents, and word travels fast across
+                  Armstrong County. We show up when we say we will, leave the job site
+                  cleaner than we found it, and stand behind the warranty work on every
+                  Class 4 asphalt or standing seam metal roof we install.
                 </p>
               </div>
               <div className="text-center">
@@ -122,8 +124,11 @@ export default function ClaudeRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Assessment</h3>
                 <p className="text-gray-600">
-                  Armstrong County sees frequent severe weather. We specialize in hail damage
-                  detection, insurance claim documentation, and efficient post-storm documentation.
+                  Armstrong County sits in Hail Alley along the I-40 and Highway 287
+                  corridor. We document hail bruises on asphalt shingles, soft-metal
+                  denting on vents and gutters, and torn ridge cap, then deliver an
+                  adjuster-ready report for State Farm, USAA, or Texas Farm Bureau before
+                  the carrier visit.
                 </p>
               </div>
             </div>

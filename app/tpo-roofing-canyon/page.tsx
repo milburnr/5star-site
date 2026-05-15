@@ -271,23 +271,23 @@ export default function TpoRoofingCanyonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    WTAMU campus facilities
+                    WTAMU campus buildings with large flat-roof spans
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    School district buildings
+                    Canyon ISD school facilities and gymnasiums
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Administrative complexes
+                    Administrative complexes with HVAC-heavy rooftops
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Athletic and recreational facilities
+                    Athletic and recreational facilities requiring acoustic decking
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Student housing developments
+                    Student housing complexes with multi-tenant roof access
                   </li>
                 </ul>
               </div>
@@ -298,23 +298,23 @@ export default function TpoRoofingCanyonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Lower installation costs than competitors
+                    Lower per-square install cost than PVC and modified bitumen
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Excellent long-term ROI
+                    Long-term ROI from welded-seam durability
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Reduced maintenance expenses
+                    Lower annual maintenance than ballasted or BUR systems
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Energy savings up to 30%
+                    ENERGY STAR cool-roof reflective surfaces cut summer cooling load
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Insurance premium reductions
+                    UL 580 wind and Class A fire ratings qualify some buildings for premium reductions
                   </li>
                 </ul>
               </div>
@@ -360,27 +360,27 @@ export default function TpoRoofingCanyonPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Mechanically Attached</h3>
                 <p className="text-gray-700 mb-3">
-                  Cost-effective installation with proven performance for Canyon's challenging
-                  weather conditions.
+                  TPO membrane fastened to the deck on a wind-rated pattern. Cost-effective for
+                  Canyon roofs that face Palo Duro Canyon updrafts and Texas Panhandle wind.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Faster installation process</li>
-                  <li>• Lower initial investment</li>
-                  <li>• Excellent wind performance</li>
-                  <li>• Suitable for most building types</li>
+                  <li>• Faster install than fully adhered systems</li>
+                  <li>• Lower initial investment per square</li>
+                  <li>• UL 580 wind-rated fastener patterns available</li>
+                  <li>• Works on steel, wood, and concrete decks</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Ballasted Systems</h3>
                 <p className="text-gray-700 mb-3">
-                  Loose-laid membrane with stone ballast - perfect for buildings with adequate
-                  structural capacity.
+                  Loose-laid TPO with stone ballast holding the membrane down. A good fit for
+                  Canyon commercial buildings with the structural capacity to carry the dead load.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Minimal roof penetrations</li>
-                  <li>• Easy access for maintenance</li>
-                  <li>• Additional thermal mass</li>
-                  <li>• Cost-effective for large buildings</li>
+                  <li>• Minimal roof penetrations and fewer leak points</li>
+                  <li>• Maintenance crews walk the ballast without damaging the membrane</li>
+                  <li>• Stone ballast adds thermal mass to the assembly</li>
+                  <li>• Cost-effective on large flat spans like warehouses</li>
                 </ul>
               </div>
             </div>
@@ -521,19 +521,21 @@ export default function TpoRoofingCanyonPage() {
                       TPO Membrane Installation
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Precision installation using state-of-the-art equipment and certified
-                      techniques. Every detail is executed to manufacturer specifications.
+                      Rolls are laid out per the Carlisle or Firestone shop drawing, seams are
+                      hot-air welded with calibrated equipment, and probe-tested for full bond.
+                      Every detail is executed to the manufacturer spec so the long-term warranty
+                      stays in force.
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
                       <ul className="space-y-1">
-                        <li>• Membrane layout and cutting</li>
-                        <li>• Heat welding of all seams</li>
-                        <li>• Mechanical fastening per specs</li>
+                        <li>• Membrane layout and cutting per shop drawing</li>
+                        <li>• Hot-air welded seams probe-tested after cooling</li>
+                        <li>• Mechanical fastening to UL 580 wind specs</li>
                       </ul>
                       <ul className="space-y-1">
-                        <li>• Flashing and detail work</li>
-                        <li>• Penetration sealing</li>
-                        <li>• Edge termination systems</li>
+                        <li>• Flashing and detail work at curbs and parapets</li>
+                        <li>• Penetration sealing with pre-fab boots and pitch pans</li>
+                        <li>• Edge metal and termination bars per ANSI/SPRI</li>
                       </ul>
                     </div>
                   </div>

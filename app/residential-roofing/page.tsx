@@ -287,29 +287,35 @@ export default function Page() {
       </div>
       <h2 className="text-2xl font-bold mt-8 mb-4">Hail Damage? We Can Help</h2>
       <p className="mb-4">
-        If your roof was damaged in a recent storm, contact us instead. Water intrusion can lead to
-        expensive interior damage. Our hail damage services include:
+        Amarillo and the Texas Panhandle sit in Hail Alley, and once granules are stripped or
+        shingles are bruised, water can work its way to the decking and into ceilings. We document
+        the damage with photos and measurements that State Farm, Allstate, USAA, and Texas Farm
+        Bureau adjusters work from. Our hail damage services include:
       </p>
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <div>
           <h3 className="font-bold text-lg mb-2">Free Inspection</h3>
           <p className="text-gray-600 mb-4">
-            We'll conduct a thorough roof inspection and provide detailed documentation of all
-            damage— complete with photos and measurements that insurance adjusters need.
+            A roof-level walk of every slope, photos of granule loss and bruising, hail-size
+            reference shots, and chalked test squares. The report is delivered before the adjuster
+            meeting so State Farm, USAA, or Texas Farm Bureau has the documentation they need to
+            scope the claim.
           </p>
         </div>
         <div>
           <h3 className="font-bold text-lg mb-2">Insurance Claim Assistance</h3>
           <p className="text-gray-600 mb-4">
-            We work directly with your insurance company to ensure your claim is processed correctly
-            and you receive the full coverage you're entitled to.
+            We meet the adjuster on site, walk the roof together, and submit supplements when scope
+            is missed. We work claims regularly with State Farm, Allstate, USAA, Farmers, and Texas
+            Farm Bureau so you receive the coverage your policy actually allows.
           </p>
         </div>
         <div>
           <h3 className="font-bold text-lg mb-2">Quality Repairs</h3>
           <p className="text-gray-600 mb-4">
-            Our experienced team will restore your roof to pre-storm condition using high-quality
-            materials and proven installation methods.
+            We restore your roof to pre-storm condition using Class 4 impact-rated asphalt shingles
+            from GAF, CertainTeed, or Owens Corning, with new synthetic underlayment, ice-and-water
+            shield at the eaves, and full re-flashing around penetrations.
           </p>
         </div>
         <div>
@@ -374,15 +380,16 @@ export default function Page() {
           <div>
             <h3 className="font-bold mb-1">Free Inspection & Estimate</h3>
             <p className="text-gray-600">
-              We assess your roof condition and provide a detailed, no-obligation estimate. Schedule
-              your{" "}
+              We walk every slope, photograph granule loss and bruising, check attic ventilation,
+              and write up a no-obligation estimate with line-item pricing for materials and labor.
+              Schedule your{" "}
               <a
                 href="/roof-inspections-amarillo/"
                 className="text-brand-brown hover:text-brand-gold underline"
               >
                 free roof inspection
               </a>{" "}
-              today.
+              in Amarillo, Canyon, or anywhere across the Texas Panhandle.
             </p>
           </div>
         </div>
@@ -412,7 +419,9 @@ export default function Page() {
           <div>
             <h3 className="font-bold mb-1">Material Selection</h3>
             <p className="text-gray-600">
-              Choose from our wide selection of colors and styles that fit your home and budget.
+              Pick from architectural asphalt shingles, Class 4 impact-rated shingles, standing
+              seam metal, or R-panel metal in colors that match your neighborhood. We carry GAF,
+              CertainTeed, and Owens Corning lines so you can compare warranties and price points.
               Explore our{" "}
               <a href="/services/" className="text-brand-brown hover:text-brand-gold underline">
                 complete roofing services
@@ -434,8 +443,10 @@ export default function Page() {
               loading="lazy"
             />
             <p className="text-gray-600">
-              Our experienced crew completes your roof efficiently with attention to detail and
-              quality. We follow manufacturer specifications and use{" "}
+              Tear-off, deck inspection, ice-and-water shield at eaves and valleys, synthetic
+              underlayment, then shingles or metal panels installed to the GAF, CertainTeed, or
+              Owens Corning spec. Crews work the roof in sections so the home stays dry if weather
+              turns. See our{" "}
               <a
                 href="/roofing-methods/"
                 className="text-brand-brown hover:text-brand-gold underline"
@@ -453,8 +464,10 @@ export default function Page() {
           <div>
             <h3 className="font-bold mb-1">Final Inspection & Cleanup</h3>
             <p className="text-gray-600">
-              We inspect our work, clean up thoroughly, and ensure you're 100% satisfied. Every
-              project includes a comprehensive warranty for your peace of mind.
+              Final walk of every slope, magnetic nail sweep around the foundation and driveway,
+              gutter debris cleared, and warranty paperwork registered with the manufacturer. Every
+              project carries written workmanship coverage from 5 Star plus the GAF, CertainTeed,
+              or Owens Corning material warranty.
             </p>
           </div>
         </div>
@@ -544,8 +557,10 @@ export default function Page() {
       </div>
       <h2 className="text-2xl font-bold mt-12 mb-4">Comprehensive Warranty Protection</h2>
       <p className="mb-4">
-        Every residential roofing project from 5 Star Commercial Roofing includes industry-leading
-        warranty coverage to protect your investment:
+        Every residential project includes two layers of coverage. The manufacturer covers the
+        materials, with GAF, CertainTeed, Owens Corning, and IKO warranties running 20 to 50 years
+        depending on the shingle line you choose. We cover the workmanship, with a written labor
+        warranty registered to your address at project closeout.
       </p>
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <div className="bg-brand-gold-light p-6 rounded-lg">
@@ -565,14 +580,15 @@ export default function Page() {
         <div className="bg-brand-gold-light p-6 rounded-lg">
           <h3 className="text-xl font-bold text-brand-brown mb-3">Workmanship Guarantee</h3>
           <p className="mb-3">
-            Our labor warranty covers installation quality and craftsmanship. If any issues arise
-            due to installation errors, we'll make it right at no cost to you. This includes:
+            Our labor warranty covers everything our crew touches on your home. If a leak or
+            install defect traces back to our work, we come back and make it right at no cost. The
+            warranty applies to the install details that matter most on Texas Panhandle roofs:
           </p>
           <ul className="list-disc list-inside space-y-1 text-gray-700">
-            <li>Proper flashing and ventilation</li>
-            <li>Correct shingle alignment and nailing</li>
-            <li>Leak-free roof penetrations</li>
-            <li>Complete cleanup and disposal</li>
+            <li>Step flashing, valley flashing, and ridge ventilation</li>
+            <li>Shingle alignment and six-nail pattern for High Plains wind</li>
+            <li>Leak-free roof penetrations around plumbing vents and HVAC curbs</li>
+            <li>Magnetic-sweep cleanup and full debris haul-off</li>
           </ul>
         </div>
       </div>

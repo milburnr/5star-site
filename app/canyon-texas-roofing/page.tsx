@@ -331,11 +331,12 @@ export default function CanyonRoofingPage() {
                   Educational &amp; Institutional Roofing
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  WTAMU&apos;s extensive campus requires specialized commercial roofing for
-                  laboratories, libraries, dormitories, and academic buildings. These projects
-                  require coordination with university procurement, compliance with educational
-                  facility safety codes, and the ability to phase installations around academic
-                  schedules and active campus operations.
+                  The WTAMU campus and area public schools in Randall County run on roofs that
+                  cannot disrupt class schedules during tear-off and reinstall. We typically
+                  spec mechanically fastened TPO or PVC on academic flat roofs, phase work
+                  around finals and move-in periods, and route the procurement and submittal
+                  paperwork through university facilities staff before mobilization. Class 4
+                  impact-rated systems handle the open campus wind exposure.
                 </p>
               </div>
               <div>
@@ -343,10 +344,12 @@ export default function CanyonRoofingPage() {
                   Museum &amp; Historic Building Roofing
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  The Panhandle-Plains Historical Museum and Canyon&apos;s historic downtown require
-                  specialized work — advanced waterproofing to protect artifacts, insulated systems
-                  for consistent climate control, and restoration-compatible materials that maintain
-                  the architectural authenticity of buildings from the early 1900s.
+                  The Panhandle-Plains Historical Museum and the early-1900s buildings around the
+                  Randall County courthouse square need work that meets historic district review.
+                  We pair vapor-controlled PVC membrane for artifact-storage spaces with Class 4
+                  impact-rated standing seam or architectural shingles on visible slopes. Material
+                  samples and elevation drawings go to the Canyon review group before tear-off,
+                  and ice-and-water shield is upgraded across valleys and eaves.
                 </p>
               </div>
               <div>

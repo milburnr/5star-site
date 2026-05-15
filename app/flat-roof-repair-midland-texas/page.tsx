@@ -424,8 +424,11 @@ export default function FlatRoofMidlandPage() {
                   Leak Detection & Repair
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Finding leaks in flat roofs requires expertise. We use professional methods to
-                  locate leaks—even hidden ones—and repair them permanently.
+                  Flat-roof leaks rarely show up where the water comes through inside. We use
+                  infrared moisture scans to find wet insulation under TPO and PVC membranes,
+                  trace the failure back to the seam, flashing, or penetration where it started,
+                  and weld in a permanent patch using matching membrane from the original
+                  manufacturer when possible.
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-1">
@@ -525,8 +528,10 @@ export default function FlatRoofMidlandPage() {
                   Ponding Water Solutions
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Ponding water accelerates roof deterioration and causes leaks. We fix drainage
-                  issues and address the root cause of standing water.
+                  Standing water on a flat roof breaks down TPO and EPDM membranes faster than
+                  any other factor in the Permian Basin sun. We add tapered polyiso insulation
+                  to restore positive slope, clear and reseat interior drains and scuppers, and
+                  fix the structural settlement that lets water collect in the first place.
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-1">
@@ -565,10 +570,11 @@ export default function FlatRoofMidlandPage() {
                 <div className="text-5xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Local Scheduling</h3>
                 <p className="text-gray-700">
-                  Same-day service available throughout Midland. storm repairs to protect your
-                  property and minimize damage.
+                  Inspections across Midland and the Permian Basin are typically scheduled within
+                  a few days. Hail and wind damage documentation is delivered before the adjuster
+                  meeting with State Farm, Allstate, USAA, or Farmers.
                 </p>
               </div>
               <div className="text-center">
@@ -577,8 +583,10 @@ export default function FlatRoofMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Expert Diagnosis</h3>
                 <p className="text-gray-700">
-                  We find the actual source of leaks, not just symptoms. Professional equipment and
-                  10+ years of experience.
+                  Water travels along the deck before it shows up below, so the wet ceiling stain
+                  is rarely directly under the leak. We use infrared moisture scanning to map the
+                  saturated insulation and trace the path back to the actual breach, backed by
+                  10+ years working flat roofs across West Texas.
                 </p>
               </div>
               <div className="text-center">
@@ -587,8 +595,10 @@ export default function FlatRoofMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Quality Repairs</h3>
                 <p className="text-gray-700">
-                  We use proper materials and techniques for lasting repairs. All work backed by our
-                  workmanship warranty.
+                  Patches are heat-welded with the same manufacturer&apos;s TPO or PVC membrane
+                  whenever it can be matched, not glued with generic sealants. That keeps the
+                  factory warranty intact and gets paired with our written workmanship warranty
+                  on the repair area itself.
                 </p>
               </div>
             </div>
@@ -606,8 +616,10 @@ export default function FlatRoofMidlandPage() {
                   <Droplets className="w-6 h-6 inline-block" /> Ponding Water
                 </h3>
                 <p className="text-gray-700">
-                  Poor drainage or structural settlement creates standing water. In Midland's heat,
-                  this accelerates membrane degradation and causes leaks within the ponding area.
+                  Clogged interior drains, undersized scuppers, or deck settlement leave water
+                  sitting on the membrane long after a Permian Basin storm passes. Combined with
+                  100°F+ summer sun, that water bakes the TPO or EPDM until the seams open and
+                  the bond to the insulation fails.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -624,8 +636,10 @@ export default function FlatRoofMidlandPage() {
                   <CloudLightning className="w-6 h-6 inline-block" /> Hail Impact
                 </h3>
                 <p className="text-gray-700">
-                  Midland hail creates punctures, membrane bruising, and compromised waterproofing.
-                  Even small hail causes hidden damage that leads to leaks.
+                  Permian Basin hail leaves bruising on the back side of TPO and EPDM membranes
+                  that you cannot see from above. The cap sheet still looks intact while the
+                  scrim has been stretched. UL 2218 Class 4 cover boards under the membrane are
+                  what limit this damage on replacement systems.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -633,8 +647,10 @@ export default function FlatRoofMidlandPage() {
                   <Link className="w-6 h-6 inline-block" /> Seam Failures
                 </h3>
                 <p className="text-gray-700">
-                  Seams are the weak point in any membrane system. Heat cycles, wind, and age cause
-                  seam separation—the most common source of flat roof leaks.
+                  Seams are where most flat roofs fail first. Midland&apos;s daily swing between
+                  cool nights and 100°F afternoons pulls TPO and PVC laps apart over time,
+                  especially where the original hot-air weld was rushed. We probe every seam
+                  during inspection and re-weld the questionable runs.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -642,8 +658,10 @@ export default function FlatRoofMidlandPage() {
                   <Factory className="w-6 h-6 inline-block" /> Flashing Issues
                 </h3>
                 <p className="text-gray-700">
-                  Penetrations (HVAC units, vents, pipes) require proper flashing. These are common
-                  leak points when flashing cracks, separates, or was improperly installed.
+                  Every HVAC curb, plumbing vent, and gas line through a Midland flat roof is a
+                  potential leak point once the original pitch pocket or pre-formed boot dries
+                  out. We rebuild with target-patch TPO or PVC pieces welded around the
+                  penetration and re-pour any pitch pockets with elastomeric sealant.
                 </p>
               </div>
             </div>
@@ -704,14 +722,16 @@ export default function FlatRoofMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
-            <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Flat Roof Repair</h2>
+            <h2 className="text-3xl font-bold mb-6 text-red-700">Active Flat Roof Leak in Midland</h2>
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak causing water damage?</strong> We provide prompt flat roof repairs
-              throughout Midland. Fast response to minimize damage and protect your property.
+              <strong>Water coming through right now?</strong> We schedule leak repair across
+              Midland and the Permian Basin and provide temporary weather protection while we
+              source the right TPO, PVC, or modified bitumen material for the permanent fix.
+              Insurance documentation is delivered before the adjuster meeting.
             </p>
             <div className="bg-white p-6 rounded-lg">
               <p className="text-gray-700">
-                Available for commercial and residential flat roof emergencies
+                Scheduled leak repair for commercial and residential flat roofs across Midland County.
               </p>
             </div>
           </section>
@@ -738,8 +758,10 @@ export default function FlatRoofMidlandPage() {
                   <Droplets className="w-6 h-6 inline-block" /> Ponding Water 48+ Hours
                 </h3>
                 <p className="text-gray-700">
-                  Water remaining on your roof 48 hours after rain indicates drainage problems that
-                  will cause failure.
+                  Most TPO and EPDM manufacturer warranties consider water sitting on the
+                  membrane longer than 48 hours after rainfall a defect that voids coverage. If
+                  you see ponding past that window across your Midland flat roof, the drainage
+                  needs correction before the next storm pushes the seams open.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">

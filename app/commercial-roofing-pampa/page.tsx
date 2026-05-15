@@ -361,9 +361,11 @@ export default function CommercialRoofingPampaPage() {
                     Industrial Facility Roofing
                   </h3>
                   <p className="text-gray-700">
-                    Specialized roofing solutions for Pampa's industrial and manufacturing
-                    facilities, including chemical-resistant systems, high-temperature applications,
-                    and specialized drainage for large-format buildings.
+                    Pampa sits in the heart of Gray County&apos;s oil and gas corridor, so industrial
+                    facilities need membranes that hold up to hydrocarbon exposure and process heat.
+                    We install reinforced TPO and EPDM systems with chemical-resistant flashing,
+                    plus tapered insulation that moves stormwater off large-format manufacturing
+                    roofs before ponding can form.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -371,9 +373,11 @@ export default function CommercialRoofingPampaPage() {
                     Retail and Office Buildings
                   </h3>
                   <p className="text-gray-700">
-                    Energy-efficient roofing systems designed for Pampa's commercial district,
-                    focusing on aesthetic appeal, energy savings, and minimal business disruption
-                    during installation.
+                    Retail and office buildings along Pampa&apos;s commercial district benefit from
+                    white TPO membranes and ENERGY STAR cool-roof coatings that cut summer cooling
+                    load. We schedule installations around store hours and coordinate with property
+                    managers so customer access and storefront visibility stay intact through the
+                    project.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -381,9 +385,11 @@ export default function CommercialRoofingPampaPage() {
                     Agricultural Processing Facilities
                   </h3>
                   <p className="text-gray-700">
-                    Specialized roofing for agricultural operations requiring chemical resistance,
-                    superior ventilation systems, and accommodation for heavy equipment and
-                    processing operations.
+                    Grain elevators, feedlots, and ag-processing operations across the Texas
+                    Panhandle generate corrosive dust and ammonia loads that wear standard roofs
+                    out fast. We specify chemical-resistant PVC or coated metal systems with
+                    upgraded ventilation curbs sized for the equipment penetrations these
+                    facilities typically carry.
                   </p>
                 </div>
               </div>
@@ -393,9 +399,10 @@ export default function CommercialRoofingPampaPage() {
                     Healthcare and Educational Facilities
                   </h3>
                   <p className="text-gray-700">
-                    Quiet installation techniques and specialized roofing systems for sensitive
-                    environments, ensuring continuous operations during roofing projects at schools
-                    and medical facilities.
+                    Schools and medical buildings in Pampa cannot pause for a roof. We sequence
+                    work in phases, use adhered TPO or PVC where torch-down would be unsafe near
+                    HVAC intakes, and keep noise lower over classrooms and patient rooms. Dust
+                    barriers protect interior air quality during the tear-off.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -403,8 +410,10 @@ export default function CommercialRoofingPampaPage() {
                     Storm Damage Roof Repairs
                   </h3>
                   <p className="text-gray-700">
-                    storm damage, equipment penetration failures, and
-                    weather-related roofing emergencies throughout Pampa and surrounding areas.
+                    Hail Alley puts Pampa and Gray County in the path of recurring spring hailstorms
+                    and 70+ mph wind events. We inspect for hail bruising on membranes, displaced
+                    coping and edge metal, and failures around HVAC curbs or skylights, then
+                    document everything for the insurance carrier before repairs begin.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -412,9 +421,11 @@ export default function CommercialRoofingPampaPage() {
                     Preventive Maintenance Programs
                   </h3>
                   <p className="text-gray-700">
-                    Comprehensive maintenance programs designed to extend roof life, identify
-                    potential issues early, and maintain warranty compliance for Pampa commercial
-                    properties.
+                    Most TPO and EPDM manufacturer warranties require documented semiannual
+                    inspections to stay in force. Our maintenance program covers seam checks,
+                    drain and scupper clearing, sealant renewal at penetrations, and a written
+                    condition report you can hand to the manufacturer or your insurance carrier
+                    when needed.
                   </p>
                 </div>
               </div>
@@ -429,8 +440,10 @@ export default function CommercialRoofingPampaPage() {
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">
-                Reduce energy costs and improve building performance with advanced commercial
-                roofing technologies designed for Texas climate conditions.
+                White TPO and PVC membranes plus ENERGY STAR cool-roof coatings cut summer cooling
+                load across the Texas Panhandle. Paired with polyiso insulation sized for the
+                temperature swings between 100°F summer afternoons and 20°F winter nights, the
+                roof itself starts pulling weight on the utility bill.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -455,9 +468,10 @@ export default function CommercialRoofingPampaPage() {
                     Insulation and Air Sealing
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Advanced insulation systems and air sealing technologies create thermal barriers
-                    that maintain consistent interior temperatures, reducing energy consumption and
-                    improving building performance year-round.
+                    Layered polyiso boards and continuous air sealing under the TPO or PVC membrane
+                    hold conditioned air inside through Pampa&apos;s temperature swings between
+                    100°F summers and 20°F winter nights. Vapor barriers cut condensation at the
+                    deck, which is where insulation usually starts to fail first.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• High-performance polyiso insulation boards</li>
@@ -502,8 +516,10 @@ export default function CommercialRoofingPampaPage() {
                     Installation Supervision
                   </h3>
                   <p className="text-gray-600">
-                    Certified project managers oversee all installation phases, ensuring
-                    manufacturer specifications and industry best practices compliance.
+                    A project manager walks the deck at each phase: substrate prep, insulation
+                    layout, membrane attachment, seam welding, and termination flashing. We verify
+                    manufacturer specs from GAF, Carlisle, or Firestone so the warranty stays
+                    intact when the inspection report goes back to the factory.
                   </p>
                 </div>
                 <div className="text-center">
@@ -710,8 +726,10 @@ export default function CommercialRoofingPampaPage() {
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Local Expertise</h3>
                       <p className="text-gray-700">
-                        Deep understanding of Pampa's climate challenges, building codes, and
-                        commercial property requirements gained through years of local service.
+                        Headquartered in Amarillo since 2014, we work in Pampa and Gray County
+                        regularly and know how Hail Alley storms and Texas Panhandle wind events
+                        change the right material spec. We also know which local permit officials
+                        to call and what they want to see on commercial submittals.
                       </p>
                     </div>
                   </div>
@@ -738,8 +756,10 @@ export default function CommercialRoofingPampaPage() {
                         Advanced Technology
                       </h3>
                       <p className="text-gray-700">
-                        Latest installation techniques, energy-efficient materials, and innovative
-                        roofing systems designed for optimal performance in Texas conditions.
+                        Hot-air-welded TPO seams, UL 580 wind-uplift assemblies, and UL 2218 Class
+                        4 impact-rated materials handle Texas Panhandle hail and wind better than
+                        older mechanical-fastener and torch-down systems. Cool-roof reflective
+                        coatings pull additional load off the HVAC.
                       </p>
                     </div>
                   </div>
@@ -754,8 +774,10 @@ export default function CommercialRoofingPampaPage() {
                         Comprehensive Service
                       </h3>
                       <p className="text-gray-700">
-                        Complete project management from initial consultation through warranty
-                        service, including permits, inspections, and insurance coordination.
+                        We pull the Gray County permits, schedule the city inspection, coordinate
+                        with adjusters from State Farm, Allstate, USAA, or Farmers when a claim
+                        is involved, and stay on the warranty registration with the membrane
+                        manufacturer after the job closes out.
                       </p>
                     </div>
                   </div>
@@ -781,8 +803,10 @@ export default function CommercialRoofingPampaPage() {
                         Transparent Pricing
                       </h3>
                       <p className="text-gray-700">
-                        Detailed estimates with clear pricing, no hidden costs, and competitive
-                        rates backed by quality materials and expert installation.
+                        Estimates break out membrane material (TPO, PVC, or EPDM), insulation,
+                        fastening, flashings, tear-off, and disposal as separate line items.
+                        Commercial work follows the Texas Prompt Payment Act for billing
+                        milestones so there is no guessing about the schedule.
                       </p>
                     </div>
                   </div>

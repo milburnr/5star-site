@@ -333,13 +333,15 @@ export default function ResidentialRoofingDumasPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  Expert restoration services for hail, wind, and severe weather damage common in
-                  Moore County.
+                  Hail and 60+ mph straight-line winds hit Moore County every spring and early
+                  summer. We document the damage in a format insurance adjusters from State
+                  Farm, Allstate, USAA, and Farmers expect.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Insurance claim assistance</li>
-                  <li>• Temporary protection services</li>
-                  <li>• Complete documentation</li>
+                  <li>• Carrier-aligned damage report with hit counts per test square</li>
+                  <li>• Temporary weather protection on open or compromised slopes</li>
+                  <li>• Complete photo and roof-diagram documentation for the claim file</li>
+                  <li>• Class 4 UL 2218 impact-rated shingle options for the replacement</li>
                 </ul>
               </div>
 
@@ -349,14 +351,14 @@ export default function ResidentialRoofingDumasPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Roof Inspections</h3>
                 <p className="text-gray-700 mb-4">
-                  Thorough evaluations to identify potential issues before they become costly
-                  problems.
+                  Free roof inspections across Dumas and Moore County identify granule loss,
+                  flashing failure, and ventilation issues before they turn into interior leaks.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Comprehensive condition reports</li>
-                  <li>• Storm damage assessment</li>
-                  <li>• Maintenance recommendations</li>
-                  <li>• Insurance documentation</li>
+                  <li>• Written slope-by-slope condition report with photos</li>
+                  <li>• Hail and wind damage assessment tied to NOAA storm reports</li>
+                  <li>• Maintenance recommendations sized to remaining shingle life</li>
+                  <li>• Insurance documentation ready before the adjuster appointment</li>
                 </ul>
               </div>
             </div>

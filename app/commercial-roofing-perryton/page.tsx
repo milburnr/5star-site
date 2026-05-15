@@ -302,16 +302,18 @@ export default function CommercialRoofingPerrytonPage() {
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural Facilities</h3>
                 <p className="text-gray-700 mb-4">
-                  Specialized roofing systems for grain elevators, processing plants, and storage
-                  facilities requiring corrosion resistance, superior drainage, and accommodation
-                  for heavy equipment loads.
+                  Grain elevators, fertilizer storage, and processing plants across Ochiltree
+                  County need roofs that handle ammonia exposure, dust loads, and heavy
+                  equipment penetrations. Standing seam metal and PVC membrane assemblies hold
+                  up well in these environments where TPO seams can degrade under chemical
+                  contact.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Chemical and fertilizer resistant materials</li>
-                  <li>• Enhanced structural support systems</li>
-                  <li>• Specialized ventilation integration</li>
-                  <li>• Dust and debris resistance</li>
-                  <li>• Fire-resistant roofing solutions</li>
+                  <li>• PVC membranes for fertilizer and chemical exposure</li>
+                  <li>• Reinforced decking for HVAC and conveyor penetrations</li>
+                  <li>• Sealed curbs at exhaust fans and dust collection vents</li>
+                  <li>• Smooth-surface finishes that shed grain dust accumulation</li>
+                  <li>• Class A fire-rated assemblies near combustible storage</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -319,14 +321,17 @@ export default function CommercialRoofingPerrytonPage() {
                   Energy Sector Facilities
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  High-performance roofing for oil and gas operations requiring superior chemical
-                  resistance, Class A fire ratings, and specialized equipment penetration sealing.
+                  Anadarko Basin natural gas operations around Perryton need roofing that
+                  resists hydrocarbon vapors and meets Class A fire ratings under NFPA 256
+                  exposure testing. PVC membrane stands up to oil-field emissions better than
+                  asphalt-based systems, and standing seam metal handles compressor station
+                  equipment loads without seam fatigue.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Hydrocarbon resistant membrane systems</li>
-                  <li>• Class A fire-rated assemblies</li>
-                  <li>• Specialized equipment mounting systems</li>
-                  <li>• Enhanced leak detection capabilities</li>
+                  <li>• PVC membranes rated for hydrocarbon and chemical contact</li>
+                  <li>• Class A fire-rated assemblies per UL 790</li>
+                  <li>• Engineered curbs for compressor and separator equipment</li>
+                  <li>• Reinforced flashings at pipe penetrations and stack vents</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -334,16 +339,17 @@ export default function CommercialRoofingPerrytonPage() {
                   Retail and Office Buildings
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Energy-efficient roofing solutions for Perryton's commercial district focusing on
-                  cost savings, aesthetic appeal, and minimal business disruption during
-                  installation.
+                  Retail strips and office buildings along Main Street and the Highway 83
+                  corridor see triple-digit summer heat. White TPO and PVC membranes cut
+                  cooling load by reflecting solar gain, and we phase work around store hours
+                  to keep front doors open during installation.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Cool roofing technology for energy savings</li>
-                  <li>• Aesthetically pleasing design options</li>
-                  <li>• Quiet installation techniques</li>
-                  <li>• Enhanced insulation systems</li>
-                  <li>• Sustainable material options</li>
+                  <li>• ENERGY STAR cool-roof TPO and PVC membrane options</li>
+                  <li>• Architectural standing seam metal for storefront visibility</li>
+                  <li>• Phased installation around business operating hours</li>
+                  <li>• Polyiso insulation for R-25 to R-30 thermal performance</li>
+                  <li>• Recyclable membrane material at end of service life</li>
                 </ul>
               </div>
             </div>
@@ -408,8 +414,9 @@ export default function CommercialRoofingPerrytonPage() {
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">
-                Reduce operating costs and improve building performance with advanced commercial
-                roofing technologies designed for Texas climate challenges.
+                Cooling drives most of the energy bill on Panhandle commercial buildings.
+                White TPO membranes, ENERGY STAR cool-roof coatings, and continuous polyiso
+                insulation trim that load through Perryton's long summers.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -434,16 +441,17 @@ export default function CommercialRoofingPerrytonPage() {
                     Advanced Insulation Systems
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    High-performance insulation solutions create thermal barriers that maintain
-                    consistent interior temperatures, reducing energy consumption during both
-                    extreme summer heat and winter cold periods.
+                    Continuous polyiso insulation above the deck creates an unbroken thermal
+                    barrier between Perryton's 100°F summer roofs and conditioned space. The
+                    same assembly cuts heating cost on January nights when temperatures drop
+                    into the teens, paying back through both seasons.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Continuous insulation systems</li>
-                    <li>• Thermal bridge elimination</li>
-                    <li>• Vapor barrier technologies</li>
-                    <li>• Air sealing integration</li>
-                    <li>• Energy code compliance</li>
+                    <li>• Continuous polyiso insulation above the steel deck</li>
+                    <li>• Tapered insulation for positive drainage to drains</li>
+                    <li>• Self-adhered vapor retarders at high-humidity facilities</li>
+                    <li>• Sealed perimeter and penetration air barriers</li>
+                    <li>• Meets 2021 IECC commercial building energy code</li>
                   </ul>
                 </div>
               </div>
@@ -470,8 +478,9 @@ export default function CommercialRoofingPerrytonPage() {
                     Detailed Planning Phase
                   </h3>
                   <p className="text-gray-600">
-                    Comprehensive site assessment, structural analysis, and coordination with
-                    facility operations to minimize business disruption during installation.
+                    Roof condition survey, deck moisture scan, and load review of HVAC and
+                    process equipment. We then schedule the work around grain harvest cycles
+                    or compressor station maintenance windows so production keeps running.
                   </p>
                 </div>
                 <div className="text-center">
@@ -480,8 +489,10 @@ export default function CommercialRoofingPerrytonPage() {
                   </div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Expert Installation</h3>
                   <p className="text-gray-600">
-                    Certified installation teams follow manufacturer specifications and industry
-                    best practices while maintaining safety protocols and quality standards.
+                    Crews install to manufacturer specifications for GAF, Carlisle, and
+                    Firestone systems so the warranty stays valid. Fall protection, edge
+                    flagging, and daily safety briefings stay in place every day on the
+                    Perryton job site.
                   </p>
                 </div>
                 <div className="text-center">
@@ -638,16 +649,18 @@ export default function CommercialRoofingPerrytonPage() {
                     Environmental Responsibility
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    We implement sustainable practices throughout our operations including proper
-                    material disposal, waste minimization, and environmentally responsible product
-                    selection for Perryton projects.
+                    Tear-off material from Perryton commercial jobs goes to approved Ochiltree
+                    County disposal sites, and recyclable TPO and metal panels go to
+                    manufacturer take-back programs where available. We specify ENERGY STAR
+                    cool-roof membranes and recyclable polyiso insulation on every new
+                    install we quote.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Proper material recycling and disposal</li>
-                    <li>• Sustainable roofing material options</li>
-                    <li>• Waste minimization practices</li>
-                    <li>• Environmental compliance monitoring</li>
-                    <li>• Energy efficiency optimization</li>
+                    <li>• Old TPO and metal panels routed to recycling programs</li>
+                    <li>• ENERGY STAR cool-roof membrane specifications</li>
+                    <li>• Containment tarps to keep debris off adjacent property</li>
+                    <li>• TCEQ-compliant disposal of asphalt tear-off material</li>
+                    <li>• Higher R-value insulation to reduce long-term energy use</li>
                   </ul>
                 </div>
               </div>
@@ -672,9 +685,10 @@ export default function CommercialRoofingPerrytonPage() {
                         Texas Panhandle Expertise
                       </h3>
                       <p className="text-gray-700">
-                        Deep understanding of Perryton's unique climate challenges, agricultural
-                        industry requirements, and energy sector specifications gained through years
-                        of local experience.
+                        Headquartered in Amarillo since 2014, we've worked Hail Alley
+                        properties from Perryton south to Hereford. That experience shows up
+                        in details like Class 4 impact-rated membranes and wind-uplift
+                        detailing built for sustained Panhandle gusts.
                       </p>
                     </div>
                   </div>
@@ -687,9 +701,10 @@ export default function CommercialRoofingPerrytonPage() {
                         Industry-Specific Solutions
                       </h3>
                       <p className="text-gray-700">
-                        Specialized roofing systems designed for agricultural processing, energy
-                        operations, and commercial facilities with custom solutions for unique
-                        operational requirements.
+                        PVC membrane for fertilizer storage. Standing seam metal for
+                        compressor stations. Class 4 hail-rated TPO for retail strips on
+                        Highway 83. Each Perryton facility gets a system spec written for its
+                        actual operational exposure.
                       </p>
                     </div>
                   </div>
@@ -698,10 +713,14 @@ export default function CommercialRoofingPerrytonPage() {
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2 text-brand-brown"></h3>
+                      <h3 className="text-lg font-bold mb-2 text-brand-brown">
+                        Insurance Documentation
+                      </h3>
                       <p className="text-gray-700">
-                        Round-the-clock post-storm documentation for critical repairs and storm damage,
-                        ensuring minimal disruption to Perryton business operations.
+                        After hail or wind events across Ochiltree County, we schedule
+                        inspections once conditions are safe. The report includes hail-size
+                        photos, wind-driven debris notes, and an adjuster-ready scope your
+                        carrier can act on without back-and-forth.
                       </p>
                     </div>
                   </div>
@@ -716,9 +735,10 @@ export default function CommercialRoofingPerrytonPage() {
                         Comprehensive Project Management
                       </h3>
                       <p className="text-gray-700">
-                        Complete project oversight from initial consultation through warranty
-                        service, including permits, inspections, and coordination with facility
-                        operations.
+                        We pull the City of Perryton building permit, coordinate the
+                        municipal inspection, and stage material drops outside of business
+                        hours. Warranty paperwork from GAF, Carlisle, or Firestone is
+                        delivered with the final invoice.
                       </p>
                     </div>
                   </div>
@@ -731,9 +751,10 @@ export default function CommercialRoofingPerrytonPage() {
                         Advanced Technology
                       </h3>
                       <p className="text-gray-700">
-                        Latest installation techniques, energy-efficient materials, and innovative
-                        roofing systems designed for optimal performance in challenging Texas
-                        Panhandle conditions.
+                        Infrared moisture surveys catch wet insulation before tear-off. Drone
+                        imagery documents pre-existing conditions across larger Perryton
+                        facilities. Cool-roof TPO and PVC keep cooling bills down through the
+                        Panhandle summer.
                       </p>
                     </div>
                   </div>

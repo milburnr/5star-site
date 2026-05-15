@@ -367,15 +367,16 @@ export default function ResidentialRoofingBorgerPage() {
                   Shift Worker Accommodation
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Borger's petrochemical workforce operates continuously, and we understand the
-                  challenges of coordinating roofing work with shift schedules. Our flexible
-                  scheduling accommodates plant workers, contractors, and their families.
+                  Hutchinson County&apos;s petrochemical workforce runs the plants on rotating shifts,
+                  and we schedule around it. Inspections, tear-offs, and material deliveries get
+                  timed so a Phillips 66 or Chevron Phillips contractor on a 12-hour rotation can
+                  sleep through the loudest parts of the job.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Flexible inspection scheduling</li>
-                  <li>• Weekend and evening consultations</li>
-                  <li>• Coordination with turnaround schedules</li>
-                  <li>• Extended project communication for traveling workers</li>
+                  <li>• Inspection windows matched to refinery shift patterns</li>
+                  <li>• Weekend and evening estimate appointments</li>
+                  <li>• Coordination with plant turnaround calendars</li>
+                  <li>• Email and text updates for traveling contract workers</li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-lg border border-green-100">
@@ -383,30 +384,32 @@ export default function ResidentialRoofingBorgerPage() {
                   Corporate Housing Programs
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Many Borger residents work for major corporations that provide housing assistance
-                  or require specific maintenance standards. We work directly with corporate
-                  property management and employee housing programs.
+                  A lot of Borger homes are tied to Phillips 66, Chevron Phillips, or Solvay
+                  corporate housing or maintenance programs. We bill, document, and warranty in the
+                  way those property managers and HR programs require, including transfer paperwork
+                  when an employee relocates.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Corporate insurance billing</li>
-                  <li>• Fleet maintenance programs</li>
-                  <li>• Bulk pricing for employee housing</li>
-                  <li>• Corporate warranty transfer programs</li>
-                  <li>• Property management coordination</li>
+                  <li>• Corporate insurance billing with State Farm, Allstate, and USAA</li>
+                  <li>• Fleet maintenance scheduling across multiple addresses</li>
+                  <li>• Bulk pricing for employee housing roof packages</li>
+                  <li>• Warranty transfer paperwork during relocations</li>
+                  <li>• Direct coordination with corporate property management</li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">post-storm documentation network</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Borger's location in severe weather territory requires robust post-storm documentation
-                  capabilities. our network includes dedicated crews, material stockpiles, and rapid
-                  deployment protocols.
+                  Borger sits in Hail Alley and catches the High Plains wind that funnels down the
+                  Canadian River breaks. After a major storm we document damage at the neighborhood
+                  scale, with photo evidence, hail-size shots, and slope measurements that meet
+                  State Farm, USAA, and Texas Farm Bureau adjuster requirements.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Pre-positioned materials</li>
-                  <li>• Storm tracking and early warning</li>
-                  <li>• Community-wide damage assessment</li>
-                  <li>• Mass casualty roofing event protocols</li>
+                  <li>• Class 4 impact-rated asphalt shingles stocked through Hutchinson County suppliers</li>
+                  <li>• Storm-event correlation pulled from NOAA records for the claim file</li>
+                  <li>• Neighborhood-wide damage assessment after major events</li>
+                  <li>• Scheduling priority for homes with active water intrusion</li>
                 </ul>
               </div>
             </div>
@@ -636,9 +639,10 @@ export default function ResidentialRoofingBorgerPage() {
                     Industrial Workforce Financing
                   </h3>
                   <p className="text-gray-700 mb-4 leading-relaxed">
-                    We understand the financial patterns of industrial workers and offer flexible
-                    payment solutions that work with shift schedules, bonus periods, and corporate
-                    housing assistance programs.
+                    Refinery and chemical-plant workers in Hutchinson County are paid on rotating
+                    schedules with turnaround bonuses and overtime spikes. Our payment terms align
+                    with how that income actually arrives, and we can coordinate with the
+                    corporate housing or HR assistance program when one is part of the package.
                   </p>
                   <ul className="text-gray-600 space-y-3">
                     <li className="flex items-start">

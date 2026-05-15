@@ -345,11 +345,11 @@ export default function StormDamageRepairBorgerPage() {
                   Emergency Phase (0-24 hours)
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Safety assessment and area securing</li>
-                  <li>• weatherproof sheeting for active leaks</li>
-                  <li>• Damage documentation begins</li>
-                  <li>• Insurance notification</li>
-                  <li>• Temporary weather protection</li>
+                  <li>• Roof-edge and overhead safety check before anyone climbs on</li>
+                  <li>• Temporary weather protection over open areas to limit interior damage</li>
+                  <li>• Initial photo set with date, time, and slope-by-slope coverage</li>
+                  <li>• Carrier claim notification to State Farm, Allstate, USAA, or Farmers</li>
+                  <li>• Interior moisture mapping if water has already come through</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
@@ -357,11 +357,11 @@ export default function StormDamageRepairBorgerPage() {
                   Assessment Phase (1-7 days)
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Comprehensive damage inspection</li>
-                  <li>• Insurance adjuster coordination</li>
-                  <li>• Material specifications and ordering</li>
-                  <li>• Permit applications if required</li>
-                  <li>• Project timeline development</li>
+                  <li>• Full slope-by-slope inspection with hail-test square documentation</li>
+                  <li>• On-site meeting with the Hutchinson County adjuster</li>
+                  <li>• Shingle, underlayment, and metal-flashing specs sent to suppliers</li>
+                  <li>• City of Borger or county building permit pulled when scope requires</li>
+                  <li>• Scheduled project timeline tied to material lead times</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-green-500">
@@ -369,11 +369,11 @@ export default function StormDamageRepairBorgerPage() {
                   Restoration Phase (1-4 weeks)
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Complete damage remediation</li>
-                  <li>• New roof system installation</li>
-                  <li>• Quality inspections and testing</li>
-                  <li>• Final insurance documentation</li>
-                  <li>• Warranty registration</li>
+                  <li>• Tear-off and replacement with Class 4 UL 2218 shingles or TPO membrane</li>
+                  <li>• Synthetic underlayment and ice-and-water barrier per manufacturer specs</li>
+                  <li>• Final manufacturer and city inspection sign-off</li>
+                  <li>• Closeout package sent to the carrier so depreciation can be released</li>
+                  <li>• Warranty registered with GAF, CertainTeed, Owens Corning, or Carlisle</li>
                 </ul>
               </div>
             </div>
@@ -653,11 +653,11 @@ export default function StormDamageRepairBorgerPage() {
                     Chemical-Resistant Systems
                   </h3>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• EPDM membrane roofing</li>
-                    <li>• Chemical-resistant coatings</li>
-                    <li>• Enhanced polymer shingles</li>
-                    <li>• Industrial-grade fasteners</li>
-                    <li>• Acid-resistant flashing</li>
+                    <li>• EPDM and PVC membranes for facilities near Borger refinery operations</li>
+                    <li>• Acrylic and silicone restoration coatings rated for hydrocarbon exposure</li>
+                    <li>• Polymer-modified asphalt shingles from Malarkey or Atlas</li>
+                    <li>• Stainless or hot-dipped galvanized fasteners that resist sour-gas wear</li>
+                    <li>• Coated metal flashing at penetrations and parapet walls</li>
                   </ul>
                 </div>
                 <div>
@@ -665,21 +665,21 @@ export default function StormDamageRepairBorgerPage() {
                     Wind-Resistant Features
                   </h3>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• 140+ mph wind ratings</li>
-                    <li>• Enhanced fastening patterns</li>
-                    <li>• Aerodynamic edge systems</li>
-                    <li>• Reinforced attachment points</li>
-                    <li>• Impact-resistant materials</li>
+                    <li>• 140+ mph wind-rated shingles for the Texas Panhandle straight-line winds</li>
+                    <li>• 6-nail fastening pattern at every shingle for extra hold</li>
+                    <li>• UL 580 tested edge metal and drip edge that resists uplift</li>
+                    <li>• Mechanically fastened or fully adhered TPO with seam welds verified</li>
+                    <li>• UL 2218 Class 4 impact-rated shingle and membrane options</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-4 text-brand-gold">Heat/UV Protection</h3>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• Cool roof technology</li>
-                    <li>• UV-resistant surfaces</li>
-                    <li>• Thermal barrier systems</li>
-                    <li>• Heat-reflective coatings</li>
-                    <li>• Expansion joint systems</li>
+                    <li>• ENERGY STAR cool-roof TPO or PVC for the Borger summer sun</li>
+                    <li>• Reflective light-colored shingle granules from GAF or Owens Corning</li>
+                    <li>• Polyiso insulation layered for the 100°F to 20°F temperature range</li>
+                    <li>• Silicone or acrylic reflective coatings on existing modified bitumen</li>
+                    <li>• Engineered expansion joints on longer commercial roof runs</li>
                   </ul>
                 </div>
               </div>
