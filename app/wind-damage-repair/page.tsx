@@ -218,6 +218,22 @@ export default function Page() {
           { name: "Wind Damage Repair", url: "/wind-damage-repair/" },
         ]}
     />
+
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="container-custom mt-8">
+          <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
+            <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: Wind Damage Repair across the Texas Panhandle and West Texas, including Amarillo, Lubbock, Midland, and Odessa.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Storm work: UL 2218 Class 4 hail-rated installations and full insurance claim documentation.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Service area: based in Amarillo since 2014, serving 25+ Panhandle and West Texas cities.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: free inspections available. Call (806) 622-6041 to schedule.</span></li>
+            </ul>
+          </div>
+        </section>
+      </FadeIn>
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
