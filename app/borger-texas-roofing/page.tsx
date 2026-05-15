@@ -228,8 +228,10 @@ export default function BorgerRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Borger</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Borger and Hutchinson County. Select a service below for details.
+              From architectural asphalt shingle and Class 4 impact-rated shingle replacements on
+              Hutchinson County homes to TPO and standing seam metal commercial work on Borger
+              petrochemical facilities, we cover the full range across the Texas Panhandle.
+              Select a service below for the local detail.
             </p>
           </FadeIn>
 

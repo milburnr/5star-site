@@ -501,14 +501,16 @@ export default function RoofRepairBorgerPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">
-                      post-storm documentation Assessment
+                      Post-Storm Documentation Assessment
                     </h3>
-                    <p className="text-gray-700 mb-3"></p>
+                    <p className="text-gray-700 mb-3">
+                      After a Panhandle hail or wind event, we get on-site, lock down the roof, and capture the evidence a Hutchinson County adjuster will need before weather or repair work covers anything up.
+                    </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Safety evaluation of damaged areas</li>
-                      <li>• Leak source identification and temporary sealing</li>
-                      <li>• Documentation for insurance purposes</li>
-                      <li>• Interior damage prevention measures</li>
+                      <li>• Walk-through of damaged slopes with drone imagery from each direction</li>
+                      <li>• Leak source traced with moisture meters and temporarily sealed with peel-and-stick patches</li>
+                      <li>• Slope-by-slope photos and a written scope ready for State Farm, Allstate, USAA, or Farmers</li>
+                      <li>• Interior containment with plastic sheeting until permanent repair is scheduled</li>
                     </ul>
                   </div>
                 </div>
@@ -599,15 +601,13 @@ export default function RoofRepairBorgerPage() {
                       Quality Assurance & Warranty Protection
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Before project completion, our supervisors conduct final inspections to ensure
-                      all repairs meet our quality standards. We provide comprehensive warranties on
-                      both materials and workmanship, giving you long-term peace of mind.
+                      Before we leave the Borger job site, a supervisor walks every slope with the homeowner, checks ridge cap nailing, and verifies sealant work around flashing. The roof leaves with paperwork in hand for both the manufacturer warranty and our workmanship coverage.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Final quality inspection</li>
-                      <li>• Warranty documentation</li>
-                      <li>• Maintenance recommendations</li>
-                      <li>• warranty support</li>
+                      <li>• Final supervisor walk-through with photo documentation</li>
+                      <li>• GAF, CertainTeed, or Owens Corning manufacturer warranty registered in your name</li>
+                      <li>• Written maintenance recommendations tailored to Hutchinson County exposure</li>
+                      <li>• Workmanship warranty support with the local Amarillo office, not a faraway call center</li>
                     </ul>
                   </div>
                 </div>
@@ -642,30 +642,26 @@ export default function RoofRepairBorgerPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Insurance Specialists</h3>
                 <p className="text-gray-700 mb-4">
-                  Our certified insurance specialists work directly with adjusters to ensure you
-                  receive proper coverage for storm damage. We handle the paperwork and advocacy, so
-                  you focus on getting your property restored.
+                  Our claims team meets adjusters from State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau on the Borger roof and walks through every damaged slope. We handle the paperwork so the homeowner can stay focused on the household.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Complete insurance claim assistance</li>
-                  <li>• Direct adjuster communication</li>
-                  <li>• Damage documentation</li>
-                  <li>• Supplement negotiation</li>
+                  <li>• Full claim file assembled with photos, drone imagery, and measured diagrams</li>
+                  <li>• Adjuster meetings on-site, not just emailed documents</li>
+                  <li>• Hail and wind damage documented to current ASTM and UL inspection standards</li>
+                  <li>• Supplements pursued when the initial scope misses code items like drip edge or ice-and-water shield</li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Premium Materials</h3>
                 <p className="text-gray-700 mb-4">
-                  We exclusively use materials rated for Texas Panhandle conditions. Our
-                  partnerships with leading manufacturers ensure access to the latest technology in
-                  weather-resistant and chemical-resistant roofing systems.
+                  Every shingle, membrane, and metal panel we install in Borger is rated for Texas Panhandle wind and the chemical exposure that comes with Hutchinson County&apos;s refineries and gas plants.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• High-wind rated shingles</li>
-                  <li>• Chemical-resistant membranes</li>
-                  <li>• Impact-resistant materials</li>
-                  <li>• Manufacturer warranties</li>
+                  <li>• Six-nail high-wind nailing with UL 580 wind-rated shingles from GAF and Owens Corning</li>
+                  <li>• TPO and PVC membranes from Carlisle and Firestone for commercial flat roofs near industrial operations</li>
+                  <li>• UL 2218 Class 4 impact-rated shingles that can earn insurance discounts after Panhandle hail seasons</li>
+                  <li>• Manufacturer warranties registered to the homeowner&apos;s name on every install</li>
                 </ul>
               </div>
 

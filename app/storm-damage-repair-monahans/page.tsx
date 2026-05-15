@@ -481,10 +481,10 @@ export default function StormDamageRepairMonahansPage() {
                       Thermal Stress Damage
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Extreme temperature cycling cracking</li>
-                      <li>• UV-accelerated material degradation</li>
-                      <li>• Thermal expansion joint failure</li>
-                      <li>• Membrane shrinkage and splitting</li>
+                      <li>• Cracking from Permian Basin temperature swings between 100&deg;F days and cool desert nights</li>
+                      <li>• UV-accelerated granule loss on architectural asphalt shingles</li>
+                      <li>• Thermal expansion joint failure on TPO and PVC membranes</li>
+                      <li>• Membrane shrinkage and splitting at curbs and parapets</li>
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -492,10 +492,10 @@ export default function StormDamageRepairMonahansPage() {
                       Environmental Erosion
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Sand abrasion surface damage</li>
-                      <li>• Granule loss acceleration</li>
-                      <li>• Metal surface corrosion</li>
-                      <li>• Drainage system clogging</li>
+                      <li>• Sand and grit abrasion from Permian Basin dust events</li>
+                      <li>• Accelerated granule loss on south- and west-facing slopes</li>
+                      <li>• Galvanized panel corrosion accelerated by oilfield exposure</li>
+                      <li>• Roof drain and scupper clogging from blown sand</li>
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -503,10 +503,10 @@ export default function StormDamageRepairMonahansPage() {
                       Storm Impact Damage
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Large hail puncture damage</li>
-                      <li>• High wind membrane lifting</li>
-                      <li>• Flash flood water infiltration</li>
-                      <li>• Industrial equipment impact</li>
+                      <li>• Large hail punctures on TPO membranes and asphalt shingle mats</li>
+                      <li>• Wind uplift failures against UL 580 ratings on metal panels</li>
+                      <li>• Flash flood water infiltration through degraded flashing</li>
+                      <li>• Impact damage from windborne oilfield equipment and debris</li>
                     </ul>
                   </div>
                 </div>

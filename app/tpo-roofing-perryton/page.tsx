@@ -273,23 +273,23 @@ export default function TpoRoofingPerrytonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Grain elevators and storage
+                    Ochiltree County grain elevators and storage buildings
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Feed mills and processing
+                    Feed mills and processing plants along Highway 83
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Agricultural equipment buildings
+                    Equipment storage buildings for tractors, combines, and grain trucks
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Loading and shipping facilities
+                    Loading docks and shipping facilities serving the Panhandle wheat belt
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Administrative offices
+                    Co-op and ag-business administrative offices in Perryton
                   </li>
                 </ul>
               </div>
@@ -300,23 +300,23 @@ export default function TpoRoofingPerrytonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Dust and debris resistance
+                    Smooth membrane sheds wheat dust and grain debris instead of trapping it
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Chemical exposure protection
+                    Chemical resistance against fertilizer, ammonia, and pesticide exposure
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Large span capabilities
+                    Large-span coverage of grain bins, feed mills, and equipment sheds
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Easy maintenance and cleaning
+                    Pressure-washable surface for off-season cleaning between harvests
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Superior weathering resistance
+                    UL 580 wind uplift and ENERGY STAR cool-roof performance for Panhandle weather
                   </li>
                 </ul>
               </div>
@@ -349,8 +349,10 @@ export default function TpoRoofingPerrytonPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Dust Management</h3>
                 <p className="text-gray-700 mb-3">
-                  TPO's smooth surface prevents dust accumulation and allows for easy cleaning -
-                  critical for grain facility operations.
+                  The smooth TPO membrane surface sheds wheat dust and grain particulates from
+                  Ochiltree County elevators instead of holding them. That keeps the cool-roof
+                  reflectivity working through summer and makes off-season cleaning a pressure
+                  washer job.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Smooth, non-porous surface</li>
@@ -362,8 +364,10 @@ export default function TpoRoofingPerrytonPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Large Span Capability</h3>
                 <p className="text-gray-700 mb-3">
-                  TPO systems can span large grain storage areas without interior supports,
-                  maximizing usable space.
+                  Carlisle and Firestone TPO sheets install in wide rolls that cover Perryton
+                  grain storage and feed mill buildings without interior tie-ins. Fewer seams
+                  means fewer failure points across the Panhandle wind exposure these structures
+                  see year-round.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Single membrane installation</li>
@@ -375,8 +379,10 @@ export default function TpoRoofingPerrytonPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Chemical Resistance</h3>
                 <p className="text-gray-700 mb-3">
-                  Protection against agricultural chemicals including fertilizers, pesticides, and
-                  cleaning agents.
+                  TPO membranes from Carlisle and Firestone hold up to anhydrous ammonia drift,
+                  fertilizer runoff, pesticide residue, and the alkaline wash-downs used on
+                  Perryton feed mill floors. That matters where standard built-up roofing would
+                  start failing inside a few seasons.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Fertilizer runoff protection</li>
@@ -401,8 +407,10 @@ export default function TpoRoofingPerrytonPage() {
                     Temperature Control Benefits
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Proper temperature control is critical for grain storage quality and equipment
-                    performance in Perryton's agricultural facilities.
+                    Inside temperature control directly affects grain storage quality and the
+                    service life of motorized equipment inside Perryton agricultural buildings.
+                    ENERGY STAR cool-roof white TPO reflects a large share of summer solar
+                    load away from the roof deck.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Grain quality preservation</li>

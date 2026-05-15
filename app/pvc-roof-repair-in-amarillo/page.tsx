@@ -443,12 +443,10 @@ export default function Page() {
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Fastener Blow-Off</h3>
             <p className="mb-3">
-              In mechanically-attached systems, high winds (common in Amarillo) can pull fasteners
-              through the membrane, creating punctures. This typically occurs along roof edges and
-              corners where wind uplift is strongest.
+              On mechanically attached PVC systems across Amarillo, the 80+ mph gusts common during Texas Panhandle supercells can pull field-plate fasteners up through the membrane, leaving small punctures. These typically appear first along eaves, rakes, and parapet corners where wind uplift is strongest on an open-exposure commercial roof.
             </p>
             <p className="text-sm font-semibold text-gray-600">
-              Repair Method: Replace fasteners with larger plates, patch membrane
+              Repair Method: re-fasten with oversize 3-inch barbed plates set into sound deck, hot-air weld a reinforced PVC patch over the failed area, and confirm seam integrity with a probe test before walking off.
             </p>
           </div>
         </div>

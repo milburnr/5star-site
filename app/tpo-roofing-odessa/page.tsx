@@ -267,10 +267,11 @@ export default function TPORoofingOdessaPage() {
                   <Factory className="w-6 h-6 inline-block" /> Industrial Heritage
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  From the legendary Odessa Meteorite to modern petrochemical facilities, Odessa's
-                  industrial heritage demands roofing solutions that can handle heavy equipment,
-                  chemical exposure, and operations. Our installations serve everything from massive
-                  manufacturing complexes to specialized oilfield service facilities.
+                  Odessa sits at the heart of the Permian Basin, where the city has built its
+                  identity on oilfield manufacturing and petrochemical operations along Highway
+                  385 and the I-20 corridor. TPO membranes from Carlisle and Firestone hold up
+                  to the hydrocarbon vapors, dust, and rooftop equipment loads typical of
+                  Halliburton and Baker Hughes service yards in Ector County.
                 </p>
               </div>
             </div>
@@ -445,9 +446,10 @@ export default function TPORoofingOdessaPage() {
                   Industrial Site Assessment
                 </h3>
                 <p className="text-gray-700">
-                  Comprehensive evaluation including chemical exposure analysis, vibration
-                  assessment, equipment load calculations, and safety protocol review for oilfield
-                  environments.
+                  We walk every Odessa job site to map rooftop equipment, exhaust vents,
+                  chemical exposure paths, and access points. That assessment shapes membrane
+                  thickness, insulation depth, and where we place walk pads to protect the
+                  TPO from Permian Basin foot traffic.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg text-center">
@@ -456,18 +458,20 @@ export default function TPORoofingOdessaPage() {
                   Specialized System Design
                 </h3>
                 <p className="text-gray-700">
-                  Custom engineering for industrial applications including chemical resistance
-                  specifications, heavy load calculations, and specialized attachment methods for
-                  oil patch demands.
+                  System design starts with the right Carlisle or Firestone TPO product for the
+                  exposure profile, then runs through ASCE 7 wind-uplift calculations using
+                  Odessa&apos;s design wind speed. Fastening pattern, perimeter enhancement, and
+                  curb flashings get specified before any material lands on the roof.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-amber-50 p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">3</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Safety Coordination</h3>
                 <p className="text-gray-700">
-                  Full compliance with oilfield safety requirements, OSHA standards, and
-                  client-specific safety protocols with certified safety training for all
-                  installation personnel.
+                  Active Permian Basin facilities require contractor orientation, OSHA fall
+                  protection at heights above six feet, and hot work permits before any heat
+                  weld or torch work on the membrane. Our crews carry the H2S awareness and
+                  PEC SafeLand training that most oilfield clients in Ector County request.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg text-center">
@@ -485,16 +489,20 @@ export default function TPORoofingOdessaPage() {
                 <div className="text-4xl font-bold text-brand-gold mb-4">5</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Expert Installation</h3>
                 <p className="text-gray-700">
-                  Certified technicians with oilfield experience using specialized equipment and
-                  techniques designed for industrial environments and operational continuity.
+                  Our installers heat-weld TPO seams at the temperature specified by Carlisle
+                  or Firestone for the conditions, run a daily seam probe with a screwdriver
+                  to confirm welds before walking off, and schedule around facility production
+                  windows in Odessa, Midland, and the broader Permian Basin.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">6</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Performance Validation</h3>
                 <p className="text-gray-700">
-                  Rigorous testing including chemical resistance verification, structural integrity
-                  testing, and comprehensive documentation for industrial warranty compliance.
+                  Before we close the file, we walk every Odessa seam with a probe, check
+                  drains and overflow scuppers, and pull seam-cut samples for the manufacturer
+                  warranty file. The closeout packet stays with the building owner so the
+                  Carlisle or Firestone warranty is enforceable for its full term.
                 </p>
               </div>
             </div>

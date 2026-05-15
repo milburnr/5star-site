@@ -227,9 +227,10 @@ export default function Page() {
                 Hail Damage Experts
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                We specialize in identifying and repairing hail damage. Our team knows exactly what
-                insurance adjusters look for and how to document damage properly for successful
-                claims.
+                We work hail damage every spring across the Texas Panhandle, where Amarillo sits
+                squarely in Hail Alley. Our crews know what State Farm, Allstate, USAA, Farmers,
+                and Texas Farm Bureau adjusters look for on UL 2218 Class 4 impact-rated shingles
+                and how to document a damage map that supports the claim.
               </p>
             </div>
           </FadeIn>
@@ -243,9 +244,10 @@ export default function Page() {
                 Insurance Claim Help
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                We work directly with your insurance company to ensure you get the coverage you
-                deserve. From initial inspection to final approval, we handle the paperwork and
-                communication.
+                We work directly with State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau
+                to make sure the scope of loss reflects the actual damage on the roof. From the
+                first free inspection in Amarillo or Lubbock through final payment approval, we
+                handle the photo packets, scope sheets, and adjuster meetings on your behalf.
               </p>
             </div>
           </FadeIn>
@@ -259,8 +261,10 @@ export default function Page() {
                 Fast Response
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                After a storm, time is critical. We offer free damage inspections and can typically
-                begin repairs within days of insurance approval.
+                After a Panhandle hail line moves through Amarillo or a wind event hits Lubbock,
+                we offer free damage inspections across our 14-city service area. Most repairs
+                begin within days of carrier approval, with crews dispatched from our Amarillo
+                yard.
               </p>
             </div>
           </FadeIn>
@@ -386,9 +390,11 @@ export default function Page() {
           <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
             <h3 className="text-2xl font-bold mb-3 text-brand-brown">Our Promise</h3>
             <p className="mb-4 text-gray-700 leading-relaxed">
-              We treat every roof like it's our own. From the initial free inspection to the final
-              nail, we're committed to quality workmanship, honest pricing, and exceptional
-              customer service.
+              We treat every roof in Amarillo, Canyon, Lubbock, Midland, and the rest of our
+              14-city West Texas service area like it&apos;s our own. From the first free
+              inspection through the last GAF or CertainTeed ridge cap nail, we install to UL
+              2218 Class 4 hail and UL 580 wind uplift standards. The estimate stays honest, the
+              warranty stays in writing, and the crew shows up when we said they would.
             </p>
             <p className="text-brand-brown font-semibold">
               Address issues before a small problem becomes a big one. Call us today for your free

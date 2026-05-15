@@ -446,10 +446,10 @@ export default function StormDamageRepairSnyderPage() {
                       Rolling Plains Hail Impact
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Extreme granule loss and shingle damage</li>
-                      <li>• Large membrane punctures and tears</li>
-                      <li>• HVAC and skylight destruction</li>
-                      <li>• Accumulated hail drainage blockage</li>
+                      <li>• Severe granule loss on asphalt shingles and exposed fiberglass mat</li>
+                      <li>• Large punctures and tears in TPO and modified bitumen membranes</li>
+                      <li>• Dented HVAC fins and cracked skylights on Snyder commercial roofs</li>
+                      <li>• Hail piled in scuppers and gutters that backs water onto the roof</li>
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -457,10 +457,10 @@ export default function StormDamageRepairSnyderPage() {
                       Terrain-Enhanced Wind Damage
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Valley-channeled wind intensification</li>
-                      <li>• Membrane uplift and blow-off</li>
-                      <li>• Directional damage from topography</li>
-                      <li>• Structural component displacement</li>
+                      <li>• Wind channeled by Caprock-edge terrain that hits Scurry County roofs harder</li>
+                      <li>• TPO and PVC membrane uplift at corners and parapet edges</li>
+                      <li>• Directional damage skewed toward south and southwest exposures</li>
+                      <li>• Rooftop HVAC and parapet coping shifted off their fasteners</li>
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -468,10 +468,10 @@ export default function StormDamageRepairSnyderPage() {
                       Flash Flood Complications
                     </h4>
                     <ul className="text-gray-700 space-y-1">
-                      <li>• Rapid water infiltration</li>
-                      <li>• Drainage system failure</li>
-                      <li>• Post-flood secondary damage</li>
-                      <li>• Structural saturation effects</li>
+                      <li>• Rapid water entry through punctured shingles and torn membranes</li>
+                      <li>• Snyder commercial drains overwhelmed by Rolling Plains squall rates</li>
+                      <li>• Secondary damage to insulation and ceilings after ponding subsides</li>
+                      <li>• Saturated OSB and plywood decking that needs replacement, not patching</li>
                     </ul>
                   </div>
                 </div>

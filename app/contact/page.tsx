@@ -198,8 +198,7 @@ export default function ContactPage() {
                 Request a Free Inspection
               </h2>
               <p className="text-gray-700 mb-8">
-                Fill out the form below and we'll get back to you within 24 hours. All inspections
-                are completely free with no obligation.
+                Send a few details below and an Amarillo team member will reach out within one business day. Every inspection across the Texas Panhandle and Permian Basin is free, with a written report and photos, and no obligation to schedule work.
               </p>
 
               {/* HighLevel Form */}
@@ -218,8 +217,7 @@ export default function ContactPage() {
                       Contact Information
                     </h2>
                     <p className="text-gray-700 text-lg">
-                      Reach out to us directly through any of these channels. We're here to help
-                      with all your roofing needs.
+                      Call, email, or stop by the Amarillo office at 2909 S Western St. We&apos;re a local team based in Amarillo since 2014, covering the Texas Panhandle and Permian Basin from Dumas down to Big Spring.
                     </p>
                   </div>
 
@@ -311,8 +309,7 @@ export default function ContactPage() {
               Our Service Areas
             </h2>
             <p className="text-xl text-center text-gray-700 mb-8 max-w-3xl mx-auto">
-              Proudly serving communities throughout West Texas and the Panhandle with expert
-              roofing services
+              Headquartered in Amarillo and serving the Texas Panhandle, South Plains, and Permian Basin — from Dumas and Borger down through Lubbock, Levelland, Midland, Odessa, and Big Spring. Don&apos;t see your city listed? Call (806) 622-6041 and we&apos;ll let you know.
             </p>
 
             <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -474,8 +471,7 @@ export default function ContactPage() {
               Our Roofing Services
             </h2>
             <p className="text-center text-xl text-gray-700 mb-10 max-w-3xl mx-auto">
-              From storm damage repairs to complete roof replacements, we offer comprehensive
-              roofing solutions for residential and commercial properties across West Texas.
+              Hail damage repair, wind damage repair, full asphalt and metal replacements, and TPO and PVC commercial flat-roof work for homes and businesses from Amarillo through Lubbock down to Midland-Odessa.
             </p>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">

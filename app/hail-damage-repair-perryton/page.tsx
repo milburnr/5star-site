@@ -412,28 +412,22 @@ export default function HailDamageRepairPerrytonPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
-                    • <strong>Immediate Safety Assessment:</strong> Structural integrity evaluation
-                    within hours of storm impact
+                    • <strong>Immediate Safety Assessment:</strong> structural walk on Ochiltree County properties to flag unsafe roof areas before anyone goes back inside
                   </li>
                   <li>
-                    • <strong>Weather Protection:</strong> Temporary roofing and weatherization
-                    services
+                    • <strong>Weather Protection:</strong> reinforced tarps and shrink-wrapped openings to keep wind and rain off the interior until permanent work is scheduled
                   </li>
                   <li>
-                    • <strong>Contents Preservation:</strong> our roofing service to protect remaining
-                    property and belongings
+                    • <strong>Contents Preservation:</strong> plastic sheeting over salvageable property in attics and under leak paths
                   </li>
                   <li>
-                    • <strong>Utility Coordination:</strong> Working with power companies for safe
-                    restoration procedures
+                    • <strong>Utility Coordination:</strong> coordination with the local power provider when lines are down across damaged roofs
                   </li>
                   <li>
-                    • <strong>Debris Management:</strong> Coordinated removal of tornado debris for
-                    safe access
+                    • <strong>Debris Management:</strong> downed-branch and torn-shingle cleanup so a 20-yard rolloff and crew access are safe for the rebuild
                   </li>
                   <li>
-                    • <strong>Storm Watch:</strong> Continuous monitoring for additional severe
-                    weather threats
+                    • <strong>Storm Watch:</strong> follow-up checks if NOAA flags additional Panhandle supercells while temporary protection is in place
                   </li>
                 </ul>
               </div>
@@ -727,8 +721,7 @@ export default function HailDamageRepairPerrytonPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Farm Structure Documentation</h4>
                       <p className="text-gray-600 text-sm">
-                        Specialized assessment of grain storage, livestock facilities, and
-                        agricultural processing buildings
+                        Slope-by-slope assessment of grain bins, livestock barns, and crop-handling buildings across Ochiltree County, with drone imagery and material samples for Texas Farm Bureau and other agricultural carriers.
                       </p>
                     </div>
                   </div>
@@ -739,8 +732,7 @@ export default function HailDamageRepairPerrytonPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Business Interruption Advocacy</h4>
                       <p className="text-gray-600 text-sm">
-                        Coordination with agricultural operations for critical harvest and livestock
-                        feeding schedules
+                        We coordinate around wheat harvest, sorghum planting, and daily livestock feeding so a Perryton farm operation stays running while the repair work moves forward.
                       </p>
                     </div>
                   </div>
@@ -753,8 +745,7 @@ export default function HailDamageRepairPerrytonPage() {
                         Enhanced Reconstruction Coverage
                       </h4>
                       <p className="text-gray-600 text-sm">
-                        Ensuring insurance coverage for improved storm resistance in high-risk
-                        tornado areas
+                        Where the policy allows, we advocate for upgraded UL 580 wind-rated assemblies and UL 2218 Class 4 impact-rated shingles so the rebuild stands up better to the next Panhandle hail event.
                       </p>
                     </div>
                   </div>
@@ -765,7 +756,7 @@ export default function HailDamageRepairPerrytonPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Restoration Priority</h4>
                       <p className="text-gray-600 text-sm">
-                        Expedited processing for time-critical agricultural infrastructure repairs
+                        Damaged grain bin roofs and livestock barn shelters get scheduled first, since a cattle barn with a torn ridge can&apos;t wait the way a guest room can.
                       </p>
                     </div>
                   </div>

@@ -294,12 +294,14 @@ export default function RoofReplacementMidlandPage() {
               <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-amber-600">
                 <h3 className="text-xl font-bold text-amber-800 mb-3">Dust Storm Damage</h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Northwest wind dust storms</strong> - Frequent blowing dust events carry
-                  abrasive particles that accelerate roof material degradation.
+                  <strong>Northwest wind dust storms</strong> push gritty Permian Basin dust
+                  across Midland homes, and the abrasive particles wear away asphalt shingle
+                  granules and pit Kynar coatings on standing seam metal.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  Spring dust storms with winds exceeding 40 mph cause granule loss and surface
-                  erosion, particularly during drought periods.
+                  Spring dust events with sustained winds above 40 mph along Highway 158 and
+                  I-20 accelerate the granule loss on a worn roof. During drought years, the
+                  problem stretches into summer and starts to affect newer shingle systems too.
                 </p>
               </div>
 
@@ -451,15 +453,16 @@ export default function RoofReplacementMidlandPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Professional Installation & Scheduling</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Complete replacement with scheduling flexibility for commercial operations.
-                  Enhanced installation techniques designed for extreme weather resistance and
-                  minimal business disruption.
+                  Full replacement scheduled around Midland and Odessa commercial operations
+                  so production keeps moving. Our installation crews use six-nail patterns and
+                  UL 580 wind-uplift-rated underlayment to handle Permian Basin gust events,
+                  and keep dust contamination under control during tear-off.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• commercial scheduling</li>
-                  <li>• Enhanced wind resistance (120+ mph)</li>
-                  <li>• Dust mitigation during installation</li>
-                  <li>• Operations continuity planning</li>
+                  <li>• Off-hours commercial scheduling for Midland oilfield service yards</li>
+                  <li>• Six-nail shingle pattern and UL 580 wind-uplift-rated assembly</li>
+                  <li>• Tarp-and-vacuum dust control around the tear-off zone</li>
+                  <li>• Daily site staging that keeps loading docks and bay doors clear</li>
                 </ul>
               </div>
             </div>

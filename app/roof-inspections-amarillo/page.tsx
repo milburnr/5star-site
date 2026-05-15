@@ -317,20 +317,19 @@ export default function RoofInspectionsAmarilloPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Shingle Condition:</strong> Granule loss, cracking, curling, or hail
-                    impact damage
+                    <strong>Asphalt Shingles:</strong> granule loss, mat exposure, and circular bruising from Panhandle hail on GAF, CertainTeed, and Owens Corning products
                   </li>
                   <li>
-                    <strong>Metal Roofing:</strong> Corrosion, loose fasteners, or panel separation
+                    <strong>Standing Seam and R-Panel Metal:</strong> seam corrosion, loose fasteners, and panel oil-canning from thermal cycling
                   </li>
                   <li>
-                    <strong>Tile Systems:</strong> Cracked or shifted tiles, underlayment exposure
+                    <strong>Concrete and Clay Tile:</strong> cracked or shifted tiles and exposed underlayment around chimneys and valleys
                   </li>
                   <li>
-                    <strong>Membrane Roofing:</strong> Punctures, seam failures, or UV degradation
+                    <strong>TPO, PVC, and EPDM Membrane:</strong> punctures, seam failures, and UV chalking on commercial low-slope roofs
                   </li>
                   <li>
-                    <strong>Coating Systems:</strong> Adhesion failure, cracking, or wear patterns
+                    <strong>Built-Up and Modified Bitumen:</strong> alligatoring, blistering, and granule loss on BUR and modified bitumen flood coats
                   </li>
                 </ul>
               </div>
@@ -340,23 +339,19 @@ export default function RoofInspectionsAmarilloPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Gutter Systems:</strong> Proper slope, secure attachment, and debris
-                    clearance
+                    <strong>Gutter Systems:</strong> we check slope toward downspouts, hanger spacing across long Panhandle eaves, and dust buildup that clogs flow during the spring storm cycle
                   </li>
                   <li>
-                    <strong>Downspouts:</strong> Adequate sizing and proper water discharge away
-                    from foundation
+                    <strong>Downspouts:</strong> sizing and discharge routed well away from the foundation, important on Amarillo&apos;s heavy clay soils that swell and shrink with moisture
                   </li>
                   <li>
-                    <strong>Drainage Patterns:</strong> Standing water identification and slope
-                    corrections needed
+                    <strong>Drainage Patterns:</strong> standing water mapped on low-slope commercial roofs and tapered insulation called out where ponding is forming
                   </li>
                   <li>
-                    <strong>Flashing Details:</strong> Chimney, vent, and skylight waterproofing
-                    integrity
+                    <strong>Flashing Details:</strong> chimney, plumbing boot, and skylight flashing checked for ASTM-compliant step-and-counter detail and sealant condition
                   </li>
                   <li>
-                    <strong>Ice Dams:</strong> Potential formation areas and prevention measures
+                    <strong>Ice Dams:</strong> potential formation areas at eaves above poorly insulated soffits during Panhandle freeze-thaw cycles, with peel-and-stick membrane recommended where needed
                   </li>
                 </ul>
               </div>
@@ -366,22 +361,19 @@ export default function RoofInspectionsAmarilloPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Hail Impact:</strong> Bruising, exposed mat, or granule displacement
+                    <strong>Hail Impact:</strong> circular bruising and exposed asphalt mat that meet the patterns insurance adjusters from State Farm, Allstate, and USAA recognize as Hail Alley damage
                   </li>
                   <li>
-                    <strong>Wind Damage:</strong> Lifted shingles, exposed fasteners, or blown-off
-                    materials
+                    <strong>Wind Damage:</strong> lifted tabs, exposed nails along ridges and rakes, and blown-off shingles from 80+ mph Panhandle gusts
                   </li>
                   <li>
-                    <strong>Storm Damage:</strong> Tree impact, debris damage, or structural shifts
+                    <strong>Storm Debris:</strong> tree branches, fence panels, and other wind-driven debris that punctures shingles and dents metal flashing
                   </li>
                   <li>
-                    <strong>UV Deterioration:</strong> Accelerated aging from Amarillo's intense sun
-                    exposure
+                    <strong>UV Deterioration:</strong> accelerated aging on south- and west-facing slopes from Amarillo&apos;s open-sky exposure at 3,600 feet of elevation
                   </li>
                   <li>
-                    <strong>Thermal Cycling:</strong> Expansion/contraction damage from temperature
-                    swings
+                    <strong>Thermal Cycling:</strong> seam splits, fastener back-out, and metal panel oil-canning from Panhandle days that swing 50-60°F between morning and afternoon
                   </li>
                 </ul>
               </div>
@@ -402,21 +394,21 @@ export default function RoofInspectionsAmarilloPage() {
                 <div>
                   <h4 className="font-semibold mb-3 text-gray-800">Documentation Requirements</h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• High-resolution photos of all damage areas</li>
-                    <li>• Detailed measurements and sketches</li>
-                    <li>• GPS coordinates for damage locations</li>
-                    <li>• Before/after comparison documentation</li>
-                    <li>• Professional assessment reports</li>
+                    <li>• High-resolution photos of every damaged slope, hand-held and aerial</li>
+                    <li>• Measured roof diagrams with damage locations marked by elevation</li>
+                    <li>• GPS-tagged drone imagery from each cardinal direction</li>
+                    <li>• Granule-loss samples and chalk-marked test squares for adjuster reference</li>
+                    <li>• Written assessment report with material brand, age, and replacement scope</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-3 text-gray-800">Insurance Claim Support</h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Direct communication with adjusters</li>
-                    <li>• Supplemental damage documentation</li>
-                    <li>• Code compliance requirement advocacy</li>
-                    <li>• Scope of work clarification</li>
-                    <li>• Materials and labor cost justification</li>
+                    <li>• Direct meetings with adjusters from State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau</li>
+                    <li>• Supplemental claims when the initial scope misses code-required upgrades</li>
+                    <li>• Advocacy for current Amarillo building code items like ice-and-water shield and drip edge</li>
+                    <li>• Scope-of-work line items written in language adjusters and software like Xactimate read cleanly</li>
+                    <li>• Material and labor pricing tied to current Panhandle supply-house quotes, not stale software defaults</li>
                   </ul>
                 </div>
               </div>
@@ -512,16 +504,14 @@ export default function RoofInspectionsAmarilloPage() {
                   (December-February)
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Structural Assessment:</strong> While less common, winter inspections are
-                  crucial after ice events or when preparing for real estate transactions during the
-                  slower season.
+                  <strong>Structural Assessment:</strong> winter inspections matter most after a Panhandle ice event or for real estate transactions during the slower months, when scheduling is easier and crews are available on shorter notice.
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• Ice damage and freeze-thaw cycle assessment</li>
-                  <li>• Real estate transaction requirements</li>
-                  <li>• Annual maintenance planning</li>
-                  <li>• Off-season repair scheduling advantages</li>
-                  <li>• Preparation for next year's storm season</li>
+                  <li>• Ice and freeze-thaw damage along eaves, valleys, and chimney flashing</li>
+                  <li>• Real estate transaction inspections for buyers and sellers in Potter and Randall counties</li>
+                  <li>• Annual maintenance planning for the next storm cycle</li>
+                  <li>• Off-season scheduling with shorter lead times and easier permit turnaround in Amarillo</li>
+                  <li>• Spring storm prep, including loose fastener resets and sealant top-ups around penetrations</li>
                 </ul>
               </div>
             </div>
@@ -598,9 +588,7 @@ export default function RoofInspectionsAmarilloPage() {
                   Thermal Imaging
                 </h3>
                 <p className="text-gray-700">
-                  FLIR cameras detect moisture intrusion, insulation gaps, and energy loss that
-                  aren't visible to the naked eye. Especially valuable for identifying leaks in
-                  Amarillo's extreme weather conditions.
+                  FLIR thermal cameras pick up moisture trapped under shingles and TPO membrane along with insulation gaps in Amarillo attics that you can&apos;t see from a ladder. Useful for finding the source of slow leaks where chimney flashing or skylights have been quietly failing for a season or two.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -611,9 +599,7 @@ export default function RoofInspectionsAmarilloPage() {
                   Drone Photography
                 </h3>
                 <p className="text-gray-700">
-                  High-resolution aerial photography safely documents damage on steep or high roofs.
-                  GPS-tagged images provide precise damage location data for insurance and repair
-                  purposes.
+                  Aerial photography from a licensed drone safely documents damage on steep two-story Amarillo homes and on tall commercial parapets that aren&apos;t safe to walk. GPS-tagged images give adjusters exact slope locations for claims with State Farm, USAA, and Farmers.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -624,9 +610,7 @@ export default function RoofInspectionsAmarilloPage() {
                   Moisture Detection
                 </h3>
                 <p className="text-gray-700">
-                  Professional moisture meters and hygrometers identify water damage and humidity
-                  issues that could lead to mold, rot, or structural problems in Amarillo's variable
-                  climate.
+                  Pin and pinless moisture meters pull readings from decking, drywall, and insulation so we can separate active leaks from old stains. That matters in Amarillo, where a wet stretch in May can hide damage that a 100°F July afternoon then bakes invisible.
                 </p>
               </div>
             </div>
@@ -705,20 +689,19 @@ export default function RoofInspectionsAmarilloPage() {
                     <h4 className="font-bold text-gray-800 mb-3">Attic Space Analysis</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Structural Components:</strong> Rafters, trusses, decking
-                        condition
+                        • <strong>Structural Components:</strong> rafters, engineered trusses, and decking checked for moisture staining around vent boots and valleys
                       </li>
                       <li>
-                        • <strong>Insulation Assessment:</strong> R-value, settling, pest damage
+                        • <strong>Insulation Assessment:</strong> R-value loss from settling, displacement around can lights, and rodent damage common in older Amarillo attics
                       </li>
                       <li>
-                        • <strong>Ventilation Airflow:</strong> Intake and exhaust balance
+                        • <strong>Ventilation Airflow:</strong> soffit intake checked against ridge or gable exhaust to confirm balanced flow per current code
                       </li>
                       <li>
-                        • <strong>Electrical Inspection:</strong> Wiring safety, junction boxes
+                        • <strong>Electrical Inspection:</strong> exposed junction boxes, knob-and-tube remnants in pre-1960 homes, and bath fan terminations
                       </li>
                       <li>
-                        • <strong>HVAC Equipment:</strong> Ductwork, units, condensation issues
+                        • <strong>HVAC Equipment:</strong> condensate drips on attic-mounted units, ductwork separations, and insulation crushed under foot traffic
                       </li>
                     </ul>
                   </div>
@@ -726,19 +709,19 @@ export default function RoofInspectionsAmarilloPage() {
                     <h4 className="font-bold text-gray-800 mb-3">Moisture & Air Quality</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Active Leaks:</strong> Current water intrusion identification
+                        • <strong>Active Leaks:</strong> moisture meter readings on decking, drywall, and rafters to confirm current water entry
                       </li>
                       <li>
-                        • <strong>Historical Damage:</strong> Old stains, repair evidence
+                        • <strong>Historical Damage:</strong> old stains around chimneys, vent stacks, and skylights showing prior repair attempts
                       </li>
                       <li>
-                        • <strong>Mold Detection:</strong> Growth patterns, air quality concerns
+                        • <strong>Mold and Mildew:</strong> growth patterns at cold spots and on the underside of poorly ventilated decking
                       </li>
                       <li>
-                        • <strong>Vapor Barriers:</strong> Installation integrity, effectiveness
+                        • <strong>Vapor Barriers:</strong> kraft-faced batt and poly barriers checked for tears and improper orientation in Amarillo&apos;s mixed-humid winters
                       </li>
                       <li>
-                        • <strong>Pest Evidence:</strong> Animal intrusion, damage assessment
+                        • <strong>Pest Evidence:</strong> raccoon, squirrel, or bird entry at gable vents and fascia, with droppings and chewed insulation noted
                       </li>
                     </ul>
                   </div>
@@ -754,19 +737,19 @@ export default function RoofInspectionsAmarilloPage() {
                     <h4 className="font-bold text-gray-800 mb-3">Advanced Detection Methods</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Thermal Imaging:</strong> Hidden moisture, insulation voids
+                        • <strong>Thermal Imaging:</strong> FLIR camera scans of attic decking and TPO membrane to locate trapped moisture and missing insulation
                       </li>
                       <li>
-                        • <strong>Moisture Meters:</strong> Quantitative water content measurement
+                        • <strong>Moisture Meters:</strong> percentage readings logged at each suspected leak point for repeatable evidence
                       </li>
                       <li>
-                        • <strong>Drone Survey:</strong> High-resolution aerial documentation
+                        • <strong>Drone Survey:</strong> 12MP-plus aerial imagery on steep two-story homes and tall commercial parapets that aren&apos;t safe to walk
                       </li>
                       <li>
-                        • <strong>Digital Measurement:</strong> Precise damage quantification
+                        • <strong>Digital Measurement:</strong> chalk-mark test squares and ruler-referenced close-ups that quantify hail strike density per 100 sq ft
                       </li>
                       <li>
-                        • <strong>GPS Mapping:</strong> Damage location coordination
+                        • <strong>GPS Mapping:</strong> each finding tagged with coordinates and slope direction for adjuster review
                       </li>
                     </ul>
                   </div>
@@ -774,19 +757,19 @@ export default function RoofInspectionsAmarilloPage() {
                     <h4 className="font-bold text-gray-800 mb-3">Data Collection & Analysis</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Photo Organization:</strong> Systematic damage documentation
+                        • <strong>Photo Organization:</strong> imagery grouped by slope and elevation for easy adjuster review
                       </li>
                       <li>
-                        • <strong>Measurement Recording:</strong> Precise size and scope data
+                        • <strong>Measurement Recording:</strong> roof squares calculated from drone imagery and verified on deck for accurate claim scope
                       </li>
                       <li>
-                        • <strong>Condition Scoring:</strong> Standardized assessment ratings
+                        • <strong>Condition Scoring:</strong> standardized ratings on each system from underlayment up through ridge caps
                       </li>
                       <li>
-                        • <strong>Repair Prioritization:</strong> Urgent vs. routine maintenance
+                        • <strong>Repair Prioritization:</strong> immediate leaks separated from spring-storm-prep items so homeowners know what needs doing this week versus this season
                       </li>
                       <li>
-                        • <strong>Cost Estimation:</strong> Preliminary repair budget development
+                        • <strong>Cost Estimation:</strong> preliminary pricing built from current Panhandle supply-house quotes rather than stale software defaults
                       </li>
                     </ul>
                   </div>
@@ -959,23 +942,19 @@ export default function RoofInspectionsAmarilloPage() {
                     <h4 className="font-bold text-gray-800 mb-3">Standard Documentation Shots</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Four-Corner Overview:</strong> Complete roof visibility from all
-                        angles
+                        • <strong>Four-Corner Overview:</strong> aerial shots from each cardinal direction so adjusters see every Amarillo slope without leaving the office
                       </li>
                       <li>
-                        • <strong>Close-up Damage:</strong> Individual impacts with measurement
-                        references
+                        • <strong>Close-up Damage:</strong> individual hail strikes shot with a chalk mark and a ruler or quarter for scale
                       </li>
                       <li>
-                        • <strong>Comparative Analysis:</strong> Damaged vs. undamaged material
-                        samples
+                        • <strong>Comparative Analysis:</strong> damaged versus undamaged shingle samples photographed side by side to make hail signature obvious
                       </li>
                       <li>
-                        • <strong>Context Photography:</strong> Damage in relation to surrounding
-                        structures
+                        • <strong>Context Photography:</strong> damage shown alongside dented gutters, downspouts, and AC fins that confirm storm direction
                       </li>
                       <li>
-                        • <strong>Serial Identification:</strong> Equipment models, material brands
+                        • <strong>Serial Identification:</strong> shingle wrapper, manufacturer stamps, and HVAC nameplates captured for age and brand verification
                       </li>
                     </ul>
                   </div>
@@ -983,19 +962,19 @@ export default function RoofInspectionsAmarilloPage() {
                     <h4 className="font-bold text-gray-800 mb-3">Technical Specifications</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>High Resolution:</strong> Minimum 12MP for detail clarity
+                        • <strong>High Resolution:</strong> minimum 12MP capture so detail holds up when adjusters zoom in
                       </li>
                       <li>
-                        • <strong>GPS Metadata:</strong> Location coordinates embedded
+                        • <strong>GPS Metadata:</strong> location coordinates embedded in every drone image for slope-by-slope reference
                       </li>
                       <li>
-                        • <strong>Timestamp Accuracy:</strong> Verified date/time documentation
+                        • <strong>Timestamp Accuracy:</strong> verified date and time on each photo, useful when tying damage to a specific Panhandle storm event on NOAA records
                       </li>
                       <li>
-                        • <strong>Scale References:</strong> Coins, rulers for size context
+                        • <strong>Scale References:</strong> a quarter or tape measure included in close-ups so hail strike diameter is unambiguous
                       </li>
                       <li>
-                        • <strong>Lighting Standards:</strong> Consistent exposure across shots
+                        • <strong>Lighting Standards:</strong> consistent exposure across the roof so the report reads cleanly start to finish
                       </li>
                     </ul>
                   </div>
@@ -1013,20 +992,19 @@ export default function RoofInspectionsAmarilloPage() {
                     </h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Damage Inventory:</strong> Complete catalog with locations
+                        • <strong>Damage Inventory:</strong> full catalog of findings by slope and elevation, ready to drop into an Xactimate scope
                       </li>
                       <li>
-                        • <strong>Severity Classifications:</strong> Immediate vs. long-term
-                        concerns
+                        • <strong>Severity Classifications:</strong> active leaks called out separately from cosmetic or long-term wear items
                       </li>
                       <li>
-                        • <strong>Material Specifications:</strong> Brand, color, age documentation
+                        • <strong>Material Specifications:</strong> shingle brand, color, manufacturer, and approximate age pulled from wrappers or attic stamps
                       </li>
                       <li>
-                        • <strong>Weather Correlation:</strong> Storm date and intensity data
+                        • <strong>Weather Correlation:</strong> storm event tied back to NOAA Storm Events Database date and reported hail size for the Amarillo metro
                       </li>
                       <li>
-                        • <strong>Code Compliance:</strong> Current standard requirements
+                        • <strong>Code Compliance:</strong> current Amarillo building code items called out, like drip edge and ice-and-water shield at eaves
                       </li>
                     </ul>
                   </div>
@@ -1036,19 +1014,19 @@ export default function RoofInspectionsAmarilloPage() {
                     </h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        • <strong>Scope of Work:</strong> Detailed repair specifications
+                        • <strong>Scope of Work:</strong> line-by-line repair specs the homeowner can hand to any contractor and compare honestly
                       </li>
                       <li>
-                        • <strong>Cost Estimates:</strong> Material and labor pricing
+                        • <strong>Cost Estimates:</strong> material and labor priced against current Panhandle supply-house quotes
                       </li>
                       <li>
-                        • <strong>Timeline Projections:</strong> Repair duration estimates
+                        • <strong>Timeline Projections:</strong> realistic install windows that account for Amarillo&apos;s spring storm queue and supply-chain delays
                       </li>
                       <li>
-                        • <strong>Warranty Information:</strong> Coverage details and limitations
+                        • <strong>Warranty Information:</strong> manufacturer warranty terms from GAF, CertainTeed, or Owens Corning plus the workmanship warranty on the install
                       </li>
                       <li>
-                        • <strong>Inspector Credentials:</strong> Certifications and experience
+                        • <strong>Inspector Credentials:</strong> credentials and Amarillo-area experience listed, so the report carries weight with adjusters
                       </li>
                     </ul>
                   </div>

@@ -279,17 +279,21 @@ export default function Page() {
       <FadeIn delay={0.1}>
         <h2 className="text-2xl font-bold mt-8 mb-4">When Do You Need a Roof Inspection?</h2>
         <p className="mb-4">
-          Some inspections are planned, and others are prompted by events. Here are the situations
-          where a professional roof inspection makes a real difference:
+          Some inspections are scheduled into a maintenance calendar. Others are triggered by a
+          storm rolling through the Texas Panhandle or a closing date in Lubbock. Across our
+          14-city service area, these are the situations where a professional roof inspection
+          earns its place on the checklist.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">After Storms</h3>
             <p className="text-gray-700">
-              Hail, high winds, and heavy rain can damage your roof without any visible signs from
-              ground level. After any significant storm in the Panhandle or Permian Basin, a
-              professional inspection identifies damage early, before leaks develop and before
-              insurance filing deadlines pass.
+              Hail strikes, straight-line winds off the Llano Estacado, and heavy rain can fracture
+              asphalt shingle mats or lift metal panels without leaving a clue at ground level.
+              After any significant storm across the Texas Panhandle or the Permian Basin around
+              Midland and Odessa, a professional inspection documents the damage early, before
+              leaks develop and before State Farm, Allstate, USAA, or Texas Farm Bureau filing
+              deadlines run out.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -303,35 +307,41 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Annual Maintenance</h3>
             <p className="text-gray-700">
-              Yearly inspections are the single most effective way to extend your roof&apos;s life.
-              Catching a few loose shingles or degraded caulking costs a fraction of the emergency
-              repair you would need after those issues turn into leaks during the next storm.
+              An annual inspection is the most reliable way to extend the service life of an
+              architectural asphalt shingle or standing seam metal roof in Amarillo. Catching a few
+              loose shingles, a cracked pipe boot, or degraded caulking around a Heat &amp; Glo
+              flue costs a fraction of the emergency repair bill that follows once those issues
+              turn into a leak during the next spring hail line.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Insurance Requirements</h3>
             <p className="text-gray-700">
-              Some insurance policies require periodic roof inspections as a condition of coverage,
-              especially for roofs over 15 years old. Our inspection reports meet carrier
-              documentation standards and can help you maintain coverage or qualify for premium
-              discounts.
+              State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau policies often require a
+              periodic roof condition report as a condition of coverage, especially on roofs older
+              than 15 years. Our reports meet carrier documentation standards across the Panhandle
+              and can support coverage renewal or qualify a Class 4 impact-rated asphalt shingle
+              upgrade for a premium discount.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Warranty Compliance</h3>
             <p className="text-gray-700">
-              Many roofing material warranties require documented maintenance, including regular
-              inspections. Skipping inspections can void your warranty when you need it most. Our
-              inspection reports serve as the maintenance documentation manufacturers require.
+              GAF, CertainTeed, Owens Corning, Carlisle, and Firestone warranties on shingle and
+              TPO systems require documented maintenance to remain in force. Skipping inspections
+              can void coverage right when a Hail Alley storm event would otherwise trigger a
+              claim. Our written reports serve as the maintenance record manufacturers ask for
+              during a warranty review.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Before Filing a Claim</h3>
             <p className="text-gray-700">
-              Before contacting your insurance carrier about suspected roof damage, get a
-              professional inspection first. Our documentation provides the evidence your adjuster
-              needs to process your claim efficiently and helps prevent underpayment on legitimate
-              damage.
+              Before calling State Farm, Allstate, USAA, or Texas Farm Bureau about suspected hail
+              or wind damage, get a professional inspection on the books first. Our slope-by-slope
+              photo documentation and damage map give your adjuster the evidence needed to process
+              the claim cleanly and reduces the risk of an underpayment on a legitimate UL 2218
+              Class 4 shingle replacement.
             </p>
           </div>
         </div>
@@ -342,8 +352,10 @@ export default function Page() {
           What Does a Professional Roof Inspection Cover?
         </h2>
         <p className="mb-4">
-          We inspect every component of your roofing system, not just the visible surface. Here is
-          what our inspection process examines:
+          We inspect every component of the roofing system, not just the visible field of
+          shingles or TPO membrane. From decking to ridge caps to pipe boots, here is what our
+          inspectors physically examine on a typical 2,000 sq ft Amarillo home or a 20,000 sq
+          ft commercial flat roof in Midland.
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
@@ -358,36 +370,42 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Structural Integrity</h3>
             <p className="text-gray-700">
-              We check for sagging, uneven surfaces, and signs of structural stress that indicate
-              problems with the roof deck, rafters, or trusses. These issues can signal water
-              damage, overloading, or aging that affects the entire roof system.
+              We check the roof deck for sagging between rafters or trusses, uneven plywood
+              surfaces, and pressure points around HVAC curbs that point to water damage,
+              overloading, or aging framing. On older Amarillo homes built in the 1960s and 1970s,
+              we pay close attention to the decking under valleys where granule loss from past hail
+              tends to concentrate moisture.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Material Condition</h3>
             <p className="text-gray-700">
-              Shingle granule loss, curling, cracking, blistering, and missing tabs all indicate
-              different types and stages of deterioration. For flat roofs, we check membrane
-              integrity, seam condition, and surface wear. Each finding helps determine remaining
-              roof life.
+              On asphalt shingle roofs we map granule loss, mat curling, cracking, blistering, and
+              missing tabs against the manufacturer profile (GAF Timberline, CertainTeed Landmark,
+              Owens Corning Duration, Malarkey Vista, or Atlas Pinnacle). On TPO, PVC, EPDM, and
+              modified bitumen flat roofs we check the membrane field, every seam, and surface wear
+              from West Texas UV and grit. Each finding feeds the remaining-life estimate in the
+              report.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Flashing and Penetrations</h3>
             <p className="text-gray-700">
-              Flashing around chimneys, vents, skylights, and roof edges is the most common source
-              of leaks. We examine every penetration point for proper sealing, corrosion,
-              separation, and signs of past water entry. Pipe boots get particular attention as they
-              degrade faster than other components.
+              Step flashing around brick chimneys, plumbing vents, skylight curbs, and roof-to-wall
+              transitions is the most common source of leaks on Panhandle homes. We examine every
+              penetration for proper lap, corrosion, separation, and signs of past water entry into
+              the decking. Neoprene pipe boots get special attention because high-altitude UV in
+              Amarillo and Lubbock degrades them faster than the shingles they sit on.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Gutters and Drainage</h3>
             <p className="text-gray-700">
-              Clogged, damaged, or improperly sloped gutters cause water to back up under shingles
-              and along fascia boards. We check gutter condition, downspout flow, and overall
-              drainage patterns. On flat roofs, we verify drain function and check for ponding
-              water.
+              Clogged or misaligned gutters cause water to back up under starter shingles and rot
+              fascia boards. We check the gutter run, downspout flow, and how runoff moves away
+              from the foundation. On commercial TPO and PVC flat roofs in Midland and Lubbock we
+              verify roof drain function and look for ponding water near rooftop HVAC curbs, which
+              is a common failure point after a Permian Basin dust event.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -402,10 +420,11 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Photo Documentation</h3>
             <p className="text-gray-700">
-              Every issue we find is photographed with detailed notes. You receive a written report
-              documenting all findings, their severity, and recommended actions. This report is
-              formatted for insurance use if storm damage is present. We keep copies on file for
-              future reference.
+              Every finding is photographed with location notes and severity tags. You receive a
+              written report with the photos, severity ratings, and recommended next steps,
+              formatted for State Farm, Allstate, USAA, or Texas Farm Bureau adjusters when storm
+              damage is present. We keep copies on file at our Amarillo office for warranty and
+              future-claim reference.
             </p>
           </div>
         </div>
@@ -416,8 +435,10 @@ export default function Page() {
           What Types of Roof Inspections Are Available?
         </h2>
         <p className="mb-4">
-          Different situations call for different inspection approaches. We tailor the scope and
-          documentation to match your specific needs:
+          A storm damage walk after a hail line in Canyon looks different from a pre-sale
+          inspection in Lubbock or a yearly maintenance pass on a Midland TPO commercial roof. We
+          tailor the scope, the documentation format, and the delivery turnaround to the situation
+          you are actually in.
         </p>
         <div className="space-y-4 mb-8">
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -437,27 +458,32 @@ export default function Page() {
               >
                 wind
               </a>
-              , or severe weather, we document all damage with insurance-grade detail. This includes
-              identifying the type of damage (impact, uplift, water intrusion), measuring affected
-              areas, and noting materials needed for repair. Reports are formatted to meet insurance
-              carrier requirements.
+              , or severe weather, we document the damage with adjuster-grade detail. The report
+              identifies the damage mechanism (hail impact, wind uplift, water intrusion against UL
+              580 ratings), measures affected slopes, and lists the architectural shingle, Class 4
+              shingle, or standing seam metal materials needed for the repair. Reports are
+              formatted to meet State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau
+              submission requirements.
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-bold text-brand-brown mb-2">Pre-Purchase / Pre-Sale Inspection</h3>
             <p className="text-gray-700">
-              For real estate transactions, we provide an unbiased assessment of the roof&apos;s
-              current condition and estimated remaining lifespan. The report includes approximate
-              repair or replacement costs so buyers and sellers can negotiate with accurate
-              information.
+              For a real estate transaction in Amarillo, Canyon, Lubbock, or Midland we provide an
+              unbiased read on the roof&apos;s current condition and an estimated remaining lifespan
+              by slope. The report includes approximate repair or replacement cost ranges for an
+              architectural shingle or standing seam metal system so buyers and sellers can
+              negotiate with real numbers instead of guesses.
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="font-bold text-brand-brown mb-2">Maintenance Inspection</h3>
             <p className="text-gray-700">
-              Annual or semi-annual inspections focused on preventive care. We identify minor issues
-              like loose shingles, worn caulking, or clogged drains before they become expensive
-              repairs. This is the most cost-effective way to maximize your roof&apos;s lifespan.
+              Annual or semi-annual inspections focused on preventive care across the Panhandle
+              and Permian Basin. We catch loose architectural shingles, worn pipe-boot caulking, or
+              clogged commercial roof drains before they turn into a leaky ceiling. For a typical
+              2,000 sq ft Amarillo home, this is the most cost-effective way to push a 25-year
+              shingle roof closer to its full service life.
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -479,34 +505,42 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">No Obligation</h3>
             <p className="text-gray-700">
-              Our inspection is free regardless of whether you hire us for repairs. We believe
-              homeowners deserve to know the condition of their roof. If everything looks good, we
-              tell you. If repairs are needed, we provide an honest estimate and the decision is
-              yours.
+              Every inspection is free whether you hire us for the repair or not. Homeowners
+              across the 14 cities we serve, from Amarillo to Odessa, deserve a straight answer
+              on the condition of the roof over their head. If the shingles look solid, we tell
+              you that. If the slope facing the prevailing west wind is shot, we lay out an
+              honest estimate and leave the decision with you.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Written Report with Photos</h3>
             <p className="text-gray-700">
-              You receive a detailed written report documenting every finding. The report includes
-              photographs, severity ratings, and recommended actions. This is yours to keep and use
-              however you see fit, whether for insurance, a second opinion, or your own records.
+              You receive a written PDF report documenting every finding on the roof, including
+              dated photographs, severity ratings, and recommended actions per slope. The file is
+              yours to keep and use however you need it, whether that is a State Farm or USAA
+              claim submission, a second opinion from another Amarillo roofer, or your own
+              homeowner records.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Repair Estimates</h3>
             <p className="text-gray-700">
-              If our inspection uncovers issues, we provide itemized repair estimates with clear
-              pricing. No hidden fees, no surprise line items. You know exactly what work is
-              recommended, what it costs, and why it matters before making any decisions.
+              When the inspection turns up issues, we hand back an itemized estimate broken out by
+              line item: tear-off, underlayment, GAF or CertainTeed shingles, flashing, pipe
+              boots, ridge cap, disposal, and labor. No hidden fees and no surprise add-ons. You
+              walk away knowing exactly what work is recommended, what each line costs, and why
+              it matters before you commit to anything.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Insurance Documentation</h3>
             <p className="text-gray-700">
-              When storm damage is present, our report format is designed for insurance adjuster
-              review. We include the documentation carriers need to process claims accurately. Our
-              team can also meet your adjuster on-site to walk through findings if needed.
+              When storm damage is documented, the report format is built for adjuster review at
+              State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau. It includes the slope
+              measurements, damage map, and photo evidence carriers need to process a claim cleanly
+              against UL 2218 Class 4 hail and UL 580 wind uplift standards. Our team can also
+              meet your adjuster on-site in Amarillo, Lubbock, Midland, or Odessa to walk through
+              the findings.
             </p>
           </div>
         </div>
@@ -533,8 +567,9 @@ export default function Page() {
       {/* City Variant Link Grid */}
       <h2 className="text-2xl font-bold mt-12 mb-4">Roof Inspections by City</h2>
       <p className="mb-6 text-gray-700">
-        We provide free roof inspections across 14 Texas cities. Select your location for
-        city-specific information and scheduling:
+        We provide free roof inspections across 14 cities in the Texas Panhandle, South Plains,
+        and Permian Basin, including Amarillo, Canyon, Lubbock, Midland, and Odessa. Select your
+        city for local scheduling and the closest inspector to the property.
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
         {cities.map((city) => (
@@ -602,11 +637,13 @@ export default function Page() {
             Can a roof inspection help with my insurance claim?
           </h3>
           <p className="text-gray-700">
-            Absolutely. Our inspection reports are formatted for insurance adjusters with detailed
-            photographs, measurements, and descriptions of damage. We document the type of damage
-            (hail, wind, age-related), affected areas, and materials needed for repair or
-            replacement. Having professional documentation significantly strengthens your claim and
-            reduces the chance of underpayment.
+            Yes. Our inspection reports are formatted for adjusters at State Farm, Allstate, USAA,
+            Farmers, and Texas Farm Bureau, with dated photographs, slope measurements, and a
+            written damage map. We document the damage mechanism (hail impact against UL 2218
+            Class 4 ratings, wind uplift, or age-related deterioration), affected slopes, and the
+            architectural shingle or metal materials required for the repair. That documentation
+            is what strengthens a claim and reduces the risk of underpayment on a legitimate
+            Panhandle hail loss.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">

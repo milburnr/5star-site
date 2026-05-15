@@ -226,8 +226,7 @@ export default function DumasRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Dumas</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential, commercial, and agricultural roofing services
-              throughout Dumas and Moore County. Select a service below for details.
+              Asphalt and metal residential work, TPO and PVC commercial flat roofs, and large-span metal on agricultural buildings across Dumas and Moore County. Each link below opens the local service page with pricing context, neighborhoods, and Highway 287 corridor specifics.
             </p>
           </FadeIn>
 
@@ -251,9 +250,7 @@ export default function DumasRoofingPage() {
             <h2 className="section-title">Dumas Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From established neighborhoods near the Moore County courthouse to agricultural
-                properties spread across the surrounding plains, we provide expert roofing services
-                throughout Dumas:
+                From mid-century homes near the Moore County courthouse to ranch houses on quarter-section properties out along Highway 287, we cover residential, commercial, and agricultural roofs across Dumas and the surrounding Texas Panhandle plains:
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>
@@ -370,11 +367,7 @@ export default function DumasRoofingPage() {
                   Agricultural &amp; Feedlot Roofing
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Moore County&apos;s cattle and agriculture economy means large-span metal buildings,
-                  feed storage, grain elevators, and equipment yards spread across the county. These
-                  structures need corrosion-resistant metal panels, proper ventilation for livestock
-                  facilities, and crews that understand how to phase work around feeding and harvest
-                  schedules without disrupting daily operations.
+                  Moore County&apos;s cattle and feedlot economy fills the country around Dumas with large-span R-panel and standing seam metal buildings, feed storage barns, grain elevators, and equipment yards. These structures need Galvalume or Kynar-finished panels that resist ammonia corrosion, balanced soffit and ridge ventilation for livestock barns, and crews that know how to phase a roof tear-off around feed schedules and harvest without shutting an operation down.
                 </p>
               </div>
               <div>

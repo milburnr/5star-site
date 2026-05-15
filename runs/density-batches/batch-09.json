@@ -1,0 +1,514 @@
+[
+  {
+    "path": "app/roof-inspections-snyder/page.tsx",
+    "low_total": 20,
+    "real_low": 15,
+    "chunks": [
+      {
+        "heading": "Storm Damage Detection",
+        "words": 38,
+        "score": 0,
+        "text": "West Texas supercells and hailstorms can cause subtle damage that worsens over time. Our certified inspectors use advanced technology including thermal imaging, moisture meters, and electronic leak detection to identify hidden damage that could lead to expensive failures."
+      },
+      {
+        "heading": "Preventive Maintenance Planning",
+        "words": 30,
+        "score": -1,
+        "text": "Regular inspections prevent small issues from becoming major repairs. Our comprehensive assessment identifies maintenance needs, recommends improvement priorities, and develops customized maintenance schedules for Scurry County's challenging climate conditions."
+      },
+      {
+        "heading": "Insurance Documentation",
+        "words": 30,
+        "score": 0,
+        "text": "Proper documentation supports insurance claims and warranty compliance. Our detailed inspection reports include high-resolution photography, precise measurements, and professional assessments that insurance adjusters and warranty administrators accept without question."
+      },
+      {
+        "heading": "Energy Efficiency Analysis",
+        "words": 30,
+        "score": -1,
+        "text": "Rising energy costs make roof performance critical. Our inspections evaluate insulation effectiveness, air leakage, thermal bridging, and reflective surface condition to identify opportunities for energy savings and improved building comfort."
+      },
+      {
+        "heading": "Drone Surveys",
+        "words": 29,
+        "score": -1,
+        "text": "Our professional drone pilots conduct comprehensive aerial surveys that provide detailed imagery of roof conditions, damage assessment, and safety documentation without putting inspectors at risk on dangerous roof areas."
+      },
+      {
+        "heading": "Thermal Imaging",
+        "words": 29,
+        "score": -1,
+        "text": "Advanced thermal cameras detect moisture intrusion, insulation defects, and energy loss patterns invisible to standard visual inspection. This technology identifies problems before they cause visible damage to your building."
+      },
+      {
+        "heading": "Electronic Leak Detection",
+        "words": 28,
+        "score": -1,
+        "text": "Specialized electronic equipment pinpoints the exact location of membrane breaches and water intrusion points. This precise detection eliminates guesswork and ensures repairs target actual problems rather than symptoms."
+      },
+      {
+        "heading": "Pre-Inspection Planning",
+        "words": 38,
+        "score": 0,
+        "text": "Our team reviews property records, previous inspection reports, and local weather history to understand your roof's background. We coordinate access requirements, safety protocols, and any special considerations for agricultural or industrial properties common in Scurry County. 2"
+      },
+      {
+        "heading": "Exterior Assessment",
+        "words": 36,
+        "score": 0,
+        "text": "We conduct thorough exterior inspection using drones and direct access where safe. This includes membrane condition, fastener integrity, flashing systems, drainage components, and equipment mounting areas. Every detail is photographed and documented with GPS coordinates. 3"
+      },
+      {
+        "heading": "Interior Investigation",
+        "words": 41,
+        "score": 0,
+        "text": "Interior inspection reveals moisture intrusion, insulation performance, and structural conditions. We use moisture meters, thermal imaging, and visual assessment to identify problems not visible from the exterior. This step is crucial for agricultural buildings with hay storage or livestock areas. 4"
+      },
+      {
+        "heading": "Technical Analysis",
+        "words": 33,
+        "score": 0,
+        "text": "Our certified inspectors analyze findings against manufacturer specifications, local building codes, and industry standards. We evaluate storm damage potential, energy efficiency opportunities, and prioritize recommendations based on risk assessment and budget considerations. 5"
+      },
+      {
+        "heading": "Comprehensive Reporting",
+        "words": 35,
+        "score": 0,
+        "text": "Within 24 hours, you receive a detailed inspection report with high-resolution photos, thermal images, priority rankings, and cost estimates. Our reports meet insurance and warranty requirements while providing clear guidance for property management decisions."
+      },
+      {
+        "heading": "Government Buildings",
+        "words": 32,
+        "score": 0,
+        "text": "Municipal offices, courthouse, scheduling, utilities From historic downtown Snyder buildings to modern agricultural operations throughout the Rolling Plains, we provide comprehensive roof inspections that protect property investments and ensure optimal building performance."
+      },
+      {
+        "heading": "Spring Inspection (March-April)",
+        "words": 31,
+        "score": -1,
+        "text": "Pre-storm season inspection to identify and repair winter damage before severe weather arrives. \u2022 Winter freeze damage assessment \u2022 Storm preparation checklist \u2022 Drainage system cleaning \u2022 Fastener tightening and replacement \u2022 Contact information update"
+      },
+      {
+        "heading": "Fall Inspection (October-November)",
+        "words": 33,
+        "score": -1,
+        "text": "Post-storm season inspection to assess summer weather damage and prepare for winter. \u2022 Storm season damage evaluation \u2022 UV degradation assessment \u2022 Winter preparation measures \u2022 Insulation performance check \u2022 Annual maintenance planning Schedule Your Seasonal Inspection"
+      }
+    ]
+  },
+  {
+    "path": "app/blog/how-to-file-hail-damage-insurance-claim/page.tsx",
+    "low_total": 11,
+    "real_low": 11,
+    "chunks": [
+      {
+        "heading": "Step 1: Document the Hail Event",
+        "words": 77,
+        "score": 0,
+        "text": "The first step happens immediately after a hail storm. You need to establish that hail occurred at your property: Take photos/videos: Capture any visible damage immediately\u2014dented vents, damaged gutters, hail on the ground Note the date and time: Record when the storm occurred Check local weather reports: Screenshot or save National Weather Service reports showing hail in your area Look for ground markers: Dents in metal mailboxes, AC units, or vehicles help prove hail occurred"
+      },
+      {
+        "heading": "Step 4: Get a Professional Roofing Inspection",
+        "words": 95,
+        "score": 0,
+        "text": "This is critical: Before the insurance adjuster visits, have a professional roofing contractor inspect your roof. Here's why: Roofers spot damage adjusters might miss Professional documentation strengthens your claim Having a contractor present during adjuster visit ensures nothing is overlooked Roofers speak the adjuster's language and know what evidence is needed A good roofing contractor will: Conduct a thorough inspection (roof, gutters, vents, flashing) Take detailed photos and measurements Prepare a damage report with aerial drone photography Identify all damaged components (not just obv"
+      },
+      {
+        "heading": "Step 6: Review the Adjuster's Report",
+        "words": 72,
+        "score": 0,
+        "text": "After the inspection, you'll receive an adjuster's report and estimate. Review it carefully: Check square footage: Verify it matches your actual roof size Review line items: Ensure all damaged components are included Compare to contractor estimate: Significant differences may indicate issues Look for depreciation: Some policies pay actual cash value (ACV) initially, then depreciation after repairs Verify material quality: Ensure they're approving materials equivalent to what you currently have"
+      },
+      {
+        "heading": "1. Waiting Too Long to File",
+        "words": 49,
+        "score": 0,
+        "text": "While Texas gives you up to 2 years, waiting causes problems: Additional storms make it hard to prove which damage came from which event Minor damage worsens over time (insurance may argue it's now \"wear and tear\") The sooner you file, the sooner you get your new roof"
+      },
+      {
+        "heading": "2. Making Temporary Repairs Without Photos",
+        "words": 24,
+        "score": -1,
+        "text": "If you make storm repairs (weatherproof sheeting, etc.) before filing, insurance may argue the damage wasn't severe. Always photograph BEFORE making any repairs."
+      },
+      {
+        "heading": "4. Accepting the First Offer Without Review",
+        "words": 31,
+        "score": -1,
+        "text": "Insurance companies hope you'll accept their initial offer. Don't sign anything until you've had your contractor review it. Once you accept and sign, re-negotiation becomes very difficult."
+      },
+      {
+        "heading": "5. Not Documenting Everything",
+        "words": 28,
+        "score": -1,
+        "text": "Keep records of: All photos and videos All correspondence with insurance (emails, letters, claim notes) Contractor estimates and reports Weather reports proving hail occurrence Any temporary repair receipts"
+      },
+      {
+        "heading": "Texas \"Anti-Steering\" Laws",
+        "words": 46,
+        "score": -1,
+        "text": "Texas law prohibits insurance companies from: Requiring you to use a specific contractor Penalizing you for choosing your own contractor Paying less if you don't use their \"preferred\" contractor You have the right to choose your roofing contractor \u2014don't let insurance pressure you otherwise."
+      },
+      {
+        "heading": "Working with a Roofing Contractor During Your Claim",
+        "words": 18,
+        "score": -1,
+        "text": "Choosing the right roofing contractor for your hail damage claim is critical. Here's what to look for:"
+      },
+      {
+        "heading": "Should I make temporary repairs before filing?",
+        "words": 49,
+        "score": 0,
+        "text": "Yes, if there's active leaking\u2014you have a duty to mitigate damage. But photograph EVERYTHING before making repairs. Cover holes with weatherproof sheeting, catch interior drips with buckets, but don't do permanent repairs until the adjuster has inspected. Keep receipts for temporary repairs\u2014these are often reimbursable."
+      },
+      {
+        "heading": "Next Steps",
+        "words": 45,
+        "score": 0,
+        "text": "If you suspect hail damage to your West Texas property: Document visible damage with photos and videos Schedule a free professional inspection Contact your insurance company to start the claim Have a roofing contractor present when the adjuster visits Review all estimates carefully before accepting"
+      }
+    ]
+  },
+  {
+    "path": "app/privacy/page.tsx",
+    "low_total": 8,
+    "real_low": 8,
+    "chunks": [
+      {
+        "heading": "Information We Collect",
+        "words": 68,
+        "score": 0,
+        "text": "When you submit a contact form, request a free roof inspection, or call us, we may collect: Your name, phone number, and email address Property address (street, city, ZIP) and a brief description of the work you need Anything else you choose to share in your message (insurance carrier, claim number, photos, etc.) Technical data \u2014 browser type, device, referring page, and general location \u2014 collected automatically through analytics cookies"
+      },
+      {
+        "heading": "Lead Routing &amp; Service Providers",
+        "words": 44,
+        "score": 0,
+        "text": "Form submissions are forwarded to our customer-relationship platform (HighLevel / LeadConnector) so our office staff can respond quickly. Site hosting is provided by Netlify, and analytics is handled by Google Analytics 4. These providers process data on our behalf under their own privacy terms."
+      },
+      {
+        "heading": "Cookies &amp; Analytics",
+        "words": 61,
+        "score": 0,
+        "text": "We use Google Analytics (GA4) to understand how visitors use the site. Analytics cookies record anonymous usage data such as pages visited and time on site \u2014 they do not identify you personally. You can opt out of Google Analytics with the Google Analytics Opt-out Browser Add-on , or by enabling &ldquo;Do Not Track&rdquo; / cookie blocking in your browser."
+      },
+      {
+        "heading": "SMS &amp; Phone Communications",
+        "words": 47,
+        "score": -1,
+        "text": "If you provide a phone number through our contact form, we may call or text you about your roofing project. Standard message and data rates may apply. You can opt out at any time by replying STOP to any text or asking us to remove your number."
+      },
+      {
+        "heading": "Data Security",
+        "words": 37,
+        "score": 0,
+        "text": "We take reasonable measures to protect your information from unauthorized access. Form submissions are transmitted over HTTPS. No method of internet transmission is 100% secure, but we follow industry-standard practices and limit access to project staff."
+      },
+      {
+        "heading": "Your Rights",
+        "words": 44,
+        "score": -1,
+        "text": "You can request access to, correction of, or deletion of the personal information we hold about you. California residents have rights under the CCPA, and EU/UK residents have rights under GDPR. To exercise any of these rights, contact us using the details below."
+      },
+      {
+        "heading": "Third-Party Links",
+        "words": 27,
+        "score": 0,
+        "text": "Our website may link to third-party sites (Google reviews, manufacturer warranty pages, social profiles). We are not responsible for the privacy practices of those external sites."
+      },
+      {
+        "heading": "Changes to This Policy",
+        "words": 26,
+        "score": -1,
+        "text": "We may update this policy from time to time. The &ldquo;last updated&rdquo; date at the top of the page reflects the most recent revision."
+      }
+    ]
+  },
+  {
+    "path": "app/roof-inspections-levelland/page.tsx",
+    "low_total": 7,
+    "real_low": 7,
+    "chunks": [
+      {
+        "heading": "Exterior Roof Assessment",
+        "words": 51,
+        "score": 0,
+        "text": "\u2022 Shingle Condition Analysis: Granule loss, cracking, curling, thermal damage \u2022 Hail Damage Detection: Impact patterns, bruising, exposed substrate \u2022 Wind Damage Evaluation: Tab lifting, blow-off, nail head exposure \u2022 Flashing System Inspection: Chimneys, vents, penetrations, valley integrity \u2022 Drainage System Review: Gutters, downspouts, scuppers, overflow drains \u2022 Structural Assessment: Decking condition, truss integrity, load capacity"
+      },
+      {
+        "heading": "Interior Inspection Services",
+        "words": 47,
+        "score": -1,
+        "text": "\u2022 Attic Space Analysis: Water penetration, insulation damage, ventilation adequacy \u2022 Ceiling Examination: Staining, sagging, structural stress indicators \u2022 Moisture Detection: Hidden water damage, mold growth potential \u2022 Insulation Evaluation: Thermal performance, compression, contamination \u2022 Ventilation Assessment: Airflow patterns, moisture control effectiveness \u2022 Electrical Safety Review: Water damage to systems, fire hazard identification"
+      },
+      {
+        "heading": "Advanced Inspection Technology",
+        "words": 56,
+        "score": 0,
+        "text": "We employ cutting-edge technology including professional drone inspections, thermal imaging cameras, and moisture detection equipment to provide the most comprehensive assessment possible. Our digital documentation meets all insurance industry requirements for claim processing. \u2022 4K Drone Photography: High-resolution aerial documentation \u2022 Thermal Imaging: Hidden moisture and insulation defect detection \u2022 Digital Measurements: Precise calculations for material estimates"
+      },
+      {
+        "heading": "Professional Documentation",
+        "words": 48,
+        "score": -1,
+        "text": "\u2022 High-Resolution Photography: Close-up and wide shots of all damage \u2022 Aerial Drone Imagery: Comprehensive roof overview documentation \u2022 Test Square Photography: Insurance industry standard damage documentation \u2022 Comparative Analysis: Before/after storm condition photography \u2022 GPS-Tagged Images: Location-specific damage documentation \u2022 Video Documentation: Detailed video inspection for complex damage"
+      },
+      {
+        "heading": "Technical Reporting",
+        "words": 50,
+        "score": 0,
+        "text": "\u2022 Detailed Damage Assessment: Professional evaluation of all damage types \u2022 Material Specifications: Current and recommended replacement materials \u2022 Measurement Documentation: Precise calculations for material quantities \u2022 Cost Estimates: Detailed line-item estimates for repair or replacement \u2022 Code Compliance Notes: Building code requirements and necessary upgrades \u2022 Timeline Projections: Realistic schedules for completion of work"
+      },
+      {
+        "heading": "Advanced Technology",
+        "words": 17,
+        "score": -1,
+        "text": "State-of-the-art inspection equipment including drones, thermal imaging, and moisture detection for comprehensive damage assessment."
+      },
+      {
+        "heading": "Insurance Partnership",
+        "words": 16,
+        "score": -1,
+        "text": "Established relationships with major insurance carriers. Our documentation and reporting meet industry standards for successful claims."
+      }
+    ]
+  },
+  {
+    "path": "app/services/page.tsx",
+    "low_total": 16,
+    "real_low": 6,
+    "chunks": [
+      {
+        "heading": "Storm Damage Restoration",
+        "words": 46,
+        "score": 0,
+        "text": "Wind, rain, snow, ice, and severe weather damage require professional attention to prevent further interior damage and costly repairs. Wind damage from 60+ mph gusts Heavy rain and water intrusion Snow load and ice dam damage Tree and debris impact repair Learn More About Storm Restoration \u2192"
+      },
+      {
+        "heading": "Standing Seam Metal Roofing",
+        "words": 19,
+        "score": 0,
+        "text": "Ultimate hail protection with 50+ year lifespan. Energy-efficient, fire-resistant, and increasingly popular in the Panhandle. Learn More \u2192"
+      },
+      {
+        "heading": "Roof Repairs",
+        "words": 18,
+        "score": 0,
+        "text": "Missing shingles, leak repairs, flashing replacement, vent boot replacement, and localized damage repairs for Amarillo homes. Learn More \u2192"
+      },
+      {
+        "heading": "Roof Maintenance",
+        "words": 37,
+        "score": 0,
+        "text": "Annual roof inspections, gutter and downspout clearing, sealant and flashing rework, and proactive shingle replacement before the next Panhandle hail or wind event. We document the work so future insurance claims have a clean baseline. Learn More \u2192"
+      },
+      {
+        "heading": "Licensed & Insured",
+        "words": 27,
+        "score": -1,
+        "text": "Licensed to operate in Texas. Carries general liability and Texas workers' compensation coverage on every crew member. Certificates of insurance available on request before any work begins."
+      },
+      {
+        "heading": "Insurance Documentation Expertise",
+        "words": 21,
+        "score": 0,
+        "text": "We've provided professional documentation and roofing expertise supporting over $50M in insurance claims. We know what adjusters need to see."
+      }
+    ]
+  },
+  {
+    "path": "app/roof-replacement-pampa/page.tsx",
+    "low_total": 6,
+    "real_low": 5,
+    "chunks": [
+      {
+        "heading": "Commercial Downtown",
+        "words": 21,
+        "score": 0,
+        "text": "Solutions for Pampa's business district: \u2022 Historic building compatibility \u2022 Energy-efficient upgrades \u2022 Minimal business disruption \u2022 City code compliance \u2022 Aesthetic enhancement options"
+      },
+      {
+        "heading": "Serving Greater Pampa Area",
+        "words": 34,
+        "score": 0,
+        "text": "Our roof replacement services extend throughout Gray County and the surrounding Texas Panhandle communities. We're familiar with local building codes, weather patterns, and the specific challenges faced by property owners in each area."
+      },
+      {
+        "heading": "Energy Corridor Expertise",
+        "words": 18,
+        "score": -1,
+        "text": "\u2022 Familiar with Celanese plant operations \u2022 Understanding of oil field schedules \u2022 Knowledge of local safety requirements \u2022 Established supplier relationships"
+      },
+      {
+        "heading": "Celanese Industrial Complex",
+        "words": 31,
+        "score": -1,
+        "text": "Serving one of America's largest chemical plants requires specialized expertise: \u2022 Chemical-resistant roofing systems \u2022 High-temperature performance materials \u2022 Explosion-resistant construction \u2022 Environmental compliance standards \u2022 Efficient repair capabilities for minimal downtime"
+      },
+      {
+        "heading": "Oil & Gas Operations",
+        "words": 21,
+        "score": 0,
+        "text": "Supporting Pampa's extensive energy infrastructure: \u2022 Warehouse and storage facility roofing \u2022 Administrative building solutions \u2022 Equipment shelter replacements \u2022 Understanding of operational requirements"
+      }
+    ]
+  },
+  {
+    "path": "app/hail-damage-repair-plainview/page.tsx",
+    "low_total": 13,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "Severe Weather Factors in Plainview",
+        "words": 42,
+        "score": -1,
+        "text": "\u2022 Supercell Development: Open terrain allows thunderstorms to organize and intensify rapidly \u2022 Storm Convergence: Location where multiple weather systems often collide \u2022 Agricultural Exposure: Large warehouse and storage facilities present significant surface area \u2022 Seasonal Extremes: Rapid temperature changes stress roofing materials throughout the year"
+      },
+      {
+        "heading": "Agricultural Infrastructure",
+        "words": 19,
+        "score": -1,
+        "text": "\u2022 Cotton warehouses and processing facilities \u2022 Grain elevators and storage buildings \u2022 Irrigation equipment manufacturing \u2022 Farm machinery dealerships \u2022 Agricultural research facilities"
+      },
+      {
+        "heading": "Serving All of Plainview & Hale County",
+        "words": 18,
+        "score": 0,
+        "text": "Our comprehensive service area encompasses all residential neighborhoods, commercial districts, and agricultural facilities throughout Plainview and Hale County:"
+      },
+      {
+        "heading": "Specialized Services for Plainview",
+        "words": 22,
+        "score": -1,
+        "text": "Cotton storage facilities University buildings Grain storage systems Agricultural warehouses Educational facilities Processing buildings Historic district buildings Commercial retail centers Healthcare facilities"
+      }
+    ]
+  },
+  {
+    "path": "app/amarillo-weather-impact-on-roofing/page.tsx",
+    "low_total": 6,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "Maintenance Tips to Extend Roof Longevity",
+        "words": 25,
+        "score": -1,
+        "text": "Regular maintenance is essential for protecting your investment and catching problems before they become costly repairs. We recommend annual inspections, especially after severe weather events."
+      },
+      {
+        "heading": "Insurance Considerations for Amarillo Homeowners",
+        "words": 49,
+        "score": 0,
+        "text": "Understanding your insurance coverage is crucial in Amarillo's high-risk weather environment. Most Texas homeowner policies include wind and hail coverage, but the details matter significantly. Deductibles, coverage limits, and claim procedures can vary dramatically between insurers, and many homeowners discover coverage gaps only after suffering storm damage."
+      },
+      {
+        "heading": "Warranty Protection for Amarillo Roofs",
+        "words": 45,
+        "score": 0,
+        "text": "Understanding warranty coverage is essential when investing in a new roof. Weather-related damage can void manufacturer warranties if materials fail due to improper installation or lack of maintenance. We provide comprehensive warranty protection that covers both materials and workmanship for up to 25 years."
+      }
+    ]
+  },
+  {
+    "path": "app/residential-roofing-levelland/page.tsx",
+    "low_total": 3,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "College Housing Specialists",
+        "words": 25,
+        "score": 0,
+        "text": "Specialized services for property managers and landlords serving South Plains College student housing market. \u2022 Rental property roofing \u2022 Maintenance programs \u2022 Summer installation scheduling \u2022 Property management partnerships"
+      },
+      {
+        "heading": "College Housing Specialists",
+        "words": 46,
+        "score": 0,
+        "text": "South Plains College's student population creates unique housing demands. We understand the academic calendar constraints and provide specialized scheduling for student housing providers. Student Housing Features: \u2022 Summer installation priority \u2022 Academic calendar coordination \u2022 Minimal disruption protocols \u2022 Durable, low-maintenance materials \u2022 Energy-efficient systems \u2022 Safety-focused installations"
+      },
+      {
+        "heading": "Seasonal Scheduling & Planning",
+        "words": 43,
+        "score": 0,
+        "text": "Summer (June-August) Peak season for student housing projects. Maximum availability, minimal tenant disruption, ideal weather conditions. Fall/Spring (Sept-May) storm repairs and insurance claims. Coordinated scheduling to minimize academic disruption. Winter (Dec-Feb) scheduling only. Planning and preparation for spring projects."
+      }
+    ]
+  },
+  {
+    "path": "app/bushland-tx-roofing/page.tsx",
+    "low_total": 4,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Rural Expertise",
+        "words": 18,
+        "score": 0,
+        "text": "We understand the unique needs of rural properties including metal buildings, barns, and agricultural structures common in Bushland."
+      },
+      {
+        "heading": "post-storm documentation",
+        "words": 19,
+        "score": 0,
+        "text": "Bushland's exposed location means severe weather hits hard. We provide prompt weatherproof sheeting and rapid hail damage assessment."
+      }
+    ]
+  },
+  {
+    "path": "app/pvc-roof-replacement-in-amarillo/page.tsx",
+    "low_total": 8,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Installation Quality Control",
+        "words": 77,
+        "score": 0,
+        "text": "Seam Testing: Every welded seam undergoes probe testing to verify proper bonding before proceeding to adjacent areas of the roof installation. Membrane Tension Control: Proper membrane tension prevents wrinkles and stress concentrations that could lead to premature failure in high-wind conditions. Fastener Pattern Verification: Mechanical attachment patterns are verified against engineering specifications for wind uplift resistance requirements. Detail Fabrication Inspection: All flashing and detail work receives individual inspection to ensure watertight performance at critical transition poi"
+      },
+      {
+        "heading": "Performance Monitoring Services",
+        "words": 54,
+        "score": 0,
+        "text": "Advanced monitoring techniques help identify potential issues before they become costly problems while verifying continued energy performance and warranty compliance throughout the roof's service life. \u2022 Thermal imaging for early problem detection \u2022 Moisture scanning to prevent hidden damage \u2022 Energy performance tracking and optimization \u2022 Warranty compliance documentation \u2022 Storm damage assessment and repair \u2022 System upgrade recommendations"
+      }
+    ]
+  },
+  {
+    "path": "app/asphalt-shingle-roofing-andrews/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Final Inspection & Warranty Activation",
+        "words": 41,
+        "score": 0,
+        "text": "Final walkthrough includes comprehensive cleanup, detailed warranty documentation, and maintenance guidance specific to Andrews's climate challenges. We coordinate final inspections with Andrews building officials, activate manufacturer warranties, and provide prompt contact information for post-storm repair coverage throughout Andrews County."
+      }
+    ]
+  },
+  {
+    "path": "app/levelland-tx-roofing/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Roofing Services in Levelland",
+        "words": 22,
+        "score": 0,
+        "text": "We provide a full range of residential and commercial roofing services throughout Levelland and Hockley County. Select a service below for details."
+      }
+    ]
+  },
+  {
+    "path": "app/service-areas/page.tsx",
+    "low_total": 2,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Where we work",
+        "words": 19,
+        "score": 0,
+        "text": "Pick your city to see roof replacement, hail damage, and commercial services tailored to your area. {FEATURED_CITIES.map((city) => ("
+      }
+    ]
+  }
+]

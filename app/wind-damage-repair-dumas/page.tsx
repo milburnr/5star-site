@@ -373,14 +373,16 @@ export default function WindDamageRepairDumasPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Shingle Blow-Off Damage</h3>
                 <p className="text-gray-600 mb-4">
-                  Most common wind damage in Dumas. High Plains winds get under shingle edges and
-                  tear them completely off, especially at roof perimeters.
+                  This is the most common wind damage we see in Dumas. Moore County sits on
+                  the open High Plains, and sustained southwest winds catch under architectural
+                  asphalt shingle tabs at the rake and eave, breaking the seal strip and tearing
+                  full tabs loose at the corners first.
                 </p>
                 <ul className="text-sm space-y-1">
-                  <li>• Corner and edge shingles most vulnerable</li>
-                  <li>• Progressive failure from small lifts to complete loss</li>
-                  <li>• Ridge caps blown off in sustained winds</li>
-                  <li>• Starter strip failures at roof eaves</li>
+                  <li>• Corner and rake-edge shingles fail before field shingles</li>
+                  <li>• Progressive lift from one broken seal to whole-slope loss</li>
+                  <li>• Ridge cap and hip cap shingles blow off in sustained gusts</li>
+                  <li>• Starter strip failures expose the eave to wind-driven rain</li>
                 </ul>
               </div>
 
@@ -390,14 +392,15 @@ export default function WindDamageRepairDumasPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Edge Lifting & Curling</h3>
                 <p className="text-gray-600 mb-4">
-                  Constant High Plains winds cause shingle edges to lift and curl, breaking sealant
-                  bonds and creating entry points for future wind events.
+                  Constant Panhandle wind flexes asphalt shingle edges every day, eventually
+                  cracking the factory sealant strip. Once the seal breaks on a Dumas roof,
+                  every storm pushes water under the tabs and accelerates the next failure.
                 </p>
                 <ul className="text-sm space-y-1">
-                  <li>• Thermal cycling accelerates edge lifting</li>
-                  <li>• Broken adhesive strips from wind flexing</li>
-                  <li>• UV damage weakens shingle flexibility</li>
-                  <li>• Progressive worsening with each wind event</li>
+                  <li>• Daily thermal cycling on dark asphalt accelerates edge lift</li>
+                  <li>• Wind flexing tears the factory adhesive strip apart</li>
+                  <li>• UV exposure on the open Plains makes shingles brittle faster</li>
+                  <li>• Each wind event opens more tabs that did not lift before</li>
                 </ul>
               </div>
 
@@ -407,14 +410,16 @@ export default function WindDamageRepairDumasPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Flashing & Metal Work</h3>
                 <p className="text-gray-600 mb-4">
-                  Metal components are particularly vulnerable to High Plains winds. Flashing around
-                  penetrations and edges fails first.
+                  Metal flashing on Dumas homes catches the wind like a sail. On older roofs
+                  with shorter fastener spacing, chimney step flashing and counter flashing
+                  separate from the brick first, and that is usually the point where the next
+                  rainstorm finds its way into the attic.
                 </p>
                 <ul className="text-sm space-y-1">
-                  <li>• Chimney flashing pulled loose from substrate</li>
-                  <li>• Vent pipe boots torn or displaced</li>
-                  <li>• Drip edge separation from fascia boards</li>
-                  <li>• Valley metal lifting and bending</li>
+                  <li>• Chimney step and counter flashing pulled loose from brick</li>
+                  <li>• Plumbing vent boots torn or shifted off the pipe</li>
+                  <li>• Drip edge separated from fascia boards at the eaves</li>
+                  <li>• Valley W-metal lifted and bent away from the decking</li>
                 </ul>
               </div>
 
@@ -426,14 +431,16 @@ export default function WindDamageRepairDumasPage() {
                   Agricultural Debris Impact
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Dumas's agricultural setting creates unique debris hazards during
-                  windstorms—equipment, materials, and vegetation become projectiles.
+                  Moore County&apos;s feedlots, grain operations, and corn and wheat fields put
+                  a lot of loose material in play when a storm rolls in. Tarps, fence panels,
+                  and tumbleweeds become projectiles that puncture asphalt shingles, tear TPO
+                  membranes, and dent metal panels on barns and machine shops.
                 </p>
                 <ul className="text-sm space-y-1">
-                  <li>• Farm equipment debris (tarps, panels, tools)</li>
-                  <li>• Crop residue and tumbleweeds</li>
-                  <li>• Feedlot materials (fencing, panels)</li>
-                  <li>• Tree limbs from shelter belt plantings</li>
+                  <li>• Tarps, panels, and tools off farm equipment</li>
+                  <li>• Crop residue and tumbleweeds packing against eaves and parapets</li>
+                  <li>• Feedlot fencing and panels lifted off the ground</li>
+                  <li>• Tree limbs from shelter belt cottonwoods and elms</li>
                 </ul>
               </div>
 
@@ -445,14 +452,16 @@ export default function WindDamageRepairDumasPage() {
                   Commercial Building Stress
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Large commercial and agricultural buildings in Dumas experience concentrated wind
-                  loads that stress roof systems differently than residential properties.
+                  Large feedlot operations, grain elevators, and warehouse buildings around
+                  Dumas catch wind pressure at the parapet edges where wind-uplift loads
+                  multiply. TPO and modified bitumen membranes billow, R-panel metal walks
+                  on its fasteners, and parapet coping caps lift up and away.
                 </p>
                 <ul className="text-sm space-y-1">
-                  <li>• Membrane billowing on flat roofs</li>
-                  <li>• Metal panel fastener failures</li>
-                  <li>• Parapet wall wind pressure damage</li>
-                  <li>• HVAC equipment displacement</li>
+                  <li>• TPO or modified bitumen billowing along the perimeter</li>
+                  <li>• Metal panel fasteners loosening at end laps and ridges</li>
+                  <li>• Parapet coping caps lifted and bent by suction loads</li>
+                  <li>• Rooftop HVAC condensers shifted off their curbs</li>
                 </ul>
               </div>
 
@@ -464,14 +473,15 @@ export default function WindDamageRepairDumasPage() {
                   Electrical & Utility Damage
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  High Plains winds often damage electrical systems and utilities, creating
-                  additional hazards and complicating roof repairs.
+                  Dumas wind events pull electrical service masts off the side of the home,
+                  bend antennas, and stress solar mounts. That creates safety issues that have
+                  to be resolved before our crews can put a tarp or new shingles on the roof.
                 </p>
                 <ul className="text-sm space-y-1">
-                  <li>• Power line failures affecting repair scheduling</li>
-                  <li>• Electrical mast and service entrance damage</li>
-                  <li>• Satellite dish and antenna displacement</li>
-                  <li>• Solar panel mounting system stress</li>
+                  <li>• Downed power lines that push repair scheduling out by days</li>
+                  <li>• Electrical mast and service entrance pulled away from the wall</li>
+                  <li>• Satellite dishes and antennas hanging by their cable</li>
+                  <li>• Solar panel rack hardware loosened at the flashing penetration</li>
                 </ul>
               </div>
             </div>

@@ -423,25 +423,25 @@ export default function TPORoofingLubbockPage() {
                       <span className="text-brand-gold mr-3">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>
-                      University and educational facilities
+                      Texas Tech University and Lubbock-area educational facilities
                     </li>
                     <li className="flex items-center">
                       <span className="text-brand-gold mr-3">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>
-                      Agricultural processing plants
+                      South Plains agricultural processing plants
                     </li>
                     <li className="flex items-center">
                       <span className="text-brand-gold mr-3">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>
-                      Cotton gins and warehouses
+                      Lubbock County cotton gins and warehouses
                     </li>
                     <li className="flex items-center">
                       <span className="text-brand-gold mr-3">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>
-                      Wind energy facilities
+                      Wind energy facilities across the South Plains
                     </li>
                     <li className="flex items-center">
                       <span className="text-brand-gold mr-3">
@@ -483,7 +483,7 @@ export default function TPORoofingLubbockPage() {
                       <span className="text-brand-gold mr-3">
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>
-                      Aviation and aerospace facilities
+                      Aviation and aerospace facilities near Lubbock Preston Smith International
                     </li>
                     <li className="flex items-center">
                       <span className="text-brand-gold mr-3">
@@ -557,8 +557,10 @@ export default function TPORoofingLubbockPage() {
                 <div className="text-4xl font-bold text-brand-gold mb-4">6</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Final Quality Assurance</h3>
                 <p className="text-gray-700">
-                  Thorough inspection, testing, and documentation delivery including manufacturer
-                  warranties, maintenance guidelines, and our comprehensive workmanship guarantee.
+                  Final walk includes hot-air seam probe testing across every weld, fastener pull
+                  verification, and a close-out package with the Carlisle or Firestone TPO
+                  manufacturer warranty, maintenance guidance, and our written workmanship
+                  guarantee.
                 </p>
               </div>
             </div>

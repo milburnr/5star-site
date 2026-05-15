@@ -1,0 +1,575 @@
+[
+  {
+    "path": "app/roof-repair-amarillo/page.tsx",
+    "low_total": 20,
+    "real_low": 17,
+    "chunks": [
+      {
+        "heading": "Historic Housing Challenges",
+        "words": 33,
+        "score": 0,
+        "text": "\u2022 1950s-1970s homes with original wood shake and asphalt roofs \u2022 Deteriorated roof decking in Potter County's older neighborhoods \u2022 Inadequate attic ventilation in mid-century construction \u2022 Failing flashing around brick chimneys and skylights"
+      },
+      {
+        "heading": "Climate-Related Damage",
+        "words": 26,
+        "score": 0,
+        "text": "\u2022 Hail damage from Panhandle supercells \u2022 Wind uplift from sustained 25+ mph gusts \u2022 UV degradation accelerated by high altitude exposure \u2022 Freeze-thaw cycles damaging flashing and gutters"
+      },
+      {
+        "heading": "Historic Districts",
+        "words": 35,
+        "score": -1,
+        "text": "1940s-1960s construction requiring specialized restoration \u2022 Wolflin - Historic brick homes, original wood shakes \u2022 Paramount Terrace - Mid-century modern, flat roof challenges \u2022 North Heights - 1950s construction, composition shingles \u2022 Olsen Park - Post-war homes, gutter system upgrades"
+      },
+      {
+        "heading": "Established Areas",
+        "words": 32,
+        "score": 0,
+        "text": "1970s-1990s developments with aging roofing systems \u2022 Westover Hills - 1980s construction, architectural shingles \u2022 River Road - Executive homes, complex rooflines \u2022 Sleepy Hollow - Ranch-style homes, ventilation issues \u2022 Tascosa - Suburban development, standard maintenance needs"
+      },
+      {
+        "heading": "Newer Communities",
+        "words": 32,
+        "score": 0,
+        "text": "2000s+ construction with modern roofing systems \u2022 The Colonies - Impact-resistant shingles, warranty repairs \u2022 Ridgecrest - Modern construction, hail damage claims \u2022 Quail Creek - Energy-efficient homes, proper ventilation \u2022 Westcliff - Contemporary designs, metal roofing options"
+      },
+      {
+        "heading": "Detailed Inspection",
+        "words": 18,
+        "score": 0,
+        "text": "Comprehensive assessment of visible and hidden damage, structural integrity, and climate-related wear patterns specific to Amarillo conditions."
+      },
+      {
+        "heading": "Quality Assurance",
+        "words": 18,
+        "score": -1,
+        "text": "Final inspection ensuring all repairs meet wind load requirements and provide long-term protection against future weather events."
+      },
+      {
+        "heading": "Weather-Related Damage",
+        "words": 44,
+        "score": -1,
+        "text": "\u2022 Hail Damage: Impact craters, granule loss, and cracked shingles from frequent Panhandle storms \u2022 Wind Uplift: Loose or missing shingles from sustained high winds and gusts \u2022 Temperature Stress: Expansion/contraction damage from extreme temperature swings \u2022 UV Degradation: Accelerated aging from intense high-altitude sun exposure"
+      },
+      {
+        "heading": "Age-Related Issues",
+        "words": 41,
+        "score": -1,
+        "text": "\u2022 Deteriorated Decking: Rotted plywood in 1970s construction lacking proper ventilation \u2022 Failed Flashing: Corroded metal around chimneys and penetrations in older homes \u2022 Gutter Failure: Ice damage and wind stress on aging gutter systems \u2022 Ventilation Problems: Inadequate airflow in mid-century ranch designs"
+      },
+      {
+        "heading": "Winter (Dec-Feb)",
+        "words": 21,
+        "score": -1,
+        "text": "Freeze-thaw cycles and ice dam formation \u2022 Ice dam prevention and removal \u2022 Gutter system winterization \u2022 Prompt leak response \u2022 Attic insulation assessment"
+      },
+      {
+        "heading": "Spring (Mar-May)",
+        "words": 20,
+        "score": 0,
+        "text": "Prime storm season with severe hail threats \u2022 Post-storm damage assessment \u2022 Preventive maintenance checks \u2022 Hail damage documentation \u2022 Insurance claim preparation"
+      },
+      {
+        "heading": "Summer (Jun-Aug)",
+        "words": 20,
+        "score": -1,
+        "text": "Extreme heat and UV exposure stress \u2022 Heat-related material expansion \u2022 Ventilation system optimization \u2022 Energy efficiency improvements \u2022 Cool roof installation options"
+      },
+      {
+        "heading": "Fall (Sep-Nov)",
+        "words": 19,
+        "score": -1,
+        "text": "Ideal repair season with stable weather \u2022 Major repair projects \u2022 Preparation for winter \u2022 Gutter cleaning and repair \u2022 Preventive maintenance work"
+      },
+      {
+        "heading": "Materials to Avoid",
+        "words": 40,
+        "score": 0,
+        "text": "Standard 3-Tab Shingles Poor wind resistance, rapid granule loss, frequent replacement needed Wood Shake (without treatment) High maintenance, fire risk, poor performance in freeze-thaw cycles Standard Clay Tiles Heavy weight issues, crack in freeze cycles without proper installation"
+      },
+      {
+        "heading": "Phase 1: Comprehensive Assessment (Day 1)",
+        "words": 44,
+        "score": -1,
+        "text": "Exterior Inspection \u2022 Drone-assisted roof surface evaluation \u2022 Wind damage pattern analysis \u2022 Hail impact crater measurement \u2022 Flashing and penetration assessment \u2022 Gutter and downspout inspection Interior Assessment \u2022 Attic moisture and ventilation check \u2022 Structural beam and decking evaluation \u2022 Insulation condition assessment \u2022 Active leak detection \u2022 Historical damage documentation"
+      },
+      {
+        "heading": "Basic Protection",
+        "words": 22,
+        "score": 0,
+        "text": "2 Years Workmanship warranty Material defect coverage prompt leak repair Annual inspection included Perfect for minor repairs and maintenance work MOST POPULAR"
+      },
+      {
+        "heading": "Ultimate Guard",
+        "words": 26,
+        "score": 0,
+        "text": "10 Years All Storm Shield features Extended material warranty Energy efficiency guarantee Bi-annual professional maintenance Transferable to new homeowner Maximum protection for new roofing systems"
+      }
+    ]
+  },
+  {
+    "path": "app/wind-damage-repair-levelland/page.tsx",
+    "low_total": 17,
+    "real_low": 12,
+    "chunks": [
+      {
+        "heading": "Straight-Line Wind Damage",
+        "words": 40,
+        "score": 0,
+        "text": "Unlike tornado damage, straight-line winds create consistent directional forces that can lift entire roof sections, tear membranes, and damage flashing systems. The South Plains' flat topography allows these winds to maintain intensity over vast distances, affecting multiple properties simultaneously."
+      },
+      {
+        "heading": "Seasonal Wind Variations",
+        "words": 37,
+        "score": -1,
+        "text": "Hockley County experiences different wind patterns throughout the year. Spring brings severe thunderstorms with microbursts, summer has sustained thermal winds, fall features powerful cold fronts, and winter brings arctic blasts. Each requires specific repair and reinforcement approaches."
+      },
+      {
+        "heading": "Uplift vs. Lateral Forces",
+        "words": 39,
+        "score": -1,
+        "text": "Panhandle winds create both uplift forces that try to pull roofing materials off and lateral forces that push against vertical surfaces. Our repair techniques address both force vectors, ensuring comprehensive protection against future wind events common in the region."
+      },
+      {
+        "heading": "Membrane Uplift",
+        "words": 33,
+        "score": -1,
+        "text": "High winds can lift and tear roofing membranes, especially at edges and corners where wind forces concentrate. This damage often starts small but spreads rapidly if not immediately addressed with proper repair techniques."
+      },
+      {
+        "heading": "Fastener Failure",
+        "words": 27,
+        "score": 0,
+        "text": "Sustained winds can work loose mechanical fasteners, creating weak points that lead to progressive roof failure. South Plains properties need upgraded fastening patterns and enhanced attachment systems."
+      },
+      {
+        "heading": "Flashing Displacement",
+        "words": 25,
+        "score": -1,
+        "text": "Wind-driven rain and lateral forces can damage flashing systems around penetrations, parapets, and roof edges, creating leak points that compromise the entire building envelope."
+      },
+      {
+        "heading": "Comprehensive Safety Inspection",
+        "words": 34,
+        "score": 0,
+        "text": "Our certified inspectors conduct thorough safety assessments to identify structural integrity issues, loose materials, and immediate hazards. We secure dangerous areas and provide prompt stabilization to prevent further damage while planning comprehensive repairs. 2"
+      },
+      {
+        "heading": "Structural Evaluation",
+        "words": 36,
+        "score": 0,
+        "text": "Our engineers evaluate the roof's structural components to identify compromised decking, damaged insulation, and stressed structural members. We assess the roof's ability to withstand future wind events and recommend reinforcement upgrades where needed. 4"
+      },
+      {
+        "heading": "Repair Strategy Development",
+        "words": 37,
+        "score": 0,
+        "text": "Based on damage assessment and local wind patterns, we develop customized repair strategies that not only restore the roof but enhance its wind resistance. This includes upgraded fastening patterns, reinforced edge details, and improved drainage systems. 5"
+      },
+      {
+        "heading": "Insurance Coordination",
+        "words": 35,
+        "score": -1,
+        "text": "We work directly with insurance adjusters to ensure fair settlements and complete coverage of wind damage repairs. Our detailed documentation and local expertise help maximize claim settlements while minimizing property owner out-of-pocket expenses."
+      },
+      {
+        "heading": "Immediate Actions After Wind Damage",
+        "words": 33,
+        "score": -1,
+        "text": "\u2022 Ensure personal safety - stay away from damaged areas \u2022 Document damage with photos from ground level \u2022 Move valuable items away from leak areas \u2022 Place tarps or buckets to catch water \u2022 Notify your insurance company"
+      },
+      {
+        "heading": "Our scheduling",
+        "words": 18,
+        "score": 0,
+        "text": "\u2022 Professional weatherproof sheeting and securing \u2022 Active-leak weatherproofing \u2022 Structural safety assessment \u2022 Insurance documentation assistance \u2022 Securing services if needed"
+      }
+    ]
+  },
+  {
+    "path": "app/roof-repair-perryton/page.tsx",
+    "low_total": 10,
+    "real_low": 10,
+    "chunks": [
+      {
+        "heading": "Wheat Country Agricultural Specialist",
+        "words": 46,
+        "score": 0,
+        "text": "Perryton sits in the heart of Texas wheat country, with vast grain operations and storage facilities throughout Ochiltree County. We specialize in agricultural building roofing designed for grain storage and farm operations. \u2022 Grain elevator roofing systems \u2022 Wheat storage facility repairs \u2022 Farm building maintenance \u2022 Agricultural equipment storage"
+      },
+      {
+        "heading": "Ochiltree County Seat Services",
+        "words": 37,
+        "score": 0,
+        "text": "As Ochiltree County's county seat, Perryton hosts government buildings, courthouse facilities, and municipal structures requiring specialized expertise for public buildings and institutional requirements. \u2022 County courthouse maintenance \u2022 Municipal building repairs \u2022 Government facility roofing \u2022 Public building code compliance"
+      },
+      {
+        "heading": "Rural Community Support",
+        "words": 35,
+        "score": 0,
+        "text": "Perryton serves the broader rural community of Ochiltree County, including ranch properties, farm residences, and rural commercial buildings that require specialized roofing approaches. \u2022 Rural residential services \u2022 Ranch building repairs \u2022 Remote property access \u2022 Agricultural community support"
+      },
+      {
+        "heading": "Wheat Production",
+        "words": 27,
+        "score": 0,
+        "text": "Perryton serves as a major wheat production center with massive grain elevators and storage facilities requiring specialized roofing systems capable of handling structural loads and moisture control."
+      },
+      {
+        "heading": "County Services",
+        "words": 22,
+        "score": 0,
+        "text": "As Ochiltree County's seat, Perryton maintains essential government services and facilities requiring specialized roofing knowledge for public buildings and institutional structures."
+      },
+      {
+        "heading": "Agricultural Environment Impact",
+        "words": 51,
+        "score": 0,
+        "text": "Grain Dust Exposure Wheat processing and storage operations create significant airborne grain dust that can accumulate on roof surfaces and clog drainage systems, requiring specialized maintenance approaches. Agricultural Chemical Exposure Farming operations use herbicides, pesticides, and fertilizers that can create airborne chemicals affecting roofing material longevity and requiring resistant material selection."
+      },
+      {
+        "heading": "Weather-Resistant Installation",
+        "words": 38,
+        "score": 0,
+        "text": "Our installation teams use enhanced attachment methods and sealing techniques designed for extreme weather zones, ensuring repairs can withstand future hailstorms and High Plains winds. \u2022 Enhanced attachment systems \u2022 Weather-resistant sealing \u2022 Extreme weather preparation \u2022 Agricultural building considerations 5"
+      },
+      {
+        "heading": "Severe Weather Zone Monitoring",
+        "words": 38,
+        "score": 0,
+        "text": "Given Perryton's extreme weather exposure, we provide enhanced post-repair monitoring and proactive storm damage assessment to ensure continued protection through severe weather seasons. \u2022 Storm season monitoring \u2022 Post-hail damage assessment \u2022 Proactive maintenance scheduling \u2022 Enhanced warranty support"
+      },
+      {
+        "heading": "Agricultural Schedule Accommodation",
+        "words": 33,
+        "score": -1,
+        "text": "We understand that agricultural operations in wheat country follow critical seasonal schedules. Our repair scheduling accommodate the demands of farming cycles. \u2022 Harvest season scheduling \u2022 Agricultural priority response \u2022 Seasonal operation consideration \u2022 Farm equipment protection"
+      },
+      {
+        "heading": "Ochiltree County Compliance",
+        "words": 35,
+        "score": 0,
+        "text": "As the county seat, Perryton requires specialized knowledge of local building codes, government building requirements, and rural property considerations throughout Ochiltree County. \u2022 County building code expertise \u2022 Government facility compliance \u2022 Rural property specialization \u2022 Municipal building experience"
+      }
+    ]
+  },
+  {
+    "path": "app/industrial-roofing/page.tsx",
+    "low_total": 10,
+    "real_low": 7,
+    "chunks": [
+      {
+        "heading": "Hail Damage Documentation for Industrial Facilities",
+        "words": 21,
+        "score": 0,
+        "text": "When hail strikes your industrial facility, thorough documentation is the first step to a successful insurance claim. Our inspection team provides:"
+      },
+      {
+        "heading": "",
+        "words": 15,
+        "score": -1,
+        "text": "Available throughout the region for weatherproof sheeting and temporary repairs to protect inventory and equipment"
+      },
+      {
+        "heading": "Industrial Facilities We Serve in Amarillo",
+        "words": 15,
+        "score": -1,
+        "text": "Warehouses Manufacturing Plants Distribution Centers Cold Storage Processing Facilities Agricultural Buildings Shipping Yards Industrial Parks"
+      },
+      {
+        "heading": "Free Industrial Roof Assessment",
+        "words": 47,
+        "score": -1,
+        "text": "Schedule an inspection to discover potential roof issues. Our comprehensive inspection includes: Aerial drone photography to identify hail damage Moisture detection scans to find hidden leaks Structural assessment of roof deck and supports Drainage system evaluation Detailed written report with photos No-obligation repair or replacement estimate"
+      },
+      {
+        "heading": "Understanding Industrial Roofing Costs & ROI",
+        "words": 31,
+        "score": 0,
+        "text": "Industrial roofing is a significant investment, but understanding the long-term return on investment helps facility managers make informed decisions. Key factors that affect industrial roofing costs in West Texas include:"
+      },
+      {
+        "heading": "Preventive Maintenance Programs",
+        "words": 28,
+        "score": -1,
+        "text": "Extend your industrial roof's lifespan and prevent costly storm repairs with our preventive maintenance programs. Regular inspections and minor repairs catch problems before they become major issues."
+      },
+      {
+        "heading": "Can you work around our production schedule?",
+        "words": 35,
+        "score": 0,
+        "text": "Absolutely. We understand industrial facilities can't afford extended downtime. Our project managers coordinate closely with your team to schedule work during low-activity periods, and we can phase installations to keep critical areas operational."
+      }
+    ]
+  },
+  {
+    "path": "app/page.tsx",
+    "low_total": 15,
+    "real_low": 6,
+    "chunks": [
+      {
+        "heading": "Our Specialized Services",
+        "words": 20,
+        "score": 0,
+        "text": "From hail damage repair to full roof replacements, we handle every roofing need for Amarillo homeowners. View all roofing services"
+      },
+      {
+        "heading": "Hail Damage Repair",
+        "words": 18,
+        "score": -1,
+        "text": "Expert assessment and repair of hail-damaged roofs. We know exactly what insurance adjusters look for. Learn More \u2192"
+      },
+      {
+        "heading": "Storm Damage Restoration",
+        "words": 17,
+        "score": -1,
+        "text": "Wind, rain, and severe weather damage? We handle all types of storm-related roof repairs. Learn More \u2192"
+      },
+      {
+        "heading": "Insurance Claim Experts",
+        "words": 27,
+        "score": -1,
+        "text": "We handle all the paperwork and work directly with adjusters to get you full coverage. From free roof inspections to claim filing, we manage the entire process."
+      },
+      {
+        "heading": "Fast post-storm documentation",
+        "words": 28,
+        "score": -1,
+        "text": "Insurance-grade storm-damage documentation: After a storm, we document damage with photos and adjuster-ready reports, then handle storm damage repair scheduling once your claim is approved."
+      },
+      {
+        "heading": "Insurance Claim",
+        "words": 15,
+        "score": 0,
+        "text": "We handle all paperwork and meet with your insurance adjuster to maximize your coverage. 4"
+      }
+    ]
+  },
+  {
+    "path": "app/residential-roofing-perryton/page.tsx",
+    "low_total": 5,
+    "real_low": 5,
+    "chunks": [
+      {
+        "heading": "Agricultural Housing",
+        "words": 28,
+        "score": -1,
+        "text": "Specialized roofing services for farming families and rural properties throughout the wheat belt region. \u2022 Dust-resistant sealing systems \u2022 Barn and outbuilding roofing \u2022 Seasonal scheduling flexibility \u2022 Large property coordination"
+      },
+      {
+        "heading": "Wind Energy Housing",
+        "words": 27,
+        "score": -1,
+        "text": "Comprehensive services for workers and facilities supporting Ochiltree County's expanding wind energy operations. \u2022 High-wind rated systems \u2022 Energy worker housing \u2022 Industrial environment protection \u2022 Vibration-resistant installations"
+      },
+      {
+        "heading": "Historic Preservation",
+        "words": 27,
+        "score": 0,
+        "text": "Expert restoration of historic homes and buildings reflecting Perryton's agricultural heritage and early development. \u2022 Period-appropriate materials \u2022 Historic district compliance \u2022 Architectural character preservation \u2022 Modern efficiency upgrades"
+      },
+      {
+        "heading": "Understanding Farm Cycles",
+        "words": 57,
+        "score": 0,
+        "text": "The \"Wheatheart of the Plains\" operates on agricultural rhythms that affect housing maintenance and roofing schedules. We coordinate our services around critical farming periods to minimize disruption to essential agricultural operations. Optimal Roofing Seasons: \u2022 Early Spring (March-April): Pre-planting season \u2022 Late Summer (August): Post-harvest coordination \u2022 Fall (September): Before winter preparations \u2022 Winter (December-February): Planning season"
+      },
+      {
+        "heading": "Wind Energy Considerations",
+        "words": 45,
+        "score": -1,
+        "text": "Ochiltree County's expanding wind energy sector creates new considerations for residential roofing, from worker housing needs to environmental factors affecting nearby properties. Wind Energy Impact Areas: \u2022 Enhanced wind exposure considerations \u2022 Low-frequency vibration resistance \u2022 Infrastructure coordination requirements \u2022 Worker housing roofing demands \u2022 Environmental monitoring integration"
+      }
+    ]
+  },
+  {
+    "path": "app/hail-damage-repair-borger/page.tsx",
+    "low_total": 7,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "1. Free Inspection",
+        "words": 24,
+        "score": 0,
+        "text": "We thoroughly inspect your Borger property for hail damage, documenting every impact with photos and measurements. Our inspections are always free with no obligation."
+      },
+      {
+        "heading": "2. Insurance Claim",
+        "words": 27,
+        "score": -1,
+        "text": "We prepare comprehensive documentation for your claim and meet with your adjuster on-site. We know what insurance adjusters look for and how to maximize your coverage."
+      },
+      {
+        "heading": "3. Detailed Estimate",
+        "words": 20,
+        "score": -1,
+        "text": "We provide a detailed, line-item estimate using Xactimate\u2014the same software insurance companies use. No surprises, no hidden costs."
+      },
+      {
+        "heading": "5. Final Inspection",
+        "words": 22,
+        "score": -1,
+        "text": "We conduct a thorough final inspection to ensure every detail meets our high standards. You'll receive complete documentation for your records."
+      }
+    ]
+  },
+  {
+    "path": "app/tpo-roofing/page.tsx",
+    "low_total": 4,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "Chemical Resistance",
+        "words": 36,
+        "score": 0,
+        "text": "TPO resists oils, grease, and many industrial chemicals that can deteriorate other membrane types. This makes it a practical choice for restaurants, manufacturing facilities, and auto shops where rooftop HVAC units and exhaust systems are common."
+      },
+      {
+        "heading": "Seam Inspection",
+        "words": 42,
+        "score": 0,
+        "text": "Heat-welded seams are TPO's strongest feature, but edge seams and flashing terminations should be inspected annually. We check every linear foot of seam for signs of separation, fish-mouthing, or wear, particularly around penetrations like HVAC units, vents, and drains."
+      },
+      {
+        "heading": "Membrane Patching",
+        "words": 42,
+        "score": 0,
+        "text": "Punctures from foot traffic, dropped tools, or hail are repaired by heat-welding a matching TPO patch over the damaged area. These repairs restore the membrane to its original waterproof integrity and can be completed in under an hour for small areas."
+      },
+      {
+        "heading": "Drain Maintenance",
+        "words": 38,
+        "score": -1,
+        "text": "Standing water is the enemy of any flat roof. We clear roof drains, scuppers, and gutters of debris, check for proper drainage slope, and verify that drain boots and membrane terminations are secure. Clogged drains accelerate membrane degradation."
+      }
+    ]
+  },
+  {
+    "path": "app/hail-damage-repair-midland/page.tsx",
+    "low_total": 6,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "1. Free Inspection",
+        "words": 24,
+        "score": 0,
+        "text": "We thoroughly inspect your Midland property for hail damage, documenting every impact with photos and measurements. Our inspections are always free with no obligation."
+      },
+      {
+        "heading": "3. Detailed Estimate",
+        "words": 20,
+        "score": -1,
+        "text": "We provide a detailed, line-item estimate using Xactimate\u2014the same software insurance companies use. No surprises, no hidden costs."
+      },
+      {
+        "heading": "5. Final Inspection",
+        "words": 22,
+        "score": -1,
+        "text": "We conduct a thorough final inspection to ensure every detail meets our high standards. You'll receive complete documentation for your records."
+      }
+    ]
+  },
+  {
+    "path": "app/wind-damage-repair-midland/page.tsx",
+    "low_total": 3,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "Oil Field Debris Damage",
+        "words": 54,
+        "score": 0,
+        "text": "\u2022 Equipment covers: Drilling rig tarps and equipment covers become large projectiles in high-wind events \u2022 Caliche gravel: Wind-driven caliche from drilling roads creates sandblasting effect on roof surfaces \u2022 Metal debris: Pipe sections, valve covers, and drilling components become dangerous projectiles \u2022 Chemical contamination: Oil field chemicals carried by wind can degrade roofing material compounds"
+      },
+      {
+        "heading": "Industrial Heat Island Effects",
+        "words": 54,
+        "score": 0,
+        "text": "\u2022 Flare stack influence: Gas flares create thermal columns that generate localized turbulence and wind acceleration \u2022 Processing facility heat: Large oil processing plants create temperature differentials that intensify wind effects \u2022 Thermal cycling stress: Rapid temperature changes from industrial heat sources accelerate material fatigue \u2022 Enhanced convection: Heat islands trigger stronger localized thunderstorm development with intense downdrafts"
+      },
+      {
+        "heading": "Permian Basin Installation Enhancements",
+        "words": 46,
+        "score": -1,
+        "text": "Industrial-grade fastening: Corrosion-resistant fasteners handle chemical exposure and extreme wind loads Chemical-barrier underlayment: Synthetic materials resist oil field chemical penetration Enhanced edge protection: Additional sealing and mechanical fastening for industrial debris resistance Thermal expansion joints: Accommodate extreme temperature cycling from industrial heat sources"
+      }
+    ]
+  },
+  {
+    "path": "app/metal-roofing-dumas/page.tsx",
+    "low_total": 2,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Agricultural Excellence",
+        "words": 24,
+        "score": -1,
+        "text": "Large-span agricultural buildings Chemical resistance for farm operations Weather protection for equipment storage Cost-effective solutions for grain facilities Easy cleaning and maintenance"
+      },
+      {
+        "heading": "Industrial Performance",
+        "words": 18,
+        "score": -1,
+        "text": "Manufacturing facility protection Fire resistance for safety compliance Lightning strike protection Extreme temperature tolerance High wind uplift resistance"
+      }
+    ]
+  },
+  {
+    "path": "app/tpo-roofing-dumas/page.tsx",
+    "low_total": 2,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Agricultural Applications",
+        "words": 18,
+        "score": -1,
+        "text": "Grain storage facilities Equipment buildings and barns Feed mills and processing plants Agricultural supply warehouses Administrative farm offices"
+      },
+      {
+        "heading": "Industrial Solutions",
+        "words": 18,
+        "score": -1,
+        "text": "Manufacturing and processing facilities Chemical resistant membranes High-temperature performance Easy maintenance and cleaning Long-term durability guarantees"
+      }
+    ]
+  },
+  {
+    "path": "app/commercial-roofing-lubbock/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "High Elevation UV Exposure",
+        "words": 46,
+        "score": 0,
+        "text": "3,202 feet elevation increases UV radiation intensity, accelerating roofing material degradation. Commercial buildings with large roof areas face significant UV damage without proper membrane protection. Agriculture facilities and warehouse complexes require UV-resistant roofing systems with reflective coatings to extend lifespan and reduce cooling costs."
+      }
+    ]
+  },
+  {
+    "path": "app/residential-roofing-andrews/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Preventive Maintenance",
+        "words": 41,
+        "score": 0,
+        "text": "Regular maintenance programs designed for Andrews's harsh climate. Preventive care extends roof life significantly and helps identify potential problems before they become costly repairs. \u2022 Annual inspection services \u2022 Gutter cleaning and maintenance \u2022 Ventilation system optimization \u2022 Minor repair services \u2022 Seasonal preparation checks"
+      }
+    ]
+  },
+  {
+    "path": "app/wind-damage-repair-lubbock/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Agricultural Debris Impact",
+        "words": 58,
+        "score": 0,
+        "text": "\u2022 Cotton boll damage: Wind-driven cotton bolls puncture and abrade shingle surfaces during harvest season (August-October) \u2022 Crop residue scour: Corn stalks and wheat stubble become projectiles, damaging gutters and flashing systems \u2022 Topsoil abrasion: Fine agricultural dust erodes protective granules faster than standard wind events \u2022 Equipment debris: High winds tear loose agricultural equipment covers, creating large projectile hazards"
+      }
+    ]
+  }
+]

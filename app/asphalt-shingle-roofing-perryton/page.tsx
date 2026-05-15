@@ -272,23 +272,23 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Farm and grain industry families
+                    Wheat and grain-sorghum families across Ochiltree County
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Small-town residential charm
+                    Mid-century homes on the residential streets off Highway 83
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Multi-generational homesteads
+                    Multi-generational homesteads on quarter-section properties
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Rural-suburban developments
+                    Newer rural-edge subdivisions south and west of town
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Agricultural professional housing
+                    Housing for grain elevator and farm-service workers
                   </li>
                 </ul>
               </div>
@@ -299,23 +299,23 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Dust and debris resistance
+                    Architectural asphalt shingles with tight ceramic granule bond for Panhandle dust
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Grain dust protection
+                    Asphalt mats that shrug off airborne grain dust from local elevators
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Chemical exposure resistance
+                    Coatings that resist fertilizer drift and ammonia near feed yards
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    High wind performance
+                    Six-nail high-wind nailing rated to UL 580 standards
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Long-term value focus
+                    GAF, CertainTeed, and Owens Corning warranties suited to long farm-family ownership
                   </li>
                 </ul>
               </div>
@@ -348,40 +348,37 @@ export default function AsphaltShingleRoofingPerrytonPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Dust Resistance</h3>
                 <p className="text-gray-700 mb-3">
-                  Specially formulated granules and smooth surfaces resist grain dust accumulation
-                  common near elevators and processing facilities.
+                  Tightly bonded ceramic granules on architectural asphalt shingles shed the grain dust that drifts from Perryton&apos;s elevators and processing facilities. We see this matter most on homes within a mile of an active elevator.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Self-cleaning granule surfaces</li>
-                  <li>• Reduced maintenance needs</li>
-                  <li>• Wind-assisted debris removal</li>
-                  <li>• Maintained aesthetic appearance</li>
+                  <li>• Premium architectural shingles with dense granule coverage</li>
+                  <li>• Less surface cleaning needed each spring</li>
+                  <li>• Prevailing southwest wind helps move accumulated dust off the slope</li>
+                  <li>• Color and tone stay consistent across the roof field</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Chemical Protection</h3>
                 <p className="text-gray-700 mb-3">
-                  Enhanced resistance to agricultural chemicals including fertilizers, herbicides,
-                  and grain treatment products.
+                  Asphalt shingles formulated for agricultural exposure resist the fertilizer drift, herbicide overspray, and grain-treatment dust that settle on Perryton rooftops near working fields and feed yards.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Chemical-resistant granules</li>
-                  <li>• Asphalt modifier protection</li>
-                  <li>• Coating integrity preservation</li>
-                  <li>• Extended color retention</li>
+                  <li>• Ceramic granules engineered to resist chemical pitting</li>
+                  <li>• SBS-modified asphalt base for added flexibility and chemical tolerance</li>
+                  <li>• Adhesive sealant strips that hold their bond around ammonia exposure</li>
+                  <li>• Color retention on south-facing slopes that take full sun and drift</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Value Engineering</h3>
                 <p className="text-gray-700 mb-3">
-                  Cost-effective solutions that provide maximum protection and longevity for
-                  agricultural family budgets.
+                  Honest pricing on architectural asphalt shingles from GAF, CertainTeed, and Owens Corning gives Perryton farm families a long-life roof without paying for marketing puffery they don&apos;t need.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Competitive agricultural pricing</li>
-                  <li>• Extended warranty options</li>
-                  <li>• Seasonal installation flexibility</li>
-                  <li>• Family budget considerations</li>
+                  <li>• Competitive pricing built from Panhandle supply-house quotes</li>
+                  <li>• Manufacturer warranties up to 50 years on premium architectural lines</li>
+                  <li>• Installation scheduled between planting and harvest where possible</li>
+                  <li>• Itemized estimates so families know exactly what each line covers</li>
                 </ul>
               </div>
             </div>
@@ -398,15 +395,13 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">Small Town Values</h3>
                   <p className="text-gray-700 mb-4">
-                    We understand Perryton's small-town community values and provide personalized
-                    service that reflects the trust and relationships important to agricultural
-                    families.
+                    Perryton runs on word of mouth. We work the way Ochiltree County families expect, with clear estimates, a job-site superintendent who answers the phone, and a finished roof you&apos;d be glad to show a neighbor.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Local community involvement</li>
-                    <li>• Neighbor referral programs</li>
-                    <li>• Agricultural community discounts</li>
-                    <li>• Family business approach</li>
+                    <li>• Local references on every Ochiltree County job we&apos;ve completed</li>
+                    <li>• Honest scope: if you don&apos;t need a full tear-off, we&apos;ll say so</li>
+                    <li>• Multi-property pricing for farms with multiple structures</li>
+                    <li>• Family-run office that follows up after the crew rolls out</li>
                   </ul>
                 </div>
                 <div>
@@ -414,14 +409,13 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                     Agricultural Scheduling
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Flexible scheduling that works around harvest times, planting seasons, and the
-                    unique demands of agricultural operations.
+                    We schedule Perryton roofing work around the calendar that actually matters out here: wheat harvest, sorghum planting, and the long stretch between when equipment is back in the barn.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Off-season project scheduling</li>
-                    <li>• Weather-dependent flexibility</li>
-                    <li>• Quick response for storm damage</li>
-                    <li>• Multi-property coordination</li>
+                    <li>• Quieter installation windows in late summer and winter</li>
+                    <li>• Weather hold days planned in, not surprised by</li>
+                    <li>• Post-storm inspection scheduling after Panhandle hail or wind events</li>
+                    <li>• Multi-building coordination for farmsteads with house, shop, and barn</li>
                   </ul>
                 </div>
               </div>

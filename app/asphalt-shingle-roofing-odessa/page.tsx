@@ -408,20 +408,16 @@ export default function AsphaltShingleRoofingOdessaPage() {
                     </h4>
                     <ul className="space-y-2">
                       <li>
-                        <strong>Synthetic Barriers:</strong> Prevent chemical infiltration into
-                        living spaces
+                        <strong>Synthetic Underlayment:</strong> a continuous moisture barrier across the entire deck keeps Permian Basin airborne chemicals out of attic spaces
                       </li>
                       <li>
-                        <strong>Sealed Penetrations:</strong> All roof penetrations properly
-                        weatherproofed
+                        <strong>Sealed Penetrations:</strong> plumbing boots, B-vents, and skylight curbs hand-sealed with ASTM-rated polyurethane
                       </li>
                       <li>
-                        <strong>Enhanced Ventilation:</strong> Balanced airflow to maintain indoor
-                        air quality
+                        <strong>Balanced Ventilation:</strong> ridge vents and matched soffit intake sized so the attic doesn&apos;t pull contaminated outside air through gaps
                       </li>
                       <li>
-                        <strong>Air Filtration:</strong> Integrated filtration in ventilation
-                        systems
+                        <strong>HVAC Filtration Pairing:</strong> ventilation balanced to work with high-MERV HVAC filters typical in Odessa-area homes near petrochemical operations
                       </li>
                     </ul>
                   </div>
@@ -431,15 +427,13 @@ export default function AsphaltShingleRoofingOdessaPage() {
                     </h4>
                     <ul className="space-y-2 text-green-700">
                       <li>
-                        <strong>Protected Granules:</strong> Chemical-resistant coating prevents
-                        deterioration
+                        <strong>Protected Granules:</strong> ceramic-coated granules on architectural shingles resist the chemical pitting that thin-coated 3-tab products show within a few seasons
                       </li>
                       <li>
-                        <strong>Enhanced Adhesives:</strong> Industrial-grade sealants resist
-                        chemical exposure
+                        <strong>Industrial-Grade Sealants:</strong> polyurethane sealants rated for chemical exposure hold their bond around vents, flashing, and pipe boots
                       </li>
                       <li>
-                        <strong>Premium Underlayment:</strong> Chemical barrier protection
+                        <strong>Premium Underlayment:</strong> peel-and-stick membrane at eaves and valleys forms a second barrier behind the shingle field
                       </li>
                     </ul>
                   </div>
@@ -457,18 +451,16 @@ export default function AsphaltShingleRoofingOdessaPage() {
                     </h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>
-                        <strong>Desert Beige:</strong> Hides industrial dust, reflects heat
-                        efficiently
+                        <strong>Desert Beige:</strong> available across GAF, CertainTeed, and Owens Corning lines; hides Permian Basin dust and reflects heat through long Odessa summers
                       </li>
                       <li>
-                        <strong>Weathered Wood:</strong> Natural appearance, excellent dirt
-                        concealment
+                        <strong>Weathered Wood:</strong> a warm gray-brown blend that ages gracefully and conceals dust streaks between cleanings
                       </li>
                       <li>
-                        <strong>Oyster Shell:</strong> Light color with good stain hiding
+                        <strong>Oyster Shell:</strong> light neutral that reflects heat without the glare of pure white
                       </li>
                       <li>
-                        <strong>Antique Silver:</strong> Modern look with practical benefits
+                        <strong>Antique Silver:</strong> a modern cool-tone gray that works well on contemporary Odessa rooflines
                       </li>
                     </ul>
                   </div>
@@ -478,10 +470,10 @@ export default function AsphaltShingleRoofingOdessaPage() {
                       Working Family Considerations
                     </h4>
                     <ul className="space-y-1 text-yellow-700 text-sm">
-                      <li>• Choose colors that age gracefully and hide dirt</li>
-                      <li>• Medium tones balance heat reflection with maintenance</li>
-                      <li>• Avoid pure white (shows every speck) or very dark (excessive heat)</li>
-                      <li>• Consider neighborhood standards for resale value</li>
+                      <li>• Choose colors that hide Permian Basin dust between annual rinse-downs</li>
+                      <li>• Medium tones balance heat reflection with maintenance for Odessa&apos;s 100°F-plus summers</li>
+                      <li>• Skip pure white (shows every speck) and very dark colors (load attic heat)</li>
+                      <li>• Match the streetscape in neighborhoods off Highway 191 and Loop 338 for resale</li>
                     </ul>
                   </div>
                 </div>
@@ -655,10 +647,10 @@ export default function AsphaltShingleRoofingOdessaPage() {
                   Odessa Installation Considerations
                 </h3>
                 <ul className="grid md:grid-cols-2 gap-2 text-brand-brown text-sm">
-                  <li>• Work schedule coordinated around air quality conditions</li>
-                  <li>• Enhanced safety protocols for industrial environment</li>
-                  <li>• Complete debris containment and removal</li>
-                  <li>• Air quality testing and verification</li>
+                  <li>• Crews start early to wrap before Odessa&apos;s afternoon heat and elevated ozone hours</li>
+                  <li>• Crews wear respirators and follow OSHA fall-protection plans on homes near petrochemical operations</li>
+                  <li>• Old shingles bagged into a 20-yard rolloff so nails and granules don&apos;t scatter the yard</li>
+                  <li>• Final magnet sweep of the driveway and grass plus a written job-site walkthrough with the homeowner</li>
                 </ul>
               </div>
             </div>
@@ -683,16 +675,16 @@ export default function AsphaltShingleRoofingOdessaPage() {
                     </h4>
                     <ul className="space-y-1 text-yellow-700 text-sm">
                       <li>
-                        <strong>Spring:</strong> Chemical residue assessment and cleaning
+                        <strong>Spring:</strong> rinse-down of granule surfaces and inspection for chemical residue carried in by Permian Basin winds
                       </li>
                       <li>
-                        <strong>Summer:</strong> Heat stress and UV damage evaluation
+                        <strong>Summer:</strong> heat-stress check on south- and west-facing slopes during 100°F-plus Odessa afternoons
                       </li>
                       <li>
-                        <strong>Fall:</strong> Air quality system maintenance
+                        <strong>Fall:</strong> ridge and soffit vent inspection ahead of winter, with any clogged screens cleared
                       </li>
                       <li>
-                        <strong>Winter:</strong> Seal integrity and ventilation check
+                        <strong>Winter:</strong> sealant and flashing check around chimneys, B-vents, and skylights before spring storm season
                       </li>
                     </ul>
                   </div>
@@ -702,10 +694,10 @@ export default function AsphaltShingleRoofingOdessaPage() {
                       Chemical Exposure Monitoring
                     </h4>
                     <ul className="space-y-1 text-red-700 text-sm">
-                      <li>• Surface cleaning when chemical residue appears</li>
-                      <li>• Air filtration system maintenance</li>
-                      <li>• Seal inspection for chemical degradation</li>
-                      <li>• Professional assessment annually</li>
+                      <li>• Surface rinse when chemical residue is visible after a still, hot stretch</li>
+                      <li>• HVAC and attic vent inspection paired with the homeowner&apos;s filter replacements</li>
+                      <li>• Sealant joints checked for chemical-driven softening near plumbing boots and step flashing</li>
+                      <li>• Annual professional walk-through with photos kept on file for warranty support</li>
                     </ul>
                   </div>
                 </div>
@@ -721,10 +713,10 @@ export default function AsphaltShingleRoofingOdessaPage() {
                       Simple DIY Monitoring
                     </h4>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Monthly visual inspection from ground level</li>
-                      <li>• Check gutters for excessive buildup after storms</li>
-                      <li>• Monitor indoor air quality and unusual odors</li>
-                      <li>• Document any changes for professional evaluation</li>
+                      <li>• Walk the perimeter once a month and check rakes and ridges from the ground</li>
+                      <li>• Look for granule buildup in gutters or downspout splash zones after any Permian Basin storm</li>
+                      <li>• Note any new musty smell or stain inside, which often points to a slow flashing leak</li>
+                      <li>• Snap a phone photo of anything new so we can review it on the next service call</li>
                     </ul>
                   </div>
 
@@ -733,9 +725,9 @@ export default function AsphaltShingleRoofingOdessaPage() {
                       Professional Services
                     </h4>
                     <ul className="space-y-1 text-sm text-gray-700">
-                      <li>• Annual comprehensive inspection included</li>
-                      <li>• Priority scheduling for working families</li>
-                      <li>• Affordable maintenance programs available</li>
+                      <li>• Annual hands-on inspection included on installs we&apos;ve completed</li>
+                      <li>• Priority scheduling for Permian Basin homeowners on shift work</li>
+                      <li>• Maintenance plans priced for working families, not commercial rates</li>
                     </ul>
                   </div>
                 </div>

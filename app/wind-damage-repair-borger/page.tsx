@@ -362,29 +362,27 @@ export default function WindDamageRepairBorgerPage() {
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
                 <h3 className="text-xl font-bold mb-3 text-orange-700">Commercial Buildings</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Large roof membrane uplift</li>
-                  <li>• HVAC equipment displacement</li>
-                  <li>• Parapet wall damage</li>
-                  <li>• Signage and equipment failure</li>
-                  <li>• Window and door seal failure</li>
+                  <li>• TPO or PVC membrane uplift along edges and corners</li>
+                  <li>• RTU and HVAC curb shifting after high-wind events</li>
+                  <li>• Parapet wall coping flashing torn loose</li>
+                  <li>• Roof-mounted signage and antenna mast failure</li>
+                  <li>• Wind-driven rain pushed past window and door seals</li>
                 </ul>
                 <p className="text-gray-600 text-sm">
-                  Commercial buildings near Frank Phillips College and downtown Borger require
-                  enhanced fastening systems for their larger roof areas.
+                  Commercial buildings around Frank Phillips College and downtown Borger have larger field areas that catch Hutchinson County wind. We use 60-mil reinforced TPO with mechanically attached fastening plates and reinforced corner sheets to keep the assembly tight.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
                 <h3 className="text-xl font-bold mb-3 text-red-700">Industrial Facilities</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Metal panel wind uplift</li>
-                  <li>• Equipment housing damage</li>
-                  <li>• Stack and tower stress</li>
-                  <li>• Pipe support failures</li>
-                  <li>• Chemical exposure acceleration</li>
+                  <li>• R-panel and standing seam metal lifted along eaves and ridges</li>
+                  <li>• Equipment housings and roof curbs displaced after gusts</li>
+                  <li>• Stack and tower flashing stress at the deck penetration</li>
+                  <li>• Pipe support strut and clamp failures on rooftop runs</li>
+                  <li>• Chemical exposure that accelerates fastener corrosion over time</li>
                 </ul>
                 <p className="text-gray-600 text-sm">
-                  Industrial facilities require specialized repairs that account for both wind
-                  damage and chemical environment compatibility.
+                  Around Borger&apos;s refining and gas processing operations, we use stainless or coated fasteners and Kynar-finished metal panels so wind repairs hold up against both Hutchinson County gusts and the chemical environment.
                 </p>
               </div>
             </div>
@@ -405,23 +403,19 @@ export default function WindDamageRepairBorgerPage() {
                   <div className="border-l-4 border-green-400 pl-4">
                     <h4 className="font-semibold text-green-700">High-Wind Attachment Methods</h4>
                     <p className="text-gray-600 text-sm">
-                      We use fastening patterns that exceed standard requirements, with additional
-                      fasteners in high-stress areas and upgraded attachment hardware rated for
-                      sustained high winds.
+                      Six-nail high-wind nailing on shingles, increased fastener density on TPO membrane field plates, and ring-shank ridge cap fasteners hold up to the sustained Hutchinson County gusts that loosen standard attachment over time.
                     </p>
                   </div>
                   <div className="border-l-4 border-green-400 pl-4">
                     <h4 className="font-semibold text-green-700">Edge Reinforcement Systems</h4>
                     <p className="text-gray-600 text-sm">
-                      Special attention to roof edges where wind uplift is strongest, using
-                      aerodynamic edge details and enhanced perimeter fastening.
+                      Reinforced perimeter fastening, metal drip edge tied into peel-and-stick underlayment, and TPO corner sheets at parapet returns where wind uplift hits hardest on a Borger commercial roof.
                     </p>
                   </div>
                   <div className="border-l-4 border-green-400 pl-4">
                     <h4 className="font-semibold text-green-700">Chemical-Resistant Hardware</h4>
                     <p className="text-gray-600 text-sm">
-                      Fasteners and flashing materials that resist chemical degradation from
-                      industrial emissions, maintaining integrity over time.
+                      Stainless or coated fasteners and aluminum or galvanized flashing rated for the chemical exposure common near Borger&apos;s refining and gas processing operations.
                     </p>
                   </div>
                 </div>

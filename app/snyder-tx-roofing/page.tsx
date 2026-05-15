@@ -215,8 +215,7 @@ export default function SnyderRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Snyder</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Snyder and Scurry County. Select a service below for details.
+              Asphalt and metal residential work plus TPO and PVC commercial flat roofs across Snyder and Scurry County. Pick a service below for local pricing context, common neighborhood considerations, and the materials we recommend for West Texas oil-patch country.
             </p>
           </FadeIn>
 
@@ -240,8 +239,7 @@ export default function SnyderRoofingPage() {
             <h2 className="section-title">Snyder Neighborhoods We Serve</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-center text-gray-600 mb-8 text-lg">
-                From the historic courthouse square to lakeside properties near J.B. Thomas, we
-                provide expert roofing services throughout Snyder and Scurry County:
+                From the brick storefronts ringing the historic Scurry County courthouse square to lakeside homes near Lake J.B. Thomas, we cover residential and commercial roofs throughout Snyder and Scurry County on the southern edge of West Texas:
               </p>
               <div className="grid md:grid-cols-3 gap-8 text-gray-700">
                 <div>

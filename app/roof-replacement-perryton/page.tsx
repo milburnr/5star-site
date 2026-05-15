@@ -265,20 +265,19 @@ export default function RoofReplacementPerrytonPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-3">
                   <li>
-                    • <strong>Grain Dust Exposure:</strong> Fine wheat dust accelerates roof wear
+                    • <strong>Grain Dust Exposure:</strong> Fine wheat dust from Ochiltree County elevators settles into shingle granules and accelerates wear
                   </li>
                   <li>
-                    • <strong>Fertilizer & Chemical Spray:</strong> Agricultural chemicals affect
-                    roof coatings
+                    • <strong>Fertilizer & Chemical Spray:</strong> Anhydrous ammonia and crop chemicals degrade coatings on standard galvanized metal panels
                   </li>
                   <li>
-                    • <strong>Severe Hail Events:</strong> Prime location in "Hail Alley"
+                    • <strong>Severe Hail Events:</strong> Perryton sits in the heart of Hail Alley, requiring UL 2218 Class 4 impact-rated systems
                   </li>
                   <li>
-                    • <strong>High Wind Exposure:</strong> Open farmland offers no wind protection
+                    • <strong>High Wind Exposure:</strong> Open Panhandle farmland off Highway 83 offers no break from straight-line winds
                   </li>
                   <li>
-                    • <strong>Equipment Vibration:</strong> Heavy machinery causes structural stress
+                    • <strong>Equipment Vibration:</strong> Combines, grain trucks, and bin augers transfer structural stress to attached buildings
                   </li>
                 </ul>
               </div>
@@ -329,14 +328,15 @@ export default function RoofReplacementPerrytonPage() {
                   Grain Storage Facilities
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Protecting your harvest investment with specialized systems:
+                  Protecting the harvest investment along Ochiltree County&apos;s wheat belt with
+                  systems sized for the load:
                 </p>
                 <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• Metal roofing for maximum durability</li>
-                  <li>• Moisture barrier systems</li>
-                  <li>• Structural reinforcement options</li>
-                  <li>• Ventilation for grain preservation</li>
-                  <li>• Fast installation during off-season</li>
+                  <li>• Standing seam metal panels for long service life under Panhandle wind</li>
+                  <li>• Moisture barrier systems engineered for stored grain</li>
+                  <li>• Structural reinforcement matched to elevator and bin loads</li>
+                  <li>• Ridge and soffit ventilation that protects grain quality</li>
+                  <li>• Off-season installation to clear the field before harvest trucks roll</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -377,9 +377,10 @@ export default function RoofReplacementPerrytonPage() {
               Serving Greater Perryton Area
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Our roof replacement services extend throughout Ochiltree County and the surrounding
-              agricultural communities. We're familiar with local building codes, agricultural
-              zoning requirements, and the specific challenges faced by rural property owners.
+              Our roof replacement work stretches across Ochiltree County and into the surrounding
+              Panhandle agricultural communities along Highway 83 and Highway 70. We know the
+              Perryton city code, Ochiltree County agricultural zoning, and the specific roof
+              loads that wheat country, cattle, and oilfield support properties carry.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -401,11 +402,11 @@ export default function RoofReplacementPerrytonPage() {
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural Expertise</h3>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Understanding of farming cycles and timing</li>
-                  <li>• Experience with grain elevator operations</li>
-                  <li>• Knowledge of agricultural building codes</li>
-                  <li>• Relationships with local feed/seed suppliers</li>
-                  <li>• Flexible scheduling around harvest seasons</li>
+                  <li>• Working knowledge of Panhandle wheat planting, fallow, and harvest timing</li>
+                  <li>• Hands-on experience with Ochiltree County grain elevator buildings</li>
+                  <li>• Familiarity with Texas agricultural building code and Ochiltree County zoning</li>
+                  <li>• Established relationships with local feed and seed suppliers along Highway 83</li>
+                  <li>• Crew availability scheduled around wheat harvest and seasonal labor demand</li>
                 </ul>
               </div>
             </div>
@@ -420,8 +421,10 @@ export default function RoofReplacementPerrytonPage() {
             <div className="bg-red-50 p-8 rounded-xl border border-red-200">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Perryton sits in the convergence zone where Gulf moisture meets Canadian cold
-                fronts, creating some of North America's most severe weather. Our roofing systems
-                are built to handle it all.
+                fronts, putting the northern Texas Panhandle on the receiving end of some of the
+                country&apos;s most violent storms. Our standing seam metal and Class 4
+                impact-rated architectural asphalt shingle systems are installed to UL 2218 and
+                UL 580 standards for that exposure.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -538,25 +541,25 @@ export default function RoofReplacementPerrytonPage() {
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>Agricultural community understanding</div>
+                    <div>Working knowledge of Perryton wheat and cattle operations</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>Flexible seasonal scheduling</div>
+                    <div>Scheduling that respects planting and harvest windows</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>Chemical-resistant materials</div>
+                    <div>Materials chosen to resist ammonia and crop chemical exposure</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>Extreme weather protection</div>
+                    <div>UL 2218 Class 4 hail and UL 580 wind uplift ratings on installed systems</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">
@@ -568,13 +571,13 @@ export default function RoofReplacementPerrytonPage() {
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>post-storm documentation</div>
+                    <div>Post-storm documentation for State Farm, Allstate, USAA, and Texas Farm Bureau claims</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>Ochiltree County expertise</div>
+                    <div>Ochiltree County permit and code expertise</div>
                   </div>
                 </div>
               </div>
@@ -593,19 +596,19 @@ export default function RoofReplacementPerrytonPage() {
                   Wheat & Grain Operations
                 </h3>
                 <ul className="text-yellow-700 space-y-2">
-                  <li>• Grain elevator maintenance and repairs</li>
-                  <li>• Storage facility weatherization</li>
-                  <li>• Equipment shed roof replacements</li>
-                  <li>• Prompt harvest-season repairs</li>
+                  <li>• Grain elevator roof maintenance and standing seam metal repairs</li>
+                  <li>• Wheat storage facility weatherization with moisture barriers</li>
+                  <li>• R-panel metal roof replacements on equipment sheds and shops</li>
+                  <li>• Scheduling that respects the Panhandle wheat harvest calendar</li>
                 </ul>
               </div>
               <div className="bg-green-50 p-8 rounded-xl border border-green-200">
                 <h3 className="text-2xl font-bold mb-4 text-green-800">Cattle Ranch & Community</h3>
                 <ul className="text-green-700 space-y-2">
-                  <li>• Barn, stable, and feed storage roofing</li>
-                  <li>• Ranch home weatherization</li>
-                  <li>• Schools, healthcare, and public buildings</li>
-                  <li>• Agricultural supply businesses</li>
+                  <li>• Barn, stable, and feed storage roof systems with ammonia-resistant coatings</li>
+                  <li>• Ranch home weatherization with Class 4 impact-rated architectural shingles</li>
+                  <li>• School, healthcare, and Ochiltree County public-building roofing</li>
+                  <li>• Agricultural supply and ag-retail commercial buildings along Highway 83</li>
                 </ul>
               </div>
             </div>

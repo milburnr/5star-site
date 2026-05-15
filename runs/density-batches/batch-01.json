@@ -1,0 +1,635 @@
+[
+  {
+    "path": "app/roof-inspections/page.tsx",
+    "low_total": 22,
+    "real_low": 22,
+    "chunks": [
+      {
+        "heading": "When Do You Need a Roof Inspection?",
+        "words": 23,
+        "score": 0,
+        "text": "Some inspections are planned, and others are prompted by events. Here are the situations where a professional roof inspection makes a real difference:"
+      },
+      {
+        "heading": "After Storms",
+        "words": 42,
+        "score": 0,
+        "text": "Hail, high winds, and heavy rain can damage your roof without any visible signs from ground level. After any significant storm in the Panhandle or Permian Basin, a professional inspection identifies damage early, before leaks develop and before insurance filing deadlines pass."
+      },
+      {
+        "heading": "Annual Maintenance",
+        "words": 42,
+        "score": -1,
+        "text": "Yearly inspections are the single most effective way to extend your roof's life. Catching a few loose shingles or degraded caulking costs a fraction of the emergency repair you would need after those issues turn into leaks during the next storm."
+      },
+      {
+        "heading": "Insurance Requirements",
+        "words": 37,
+        "score": 0,
+        "text": "Some insurance policies require periodic roof inspections as a condition of coverage, especially for roofs over 15 years old. Our inspection reports meet carrier documentation standards and can help you maintain coverage or qualify for premium discounts."
+      },
+      {
+        "heading": "Warranty Compliance",
+        "words": 31,
+        "score": -1,
+        "text": "Many roofing material warranties require documented maintenance, including regular inspections. Skipping inspections can void your warranty when you need it most. Our inspection reports serve as the maintenance documentation manufacturers require."
+      },
+      {
+        "heading": "Before Filing a Claim",
+        "words": 34,
+        "score": -1,
+        "text": "Before contacting your insurance carrier about suspected roof damage, get a professional inspection first. Our documentation provides the evidence your adjuster needs to process your claim efficiently and helps prevent underpayment on legitimate damage."
+      },
+      {
+        "heading": "What Does a Professional Roof Inspection Cover?",
+        "words": 20,
+        "score": 0,
+        "text": "We inspect every component of your roofing system, not just the visible surface. Here is what our inspection process examines:"
+      },
+      {
+        "heading": "Structural Integrity",
+        "words": 36,
+        "score": -1,
+        "text": "We check for sagging, uneven surfaces, and signs of structural stress that indicate problems with the roof deck, rafters, or trusses. These issues can signal water damage, overloading, or aging that affects the entire roof system."
+      },
+      {
+        "heading": "Material Condition",
+        "words": 36,
+        "score": -1,
+        "text": "Shingle granule loss, curling, cracking, blistering, and missing tabs all indicate different types and stages of deterioration. For flat roofs, we check membrane integrity, seam condition, and surface wear. Each finding helps determine remaining roof life."
+      },
+      {
+        "heading": "Flashing and Penetrations",
+        "words": 43,
+        "score": -1,
+        "text": "Flashing around chimneys, vents, skylights, and roof edges is the most common source of leaks. We examine every penetration point for proper sealing, corrosion, separation, and signs of past water entry. Pipe boots get particular attention as they degrade faster than other components."
+      },
+      {
+        "heading": "Gutters and Drainage",
+        "words": 39,
+        "score": -1,
+        "text": "Clogged, damaged, or improperly sloped gutters cause water to back up under shingles and along fascia boards. We check gutter condition, downspout flow, and overall drainage patterns. On flat roofs, we verify drain function and check for ponding water."
+      },
+      {
+        "heading": "Photo Documentation",
+        "words": 42,
+        "score": -1,
+        "text": "Every issue we find is photographed with detailed notes. You receive a written report documenting all findings, their severity, and recommended actions. This report is formatted for insurance use if storm damage is present. We keep copies on file for future reference."
+      },
+      {
+        "heading": "What Types of Roof Inspections Are Available?",
+        "words": 18,
+        "score": 0,
+        "text": "Different situations call for different inspection approaches. We tailor the scope and documentation to match your specific needs:"
+      },
+      {
+        "heading": "Storm Damage Inspection",
+        "words": 42,
+        "score": -1,
+        "text": "After hail , wind , or severe weather, we document all damage with insurance-grade detail. This includes identifying the type of damage (impact, uplift, water intrusion), measuring affected areas, and noting materials needed for repair. Reports are formatted to meet insurance carrier requirements."
+      },
+      {
+        "heading": "Pre-Purchase / Pre-Sale Inspection",
+        "words": 36,
+        "score": -1,
+        "text": "For real estate transactions, we provide an unbiased assessment of the roof's current condition and estimated remaining lifespan. The report includes approximate repair or replacement costs so buyers and sellers can negotiate with accurate information."
+      },
+      {
+        "heading": "Maintenance Inspection",
+        "words": 39,
+        "score": -1,
+        "text": "Annual or semi-annual inspections focused on preventive care. We identify minor issues like loose shingles, worn caulking, or clogged drains before they become expensive repairs. This is the most cost-effective way to maximize your roof's lifespan."
+      },
+      {
+        "heading": "No Obligation",
+        "words": 44,
+        "score": -1,
+        "text": "Our inspection is free regardless of whether you hire us for repairs. We believe homeowners deserve to know the condition of their roof. If everything looks good, we tell you. If repairs are needed, we provide an honest estimate and the decision is yours."
+      },
+      {
+        "heading": "Written Report with Photos",
+        "words": 39,
+        "score": -1,
+        "text": "You receive a detailed written report documenting every finding. The report includes photographs, severity ratings, and recommended actions. This is yours to keep and use however you see fit, whether for insurance, a second opinion, or your own records."
+      },
+      {
+        "heading": "Repair Estimates",
+        "words": 38,
+        "score": -1,
+        "text": "If our inspection uncovers issues, we provide itemized repair estimates with clear pricing. No hidden fees, no surprise line items. You know exactly what work is recommended, what it costs, and why it matters before making any decisions."
+      },
+      {
+        "heading": "Insurance Documentation",
+        "words": 39,
+        "score": -1,
+        "text": "When storm damage is present, our report format is designed for insurance adjuster review. We include the documentation carriers need to process claims accurately. Our team can also meet your adjuster on-site to walk through findings if needed."
+      },
+      {
+        "heading": "Roof Inspections by City",
+        "words": 18,
+        "score": 0,
+        "text": "We provide free roof inspections across 14 Texas cities. Select your location for city-specific information and scheduling:"
+      },
+      {
+        "heading": "Can a roof inspection help with my insurance claim?",
+        "words": 49,
+        "score": 0,
+        "text": "Absolutely. Our inspection reports are formatted for insurance adjusters with detailed photographs, measurements, and descriptions of damage. We document the type of damage (hail, wind, age-related), affected areas, and materials needed for repair or replacement. Having professional documentation significantly strengthens your claim and reduces the chance of underpayment."
+      }
+    ]
+  },
+  {
+    "path": "app/roof-repair-dumas/page.tsx",
+    "low_total": 13,
+    "real_low": 13,
+    "chunks": [
+      {
+        "heading": "Agricultural Industry Specialist",
+        "words": 45,
+        "score": 0,
+        "text": "Dumas is Moore County's agricultural hub, home to massive cattle feedlots and grain storage facilities. We specialize in agricultural building roofing, understanding the unique demands of livestock operations and commodity storage. \u2022 Feedlot building repairs \u2022 Grain storage facility roofing \u2022 Livestock barn maintenance \u2022 Agricultural equipment storage"
+      },
+      {
+        "heading": "County Seat Services",
+        "words": 37,
+        "score": 0,
+        "text": "As Moore County's county seat, Dumas hosts government buildings, courthouse facilities, and municipal structures requiring specialized roofing expertise for public buildings and institutional requirements. \u2022 Government building maintenance \u2022 Courthouse roof systems \u2022 Municipal facility repairs \u2022 Public building compliance"
+      },
+      {
+        "heading": "Industrial Ammonia Environment",
+        "words": 40,
+        "score": 0,
+        "text": "Dumas's agricultural operations include significant ammonia production and storage facilities. We provide specialized roofing services for buildings exposed to industrial chemicals and agricultural processing environments. \u2022 Chemical-resistant roofing systems \u2022 Industrial facility maintenance \u2022 Processing plant roof repairs \u2022 Environmental compliance support"
+      },
+      {
+        "heading": "Residential Community Support",
+        "words": 39,
+        "score": 0,
+        "text": "Dumas's residential neighborhoods house agricultural workers, county employees, and industrial personnel. We provide comprehensive residential roofing services tailored to this working community's needs and schedules. \u2022 Residential roof repairs \u2022 Worker housing maintenance \u2022 Family home protection \u2022 Flexible scheduling options"
+      },
+      {
+        "heading": "Feedlot Operations",
+        "words": 24,
+        "score": 0,
+        "text": "Dumas hosts some of Texas's largest cattle feedlots, creating unique environmental challenges including ammonia exposure, dust, and moisture that accelerate roofing material degradation."
+      },
+      {
+        "heading": "Grain Storage",
+        "words": 25,
+        "score": -1,
+        "text": "Massive grain storage and processing facilities require specialized roofing systems capable of handling structural loads, moisture control, and agricultural chemical exposure common in this industry."
+      },
+      {
+        "heading": "County Government",
+        "words": 23,
+        "score": 0,
+        "text": "As Moore County's seat, Dumas maintains government buildings, courthouse facilities, and municipal structures requiring compliance with public building codes and accessibility standards."
+      },
+      {
+        "heading": "Agricultural-Grade Materials",
+        "words": 39,
+        "score": 0,
+        "text": "We specify materials designed for agricultural environments, including chemical-resistant coatings, enhanced drainage systems, and structural components rated for the unique loads of agricultural buildings. \u2022 Chemical-resistant materials \u2022 Agricultural building specifications \u2022 Enhanced drainage systems \u2022 Heavy-load structural support 4"
+      },
+      {
+        "heading": "Industry-Sensitive Installation",
+        "words": 37,
+        "score": 0,
+        "text": "Our installation teams work around agricultural operations, understanding the importance of maintaining livestock comfort and protecting stored commodities during the repair process. \u2022 Livestock operation consideration \u2022 Commodity protection protocols \u2022 Minimal agricultural disruption \u2022 Safety compliance for all environments 5"
+      },
+      {
+        "heading": "Agricultural Environment Monitoring",
+        "words": 41,
+        "score": 0,
+        "text": "Given the harsh environmental conditions in Dumas's agricultural sector, we provide enhanced monitoring of repairs to ensure they perform as expected under chemical exposure and operational stress. \u2022 Chemical exposure monitoring \u2022 Agricultural operation impact tracking \u2022 Enhanced warranty support \u2022 Preventive maintenance programs"
+      },
+      {
+        "heading": "Chemical-Resistant Solutions",
+        "words": 38,
+        "score": 0,
+        "text": "Our material selection accounts for Dumas's agricultural environment, including exposure to ammonia, organic acids, and other chemicals common in livestock and grain processing operations. \u2022 Chemical-resistant material specifications \u2022 Agricultural environment testing \u2022 Enhanced durability systems \u2022 Environmental compliance support"
+      },
+      {
+        "heading": "Operational Coordination",
+        "words": 34,
+        "score": -1,
+        "text": "We schedule our work around agricultural operations, understanding that livestock care and commodity processing cannot be interrupted for roofing work without careful planning and coordination. \u2022 Agricultural schedule accommodation \u2022 Livestock operation consideration \u2022 Commodity protection protocols"
+      },
+      {
+        "heading": "Moore County Compliance",
+        "words": 40,
+        "score": 0,
+        "text": "As the county seat, Dumas requires compliance with various municipal and county building codes. We ensure all work meets local requirements for both private and public buildings. \u2022 County building code expertise \u2022 Municipal compliance verification \u2022 Public building standards \u2022 Government facility experience"
+      }
+    ]
+  },
+  {
+    "path": "app/roof-repair-snyder/page.tsx",
+    "low_total": 16,
+    "real_low": 11,
+    "chunks": [
+      {
+        "heading": "What West Texas Agricultural Roofing Specialization?",
+        "words": 21,
+        "score": 0,
+        "text": "Our expertise extends beyond residential properties to serve Scurry County's vital agricultural infrastructure with specialized solutions designed for working environments."
+      },
+      {
+        "heading": "Commercial Agriculture Operations",
+        "words": 44,
+        "score": -1,
+        "text": "Processing Facilities \u2022 Industrial-grade membrane systems \u2022 High-temperature applications \u2022 Chemical exposure protection \u2022 USDA compliance considerations Cotton Gins & Oil Mills \u2022 Fire-retardant material requirements \u2022 Dust collection system integration \u2022 Vibration-resistant installations \u2022 Seasonal operation optimization Irrigation & Equipment \u2022 Pump house weatherproofing \u2022 Electrical system protection \u2022 Remote location service"
+      },
+      {
+        "heading": "Central Snyder",
+        "words": 19,
+        "score": -1,
+        "text": "Historic downtown and established neighborhoods \u2022 Historic courthouse square area \u2022 Established residential districts \u2022 Municipal buildings and schools \u2022 Medical facilities complex"
+      },
+      {
+        "heading": "West Snyder",
+        "words": 17,
+        "score": -1,
+        "text": "Growing residential and light commercial areas \u2022 Newer residential developments \u2022 Shopping and service centers \u2022 Educational campuses \u2022 Recreation facilities"
+      },
+      {
+        "heading": "Rural Scurry County",
+        "words": 18,
+        "score": -1,
+        "text": "Agricultural operations and ranch properties \u2022 Cotton farming operations \u2022 Cattle ranching facilities \u2022 Oil field support services \u2022 Rural residential properties"
+      },
+      {
+        "heading": "How Does the Comprehensive West Texas Repair Process Work?",
+        "words": 16,
+        "score": 0,
+        "text": "Our systematic approach addresses the full range of agricultural and residential roofing challenges in Scurry County."
+      },
+      {
+        "heading": "Phase 1: Agricultural Environment Assessment",
+        "words": 45,
+        "score": -1,
+        "text": "Building Function Analysis \u2022 Livestock housing requirements \u2022 Equipment storage needs \u2022 Chemical exposure assessment \u2022 Ventilation system evaluation Environmental Factors \u2022 Wind exposure mapping \u2022 Dust accumulation patterns \u2022 Temperature cycling stress \u2022 Moisture and humidity issues Operational Considerations \u2022 Seasonal use patterns \u2022 Equipment access requirements \u2022 Safety protocol compliance \u2022 Budget and timeline constraints"
+      },
+      {
+        "heading": "Phase 2: Storm Damage Documentation & Insurance",
+        "words": 44,
+        "score": -1,
+        "text": "Agricultural Property Claims \u2022 Commercial vs. residential coverage differences \u2022 Livestock facility specific requirements \u2022 Equipment damage assessment \u2022 Lost use and business interruption \u2022 Multi-structure property coordination Documentation Standards \u2022 Detailed damage photography \u2022 Structural integrity assessment \u2022 Cost estimation for agricultural use \u2022 Code compliance verification \u2022 Timeline and phasing recommendations"
+      },
+      {
+        "heading": "Phase 3: Agricultural-Specific Installation",
+        "words": 39,
+        "score": -1,
+        "text": "Working Environment Protocols \u2022 Livestock safety considerations \u2022 Equipment and machinery protection \u2022 Agricultural schedule coordination \u2022 Biosecurity compliance \u2022 Minimal operation disruption Technical Installation Standards \u2022 Enhanced fastening for wind exposure \u2022 Corrosion-resistant materials \u2022 Ventilation system integration \u2022 Chemical compatibility verification \u2022 Long-term maintenance accessibility"
+      },
+      {
+        "heading": "Agricultural Property Considerations",
+        "words": 30,
+        "score": -1,
+        "text": "\u2022 Tax implications for agricultural vs. residential classification \u2022 Multi-structure properties require coordination \u2022 Seasonal timing affects costs and availability \u2022 Equipment access may require additional planning \u2022 Remote locations include reasonable travel charges"
+      },
+      {
+        "heading": "Value Maximization Strategies",
+        "words": 29,
+        "score": -1,
+        "text": "\u2022 Combine multiple buildings for economies of scale \u2022 Schedule during optimal weather windows \u2022 Consider long-term material upgrades \u2022 Plan for future expansion needs \u2022 Invest in energy efficiency for operational savings"
+      }
+    ]
+  },
+  {
+    "path": "app/roof-replacement-perryton/page.tsx",
+    "low_total": 9,
+    "real_low": 8,
+    "chunks": [
+      {
+        "heading": "Agricultural Community Challenges",
+        "words": 41,
+        "score": 0,
+        "text": "\u2022 Grain Dust Exposure: Fine wheat dust accelerates roof wear \u2022 Fertilizer & Chemical Spray: Agricultural chemicals affect roof coatings \u2022 Severe Hail Events: Prime location in \"Hail Alley\" \u2022 High Wind Exposure: Open farmland offers no wind protection \u2022 Equipment Vibration: Heavy machinery causes structural stress"
+      },
+      {
+        "heading": "Grain Storage Facilities",
+        "words": 27,
+        "score": 0,
+        "text": "Protecting your harvest investment with specialized systems: \u2022 Metal roofing for maximum durability \u2022 Moisture barrier systems \u2022 Structural reinforcement options \u2022 Ventilation for grain preservation \u2022 Fast installation during off-season"
+      },
+      {
+        "heading": "Serving Greater Perryton Area",
+        "words": 32,
+        "score": -1,
+        "text": "Our roof replacement services extend throughout Ochiltree County and the surrounding agricultural communities. We're familiar with local building codes, agricultural zoning requirements, and the specific challenges faced by rural property owners."
+      },
+      {
+        "heading": "Agricultural Expertise",
+        "words": 27,
+        "score": -1,
+        "text": "\u2022 Understanding of farming cycles and timing \u2022 Experience with grain elevator operations \u2022 Knowledge of agricultural building codes \u2022 Relationships with local feed/seed suppliers \u2022 Flexible scheduling around harvest seasons"
+      },
+      {
+        "heading": "Perryton Weather & Your Roof",
+        "words": 31,
+        "score": 0,
+        "text": "Perryton sits in the convergence zone where Gulf moisture meets Canadian cold fronts, creating some of North America's most severe weather. Our roofing systems are built to handle it all."
+      },
+      {
+        "heading": "Why Perryton Farmers Choose Us",
+        "words": 23,
+        "score": 0,
+        "text": "Agricultural community understanding Flexible seasonal scheduling Chemical-resistant materials Extreme weather protection Licensed and insured in Texas post-storm documentation Ochiltree County expertise"
+      },
+      {
+        "heading": "Wheat & Grain Operations",
+        "words": 16,
+        "score": -1,
+        "text": "\u2022 Grain elevator maintenance and repairs \u2022 Storage facility weatherization \u2022 Equipment shed roof replacements \u2022 Prompt harvest-season repairs"
+      },
+      {
+        "heading": "Cattle Ranch & Community",
+        "words": 17,
+        "score": -1,
+        "text": "\u2022 Barn, stable, and feed storage roofing \u2022 Ranch home weatherization \u2022 Schools, healthcare, and public buildings \u2022 Agricultural supply businesses"
+      }
+    ]
+  },
+  {
+    "path": "app/tpo-roofing-midland/page.tsx",
+    "low_total": 8,
+    "real_low": 7,
+    "chunks": [
+      {
+        "heading": "Hazard Assessment",
+        "words": 19,
+        "score": 0,
+        "text": "Comprehensive evaluation of potential chemical exposure, equipment loads, operational requirements, and safety protocols specific to energy industry facilities. 2"
+      },
+      {
+        "heading": "Industrial Engineering",
+        "words": 18,
+        "score": 0,
+        "text": "Custom system design incorporating chemical resistance requirements, heavy equipment loads, and specialized attachment methods for industrial environments. 3"
+      },
+      {
+        "heading": "Safety Compliance",
+        "words": 20,
+        "score": 0,
+        "text": "Full compliance with OSHA requirements, energy industry safety protocols, and coordination with facility safety personnel throughout the installation process. 4"
+      },
+      {
+        "heading": "Precision Installation",
+        "words": 19,
+        "score": 0,
+        "text": "Expert installation by certified technicians experienced in industrial environments, using specialized equipment and techniques for energy industry facilities. 6"
+      },
+      {
+        "heading": "Performance Validation",
+        "words": 18,
+        "score": -1,
+        "text": "Rigorous testing and inspection protocols including chemical resistance verification, structural load testing, and comprehensive documentation for industrial applications."
+      },
+      {
+        "heading": "Risk Management",
+        "words": 33,
+        "score": 0,
+        "text": "Energy operations require reliable infrastructure. Our TPO systems provide superior weather protection and fire resistance, reducing operational risks for critical facilities. Risk Reduction: \u2022 Superior weather resistance \u2022 Fire-resistant membrane construction \u2022 Comprehensive insurance coverage"
+      },
+      {
+        "heading": "Midland Metro",
+        "words": 16,
+        "score": 0,
+        "text": "\u2022 Downtown Midland \u2022 Energy Corridor \u2022 Medical District \u2022 Airport Area \u2022 Business District \u2022 Industrial Corridor \u2022 North Midland \u2022 West Midland"
+      }
+    ]
+  },
+  {
+    "path": "app/tpo-roofing-perryton/page.tsx",
+    "low_total": 6,
+    "real_low": 6,
+    "chunks": [
+      {
+        "heading": "Grain Industry Solutions",
+        "words": 17,
+        "score": -1,
+        "text": "Grain elevators and storage Feed mills and processing Agricultural equipment buildings Loading and shipping facilities Administrative offices"
+      },
+      {
+        "heading": "Agricultural Performance",
+        "words": 17,
+        "score": -1,
+        "text": "Dust and debris resistance Chemical exposure protection Large span capabilities Easy maintenance and cleaning Superior weathering resistance"
+      },
+      {
+        "heading": "Dust Management",
+        "words": 30,
+        "score": 0,
+        "text": "TPO's smooth surface prevents dust accumulation and allows for easy cleaning - critical for grain facility operations. \u2022 Smooth, non-porous surface \u2022 Easy pressure washing \u2022 No dust-trapping textures \u2022 Maintains reflectivity"
+      },
+      {
+        "heading": "Large Span Capability",
+        "words": 25,
+        "score": 0,
+        "text": "TPO systems can span large grain storage areas without interior supports, maximizing usable space. \u2022 Single membrane installation \u2022 Minimal seam requirements \u2022 Structural efficiency \u2022 Cost-effective coverage"
+      },
+      {
+        "heading": "Chemical Resistance",
+        "words": 21,
+        "score": -1,
+        "text": "Protection against agricultural chemicals including fertilizers, pesticides, and cleaning agents. \u2022 Fertilizer runoff protection \u2022 Pesticide resistance \u2022 Cleaning agent tolerance \u2022 Long-term stability"
+      },
+      {
+        "heading": "Temperature Control Benefits",
+        "words": 31,
+        "score": 0,
+        "text": "Proper temperature control is critical for grain storage quality and equipment performance in Perryton's agricultural facilities. \u2022 Grain quality preservation \u2022 Moisture control improvement \u2022 Equipment protection \u2022 Reduced spoilage losses \u2022 Worker comfort enhancement"
+      }
+    ]
+  },
+  {
+    "path": "app/about/page.tsx",
+    "low_total": 4,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "Hail Damage Experts",
+        "words": 26,
+        "score": -1,
+        "text": "We specialize in identifying and repairing hail damage. Our team knows exactly what insurance adjusters look for and how to document damage properly for successful claims."
+      },
+      {
+        "heading": "Insurance Claim Help",
+        "words": 27,
+        "score": -1,
+        "text": "We work directly with your insurance company to ensure you get the coverage you deserve. From initial inspection to final approval, we handle the paperwork and communication."
+      },
+      {
+        "heading": "Fast Response",
+        "words": 21,
+        "score": -1,
+        "text": "After a storm, time is critical. We offer free damage inspections and can typically begin repairs within days of insurance approval."
+      },
+      {
+        "heading": "Our Promise",
+        "words": 48,
+        "score": 0,
+        "text": "We treat every roof like it's our own. From the initial free inspection to the final nail, we're committed to quality workmanship, honest pricing, and exceptional customer service. Address issues before a small problem becomes a big one. Call us today for your free roof inspection."
+      }
+    ]
+  },
+  {
+    "path": "app/residential-roofing-canyon/page.tsx",
+    "low_total": 4,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "Historic District Preservation",
+        "words": 48,
+        "score": 0,
+        "text": "Canyon's historic downtown and established neighborhoods near the square require specialized roofing approaches that preserve architectural character while providing modern protection. We work with historic preservation guidelines and neighborhood standards. \u2022 Historic preservation compliance \u2022 Period-appropriate material selection \u2022 Architectural review board coordination \u2022 Heritage district requirements \u2022 Downtown commercial integration"
+      },
+      {
+        "heading": "Canyon Community Involvement",
+        "words": 43,
+        "score": 0,
+        "text": "University Partnerships Active collaboration with WTAMU research programs and support for university community initiatives. Historic Preservation Dedicated support for Canyon's historic downtown preservation and architectural heritage maintenance. Arts Community Proud sponsors of Palo Duro Canyon outdoor musical productions and local cultural events."
+      },
+      {
+        "heading": "University Standard Compliance",
+        "words": 43,
+        "score": -1,
+        "text": "Properties near campus often must meet enhanced aesthetic and performance standards. We provide roofing systems that complement the university environment while delivering superior protection. Aesthetic Integration: Campus-appropriate colors Noise Reduction: Sound-dampening materials Low Maintenance: Academic calendar friendly Longevity: Extended warranty options"
+      },
+      {
+        "heading": "Student & Young Professional Financing",
+        "words": 48,
+        "score": 0,
+        "text": "Canyon's university environment attracts graduate students, young faculty, and early-career professionals who need accessible financing options that work with academic timelines and variable income patterns. \u2022 Graduate student financing programs \u2022 Academic year payment plans \u2022 First-time homeowner assistance \u2022 Educator and student discounts \u2022 Deferred payment options during summer"
+      }
+    ]
+  },
+  {
+    "path": "app/commercial-roofing/page.tsx",
+    "low_total": 7,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "Commercial Projects We've Completed",
+        "words": 23,
+        "score": 0,
+        "text": "We've installed and repaired commercial roofing systems across West Texas for businesses of all types. Here are some examples of our work:"
+      },
+      {
+        "heading": "Commercial Properties We Serve",
+        "words": 35,
+        "score": 0,
+        "text": "From small retail shops to large industrial warehouses, we provide expert commercial roofing services for all property types across West Texas : Retail Buildings Warehouses Office Buildings Restaurants Hotels & Motels Apartment Complexes Manufacturing Facilities Churches & Schools"
+      },
+      {
+        "heading": "Will insurance cover commercial roof hail damage?",
+        "words": 44,
+        "score": 0,
+        "text": "Most commercial property insurance policies cover hail damage roof replacement, minus your deductible. We provide comprehensive damage documentation including drone aerial photos, infrared moisture scans, and detailed reports that insurance adjusters require. Our team has achieved a . Contact us for a free damage assessment ."
+      }
+    ]
+  },
+  {
+    "path": "app/tpo-roofing-lubbock/page.tsx",
+    "low_total": 4,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "Commercial Buildings",
+        "words": 45,
+        "score": -1,
+        "text": "University and educational facilities Agricultural processing plants Cotton gins and warehouses Wind energy facilities Hospital and medical centers Retail centers and malls Manufacturing and industrial Office buildings and headquarters Government and municipal facilities Distribution and logistics centers Aviation and aerospace facilities Food processing and storage"
+      },
+      {
+        "heading": "Final Quality Assurance",
+        "words": 16,
+        "score": -1,
+        "text": "Thorough inspection, testing, and documentation delivery including manufacturer warranties, maintenance guidelines, and our comprehensive workmanship guarantee."
+      },
+      {
+        "heading": "Lubbock Metro",
+        "words": 17,
+        "score": 0,
+        "text": "\u2022 Downtown Lubbock \u2022 Texas Tech Campus \u2022 Medical District \u2022 West Lubbock \u2022 Southwest Lubbock \u2022 Tech Terrace \u2022 Monterey \u2022 Slide Road Corridor"
+      }
+    ]
+  },
+  {
+    "path": "app/hail-damage-repair-levelland/page.tsx",
+    "low_total": 2,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Scientific Documentation Methods",
+        "words": 75,
+        "score": 0,
+        "text": "\u2022 Meteorological Correlation: Matching damage patterns with National Weather Service storm reports and radar data \u2022 Wind Speed Calculation: Using debris trajectory analysis to determine actual wind speeds during impact \u2022 Hail Stone Sizing: Physical evidence collection and measurement for insurance verification \u2022 Photogrammetric Analysis: Using drone photography for precise damage measurement and documentation \u2022 Thermal Imaging Assessment: Detecting moisture intrusion and hidden damage not visible to naked eye \u2022 Load Path Evaluation: Structural integrity assessment for code compliance and safet"
+      },
+      {
+        "heading": "Specialized Damage Advocacy",
+        "words": 55,
+        "score": 0,
+        "text": "Bow Echo Pattern Recognition Expertise in documenting unique damage signatures from straight-line wind events Meteorological Correlation Linking property damage to specific National Weather Service reports and radar data Code Upgrade Maximization Ensuring coverage for enhanced wind resistance and current building standards Adjuster Technical Education Professional presentation of complex storm dynamics and resulting damage patterns"
+      }
+    ]
+  },
+  {
+    "path": "app/roof-inspections-canyon/page.tsx",
+    "low_total": 2,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "University District Building Considerations",
+        "words": 78,
+        "score": 0,
+        "text": "Academic Building Assessment Multi-Story Wind Exposure \u2022 Height-velocity wind pressure increases \u2022 Building wake turbulence effects \u2022 Corner acceleration zones \u2022 Roof edge uplift concentrations Complex Roofline Challenges \u2022 Multiple level transitions \u2022 HVAC equipment integration \u2022 Accessibility and safety access \u2022 Drainage coordination complexity Residential Property Variations Historic Home Considerations \u2022 Original material preservation requirements \u2022 Structural integrity with age \u2022 Code compliance modernization \u2022 Energy efficiency upgrade options Student Housing Demands \u2022 High-traffic wear "
+      },
+      {
+        "heading": "Specialized Claim Support for Canyon",
+        "words": 48,
+        "score": 0,
+        "text": "Geographic Expert Testimony \u2022 Canyon microclimate expertise \u2022 Topographic weather enhancement documentation \u2022 University district building knowledge \u2022 Historic preservation compliance \u2022 Local weather station data correlation Enhanced Documentation Services \u2022 3D mapping of canyon wind effects \u2022 Thermal imaging of elevation effects \u2022 Weather station data integration \u2022 University facility standards compliance \u2022 Multi-building damage correlation"
+      }
+    ]
+  },
+  {
+    "path": "app/borger-texas-roofing/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Roofing Services in Borger",
+        "words": 22,
+        "score": 0,
+        "text": "We provide a full range of residential and commercial roofing services throughout Borger and Hutchinson County. Select a service below for details."
+      }
+    ]
+  },
+  {
+    "path": "app/midland-tx-roofing/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Roofing Services in Midland",
+        "words": 22,
+        "score": 0,
+        "text": "We provide a full range of residential and commercial roofing services throughout Midland and Midland County. Select a service below for details."
+      }
+    ]
+  },
+  {
+    "path": "app/storm-damage-repair-monahans/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Desert Climate Damage Patterns",
+        "words": 52,
+        "score": 0,
+        "text": "Thermal Stress Damage \u2022 Extreme temperature cycling cracking \u2022 UV-accelerated material degradation \u2022 Thermal expansion joint failure \u2022 Membrane shrinkage and splitting Environmental Erosion \u2022 Sand abrasion surface damage \u2022 Granule loss acceleration \u2022 Metal surface corrosion \u2022 Drainage system clogging Storm Impact Damage \u2022 Large hail puncture damage \u2022 High wind membrane lifting \u2022 Flash flood water infiltration \u2022 Industrial equipment impact"
+      }
+    ]
+  }
+]

@@ -285,10 +285,11 @@ export default function TPORoofingSnyderPage() {
                   Agricultural Industry Solutions
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Scurry County's agricultural operations require roofing systems that resist
-                  chemical fertilizers, livestock odors, and equipment vibrations. TPO's chemical
-                  resistance and easy cleaning make it ideal for grain storage, livestock
-                  facilities, and agricultural processing buildings.
+                  Scurry County cattle operations, cotton gins, and grain storage facilities
+                  put roofs in regular contact with ammonia from livestock, fertilizer dust,
+                  and vibration from harvest equipment. Carlisle and Firestone TPO membranes
+                  resist those chemical exposures and rinse clean with a pressure washer,
+                  which is why they perform well on Snyder-area ag buildings.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -353,9 +354,11 @@ export default function TPORoofingSnyderPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Intense UV Radiation</h3>
                 <p className="text-gray-700">
-                  High elevation and clear skies mean intense UV exposure year-round. TPO's advanced
-                  UV stabilizers and reflective surface prevent degradation while reducing cooling
-                  costs by reflecting harmful solar radiation away from buildings.
+                  Snyder sits at the western edge of the Rolling Plains, where clear skies
+                  put roofs under steady UV exposure year-round. The UV stabilizers in
+                  Carlisle and Firestone TPO formulations slow surface chalking, and the
+                  reflective white surface meets ENERGY STAR cool-roof criteria for utility
+                  rebate eligibility on commercial buildings.
                 </p>
               </div>
             </div>
@@ -464,10 +467,11 @@ export default function TPORoofingSnyderPage() {
                     Simplified Maintenance Programs
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Agricultural operations need low-maintenance roofing solutions. Our TPO
-                    installations include easy-access maintenance points, simplified drainage
-                    systems, and detailed maintenance schedules designed for busy agricultural
-                    managers with limited time for building maintenance.
+                    A working cotton gin or feedlot in Scurry County does not have time for
+                    quarterly roof punch lists. Our TPO installs put walk pads at every
+                    rooftop unit, scuppers and primary drains in the same locations year over
+                    year, and a once-a-year inspection schedule that fits between harvest
+                    seasons. The manufacturer warranty stays valid as long as the schedule is kept.
                   </p>
                 </div>
               </div>

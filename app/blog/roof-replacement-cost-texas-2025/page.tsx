@@ -174,8 +174,12 @@ export default function RoofReplacementCostBlogPage() {
               <h2>Cost Per Square Foot: The Roofing Industry Standard</h2>
 
               <p>
-                Roofing contractors typically price jobs by the "square" (100 square feet).
-                Understanding this helps you evaluate quotes accurately:
+                Roofing contractors in Amarillo, Lubbock, Midland, and across Texas price jobs
+                by the &quot;square,&quot; which equals 100 square feet of roof surface. A
+                typical 2,000 sq ft Amarillo home has somewhere between 20 and 25 squares of
+                actual roof area once hips, valleys, and overhangs are measured. Knowing that
+                number lets you compare two quotes for the same material on the same roof
+                without getting tripped up on different bid formats.
               </p>
 
               <h3>Average Cost Per Square in Texas (2025):</h3>
@@ -477,24 +481,22 @@ export default function RoofReplacementCostBlogPage() {
 
               <h3>What a Proper Quote Should Include:</h3>
               <ul>
-                <li>Detailed measurements (actual roof square footage)</li>
-                <li>Material specifications (brand, model, color)</li>
-                <li>Scope of work (tear-off, disposal, installation, cleanup)</li>
-                <li>Warranty information (manufacturer and workmanship)</li>
-                <li>Payment schedule</li>
-                <li>Estimated timeline</li>
-                <li>Itemized pricing (or at minimum, per-square pricing)</li>
+                <li>Measured roof square footage with a slope diagram, not just home square footage</li>
+                <li>Material specifications by manufacturer and product line (GAF Timberline HDZ, Owens Corning Duration, CertainTeed Landmark)</li>
+                <li>Full scope: tear-off, dump fees, decking inspection, underlayment, ice-water shield, flashing, installation, and cleanup</li>
+                <li>Manufacturer material warranty plus the contractor&apos;s workmanship warranty in writing</li>
+                <li>Payment schedule keyed to milestones (deposit, dried-in, final) under the Texas Prompt Payment Act</li>
+                <li>Estimated timeline with weather contingency for the West Texas storm season</li>
+                <li>Itemized pricing, or at minimum per-square pricing that can be compared across bids</li>
               </ul>
 
               <h3>Red Flags in Quotes:</h3>
               <ul>
-                <li>Vague descriptions like "standard installation"</li>
-                <li>No warranty information</li>
-                <li>Requires large deposit (&gt;30%) upfront</li>
-                <li>Pressure to sign immediately</li>
-                <li>
-                  Significantly lower than other quotes (often cut corners or use subpar materials)
-                </li>
+                <li>Vague descriptions like &quot;standard installation&quot; with no material brand or model named</li>
+                <li>No warranty information from the manufacturer or the contractor</li>
+                <li>Large deposit demand above 30% before any material is delivered to your Amarillo or Lubbock home</li>
+                <li>Pressure to sign on the first visit, especially after a hailstorm when storm chasers are working the neighborhood</li>
+                <li>Bid dramatically lower than three other quotes, which usually means cheap underlayment, four-nail patterns instead of six, or a layover instead of full tear-off</li>
               </ul>
 
               <h2>Texas-Specific Roofing Cost Considerations</h2>
@@ -573,16 +575,15 @@ export default function RoofReplacementCostBlogPage() {
 
               <h3>When is the best time of year to replace a roof in Texas?</h3>
               <p>
-                <strong>Fall (September-November) and Spring (March-May)</strong> are ideal:
+                <strong>Fall (September through November) and spring (March through May)</strong> are the easiest windows in Amarillo and across West Texas:
               </p>
               <ul>
-                <li>Moderate temperatures (better for shingle installation)</li>
-                <li>Less rain than summer</li>
-                <li>Not freezing (winter can complicate installation)</li>
+                <li>Daytime temperatures sit in a range where asphalt shingle seal strips activate properly without softening</li>
+                <li>Lower rain frequency than the late summer monsoon pattern across the Panhandle and Permian Basin</li>
+                <li>Above freezing on the deck, which avoids brittle shingles and slippery underlayment</li>
               </ul>
               <p>
-                However, emergency replacements contact us instead for perfect weather. Professional
-                contractors can work safely year-round.
+                That said, emergency replacements after a hailstorm do not wait for perfect weather. Our crews replace storm-damaged roofs in Amarillo, Lubbock, and Midland year-round, adjusting installation pace and sealing techniques to match the conditions on the day.
               </p>
 
               <div className="bg-gray-800 text-white p-8 rounded-lg my-8">

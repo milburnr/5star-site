@@ -239,10 +239,10 @@ export default function RoofRepairLubbockPage() {
                   University District Challenges
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Tech Terrace: 1950s-1970s homes with original composition shingles</li>
-                  <li>• Student rentals with deferred maintenance issues</li>
-                  <li>• North Overton: Dense housing with access challenges</li>
-                  <li>• Medical District: Professional buildings requiring specialized care</li>
+                  <li>• Tech Terrace: 1950s-1970s brick homes with original 3-tab asphalt shingles, often missing modern ridge ventilation</li>
+                  <li>• Student rental properties around Texas Tech with backlogged maintenance, where small leaks have sat through several seasons</li>
+                  <li>• North Overton: dense infill housing with tight setbacks and limited ladder access along the alleys</li>
+                  <li>• Medical District near UMC: professional buildings on Indiana Avenue requiring scheduled work around clinic hours</li>
                 </ul>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl">
@@ -250,10 +250,10 @@ export default function RoofRepairLubbockPage() {
                   South Plains Environmental Damage
                 </h3>
                 <ul className="text-gray-700 space-y-2">
-                  <li>• Dust storm abrasion stripping shingle granules</li>
-                  <li>• Constant wind stress with no terrain protection</li>
-                  <li>• Supercell damage from rotating storms</li>
-                  <li>• Extreme UV exposure on flat landscape</li>
+                  <li>• Haboob dust storms off the Llano Estacado stripping granules from asphalt shingles</li>
+                  <li>• Constant prevailing southwest wind with no terrain or tree cover to slow gusts</li>
+                  <li>• Spring supercells along the South Plains driving rain sideways under flashing</li>
+                  <li>• Open-sky UV exposure that ages standard asphalt faster than in shaded Texas markets</li>
                 </ul>
               </div>
             </div>
@@ -273,32 +273,32 @@ export default function RoofRepairLubbockPage() {
             <div className="grid lg:grid-cols-3 gap-6">
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">University Area</h3>
-                <p className="text-gray-600 mb-4">Historic neighborhoods near Texas Tech campus</p>
+                <p className="text-gray-600 mb-4">Historic neighborhoods near the Texas Tech campus, mostly built before the 1980s</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Tech Terrace - 1950s brick homes, student rentals</li>
-                  <li>• North Overton - Dense housing, accessibility challenges</li>
-                  <li>• South Overton - Mixed residential, aging roof systems</li>
-                  <li>• Maxey Park Area - Medical district professionals</li>
+                  <li>• Tech Terrace: 1950s brick homes south of campus, often with original deck and limited ridge venting</li>
+                  <li>• North Overton: dense infill near downtown with narrow alley access for tear-offs</li>
+                  <li>• South Overton: mixed owner-occupied and rental stock, many roofs in their second or third asphalt cycle</li>
+                  <li>• Maxey Park area near UMC: professional homes built mid-century, frequent valley and chimney flashing work</li>
                 </ul>
               </div>
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Southwest Lubbock</h3>
-                <p className="text-gray-600 mb-4">1980s-2000s family neighborhoods</p>
+                <p className="text-gray-600 mb-4">1980s-2000s family neighborhoods running south and west of Loop 289</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Shadow Hills - Executive homes, complex rooflines</li>
-                  <li>• Oakwood - 1980s construction, architectural shingles</li>
-                  <li>• Westridge - Suburban development, standard maintenance</li>
-                  <li>• Caprock - Higher elevation, wind exposure</li>
+                  <li>• Shadow Hills: larger executive homes with hips, valleys, and multiple dormers that complicate hail inspections</li>
+                  <li>• Oakwood: late-1980s construction, much of it now on its second architectural asphalt roof</li>
+                  <li>• Westridge: suburban tracts where annual maintenance keeps original systems serviceable</li>
+                  <li>• Caprock: elevated lots that catch the full force of South Plains wind off the open prairie</li>
                 </ul>
               </div>
               <div className="border border-gray-200 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Newer Developments</h3>
-                <p className="text-gray-600 mb-4">2000s+ communities with modern systems</p>
+                <p className="text-gray-600 mb-4">2000s-and-newer communities built with modern decking, synthetic underlayment, and balanced ventilation</p>
                 <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• The Reserve - Luxury homes, premium materials</li>
-                  <li>• Vintage Township - Energy-efficient construction</li>
-                  <li>• Stone Gate - Golf course community</li>
-                  <li>• Kelsey Park - Contemporary designs, metal roofing</li>
+                  <li>• The Reserve: luxury homes spec&apos;d with Class 4 impact shingles or standing seam metal</li>
+                  <li>• Vintage Township: walkable, energy-conscious construction with ENERGY STAR cool-roof options on many homes</li>
+                  <li>• Stone Gate: golf course community where wind-rated ridge caps matter on exposed fairway-facing lots</li>
+                  <li>• Kelsey Park: contemporary architecture, many homes finished with standing seam metal in earth tones</li>
                 </ul>
               </div>
             </div>
@@ -317,8 +317,7 @@ export default function RoofRepairLubbockPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Dust Damage Assessment</h3>
                 <p className="text-gray-700">
-                  Specialized inspection for granule loss from haboob sandblasting, gutter clogging,
-                  and accelerated UV degradation unique to South Plains conditions.
+                  We measure granule loss after haboob events, check downspouts and gutter throats for fine Llano Estacado dust, and inspect ridge caps and south-facing slopes for UV damage that hits Lubbock harder than shaded markets to the east.
                 </p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
@@ -327,8 +326,7 @@ export default function RoofRepairLubbockPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Wind Uplift Analysis</h3>
                 <p className="text-gray-700">
-                  Comprehensive evaluation of wind damage in areas with no terrain protection,
-                  focusing on shingle tab lifting and fastener failure patterns.
+                  On open South Plains lots, we map tab lifting along windward eaves, check nail withdrawal at ridge caps, and look for fastener fatigue patterns typical of homes that take prevailing southwest gusts year-round.
                 </p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
@@ -339,8 +337,7 @@ export default function RoofRepairLubbockPage() {
                   University District Expertise
                 </h3>
                 <p className="text-gray-700">
-                  Specialized knowledge of Tech Terrace and student housing challenges, including
-                  deferred maintenance issues and rental property requirements.
+                  We work daily in Tech Terrace and the Overton corridor, so we know the common 1950s deck issues, the deferred maintenance patterns on student rentals, and how to coordinate with property managers around academic-year tenants.
                 </p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
@@ -368,23 +365,19 @@ export default function RoofRepairLubbockPage() {
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Dust Storm Abrasion:</strong> Granule loss from windborne particles
-                    reducing shingle protection
+                    <strong>Haboob Abrasion:</strong> windborne Llano Estacado dust strips ceramic granules from asphalt shingles, exposing the asphalt mat to UV
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Supercell Wind Damage:</strong> Tab lifting and fastener failure from
-                    60+ mph gusts
+                    <strong>Supercell Wind Damage:</strong> 60-77 mph gusts lift shingle tabs and cause nail withdrawal along ridges and rakes
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Gutter Clogging:</strong> Fine dust accumulation creating drainage
-                    issues
+                    <strong>Gutter Clogging:</strong> fine dust packs into gutter throats and downspout elbows, sending water back under the drip edge
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Accelerated UV Aging:</strong> Rapid deterioration on flat, exposed
-                    landscape
+                    <strong>Accelerated UV Aging:</strong> open South Plains exposure cooks south- and west-facing slopes faster than shaded markets
                   </li>
                 </ul>
               </div>
@@ -393,22 +386,19 @@ export default function RoofRepairLubbockPage() {
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Tech Terrace Ventilation:</strong> Inadequate airflow in 1950s-1970s
-                    construction
+                    <strong>Tech Terrace Ventilation:</strong> 1950s-1970s homes often lack continuous ridge or soffit vents, trapping attic heat and aging shingles from below
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Student Property Neglect:</strong> Deferred maintenance in rental
-                    properties
+                    <strong>Student Rental Neglect:</strong> small leaks left for one or two academic years quietly rot decking around vent pipes and chimneys
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>1980s Shingle Failure:</strong> Original materials reaching end of life
+                    <strong>1980s Shingle Failure:</strong> the city&apos;s median home year is 1983, and many original 20-year asphalt roofs are well past their service life
                   </li>
                   <li className="flex items-start">
                     <span className="text-brand-gold mr-2">•</span>
-                    <strong>Flashing Deterioration:</strong> Wind-driven rain penetration around
-                    penetrations
+                    <strong>Flashing Deterioration:</strong> wind-driven rain off the open prairie finds its way through aged step flashing on chimneys, dormers, and skylights
                   </li>
                 </ul>
               </div>
@@ -458,17 +448,16 @@ export default function RoofRepairLubbockPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>
-                    • University area properties may require additional safety measures increasing
-                    costs
+                    • University-area work near Texas Tech often needs pedestrian barricades and reduced-hour scheduling, which adds labor cost
                   </li>
                   <li>
-                    • Spring storm season creates high demand and potential material shortages
+                    • Peak hail season runs March through June. Demand spikes and Class 4 shingle stock can run thin at regional supply houses
                   </li>
                   <li>
-                    • Tech Terrace historic properties may need specialized restoration techniques
+                    • Tech Terrace homes built in the 1950s and 1960s may need color-matched architectural shingles to preserve the original streetscape
                   </li>
                   <li>
-                    • Metal roofing gaining popularity due to superior wind and dust resistance
+                    • Standing seam metal is gaining popularity in Lubbock because it shrugs off both haboob abrasion and sustained wind better than 3-tab asphalt
                   </li>
                 </ul>
               </div>
@@ -602,7 +591,7 @@ export default function RoofRepairLubbockPage() {
                     <div>
                       <h4 className="font-semibold">Enhanced Granule Protection</h4>
                       <p className="text-gray-600">
-                        Heavy-duty granule adhesion treatments to resist sandblasting effects
+                        Premium asphalt shingles with tightly bonded ceramic granules from manufacturers like GAF and Owens Corning hold up better against South Plains dust abrasion than standard 3-tab products.
                       </p>
                     </div>
                   </div>
@@ -623,7 +612,7 @@ export default function RoofRepairLubbockPage() {
                     <div>
                       <h4 className="font-semibold">Advanced Gutter Guards</h4>
                       <p className="text-gray-600">
-                        Fine-mesh systems designed to filter dust while allowing water flow
+                        Fine-mesh stainless guards keep windblown dust and grit out of gutter throats while still passing the heavy spring rain that follows Lubbock storms.
                       </p>
                     </div>
                   </div>
@@ -644,8 +633,7 @@ export default function RoofRepairLubbockPage() {
                     <div>
                       <h4 className="font-semibold">Sealed Penetrations</h4>
                       <p className="text-gray-600">
-                        Special sealants that prevent fine particle infiltration around vents and
-                        flashing
+                        Polyurethane and ASTM-rated sealants around plumbing boots, B-vents, and step flashing block the fine particulate that haboob winds push under loose laps.
                       </p>
                     </div>
                   </div>
@@ -670,7 +658,7 @@ export default function RoofRepairLubbockPage() {
                     <div>
                       <h4 className="font-semibold">Enhanced Fastening Patterns</h4>
                       <p className="text-gray-600">
-                        High-wind zone fastening designed for constant wind stress
+                        Six-nail high-wind nailing patterns and UL 580 wind-rated assemblies hold up to sustained prevailing winds across the open South Plains better than standard four-nail layouts.
                       </p>
                     </div>
                   </div>
@@ -691,7 +679,7 @@ export default function RoofRepairLubbockPage() {
                     <div>
                       <h4 className="font-semibold">Tab Reinforcement</h4>
                       <p className="text-gray-600">
-                        Additional adhesive strips to prevent uplift from sustained winds
+                        Hand-sealed asphalt cement on starter courses, rake edges, and exposed tabs prevents the gradual lift that 60+ mph supercell gusts cause across Lubbock County roofs.
                       </p>
                     </div>
                   </div>
@@ -712,7 +700,7 @@ export default function RoofRepairLubbockPage() {
                     <div>
                       <h4 className="font-semibold">Ridge Cap Reinforcement</h4>
                       <p className="text-gray-600">
-                        Mechanical fastening systems for critical ridge areas
+                        Mechanically attached hip and ridge caps with longer ring-shank nails hold the most wind-exposed line on the roof, where Lubbock failures usually start.
                       </p>
                     </div>
                   </div>
@@ -741,29 +729,25 @@ export default function RoofRepairLubbockPage() {
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Deferred Maintenance Assessment</h4>
                     <p className="text-gray-700 text-sm">
-                      Comprehensive inspection protocols for properties with potential maintenance
-                      neglect, focusing on hidden damage and safety concerns
+                      We lift shingles around vent pipes, chimneys, and valleys on Overton and Tech Terrace rentals to find the hidden deck rot that years of small leaks leave behind.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Preventive Maintenance Programs</h4>
                     <p className="text-gray-700 text-sm">
-                      Annual inspection and maintenance schedules designed to prevent costly storm
-                      repairs during peak rental periods
+                      Annual inspections timed to spring break or summer turnover catch supercell damage before fall move-in, when scheduling around tenants gets hard.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Landlord Liaison Services</h4>
                     <p className="text-gray-700 text-sm">
-                      Direct communication with property managers to coordinate repairs around
-                      tenant schedules and academic calendars
+                      We coordinate directly with Lubbock property managers and absentee owners, working repairs around academic calendars and tenant lease cycles instead of around them.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Student-Safe Work Practices</h4>
                     <p className="text-gray-700 text-sm">
-                      Enhanced safety protocols for work around occupied student housing with
-                      irregular schedules
+                      Crews keep ground zones clear during tear-offs around occupied student housing, with morning starts that respect late student schedules and walk-up traffic from campus.
                     </p>
                   </div>
                 </div>
@@ -777,29 +761,25 @@ export default function RoofRepairLubbockPage() {
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Period-Appropriate Materials</h4>
                     <p className="text-gray-700 text-sm">
-                      Sourcing materials that match 1950s-1970s architectural integrity while
-                      meeting modern performance standards
+                      Architectural asphalt shingles in weathered wood and slate colors keep the Tech Terrace streetscape consistent while bringing the roof up to modern UL 2218 Class 4 impact ratings.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Structural Reinforcement</h4>
                     <p className="text-gray-700 text-sm">
-                      Upgrading aging roof systems to handle modern wind loads while preserving
-                      historic character
+                      We replace soft 1×6 board decking with structural sheathing where needed and add hurricane clips on rafters, so the roof meets current wind-load expectations.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Ventilation Improvements</h4>
                     <p className="text-gray-700 text-sm">
-                      Adding modern ventilation systems to homes with inadequate original airflow
-                      designs
+                      Adding continuous ridge vents and soffit intake on Tech Terrace homes fixes the trapped attic heat that ages 1950s-era roof decks from below.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Energy Efficiency Upgrades</h4>
                     <p className="text-gray-700 text-sm">
-                      Incorporating modern insulation and radiant barriers while maintaining
-                      historic aesthetics
+                      Radiant barrier underlayment and ENERGY STAR cool-roof shingle options cut AC load through the long Lubbock summer without disturbing the historic look.
                     </p>
                   </div>
                 </div>
@@ -864,21 +844,21 @@ export default function RoofRepairLubbockPage() {
                 </h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="border-l-4 border-red-500 pl-4">
-                    <h4 className="font-bold text-red-800">Standard Asphalt Shingles</h4>
+                    <h4 className="font-bold text-red-800">Basic 3-Tab Asphalt Shingles</h4>
                     <p className="text-gray-700 text-sm">
-                      Poor granule adhesion, rapid dust accumulation compromise
+                      Loose granule adhesion gives up quickly under haboob abrasion and rarely makes it past 12-15 years on a Lubbock home.
                     </p>
                   </div>
                   <div className="border-l-4 border-orange-500 pl-4">
-                    <h4 className="font-bold text-orange-800">Untreated Wood Products</h4>
+                    <h4 className="font-bold text-orange-800">Untreated Wood Shakes</h4>
                     <p className="text-gray-700 text-sm">
-                      Susceptible to dust infiltration and moisture issues
+                      Fine South Plains dust packs into the grain and traps moisture against the wood, accelerating cupping and rot.
                     </p>
                   </div>
                   <div className="border-l-4 border-yellow-500 pl-4">
-                    <h4 className="font-bold text-yellow-800">Light-Colored Surfaces</h4>
+                    <h4 className="font-bold text-yellow-800">Stark White or Light Surfaces</h4>
                     <p className="text-gray-700 text-sm">
-                      Show dust accumulation, require frequent maintenance
+                      Visible dust film shows on every breezy day in Lubbock and forces more frequent cleaning than weathered or earth-tone finishes.
                     </p>
                   </div>
                 </div>
@@ -905,21 +885,21 @@ export default function RoofRepairLubbockPage() {
                   <div>
                     <h4 className="font-bold mb-3 text-gray-800">Dust Damage Evaluation</h4>
                     <ul className="text-gray-700 space-y-2">
-                      <li>• Granule loss mapping and quantification</li>
-                      <li>• Gutter and downspout blockage assessment</li>
-                      <li>• Ventilation system dust infiltration check</li>
-                      <li>• UV degradation accelerated by dust accumulation</li>
-                      <li>• Sealant integrity around all penetrations</li>
+                      <li>• Granule loss mapped slope by slope, with samples pulled from gutters and downspouts</li>
+                      <li>• Gutter throat and downspout elbow inspection for packed Llano Estacado dust</li>
+                      <li>• Attic intake checked for fine particulate buildup that chokes ventilation airflow</li>
+                      <li>• South- and west-facing slopes inspected for UV blistering on dust-stripped areas</li>
+                      <li>• Sealant condition checked at all plumbing boots, B-vents, and chimney flashing</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold mb-3 text-gray-800">Wind Stress Analysis</h4>
                     <ul className="text-gray-700 space-y-2">
-                      <li>• Shingle tab lifting patterns from prevailing winds</li>
-                      <li>• Fastener fatigue from constant wind cycling</li>
-                      <li>• Ridge cap integrity in high-exposure areas</li>
-                      <li>• Flashing movement from thermal cycling</li>
-                      <li>• Structural load assessment for upgrades</li>
+                      <li>• Tab lifting patterns mapped along windward eaves and rakes facing prevailing southwest winds</li>
+                      <li>• Nail withdrawal and fastener fatigue checked across ridge caps and exposed-edge courses</li>
+                      <li>• Ridge cap shingles probed for adhesion loss in the most wind-exposed line of the roof</li>
+                      <li>• Step and counter flashing checked for movement caused by daily thermal cycling on the South Plains</li>
+                      <li>• Decking and rafter connections evaluated against current UL 580 wind-uplift expectations</li>
                     </ul>
                   </div>
                 </div>
@@ -933,20 +913,19 @@ export default function RoofRepairLubbockPage() {
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2 text-green-700">Dust-Resistant Materials</h4>
                     <p className="text-gray-600 text-sm">
-                      Enhanced granule adhesion, smooth surface finishes, and anti-static treatments
+                      Architectural shingles with tightly bonded ceramic granules and standing seam metal panels handle haboob abrasion better than smooth or loosely surfaced products.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2 text-brand-brown">Wind-Rated Components</h4>
                     <p className="text-gray-600 text-sm">
-                      All materials tested for 90+ mph sustained winds with enhanced fastening
-                      systems
+                      Shingles, ridge caps, and ridge vents rated to UL 580 wind-uplift standards with high-wind fastening patterns suited to open South Plains exposure.
                     </p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2 text-brand-brown">UV-Resistant Systems</h4>
                     <p className="text-gray-600 text-sm">
-                      Premium UV inhibitors and reflective coatings for high-altitude sun exposure
+                      ENERGY STAR cool-roof shingles and reflective Kynar-finished metal panels slow the UV breakdown that hits south- and west-facing Lubbock slopes hardest.
                     </p>
                   </div>
                 </div>
@@ -972,8 +951,7 @@ export default function RoofRepairLubbockPage() {
                         Enhanced Dust Protection Installation
                       </h4>
                       <p className="text-gray-700">
-                        Specialized installation techniques including sealed penetrations, enhanced
-                        flashing systems, and dust-resistant ventilation upgrades
+                        Hand-sealed plumbing boots and B-vents, step flashing tied into peel-and-stick underlayment at chimneys and dormers, and ridge vents with weather baffles that resist windblown South Plains dust.
                       </p>
                     </div>
                   </div>
@@ -990,8 +968,7 @@ export default function RoofRepairLubbockPage() {
                     <div>
                       <h4 className="font-bold text-gray-800">High-Wind Zone Fastening</h4>
                       <p className="text-gray-700">
-                        Increased fastener density, mechanical attachment systems, and
-                        wind-resistant edge details designed for constant wind exposure
+                        Six-nail high-wind nailing on every shingle, mechanically attached hip and ridge caps, and metal drip edge with sealed starter courses along rake edges that take the brunt of prevailing wind.
                       </p>
                     </div>
                   </div>
@@ -1008,8 +985,7 @@ export default function RoofRepairLubbockPage() {
                     <div>
                       <h4 className="font-bold text-gray-800">University District Coordination</h4>
                       <p className="text-gray-700">
-                        Special scheduling and safety protocols for work around student housing,
-                        academic schedules, and landlord requirements
+                        Around Tech Terrace and the Overton corridor we schedule around final exams, move-in weekends, and landlord-tenant access rules, with ground crews on debris control to keep walkways clear.
                       </p>
                     </div>
                   </div>
@@ -1038,20 +1014,19 @@ export default function RoofRepairLubbockPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Granule Loss Assessment</h4>
                     <p className="text-gray-600 text-sm">
-                      Before/after photography and granule density measurements to prove dust storm
-                      impact
+                      Slope-by-slope photography and granule samples pulled from gutters give adjusters a measurable record of haboob impact on Lubbock asphalt shingles.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Accelerated Aging Evidence</h4>
                     <p className="text-gray-600 text-sm">
-                      Documentation of premature aging caused by constant dust exposure and abrasion
+                      We document UV blistering and mat exposure on stripped sections so the claim file shows premature wear caused by South Plains dust events, not normal aging.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">System Infiltration Proof</h4>
                     <p className="text-gray-600 text-sm">
-                      Evidence of dust penetration affecting ventilation systems and interior spaces
+                      Attic and intake-vent photos showing fine windblown dust inside the assembly tie the interior issue back to the storm event for State Farm, Allstate, and Farmers adjusters.
                     </p>
                   </div>
                 </div>
@@ -1063,22 +1038,19 @@ export default function RoofRepairLubbockPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Environmental Damage Expertise</h4>
                     <p className="text-gray-600 text-sm">
-                      Specialized knowledge of how South Plains conditions affect insurance coverage
-                      and claim validity
+                      We know how Lubbock County windstorm and hail coverage applies to dust-driven granule loss, so the documentation matches the policy language adjusters read.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Adjuster Education</h4>
                     <p className="text-gray-600 text-sm">
-                      Helping adjusters understand unique regional damage patterns not seen in other
-                      climate zones
+                      Out-of-state adjusters from carriers like USAA or Farmers often haven&apos;t seen haboob abrasion before. We walk the roof with them and explain what they&apos;re looking at.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Supplemental Documentation</h4>
                     <p className="text-gray-600 text-sm">
-                      Additional evidence gathering to support coverage for environment-related
-                      damage
+                      When the initial scope misses dust-related damage, we pull moisture readings, drone imagery, and material samples to support a supplemental claim with the carrier.
                     </p>
                   </div>
                 </div>

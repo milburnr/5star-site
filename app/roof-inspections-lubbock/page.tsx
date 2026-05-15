@@ -315,24 +315,19 @@ export default function RoofInspectionsLubbockPage() {
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
-                    <strong>Cotton Fiber Buildup:</strong> Removal needs and filtration system
-                    impacts during harvest season
+                    <strong>Cotton Fiber Buildup:</strong> Lubbock County cotton gin dust packs into gutters and HVAC condenser coils during October and November harvest
                   </li>
                   <li>
-                    <strong>Pesticide Residue:</strong> Chemical impact on roofing materials and
-                    protective coatings
+                    <strong>Pesticide and Defoliant Residue:</strong> Chemical effects on TPO membrane coatings and asphalt shingle granule adhesion
                   </li>
                   <li>
-                    <strong>Dust Accumulation:</strong> Caliche and agricultural dust effects on
-                    drainage and ventilation
+                    <strong>Caliche Dust Accumulation:</strong> South Plains caliche dust clogs scuppers and ridge vents on Lubbock commercial roofs
                   </li>
                   <li>
-                    <strong>Seasonal Debris:</strong> Assessment of crop-related debris accumulation
-                    patterns
+                    <strong>Seasonal Debris:</strong> Stripped cotton bolls, wheat stubble, and tumbleweed packed against parapet walls and rakes
                   </li>
                   <li>
-                    <strong>Air Quality Impact:</strong> How particulate matter affects material
-                    degradation rates
+                    <strong>Air Quality Impact:</strong> Particulate matter from feedlots and field tillage that accelerates UV breakdown on exposed membranes
                   </li>
                 </ul>
               </div>
@@ -632,9 +627,10 @@ export default function RoofInspectionsLubbockPage() {
                   Weather Correlation Systems
                 </h3>
                 <p className="text-gray-700">
-                  Real-time access to Texas Tech's weather monitoring network provides precise storm
-                  timing and intensity data, crucial for correlating damage events with specific
-                  weather occurrences in insurance documentation.
+                  Inspection reports cross-reference NOAA Storm Events data and the Texas Tech
+                  mesonet for Lubbock County. That gives every claim a verifiable storm date,
+                  hail size estimate, and wind speed reading. Adjusters at State Farm, Allstate,
+                  and Texas Farm Bureau can confirm the storm without a phone call.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -645,9 +641,10 @@ export default function RoofInspectionsLubbockPage() {
                   Particulate Analysis
                 </h3>
                 <p className="text-gray-700">
-                  Specialized equipment for analyzing agricultural and dust contamination in roofing
-                  systems. Essential for distinguishing between environmental wear and storm damage
-                  in Lubbock's farming environment.
+                  In Lubbock&apos;s South Plains farming environment, cotton fiber and caliche
+                  dust accumulate on asphalt shingles and TPO membranes year-round. Our
+                  particulate sampling separates that long-term wear from sudden storm damage,
+                  which is the line that decides whether a claim gets paid as a covered peril.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -658,9 +655,10 @@ export default function RoofInspectionsLubbockPage() {
                   Foundation Monitoring
                 </h3>
                 <p className="text-gray-700">
-                  Laser level systems and GPS surveying equipment detect foundation movement and
-                  settlement patterns that affect roof structure integrity - critical in Lubbock's
-                  expansive clay soil conditions.
+                  Lubbock&apos;s expansive clay soils on the South Plains shift through the
+                  wet-dry seasonal cycle, and that movement carries up through the framing.
+                  We use laser levels at the ridge and along the eave to flag slope deflection
+                  that traces back to foundation settlement rather than to a roofing defect.
                 </p>
               </div>
             </div>

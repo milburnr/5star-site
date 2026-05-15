@@ -368,15 +368,17 @@ export default function RoofRepairPampaPage() {
                   Oil & Gas Industry Specialist
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Pampa's economy centers on oil and gas production, with numerous drilling
-                  operations and support facilities throughout Gray County. We specialize in
-                  industrial roofing for energy sector buildings and worker housing.
+                  Pampa sits in the middle of the Texas Panhandle oil and gas patch, with
+                  Cabot Corporation's carbon black plant, active wells across Gray County, and
+                  the support shops that keep them running. We repair TPO and modified bitumen
+                  on those flat-roofed buildings and asphalt shingle systems on the homes that
+                  house the crews.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Oil field facility roofing</li>
-                  <li>• Gas processing plant repairs</li>
-                  <li>• Energy sector housing maintenance</li>
-                  <li>• Industrial equipment shelter roofing</li>
+                  <li>• TPO and modified bitumen repairs on oilfield shop roofs</li>
+                  <li>• Flashing and curb work around gas-plant rooftop equipment</li>
+                  <li>• Shingle and metal repairs on energy-worker homes</li>
+                  <li>• R-panel metal patches on equipment shelters and outbuildings</li>
                 </ul>
               </div>
 
@@ -385,15 +387,16 @@ export default function RoofRepairPampaPage() {
                   Gray County Seat Services
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  As Gray County's county seat, Pampa hosts government buildings, courthouse
-                  facilities, and municipal structures requiring specialized knowledge of public
-                  building codes and institutional roofing requirements.
+                  As the Gray County seat, Pampa houses the courthouse, county offices, and
+                  school district buildings that fall under the city's adopted version of the
+                  IBC and IRC. Public-building work requires prevailing wage compliance and
+                  paperwork that matches what the county wants to see at closeout.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• County courthouse maintenance</li>
-                  <li>• Municipal building repairs</li>
-                  <li>• Government facility roofing</li>
-                  <li>• Public building compliance</li>
+                  <li>• Repairs on Gray County courthouse and annex buildings</li>
+                  <li>• Pampa ISD facility roof patches and flashing work</li>
+                  <li>• Municipal building TPO, EPDM, and modified bitumen repairs</li>
+                  <li>• Code compliance against the city-adopted IBC edition</li>
                 </ul>
               </div>
 
@@ -402,15 +405,16 @@ export default function RoofRepairPampaPage() {
                   Historic Downtown Preservation
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Pampa's historic downtown district reflects its oil boom heritage, requiring
-                  specialized roofing approaches that preserve architectural character while meeting
-                  modern performance standards.
+                  Downtown Pampa still carries its 1920s and 30s oil boom storefronts along
+                  Cuyler and Foster, many with parapet walls and built-up flat roofs. Repairs
+                  on these buildings need modified bitumen or low-slope membranes that perform
+                  like a modern roof but stay invisible from the street.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Historic building restoration</li>
-                  <li>• Period-appropriate materials</li>
-                  <li>• Architectural preservation compliance</li>
-                  <li>• Heritage district requirements</li>
+                  <li>• Modified bitumen and built-up roof repairs behind parapet walls</li>
+                  <li>• Standing seam metal that matches an original profile</li>
+                  <li>• Flashing and coping repairs on brick parapets</li>
+                  <li>• Patches that preserve street-level sightlines downtown</li>
                 </ul>
               </div>
 
@@ -419,13 +423,15 @@ export default function RoofRepairPampaPage() {
                   Energy Worker Community
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Pampa houses energy sector workers and their families in residential neighborhoods
-                  designed around the oil and gas industry's unique scheduling and housing needs.
+                  A lot of Pampa homes are on shift-worker schedules. Crews come off rigs at
+                  odd hours and need sleep during the day. We coordinate roof repairs around
+                  shift changes so a homeowner working overnight on a rig is not woken up by
+                  nail guns at 7 AM.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Energy worker housing repairs</li>
-                  <li>• Family residential services</li>
-                  <li>• Shift schedule accommodation</li>
+                  <li>• Asphalt shingle and Class 4 impact-rated shingle repairs</li>
+                  <li>• Flashing repairs around vents, chimneys, and skylights</li>
+                  <li>• Scheduling around oilfield shift rotations</li>
                 </ul>
               </div>
             </div>
@@ -444,9 +450,9 @@ export default function RoofRepairPampaPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil & Gas Operations</h3>
                 <p className="text-gray-700">
-                  Pampa's location in Gray County places it at the center of significant oil and gas
-                  production, creating industrial environments that demand specialized roofing
-                  solutions for energy sector facilities.
+                  Gray County sits over the Anadarko and Hugoton gas basins. Pampa's industrial
+                  belt around Highway 60 and the old Celanese site exposes flat roofs to airborne
+                  hydrocarbons that age standard TPO faster than in a residential setting.
                 </p>
               </div>
               <div className="text-center">
@@ -455,9 +461,9 @@ export default function RoofRepairPampaPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">County Government</h3>
                 <p className="text-gray-700">
-                  As Gray County's seat, Pampa maintains essential government services and
-                  facilities that require specialized roofing expertise for public buildings and
-                  institutional structures.
+                  The Gray County courthouse, M.K. Brown Auditorium, and Pampa ISD campuses
+                  all require contractors who can produce permits, insurance certificates, and
+                  closeout paperwork that match Pampa's adopted IBC and IRC.
                 </p>
               </div>
               <div className="text-center">
@@ -466,9 +472,9 @@ export default function RoofRepairPampaPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Energy Community</h3>
                 <p className="text-gray-700">
-                  Pampa's residential community primarily serves energy sector workers and their
-                  families, creating unique housing patterns and roofing needs tied to the oil and
-                  gas industry's demands.
+                  Many Pampa neighborhoods house Cabot Corporation and oilfield service crews
+                  whose shift patterns vary widely. Asphalt shingle and Class 4 impact-rated
+                  shingle work is scheduled on a calendar that respects those shifts.
                 </p>
               </div>
             </div>
@@ -563,15 +569,16 @@ export default function RoofRepairPampaPage() {
                       Energy-Grade Material Selection
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      We specify materials designed for industrial environments, including
-                      chemical-resistant coatings and components rated for exposure to hydrocarbons
-                      and other energy sector byproducts.
+                      Around Pampa's gas plants and oilfield service yards, we specify TPO or
+                      PVC membranes from Carlisle or Firestone rated for hydrocarbon contact,
+                      and Class 4 impact-rated asphalt shingles on homes inside the industrial
+                      blast zone where dust and chemical fallout are part of daily life.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Chemical-resistant roofing systems</li>
-                      <li>• Industrial-grade components</li>
-                      <li>• Energy sector specifications</li>
-                      <li>• Enhanced durability materials</li>
+                      <li>• Carlisle or Firestone TPO and PVC where chemicals are in the air</li>
+                      <li>• UL 2218 Class 4 asphalt shingles for hail-rated residential work</li>
+                      <li>• R-panel and standing seam metal for shop and shelter buildings</li>
+                      <li>• Modified bitumen on parapet-wall downtown structures</li>
                     </ul>
                   </div>
                 </div>
@@ -587,15 +594,16 @@ export default function RoofRepairPampaPage() {
                       Industry-Coordinated Installation
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Our installation teams work around energy sector operations, understanding the
-                      critical nature of maintaining facility integrity and worker safety during the
-                      repair process.
+                      On active oil and gas sites in Gray County, we sign in at the facility
+                      gate, complete contractor safety orientation, and stage materials clear
+                      of process areas. Hot work permits and tie-off requirements get handled
+                      before a crew steps on the roof.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Energy facility safety compliance</li>
-                      <li>• Worker safety prioritization</li>
-                      <li>• Industrial operation coordination</li>
-                      <li>• Emergency protocol adherence</li>
+                      <li>• Facility-issued safety orientation and gate sign-in</li>
+                      <li>• OSHA fall protection tied to facility anchor points</li>
+                      <li>• Hot work permits before any torch or welding on the membrane</li>
+                      <li>• Lockout protocols around live process and electrical equipment</li>
                     </ul>
                   </div>
                 </div>
@@ -611,15 +619,16 @@ export default function RoofRepairPampaPage() {
                       Industrial Performance Monitoring
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Given Pampa's industrial environment, we provide enhanced monitoring to ensure
-                      repairs perform as expected under energy sector conditions and chemical
-                      exposure common in the area.
+                      After a repair on a Pampa industrial roof, we schedule a follow-up visit
+                      to look for membrane shrinkage at seams, coating wear from hydrocarbon
+                      fallout, and any drainage issues caused by Panhandle dust collecting on
+                      flat roofs. Photos go in the file with the original repair report.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Industrial environment monitoring</li>
-                      <li>• Chemical exposure tracking</li>
-                      <li>• Energy sector performance verification</li>
-                      <li>• Enhanced warranty programs</li>
+                      <li>• Follow-up inspection on TPO and modified bitumen seam health</li>
+                      <li>• Coating-wear check near gas plant exhaust and flare paths</li>
+                      <li>• Drain and scupper cleanout after dust events on flat roofs</li>
+                      <li>• Manufacturer warranty registration with Carlisle or Firestone</li>
                     </ul>
                   </div>
                 </div>
@@ -656,44 +665,47 @@ export default function RoofRepairPampaPage() {
                   Industrial Environment Solutions
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Our material selection and installation processes account for Pampa's industrial
-                  environment, including exposure to hydrocarbons and chemicals common in oil and
-                  gas operations.
+                  Pampa industrial roofs see hydrocarbons in the air, fine carbon black dust
+                  from the Cabot plant, and Panhandle hail that can hit any building on any
+                  schedule. Our material picks lean on Carlisle and Firestone TPO and PVC for
+                  flat work, with Class 4 impact-rated shingles for residential.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Chemical-resistant material systems</li>
-                  <li>• Industrial contamination resistance</li>
-                  <li>• Energy sector compliance</li>
-                  <li>• Environmental durability testing</li>
+                  <li>• Carlisle and Firestone TPO and PVC for hydrocarbon exposure</li>
+                  <li>• UL 2218 Class 4 shingles to handle Panhandle hail</li>
+                  <li>• Permits and submittals matching Pampa's adopted IBC</li>
+                  <li>• Coating systems verified against manufacturer data sheets</li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Energy Sector Support</h3>
                 <p className="text-gray-700 mb-4">
-                  Energy operations don't follow traditional schedules, and neither do we. Our storm
-                  response accommodates the round-the-clock nature of oil and gas facilities in
-                  Pampa.
+                  Oil and gas facilities in Pampa run nights and weekends. When a Panhandle
+                  hailstorm tears up a membrane on a Sunday morning, the call gets answered
+                  the same day. Our crews stage tarp and patch material out of Amarillo and
+                  run down Highway 60 to Pampa in about an hour.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• Shift schedule accommodation</li>
-                  <li>• Energy facility prioritization</li>
-                  <li>• Industrial safety protocols</li>
+                  <li>• After-hours dispatch for active leaks on facility roofs</li>
+                  <li>• Temporary tarp or membrane patches to stop water until full repair</li>
+                  <li>• Coordination with facility operations for tie-in scheduling</li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Gray County Expertise</h3>
                 <p className="text-gray-700 mb-4">
-                  As the county seat, Pampa requires specialized knowledge of local building codes,
-                  government building requirements, and the unique characteristics of Gray County's
-                  energy economy.
+                  Pampa pulls permits through the city, and Gray County has its own paperwork
+                  for any work on county-owned buildings. We carry the contractor registration,
+                  insurance limits, and lien-release forms that the city, county, and school
+                  district all want to see before final payment.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• County building code compliance</li>
-                  <li>• Government facility expertise</li>
-                  <li>• Municipal building experience</li>
-                  <li>• Local regulation knowledge</li>
+                  <li>• City of Pampa permitting and inspection coordination</li>
+                  <li>• Gray County paperwork for courthouse and county-owned buildings</li>
+                  <li>• Pampa ISD vendor requirements and insurance certificates</li>
+                  <li>• Lien waivers and closeout documents at substantial completion</li>
                 </ul>
               </div>
             </div>

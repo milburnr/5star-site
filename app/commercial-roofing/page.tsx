@@ -364,10 +364,12 @@ export default function Page() {
           running during installation
         </li>
       </ul>
-      <h2 className="text-2xl font-bold mt-12 mb-4">Commercial Projects We've Completed</h2>
+      <h2 className="text-2xl font-bold mt-12 mb-4">Commercial Projects We&apos;ve Completed</h2>
       <p className="mb-4">
-        We've installed and repaired commercial roofing systems across West Texas for businesses of
-        all types. Here are some examples of our work:
+        We&apos;ve installed and repaired TPO, PVC, EPDM, built-up roofing, and standing seam metal
+        systems across West Texas, from Amarillo retail along the I-40 corridor to industrial
+        warehouses in the Permian Basin around Midland and Odessa. A few representative projects
+        are below.
       </p>
       <div className="grid md:grid-cols-3 gap-4 mb-8">
         <div className="bg-white p-6 rounded-lg shadow">
@@ -525,12 +527,14 @@ export default function Page() {
       </div>
       <h2 className="text-2xl font-bold mt-8 mb-4">Commercial Properties We Serve</h2>
       <p className="mb-4">
-        From small retail shops to large industrial warehouses, we provide expert commercial roofing
-        services for all property types across{" "}
+        From a single-tenant retail building in Amarillo to a 100,000+ sq ft Permian Basin
+        warehouse near Odessa, we install TPO, PVC, EPDM, and standing seam metal commercial
+        roofing across our 14-city West Texas service area, including the Texas Panhandle,
+        Lubbock and the South Plains, and the Permian Basin. See the full{" "}
         <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline">
           West Texas
-        </a>
-        :
+        </a>{" "}
+        coverage map:
       </p>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <div className="bg-white p-4 rounded shadow text-center">
@@ -596,9 +600,10 @@ export default function Page() {
           </h3>
           <p className="text-gray-700">
             Most commercial property insurance policies cover hail damage roof replacement, minus
-            your deductible. We provide comprehensive damage documentation including drone aerial
-            photos, infrared moisture scans, and detailed reports that insurance adjusters require.
-            Our team has achieved a . Contact us for a{" "}
+            the deductible. We provide adjuster-ready documentation for State Farm, Allstate,
+            USAA, Farmers, and Texas Farm Bureau commercial carriers, including drone aerial
+            photography, infrared moisture scans on TPO and PVC membranes, slope-by-slope damage
+            mapping, and a written scope of loss. Contact us for a{" "}
             <a
               href="/roof-inspections-amarillo/"
               className="text-brand-brown hover:text-brand-gold underline"

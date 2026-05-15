@@ -393,10 +393,12 @@ export default function ResidentialRoofingCanyonPage() {
                   Historic District Preservation
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Canyon's historic downtown and established neighborhoods near the square require
-                  specialized roofing approaches that preserve architectural character while
-                  providing modern protection. We work with historic preservation guidelines and
-                  neighborhood standards.
+                  Canyon&apos;s historic downtown around the Randall County courthouse square and
+                  the older residential blocks need a roofing approach that protects architectural
+                  character while installing to current UL 2218 Class 4 hail and UL 580 wind
+                  uplift standards. We select period-appropriate architectural asphalt shingle
+                  profiles from GAF and CertainTeed and coordinate with neighborhood and heritage
+                  review.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Historic preservation compliance</li>
@@ -561,9 +563,11 @@ export default function ResidentialRoofingCanyonPage() {
                     University Standard Compliance
                   </h3>
                   <p className="text-gray-700 mb-3">
-                    Properties near campus often must meet enhanced aesthetic and performance
-                    standards. We provide roofing systems that complement the university environment
-                    while delivering superior protection.
+                    Properties near the West Texas A&amp;M University campus in Canyon often carry
+                    extra aesthetic expectations along with the standard Randall County code
+                    requirements. We install architectural asphalt shingle systems from GAF and
+                    CertainTeed that fit the campus context while meeting UL 2218 Class 4 hail
+                    and UL 580 wind uplift ratings.
                   </p>
                   <div className="grid grid-cols-2 gap-4 text-sm">
                     <div className="text-gray-600">
@@ -692,9 +696,11 @@ export default function ResidentialRoofingCanyonPage() {
                     Student & Young Professional Financing
                   </h3>
                   <p className="text-gray-700 mb-4 leading-relaxed">
-                    Canyon's university environment attracts graduate students, young faculty, and
-                    early-career professionals who need accessible financing options that work with
-                    academic timelines and variable income patterns.
+                    Canyon&apos;s connection to West Texas A&amp;M University brings graduate
+                    students, junior faculty, and early-career professionals into the Randall
+                    County housing market. Roof replacements on those homes typically need
+                    financing options that fit academic-year pay cycles and a variable income
+                    pattern instead of a standard 30-year mortgage rhythm.
                   </p>
                   <ul className="text-gray-600 space-y-3">
                     <li className="flex items-start">

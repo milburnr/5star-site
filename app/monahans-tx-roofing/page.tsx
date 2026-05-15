@@ -228,8 +228,11 @@ export default function MonahansRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Monahans</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Monahans and Ward County. Select a service below for details.
+              We handle residential and commercial roofing across Monahans, Ward County, and
+              the Highway 18 corridor between Kermit and Pecos. Residential work centers on
+              architectural and Class 4 impact-rated asphalt shingles. Commercial work covers
+              TPO, PVC, modified bitumen, and standing seam metal on oilfield service shops
+              and industrial buildings. Select a service below for details.
             </p>
           </FadeIn>
 

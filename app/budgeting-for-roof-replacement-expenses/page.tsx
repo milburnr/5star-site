@@ -194,8 +194,11 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Budget-Friendly Roofing Material Options</h2>
 
         <p>
-          Choosing the right roofing material balances upfront costs with long-term value. Here are
-          popular options for Amarillo homes:
+          Material choice on a typical 2,000 sq ft Amarillo home balances upfront cost against
+          how the roof performs through Texas Panhandle hail and sustained wind. Architectural
+          asphalt shingles from GAF, CertainTeed, and Owens Corning sit at the affordable end.
+          Class 4 impact-rated shingles and standing seam metal cost more but tend to come out
+          ahead over their full life on a home that sees regular hail.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-3">Material Comparison:</h3>

@@ -272,23 +272,23 @@ export default function AsphaltShingleRoofingDumasPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Farm and ranch properties
+                    Cattle ranches and grain farms across Moore County
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Rural residential communities
+                    Established residential streets near the Moore County courthouse
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Agricultural worker housing
+                    Worker and operator housing tied to feedlots and processing plants
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Large acreage homes
+                    Large-acreage homes north and west of town off Highway 287
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Multi-building properties
+                    Multi-building farmsteads with house, shop, and equipment barns
                   </li>
                 </ul>
               </div>
@@ -299,23 +299,23 @@ export default function AsphaltShingleRoofingDumasPage() {
                 <ul className="text-lg text-gray-700 space-y-3">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Chemical-resistant formulations
+                    Asphalt formulations that resist feedlot ammonia and fertilizer drift
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Enhanced wind uplift resistance
+                    Six-nail high-wind nailing rated to UL 580 wind uplift
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Algae and moss resistance
+                    Copper-infused algae-resistant granules from GAF and Owens Corning
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Extended warranty coverage
+                    Manufacturer warranties up to 50 years on premium architectural lines
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Easy maintenance requirements
+                    Simple annual rinse-down keeps Moore County dust from building up
                   </li>
                 </ul>
               </div>
@@ -348,40 +348,37 @@ export default function AsphaltShingleRoofingDumasPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Enhanced Granules</h3>
                 <p className="text-gray-700 mb-3">
-                  Ceramic-coated granules resist chemical degradation from agricultural operations
-                  near Dumas homes.
+                  Ceramic-coated granules on premium architectural shingles hold up against the fertilizer drift, ammonia, and grain-treatment dust that settle on roofs near Dumas feedlots and farming operations.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Fertilizer exposure resistance</li>
-                  <li>• Pesticide contact protection</li>
-                  <li>• Acid rain resistance</li>
-                  <li>• Color fade prevention</li>
+                  <li>• Resists anhydrous ammonia and nitrogen fertilizer exposure</li>
+                  <li>• Stands up to pesticide and herbicide overspray drift</li>
+                  <li>• Tolerates mildly acidic rain off the Texas Panhandle high plains</li>
+                  <li>• Holds color on south- and west-facing slopes under full sun</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Modified Asphalt</h3>
                 <p className="text-gray-700 mb-3">
-                  SBS modified asphalt base provides enhanced flexibility and chemical resistance
-                  for rural applications.
+                  SBS-modified asphalt mats stay flexible across the wide Panhandle temperature swings around Dumas, where summer afternoons above 100°F give way to single-digit winter mornings.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Superior flexibility</li>
-                  <li>• Temperature cycling resistance</li>
-                  <li>• Crack prevention</li>
-                  <li>• Extended service life</li>
+                  <li>• Stays pliable in winter cold without cracking</li>
+                  <li>• Tolerates daily 40-50°F summer temperature swings</li>
+                  <li>• Resists the granule shedding that comes from cycling fatigue</li>
+                  <li>• Extends service life on a long-ownership farm property</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Algae Resistance</h3>
                 <p className="text-gray-700 mb-3">
-                  Copper-containing granules prevent algae growth common in agricultural
-                  environments with high humidity.
+                  Copper-infused granules from GAF StainGuard and similar lines block the algae streaks that show up on north-facing slopes near Moore County livestock and irrigation operations.
                 </p>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Algae growth prevention</li>
-                  <li>• Moss resistance</li>
-                  <li>• Maintained appearance</li>
-                  <li>• Reduced cleaning needs</li>
+                  <li>• Backed by manufacturer algae-resistance warranties</li>
+                  <li>• Limits moss buildup on shaded eaves and valleys</li>
+                  <li>• Keeps the roof looking clean from the road</li>
+                  <li>• Less power-washing needed each spring</li>
                 </ul>
               </div>
             </div>
@@ -398,15 +395,13 @@ export default function AsphaltShingleRoofingDumasPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">Farm Family Value</h3>
                   <p className="text-gray-700 mb-4">
-                    We understand agricultural families need maximum value from their roofing
-                    investment. Our solutions provide excellent protection at prices that fit farm
-                    budgets.
+                    Moore County farm families want a roof that earns its keep over decades, not one that looks great in a brochure and fails in seven years. Our quotes show line-item pricing so you see exactly what you&apos;re paying for.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Competitive agricultural pricing</li>
-                    <li>• Multiple property discounts</li>
-                    <li>• Seasonal scheduling flexibility</li>
-                    <li>• Extended payment terms available</li>
+                    <li>• Pricing built from current Panhandle supply-house quotes</li>
+                    <li>• Bundle pricing when we roof the house, shop, and barns together</li>
+                    <li>• Scheduling that respects planting, harvest, and calving windows</li>
+                    <li>• Payment terms that work with an agricultural cash-flow calendar</li>
                   </ul>
                 </div>
                 <div>

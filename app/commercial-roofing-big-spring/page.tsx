@@ -355,8 +355,7 @@ export default function CommercialRoofingBigSpringPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Documentation-First</h3>
                 <p className="text-gray-700">
-                  Thorough damage documentation and weather-protective scheduling ensures proper
-                  insurance-claim support for healthcare and correctional operations.
+                  Slope-by-slope drone imagery, moisture readings, and material samples support insurance claims at Howard County healthcare facilities and correctional operations. The documentation package is delivered to the carrier before the adjuster meeting, not after.
                 </p>
               </div>
 

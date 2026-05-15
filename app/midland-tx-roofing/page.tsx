@@ -227,8 +227,10 @@ export default function MidlandRoofingPage() {
           <FadeIn>
             <h2 className="section-title">Roofing Services in Midland</h2>
             <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-              We provide a full range of residential and commercial roofing services throughout
-              Midland and Midland County. Select a service below for details.
+              From architectural asphalt shingle and Class 4 impact-rated shingle replacements on
+              Midland County homes to Carlisle and Firestone TPO membrane systems on Permian Basin
+              commercial buildings, we install across the full residential and commercial range.
+              Select a service below for the local detail.
             </p>
           </FadeIn>
 

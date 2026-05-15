@@ -381,9 +381,11 @@ export default function RoofRepairSnyderPage() {
               What West Texas Agricultural Roofing Specialization?
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Our expertise extends beyond residential properties to serve Scurry County's vital
-              agricultural infrastructure with specialized solutions designed for working
-              environments.
+              Our work in Snyder reaches past residential rooflines into the Scurry County
+              agricultural infrastructure that drives the South Plains economy. We install
+              standing seam metal, R-panel metal, and TPO membrane systems on cotton gins, oil
+              mill structures, livestock barns, and equipment storage along the Highway 84 and
+              Highway 180 corridors.
             </p>
 
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
@@ -742,8 +744,10 @@ export default function RoofRepairSnyderPage() {
               How Does the Comprehensive West Texas Repair Process Work?
             </h2>
             <p className="text-lg text-gray-700 mb-8 text-center">
-              Our systematic approach addresses the full range of agricultural and residential
-              roofing challenges in Scurry County.
+              Our process runs the same way on a Snyder ranch home and on a Scurry County cotton
+              gin: assess the environment first, document any storm damage to State Farm or Texas
+              Farm Bureau specifications, then install GAF, CertainTeed, or Carlisle systems sized
+              for South Plains wind and dust exposure.
             </p>
 
             <div className="space-y-6">
@@ -901,11 +905,11 @@ export default function RoofRepairSnyderPage() {
                   Agricultural Property Considerations
                 </h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
-                  <li>• Tax implications for agricultural vs. residential classification</li>
-                  <li>• Multi-structure properties require coordination</li>
-                  <li>• Seasonal timing affects costs and availability</li>
-                  <li>• Equipment access may require additional planning</li>
-                  <li>• Remote locations include reasonable travel charges</li>
+                  <li>• Texas agricultural-use property tax classification can change project depreciation versus residential billing</li>
+                  <li>• Multi-structure Scurry County ranches need sequenced work across barns, sheds, and the main residence</li>
+                  <li>• Seasonal timing around cotton harvest and calving affects scheduling and labor availability</li>
+                  <li>• Equipment access on remote County Road parcels often requires staging and turnaround planning</li>
+                  <li>• Properties outside the Snyder city limits include a reasonable travel charge from our Amarillo base</li>
                 </ul>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl">
@@ -913,11 +917,11 @@ export default function RoofRepairSnyderPage() {
                   Value Maximization Strategies
                 </h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
-                  <li>• Combine multiple buildings for economies of scale</li>
-                  <li>• Schedule during optimal weather windows</li>
-                  <li>• Consider long-term material upgrades</li>
-                  <li>• Plan for future expansion needs</li>
-                  <li>• Invest in energy efficiency for operational savings</li>
+                  <li>• Combine the barn, shop, and home into one Scurry County mobilization for material and crew economies</li>
+                  <li>• Schedule installs in late fall or early spring to avoid South Plains supercell season</li>
+                  <li>• Upgrade to UL 2218 Class 4 impact-rated asphalt shingles or standing seam metal for hail resistance and a longer service life</li>
+                  <li>• Plan now for future grain bin or equipment-shed expansion so framing and drainage line up</li>
+                  <li>• Add ENERGY STAR cool-roof TPO or PVC on commercial structures to cut summer cooling load</li>
                 </ul>
               </div>
             </div>

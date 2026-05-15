@@ -320,8 +320,10 @@ export default function CommercialRoofingAndrewsPage() {
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Documentation-First</h3>
                 <p className="text-gray-700">
-                  Thorough damage documentation and weather-protective scheduling ensures proper
-                  insurance-claim support for Andrews' critical operations.
+                  Andrews County industrial roofs sit in the open Permian Basin where storms
+                  arrive fast. We document slope conditions, seam integrity, and rooftop
+                  equipment before and after every site visit so the claim file for State
+                  Farm, USAA, or Farmers is ready when an adjuster asks for it.
                 </p>
               </div>
 
@@ -348,8 +350,10 @@ export default function CommercialRoofingAndrewsPage() {
                   Complete Project Management
                 </h3>
                 <p className="text-gray-700">
-                  We handle permits, inspections, insurance claims, and all project coordination so
-                  you can focus on your business.
+                  We pull City of Andrews permits, schedule code inspections, coordinate with
+                  insurance adjusters, and run material deliveries on TPO, PVC, modified
+                  bitumen, and built-up roofing systems so a facility manager can stay focused
+                  on Permian Basin production instead of the roof.
                 </p>
               </div>
             </div>
@@ -493,13 +497,15 @@ export default function CommercialRoofingAndrewsPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Insurance Claims</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Our specialists help maximize your settlement and handle all documentation for
-                  weather-related damage claims.
+                  After a Permian Basin hail or wind event, we document every slope and seam,
+                  meet the adjuster on the roof, and file supplements for what the first scope
+                  misses. We work routinely with State Farm, Allstate, USAA, Farmers, and
+                  Texas Farm Bureau on Andrews County commercial claims.
                 </p>
                 <ul className="text-gray-700 space-y-2 ml-4">
-                  <li>• Free damage assessment and documentation</li>
-                  <li>• Direct insurance company communication</li>
-                  <li>• Supplemental claim preparation</li>
+                  <li>• Free damage assessment with slope-by-slope photo documentation</li>
+                  <li>• Direct adjuster meetings on the roof, not in the parking lot</li>
+                  <li>• Written supplements for missed flashing, decking, and code upgrades</li>
                 </ul>
               </div>
             </div>

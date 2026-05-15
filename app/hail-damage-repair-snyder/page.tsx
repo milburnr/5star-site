@@ -285,16 +285,17 @@ export default function HailDamageRepairSnyderPage() {
                   Comprehensive Inspection
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Detailed roof surface examination identifying all hail impacts, granule loss
-                  patterns, exposed mat areas, and compromised shingle integrity. Professional
-                  measurement and documentation of damage severity and extent.
+                  Our Snyder hail inspection covers every plane of the roof, measuring impact
+                  diameter on asphalt shingles, checking for exposed fiberglass mat, and mapping
+                  granule loss across slopes facing the prevailing west and southwest winds.
+                  We also check accessory metal, vent boots, and attic decking for hidden moisture.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Complete roof surface inspection and mapping</li>
-                  <li>• Impact measurement and severity assessment</li>
-                  <li>• Granule loss pattern identification</li>
-                  <li>• Flashing and accessory damage evaluation</li>
-                  <li>• Interior inspection for leak evidence</li>
+                  <li>• Slope-by-slope surface mapping with chalk-marked impact counts</li>
+                  <li>• Impact diameter measured against UL 2218 Class 4 thresholds</li>
+                  <li>• Granule loss patterns tied to wind direction during the storm</li>
+                  <li>• Flashing, ridge cap, drip edge, and HVAC unit damage check</li>
+                  <li>• Attic inspection for daylight, staining, and damp decking</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -305,16 +306,17 @@ export default function HailDamageRepairSnyderPage() {
                   Professional Documentation
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  High-resolution photography, detailed measurements, and comprehensive reporting
-                  designed for insurance claim submission. Professional-grade documentation ensures
-                  maximum claim approval rates.
+                  Every Snyder claim packet includes close-up impact photos with a coin or chalk
+                  circle for scale, a written slope report, and storm-date verification pulled
+                  from NOAA records. Adjusters from State Farm, Allstate, USAA, Farmers, and
+                  Texas Farm Bureau all work from the same evidence set.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• High-resolution damage photography</li>
-                  <li>• Detailed written assessment reports</li>
-                  <li>• Accurate measurements and calculations</li>
-                  <li>• Before/after condition documentation</li>
-                  <li>• Weather event correlation and verification</li>
+                  <li>• Close-up impact photography with scale reference markers</li>
+                  <li>• Written slope-by-slope assessment with severity ratings</li>
+                  <li>• Square-footage measurements that match Xactimate line items</li>
+                  <li>• Before, during, and after condition photos for every layer</li>
+                  <li>• Storm-date verification from NOAA hail swath records</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -323,16 +325,17 @@ export default function HailDamageRepairSnyderPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Insurance Claim Support</h3>
                 <p className="text-gray-700 mb-4">
-                  Complete insurance claim assistance including adjuster meetings, supplement
-                  negotiations, and advocacy for maximum coverage. Extensive experience with major
-                  insurance carriers.
+                  We meet the adjuster on the roof in Snyder, walk every impact, and submit
+                  supplements for items missed on the first scope. Our team works regularly with
+                  State Farm, Allstate, USAA, Farmers, and Texas Farm Bureau, so claim language
+                  and code-upgrade questions get answered the same day.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Insurance adjuster coordination and meetings</li>
-                  <li>• Detailed repair estimates and specifications</li>
-                  <li>• Supplement negotiations for complete coverage</li>
-                  <li>• Claim documentation and progress tracking</li>
-                  <li>• Deductible assistance when possible</li>
+                  <li>• On-roof adjuster meeting and walkthrough in Snyder</li>
+                  <li>• Line-item repair estimate priced for current West Texas labor</li>
+                  <li>• Supplements for code-required ice-water shield, decking, and flashing</li>
+                  <li>• Claim file kept in one place with every photo and email logged</li>
+                  <li>• Help recovering recoverable depreciation after final inspection</li>
                 </ul>
               </div>
             </div>
@@ -356,10 +359,11 @@ export default function HailDamageRepairSnyderPage() {
                       <Snowflake className="w-6 h-6 inline-block" /> Asphalt Shingle Damage
                     </h3>
                     <p className="text-gray-700">
-                      Hail impacts create granule loss, exposed mat areas, cracking, and bruising.
-                      Small hail may only cause granule displacement, while large hail can crack or
-                      puncture shingles completely, requiring immediate replacement to prevent water
-                      intrusion.
+                      On architectural asphalt shingles, hail strips granules off the asphalt mat
+                      and leaves dark circular bruises that crush the fiberglass underneath.
+                      One-inch stones cause cosmetic granule loss. Stones at 1.5 inches and up
+                      typically crack the mat outright, which is the threshold most Texas carriers
+                      use to approve full slope replacement.
                     </p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -367,10 +371,11 @@ export default function HailDamageRepairSnyderPage() {
                       <Circle className="w-6 h-6 inline-block" /> Metal Roofing Impact
                     </h3>
                     <p className="text-gray-700">
-                      Hail creates dents and dings in metal roofing systems that may not affect
-                      functionality immediately but can compromise coatings, leading to premature
-                      corrosion and reduced lifespan requiring professional evaluation and potential
-                      replacement.
+                      Standing seam metal and R-panel roofs on Scurry County barns, shops, and
+                      homes show hail as dents along the flat pan and across the seam ribs.
+                      A dented panel still sheds water at first, but the Kynar or SMP coating
+                      cracks at the impact and rust works in from there. Most carriers will
+                      cover replacement when denting covers a slope at typical Class 4 thresholds.
                     </p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -378,9 +383,11 @@ export default function HailDamageRepairSnyderPage() {
                       <Wrench className="w-6 h-6 inline-block" /> Flashing and Accessory Damage
                     </h3>
                     <p className="text-gray-700">
-                      Roof vents, flashing, gutters, and HVAC units often sustain visible denting
-                      from hail impacts. These components are critical for waterproofing and may
-                      require replacement even when primary roofing materials appear undamaged.
+                      Aluminum roof vents, painted step flashing, drip edge, gutters, and the
+                      condenser fins on HVAC units dent before shingles do. Bent flashing
+                      breaks the seal at the chimney or sidewall and that is where leaks usually
+                      show first in Snyder homes. We document accessory damage as its own line
+                      item so the adjuster does not pay only for shingles.
                     </p>
                   </div>
                 </div>
@@ -390,10 +397,11 @@ export default function HailDamageRepairSnyderPage() {
                       <Droplets className="w-6 h-6 inline-block" /> Immediate vs. Progressive Damage
                     </h3>
                     <p className="text-gray-700">
-                      Some hail damage causes immediate leaks requiring post-storm documentation, while other
-                      damage compromises long-term integrity without immediate symptoms.
-                      Professional assessment identifies both types for comprehensive repair
-                      planning.
+                      Some Snyder hail damage leaks the same night. A punctured shingle over the
+                      kitchen ceiling tells you fast. Bruised mats, hairline cracks, and dented
+                      flashing typically hold water for one or two seasons before the next West
+                      Texas storm pulls them apart. We document both so the claim covers what
+                      is wet today and what will fail next year.
                     </p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -401,9 +409,11 @@ export default function HailDamageRepairSnyderPage() {
                       <Tornado className="w-6 h-6 inline-block" /> Wind-Driven Hail Patterns
                     </h3>
                     <p className="text-gray-700">
-                      West Texas storms often combine hail with high winds, creating unique damage
-                      patterns on vertical surfaces and roof edges. These areas require special
-                      attention during assessment to ensure comprehensive damage identification.
+                      Supercells rolling across the Rolling Plains and Llano Estacado drive hail
+                      sideways at the south and west elevations of Snyder homes. That blows
+                      granules off lower courses, scars vinyl siding, dents garage door panels,
+                      and chews up window screens. We walk the perimeter on the ground after
+                      every roof inspection to catch this lateral damage for the claim.
                     </p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -411,9 +421,11 @@ export default function HailDamageRepairSnyderPage() {
                       <Home className="w-6 h-6 inline-block" /> Interior Impact Assessment
                     </h3>
                     <p className="text-gray-700">
-                      Hail damage may cause interior water damage, ceiling stains, insulation
-                      damage, and electrical hazards. Comprehensive assessment includes interior
-                      inspection to document all related damage for insurance claims.
+                      Inside the home we look for fresh ceiling stains, sagging drywall, wet
+                      blown-in insulation in the attic, and any signs of water at electrical
+                      junction boxes. Interior damage is often where carriers add coverage to
+                      the claim, but it has to be photographed and tied to the storm date in
+                      the same packet as the roof scope.
                     </p>
                   </div>
                 </div>
@@ -438,17 +450,18 @@ export default function HailDamageRepairSnyderPage() {
                     Professional Documentation Standards
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Insurance companies require specific documentation standards for hail damage
-                    claims. Our professional approach ensures all required evidence is collected and
-                    presented in formats that maximize claim approval probability and coverage
-                    amounts.
+                    Texas carriers like State Farm, Allstate, USAA, Farmers, and Texas Farm
+                    Bureau each have their own documentation expectations. We put every Snyder
+                    claim into one packet that matches Xactimate line items, ties impacts to a
+                    storm date from NOAA records, and calls out 2021 IRC code-upgrade items the
+                    adjuster has to honor.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• High-resolution photography with measurement references</li>
-                    <li>• Detailed written damage assessments with severity ratings</li>
-                    <li>• Weather event documentation and correlation</li>
-                    <li>• Material specifications and replacement requirements</li>
-                    <li>• Code compliance and upgrade documentation</li>
+                    <li>• Close-up impact photos with chalk circles and scale references</li>
+                    <li>• Slope-by-slope assessment with impact counts and severity notes</li>
+                    <li>• Storm-date verification from NOAA Storm Events for Scurry County</li>
+                    <li>• Material specs that match UL 2218 Class 4 or original equivalent</li>
+                    <li>• Code-upgrade line items (ice-water shield, decking, drip edge)</li>
                   </ul>
                 </div>
                 <div>
@@ -456,17 +469,18 @@ export default function HailDamageRepairSnyderPage() {
                     Adjuster Interaction Expertise
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Successful hail damage claims require effective communication with insurance
-                    adjusters and thorough understanding of coverage provisions. Our experience
-                    ensures all covered damage is identified and properly valued for maximum
-                    compensation.
+                    We meet the adjuster on the roof in Snyder and walk the slopes together. That
+                    one habit settles most coverage disputes before the report is written.
+                    When the first scope misses items like step flashing, drip edge, or wind-bent
+                    ridge cap, we file a written supplement with photos so the carrier has no
+                    reason to deny the addition.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Direct adjuster coordination and scheduling</li>
-                    <li>• On-site damage explanation and demonstration</li>
-                    <li>• Coverage provision interpretation and application</li>
-                    <li>• Supplement negotiations for missed damage items</li>
-                    <li>• Depreciation recovery assistance and guidance</li>
+                    <li>• Adjuster meeting scheduled within carrier response windows</li>
+                    <li>• On-roof walkthrough pointing out each marked impact</li>
+                    <li>• Plain reading of the policy on RCV, ACV, and Class 4 endorsements</li>
+                    <li>• Written supplements for items missed on the first scope</li>
+                    <li>• Help filing for recoverable depreciation after final inspection</li>
                   </ul>
                 </div>
               </div>
@@ -513,8 +527,10 @@ export default function HailDamageRepairSnyderPage() {
                   </div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Enhanced Protection</h3>
                   <p className="text-gray-600">
-                    Impact-resistant materials reduce future hail damage by up to , protecting
-                    property value and minimizing future repair costs and insurance claims.
+                    UL 2218 Class 4 shingles are tested by dropping a 2-inch steel ball on the
+                    same spot twice without cracking the mat. That holds up against the size of
+                    hail Snyder sees most often during the March-to-September storm season. Fewer
+                    cracked shingles means fewer leak repairs and fewer claims against the policy.
                   </p>
                 </div>
               </div>
@@ -646,16 +662,18 @@ export default function HailDamageRepairSnyderPage() {
                     First 48 Hours
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Immediately after a hail event, focus on safety and storm protection. Document
-                    visible damage with photos, contact your insurance company to report potential
-                    damage, and schedule professional inspection for comprehensive assessment.
+                    Right after a Scurry County hail event, keep family off the roof and check
+                    for downed power lines and broken glass on the ground. Take phone photos of
+                    dents on the AC unit, gutters, and any hail still on the lawn for size scale.
+                    Then call us and your carrier so the inspection gets scheduled before the
+                    next storm complicates the claim.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Ensure safety and assess immediate hazards</li>
-                    <li>• Document visible damage with photos</li>
-                    <li>• Contact insurance company to report claim</li>
-                    <li>• Schedule professional damage inspection</li>
-                    <li>• Protect property from further damage if needed</li>
+                    <li>• Stay clear of the roof and any downed lines</li>
+                    <li>• Photograph dents on metal, gutters, AC fins, and yard hail</li>
+                    <li>• Open a claim with State Farm, USAA, Farmers, or your carrier</li>
+                    <li>• Schedule a free Snyder inspection at (806) 622-6041</li>
+                    <li>• Use tarps or buckets only if there is an active leak</li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -663,16 +681,18 @@ export default function HailDamageRepairSnyderPage() {
                     Assessment and Claims (3-14 Days)
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Professional assessment, insurance adjuster meetings, and claim documentation
-                    occur during this period. Comprehensive damage evaluation ensures all impacts
-                    are identified and properly documented for maximum coverage.
+                    Most Snyder hail claims settle inside two weeks if the on-roof inspection
+                    and the adjuster meeting happen close together. We finish our slope report
+                    inside 48 hours of the call, meet the adjuster on the roof, and submit the
+                    estimate priced for current West Texas labor and material rates so nothing
+                    holds the file up at the carrier.
                   </p>
                   <ul className="text-gray-600 space-y-2">
-                    <li>• Comprehensive professional damage assessment</li>
-                    <li>• Insurance adjuster inspection coordination</li>
-                    <li>• Detailed repair estimates and specifications</li>
-                    <li>• Supplement negotiations for missed damage</li>
-                    <li>• Repair scheduling and material ordering</li>
+                    <li>• Slope-by-slope damage report with photos and counts</li>
+                    <li>• On-roof adjuster walkthrough scheduled inside the carrier window</li>
+                    <li>• Itemized estimate matching Xactimate line items</li>
+                    <li>• Supplements filed for items missed on the first scope</li>
+                    <li>• Material ordered through GAF, CertainTeed, or Owens Corning</li>
                   </ul>
                 </div>
               </div>
@@ -697,9 +717,10 @@ export default function HailDamageRepairSnyderPage() {
                         Hail Damage Expertise
                       </h3>
                       <p className="text-gray-700">
-                        Extensive experience with West Texas hail patterns, damage identification,
-                        and repair techniques specific to regional weather challenges and insurance
-                        requirements.
+                        From the Caprock and Llano Estacado down through the Rolling Plains, our
+                        Amarillo-based crews know how Scurry County storms hit and what damage
+                        carriers expect to see in the claim photos. We have been doing hail work
+                        out of Amarillo since 2014.
                       </p>
                     </div>
                   </div>
@@ -742,9 +763,10 @@ export default function HailDamageRepairSnyderPage() {
                         Complete Documentation
                       </h3>
                       <p className="text-gray-700">
-                        Professional-grade damage documentation with high-resolution photography,
-                        detailed measurements, and comprehensive reporting designed for successful
-                        insurance claim submission.
+                        Every Snyder claim packet includes close-up impact photos with scale,
+                        a written slope report, square-footage measurements that line up with
+                        Xactimate, and storm-date verification from NOAA records. That is what
+                        adjusters at State Farm, USAA, and Texas Farm Bureau actually look for.
                       </p>
                     </div>
                   </div>
@@ -757,9 +779,10 @@ export default function HailDamageRepairSnyderPage() {
                         Local Availability
                       </h3>
                       <p className="text-gray-700">
-                        coverage for post-storm assessment and scheduling
-                        throughout Snyder and surrounding areas with rapid deployment for
-                        time-sensitive situations.
+                        Our trucks roll out of Amarillo and run the I-27 and Highway 84 corridor
+                        into Snyder, Lubbock, and the rest of Scurry County. After a storm we
+                        cluster inspections by neighborhood so homeowners on the same street
+                        get on the schedule together instead of waiting weeks for an opening.
                       </p>
                     </div>
                   </div>
@@ -772,9 +795,10 @@ export default function HailDamageRepairSnyderPage() {
                         Comprehensive Warranties
                       </h3>
                       <p className="text-gray-700">
-                        Complete warranty coverage including material warranties, workmanship
-                        guarantees, and manufacturer backing providing long-term protection and
-                        peace of mind.
+                        Snyder hail replacements come with the manufacturer material warranty
+                        from GAF, CertainTeed, or Owens Corning on the shingle itself, plus our
+                        own workmanship warranty on the installation. Both stay with the home
+                        if you sell, which matters in a market where buyers ask for roof papers.
                       </p>
                     </div>
                   </div>

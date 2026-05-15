@@ -1,0 +1,599 @@
+[
+  {
+    "path": "app/roof-repair-lubbock/page.tsx",
+    "low_total": 25,
+    "real_low": 21,
+    "chunks": [
+      {
+        "heading": "University District Challenges",
+        "words": 29,
+        "score": -1,
+        "text": "\u2022 Tech Terrace: 1950s-1970s homes with original composition shingles \u2022 Student rentals with deferred maintenance issues \u2022 North Overton: Dense housing with access challenges \u2022 Medical District: Professional buildings requiring specialized care"
+      },
+      {
+        "heading": "South Plains Environmental Damage",
+        "words": 24,
+        "score": -1,
+        "text": "\u2022 Dust storm abrasion stripping shingle granules \u2022 Constant wind stress with no terrain protection \u2022 Supercell damage from rotating storms \u2022 Extreme UV exposure on flat landscape"
+      },
+      {
+        "heading": "University Area",
+        "words": 32,
+        "score": -1,
+        "text": "Historic neighborhoods near Texas Tech campus \u2022 Tech Terrace - 1950s brick homes, student rentals \u2022 North Overton - Dense housing, accessibility challenges \u2022 South Overton - Mixed residential, aging roof systems \u2022 Maxey Park Area - Medical district professionals"
+      },
+      {
+        "heading": "Southwest Lubbock",
+        "words": 25,
+        "score": 0,
+        "text": "1980s-2000s family neighborhoods \u2022 Shadow Hills - Executive homes, complex rooflines \u2022 Oakwood - 1980s construction, architectural shingles \u2022 Westridge - Suburban development, standard maintenance \u2022 Caprock - Higher elevation, wind exposure"
+      },
+      {
+        "heading": "Newer Developments",
+        "words": 27,
+        "score": 0,
+        "text": "2000s+ communities with modern systems \u2022 The Reserve - Luxury homes, premium materials \u2022 Vintage Township - Energy-efficient construction \u2022 Stone Gate - Golf course community \u2022 Kelsey Park - Contemporary designs, metal roofing"
+      },
+      {
+        "heading": "Dust Damage Assessment",
+        "words": 19,
+        "score": 0,
+        "text": "Specialized inspection for granule loss from haboob sandblasting, gutter clogging, and accelerated UV degradation unique to South Plains conditions."
+      },
+      {
+        "heading": "Wind Uplift Analysis",
+        "words": 20,
+        "score": -1,
+        "text": "Comprehensive evaluation of wind damage in areas with no terrain protection, focusing on shingle tab lifting and fastener failure patterns."
+      },
+      {
+        "heading": "University District Expertise",
+        "words": 17,
+        "score": -1,
+        "text": "Specialized knowledge of Tech Terrace and student housing challenges, including deferred maintenance issues and rental property requirements."
+      },
+      {
+        "heading": "Environmental Damage",
+        "words": 40,
+        "score": 0,
+        "text": "\u2022 Dust Storm Abrasion: Granule loss from windborne particles reducing shingle protection \u2022 Supercell Wind Damage: Tab lifting and fastener failure from 60+ mph gusts \u2022 Gutter Clogging: Fine dust accumulation creating drainage issues \u2022 Accelerated UV Aging: Rapid deterioration on flat, exposed landscape"
+      },
+      {
+        "heading": "Structural & Age Issues",
+        "words": 34,
+        "score": -1,
+        "text": "\u2022 Tech Terrace Ventilation: Inadequate airflow in 1950s-1970s construction \u2022 Student Property Neglect: Deferred maintenance in rental properties \u2022 1980s Shingle Failure: Original materials reaching end of life \u2022 Flashing Deterioration: Wind-driven rain penetration around penetrations"
+      },
+      {
+        "heading": "Lubbock Market Considerations",
+        "words": 40,
+        "score": 0,
+        "text": "\u2022 University area properties may require additional safety measures increasing costs \u2022 Spring storm season creates high demand and potential material shortages \u2022 Tech Terrace historic properties may need specialized restoration techniques \u2022 Metal roofing gaining popularity due to superior wind and dust resistance"
+      },
+      {
+        "heading": "Dust Storm Protection Systems",
+        "words": 39,
+        "score": -1,
+        "text": "Enhanced Granule Protection Heavy-duty granule adhesion treatments to resist sandblasting effects Advanced Gutter Guards Fine-mesh systems designed to filter dust while allowing water flow Sealed Penetrations Special sealants that prevent fine particle infiltration around vents and flashing"
+      },
+      {
+        "heading": "Wind Resistance Upgrades",
+        "words": 33,
+        "score": -1,
+        "text": "Enhanced Fastening Patterns High-wind zone fastening designed for constant wind stress Tab Reinforcement Additional adhesive strips to prevent uplift from sustained winds Ridge Cap Reinforcement Mechanical fastening systems for critical ridge areas"
+      },
+      {
+        "heading": "Student Rental Properties",
+        "words": 70,
+        "score": 0,
+        "text": "Deferred Maintenance Assessment Comprehensive inspection protocols for properties with potential maintenance neglect, focusing on hidden damage and safety concerns Preventive Maintenance Programs Annual inspection and maintenance schedules designed to prevent costly storm repairs during peak rental periods Landlord Liaison Services Direct communication with property managers to coordinate repairs around tenant schedules and academic calendars Student-Safe Work Practices Enhanced safety protocols for work around occupied student housing with irregular schedules"
+      },
+      {
+        "heading": "Historic Tech Terrace",
+        "words": 57,
+        "score": 0,
+        "text": "Period-Appropriate Materials Sourcing materials that match 1950s-1970s architectural integrity while meeting modern performance standards Structural Reinforcement Upgrading aging roof systems to handle modern wind loads while preserving historic character Ventilation Improvements Adding modern ventilation systems to homes with inadequate original airflow designs Energy Efficiency Upgrades Incorporating modern insulation and radiant barriers while maintaining historic aesthetics"
+      },
+      {
+        "heading": "Materials to Avoid in South Plains",
+        "words": 29,
+        "score": 0,
+        "text": "Standard Asphalt Shingles Poor granule adhesion, rapid dust accumulation compromise Untreated Wood Products Susceptible to dust infiltration and moisture issues Light-Colored Surfaces Show dust accumulation, require frequent maintenance"
+      },
+      {
+        "heading": "Phase 1: Environmental Impact Assessment",
+        "words": 62,
+        "score": 0,
+        "text": "Dust Damage Evaluation \u2022 Granule loss mapping and quantification \u2022 Gutter and downspout blockage assessment \u2022 Ventilation system dust infiltration check \u2022 UV degradation accelerated by dust accumulation \u2022 Sealant integrity around all penetrations Wind Stress Analysis \u2022 Shingle tab lifting patterns from prevailing winds \u2022 Fastener fatigue from constant wind cycling \u2022 Ridge cap integrity in high-exposure areas \u2022 Flashing movement from thermal cycling \u2022 Structural load assessment for upgrades"
+      },
+      {
+        "heading": "Phase 2: Specialized Material Procurement",
+        "words": 42,
+        "score": 0,
+        "text": "Dust-Resistant Materials Enhanced granule adhesion, smooth surface finishes, and anti-static treatments Wind-Rated Components All materials tested for 90+ mph sustained winds with enhanced fastening systems UV-Resistant Systems Premium UV inhibitors and reflective coatings for high-altitude sun exposure"
+      },
+      {
+        "heading": "Phase 3: Installation with Environmental Protections",
+        "words": 56,
+        "score": 0,
+        "text": "Enhanced Dust Protection Installation Specialized installation techniques including sealed penetrations, enhanced flashing systems, and dust-resistant ventilation upgrades High-Wind Zone Fastening Increased fastener density, mechanical attachment systems, and wind-resistant edge details designed for constant wind exposure University District Coordination Special scheduling and safety protocols for work around student housing, academic schedules, and landlord requirements"
+      },
+      {
+        "heading": "Dust Storm Damage Documentation",
+        "words": 42,
+        "score": -1,
+        "text": "Granule Loss Assessment Before/after photography and granule density measurements to prove dust storm impact Accelerated Aging Evidence Documentation of premature aging caused by constant dust exposure and abrasion System Infiltration Proof Evidence of dust penetration affecting ventilation systems and interior spaces"
+      },
+      {
+        "heading": "Claims Process Support",
+        "words": 43,
+        "score": 0,
+        "text": "Environmental Damage Expertise Specialized knowledge of how South Plains conditions affect insurance coverage and claim validity Adjuster Education Helping adjusters understand unique regional damage patterns not seen in other climate zones Supplemental Documentation Additional evidence gathering to support coverage for environment-related damage"
+      }
+    ]
+  },
+  {
+    "path": "app/roof-inspections-amarillo/page.tsx",
+    "low_total": 12,
+    "real_low": 12,
+    "chunks": [
+      {
+        "heading": "Roofing Materials",
+        "words": 42,
+        "score": 0,
+        "text": "Shingle Condition: Granule loss, cracking, curling, or hail impact damage Metal Roofing: Corrosion, loose fasteners, or panel separation Tile Systems: Cracked or shifted tiles, underlayment exposure Membrane Roofing: Punctures, seam failures, or UV degradation Coating Systems: Adhesion failure, cracking, or wear patterns"
+      },
+      {
+        "heading": "Water Management",
+        "words": 44,
+        "score": -1,
+        "text": "Gutter Systems: Proper slope, secure attachment, and debris clearance Downspouts: Adequate sizing and proper water discharge away from foundation Drainage Patterns: Standing water identification and slope corrections needed Flashing Details: Chimney, vent, and skylight waterproofing integrity Ice Dams: Potential formation areas and prevention measures"
+      },
+      {
+        "heading": "Weather Damage Assessment",
+        "words": 45,
+        "score": 0,
+        "text": "Hail Impact: Bruising, exposed mat, or granule displacement Wind Damage: Lifted shingles, exposed fasteners, or blown-off materials Storm Damage: Tree impact, debris damage, or structural shifts UV Deterioration: Accelerated aging from Amarillo's intense sun exposure Thermal Cycling: Expansion/contraction damage from temperature swings"
+      },
+      {
+        "heading": "Insurance Company Standards We Meet",
+        "words": 48,
+        "score": 0,
+        "text": "Documentation Requirements \u2022 High-resolution photos of all damage areas \u2022 Detailed measurements and sketches \u2022 GPS coordinates for damage locations \u2022 Before/after comparison documentation \u2022 Professional assessment reports Insurance Claim Support \u2022 Direct communication with adjusters \u2022 Supplemental damage documentation \u2022 Code compliance requirement advocacy \u2022 Scope of work clarification \u2022 Materials and labor cost justification"
+      },
+      {
+        "heading": "Winter Inspections (December-February)",
+        "words": 49,
+        "score": -1,
+        "text": "Structural Assessment: While less common, winter inspections are crucial after ice events or when preparing for real estate transactions during the slower season. \u2022 Ice damage and freeze-thaw cycle assessment \u2022 Real estate transaction requirements \u2022 Annual maintenance planning \u2022 Off-season repair scheduling advantages \u2022 Preparation for next year's storm season"
+      },
+      {
+        "heading": "Thermal Imaging",
+        "words": 29,
+        "score": 0,
+        "text": "FLIR cameras detect moisture intrusion, insulation gaps, and energy loss that aren't visible to the naked eye. Especially valuable for identifying leaks in Amarillo's extreme weather conditions."
+      },
+      {
+        "heading": "Drone Photography",
+        "words": 25,
+        "score": -1,
+        "text": "High-resolution aerial photography safely documents damage on steep or high roofs. GPS-tagged images provide precise damage location data for insurance and repair purposes."
+      },
+      {
+        "heading": "Moisture Detection",
+        "words": 25,
+        "score": 0,
+        "text": "Professional moisture meters and hygrometers identify water damage and humidity issues that could lead to mold, rot, or structural problems in Amarillo's variable climate."
+      },
+      {
+        "heading": "Phase 2: Interior Investigation (15-30 minutes)",
+        "words": 67,
+        "score": 0,
+        "text": "Attic Space Analysis \u2022 Structural Components: Rafters, trusses, decking condition \u2022 Insulation Assessment: R-value, settling, pest damage \u2022 Ventilation Airflow: Intake and exhaust balance \u2022 Electrical Inspection: Wiring safety, junction boxes \u2022 HVAC Equipment: Ductwork, units, condensation issues Moisture & Air Quality \u2022 Active Leaks: Current water intrusion identification \u2022 Historical Damage: Old stains, repair evidence \u2022 Mold Detection: Growth patterns, air quality concerns \u2022 Vapor Barriers: Installation integrity, effectiveness \u2022 Pest Evidence: Animal intrusion, damage assessment"
+      },
+      {
+        "heading": "Phase 3: Technology Integration (15-20 minutes)",
+        "words": 63,
+        "score": 0,
+        "text": "Advanced Detection Methods \u2022 Thermal Imaging: Hidden moisture, insulation voids \u2022 Moisture Meters: Quantitative water content measurement \u2022 Drone Survey: High-resolution aerial documentation \u2022 Digital Measurement: Precise damage quantification \u2022 GPS Mapping: Damage location coordination Data Collection & Analysis \u2022 Photo Organization: Systematic damage documentation \u2022 Measurement Recording: Precise size and scope data \u2022 Condition Scoring: Standardized assessment ratings \u2022 Repair Prioritization: Urgent vs. routine maintenance \u2022 Cost Estimation: Preliminary repair budget development"
+      },
+      {
+        "heading": "Professional Photography Requirements",
+        "words": 74,
+        "score": 0,
+        "text": "Standard Documentation Shots \u2022 Four-Corner Overview: Complete roof visibility from all angles \u2022 Close-up Damage: Individual impacts with measurement references \u2022 Comparative Analysis: Damaged vs. undamaged material samples \u2022 Context Photography: Damage in relation to surrounding structures \u2022 Serial Identification: Equipment models, material brands Technical Specifications \u2022 High Resolution: Minimum 12MP for detail clarity \u2022 GPS Metadata: Location coordinates embedded \u2022 Timestamp Accuracy: Verified date/time documentation \u2022 Scale References: Coins, rulers for size context \u2022 Lighting Standards: "
+      },
+      {
+        "heading": "Report Content Standards",
+        "words": 65,
+        "score": 0,
+        "text": "Required Documentation Elements \u2022 Damage Inventory: Complete catalog with locations \u2022 Severity Classifications: Immediate vs. long-term concerns \u2022 Material Specifications: Brand, color, age documentation \u2022 Weather Correlation: Storm date and intensity data \u2022 Code Compliance: Current standard requirements Professional Assessment Components \u2022 Scope of Work: Detailed repair specifications \u2022 Cost Estimates: Material and labor pricing \u2022 Timeline Projections: Repair duration estimates \u2022 Warranty Information: Coverage details and limitations \u2022 Inspector Credentials: Certifications and experience"
+      }
+    ]
+  },
+  {
+    "path": "app/roof-repair/page.tsx",
+    "low_total": 10,
+    "real_low": 10,
+    "chunks": [
+      {
+        "heading": "Roof Leaks",
+        "words": 65,
+        "score": 0,
+        "text": "Leaks are the number one reason homeowners call us. Common leak sources include failed flashing around chimneys and skylights, cracked pipe boots, worn valley seals, and wind-damaged shingles. We trace every leak to its source using moisture detection tools and fix the root cause, not just the visible symptom. Prolonged leaks can cause roof rot damage , while heavy rain damage often requires emergency attention."
+      },
+      {
+        "heading": "Flashing Failures",
+        "words": 49,
+        "score": -1,
+        "text": "Metal flashing around chimneys, dormers, walls, and vent pipes degrades over time from thermal cycling and corrosion. Failed flashing is responsible for more hidden leaks than any other single component. We remove the old flashing, install new material with proper step and counter-flashing techniques, and seal every joint."
+      },
+      {
+        "heading": "Should You Repair or Replace Your Roof?",
+        "words": 20,
+        "score": 0,
+        "text": "Not every roof problem requires a full replacement. Here are the factors we evaluate to give you an honest recommendation:"
+      },
+      {
+        "heading": "Weatherproof Sheeting",
+        "words": 24,
+        "score": 0,
+        "text": "For active leaks or exposed decking, we install heavy-duty tarps to stop water intrusion immediately and protect your interior from further damage. 3"
+      },
+      {
+        "heading": "Damage Assessment",
+        "words": 25,
+        "score": 0,
+        "text": "Once the immediate threat is contained, we perform a full inspection to assess all damage and determine whether a repair or replacement is needed. 4"
+      },
+      {
+        "heading": "Metal Roofing",
+        "words": 32,
+        "score": 0,
+        "text": "Metal roof repairs include resealing standing seam joints, replacing damaged panels, tightening fasteners on exposed-fastener systems, and applying sealant to penetration points. We work with steel, aluminum, and copper roofing systems."
+      },
+      {
+        "heading": "Built-Up and Modified Bitumen",
+        "words": 37,
+        "score": 0,
+        "text": "Multi-layer BUR and modified bitumen systems develop blisters, cracks, and exposed felts over time. We cut out damaged sections, install new membrane layers, and apply fresh flood coats or granule surfacing to restore full waterproofing performance."
+      },
+      {
+        "heading": "How Severe Is Your Roof Damage?",
+        "words": 21,
+        "score": 0,
+        "text": "Not all roof damage is equally urgent. Understanding severity levels helps you prioritize repairs and communicate effectively with your insurance company:"
+      },
+      {
+        "heading": "Cosmetic Damage",
+        "words": 44,
+        "score": 0,
+        "text": "Surface-level issues that do not compromise waterproofing but affect appearance or long-term performance. Minor granule loss on asphalt shingles Small dents on metal panels or gutters Faded or discolored roofing materials Slight moss or algae growth Urgency: Low -- monitor during next inspection"
+      },
+      {
+        "heading": "Critical Damage",
+        "words": 46,
+        "score": 0,
+        "text": "Active water entry or structural compromise requiring professional attention to prevent interior damage. Missing shingles exposing underlayment or deck Active roof leaks or ceiling water stains Sagging roof sections or rotted decking Punctured membrane on flat or TPO roofs Urgency: High -- call for emergency repair today"
+      }
+    ]
+  },
+  {
+    "path": "app/asphalt-shingle-roofing-perryton/page.tsx",
+    "low_total": 7,
+    "real_low": 7,
+    "chunks": [
+      {
+        "heading": "Agricultural Community",
+        "words": 18,
+        "score": -1,
+        "text": "Farm and grain industry families Small-town residential charm Multi-generational homesteads Rural-suburban developments Agricultural professional housing"
+      },
+      {
+        "heading": "Agricultural Durability",
+        "words": 17,
+        "score": -1,
+        "text": "Dust and debris resistance Grain dust protection Chemical exposure resistance High wind performance Long-term value focus"
+      },
+      {
+        "heading": "Dust Resistance",
+        "words": 30,
+        "score": -1,
+        "text": "Specially formulated granules and smooth surfaces resist grain dust accumulation common near elevators and processing facilities. \u2022 Self-cleaning granule surfaces \u2022 Reduced maintenance needs \u2022 Wind-assisted debris removal \u2022 Maintained aesthetic appearance"
+      },
+      {
+        "heading": "Chemical Protection",
+        "words": 24,
+        "score": -1,
+        "text": "Enhanced resistance to agricultural chemicals including fertilizers, herbicides, and grain treatment products. \u2022 Chemical-resistant granules \u2022 Asphalt modifier protection \u2022 Coating integrity preservation \u2022 Extended color retention"
+      },
+      {
+        "heading": "Value Engineering",
+        "words": 25,
+        "score": -1,
+        "text": "Cost-effective solutions that provide maximum protection and longevity for agricultural family budgets. \u2022 Competitive agricultural pricing \u2022 Extended warranty options \u2022 Seasonal installation flexibility \u2022 Family budget considerations"
+      },
+      {
+        "heading": "Small Town Values",
+        "words": 34,
+        "score": 0,
+        "text": "We understand Perryton's small-town community values and provide personalized service that reflects the trust and relationships important to agricultural families. \u2022 Local community involvement \u2022 Neighbor referral programs \u2022 Agricultural community discounts \u2022 Family business approach"
+      },
+      {
+        "heading": "Agricultural Scheduling",
+        "words": 31,
+        "score": -1,
+        "text": "Flexible scheduling that works around harvest times, planting seasons, and the unique demands of agricultural operations. \u2022 Off-season project scheduling \u2022 Weather-dependent flexibility \u2022 Quick response for storm damage \u2022 Multi-property coordination"
+      }
+    ]
+  },
+  {
+    "path": "app/asphalt-shingle-roofing-dumas/page.tsx",
+    "low_total": 6,
+    "real_low": 6,
+    "chunks": [
+      {
+        "heading": "Rural & Agricultural Homes",
+        "words": 16,
+        "score": -1,
+        "text": "Farm and ranch properties Rural residential communities Agricultural worker housing Large acreage homes Multi-building properties"
+      },
+      {
+        "heading": "Durability Features",
+        "words": 17,
+        "score": -1,
+        "text": "Chemical-resistant formulations Enhanced wind uplift resistance Algae and moss resistance Extended warranty coverage Easy maintenance requirements"
+      },
+      {
+        "heading": "Enhanced Granules",
+        "words": 24,
+        "score": 0,
+        "text": "Ceramic-coated granules resist chemical degradation from agricultural operations near Dumas homes. \u2022 Fertilizer exposure resistance \u2022 Pesticide contact protection \u2022 Acid rain resistance \u2022 Color fade prevention"
+      },
+      {
+        "heading": "Modified Asphalt",
+        "words": 23,
+        "score": -1,
+        "text": "SBS modified asphalt base provides enhanced flexibility and chemical resistance for rural applications. \u2022 Superior flexibility \u2022 Temperature cycling resistance \u2022 Crack prevention \u2022 Extended service life"
+      },
+      {
+        "heading": "Algae Resistance",
+        "words": 23,
+        "score": -1,
+        "text": "Copper-containing granules prevent algae growth common in agricultural environments with high humidity. \u2022 Algae growth prevention \u2022 Moss resistance \u2022 Maintained appearance \u2022 Reduced cleaning needs"
+      },
+      {
+        "heading": "Farm Family Value",
+        "words": 35,
+        "score": -1,
+        "text": "We understand agricultural families need maximum value from their roofing investment. Our solutions provide excellent protection at prices that fit farm budgets. \u2022 Competitive agricultural pricing \u2022 Multiple property discounts \u2022 Seasonal scheduling flexibility \u2022 Extended payment terms available"
+      }
+    ]
+  },
+  {
+    "path": "app/asphalt-shingle-roofing-odessa/page.tsx",
+    "low_total": 6,
+    "real_low": 5,
+    "chunks": [
+      {
+        "heading": "Protecting Your Family's Health",
+        "words": 57,
+        "score": 0,
+        "text": "Enhanced Air Sealing Synthetic Barriers: Prevent chemical infiltration into living spaces Sealed Penetrations: All roof penetrations properly weatherproofed Enhanced Ventilation: Balanced airflow to maintain indoor air quality Air Filtration: Integrated filtration in ventilation systems Chemical-Resistant Materials Protected Granules: Chemical-resistant coating prevents deterioration Enhanced Adhesives: Industrial-grade sealants resist chemical exposure Premium Underlayment: Chemical barrier protection"
+      },
+      {
+        "heading": "Odessa Color & Style Recommendations",
+        "words": 70,
+        "score": 0,
+        "text": "Recommended Colors for Industrial Areas Desert Beige: Hides industrial dust, reflects heat efficiently Weathered Wood: Natural appearance, excellent dirt concealment Oyster Shell: Light color with good stain hiding Antique Silver: Modern look with practical benefits Working Family Considerations \u2022 Choose colors that age gracefully and hide dirt \u2022 Medium tones balance heat reflection with maintenance \u2022 Avoid pure white (shows every speck) or very dark (excessive heat) \u2022 Consider neighborhood standards for resale value"
+      },
+      {
+        "heading": "Odessa Installation Considerations",
+        "words": 23,
+        "score": -1,
+        "text": "\u2022 Work schedule coordinated around air quality conditions \u2022 Enhanced safety protocols for industrial environment \u2022 Complete debris containment and removal \u2022 Air quality testing and verification"
+      },
+      {
+        "heading": "Industrial Environment Maintenance",
+        "words": 48,
+        "score": -1,
+        "text": "Quarterly Inspection Schedule Spring: Chemical residue assessment and cleaning Summer: Heat stress and UV damage evaluation Fall: Air quality system maintenance Winter: Seal integrity and ventilation check Chemical Exposure Monitoring \u2022 Surface cleaning when chemical residue appears \u2022 Air filtration system maintenance \u2022 Seal inspection for chemical degradation \u2022 Professional assessment annually"
+      },
+      {
+        "heading": "Family-Friendly Maintenance",
+        "words": 44,
+        "score": -1,
+        "text": "Simple DIY Monitoring \u2022 Monthly visual inspection from ground level \u2022 Check gutters for excessive buildup after storms \u2022 Monitor indoor air quality and unusual odors \u2022 Document any changes for professional evaluation Professional Services \u2022 Annual comprehensive inspection included \u2022 Priority scheduling for working families \u2022 Affordable maintenance programs available"
+      }
+    ]
+  },
+  {
+    "path": "app/contact/page.tsx",
+    "low_total": 10,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "Request a Free Inspection",
+        "words": 23,
+        "score": 0,
+        "text": "Fill out the form below and we'll get back to you within 24 hours. All inspections are completely free with no obligation."
+      },
+      {
+        "heading": "Contact Information",
+        "words": 20,
+        "score": -1,
+        "text": "Reach out to us directly through any of these channels. We're here to help with all your roofing needs."
+      },
+      {
+        "heading": "Our Service Areas",
+        "words": 27,
+        "score": 0,
+        "text": "Proudly serving communities throughout West Texas and the Panhandle with expert roofing services Don't see your city listed? Call us - we may still serve your area!"
+      },
+      {
+        "heading": "Our Roofing Services",
+        "words": 21,
+        "score": 0,
+        "text": "From storm damage repairs to complete roof replacements, we offer comprehensive roofing solutions for residential and commercial properties across West Texas."
+      }
+    ]
+  },
+  {
+    "path": "app/roof-repair-borger/page.tsx",
+    "low_total": 4,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "post-storm documentation Assessment",
+        "words": 20,
+        "score": 0,
+        "text": "\u2022 Safety evaluation of damaged areas \u2022 Leak source identification and temporary sealing \u2022 Documentation for insurance purposes \u2022 Interior damage prevention measures 2"
+      },
+      {
+        "heading": "Quality Assurance & Warranty Protection",
+        "words": 41,
+        "score": -1,
+        "text": "Before project completion, our supervisors conduct final inspections to ensure all repairs meet our quality standards. We provide comprehensive warranties on both materials and workmanship, giving you long-term peace of mind. \u2022 Final quality inspection \u2022 Warranty documentation \u2022 Maintenance recommendations \u2022 warranty support"
+      },
+      {
+        "heading": "Insurance Specialists",
+        "words": 42,
+        "score": 0,
+        "text": "Our certified insurance specialists work directly with adjusters to ensure you receive proper coverage for storm damage. We handle the paperwork and advocacy, so you focus on getting your property restored. \u2022 Complete insurance claim assistance \u2022 Direct adjuster communication \u2022 Damage documentation \u2022 Supplement negotiation"
+      },
+      {
+        "heading": "Premium Materials",
+        "words": 40,
+        "score": 0,
+        "text": "We exclusively use materials rated for Texas Panhandle conditions. Our partnerships with leading manufacturers ensure access to the latest technology in weather-resistant and chemical-resistant roofing systems. \u2022 High-wind rated shingles \u2022 Chemical-resistant membranes \u2022 Impact-resistant materials \u2022 Manufacturer warranties"
+      }
+    ]
+  },
+  {
+    "path": "app/dumas-texas-roofing/page.tsx",
+    "low_total": 3,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "Roofing Services in Dumas",
+        "words": 23,
+        "score": 0,
+        "text": "We provide a full range of residential, commercial, and agricultural roofing services throughout Dumas and Moore County. Select a service below for details."
+      },
+      {
+        "heading": "Dumas Neighborhoods We Serve",
+        "words": 23,
+        "score": 0,
+        "text": "From established neighborhoods near the Moore County courthouse to agricultural properties spread across the surrounding plains, we provide expert roofing services throughout Dumas:"
+      },
+      {
+        "heading": "Agricultural &amp; Feedlot Roofing",
+        "words": 52,
+        "score": 0,
+        "text": "Moore County's cattle and agriculture economy means large-span metal buildings, feed storage, grain elevators, and equipment yards spread across the county. These structures need corrosion-resistant metal panels, proper ventilation for livestock facilities, and crews that understand how to phase work around feeding and harvest schedules without disrupting daily operations."
+      }
+    ]
+  },
+  {
+    "path": "app/wind-damage-repair-borger/page.tsx",
+    "low_total": 3,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "Commercial Buildings",
+        "words": 37,
+        "score": 0,
+        "text": "\u2022 Large roof membrane uplift \u2022 HVAC equipment displacement \u2022 Parapet wall damage \u2022 Signage and equipment failure \u2022 Window and door seal failure Commercial buildings near Frank Phillips College and downtown Borger require enhanced fastening systems for their larger roof areas."
+      },
+      {
+        "heading": "Industrial Facilities",
+        "words": 32,
+        "score": -1,
+        "text": "\u2022 Metal panel wind uplift \u2022 Equipment housing damage \u2022 Stack and tower stress \u2022 Pipe support failures \u2022 Chemical exposure acceleration Industrial facilities require specialized repairs that account for both wind damage and chemical environment compatibility."
+      },
+      {
+        "heading": "Advanced Fastening Systems",
+        "words": 67,
+        "score": 0,
+        "text": "High-Wind Attachment Methods We use fastening patterns that exceed standard requirements, with additional fasteners in high-stress areas and upgraded attachment hardware rated for sustained high winds. Edge Reinforcement Systems Special attention to roof edges where wind uplift is strongest, using aerodynamic edge details and enhanced perimeter fastening. Chemical-Resistant Hardware Fasteners and flashing materials that resist chemical degradation from industrial emissions, maintaining integrity over time."
+      }
+    ]
+  },
+  {
+    "path": "app/hail-damage-repair-perryton/page.tsx",
+    "low_total": 2,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Disaster Response Protocol",
+        "words": 58,
+        "score": 0,
+        "text": "\u2022 Immediate Safety Assessment: Structural integrity evaluation within hours of storm impact \u2022 Weather Protection: Temporary roofing and weatherization services \u2022 Contents Preservation: our roofing service to protect remaining property and belongings \u2022 Utility Coordination: Working with power companies for safe restoration procedures \u2022 Debris Management: Coordinated removal of tornado debris for safe access \u2022 Storm Watch: Continuous monitoring for additional severe weather threats"
+      },
+      {
+        "heading": "Agricultural Claims Specialization",
+        "words": 53,
+        "score": 0,
+        "text": "Farm Structure Documentation Specialized assessment of grain storage, livestock facilities, and agricultural processing buildings Business Interruption Advocacy Coordination with agricultural operations for critical harvest and livestock feeding schedules Enhanced Reconstruction Coverage Ensuring insurance coverage for improved storm resistance in high-risk tornado areas Restoration Priority Expedited processing for time-critical agricultural infrastructure repairs"
+      }
+    ]
+  },
+  {
+    "path": "app/snyder-tx-roofing/page.tsx",
+    "low_total": 2,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Roofing Services in Snyder",
+        "words": 22,
+        "score": 0,
+        "text": "We provide a full range of residential and commercial roofing services throughout Snyder and Scurry County. Select a service below for details."
+      },
+      {
+        "heading": "Snyder Neighborhoods We Serve",
+        "words": 22,
+        "score": 0,
+        "text": "From the historic courthouse square to lakeside properties near J.B. Thomas, we provide expert roofing services throughout Snyder and Scurry County:"
+      }
+    ]
+  },
+  {
+    "path": "app/commercial-roofing-big-spring/page.tsx",
+    "low_total": 3,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Documentation-First",
+        "words": 17,
+        "score": -1,
+        "text": "Thorough damage documentation and weather-protective scheduling ensures proper insurance-claim support for healthcare and correctional operations."
+      }
+    ]
+  },
+  {
+    "path": "app/pvc-roof-repair-in-amarillo/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Fastener Blow-Off",
+        "words": 39,
+        "score": 0,
+        "text": "In mechanically-attached systems, high winds (common in Amarillo) can pull fasteners through the membrane, creating punctures. This typically occurs along roof edges and corners where wind uplift is strongest. Repair Method: Replace fasteners with larger plates, patch membrane"
+      }
+    ]
+  },
+  {
+    "path": "app/tpo-roofing-big-spring/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "TPO Repair & Maintenance",
+        "words": 41,
+        "score": 0,
+        "text": "Expert repair services for existing TPO systems. Preventive maintenance programs extend roof life and maintain energy efficiency performance. Membrane patching and welding Seam repair and re-welding Puncture and tear repair Drain and scupper maintenance Preventive maintenance programs Prompt leak repairs"
+      }
+    ]
+  }
+]

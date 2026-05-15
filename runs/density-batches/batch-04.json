@@ -1,0 +1,587 @@
+[
+  {
+    "path": "app/hail-damage-repair/page.tsx",
+    "low_total": 19,
+    "real_low": 19,
+    "chunks": [
+      {
+        "heading": "What Are the Signs of Hail Damage on Your Roof?",
+        "words": 33,
+        "score": 0,
+        "text": "Hail damage is not always obvious from the ground. Knowing what to look for can save you from expensive water damage down the road. Here are the most common indicators our inspectors check:"
+      },
+      {
+        "heading": "Cracked or Bruised Shingles",
+        "words": 43,
+        "score": -1,
+        "text": "Hail impacts fracture the fiberglass mat beneath the surface granules. These cracks may not be visible from the ground, but they compromise the shingle's ability to shed water. Dark spots or soft areas when pressed indicate bruised shingles that will fail prematurely."
+      },
+      {
+        "heading": "Granule Loss in Gutters",
+        "words": 42,
+        "score": -1,
+        "text": "After a hail storm, check your gutters and downspout outlets for excessive granule accumulation. Granules protect shingles from UV degradation, and their loss accelerates aging by several years. Heavy granule deposits after a storm are a strong indicator of widespread hail impact."
+      },
+      {
+        "heading": "Soft Spots and Exposed Felt",
+        "words": 37,
+        "score": -1,
+        "text": "Large hailstones can punch through shingle layers entirely, exposing the felt underlayment beneath. Even without full penetration, the impact creates soft spots where water will eventually pool and leak into your attic. These areas need immediate attention."
+      },
+      {
+        "heading": "Free Inspection",
+        "words": 27,
+        "score": 0,
+        "text": "We inspect your roof, siding, gutters, and screens for hail impact. Our inspectors climb the roof and document every point of damage with photos and measurements. 2"
+      },
+      {
+        "heading": "Damage Documentation",
+        "words": 22,
+        "score": 0,
+        "text": "We prepare a detailed report with photo evidence, damage maps, and material specifications that meet insurance company requirements for claim approval. 3"
+      },
+      {
+        "heading": "Insurance Coordination",
+        "words": 28,
+        "score": 0,
+        "text": "We meet your adjuster on-site, walk the roof together, and ensure nothing is missed. If the initial estimate falls short, we file supplements with additional documentation. 4"
+      },
+      {
+        "heading": "What We Handle",
+        "words": 39,
+        "score": 0,
+        "text": "Initial claim filing with detailed damage documentation On-site adjuster meetings to walk the damage together Supplement filings when the first estimate misses damage Material and labor cost verification against Xactimate Coordination between your insurance and our crew schedule"
+      },
+      {
+        "heading": "Metal Roofing",
+        "words": 39,
+        "score": 0,
+        "text": "Standing seam and corrugated metal roofs resist hail better than most materials, but large stones still cause cosmetic denting and can compromise panel seams. We repair dented panels, replace damaged sections, and reseal seams to restore full weather protection."
+      },
+      {
+        "heading": "Tile and Specialty Roofing",
+        "words": 41,
+        "score": -1,
+        "text": "Clay and concrete tile roofs crack and shatter under hail impact. We source matching replacement tiles and repair the underlayment beneath. For specialty materials like slate and cedar shake, we work with specialty suppliers to maintain the roof's original appearance."
+      },
+      {
+        "heading": "Meet With the Insurance Adjuster",
+        "words": 37,
+        "score": 0,
+        "text": "We attend the adjuster meeting on your behalf, walk the roof together, and point out every area of damage. Having a roofing professional present ensures nothing gets overlooked in the adjuster's scope of work. Step 5"
+      },
+      {
+        "heading": "Review the Scope of Work",
+        "words": 30,
+        "score": 0,
+        "text": "Compare the adjuster's estimate against our independent assessment. If the insurance estimate falls short, we file a supplement with additional documentation and line-item pricing from Xactimate. Step 6"
+      },
+      {
+        "heading": "Cosmetic Damage",
+        "words": 41,
+        "score": -1,
+        "text": "Dents in metal components, minor granule displacement on shingles, and small dings in gutters. The roof still functions properly and sheds water as designed. Action: Monitor during next inspection. May not warrant a claim depending on your deductible and premium impact."
+      },
+      {
+        "heading": "Functional Damage",
+        "words": 40,
+        "score": 0,
+        "text": "Cracked shingles, broken sealant strips, exposed underlayment, and significant granule loss that accelerates UV degradation. The roof's ability to protect your home is compromised. Action: File an insurance claim. Repairs prevent further deterioration and interior water damage within months."
+      },
+      {
+        "heading": "Critical Damage",
+        "words": 40,
+        "score": -1,
+        "text": "Punctures through the decking, active leaks into living spaces, large areas of missing shingles, and structural compromise from repeated impacts. Immediate repair is necessary. Action: Emergency weatherproof sheeting followed by full replacement. File a claim immediately and request expedited processing."
+      },
+      {
+        "heading": "How Do You Tell the Difference Between Hail, Wind, and Water Damage?",
+        "words": 33,
+        "score": 0,
+        "text": "Insurance adjusters need to verify the cause of damage before approving a claim. Knowing how to identify each type helps you communicate accurately with your carrier and ensures the right repairs are performed:"
+      },
+      {
+        "heading": "Hail Damage Signs",
+        "words": 36,
+        "score": -1,
+        "text": "Circular dents or dimples on shingles and metal Bruised shingles that feel soft when pressed Random impact pattern across the roof surface Cracked tiles with star or spider-web fractures Granule accumulation in gutters after storms"
+      },
+      {
+        "heading": "Wind Damage Signs",
+        "words": 33,
+        "score": -1,
+        "text": "Lifted or curled shingle edges along ridges and edges Missing shingle sections, especially on windward slopes Debris impact marks from airborne objects Damaged or displaced ridge cap shingles Directional pattern following prevailing wind"
+      },
+      {
+        "heading": "Water Damage Signs",
+        "words": 34,
+        "score": -1,
+        "text": "Interior ceiling stains or discoloration Sagging or bubbling areas on the roof surface Mold or mildew growth in attic spaces Rotted fascia boards or decking underneath Peeling paint on exterior walls near the roofline"
+      }
+    ]
+  },
+  {
+    "path": "app/wind-damage-repair/page.tsx",
+    "low_total": 12,
+    "real_low": 12,
+    "chunks": [
+      {
+        "heading": "Lifted and Missing Shingles",
+        "words": 41,
+        "score": -1,
+        "text": "Wind catches the exposed edge of a shingle and peels it upward, breaking the adhesive seal. Once one shingle lifts, surrounding shingles lose their overlap protection and become vulnerable too. Missing shingles leave the underlayment and deck directly exposed to rain."
+      },
+      {
+        "heading": "Exposed Underlayment",
+        "words": 38,
+        "score": -1,
+        "text": "When shingles blow off, the synthetic or felt underlayment beneath them becomes the only barrier between your roof deck and the weather. Underlayment is not designed for prolonged UV exposure and will degrade quickly, making emergency repair critical."
+      },
+      {
+        "heading": "Flashing Separation",
+        "words": 37,
+        "score": -1,
+        "text": "Metal flashing around chimneys, vents, and roof edges can bend, lift, or separate completely under high winds. This creates immediate leak points at the most vulnerable junctions of your roof system, where water infiltration is most likely."
+      },
+      {
+        "heading": "Ridge Cap and Soffit Damage",
+        "words": 46,
+        "score": 0,
+        "text": "Ridge caps sit at the highest point of your roof and take the full force of wind. Once damaged, they allow wind-driven rain into the attic. Soffits and fascia boards along the eaves can crack, warp, or blow off, compromising your roof's ventilation system."
+      },
+      {
+        "heading": "Weatherproof Sheeting",
+        "words": 33,
+        "score": 0,
+        "text": "If your roof has exposed areas, we tarp the damaged sections to prevent further water intrusion. This is especially critical during active storm seasons when follow-up rain is likely within days. 2"
+      },
+      {
+        "heading": "Damage Assessment",
+        "words": 41,
+        "score": 0,
+        "text": "We inspect every section of your roof to identify all wind damage, not just the obvious spots. This includes checking flashing, ridge caps, underlayment, and the attic interior for signs of water entry. You receive a written report with photos. 3"
+      },
+      {
+        "heading": "Insurance Documentation",
+        "words": 30,
+        "score": 0,
+        "text": "We prepare detailed damage reports with photographs, measurements, and material specifications formatted for insurance adjusters. Our documentation helps streamline your claim and supports full coverage of the repair costs. 4"
+      },
+      {
+        "heading": "Targeted Repair or Full Replacement",
+        "words": 47,
+        "score": 0,
+        "text": "Depending on the extent of damage, we either repair the affected areas or recommend full replacement. Localized damage typically requires replacing individual shingles, re-securing flashing, and sealing penetrations. Widespread damage across 30% or more of the roof surface often makes full replacement the more practical choice."
+      },
+      {
+        "heading": "How Can You Prevent Future Wind Damage?",
+        "words": 19,
+        "score": 0,
+        "text": "Proactive maintenance is far less expensive than emergency repairs. These measures significantly reduce your roof's vulnerability to wind:"
+      },
+      {
+        "heading": "Proper Nailing Patterns",
+        "words": 41,
+        "score": 0,
+        "text": "Using six nails per shingle instead of four, placed in the manufacturer's recommended nailing zone, dramatically improves hold strength. This single upgrade can mean the difference between a roof that survives a 70 mph gust and one that does not."
+      },
+      {
+        "heading": "Sealed Roof Decking",
+        "words": 34,
+        "score": 0,
+        "text": "Applying a peel-and-stick ice and water shield membrane over the entire roof deck, or at minimum along eaves, rakes, and valleys, creates a secondary waterproof barrier even if shingles are blown off."
+      },
+      {
+        "heading": "Wind Damage Repair by City",
+        "words": 19,
+        "score": 0,
+        "text": "We provide wind damage roof repair across 14 Texas cities. Select your location for city-specific information and scheduling:"
+      }
+    ]
+  },
+  {
+    "path": "app/roof-repair-canyon/page.tsx",
+    "low_total": 10,
+    "real_low": 10,
+    "chunks": [
+      {
+        "heading": "Palo Duro Canyon Wind Patterns",
+        "words": 43,
+        "score": 0,
+        "text": "Canyon's proximity to Palo Duro Canyon creates unique wind patterns and microclimates that affect roofing systems. Our team understands how canyon geography influences weather damage and material selection. \u2022 Wind-channel damage assessment \u2022 Canyon-specific weather resistance \u2022 Microclimate-adapted materials \u2022 Geographic hazard evaluation"
+      },
+      {
+        "heading": "Historic Downtown Preservation",
+        "words": 36,
+        "score": 0,
+        "text": "Canyon's historic downtown district requires specialized attention to preserve architectural integrity while upgrading roofing systems. We balance historical preservation with modern performance standards. \u2022 Historical building compliance \u2022 Period-appropriate materials \u2022 Preservation society coordination \u2022 Code-compliant upgrades"
+      },
+      {
+        "heading": "Agricultural Community Support",
+        "words": 38,
+        "score": 0,
+        "text": "Canyon serves the surrounding agricultural community with ranching and farming operations. We provide specialized roofing services for agricultural buildings, barns, and rural residential properties. \u2022 Agricultural building repairs \u2022 Ranch and farm structures \u2022 Rural residential services \u2022 Large-span roof systems"
+      },
+      {
+        "heading": "Canyon Geography",
+        "words": 25,
+        "score": 0,
+        "text": "Located near Palo Duro Canyon, America's second-largest canyon, creating unique wind funneling effects and microclimate variations that impact roofing system performance and longevity."
+      },
+      {
+        "heading": "University Environment",
+        "words": 25,
+        "score": 0,
+        "text": "West Texas A&M University brings diverse architectural styles and high-density housing that requires specialized roofing approaches for both historic and modern campus buildings."
+      },
+      {
+        "heading": "Agricultural Hub",
+        "words": 25,
+        "score": 0,
+        "text": "Canyon serves as a regional agricultural center, requiring roofing solutions for diverse building types from residential homes to large agricultural facilities and grain storage structures."
+      },
+      {
+        "heading": "Long-Term Performance Monitoring",
+        "words": 44,
+        "score": 0,
+        "text": "Given Canyon's unique weather patterns, we provide extended monitoring services to ensure repairs perform as expected under local conditions. Our warranty service includes regular check-ins during severe weather seasons. \u2022 Seasonal performance monitoring \u2022 Storm damage follow-up \u2022 Warranty compliance tracking \u2022 Preventive maintenance scheduling"
+      },
+      {
+        "heading": "Canyon Geographic Expertise",
+        "words": 40,
+        "score": 0,
+        "text": "Our team understands how Palo Duro Canyon geography affects local weather patterns and building performance. We factor these unique conditions into every repair recommendation and material selection. \u2022 Canyon wind pattern expertise \u2022 Microclimate damage assessment \u2022 Geographic risk evaluation \u2022 Location-specific solutions"
+      },
+      {
+        "heading": "Historical Preservation",
+        "words": 35,
+        "score": 0,
+        "text": "Canyon's historic downtown district requires specialized knowledge of preservation standards and period-appropriate materials. We balance historical integrity with modern performance requirements. \u2022 Historic building compliance \u2022 Preservation society coordination \u2022 Period-appropriate materials \u2022 Architectural integrity maintenance"
+      },
+      {
+        "heading": "Agricultural Community Support",
+        "words": 39,
+        "score": 0,
+        "text": "We serve Canyon's broader agricultural community with specialized services for farming and ranching operations, understanding the unique requirements of agricultural buildings and rural properties. \u2022 Agricultural building expertise \u2022 Ranch and farm services \u2022 Large-span roof systems \u2022 Rural property specialization"
+      }
+    ]
+  },
+  {
+    "path": "app/heavy-rain-damage-roof-repair-in-amarillo/page.tsx",
+    "low_total": 13,
+    "real_low": 7,
+    "chunks": [
+      {
+        "heading": "Failed Flashing",
+        "words": 38,
+        "score": 0,
+        "text": "Flashing around chimneys, skylights, vents, and valleys is critical for directing water away from vulnerable areas. Extreme temperature swings in West Texas cause flashing sealant to crack and metal to expand/contract, leading to gaps where water enters."
+      },
+      {
+        "heading": "Clogged Gutters and Downspouts",
+        "words": 32,
+        "score": -1,
+        "text": "When gutters fill with debris, water backs up under shingles at the roof edge. During heavy downpours common in Texas, this overflow can quickly saturate roof decking and penetrate into the attic."
+      },
+      {
+        "heading": "Proper Ventilation",
+        "words": 21,
+        "score": 0,
+        "text": "Adequate ridge and soffit ventilation prevents moisture buildup in the attic that can weaken roof decking and make rain damage worse."
+      },
+      {
+        "heading": "Regular Gutter Maintenance",
+        "words": 19,
+        "score": -1,
+        "text": "Clean gutters twice per year (spring and fall) to ensure proper water drainage away from roof edges and foundation."
+      },
+      {
+        "heading": "Understanding Your Insurance Coverage",
+        "words": 26,
+        "score": -1,
+        "text": "Most homeowners insurance policies in Texas cover water damage resulting from storm events, including heavy rain. However, coverage can be complex and depends on several factors:"
+      },
+      {
+        "heading": "What's Typically Covered",
+        "words": 42,
+        "score": -1,
+        "text": "Sudden and accidental water intrusion from storm events Wind-driven rain damage through roof openings created by storms weatherproof sheeting to help prevent further damage Roof repairs or replacement if damage is extensive Interior water damage resulting from roof failure during storms"
+      },
+      {
+        "heading": "Will weatherproof sheeting damage my roof further?",
+        "words": 31,
+        "score": 0,
+        "text": "No. Our crews use professional-grade tarps and installation methods that secure the tarp without creating additional penetrations or damage. Weatherproof sheeting prevents exponentially more damage than it could possibly cause."
+      }
+    ]
+  },
+  {
+    "path": "app/asphalt-shingle-roofing-pampa/page.tsx",
+    "low_total": 6,
+    "real_low": 6,
+    "chunks": [
+      {
+        "heading": "Energy Worker Families",
+        "words": 17,
+        "score": -1,
+        "text": "Oil & gas industry professionals Energy sector family homes Professional service workers Growing residential communities Executive housing developments"
+      },
+      {
+        "heading": "Industrial Environment Protection",
+        "words": 17,
+        "score": -1,
+        "text": "Enhanced chemical resistance Air quality protection features Superior fire resistance High-performance ventilation systems Maintenance-friendly designs"
+      },
+      {
+        "heading": "Enhanced Air Quality Features",
+        "words": 28,
+        "score": -1,
+        "text": "Specialized shingle systems and ventilation solutions help maintain indoor air quality in areas with industrial operations. \u2022 Advanced ventilation systems \u2022 Sealed deck installation \u2022 Air barrier integration \u2022 Filtration system compatibility"
+      },
+      {
+        "heading": "Executive Home Standards",
+        "words": 27,
+        "score": -1,
+        "text": "Premium materials and installation techniques that meet the high standards expected by energy industry professionals. \u2022 Designer color selections \u2022 Architectural enhancement options \u2022 Extended warranty packages \u2022 Professional project management"
+      },
+      {
+        "heading": "Executive Service Standards",
+        "words": 29,
+        "score": -1,
+        "text": "Energy industry professionals expect and deserve the highest levels of service, communication, and workmanship quality. \u2022 Dedicated project managers \u2022 Daily progress updates \u2022 Flexible scheduling around work demands \u2022 Premium material selections"
+      },
+      {
+        "heading": "Industry Professional Discounts",
+        "words": 33,
+        "score": 0,
+        "text": "We offer special pricing for Pampa's energy industry workers as appreciation for their contribution to the local economy. \u2022 Energy industry employee discounts \u2022 Referral rewards programs \u2022 Multiple home project pricing \u2022 Flexible payment terms"
+      }
+    ]
+  },
+  {
+    "path": "app/residential-roofing-lubbock/page.tsx",
+    "low_total": 5,
+    "real_low": 5,
+    "chunks": [
+      {
+        "heading": "University Area",
+        "words": 55,
+        "score": 0,
+        "text": "Property Type: Student & Faculty Housing Rental Market: High Density Average Rent: /month Surrounding Texas Tech campus with mix of student rentals and faculty housing. Many properties are investment rentals requiring fast turnaround and durable materials. We coordinate with property managers and work around academic schedules. Special educator discounts available for Texas Tech faculty and staff."
+      },
+      {
+        "heading": "Texas Tech University Expertise",
+        "words": 43,
+        "score": -1,
+        "text": "We specialize in university-area properties, from historic Tech Terrace homes to modern faculty housing. We coordinate around academic calendars, offer educator discounts, and understand the unique needs of rental properties and student housing. Fast turnaround times minimize vacancy periods for investment properties."
+      },
+      {
+        "heading": "Complete Permit & Code Service",
+        "words": 45,
+        "score": 0,
+        "text": "We handle all City of Lubbock building permits and code compliance at no extra charge. Important note: Properties in unincorporated Lubbock County have different requirements since the county doesn't issue building permits. We navigate these distinctions expertly, ensuring your project meets all applicable regulations."
+      },
+      {
+        "heading": "Lubbock County (Unincorporated)",
+        "words": 42,
+        "score": -1,
+        "text": "Building Permits: Not required by county Regulations: Subdivision regulations apply Note: Different rules than city limits HOA: Private community rules may apply We handle all permitting requirements and navigate these jurisdictional differences at no extra charge, ensuring full compliance and warranty protection."
+      },
+      {
+        "heading": "Extreme UV & Temperature",
+        "words": 46,
+        "score": 0,
+        "text": "Intense solar radiation at 3,200 feet elevation with little atmospheric protection. Temperature swings from winter freezes to summer heat create thermal cycling stress. UV radiation accelerates shingle aging and granule loss. Poor ventilation amplifies heat damage. Premium materials and proper ventilation extend roof life significantly."
+      }
+    ]
+  },
+  {
+    "path": "app/hail-damage-repair-andrews/page.tsx",
+    "low_total": 4,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "Roof System Evaluation",
+        "words": 55,
+        "score": 0,
+        "text": "\u2022 Shingle Impact Assessment: Granule loss patterns, exposed mat, cracking \u2022 Metal Component Inspection: Dents in flashing, gutters, vents, and HVAC units \u2022 Underlayment Integrity: Punctures or tears that compromise waterproofing \u2022 Decking Evaluation: Impact damage to OSB or plywood substrate \u2022 Fastener Assessment: Loosened nails or screws from impact vibration \u2022 Ridge and Hip Analysis: Critical seal point damage evaluation"
+      },
+      {
+        "heading": "Insurance Documentation",
+        "words": 51,
+        "score": 0,
+        "text": "\u2022 Photographic Evidence: High-resolution damage documentation from multiple angles \u2022 Moisture Detection: Thermal imaging to identify hidden water intrusion \u2022 Measurement Reports: Precise square footage calculations for claims \u2022 Code Compliance Review: Upgrade requirements for current building standards \u2022 Matching Requirements: Color and granule specifications for seamless repairs \u2022 Adjuster Coordination: Professional representation during claim evaluations"
+      },
+      {
+        "heading": "Storm Mitigation",
+        "words": 48,
+        "score": -1,
+        "text": "\u2022 Immediate weatherproof sheeting: Professional-grade tarps with secure fastening systems \u2022 Securing Services: Temporary protection for compromised openings \u2022 Water Extraction: our roofing service to prevent secondary damage \u2022 Interior Protection: Contents coverage and moisture barriers \u2022 Structural Assessment: Engineering evaluation for safety concerns \u2022 Response Team: Mitigation within hours of storm events"
+      },
+      {
+        "heading": "Claims Process Support",
+        "words": 48,
+        "score": -1,
+        "text": "Initial Damage Assessment Professional documentation meeting insurance industry standards Adjuster Meeting Coordination Professional representation and technical expertise during inspections Supplement Negotiation Additional damage identification and settlement enhancement Code Upgrade Advocacy Ensuring coverage for required building code improvements Final Settlement Review Complete verification of claim accuracy before project completion"
+      }
+    ]
+  },
+  {
+    "path": "app/storm-damage-repair-odessa/page.tsx",
+    "low_total": 9,
+    "real_low": 4,
+    "chunks": [
+      {
+        "heading": "UTPB & Academic Areas",
+        "words": 17,
+        "score": 0,
+        "text": "\u2022 University of Texas Permian Basin \u2022 Academic research facilities \u2022 Student housing complexes \u2022 Faculty residential areas \u2022 Campus support services"
+      },
+      {
+        "heading": "Central Odessa",
+        "words": 16,
+        "score": -1,
+        "text": "\u2022 Downtown Historic District \u2022 Music City Mall area \u2022 Ratliff Stadium vicinity \u2022 Ector County Coliseum \u2022 Presidential Museum area"
+      },
+      {
+        "heading": "Chemical Process Precipitation",
+        "words": 45,
+        "score": 0,
+        "text": "Rain and hail falling through petroleum emissions create more aggressive chemical precipitation that accelerates corrosion of roofing materials. This effect is particularly pronounced in areas downwind of major processing facilities, requiring enhanced protective measures. Properties within 3 miles of refineries require chemical-resistant roofing materials"
+      },
+      {
+        "heading": "April 2023 - Chemical Dust Storm",
+        "words": 43,
+        "score": 0,
+        "text": "A massive dust storm carrying petroleum particulates from refinery areas created aggressive chemical corrosion conditions across Ector County. Properties downwind of processing facilities experienced accelerated roofing material deterioration requiring specialized cleaning and protective treatments. Response: 189 chemical damage assessments, enhanced protective coating applications"
+      }
+    ]
+  },
+  {
+    "path": "app/hail-damage-repair-big-spring/page.tsx",
+    "low_total": 3,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "Advanced Assessment Technology",
+        "words": 48,
+        "score": 0,
+        "text": "\u2022 Thermal Imaging: FLIR technology to detect hidden moisture intrusion \u2022 Drone Inspections: High-resolution aerial damage assessment \u2022 Impact Measurement: Precise documentation of hail strike patterns \u2022 Moisture Meters: Detection of water penetration in critical areas \u2022 Digital Documentation: GPS-tagged photos for insurance claims \u2022 Granule Collection: Physical evidence sampling for adjusters"
+      },
+      {
+        "heading": "Post-Storm Documentation Protocol",
+        "words": 36,
+        "score": -1,
+        "text": "\u2022 Priority Triage: Active leaks and structural concerns first \u2022 Temporary Protection: Professional weatherproof sheeting services \u2022 Contents Safeguarding: Interior protection from additional damage \u2022 Utility Safety: Electrical and gas line inspection protocols \u2022 Communication Hub: Regular updates to property owners"
+      },
+      {
+        "heading": "Claim Optimization Strategies",
+        "words": 59,
+        "score": 0,
+        "text": "Storm-Specific Documentation Correlating damage with specific weather events using NOAA storm reports and local weather station data Code Upgrade Advocacy Ensuring coverage for current building code requirements and enhanced wind resistance standards Adjuster Education Professional presentation of damage scope using industry-standard terminology and measurement techniques Supplement Management Systematic identification and documentation of additional damage discovered during installation"
+      }
+    ]
+  },
+  {
+    "path": "app/wind-damage-repair-canyon/page.tsx",
+    "low_total": 3,
+    "real_low": 3,
+    "chunks": [
+      {
+        "heading": "Canyon Rim Properties",
+        "words": 40,
+        "score": 0,
+        "text": "\u2022 Extreme wind uplift damage \u2022 Debris impact from canyon \u2022 Sustained high wind stress \u2022 Rapid material degradation \u2022 Directional wind patterns Properties with scenic canyon views face the most severe wind exposure and require the highest-grade wind-resistant materials and installation methods."
+      },
+      {
+        "heading": "WTAMU Campus",
+        "words": 34,
+        "score": -1,
+        "text": "\u2022 Building height turbulence \u2022 Multi-directional wind stress \u2022 Large roof area challenges \u2022 Academic building complexity \u2022 Dormitory wind exposure University buildings require coordinated wind damage repairs that minimize disruption to academic schedules while providing superior protection."
+      },
+      {
+        "heading": "Downtown Canyon",
+        "words": 34,
+        "score": -1,
+        "text": "\u2022 Historic building challenges \u2022 Mixed architectural styles \u2022 Building-to-building turbulence \u2022 Commercial signage damage \u2022 Street-level wind patterns Downtown buildings benefit from some wind protection but require specialized approaches for historic preservation and architectural compatibility."
+      }
+    ]
+  },
+  {
+    "path": "app/metal-roofing/page.tsx",
+    "low_total": 2,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Hail Resistance",
+        "words": 35,
+        "score": 0,
+        "text": "Standing seam and thick-gauge metal panels resist denting from all but the largest hailstones. While shingle roofs often need full replacement after a major hail event, metal roofs frequently survive with cosmetic damage only."
+      },
+      {
+        "heading": "Commercial Advantages",
+        "words": 43,
+        "score": 0,
+        "text": "Lower lifecycle cost than repeated membrane replacements Minimal disruption during installation compared to built-up roofing Insurance premium discounts for impact-resistant metal systems Energy savings reduce operating costs for climate-controlled buildings Metal panels can span long distances without interior support columns"
+      }
+    ]
+  },
+  {
+    "path": "app/tpo-roofing-borger/page.tsx",
+    "low_total": 3,
+    "real_low": 2,
+    "chunks": [
+      {
+        "heading": "Phase 4: Quality Control & Final Inspection",
+        "words": 44,
+        "score": -1,
+        "text": "Comprehensive testing ensures system integrity. Every seam is tested, all penetrations are verified watertight, and the complete system undergoes final inspection before project completion and warranty activation. \u2022 Electronic leak detection testing \u2022 Seam strength verification \u2022 Final walkthrough with building owner \u2022 Warranty documentation and maintenance schedule"
+      },
+      {
+        "heading": "Common Maintenance Items",
+        "words": 44,
+        "score": -1,
+        "text": "\u2022 Drain clearing: Prevent ponding water that can stress the membrane \u2022 Seam inspection: Check heat-welded seams for integrity \u2022 Penetration sealing: Maintain watertight seals around HVAC and other penetrations \u2022 Edge detail review: Ensure proper termination at walls and parapets \u2022 Fastener inspection: Verify mechanical attachment security"
+      }
+    ]
+  },
+  {
+    "path": "app/commercial-roofing-canyon/page.tsx",
+    "low_total": 3,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Documentation-First",
+        "words": 15,
+        "score": 0,
+        "text": "Thorough damage documentation and insurance-claim support for university operations and tourist facilities in Canyon."
+      }
+    ]
+  },
+  {
+    "path": "app/residential-roofing-amarillo/page.tsx",
+    "low_total": 1,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "Insurance Claim Specialists",
+        "words": 25,
+        "score": -1,
+        "text": "We document every impact, meet with adjusters on-site, and advocate for maximum coverage. We work with State Farm, Allstate, USAA, and every major carrier."
+      }
+    ]
+  },
+  {
+    "path": "app/vega-tx-roofing/page.tsx",
+    "low_total": 3,
+    "real_low": 1,
+    "chunks": [
+      {
+        "heading": "High Plains Specialists",
+        "words": 20,
+        "score": 0,
+        "text": "Vega's exposed high plains location requires specialized roofing. We use materials rated for extreme wind, hail, and temperature conditions."
+      }
+    ]
+  }
+]

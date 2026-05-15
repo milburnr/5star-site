@@ -500,19 +500,16 @@ export default function HailDamageRepairPampaPage() {
                   <h3 className="text-2xl font-bold text-brand-brown mb-4">Atmospheric Dynamics</h3>
                   <ul className="space-y-3 text-gray-700">
                     <li>
-                      <strong>Canadian River Valley:</strong> Enhances low-level wind shear and
-                      convergence
+                      <strong>Canadian River Valley:</strong> The valley north of Pampa enhances low-level wind shear and convergence ahead of approaching storms
                     </li>
                     <li>
-                      <strong>Caprock Proximity:</strong> Terrain features strengthen storm updrafts
+                      <strong>Caprock Proximity:</strong> The Caprock Escarpment to the south of Gray County strengthens supercell updrafts as storms cross terrain
                     </li>
                     <li>
-                      <strong>High Plains Position:</strong> Extreme temperature contrasts fuel
-                      supercells
+                      <strong>High Plains Position:</strong> Llano Estacado temperature contrasts between desert air and Gulf moisture fuel supercell development
                     </li>
                     <li>
-                      <strong>Jet Stream Interaction:</strong> Upper-level winds enhance storm
-                      rotation
+                      <strong>Jet Stream Interaction:</strong> Upper-level winds during spring intensify rotation and produce the large hail Pampa sees from April through June
                     </li>
                   </ul>
                 </div>

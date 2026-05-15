@@ -464,25 +464,29 @@ export default function TPORoofingMidlandPage() {
                 <div className="text-4xl font-bold text-brand-gold mb-4">1</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Hazard Assessment</h3>
                 <p className="text-gray-700">
-                  Comprehensive evaluation of potential chemical exposure, equipment loads,
-                  operational requirements, and safety protocols specific to energy industry
-                  facilities.
+                  Site walk to evaluate Permian Basin chemical exposure, rooftop HVAC and process
+                  equipment loads, operational uptime requirements, and safety protocols specific
+                  to a Midland oil and gas facility. Findings inform attachment, membrane gauge,
+                  and TPO weld detail decisions.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">2</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Industrial Engineering</h3>
                 <p className="text-gray-700">
-                  Custom system design incorporating chemical resistance requirements, heavy
-                  equipment loads, and specialized attachment methods for industrial environments.
+                  System layout sized for the chemical resistance demands of the Permian Basin,
+                  heavy rooftop equipment loads, and the mechanically fastened or fully adhered
+                  attachment that an industrial Midland roof needs. Carlisle and Firestone TPO
+                  membrane platforms are specified by application.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">3</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Safety Compliance</h3>
                 <p className="text-gray-700">
-                  Full compliance with OSHA requirements, energy industry safety protocols, and
-                  coordination with facility safety personnel throughout the installation process.
+                  OSHA-compliant fall protection, hot-work permitting for TPO heat welding, and
+                  daily coordination with on-site Permian Basin facility safety personnel from
+                  pre-job hazard analysis through final close-out documentation.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
@@ -497,18 +501,20 @@ export default function TPORoofingMidlandPage() {
                 <div className="text-4xl font-bold text-brand-gold mb-4">5</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Precision Installation</h3>
                 <p className="text-gray-700">
-                  Expert installation by certified technicians experienced in industrial
-                  environments, using specialized equipment and techniques for energy industry
-                  facilities.
+                  Carlisle and Firestone TPO installation handled by manufacturer-certified
+                  technicians who have worked Midland and Odessa industrial roofs before, with
+                  hot-air weld testing, seam probing, and the lift access plans an active
+                  Permian Basin site requires.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">6</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Performance Validation</h3>
                 <p className="text-gray-700">
-                  Rigorous testing and inspection protocols including chemical resistance
-                  verification, structural load testing, and comprehensive documentation for
-                  industrial applications.
+                  Post-install validation includes hot-air weld probe testing on every seam,
+                  fastener pull testing, chemical resistance confirmation against the membrane
+                  spec, and a close-out package with Carlisle or Firestone warranty registration
+                  for the Midland facility owner.
                 </p>
               </div>
             </div>
@@ -582,9 +588,10 @@ export default function TPORoofingMidlandPage() {
                   <Shield className="w-6 h-6 inline-block" /> Risk Management
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Energy operations require reliable infrastructure. Our TPO systems provide
-                  superior weather protection and fire resistance, reducing operational risks for
-                  critical facilities.
+                  Permian Basin energy operations cannot tolerate roof downtime. Carlisle and
+                  Firestone TPO membrane systems install with high wind uplift performance and
+                  Class A fire ratings, cutting weather and fire risk for the production pads,
+                  control rooms, and warehouses around Midland.
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">Risk Reduction:</h4>

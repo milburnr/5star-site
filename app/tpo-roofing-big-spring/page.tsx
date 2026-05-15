@@ -390,33 +390,31 @@ export default function TPORoofingBigSpringPage() {
                   TPO Repair & Maintenance
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Expert repair services for existing TPO systems. Preventive maintenance programs
-                  extend roof life and maintain energy efficiency performance.
+                  Hot-air welded repairs and scheduled maintenance on TPO systems across Big Spring and Howard County. Annual maintenance keeps the white reflective surface clean so the ENERGY STAR cool-roof rating still earns its cooling-load savings through long West Texas summers.
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Membrane patching and welding
+                    Reinforced TPO patches hot-air welded onto the field with a probe-tested seam
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Seam repair and re-welding
+                    Seam re-welding at failed laps with a hand welder and silicone roller
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Puncture and tear repair
+                    Puncture and tear repair from hail strikes and rooftop foot traffic
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Drain and scupper maintenance
+                    Drain bowl and scupper re-flashing to keep ponding from forming after storms</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Twice-yearly maintenance visits with photo logs kept on file for the property owner
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Preventive maintenance programs
-                  </li>
-                  <li className="flex items-start gap-1">
-                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Prompt leak repairs
+                    Prompt leak response when a Howard County property reports active drips
                   </li>
                 </ul>
               </div>

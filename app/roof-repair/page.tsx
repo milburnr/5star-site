@@ -257,10 +257,7 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Roof Leaks</h3>
             <p className="text-gray-700">
-              Leaks are the number one reason homeowners call us. Common leak sources include failed
-              flashing around chimneys and skylights, cracked pipe boots, worn valley seals, and
-              wind-damaged shingles. We trace every leak to its source using moisture detection
-              tools and fix the root cause, not just the visible symptom. Prolonged leaks can cause{" "}
+              Leaks are the number one reason homeowners call us across Amarillo, Lubbock, and Midland-Odessa. Common sources include failed step flashing around chimneys and skylights, cracked EPDM pipe boots, worn valley underlayment, and wind-lifted asphalt shingles. We trace each leak with FLIR thermal imaging and pin-style moisture meters, then fix the actual entry point rather than the ceiling stain below it. Prolonged leaks can cause{" "}
               <a
                 href="/roof-rot-damage-in-amarillo/"
                 className="text-brand-brown hover:text-brand-gold underline"
@@ -291,10 +288,7 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Flashing Failures</h3>
             <p className="text-gray-700">
-              Metal flashing around chimneys, dormers, walls, and vent pipes degrades over time from
-              thermal cycling and corrosion. Failed flashing is responsible for more hidden leaks
-              than any other single component. We remove the old flashing, install new material with
-              proper step and counter-flashing techniques, and seal every joint.
+              Galvanized and aluminum flashing around chimneys, dormer walls, and vent pipes degrades from daily Panhandle thermal cycling and trace corrosion. In our experience across Amarillo and Canyon, failed flashing causes more hidden attic leaks than any other single component. We strip the old metal, install fresh step and counter-flashing tied into peel-and-stick underlayment, and seal every joint with ASTM-rated polyurethane sealant.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
@@ -330,8 +324,7 @@ export default function Page() {
       <FadeIn delay={0.2}>
         <h2 className="text-2xl font-bold mt-8 mb-4">Should You Repair or Replace Your Roof?</h2>
         <p className="mb-4">
-          Not every roof problem requires a full replacement. Here are the factors we evaluate to
-          give you an honest recommendation:
+          Not every roof in Amarillo, Lubbock, or Midland needs to come off. A targeted repair often buys five or more years of reliable service, while a tired 22-year-old asphalt shingle roof is usually better off replaced with Class 4 impact-rated shingles or standing seam metal. Here are the factors we weigh before giving you an honest recommendation:
         </p>
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-brand-gold-light p-6 rounded-lg">
@@ -400,16 +393,14 @@ export default function Page() {
             <div className="text-3xl font-bold text-brand-gold mb-2">2</div>
             <h3 className="font-bold mb-2 text-brand-brown">Weatherproof Sheeting</h3>
             <p className="text-sm text-gray-600">
-              For active leaks or exposed decking, we install heavy-duty tarps to stop water
-              intrusion immediately and protect your interior from further damage.
+              For active leaks or exposed decking after a Panhandle hailstorm or supercell, we install heavy-duty reinforced tarps anchored with battens to stop water intrusion and protect drywall, insulation, and flooring until a permanent fix is scheduled.
             </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <div className="text-3xl font-bold text-brand-gold mb-2">3</div>
             <h3 className="font-bold mb-2 text-brand-brown">Damage Assessment</h3>
             <p className="text-sm text-gray-600">
-              Once the immediate threat is contained, we perform a full inspection to assess all
-              damage and determine whether a repair or replacement is needed.
+              Once the leak is contained, we walk every slope, run drone imagery, and document hail strikes or wind-lifted shingles for State Farm, Allstate, USAA, Farmers, or Texas Farm Bureau, then advise on repair versus full replacement.
             </p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
@@ -442,9 +433,7 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Metal Roofing</h3>
             <p className="text-gray-700">
-              Metal roof repairs include resealing standing seam joints, replacing damaged panels,
-              tightening fasteners on exposed-fastener systems, and applying sealant to penetration
-              points. We work with steel, aluminum, and copper roofing systems.
+              On standing seam and R-panel metal roofs across the Panhandle, we re-seal seam joints with butyl tape and metal-rated sealant, replace hail-dented or wind-damaged panels in matching gauge and color, tighten back-out fasteners on exposed-fastener systems, and re-flash penetrations like B-vents and skylights. We work on 24-gauge and 26-gauge galvanized steel, aluminum, and copper systems.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
@@ -461,9 +450,7 @@ export default function Page() {
               Built-Up and Modified Bitumen
             </h3>
             <p className="text-gray-700">
-              Multi-layer BUR and modified bitumen systems develop blisters, cracks, and exposed
-              felts over time. We cut out damaged sections, install new membrane layers, and apply
-              fresh flood coats or granule surfacing to restore full waterproofing performance.
+              Multi-layer BUR and modified bitumen flat roofs across the Amarillo metro and Permian Basin develop blisters, alligator cracks, and exposed felts after years of UV exposure. We cut out failed sections back to sound material, lap in new modified bitumen plies, and apply fresh flood coats or ceramic granule surfacing to restore the full waterproof assembly.
             </p>
           </div>
         </div>
@@ -473,21 +460,19 @@ export default function Page() {
       <FadeIn delay={0.5}>
         <h2 className="text-2xl font-bold mt-8 mb-4">How Severe Is Your Roof Damage?</h2>
         <p className="mb-4">
-          Not all roof damage is equally urgent. Understanding severity levels helps you prioritize
-          repairs and communicate effectively with your insurance company:
+          Not every issue we see in Amarillo or Lubbock needs same-week attention. Sorting damage into cosmetic, functional, and critical buckets helps you plan the budget and communicate clearly with your adjuster at State Farm, Allstate, USAA, Farmers, or Texas Farm Bureau:
         </p>
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-500">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Cosmetic Damage</h3>
             <p className="text-gray-700 mb-3">
-              Surface-level issues that do not compromise waterproofing but affect appearance or
-              long-term performance.
+              Surface issues that don&apos;t compromise the waterproof envelope but show wear or shorten remaining roof life. Often noted on Panhandle homes after a quick-moving hail event that didn&apos;t deliver large stones.
             </p>
             <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-              <li>Minor granule loss on asphalt shingles</li>
-              <li>Small dents on metal panels or gutters</li>
-              <li>Faded or discolored roofing materials</li>
-              <li>Slight moss or algae growth</li>
+              <li>Minor granule loss on architectural asphalt shingles</li>
+              <li>Small dents on standing seam metal panels, gutters, or downspouts</li>
+              <li>Faded or sun-bleached areas on south- and west-facing slopes</li>
+              <li>Light moss or algae streaks on north slopes that hold morning shade</li>
             </ul>
             <p className="mt-3 text-sm font-semibold text-green-700">
               Urgency: Low -- monitor during next inspection
@@ -512,14 +497,13 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-red-500">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Critical Damage</h3>
             <p className="text-gray-700 mb-3">
-              Active water entry or structural compromise requiring professional attention to prevent
-              interior damage.
+              Active water entry or structural compromise that needs immediate containment to keep drywall, insulation, and framing from soaking through. Common after spring supercells across the Texas Panhandle.
             </p>
             <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-              <li>Missing shingles exposing underlayment or deck</li>
-              <li>Active roof leaks or ceiling water stains</li>
-              <li>Sagging roof sections or rotted decking</li>
-              <li>Punctured membrane on flat or TPO roofs</li>
+              <li>Missing shingles or torn-back metal panels exposing underlayment or decking</li>
+              <li>Active drips or fresh ceiling stains spreading after rain</li>
+              <li>Sagging roof sections or rotted decking discovered during inspection</li>
+              <li>Punctured TPO, PVC, or EPDM membrane on commercial flat roofs</li>
             </ul>
             <p className="mt-3 text-sm font-semibold text-red-700">
               Urgency: High -- call for emergency repair today

@@ -259,17 +259,19 @@ export default function Page() {
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-2">Hail Damage</h3>
               <p className="text-sm text-gray-600">
-                Dented and bruised shingles, cracked tiles, punctured flat roof membranes, and
-                damaged gutters and flashing. Hail damage often requires full roof replacement when
-                impacts cover more than 30% of the surface.
+                Bruised and granule-stripped asphalt shingles, dented standing seam metal,
+                punctured TPO and PVC flat roof membranes, and dented gutters and flashing.
+                On Amarillo and Lubbock homes, when impacts cover more than 30% of a slope,
+                most Texas carriers approve full replacement instead of a patch.
               </p>
             </div>
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-2">Wind Damage</h3>
               <p className="text-sm text-gray-600">
-                Lifted, creased, or missing shingles and ridge caps. High winds exploit weak points
-                at edges, ridges, and around penetrations. Even shingles that remain attached may be
-                compromised if the seal strip has broken.
+                Panhandle gusts above 60 mph lift architectural shingle tabs, crease them at
+                the nail line, and strip ridge caps off hip and gable joints. Edges, eaves,
+                and the perimeter around chimneys and vents fail first. A shingle still in
+                place can have a broken seal strip that will lift in the next storm.
               </p>
             </div>
             <div className="bg-white p-4 rounded-lg">
@@ -325,29 +327,30 @@ export default function Page() {
             <div className="text-3xl font-bold text-brand-gold mb-2">1</div>
             <h3 className="font-bold text-brand-brown mb-2">Free Inspection</h3>
             <p className="text-gray-600">
-              We schedule storm-damage inspections across the Panhandle once conditions are safe for
-              crews on a roof. Damage severity is documented thoroughly — active leaks, exposed
-              deck, and structural damage are all captured in photos and adjuster-ready reports.
+              We schedule storm-damage inspections across Amarillo, Canyon, Lubbock, Midland,
+              and Odessa once conditions are safe to walk a roof. Active leaks, exposed deck,
+              and structural damage all get photographed and written into an adjuster-ready
+              report that lines up with State Farm, USAA, and Farmers documentation.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="text-3xl font-bold text-brand-gold mb-2">2</div>
             <h3 className="font-bold text-brand-brown mb-2">Temporary Weatherproofing</h3>
             <p className="text-gray-600">
-              Heavy-duty tarps secured to prevent further water intrusion while permanent repairs
-              are planned. For commercial buildings, we install temporary membrane patches over
-              punctures and reinforce vulnerable seams. This buys time without making hasty
-              permanent decisions.
+              Heavy-duty tarps battened to the deck to keep rain out while permanent repairs
+              are planned. On commercial buildings around Amarillo and Midland, we install
+              temporary TPO or modified bitumen patches over punctures and reinforce loose
+              seams so the roof stays dry through the next Panhandle storm cell.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="text-3xl font-bold text-brand-gold mb-2">3</div>
             <h3 className="font-bold text-brand-brown mb-2">Permanent Repairs</h3>
             <p className="text-gray-600">
-              Once the emergency is stabilized and insurance documentation is complete, we schedule
-              permanent repair or replacement. Timelines depend on material availability and the
-              scope of damage, but we keep you informed at every step and coordinate directly with
-              your insurance company.
+              Once the tarp is up and the claim file is complete, we schedule the permanent
+              repair or full replacement. Material lead times on GAF, CertainTeed, and Owens
+              Corning shingles run a few days in normal conditions and longer right after a
+              regional storm. We keep you updated and coordinate directly with your carrier.
             </p>
           </div>
         </div>
@@ -377,19 +380,19 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-2">Adjuster Coordination</h3>
               <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-                <li>We schedule and attend the adjuster inspection with you</li>
-                <li>On-roof walkthrough to point out all damage areas</li>
-                <li>Technical explanation of damage that may not be obvious</li>
-                <li>Real-time advocacy for fair claim assessment</li>
+                <li>We meet the State Farm, USAA, Farmers, or Allstate adjuster on the roof in person</li>
+                <li>On-roof walkthrough pointing out every marked impact, lifted shingle, and bent flashing</li>
+                <li>Explanation of bruising, mat fracture, and seal failure that is not obvious from a photo</li>
+                <li>Real-time advocacy on policy language so missed damage gets on the first scope</li>
               </ul>
             </div>
             <div>
               <h3 className="font-bold text-brand-brown mb-2">Supplemental Claims</h3>
               <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
-                <li>Re-inspection requests when initial claims miss damage</li>
-                <li>Additional documentation for hidden damage found during repairs</li>
-                <li>Code upgrade supplements when repairs require current code compliance</li>
-                <li>Depreciation recovery assistance for recoverable depreciation claims</li>
+                <li>Re-inspection requests when the first scope misses bruising or wind-lifted areas</li>
+                <li>Additional documentation for hidden decking, flashing, or underlayment damage found during tear-off</li>
+                <li>Code upgrade supplements for ice-water shield, drip edge, and ventilation under the adopted IRC</li>
+                <li>Recoverable depreciation paperwork submitted after final inspection</li>
               </ul>
             </div>
           </div>
@@ -472,8 +475,10 @@ export default function Page() {
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-1">South Plains (Lubbock Area)</h3>
               <p className="text-sm text-gray-600">
-                Peak season April-June. High tornado risk combined with frequent hail. The
-                transition zone between Panhandle and Permian Basin weather patterns.
+                Peak season April through June across Lubbock County and Levelland. The dryline
+                that pushes east through the South Plains spins up supercells with both hail
+                and tornado potential. This is the transition zone between the Texas Panhandle
+                pattern to the north and the Permian Basin pattern to the south.
               </p>
             </div>
           </div>

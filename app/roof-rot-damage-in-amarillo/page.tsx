@@ -269,9 +269,11 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Types of Rot Fungi Common in Texas</h2>
         <p className="text-lg mb-6">
-          Different fungal species cause different types of wood rot, each with distinct
-          characteristics and repair requirements. Identifying the specific type of rot helps
-          determine the extent of structural damage and the appropriate remediation strategy.
+          Brown rot, white rot, and soft rot all behave differently inside a roof deck. In
+          Amarillo and the broader Texas Panhandle, brown rot is what we pull off most homes.
+          It eats the cellulose in plywood and OSB decking and leaves crumbly cube-shaped
+          chunks of wood behind. Identifying which kind is present tells us whether we are
+          replacing decking only or running structural repairs into the rafters.
         </p>
 
         <div className="grid md:grid-cols-3 gap-4 mb-8">
@@ -330,9 +332,11 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Advanced Moisture Detection Technology</h2>
         <p className="text-lg mb-4">
-          Traditional visual inspections miss up to 70% of moisture-related damage. Our advanced
-          diagnostic equipment identifies problems before they become structural hazards, saving
-          property owners thousands in repair costs.
+          Traditional visual inspections miss up to 70% of moisture-related damage. Walking an
+          Amarillo roof, we use infrared cameras to map cold spots that indicate trapped water
+          and pin-style and pinless moisture meters to confirm the readings inside the attic.
+          That combination finds rot behind shingles and under flashing before a homeowner ever
+          sees a ceiling stain.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -341,12 +345,12 @@ export default function Page() {
               <Radio className="w-6 h-6 inline-block" /> Infrared Thermal Imaging
             </h3>
             <ul className="space-y-2 text-sm">
-              <li>• Detects temperature variations indicating moisture</li>
-              <li>• Identifies thermal bridges and insulation gaps</li>
-              <li>• Maps moisture patterns across entire roof system</li>
-              <li>• Documents damage for insurance purposes</li>
-              <li>• Non-destructive testing method</li>
-              <li>• Results available immediately during inspection</li>
+              <li>• Reads temperature variations that flag trapped moisture in decking</li>
+              <li>• Maps thermal bridges and insulation gaps from inside the attic</li>
+              <li>• Builds a moisture map of every slope on the home</li>
+              <li>• Provides claim photos that State Farm, USAA, and Farmers accept</li>
+              <li>• Works without cutting, drilling, or pulling shingles</li>
+              <li>• Walkable on most Amarillo and Canyon homes the same day</li>
             </ul>
           </div>
 
@@ -355,12 +359,12 @@ export default function Page() {
               <Microscope className="w-6 h-6 inline-block" /> Moisture Meters & Probes
             </h3>
             <ul className="space-y-2 text-sm">
-              <li>• Pin-type meters for surface moisture measurement</li>
-              <li>• Pinless meters for sub-surface moisture detection</li>
-              <li>• Deep-probe meters for decking and rafter assessment</li>
-              <li>• Calibrated for different wood species</li>
-              <li>• Digital readings with data logging capability</li>
-              <li>• Identifies moisture gradients and migration patterns</li>
+              <li>• Pin-type meters for surface readings on Amarillo plywood and OSB decking</li>
+              <li>• Pinless meters for sub-surface moisture without drilling holes</li>
+              <li>• Deep-probe meters reach rafters and the top of wall plates</li>
+              <li>• Calibration set for southern yellow pine and OSB used in Panhandle builds</li>
+              <li>• Digital readings logged with photos for the claim file</li>
+              <li>• Gradient tracking shows whether water is moving toward the eave or ridge</li>
             </ul>
           </div>
         </div>
@@ -471,9 +475,11 @@ export default function Page() {
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Valley Leaks</h3>
             <p className="mb-3">
-              Roof valleys channel heavy water flow during rainstorms. If valley flashing is
-              improperly installed or damaged by hail, water backs up under shingles along valley
-              edges—creating extensive linear rot patterns.
+              Valleys carry the runoff from two slopes at once. On Amarillo homes with hip and
+              gable combinations, that water moves fast. If the valley metal is bent by hail or
+              the W-valley pattern was installed without underlying ice-and-water shield, water
+              wicks under the shingles along the edge and feeds a long, narrow line of rot in
+              the decking right where the valley empties into the gutter.
             </p>
             <p className="text-sm text-gray-600">
               <strong>High risk:</strong> Complex roof designs with multiple valleys
@@ -617,9 +623,11 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Comprehensive Roof Rot Remediation Process</h2>
         <p className="text-lg mb-6">
-          Proper roof rot repair requires more than just replacing visible damage. Our systematic
-          approach addresses the root cause, removes all contaminated materials, and implements
-          preventive measures to ensure long-term structural integrity.
+          Replacing just the visible rotted shingles does not fix the problem. By the time the
+          stain shows on the ceiling, the OSB or plywood decking under that area is usually
+          soft for a couple of feet in every direction. Our crews cut back to solid wood, pull
+          and replace any compromised rafters, and rework the flashing or ventilation that let
+          the water in to start with.
         </p>
 
         <div className="space-y-6">
@@ -632,21 +640,21 @@ export default function Page() {
               <div>
                 <h4 className="font-semibold mb-2">Structural Analysis:</h4>
                 <ul className="space-y-1 text-sm">
-                  <li>• Load-bearing capacity evaluation</li>
-                  <li>• Rafter and truss condition assessment</li>
-                  <li>• Roof deck integrity mapping</li>
-                  <li>• Wall top plate moisture evaluation</li>
-                  <li>• Foundation moisture migration check</li>
+                  <li>• Load check on rafters and trusses around the wet zone</li>
+                  <li>• Rafter and truss condition probed for softness</li>
+                  <li>• Slope-by-slope deck integrity mapped with moisture readings</li>
+                  <li>• Top plate moisture check at the wall to roof transition</li>
+                  <li>• Attic floor and insulation scanned for water migration</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">Documentation Requirements:</h4>
                 <ul className="space-y-1 text-sm">
-                  <li>• High-resolution photography of all damage</li>
-                  <li>• Moisture meter readings and locations</li>
-                  <li>• Thermal imaging reports</li>
-                  <li>• Structural engineer consultation (if needed)</li>
-                  <li>• Insurance adjuster coordination</li>
+                  <li>• Close-up photography of every soft area and stained surface</li>
+                  <li>• Moisture meter readings logged with attic location</li>
+                  <li>• Thermal imaging report for the claim file</li>
+                  <li>• Texas-licensed structural engineer brought in when load is in question</li>
+                  <li>• Coordination with State Farm, Allstate, USAA, or Farmers adjuster</li>
                 </ul>
               </div>
             </div>
@@ -688,21 +696,21 @@ export default function Page() {
               <div>
                 <h4 className="font-semibold mb-2">Material Specifications:</h4>
                 <ul className="space-y-1 text-sm">
-                  <li>• Pressure-treated lumber for all replacements</li>
-                  <li>• OSB or plywood rated for Texas climate</li>
-                  <li>• Hurricane clips and upgraded fasteners</li>
-                  <li>• Vapor barriers where required</li>
-                  <li>• Code-compliant structural connections</li>
+                  <li>• Pressure-treated lumber for sill and any framing in contact with masonry</li>
+                  <li>• 7/16-inch OSB or 1/2-inch CDX plywood rated for the Panhandle climate</li>
+                  <li>• Hurricane clips at rafter-to-top-plate connections</li>
+                  <li>• Vapor barrier or proper underlayment where the assembly calls for it</li>
+                  <li>• Connections that match Amarillo&apos;s adopted IRC wind-load tables</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">Installation Standards:</h4>
                 <ul className="space-y-1 text-sm">
-                  <li>• Engineering specifications compliance</li>
-                  <li>• Wind-rated fastener patterns</li>
-                  <li>• Proper ventilation gap maintenance</li>
-                  <li>• Thermal bridge prevention</li>
-                  <li>• Multi-point inspection verification</li>
+                  <li>• Decking nailed to manufacturer and code specs for each slope</li>
+                  <li>• UL 580 wind-uplift-rated fastener pattern around the perimeter</li>
+                  <li>• Soffit and ridge ventilation gaps kept clear of insulation</li>
+                  <li>• Thermal bridges sealed with closed-cell foam where rafters meet plate</li>
+                  <li>• Two-point inspection: framing nail-off, then dried-in stage</li>
                 </ul>
               </div>
             </div>
@@ -920,8 +928,9 @@ export default function Page() {
         <div className="feature-box">
           <h3 className="font-bold mb-2">Repair Hail Damage Promptly</h3>
           <p className="text-sm">
-            Don't delay filing insurance claims after hailstorms—damaged shingles lead to rot within
-            months
+            File the insurance claim within days of an Amarillo hailstorm. Texas policies
+            usually give you one year, but bruised asphalt shingles start leaking inside the
+            next rainy season, and that is when decking rot takes hold.
           </p>
         </div>
         <div className="feature-box">
@@ -939,7 +948,9 @@ export default function Page() {
         <div className="feature-box">
           <h3 className="font-bold mb-2">Address Leaks Immediately</h3>
           <p className="text-sm">
-            Any interior water stain is evidence of active leaks—contact us instead for it to get worse
+            A brown stain on the bedroom ceiling means water already passed through the
+            decking. Call us at (806) 622-6041 the same day. The drywall will dry, but the
+            OSB or plywood above it is the part that rots.
           </p>
         </div>
       </div>
@@ -948,9 +959,12 @@ export default function Page() {
           <AlertTriangle className="w-6 h-6 inline-block" /> Roof Rot is a Safety Hazard
         </h3>
         <p>
-          Severely rotted roof decking can collapse under the weight of roofers or during heavy snow
-          loads. If you suspect rot, do NOT attempt to walk on your roof. Call professional roofers
-          with proper safety equipment and experience handling structural damage.
+          Severely rotted OSB or plywood decking can break through under a person&apos;s
+          weight. Even Amarillo&apos;s occasional heavy spring snow can be enough to fail a
+          weakened slope. If you see daylight in the attic, sagging in the roof line, or feel
+          springiness when standing on the roof, stay off it and call (806) 622-6041. Our
+          crews carry harness anchors, walk boards, and the experience to assess a structural
+          roof safely.
         </p>
       </div>
       <section className="bg-gray-50 rounded-lg p-6 mb-8">

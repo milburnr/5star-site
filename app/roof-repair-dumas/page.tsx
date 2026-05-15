@@ -368,9 +368,12 @@ export default function RoofRepairDumasPage() {
                   Agricultural Industry Specialist
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Dumas is Moore County's agricultural hub, home to massive cattle feedlots and
-                  grain storage facilities. We specialize in agricultural building roofing,
-                  understanding the unique demands of livestock operations and commodity storage.
+                  Dumas is the agricultural anchor of Moore County, with sprawling cattle feedlots
+                  along Highway 287 and large-scale grain storage facilities feeding the Panhandle
+                  supply chain. We install standing seam metal and R-panel metal roofs built for
+                  the loads, the ammonia exposure, and the dust those operations create. From
+                  livestock barns to commodity sheds, we work to the realities of a working
+                  Moore County property.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Feedlot building repairs</li>
@@ -383,9 +386,11 @@ export default function RoofRepairDumasPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">County Seat Services</h3>
                 <p className="text-gray-700 mb-4">
-                  As Moore County's county seat, Dumas hosts government buildings, courthouse
-                  facilities, and municipal structures requiring specialized roofing expertise for
-                  public buildings and institutional requirements.
+                  As the Moore County seat, Dumas hosts the courthouse and municipal buildings that
+                  serve the broader Panhandle region. Public buildings carry code review and
+                  accessibility expectations a private home does not, and we install TPO membrane
+                  and standing seam metal systems with documentation that holds up to municipal
+                  inspection on Class 4 hail and UL 580 wind uplift requirements.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Government building maintenance</li>
@@ -400,9 +405,11 @@ export default function RoofRepairDumasPage() {
                   Industrial Ammonia Environment
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Dumas's agricultural operations include significant ammonia production and storage
-                  facilities. We provide specialized roofing services for buildings exposed to
-                  industrial chemicals and agricultural processing environments.
+                  Dumas operations include ammonia handling, fertilizer storage, and feedlot
+                  byproduct processing. Airborne ammonia accelerates corrosion on galvanized
+                  metal panels and degrades certain single-ply membranes. We specify standing seam
+                  metal with appropriate coatings, EPDM or PVC membranes rated for chemical
+                  exposure, and detail flashing built to last under that environment.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Chemical-resistant roofing systems</li>
@@ -417,9 +424,11 @@ export default function RoofRepairDumasPage() {
                   Residential Community Support
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Dumas's residential neighborhoods house agricultural workers, county employees,
-                  and industrial personnel. We provide comprehensive residential roofing services
-                  tailored to this working community's needs and schedules.
+                  Dumas neighborhoods around the courthouse square and along the South Dumas
+                  Avenue corridor are home to feedlot crews, county employees, and Panhandle
+                  trades. We service architectural asphalt shingle roofs, Class 4 impact-rated
+                  shingle upgrades, and metal residential roofs on those homes, with scheduling
+                  that works around shift schedules and harvest weeks.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Residential roof repairs</li>
@@ -444,9 +453,10 @@ export default function RoofRepairDumasPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Feedlot Operations</h3>
                 <p className="text-gray-700">
-                  Dumas hosts some of Texas's largest cattle feedlots, creating unique environmental
-                  challenges including ammonia exposure, dust, and moisture that accelerate roofing
-                  material degradation.
+                  Moore County feedlots along Highway 287 and the Highway 152 corridor produce
+                  ammonia, dust, and moisture that quietly chew through galvanized fasteners,
+                  exposed metal panel coatings, and standard asphalt shingle mats. We spec
+                  finishes and detailing built for that environment.
                 </p>
               </div>
               <div className="text-center">
@@ -455,9 +465,10 @@ export default function RoofRepairDumasPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Grain Storage</h3>
                 <p className="text-gray-700">
-                  Massive grain storage and processing facilities require specialized roofing
-                  systems capable of handling structural loads, moisture control, and agricultural
-                  chemical exposure common in this industry.
+                  Grain storage and processing structures around Dumas carry significant
+                  structural loads, need moisture control to prevent spoilage, and sit under
+                  constant agricultural chemical exposure. We install R-panel metal, standing
+                  seam metal, and TPO membrane systems sized to those demands.
                 </p>
               </div>
               <div className="text-center">
@@ -466,9 +477,9 @@ export default function RoofRepairDumasPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">County Government</h3>
                 <p className="text-gray-700">
-                  As Moore County's seat, Dumas maintains government buildings, courthouse
-                  facilities, and municipal structures requiring compliance with public building
-                  codes and accessibility standards.
+                  As the Moore County seat, Dumas maintains the courthouse complex and municipal
+                  facilities that must meet Texas public building codes, accessibility
+                  requirements, and UL 580 wind uplift standards for Panhandle wind exposure.
                 </p>
               </div>
             </div>
@@ -562,9 +573,11 @@ export default function RoofRepairDumasPage() {
                       Agricultural-Grade Materials
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      We specify materials designed for agricultural environments, including
-                      chemical-resistant coatings, enhanced drainage systems, and structural
-                      components rated for the unique loads of agricultural buildings.
+                      We specify standing seam metal panels with coatings rated for ammonia
+                      exposure, R-panel metal for equipment storage, and TPO or EPDM membranes
+                      for flat sections on processing plants. Drainage detailing and structural
+                      attachment are sized for Moore County agricultural building loads and UL
+                      580 wind uplift along the open Panhandle.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Chemical-resistant materials</li>
@@ -586,9 +599,10 @@ export default function RoofRepairDumasPage() {
                       Industry-Sensitive Installation
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Our installation teams work around agricultural operations, understanding the
-                      importance of maintaining livestock comfort and protecting stored commodities
-                      during the repair process.
+                      Our installation crews plan the work around active Dumas feedlot rhythms,
+                      grain bin loading windows, and processing schedules. Equipment access,
+                      livestock containment, and dust control are part of the staging plan so
+                      operations keep moving while we replace the roof.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Livestock operation consideration</li>
@@ -610,9 +624,11 @@ export default function RoofRepairDumasPage() {
                       Agricultural Environment Monitoring
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Given the harsh environmental conditions in Dumas's agricultural sector, we
-                      provide enhanced monitoring of repairs to ensure they perform as expected
-                      under chemical exposure and operational stress.
+                      Moore County agricultural environments put roofs through chemical exposure
+                      and operational stress that a regular Amarillo residential roof never sees.
+                      After installation, we schedule follow-up inspections to confirm coatings,
+                      flashings, and seams are performing the way the manufacturer warranty
+                      expects them to.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Chemical exposure monitoring</li>
@@ -655,9 +671,11 @@ export default function RoofRepairDumasPage() {
                   Chemical-Resistant Solutions
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Our material selection accounts for Dumas's agricultural environment, including
-                  exposure to ammonia, organic acids, and other chemicals common in livestock and
-                  grain processing operations.
+                  Our material selection accounts for the Dumas agricultural environment, where
+                  ammonia from feedlot operations and organic acids from grain processing degrade
+                  standard galvanized steel and certain single-ply membranes faster than published
+                  service life suggests. We work with GAF, CertainTeed, Carlisle, and Firestone
+                  product lines that hold up under that exposure.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Chemical-resistant material specifications</li>
@@ -672,9 +690,10 @@ export default function RoofRepairDumasPage() {
                   Operational Coordination
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  We schedule our work around agricultural operations, understanding that livestock
-                  care and commodity processing cannot be interrupted for roofing work without
-                  careful planning and coordination.
+                  We build the schedule around active Moore County agricultural operations.
+                  Livestock care, feedlot truck routes, and commodity processing windows cannot
+                  pause for roof work without a real coordination plan. We sequence tear-off,
+                  deck repair, and installation so daily operations keep running.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Agricultural schedule accommodation</li>
@@ -686,9 +705,10 @@ export default function RoofRepairDumasPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Moore County Compliance</h3>
                 <p className="text-gray-700 mb-4">
-                  As the county seat, Dumas requires compliance with various municipal and county
-                  building codes. We ensure all work meets local requirements for both private and
-                  public buildings.
+                  Dumas projects need to clear Moore County and City of Dumas building code review,
+                  along with UL 580 wind uplift and UL 2218 Class 4 hail ratings on residential
+                  shingle work. We pull the permits and meet local requirements on both private
+                  homes near the courthouse square and public buildings across the county.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• County building code expertise</li>
