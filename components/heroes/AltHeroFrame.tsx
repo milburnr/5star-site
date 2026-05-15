@@ -180,6 +180,14 @@ export function AltHeroFrame({
         dangerouslySetInnerHTML={{ __html: ALT_HERO_CSS(resolvedSrc, resolvedSrcSet) }}
       />
 
+      {/* Hero scroll parallax — runs only after window.load so it can never
+         affect LCP. Caps at ±10px of vertical background drift at 0.15x
+         scroll speed. Respects prefers-reduced-motion. Only updates the
+         CSS var while the hero intersects the viewport. See art bible §6.5. */}
+      <script
+        dangerouslySetInnerHTML={{ __html: HERO_PARALLAX_JS }}
+      />
+
       <section
         className={hideSiteChrome ? "alt-home-hero alt-hero-fullscreen" : "alt-home-hero"}
         aria-labelledby="alt-hero-h1"
@@ -376,6 +384,61 @@ function buildBackgroundImageExpr(srcSet: HeroImageSet | undefined, fallback: st
   };
 }
 
+/**
+ * Inline parallax script. Attaches after window.load so it never competes
+ * with the hero LCP image. Drives `--hero-parallax-y` (capped at ±10px) on
+ * each `.alt-home-hero` element while it intersects the viewport. Falls
+ * back to no-op under prefers-reduced-motion. Vanilla JS — no external lib.
+ *
+ * Decision: applied at 0.15x scroll speed per art bible §6.5. Background
+ * drift only — no transform on the section (would break the absolutely-
+ * positioned editorial children).
+ */
+const HERO_PARALLAX_JS = `(function(){
+  try {
+    var mql = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (mql && mql.matches) return;
+    function init(){
+      var heroes = document.querySelectorAll('.alt-home-hero');
+      if (!heroes.length) return;
+      heroes.forEach(function(hero){
+        var ticking = false, inView = false, heroTop = 0;
+        function measure(){
+          var rect = hero.getBoundingClientRect();
+          heroTop = rect.top + (window.pageYOffset || window.scrollY || 0);
+        }
+        function update(){
+          var sy = window.pageYOffset || window.scrollY || 0;
+          var raw = (sy - heroTop) * 0.15;
+          var y = Math.max(-10, Math.min(10, raw));
+          hero.style.setProperty('--hero-parallax-y', y.toFixed(2) + 'px');
+          ticking = false;
+        }
+        function onScroll(){
+          if (!inView || ticking) return;
+          ticking = true;
+          window.requestAnimationFrame(update);
+        }
+        var io = new IntersectionObserver(function(entries){
+          entries.forEach(function(e){
+            inView = e.isIntersecting;
+            if (inView) { measure(); onScroll(); }
+          });
+        }, { threshold: 0 });
+        io.observe(hero);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', function(){ measure(); onScroll(); }, { passive: true });
+        measure();
+      });
+    }
+    if (document.readyState === 'complete') {
+      init();
+    } else {
+      window.addEventListener('load', init, { once: true });
+    }
+  } catch (e) { /* parallax is decorative — never block rendering */ }
+})();`;
+
 const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
   const bg = buildBackgroundImageExpr(heroImageSrcSet, heroImageSrc);
   return `
@@ -433,7 +496,7 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     background-color: #120b06;
     background-image: ${bg.desktop};
     background-size: cover;
-    background-position: 52% 50%;
+    background-position: 52% calc(50% + var(--hero-parallax-y, 0px));
     font-family: Georgia, "Times New Roman", serif;
   }
 
@@ -443,7 +506,7 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
      text — WEST TEXAS / eyebrow / H1 / CTA — sits over the dark overlay on
      the left, not the photo content). Interior heroes keep the centered crop. */
   .alt-home-hero.alt-hero-fullscreen {
-    background-position: right center;
+    background-position: right calc(50% + var(--hero-parallax-y, 0px));
   }
 
   /* Asymmetric overlay: heavier on the left where all the text lives
@@ -1016,11 +1079,11 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     .alt-home-hero {
       min-height: 100svh;
       background-image: ${bg.mobile};
-      background-position: 64% 50%;
+      background-position: 64% calc(50% + var(--hero-parallax-y, 0px));
     }
 
     .alt-home-hero.alt-hero-fullscreen {
-      background-position: right center;
+      background-position: right calc(50% + var(--hero-parallax-y, 0px));
     }
 
     .alt-home-hero::before {
@@ -1141,11 +1204,11 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
 
   @media (max-width: 520px) {
     .alt-home-hero {
-      background-position: 68% 50%;
+      background-position: 68% calc(50% + var(--hero-parallax-y, 0px));
     }
 
     .alt-home-hero.alt-hero-fullscreen {
-      background-position: right center;
+      background-position: right calc(50% + var(--hero-parallax-y, 0px));
     }
 
     .alt-home-nav {
