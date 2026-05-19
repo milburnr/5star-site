@@ -625,14 +625,18 @@ export default function RootLayout({
           </div>
         </footer>
 
-        {/* Google Analytics — eager load via afterInteractive so every
-            pageview is recorded. Earlier 8s setTimeout / interaction-only
-            loader caused mobile bouncers to never fire GA. */}
+        {/* Google Analytics — lazyOnload so the GTM script does NOT generate
+            a <link rel="preload"> in the HTML head. afterInteractive auto-
+            generates a 149KB script preload that competes with the hero image
+            for bandwidth on throttled mobile and drops PSI from ~96 to ~74
+            (LCP 1.8s → 4.9s). lazyOnload fires GA on window.load — fast
+            enough for normal sessions; bouncers leaving in the first ~2s are
+            an acceptable trade vs. losing 20 PSI points sitewide. */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BHH34LVX73"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="gtag-init" strategy="afterInteractive">
+        <Script id="gtag-init" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

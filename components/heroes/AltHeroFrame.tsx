@@ -174,7 +174,10 @@ export function AltHeroFrame({
         {...(preloadAttrs.type ? { type: preloadAttrs.type } : {})}
         fetchPriority="high"
       />
-      <link rel="preload" as="image" href="/logo.png" />
+      {/* /logo.png intentionally NOT preloaded — it's a small (~6KB) brand
+          mark in the nav, not the LCP element. Preloading it steals
+          bandwidth from the hero image and pushes the preload count
+          over the 5-resource budget on throttled mobile. */}
 
       <style
         dangerouslySetInnerHTML={{ __html: ALT_HERO_CSS(resolvedSrc, resolvedSrcSet) }}
