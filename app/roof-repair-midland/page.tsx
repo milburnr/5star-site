@@ -1176,9 +1176,9 @@ export default function RoofRepairMidlandPage() {
                 </p>
                 <a
                   href="/roof-repair-midland/"
-                  className="text-brand-gold font-semibold hover:underline"
+                  className="text-brand-burnt-orange font-semibold hover:underline"
                 >
-                  Learn More →
+                  Roof repair in Midland →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1188,9 +1188,9 @@ export default function RoofRepairMidlandPage() {
                 </p>
                 <a
                   href="/flat-roof-repair-midland-texas/"
-                  className="text-brand-gold font-semibold hover:underline"
+                  className="text-brand-burnt-orange font-semibold hover:underline"
                 >
-                  Learn More →
+                  Flat roof repair in Midland →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1198,8 +1198,8 @@ export default function RoofRepairMidlandPage() {
                 <p className="text-gray-600 mb-4">
                   Energy-efficient roofing systems for desert climate conditions
                 </p>
-                <a href="/services/" className="text-brand-gold font-semibold hover:underline">
-                  Learn More →
+                <a href="/services/" className="text-brand-burnt-orange font-semibold hover:underline">
+                  All roofing services →
                 </a>
               </div>
             </div>

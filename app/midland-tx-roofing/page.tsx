@@ -515,37 +515,37 @@ export default function MidlandRoofingPage() {
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <a
                 href="/odessa-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Odessa
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/big-spring-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Big Spring
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/andrews-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Andrews
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/monahans-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Monahans
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/service-areas/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
-                View All Service Areas
+                All service areas →
               </a>
             </div>
           </section>

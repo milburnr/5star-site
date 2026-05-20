@@ -1072,9 +1072,9 @@ export default function RoofRepairLubbockPage() {
                 </p>
                 <a
                   href="/roof-repair-lubbock/"
-                  className="text-brand-gold font-semibold hover:underline"
+                  className="text-brand-burnt-orange font-semibold hover:underline"
                 >
-                  Learn More →
+                  Roof repair in Lubbock →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1084,9 +1084,9 @@ export default function RoofRepairLubbockPage() {
                 </p>
                 <a
                   href="/hail-damage-repair-lubbock/"
-                  className="text-brand-gold font-semibold hover:underline"
+                  className="text-brand-burnt-orange font-semibold hover:underline"
                 >
-                  Learn More →
+                  Hail damage repair in Lubbock →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1098,9 +1098,9 @@ export default function RoofRepairLubbockPage() {
                 </p>
                 <a
                   href="/metal-roofing-lubbock/"
-                  className="text-brand-gold font-semibold hover:underline"
+                  className="text-brand-burnt-orange font-semibold hover:underline"
                 >
-                  Learn More →
+                  Metal roofing in Lubbock →
                 </a>
               </div>
             </div>

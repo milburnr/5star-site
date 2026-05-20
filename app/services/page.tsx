@@ -350,7 +350,7 @@ export default function Page() {
                     href="/asphalt-shingle-roofing-amarillo/"
                     className="text-brand-brown font-semibold hover:text-brand-gold hover:underline text-sm"
                   >
-                    Learn More →
+                    Asphalt shingle roofing in Amarillo →
                   </a>
                 </div>
               </div>
@@ -376,7 +376,7 @@ export default function Page() {
                     href="/roofing-methods/"
                     className="text-brand-brown font-semibold hover:text-brand-gold hover:underline text-sm"
                   >
-                    Learn More →
+                    Roofing methods compared →
                   </a>
                 </div>
               </div>
@@ -393,7 +393,7 @@ export default function Page() {
                     href="/residential-roofing/"
                     className="text-brand-brown font-semibold hover:text-brand-gold hover:underline text-sm"
                   >
-                    Learn More →
+                    Residential roofing →
                   </a>
                 </div>
               </div>
@@ -413,7 +413,7 @@ export default function Page() {
                     href="/residential-roofing/"
                     className="text-brand-brown font-semibold hover:text-brand-gold hover:underline text-sm"
                   >
-                    Learn More →
+                    Residential roofing →
                   </a>
                 </div>
               </div>
@@ -434,7 +434,7 @@ export default function Page() {
                     href="/residential-roofing/"
                     className="text-brand-brown font-semibold hover:text-brand-gold hover:underline text-sm"
                   >
-                    Learn More →
+                    Residential roofing →
                   </a>
                 </div>
               </div>
@@ -454,7 +454,7 @@ export default function Page() {
                     href="/roofing-methods/"
                     className="text-brand-brown font-semibold hover:text-brand-gold hover:underline text-sm"
                   >
-                    Learn More →
+                    Roofing methods compared →
                   </a>
                 </div>
               </div>
@@ -591,7 +591,7 @@ export default function Page() {
                     href="/commercial-roofing/"
                     className="text-brand-brown font-semibold hover:text-brand-gold hover:underline"
                   >
-                    Learn More →
+                    Commercial roofing →
                   </a>
                 </div>
               </div>
@@ -765,8 +765,7 @@ export default function Page() {
                   href="/service-areas/"
                   className="text-brand-brown hover:text-brand-gold underline"
                 >
-                  View All
-                </a>
+                  All service areas →</a>
               </h3>
               <p className="text-sm text-gray-600">20+ Cities</p>
             </div>

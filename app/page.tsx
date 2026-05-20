@@ -28,7 +28,7 @@ import { ReviewsSection } from "@/components/page-sections/ReviewsSection";
 export const metadata: Metadata = {
   title: "Amarillo Roofing Company | Residential & Commercial | 5 Star Roofing",
   description:
-    "Amarillo's trusted residential & commercial roofer serving the Texas Panhandle. Hail damage repair, roof replacement & free storm inspections. Serving the Texas Panhandle. Call (806) 622-6041",
+    "Amarillo's trusted residential & commercial roofer. Hail damage repair, roof replacement & free storm inspections across the Texas Panhandle. Call (806) 622-6041.",
   keywords:
     "amarillo roofing, roofing company amarillo tx, residential roofing amarillo, commercial roofing amarillo, hail damage repair amarillo, roof repair amarillo, texas panhandle roofer, storm damage roof repair, insurance claims roofing, midland roofing, odessa roofing",
   openGraph: {
@@ -244,7 +244,7 @@ export default async function Page() {
               Amarillo homeowners.{" "}
               <a
                 href="/services/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium underline"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium underline"
               >
                 View all roofing services
               </a>
@@ -273,8 +273,8 @@ export default async function Page() {
                       Expert assessment and repair of hail-damaged roofs. We know exactly what
                       insurance adjusters look for.
                     </p>
-                    <span className="text-brand-gold font-semibold group-hover:tracking-wider transition-all">
-                      Learn More →
+                    <span className="text-brand-burnt-orange font-semibold group-hover:tracking-wider transition-all">
+                      Hail damage details →
                     </span>
                   </div>
                 </a>
@@ -302,8 +302,8 @@ export default async function Page() {
                       Wind, rain, and severe weather damage? We handle all types of storm-related
                       roof repairs.
                     </p>
-                    <span className="text-brand-gold font-semibold group-hover:tracking-wider transition-all">
-                      Learn More →
+                    <span className="text-brand-burnt-orange font-semibold group-hover:tracking-wider transition-all">
+                      Storm damage services →
                     </span>
                   </div>
                 </a>
@@ -331,8 +331,8 @@ export default async function Page() {
                       Comprehensive roof assessments with detailed documentation for insurance
                       claims.
                     </p>
-                    <span className="text-brand-gold font-semibold group-hover:tracking-wider transition-all">
-                      Learn More →
+                    <span className="text-brand-burnt-orange font-semibold group-hover:tracking-wider transition-all">
+                      Free inspection details →
                     </span>
                   </div>
                 </a>
@@ -360,8 +360,8 @@ export default async function Page() {
                       Complete roofing solutions for homeowners. New installations, replacements,
                       and repairs.
                     </p>
-                    <span className="text-brand-gold font-semibold group-hover:tracking-wider transition-all">
-                      Learn More →
+                    <span className="text-brand-burnt-orange font-semibold group-hover:tracking-wider transition-all">
+                      Residential roofing details →
                     </span>
                   </div>
                 </a>
@@ -389,8 +389,8 @@ export default async function Page() {
                       TPO, PVC, and built-up roofing systems for businesses and commercial
                       properties.
                     </p>
-                    <span className="text-brand-gold font-semibold group-hover:tracking-wider transition-all">
-                      Learn More →
+                    <span className="text-brand-burnt-orange font-semibold group-hover:tracking-wider transition-all">
+                      Commercial roofing details →
                     </span>
                   </div>
                 </a>
@@ -417,8 +417,8 @@ export default async function Page() {
                     <p className="text-gray-600 mb-4">
                       We work directly with your insurance company to maximize your coverage.
                     </p>
-                    <span className="text-brand-gold font-semibold group-hover:tracking-wider transition-all">
-                      Learn More →
+                    <span className="text-brand-burnt-orange font-semibold group-hover:tracking-wider transition-all">
+                      Insurance claim help →
                     </span>
                   </div>
                 </a>
@@ -801,7 +801,7 @@ export default async function Page() {
                   href="/asphalt-shingle-roofing-amarillo/"
                   className="text-brand-brown font-semibold hover:text-brand-gold hover:underline"
                 >
-                  Learn More →
+                  Asphalt shingle details →
                 </a>
               </div>
 
@@ -832,7 +832,7 @@ export default async function Page() {
                   href="/roofing-methods/"
                   className="text-brand-brown font-semibold hover:text-brand-gold hover:underline"
                 >
-                  Learn More →
+                  Metal roofing methods →
                 </a>
               </div>
 
@@ -864,7 +864,7 @@ export default async function Page() {
                   href="/commercial-roofing/"
                   className="text-brand-brown font-semibold hover:text-brand-gold hover:underline"
                 >
-                  Learn More →
+                  TPO commercial systems →
                 </a>
               </div>
 
@@ -895,7 +895,7 @@ export default async function Page() {
                   href="/commercial-roofing/"
                   className="text-brand-brown font-semibold hover:text-brand-gold hover:underline"
                 >
-                  Learn More →
+                  EPDM rubber roofing →
                 </a>
               </div>
             </div>
@@ -1195,7 +1195,7 @@ export default async function Page() {
                     href="/service-areas/"
                     className="text-brand-brown hover:text-brand-gold underline font-semibold"
                   >
-                    View All →
+                    All service areas →
                   </a>
                 </div>
               </div>

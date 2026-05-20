@@ -519,7 +519,7 @@ export default function ContactPage() {
                 href="/services/"
                 className="inline-block bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown px-8 py-4 rounded-full font-bold hover:scale-105 transition-all duration-300 shadow-lg"
               >
-                View All Services
+                All roofing services →
               </a>
             </div>
           </section>

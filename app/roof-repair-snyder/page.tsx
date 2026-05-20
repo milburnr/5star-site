@@ -1041,9 +1041,9 @@ export default function RoofRepairSnyderPage() {
                 </p>
                 <a
                   href="/services/"
-                  className="text-brand-gold font-semibold hover:underline text-sm"
+                  className="text-brand-burnt-orange font-semibold hover:underline text-sm"
                 >
-                  Learn More →
+                  All roofing services →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1053,9 +1053,9 @@ export default function RoofRepairSnyderPage() {
                 </p>
                 <a
                   href="/roof-repair-snyder/"
-                  className="text-brand-gold font-semibold hover:underline text-sm"
+                  className="text-brand-burnt-orange font-semibold hover:underline text-sm"
                 >
-                  Learn More →
+                  Roof repair in Snyder →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1065,9 +1065,9 @@ export default function RoofRepairSnyderPage() {
                 </p>
                 <a
                   href="/commercial-roofing-snyder/"
-                  className="text-brand-gold font-semibold hover:underline text-sm"
+                  className="text-brand-burnt-orange font-semibold hover:underline text-sm"
                 >
-                  Learn More →
+                  Commercial roofing in Snyder →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1077,9 +1077,9 @@ export default function RoofRepairSnyderPage() {
                 </p>
                 <a
                   href="/metal-roofing-snyder/"
-                  className="text-brand-gold font-semibold hover:underline text-sm"
+                  className="text-brand-burnt-orange font-semibold hover:underline text-sm"
                 >
-                  Learn More →
+                  Metal roofing in Snyder →
                 </a>
               </div>
             </div>

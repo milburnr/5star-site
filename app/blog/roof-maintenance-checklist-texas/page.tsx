@@ -581,28 +581,28 @@ export default function RoofMaintenanceChecklistPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <a
                 href="/blog/best-roofing-materials-texas-2025/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Best Roofing Materials for Texas
               </a>
               <span className="text-gray-400">•</span>
               <a
                 href="/blog/roof-replacement-cost-texas-2025/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Roof Replacement Cost
               </a>
               <span className="text-gray-400">•</span>
               <a
                 href="/blog/how-to-file-hail-damage-insurance-claim/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Filing Hail Damage Claims
               </a>
               <span className="text-gray-400">•</span>
               <a
                 href="/roof-inspections-amarillo/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Roof Inspections
               </a>

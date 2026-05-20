@@ -508,37 +508,37 @@ export default function BigSpringRoofingPage() {
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <a
                 href="/midland-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Midland
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/odessa-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Odessa
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/snyder-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Snyder
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/lubbock-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Lubbock
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/service-areas/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
-                View All Service Areas
+                All service areas →
               </a>
             </div>
           </section>

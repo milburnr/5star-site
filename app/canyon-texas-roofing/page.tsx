@@ -479,37 +479,37 @@ export default function CanyonRoofingPage() {
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <a
                 href="/amarillo-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/bushland-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Bushland
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/claude-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Claude
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/lubbock-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Lubbock
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/service-areas/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
-                View All Service Areas
+                All service areas →
               </a>
             </div>
           </section>

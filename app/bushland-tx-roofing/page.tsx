@@ -621,44 +621,44 @@ export default function BushlandRoofingPage() {
             <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
               <a
                 href="/amarillo-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo
               </a>
               <span className="text-gray-400">•</span>
               <a
                 href="/canyon-texas-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Canyon
               </a>
               <span className="text-gray-400">•</span>
               <a
                 href="/wildorado-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Wildorado
               </a>
               <span className="text-gray-400">•</span>
               <a
                 href="/vega-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Vega
               </a>
               <span className="text-gray-400">•</span>
               <a
                 href="/hereford-texas-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Hereford
               </a>
               <span className="text-gray-400">•</span>
               <a
                 href="/service-areas/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
-                View All Areas
+                All service areas →
               </a>
             </div>
           </section>

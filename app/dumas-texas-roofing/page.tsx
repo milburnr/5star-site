@@ -511,37 +511,37 @@ export default function DumasRoofingPage() {
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <a
                 href="/amarillo-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/stinnett-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Stinnett
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/borger-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Borger
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/canyon-tx-roofing/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Canyon
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
                 href="/service-areas/"
-                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
-                View All Service Areas
+                All service areas →
               </a>
             </div>
           </section>

@@ -1053,9 +1053,9 @@ export default function RoofRepairAmarilloPage() {
                 </p>
                 <a
                   href="/roof-repair-amarillo/"
-                  className="text-brand-gold font-semibold hover:underline"
+                  className="text-brand-burnt-orange font-semibold hover:underline"
                 >
-                  Learn More →
+                  Roof repair in Amarillo →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1065,9 +1065,9 @@ export default function RoofRepairAmarilloPage() {
                 </p>
                 <a
                   href="/hail-damage-repair-amarillo/"
-                  className="text-brand-gold font-semibold hover:underline"
+                  className="text-brand-burnt-orange font-semibold hover:underline"
                 >
-                  Learn More →
+                  Hail damage repair in Amarillo →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1077,9 +1077,9 @@ export default function RoofRepairAmarilloPage() {
                 </p>
                 <a
                   href="/roof-replacement-amarillo/"
-                  className="text-brand-gold font-semibold hover:underline"
+                  className="text-brand-burnt-orange font-semibold hover:underline"
                 >
-                  Learn More →
+                  Roof replacement in Amarillo →
                 </a>
               </div>
             </div>

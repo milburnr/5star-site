@@ -987,9 +987,9 @@ export default function RoofRepairMonahansPage() {
                 </p>
                 <a
                   href="/roof-repair-monahans/"
-                  className="text-brand-gold font-semibold hover:underline text-sm"
+                  className="text-brand-burnt-orange font-semibold hover:underline text-sm"
                 >
-                  Learn More →
+                  Roof repair in Monahans →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -999,9 +999,9 @@ export default function RoofRepairMonahansPage() {
                 </p>
                 <a
                   href="/commercial-roofing-monahans/"
-                  className="text-brand-gold font-semibold hover:underline text-sm"
+                  className="text-brand-burnt-orange font-semibold hover:underline text-sm"
                 >
-                  Learn More →
+                  Commercial roofing in Monahans →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1011,9 +1011,9 @@ export default function RoofRepairMonahansPage() {
                 </p>
                 <a
                   href="/services/"
-                  className="text-brand-gold font-semibold hover:underline text-sm"
+                  className="text-brand-burnt-orange font-semibold hover:underline text-sm"
                 >
-                  Learn More →
+                  All roofing services →
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -1023,9 +1023,9 @@ export default function RoofRepairMonahansPage() {
                 </p>
                 <a
                   href="/metal-roofing-monahans/"
-                  className="text-brand-gold font-semibold hover:underline text-sm"
+                  className="text-brand-burnt-orange font-semibold hover:underline text-sm"
                 >
-                  Learn More →
+                  Metal roofing in Monahans →
                 </a>
               </div>
             </div>

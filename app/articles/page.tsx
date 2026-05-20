@@ -142,7 +142,7 @@ export default function Page() {
           >
             <h2 className="text-xl font-bold text-brand-brown mb-3">{post.title}</h2>
             <p className="text-gray-600 mb-4">{post.excerpt}</p>
-            <span className="text-brand-gold font-semibold">Read More →</span>
+            <span className="text-brand-burnt-orange font-semibold">Read article →</span>
           </a>
         ))}
       </div>

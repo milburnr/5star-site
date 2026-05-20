@@ -192,7 +192,7 @@ export default function PrivacyPolicyPage() {
                   Phone:{" "}
                   <a
                     href="tel:8066226041"
-                    className="text-brand-gold font-semibold hover:underline"
+                    className="text-brand-burnt-orange font-semibold hover:underline"
                   >
                     (806) 622-6041
                   </a>
@@ -201,7 +201,7 @@ export default function PrivacyPolicyPage() {
                   Email:{" "}
                   <a
                     href="mailto:admin@5starroofingpros.com"
-                    className="text-brand-gold font-semibold hover:underline"
+                    className="text-brand-burnt-orange font-semibold hover:underline"
                   >
                     admin@5starroofingpros.com
                   </a>
