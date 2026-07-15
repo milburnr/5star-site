@@ -75,7 +75,7 @@ export function ReviewCard({ review, businessGbpUrl }: ReviewCardProps) {
         </div>
       </header>
 
-      <div className="flex gap-0.5 mb-3" aria-label={`${review.rating} out of 5 stars`}>
+      <div className="flex gap-0.5 mb-3" role="img" aria-label={`${review.rating} out of 5 stars`}>
         {[1, 2, 3, 4, 5].map((n) => (
           <Star
             key={n}
