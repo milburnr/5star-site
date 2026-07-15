@@ -102,6 +102,7 @@ export function ReviewCard({ review, businessGbpUrl }: ReviewCardProps) {
               className="text-brand-brown font-semibold hover:underline whitespace-nowrap"
             >
               Read more
+              <span className="sr-only"> of {review.author_name}&apos;s review on Google</span>
             </a>
           </>
         )}
