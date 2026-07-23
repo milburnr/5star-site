@@ -755,6 +755,16 @@ export default function BushlandRoofingPage() {
         }}
       />
       {/* schema-cleanup:faqpage:removed */}
+      <aside className="container-custom mt-10 mb-4">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Bushland Roofing Services</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/commercial-roofing-bushland/" className="text-brand-brown hover:text-brand-gold underline">Commercial roofing in Bushland, TX</a></li>
+            <li><a href="/metal-roofing-bushland/" className="text-brand-brown hover:text-brand-gold underline">Metal roofing in Bushland, TX</a></li>
+            <li><a href="/hail-damage-repair-bushland/" className="text-brand-brown hover:text-brand-gold underline">Hail damage roof repair in Bushland, TX</a></li>
+          </ul>
+        </div>
+      </aside>
       <RelatedArticles pageSlug="bushland-tx-roofing" />
     </div>
   );

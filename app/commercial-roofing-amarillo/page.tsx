@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-amarillo/" },
   title: "Commercial Roofing Amarillo TX | 5 Star Roofing",
   description:
-    "Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+    "Commercial roofing in Amarillo, TX: TPO, metal & EPDM systems built for Panhandle hail and wind. Free inspections, insurance claim help, fast response. Call 5 Star Roofing today!",
   openGraph: {
     title: "Commercial Roofing Amarillo TX | 5 Star Roofing",
     description:
-      "Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "Commercial roofing in Amarillo, TX: TPO, metal & EPDM systems built for Panhandle hail and wind. Free inspections, insurance claim help, fast response. Call 5 Star Roofing today!",
     url: "https://5starroofingpros.com/commercial-roofing-amarillo/",
     siteName: "5 Star Roofing",
     images: [
@@ -247,10 +247,12 @@ export default function CommercialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Makes Our Amarillo Roof Repair Specialists Different?
+              Commercial Roofing in Amarillo, TX: What Sets 5 Star Apart
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Commercial buildings in the Texas Panhandle face relentless weather—8-12 hailstorms
+              5 Star Roofing is Amarillo's dedicated commercial roofing contractor, installing and
+              repairing TPO, metal, and EPDM systems on businesses across the Texas Panhandle.
+              Commercial buildings here face relentless weather—8-12 hailstorms
               annually, extreme temperature swings, intense UV radiation, and sustained winds. Your
               roof isn't just overhead protection; it's a critical business asset protecting
               inventory, equipment, and operations. Downtime from roof leaks costs Amarillo

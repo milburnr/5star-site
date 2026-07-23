@@ -166,7 +166,7 @@ export default function AmarilloRoofingPage() {
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/roof-replacement-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
-              <a href="/commercial-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+              <a href="/commercial-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing in Amarillo, TX</a>
               <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
               <a href="/canyon-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Canyon Roofing</a>
             </div>

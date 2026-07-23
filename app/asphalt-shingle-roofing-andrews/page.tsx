@@ -620,6 +620,15 @@ export default function AsphaltShingleRoofingAndrewsPage() {
         </FadeIn>
         <InternalLinks currentCity="andrews" currentService="asphalt-shingle-roofing" />
 
+        <aside className="container-custom mt-10 mb-4">
+          <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+            <h2 className="text-xl font-bold text-brand-brown mb-3">Andrews Roofing Cost Guide</h2>
+            <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+              <li><a href="/shingle-repair-cost-andrews/" className="text-brand-brown hover:text-brand-gold underline">Shingle roof repair cost in Andrews, TX (2026 pricing)</a></li>
+            </ul>
+          </div>
+        </aside>
+
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">

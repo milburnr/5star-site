@@ -548,6 +548,7 @@ export default function RoofReplacementOdessaPage() {
           <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
             <h2 className="text-xl font-bold text-brand-brown mb-3">Related Roof Replacement Guide</h2>
             <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+              <li><a href="/roof-replacement-cost-odessa/" className="text-brand-brown hover:text-brand-gold underline">Roof replacement cost in Odessa, TX (2026 pricing)</a></li>
               <li><a href="/blog/roof-replacement-cost-canyon/" className="text-brand-brown hover:text-brand-gold underline">Roof replacement cost in Canyon, TX</a></li>
             </ul>
           </div>
