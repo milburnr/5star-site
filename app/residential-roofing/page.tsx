@@ -284,6 +284,16 @@ export default function Page() {
         </div>
       </aside>
       {/* /auto-link */}
+      <aside className="container-custom mt-2 mb-10">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-brand-brown mb-3">Homeowner Roofing Guides</h2>
+          <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+            <li><a href="/blog/roof-vent/" className="text-brand-brown hover:text-brand-gold underline">Roof vents &amp; attic ventilation explained</a></li>
+            <li><a href="/blog/3-tab-shingles/" className="text-brand-brown hover:text-brand-gold underline">3-tab shingles: what homeowners should know</a></li>
+            <li><a href="/blog/standing-seam-metal-roof-cost-canyon/" className="text-brand-brown hover:text-brand-gold underline">Standing seam metal roof cost in Canyon, TX</a></li>
+          </ul>
+        </div>
+      </aside>
       </div>
       <h2 className="text-2xl font-bold mt-8 mb-4">Hail Damage? We Can Help</h2>
       <p className="mb-4">

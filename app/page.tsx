@@ -1238,6 +1238,30 @@ export default async function Page() {
           </section>
         </FadeIn>
 
+        {/* Neighborhood roofing guides - inbound equity to priority local pages */}
+        <FadeIn>
+          <section className="section-sub below-fold">
+            <h2 className="text-2xl font-bold text-center mb-6 text-brand-brown">
+              Amarillo Neighborhood Roofing Guides
+            </h2>
+            <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
+              <a
+                href="/blog/shopping-center-roofing-sunset-center-amarillo/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Shopping Center Roofing at Sunset Center
+              </a>
+              <span className="text-gray-300">|</span>
+              <a
+                href="/blog/hail-damage-roof-san-jacinto-heights-amarillo/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
+                Hail Damage Roofing in San Jacinto Heights
+              </a>
+            </div>
+          </section>
+        </FadeIn>
+
         {/* Hail Damage & Insurance FAQ Section */}
         <FadeIn>
           <section

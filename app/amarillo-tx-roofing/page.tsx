@@ -572,6 +572,8 @@ export default function AmarilloRoofingPage() {
             <li><a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Roof Inspections in Amarillo</a></li>
             <li><a href="/wind-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Wind Damage Repair in Amarillo</a></li>
             <li><a href="/storm-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Storm Damage Repair in Amarillo</a></li>
+            <li><a href="/blog/roofer-wolflin-historic-district-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Roofer in the Wolflin Historic District</a></li>
+            <li><a href="/blog/roofing-contractor-sleepy-hollow-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Roofing Contractor in Sleepy Hollow</a></li>
           </ul>
         </div>
       </aside>

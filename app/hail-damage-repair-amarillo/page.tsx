@@ -674,6 +674,15 @@ export default function HailDamageRepairAmarilloPage() {
             </a>
           </div>
         </section>
+        <aside className="container-custom mt-10 mb-4">
+          <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+            <h2 className="text-xl font-bold text-brand-brown mb-3">Neighborhood Hail Damage Guides</h2>
+            <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+              <li><a href="/blog/hail-damage-roof-san-jacinto-heights-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Hail damage roofing in San Jacinto Heights, Amarillo</a></li>
+              <li><a href="/blog/hail-damage-canyon/" className="text-brand-brown hover:text-brand-gold underline">Hail damage roof repair in Canyon, TX</a></li>
+            </ul>
+          </div>
+        </aside>
         <RelatedArticles pageSlug="hail-damage-repair-amarillo" />
       </div>
     </>

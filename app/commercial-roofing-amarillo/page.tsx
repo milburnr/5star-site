@@ -730,6 +730,15 @@ export default function CommercialRoofingAmarilloPage() {
             </a>
           </div>
         </section>
+        <aside className="container-custom mt-10 mb-4">
+          <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+            <h2 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing Guides Nearby</h2>
+            <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside">
+              <li><a href="/blog/shopping-center-roofing-sunset-center-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Shopping center roofing at Sunset Center, Amarillo</a></li>
+              <li><a href="/blog/commercial-roofing-bushland-tx/" className="text-brand-brown hover:text-brand-gold underline">Commercial roofing in Bushland, TX</a></li>
+            </ul>
+          </div>
+        </aside>
         <RelatedArticles pageSlug="commercial-roofing-amarillo" />
       </div>
     </>
