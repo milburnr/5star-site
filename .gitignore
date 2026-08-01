@@ -89,5 +89,9 @@ public/images/jobs/
 # Local Playwright screenshot output (large binary; not for commits)
 runs/design-screenshots/
 
+# content-ops: fact-check grounding sidecars — build artifacts for
+# engine/validate_article.py, never site content. Never ship these.
+*.grounding.json
+
 # Playwright test artifacts
 tests/.results/
