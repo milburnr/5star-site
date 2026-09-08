@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import { ABOUT_CREW_HERO } from "@/components/heroes/hubHeroSets";
 import { ClipboardList, Home, Target, Zap } from "lucide-react";
 import { ReviewsSection } from "@/components/page-sections/ReviewsSection";
 
@@ -104,7 +105,8 @@ export default function Page() {
         heroVariant="service"
         service="About Us"
         h1="About 5 Star Commercial Roofing"
-        image="/images/heroes/cities/amarillo-hero-1200.webp"
+        image="/images/heroes/about-crew-hero-1280.webp"
+        imageSrcSet={ABOUT_CREW_HERO}
         breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "About Us", url: "/about/" },

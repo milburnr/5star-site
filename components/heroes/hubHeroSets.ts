@@ -23,6 +23,27 @@ function buildHubSet(basename: string): HeroImageSet {
   };
 }
 
+/**
+ * About-page hero. Silhouetted crew against a Panhandle sunset — this was the
+ * original homepage hero, kept deliberately because it reads as "who we are"
+ * rather than curb appeal, which suits /about/ better than a service page.
+ *
+ * Declared explicitly rather than via buildHubSet because the source only
+ * exists at 640/768/1280, not the 600/900/1200/1920 the hub sets use. 1280 is
+ * below the usual desktop width so it will be slightly soft on large screens;
+ * accepted knowingly (Rich, 2026-09-07) since the frame is mostly sky gradient
+ * and silhouette, which upscales far better than detail would. Regenerate at
+ * 1920w from the original prompt to remove the caveat.
+ */
+export const ABOUT_CREW_HERO: HeroImageSet = {
+  sources: [640, 768, 1280].map((w) => ({
+    width: w,
+    avif: `/images/heroes/about-crew-hero-${w}.avif`,
+    webp: `/images/heroes/about-crew-hero-${w}.webp`,
+  })),
+  fallback: "/images/heroes/about-crew-hero-1280.webp",
+};
+
 export const METAL_HUB_HERO = buildHubSet("metal-hub");
 export const COMMERCIAL_HUB_HERO = buildHubSet("commercial-hub");
 export const HAIL_HUB_HERO = buildHubSet("hail-hub");
