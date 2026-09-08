@@ -694,6 +694,23 @@ export default function Page() {
           </a>
         </div>
       </section>
+      {/* core30-spine:start */}
+      <section className="core30-spine mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+        <div className="max-w-[880px] mx-auto">
+          <h2 className="text-2xl font-bold mt-8 mb-4">Roof Inspections West Texas Services</h2>
+          {/* core30-child:svc__free_roof_inspection */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/free-roof-inspection/">Free Roof Inspection in Amarillo, TX</a>
+          </h3>
+          <p className="text-gray-700">Our roof inspection is free because it is also the site visit we need to write an estimate. Nobody is doing charity work up there, and that incentive is worth understanding before anyone climbs up. What makes the offer worth something is what you keep: photographs and a written summary that are yours whether you hire us, hire someone else, or do nothing. If the roof is fine, the report says so. This page covers what happens on the visit in Amarillo, what a free inspection does not give you, and how to tell a real one from post-storm bait.</p>
+          {/* core30-child:svc__commercial_roof_condition_survey_and_capital */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/commercial-roof-condition-survey-and-capital/">Commercial Roof Condition Survey & Capital Planning Report</a>
+          </h3>
+          <p className="text-gray-700">Free inspections answer a present-tense question: what is wrong with this roof today. A condition survey answers a different one. Across every roof you are responsible for, which ones need money, how much, and in which budget year, so roofing stops arriving as a mid-year surprise. Our commercial roof condition survey and capital planning page explains who actually needs one, what gets surveyed on each roof section, why Panhandle hail breaks the standard service-life table, and how the paid engagement runs. Read it if you manage several roofs in Amarillo or answer to a board or lender.</p>
+        </div>
+      </section>
+      {/* core30-spine:end */}
       <RelatedArticles pageSlug="roof-inspections" />
     </div>
   );

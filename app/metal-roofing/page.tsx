@@ -740,6 +740,28 @@ export default function Page() {
           </a>
         </div>
       </section>
+      {/* core30-spine:start */}
+      <section className="core30-spine mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+        <div className="max-w-[880px] mx-auto">
+          <h2 className="text-2xl font-bold mt-12 mb-4">Metal Roofing West Texas Services</h2>
+          {/* core30-child:svc__commercial_metal_roof_repair */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/commercial-metal-roof-repair/">Commercial Metal Roof Repair in Amarillo, TX</a>
+          </h3>
+          <p className="text-sm text-gray-600">On a metal roof, the steel is usually fine. What fails is a fastener, a lap, a piece of trim, or a penetration, small parts doing the hardest job. Water gets in at one of them, travels along a panel or purlin, and drops through the ceiling well downslope, so pointing up at the stain is how the wrong repair gets made. Our commercial metal roof repair page covers finding the actual leak on an Amarillo roof, why replacing one panel mid-run is not a small job, which sealants belong on Galvalume, and the repairs that make a roof worse.</p>
+          {/* core30-child:svc__metal_roof_retrofit_over_existing_roof */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/metal-roof-retrofit-over-existing-roof/">Metal Roof Retrofit Over an Existing Roof in Amarillo, TX</a>
+          </h3>
+          <p className="text-sm text-gray-600">A metal retrofit is a new roof above the old one, not a new skin on it. We fasten sub-framing through the existing roof into the structure, add insulation, and install a new standing seam roof on top. That is what you buy when the failures are no longer individual: fastener holes worn roof-wide, general corrosion, or a slope that never drained. This page explains what a retrofit can fix that a new panel cannot, what the structure has to prove first, how the work runs without closing your Amarillo building, and when a tear-off is the better answer.</p>
+          {/* core30-child:svc__standing_seam_metal_roof_installation */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/standing-seam-metal-roof-installation/">Standing Seam Metal Roof Installation in Amarillo, TX</a>
+          </h3>
+          <p className="text-sm text-gray-600">Standing seam is defined by what you cannot see. Concealed clips hold the panels under the raised seam, so no screws are driven through the face of the metal, and each panel is free to grow and shrink as Panhandle temperatures swing. Getting that movement wrong is the most common way a new metal roof fails. Our standing seam metal roof installation page walks through snap-lock versus mechanically seamed panels, clip spacing engineered for Amarillo wind, planning penetrations before the panels arrive, and the cosmetic hail warranty language to read before you choose a panel.</p>
+        </div>
+      </section>
+      {/* core30-spine:end */}
       <RelatedArticles pageSlug="metal-roofing" />
     </div>
   );

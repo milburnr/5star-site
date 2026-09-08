@@ -1533,6 +1533,33 @@ export default async function Page() {
           }),
         }}
       />
+      {/* core30-spine:start */}
+      <section className="core30-spine mb-16 bg-brand-gold-light p-8 rounded-lg below-fold">
+        <div className="max-w-[880px] mx-auto">
+          <h2 className="text-3xl font-bold mb-6 text-center">Our Services in Amarillo</h2>
+          {/* core30-child:cat__commercial_building_types */}
+          <h3 className="font-bold text-center text-xl mt-8 mb-3">
+            <a href="/commercial-building-types/">Commercial Building Types We Roof in Amarillo, TX</a>
+          </h3>
+          <p className="text-[0.9375rem] font-light leading-[1.8] max-w-[62ch] text-center">Two Amarillo buildings can carry the same membrane and still be completely different jobs. A warehouse that empties at night stages easily from its dock. A hotel with guests under the deck and rooftop units in the way does not. This page sorts our commercial building roofing in Amarillo by what you own: warehouses, shopping centers, industrial buildings, hotels and motels, apartment and condo complexes, agricultural buildings, and metal buildings with R-panel roofs. Find your building type to see what changes about scheduling, noise, access, and how the crew works before anyone quotes the job.</p>
+          {/* core30-child:cat__commercial_storm_hail_and_wind */}
+          <h3 className="font-bold text-center text-xl mt-8 mb-3">
+            <a href="/commercial-storm-hail/">Commercial Storm & Hail Damage Roofing in Amarillo, TX</a>
+          </h3>
+          <p className="text-[0.9375rem] font-light leading-[1.8] max-w-[62ch] text-center">A storm is an event, not a roofing material, and that changes how the work runs. When hail or wind hits a commercial roof in Amarillo, the damage gets documented, claimed, and rebuilt on the timeline the Texas claim clock sets, not the one you would pick. Our commercial storm damage roofing page walks through what the Panhandle actually throws at a low-slope roof, the three things to do before calling any roofer, and how assessment, adjuster meetings, wind repair, hail repair, and full replacement fit together. Start there if your roof was hit on a date you can name.</p>
+          {/* core30-child:cat__commercial_metal_roofing */}
+          <h3 className="font-bold text-center text-xl mt-8 mb-3">
+            <a href="/metal-roofing/">Metal Roofing</a>
+          </h3>
+          <p className="text-[0.9375rem] font-light leading-[1.8] max-w-[62ch] text-center">Metal roofing moved from farm buildings and warehouses into everyday use across West Texas for practical reasons: hail, wind, and heat test every roof here, and metal holds up. We install and repair R-panel, standing seam, and corrugated metal systems on commercial buildings and homes throughout the Texas Panhandle and Permian Basin, from Amarillo to Midland and Odessa. The page compares the panel options, explains why metal suits a commercial building, and covers how a metal roof is maintained and repaired over its life. Read it to see which metal system fits your building before you ask for an estimate.</p>
+          {/* core30-child:cat__inspection_and_assessment */}
+          <h3 className="font-bold text-center text-xl mt-8 mb-3">
+            <a href="/roof-inspections/">Roof Inspections</a>
+          </h3>
+          <p className="text-[0.9375rem] font-light leading-[1.8] max-w-[62ch] text-center">Most roof problems stay invisible from the ground until water shows up inside. Our roof inspections across the Texas Panhandle and Permian Basin catch trouble early, document hail damage for an insurance claim, and give you a clear read on how much life the roof has left. This page explains when an inspection earns its place, whether after a storm, before closing on a property, or as part of a maintenance calendar, and lays out what a professional inspection actually covers. It also answers the question Amarillo owners ask most: are these inspections really free, and what is the catch?</p>
+        </div>
+      </section>
+      {/* core30-spine:end */}
     </>
   );
 }

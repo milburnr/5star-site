@@ -759,6 +759,23 @@ export default function Page() {
           </a>
         </div>
       </section>
+      {/* core30-spine:start */}
+      <section className="core30-spine container-custom mt-8">
+        <div className="max-w-[880px] mx-auto">
+          <h2 className="text-2xl font-bold mt-12 mb-4">Residential Roofing in Amarillo Services</h2>
+          {/* core30-child:svc__architectural_asphalt_shingle_roof_replacement */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/asphalt-shingle-roofing/">Asphalt Shingle Roofing</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">Asphalt shingles protect more Texas homes than any other roofing material, and in the Panhandle hail corridor the standard is an architectural shingle with Class 4 impact resistance. We install and repair shingle roofs across our West Texas service area, from budget 3-tab to premium impact-rated lines, with free inspections and insurance claim help after a storm. This page compares the shingle types, explains what makes them suited to West Texas heat and wind, and walks through how an installation and a repair are done. Go there to pick the right shingle for an Amarillo home before comparing estimates.</p>
+          {/* core30-child:svc__residential_standing_seam_metal_roofing */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/residential-standing-seam-metal-roofing/">Residential Standing Seam Metal Roofing</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">Almost nobody chooses standing seam because they want a metal roof in the abstract. They arrive after a hail claim, holding competing estimates, asking whether paying roughly double now buys them out of doing this again in a few years. In Potter County the answer depends on a cosmetic damage clause in your insurance policy most homeowners were never told to check. Our residential standing seam page lays out the cost against shingles with real Amarillo examples, the standing seam versus exposed fastener choice, the honest downsides, and how we quote it on your house.</p>
+        </div>
+      </section>
+      {/* core30-spine:end */}
       <RelatedArticles pageSlug="residential-roofing" />
       </div>
     </>

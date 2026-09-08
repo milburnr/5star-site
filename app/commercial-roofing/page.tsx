@@ -712,6 +712,63 @@ export default function Page() {
           </a>
         </div>
       </section>
+      {/* core30-spine:start */}
+      <section className="core30-spine container-custom mt-8">
+        <div className="max-w-[880px] mx-auto">
+          <h2 className="text-2xl font-bold mt-8 mb-4">Commercial Roofing in Amarillo TX Services</h2>
+          {/* core30-child:svc__built_up_and_modified_bitumen_roof_repair */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/built-up-and-modified-bitumen-roof/">Built-Up & Modified Bitumen Roof Repair in Amarillo, TX</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">Plenty of Amarillo building owners inherit an asphalt roof with no record of what it is. A gravel built-up roof and a modified bitumen roof look alike from the parking lot and repair very differently up close, so we take a core cut before quoting anything beyond a stop-gap. This page walks through the five ways these roofs fail, from blisters and splits to alligatoring and flashing breakdown, why gravel-surfaced repairs are deliberately slower, and why we usually avoid the torch. Read it to learn which asphalt system you actually own and what a proper repair involves.</p>
+          {/* core30-child:svc__commercial_flat_roof_repair */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/commercial-flat-roof-repair/">Commercial Flat Roof Repair in Amarillo, TX</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">Most of what we repair on Amarillo flat roofs is not dramatic: a seam that opened along its lap, a dinner-plate blister, a pitch pan that dried out. Whether that repair lasts or fails next spring comes down to preparation and material compatibility. Our commercial flat roof repair page covers the failures we see most on Panhandle low-slope roofs, why the repair has to match the membrane you have, the rule of thumb for when a repair becomes a bigger project, and what we check before pricing. Go there if the roof needs fixing rather than replacing.</p>
+          {/* core30-child:svc__commercial_roof_leak_repair */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/commercial-roof-leak-repair/">Commercial Roof Leak Repair in Amarillo, TX</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">Water is coming through the ceiling of your Amarillo building and the stain is almost never directly below the hole. On a low-slope roof, water lands on insulation, runs along board joints, and follows a purlin or joist a long way. This page explains where commercial roofs in the Panhandle actually let water in, how we trace a leak back to its real source, why drying the building in comes first, and when a leak is telling you something bigger about the roof. Click through if you need the leak found and fixed for good.</p>
+          {/* core30-child:svc__commercial_roof_maintenance_program */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/commercial-roof-maintenance-program/">Commercial Roof Maintenance Program in Amarillo, TX</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">An inspection tells you what is wrong today. A maintenance program is a standing agreement to keep one specific roof serviceable, with scheduled visits, a defined scope at each one, small repairs handled on the spot, and a dated file that builds year over year. That file is much of what you are buying, because it keeps warranties and insurance claims defensible. Our Amarillo commercial roof maintenance program page explains what happens on a visit, why the schedule is built around Panhandle storm season, what a program will not do, and how enrollment starts with a baseline survey.</p>
+          {/* core30-child:svc__commercial_roof_restoration */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/commercial-roof-restoration/">Commercial Roof Restoration in Amarillo, TX</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">The word restoration gets used loosely in this trade, usually by someone selling a bucket of coating. On our estimates it means a staged program: take a sound but worn Amarillo commercial roof, find and cut out wet insulation, rebuild flashings and terminations, fix the drainage, and only then put a new warrantable surface on top. This page lays out each stage in order, what disqualifies a roof, how we frame restore versus replace, and why we never restore over an open storm claim. Go there to find out whether your roof is worth restoring or past that point.</p>
+          {/* core30-child:svc__commercial_tpo_roof_retrofit */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/commercial-tpo-roof-retrofit/">Commercial TPO Roof Retrofit in Amarillo, TX</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">Recovering a roof with TPO, which the trade calls a retrofit, puts a new single-ply membrane over the roof you have instead of stripping to deck. It costs less and keeps you open, but code treats a recover as a privilege, and a few findings under the surface force a full replacement. We still cut a core before quoting one. Our commercial TPO roof retrofit page explains what disqualifies your Amarillo roof, how a retrofit compares with a tear-off, the membrane thickness choice for Panhandle wind and hail, and how we sequence the work without closing your building.</p>
+          {/* core30-child:svc__pvc_membrane_roof_installation */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/pvc-membrane-roof-installation/">PVC Membrane Roof Installation in Amarillo, TX</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">PVC gets sold as the premium version of TPO, and that framing does building owners no favors. They are different chemistries, and PVC earns its price on a specific set of Amarillo buildings: restaurants and hotels venting kitchen grease onto the roof, facilities with chemical exhaust, anywhere a membrane must resist something chemically. Our PVC membrane roof installation page covers those buildings, the asphalt incompatibility almost nobody mentions, the honest disadvantages, and how the system gets built here. If nothing chemical is landing on your roof, we will say so and point you to TPO instead.</p>
+          {/* core30-child:svc__pvc_roof_repair */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/pvc-roof-repair-in-amarillo/">PVC Roof Repair</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">PVC membranes are tough, but hail, wind, and age still open seams and puncture the sheet on West Texas commercial roofs. We repair PVC in Amarillo, Midland, and Odessa using the same heat welding used for new installations, so a patch fuses into the membrane instead of sitting on top until the next storm. This page covers the PVC problems we see most in this climate, how our process runs from leak detection to seam welding, and how to tell when repair still makes sense versus replacing the roof. Read it if your PVC roof has started letting water in.</p>
+          {/* core30-child:svc__commercial_tpo_roof_installation */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/tpo-roofing/">TPO Roofing</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">TPO is the fastest-growing commercial roofing membrane in Texas, and the reasons hold up here: a white reflective surface that pushes back against summer heat, heat-welded seams that stand up to relentless wind, and a price that works for businesses of every size. We install, repair, and maintain TPO systems across the Texas Panhandle and Permian Basin. This page explains what TPO actually is, how it compares with other flat roof systems, and how to maintain one over its life. Start here if you are choosing a membrane for a commercial or industrial building rather than repairing one.</p>
+          {/* core30-child:svc__commercial_roof_re_coating */}
+          <h3 className="font-bold text-xl mt-8 mb-3">
+            <a href="/commercial-roof-re-coating/">Commercial Roof Re-Coating in Amarillo, TX</a>
+          </h3>
+          <p className="text-base font-light leading-[1.8]">Re-coating means applying a liquid over the roof you already own. Silicone or acrylic is rolled or sprayed on, works into seams and flashing details, and cures into one continuous waterproofing skin. Nothing gets torn off. It renews a surface, but it cannot rebuild an assembly with wet insulation underneath. Our commercial roof re-coating page covers which roofs in Amarillo qualify, how to choose between silicone and acrylic under Panhandle sun, why prep decides the outcome, and what a coating will and will not do about hail. Read it before anyone sells you a coating as a new roof.</p>
+        </div>
+      </section>
+      {/* core30-spine:end */}
       <RelatedArticles pageSlug="commercial-roofing" />
       </div>
     </>
