@@ -559,7 +559,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">
-              What Does Installation Process for Amarillo Conditions Involve?
+              Installation Process for Amarillo Conditions
             </h2>
 
             <div className="space-y-8">

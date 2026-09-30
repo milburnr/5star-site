@@ -407,7 +407,7 @@ export default function RoofReplacementMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              What Does Our Comprehensive Roof Replacement Solutions for Midland Include?
+              Our Comprehensive Roof Replacement Solutions for Midland
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -472,7 +472,7 @@ export default function RoofReplacementMidlandPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-10 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Roofing Systems Engineered for Permian Basin Conditions Involve?
+              Roofing Systems Engineered for Permian Basin Conditions
             </h2>
 
             <div className="grid lg:grid-cols-2 gap-8">

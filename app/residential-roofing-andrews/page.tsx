@@ -231,7 +231,7 @@ export default function ResidentialRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Andrews Weather Challenges & roof system Involve?
+              Andrews Weather Challenges & roof system
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
               <div className="bg-white p-8 rounded-xl shadow-md">
@@ -310,7 +310,7 @@ export default function ResidentialRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Our Comprehensive Residential Roofing Services for Andrews Include?
+              Our Comprehensive Residential Roofing Services for Andrews
             </h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">

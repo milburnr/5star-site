@@ -324,7 +324,7 @@ export default function RoofReplacementPampaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does roof system for Pampa's Energy Industry Involve?
+              roof system for Pampa's Energy Industry
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -622,7 +622,7 @@ export default function RoofReplacementPampaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Pampa's Energy Sector Roofing Needs Involve?
+              Pampa's Energy Sector Roofing Needs
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-amber-50 p-8 rounded-xl">

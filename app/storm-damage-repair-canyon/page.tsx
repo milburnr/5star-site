@@ -270,7 +270,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Canyon's Storm Damage Repair Specialists Look Like?
+              Canyon's Storm Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo
@@ -294,7 +294,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-slate-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Palo Duro Canyon's Weather Impact on Storm Damage Look Like?
+              Palo Duro Canyon's Weather Impact on Storm Damage
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -339,7 +339,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Storm Damage Patterns by Canyon Area Look Like?
+              Storm Damage Patterns by Canyon Area
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">

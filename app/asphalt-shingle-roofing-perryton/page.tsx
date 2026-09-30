@@ -262,7 +262,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Grain Community Residential Roofing for Perryton Families Involve?
+              Grain Community Residential Roofing for Perryton Families
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -538,7 +538,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Asphalt Shingle Roofing FAQs - Perryton, TX Involve?
+              Asphalt Shingle Roofing FAQs - Perryton, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

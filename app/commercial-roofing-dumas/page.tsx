@@ -403,7 +403,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Healthcare and Community Service Commercial Roofing Include?
+              Healthcare and Community Service Commercial Roofing
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Moore County Hospital and medical facilities serving Dumas' agricultural community
@@ -506,7 +506,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Specialized Roofing Systems for Dumas Industrial Operations Involve?
+              Specialized Roofing Systems for Dumas Industrial Operations
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Dumas hosts several industrial operations beyond agriculture that require specialized
@@ -558,7 +558,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Moore County Economic Development and Roofing Infrastructure Involve?
+              Moore County Economic Development and Roofing Infrastructure
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Economic development initiatives in Moore County focus on diversifying the economy
@@ -772,7 +772,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Future-Ready Commercial Roofing for Dumas Economic Development Involve?
+              Future-Ready Commercial Roofing for Dumas Economic Development
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               As Dumas continues to diversify its economic base beyond traditional agriculture, new

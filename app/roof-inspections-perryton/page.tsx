@@ -262,7 +262,7 @@ export default function RoofInspectionsPerrytonPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Advanced Roof Inspection Technology for Perryton Involve?
+              Advanced Roof Inspection Technology for Perryton
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">

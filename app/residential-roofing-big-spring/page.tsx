@@ -204,7 +204,7 @@ export default function ResidentialRoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Big Spring's Premier Residential Roofing Company Involve?
+              Big Spring's Premier Residential Roofing Company
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Big Spring sits at the crossroads of West Texas, where I-20 meets US-87, making it a

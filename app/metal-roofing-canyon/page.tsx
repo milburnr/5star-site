@@ -262,8 +262,7 @@ export default function MetalRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Premium Metal Roofing for Canyon Educational & Commercial Properties
-              Include?
+              Premium Metal Roofing for Canyon Educational & Commercial Properties
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -360,7 +359,7 @@ export default function MetalRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Educational Facility Metal Roofing Advantages Involve?
+              Educational Facility Metal Roofing Advantages
             </h2>
             <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">
@@ -474,7 +473,7 @@ export default function MetalRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Metal Roofing FAQs - Canyon, TX Include?
+              Metal Roofing FAQs - Canyon, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

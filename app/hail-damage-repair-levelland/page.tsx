@@ -204,7 +204,7 @@ export default function HailDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Levelland's Hail Damage Repair Specialists Look Like?
+              Levelland's Hail Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Professional hail damage repair throughout Levelland and surrounding areas. We
@@ -310,7 +310,7 @@ export default function HailDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">
-              What Does Advanced Storm Damage Analysis Look Like?
+              Advanced Storm Damage Analysis
             </h2>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
@@ -534,7 +534,7 @@ export default function HailDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">
-              What Does Bow Echo Resistant Roofing Systems Include?
+              Bow Echo Resistant Roofing Systems
             </h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>

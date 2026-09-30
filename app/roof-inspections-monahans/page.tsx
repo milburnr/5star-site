@@ -271,7 +271,7 @@ export default function RoofInspectionsMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Our Comprehensive Roof Inspection for Permian Basin Conditions Include?
+              Our Comprehensive Roof Inspection for Permian Basin Conditions
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
@@ -369,7 +369,7 @@ export default function RoofInspectionsMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Permian Basin Damage Indicators & Assessment Involve?
+              Permian Basin Damage Indicators & Assessment
             </h2>
 
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">

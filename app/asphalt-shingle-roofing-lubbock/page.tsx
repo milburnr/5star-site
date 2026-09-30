@@ -240,7 +240,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Understanding Lubbock's Unique Roofing Challenges Involve?
+              Understanding Lubbock's Unique Roofing Challenges
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -658,7 +658,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">
-              What Does Maintenance for South Plains Conditions Involve?
+              Maintenance for South Plains Conditions
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">

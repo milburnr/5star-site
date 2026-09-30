@@ -326,7 +326,7 @@ export default function RoofReplacementLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Levelland Roof Replacement Planning Guide 2025 Involve?
+              Levelland Roof Replacement Planning Guide 2025
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Strategic roofing solutions for Levelland's diverse property types, from college
@@ -418,7 +418,7 @@ export default function RoofReplacementLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Roofing Materials for South Plains Conditions Involve?
+              Roofing Materials for South Plains Conditions
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Material selection optimized for Levelland's college town needs and challenging South

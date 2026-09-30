@@ -283,7 +283,7 @@ export default function ResidentialRoofingMonahansPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does commercial roofing for Permian Basin Conditions Involve?
+              commercial roofing for Permian Basin Conditions
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">

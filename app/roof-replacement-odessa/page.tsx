@@ -245,7 +245,7 @@ export default function RoofReplacementOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Makes Odessa a Top Choice for Roof Repair?
+              What Is Included in a Roof Replacement in Odessa?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Complete roof replacement services for Odessa homes and businesses, featuring Class 4
@@ -260,6 +260,26 @@ export default function RoofReplacementOdessaPage() {
               project management. Our experienced teams handle all aspects of roof replacement
               including permits, insurance claims coordination, material selection, and long-term
               warranty documentation.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              This page covers full replacement. For a leak or storm damage that does not need a new
+              roof, see{" "}
+              <a href="/roof-repair-odessa/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                roof repair in Odessa
+              </a>
+              . Not sure yet? Start with a{" "}
+              <a href="/roof-inspections-odessa/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                roof inspection in Odessa
+              </a>
+              , or see everything we do as an{" "}
+              <a href="/odessa-tx-roofing/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                Odessa roofing contractor
+              </a>
+              , including{" "}
+              <a href="/commercial-roofing-odessa/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                commercial roofing in Odessa
+              </a>
+              .
             </p>
 
             <h3 className="text-2xl font-bold mt-8 mb-4 text-brand-brown">
@@ -406,7 +426,7 @@ export default function RoofReplacementOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Complete Roof Replacement Process for Odessa Properties Involve?
+              Complete Roof Replacement Process for Odessa Properties
             </h2>
 
             <h3 className="text-2xl font-bold mt-8 mb-4">Initial Assessment and Planning</h3>

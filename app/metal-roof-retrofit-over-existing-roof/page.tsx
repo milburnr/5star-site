@@ -76,7 +76,7 @@ export default function MetalRoofRetrofitOverExistingRoofPage() {
             isRelatedTo: {
               "@type": "Service",
               name: "Commercial Metal Roofing",
-              url: "https://5starroofingpros.com/commercial-metal-roofing/",
+              url: "https://5starroofingpros.com/metal-roofing/",
             },
           }),
         }}
@@ -151,7 +151,7 @@ export default function MetalRoofRetrofitOverExistingRoofPage() {
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp"
         breadcrumbItems={[
           { name: "Home", url: "/" },
-          { name: "Commercial Metal Roofing", url: "/commercial-metal-roofing/" },
+          { name: "Commercial Metal Roofing", url: "/metal-roofing/" },
           { name: "Metal Roof Retrofit", url: "/metal-roof-retrofit-over-existing-roof/" },
         ]}
       />
@@ -470,7 +470,7 @@ export default function MetalRoofRetrofitOverExistingRoofPage() {
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               A retrofit is one of several answers for an aging metal roof. Our{" "}
-              <a href="/commercial-metal-roofing/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+              <a href="/metal-roofing/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
                 commercial metal roofing
               </a>{" "}
               page covers the whole range (panel systems, repair, re-fastening, retrofits and new

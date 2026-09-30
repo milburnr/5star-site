@@ -23,11 +23,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/canyon-texas-roofing/" },
-  title: "Roofing Contractor Canyon TX | 5 Star Roofing",
+  title: "Roofing Contractor Canyon TX | Commercial & Residential | 5 Star",
   description:
     "Roofing in Canyon TX. Randall County storm damage specialists serving WTAMU, downtown Canyon, and the Palo Duro Canyon area. Residential and commercial. Call (806) 622-6041",
   openGraph: {
-    title: "Roofing Contractor Canyon TX | 5 Star Roofing",
+    title: "Roofing Contractor Canyon TX | Commercial & Residential | 5 Star",
     description:
       "Roofing in Canyon TX. Randall County storm damage specialists serving WTAMU, downtown Canyon, and the Palo Duro Canyon area. Residential and commercial. Call (806) 622-6041",
     url: "https://5starroofingpros.com/canyon-texas-roofing/",
@@ -593,6 +593,21 @@ export default function CanyonRoofingPage() {
           }),
         }}
       />
+      <aside className="container-custom mt-10 mb-4">
+        <div className="max-w-5xl mx-auto bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <p className="text-gray-700 leading-relaxed">
+            Own a business in Canyon? See{" "}
+            <a href="/commercial-roofing-canyon/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+              commercial roofing in Canyon
+            </a>
+            , or book a free{" "}
+            <a href="/commercial-roof-inspection/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+              commercial roof inspection
+            </a>{" "}
+            for your building.
+          </p>
+        </div>
+      </aside>
       <RelatedArticles pageSlug="canyon-texas-roofing" />
     </div>
   );

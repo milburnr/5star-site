@@ -23,11 +23,11 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/odessa-tx-roofing/" },
-  title: "Roofing Contractor Odessa TX | 5 Star Roofing",
+  title: "Roofers in Odessa TX | Roofing Contractor | 5 Star Roofing",
   description:
     "Roofing in Odessa TX. Hail Alley specialists serving Ector County. Residential, commercial, and oil-industry roofing across the Permian Basin. Call (806) 622-6041",
   openGraph: {
-    title: "Roofing Contractor Odessa TX | 5 Star Roofing",
+    title: "Roofers in Odessa TX | Roofing Contractor | 5 Star Roofing",
     description:
       "Roofing in Odessa TX. Hail Alley specialists serving Ector County. Residential, commercial, and oil-industry roofing across the Permian Basin. Call (806) 622-6041",
     url: "https://5starroofingpros.com/odessa-tx-roofing/",
@@ -203,8 +203,12 @@ export default function OdessaRoofingPage() {
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
                 Odessa&apos;s economy runs on oil and gas. The Permian Basin&apos;s refineries,
                 processing plants, oilfield service yards, and pipe storage facilities all require
-                specialized commercial roofing — chemical-resistant PVC membranes, heavy-duty metal
-                systems, and reinforced walkways for high-traffic maintenance access. The
+                specialized{" "}
+                <a href="/commercial-roofing-odessa/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                  commercial roofing in Odessa
+                </a>{" "}
+                — chemical-resistant PVC membranes, heavy-duty metal systems, and reinforced
+                walkways for high-traffic maintenance access. The
                 University of Texas Permian Basin, Medical Center Hospital, Ratliff Stadium, and the
                 retail centers along East 42nd Street round out a commercial base that depends on
                 durable roofing systems engineered for industrial conditions.

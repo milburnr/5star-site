@@ -16,12 +16,12 @@ import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-midland/" },
-  title: "Storm Damage Repair Midland | 5 Star Roofing",
-  description: "Expert storm damage repair in Midland.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041 Same-day scheduling after most storms.",
+  title: "Storm Damage Repair & Restoration Midland TX | 5 Star Roofing",
+  description: "Storm damage roof repair and restoration in Midland, TX for hail, wind and weather damage, with full insurance claim help. Free inspections. Call (806) 622-6041.",
   openGraph: {
-    title: "Storm Damage Repair Midland | 5 Star Roofing",
+    title: "Storm Damage Repair & Restoration Midland TX | 5 Star Roofing",
     description:
-      "Expert storm damage repair in Midland.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+      "Storm damage roof repair and restoration in Midland, TX for hail, wind and weather damage, with full insurance claim help. Free inspections. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/storm-damage-repair-midland/",
     siteName: "5 Star Roofing",
     images: [
@@ -240,7 +240,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Midland Storm Damage Specialists: Permian Basin Weather Experts Look Like?
+              Midland Storm Damage Specialists: Permian Basin Weather Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               <strong>Permian Basin Storm Profile:</strong> Midland County sits at the heart of
@@ -362,7 +362,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Types of Storm Damage in the Permian Basin Look Like?
+              Types of Storm Damage in the Permian Basin
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
@@ -483,7 +483,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Storm Damage Repair FAQs - Midland, TX Look Like?
+              Storm Damage Repair FAQs - Midland, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem

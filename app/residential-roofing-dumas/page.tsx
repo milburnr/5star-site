@@ -306,7 +306,7 @@ export default function ResidentialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Our Comprehensive Residential Roofing Services Include?
+              Our Comprehensive Residential Roofing Services
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -624,7 +624,7 @@ export default function ResidentialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Storm Damage Roofing Services in Dumas Look Like?
+              Storm Damage Roofing Services in Dumas
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">

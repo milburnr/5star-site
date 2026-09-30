@@ -270,7 +270,7 @@ export default function StormDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Dumas's Storm Damage Repair Specialists Look Like?
+              Dumas's Storm Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Dumas, the Moore County seat, faces extreme Panhandle weather as a major agricultural

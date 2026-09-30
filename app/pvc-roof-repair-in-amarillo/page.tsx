@@ -156,7 +156,7 @@ export default function Page() {
       <aside className="container-custom mt-6 mb-8">
         <div className="max-w-5xl mx-auto bg-white border-l-4 border-brand-brown rounded-r-2xl p-5 text-sm text-gray-700">
           <p className="font-semibold text-brand-brown mb-1">Related on this site</p>
-          <p>For the next step, see <a href="/flat-roof-repair/" className="text-brand-brown font-semibold hover:text-brand-gold underline">flat roof repair</a> or <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold underline">commercial roofing services</a>.</p>
+          <p>For the next step, see <a href="/commercial-flat-roof-repair/" className="text-brand-brown font-semibold hover:text-brand-gold underline">flat roof repair</a> or <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold underline">commercial roofing services</a>.</p>
         </div>
       </aside>
       {/* /auto-link */}

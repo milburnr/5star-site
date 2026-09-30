@@ -409,7 +409,7 @@ export default function RoofRepairLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">
-              What Does Lubbock Roofing Investment Guide Involve?
+              Lubbock Roofing Investment Guide
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-6">
@@ -713,7 +713,7 @@ export default function RoofRepairLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does University District Maintenance Strategies Include?
+              University District Maintenance Strategies
             </h2>
             <p className="text-lg text-gray-700 mb-8">
               Specialized approaches for the unique challenges of properties near Texas Tech

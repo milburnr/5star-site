@@ -254,7 +254,7 @@ export default function RoofInspectionsAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Amarillo's Comprehensive Roof Inspection Experts Involve?
+              Amarillo's Comprehensive Roof Inspection Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Professional roof inspections throughout Amarillo and surrounding areas. We understand
@@ -384,7 +384,7 @@ export default function RoofInspectionsAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Insurance Requirements for Amarillo Roof Inspections Involve?
+              Insurance Requirements for Amarillo Roof Inspections
             </h2>
             <div className="bg-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">
@@ -444,7 +444,7 @@ export default function RoofInspectionsAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Optimal Timing for Roof Inspections in Amarillo Involve?
+              Optimal Timing for Roof Inspections in Amarillo
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -577,7 +577,7 @@ export default function RoofInspectionsAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Advanced Inspection Technology We Use Involve?
+              Advanced Inspection Technology We Use
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -1115,6 +1115,15 @@ export default function RoofInspectionsAmarilloPage() {
             </a>
           </div>
         </section>
+        <aside className="max-w-5xl mx-auto mt-10 mb-4 bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <p className="text-gray-700 leading-relaxed">
+            Choosing who to call? Our guide to{" "}
+            <a href="/blog/roof-inspection-near-me-amarillo/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+              finding a roof inspection near you in Amarillo
+            </a>{" "}
+            covers what a real inspection includes, when you need one, and how to read the results.
+          </p>
+        </aside>
         <RelatedArticles pageSlug="roof-inspections-amarillo" />
       </div>
     </>

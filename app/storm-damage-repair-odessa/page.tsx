@@ -240,7 +240,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Odessa Storm Damage Specialists: Ector County Weather Experts Look Like?
+              Odessa Storm Damage Specialists: Ector County Weather Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               <strong>Ector County Storm Profile:</strong> Odessa sits in the heart of the Permian
@@ -362,7 +362,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Storm Damage Types Specific to Ector County Look Like?
+              Storm Damage Types Specific to Ector County
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-yellow-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-600">
@@ -488,7 +488,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Storm Damage Repair FAQs - Odessa, TX Look Like?
+              Storm Damage Repair FAQs - Odessa, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem

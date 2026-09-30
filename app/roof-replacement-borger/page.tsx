@@ -329,7 +329,7 @@ export default function RoofReplacementBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Borger Roof Replacement Value Analysis 2025 Include?
+              Borger Roof Replacement Value Analysis 2025
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Strategic investment guidance for Borger property owners looking to maximize value in
@@ -419,7 +419,7 @@ export default function RoofReplacementBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Roofing Materials Engineered for Panhandle Extremes Involve?
+              Roofing Materials Engineered for Panhandle Extremes
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Borger's location in the Texas Panhandle demands roofing materials capable of

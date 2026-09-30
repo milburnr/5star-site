@@ -357,7 +357,7 @@ export default function TPORoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Amarillo Commercial Roofing Applications Involve?
+              Amarillo Commercial Roofing Applications
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>

@@ -241,7 +241,7 @@ export default function RoofRepairOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Odessa's Premier Roof Repair Service Involve?
+              Odessa's Premier Roof Repair Service
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Professional roof repair specialists serving Odessa's unique environmental challenges.
@@ -267,7 +267,7 @@ export default function RoofRepairOdessaPage() {
         <FadeIn>
           <section className="mb-16 bg-orange-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Our Comprehensive Roof Repair Services for Odessa Include?
+              Our Comprehensive Roof Repair Services for Odessa
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -381,7 +381,7 @@ export default function RoofRepairOdessaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Odessa-Specific Repair Techniques and Materials Involve?
+              Odessa-Specific Repair Techniques and Materials
             </h2>
             <div className="bg-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">
@@ -443,7 +443,7 @@ export default function RoofRepairOdessaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Repair Process and Project Management Involve?
+              Repair Process and Project Management
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -705,7 +705,7 @@ export default function RoofRepairOdessaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Repair Cost Guide for Odessa Properties Involve?
+              Repair Cost Guide for Odessa Properties
             </h2>
             <div className="bg-gray-50 p-8 rounded-2xl">
               <div className="grid md:grid-cols-3 gap-8">

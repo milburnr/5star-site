@@ -504,7 +504,7 @@ export default function AsphaltShingleRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Asphalt Shingle Roofing FAQs - Canyon, TX Include?
+              Asphalt Shingle Roofing FAQs - Canyon, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

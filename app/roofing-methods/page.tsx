@@ -108,6 +108,8 @@ export default function Page() {
           <ul className="grid sm:grid-cols-2 gap-2 list-disc list-inside text-sm">
             <li><a href="/amarillo-weather-impact-on-roofing/" className="text-brand-brown hover:text-brand-gold underline">Amarillo weather impact</a></li>
             <li><a href="/amarillo-homes-roofing-services/" className="text-brand-brown hover:text-brand-gold underline">Amarillo home roofing</a></li>
+            <li><a href="/blog/best-roofing-materials-texas-2025/" className="text-brand-brown hover:text-brand-gold underline">Best roofing materials for the Texas climate</a></li>
+            <li><a href="/blog/roof-maintenance-checklist-texas/" className="text-brand-brown hover:text-brand-gold underline">Texas roof maintenance checklist</a></li>
           </ul>
         </div>
       </aside>

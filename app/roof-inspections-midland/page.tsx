@@ -253,7 +253,7 @@ export default function RoofInspectionsMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Permian Basin's Premier Roof Inspection Experts Involve?
+              Permian Basin's Premier Roof Inspection Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Professional roof inspections serving Midland, the heart of America's most productive
@@ -462,7 +462,7 @@ export default function RoofInspectionsMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Optimal Inspection Scheduling for Permian Basin Conditions Involve?
+              Optimal Inspection Scheduling for Permian Basin Conditions
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

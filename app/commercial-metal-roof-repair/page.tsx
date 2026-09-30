@@ -76,7 +76,7 @@ export default function CommercialMetalRoofRepairPage() {
             isRelatedTo: {
               "@type": "Service",
               name: "Commercial Metal Roofing",
-              url: "https://5starroofingpros.com/commercial-metal-roofing/",
+              url: "https://5starroofingpros.com/metal-roofing/",
             },
           }),
         }}
@@ -151,7 +151,7 @@ export default function CommercialMetalRoofRepairPage() {
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-8-1920w.webp"
         breadcrumbItems={[
           { name: "Home", url: "/" },
-          { name: "Commercial Metal Roofing", url: "/commercial-metal-roofing/" },
+          { name: "Commercial Metal Roofing", url: "/metal-roofing/" },
           { name: "Metal Roof Repair", url: "/commercial-metal-roof-repair/" },
         ]}
       />
@@ -501,7 +501,7 @@ export default function CommercialMetalRoofRepairPage() {
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Repair is the entry point to a larger set of metal services. Our{" "}
-              <a href="/commercial-metal-roofing/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+              <a href="/metal-roofing/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
                 commercial metal roofing
               </a>{" "}
               page covers the whole range (panel systems, re-fastening, retrofits and new

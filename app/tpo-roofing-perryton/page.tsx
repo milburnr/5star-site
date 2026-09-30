@@ -343,7 +343,7 @@ export default function TpoRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Grain Facility TPO Installation Considerations Involve?
+              Grain Facility TPO Installation Considerations
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -518,7 +518,7 @@ export default function TpoRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does TPO Roofing FAQs - Perryton, TX Involve?
+              TPO Roofing FAQs - Perryton, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

@@ -263,7 +263,7 @@ export default function MetalRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Oil & Gas Industry Metal Roofing for Pampa Involve?
+              Oil & Gas Industry Metal Roofing for Pampa
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -451,7 +451,7 @@ export default function MetalRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Metal Roofing FAQs - Pampa, TX Involve?
+              Metal Roofing FAQs - Pampa, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

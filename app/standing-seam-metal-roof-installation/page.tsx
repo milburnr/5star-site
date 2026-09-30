@@ -76,7 +76,7 @@ export default function StandingSeamMetalRoofInstallationPage() {
             isRelatedTo: {
               "@type": "Service",
               name: "Commercial Metal Roofing",
-              url: "https://5starroofingpros.com/commercial-metal-roofing/",
+              url: "https://5starroofingpros.com/metal-roofing/",
             },
           }),
         }}
@@ -151,7 +151,7 @@ export default function StandingSeamMetalRoofInstallationPage() {
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-1920w.webp"
         breadcrumbItems={[
           { name: "Home", url: "/" },
-          { name: "Commercial Metal Roofing", url: "/commercial-metal-roofing/" },
+          { name: "Commercial Metal Roofing", url: "/metal-roofing/" },
           { name: "Standing Seam Installation", url: "/standing-seam-metal-roof-installation/" },
         ]}
       />
@@ -261,7 +261,11 @@ export default function StandingSeamMetalRoofInstallationPage() {
               Longer runs mean fewer laps, which is good, and more accumulated movement, which has to
               be engineered for. On roll-formed panels the length is a choice we make with you rather
               than one the truck makes for us. Get it right and nothing about it is ever visible.
-              Get it wrong and the roof tells you: oil-canning across the flats, clips deforming,
+              Get it wrong and the roof tells you:{" "}
+              <a href="/blog/what-is-oil-canning/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                oil-canning
+              </a>{" "}
+              across the flats, clips deforming,
               seams under permanent tension, and fasteners working at the details that were
               supposed to stay still.
             </p>
@@ -429,7 +433,7 @@ export default function StandingSeamMetalRoofInstallationPage() {
               This page covers installing a new standing seam system. Repairing an existing metal
               roof, and going over one with new panels rather than tearing it off, are separate jobs
               with separate decisions. Our{" "}
-              <a href="/commercial-metal-roofing/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+              <a href="/metal-roofing/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
                 commercial metal roofing
               </a>{" "}
               page sets out the full set side by side. Start there if you have not settled on new

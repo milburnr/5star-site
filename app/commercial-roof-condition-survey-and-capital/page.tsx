@@ -205,8 +205,11 @@ export default function CommercialRoofConditionSurveyCapitalPage() {
               Who Actually Needs One
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              If you own one building and one roof, this is probably not your document. Book a free
-              inspection instead. A survey earns its cost when there is more than one roof, more
+              If you own one building and one roof, this is probably not your document. Book a free{" "}
+              <a href="/commercial-roof-inspection/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                commercial roof inspection
+              </a>{" "}
+              instead. A survey earns its cost when there is more than one roof, more
               than one budget year, or somebody other than you who has to be convinced.
             </p>
 

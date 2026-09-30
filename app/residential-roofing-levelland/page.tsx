@@ -285,7 +285,7 @@ export default function ResidentialRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Our Comprehensive Roofing Services for Levelland Properties Include?
+              Our Comprehensive Roofing Services for Levelland Properties
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -615,7 +615,7 @@ export default function ResidentialRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Student Housing & Rental Property Roofing Involve?
+              Student Housing & Rental Property Roofing
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">

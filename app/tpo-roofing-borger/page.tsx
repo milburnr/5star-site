@@ -342,7 +342,7 @@ export default function TpoRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does TPO Installation Process for Borger Commercial Properties Involve?
+              TPO Installation Process for Borger Commercial Properties
             </h2>
             <div className="grid md:grid-cols-1 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -483,7 +483,7 @@ export default function TpoRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does TPO Maintenance for Borger Commercial Properties Involve?
+              TPO Maintenance for Borger Commercial Properties
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
@@ -560,7 +560,7 @@ export default function TpoRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does TPO Roofing FAQs - Borger, TX Involve?
+              TPO Roofing FAQs - Borger, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

@@ -435,7 +435,7 @@ export default function RoofRepairMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">
-              What Does Midland Oil Economy Roofing Costs Involve?
+              Midland Oil Economy Roofing Costs
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-6">
@@ -983,7 +983,7 @@ export default function RoofRepairMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">
-              What Does Oil Boom vs Bust Cycle Roofing Strategy Involve?
+              Oil Boom vs Bust Cycle Roofing Strategy
             </h2>
             <p className="text-lg text-gray-700 mb-8 text-center">
               Strategic timing and planning considerations for roofing projects based on Midland's

@@ -222,7 +222,7 @@ export default function StormDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Monahans's Storm Damage Repair Specialists Look Like?
+              Monahans's Storm Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Monahans's location in Ward County creates unique roofing challenges. The Permian
@@ -467,7 +467,7 @@ export default function StormDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Permian Basin Storm Damage Solutions Look Like?
+              Permian Basin Storm Damage Solutions
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">

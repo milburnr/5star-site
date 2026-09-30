@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-bushland/" },
   title: "Hail Damage Roof Repair Bushland TX | 5 Star Roofing",
   description:
-    "Hail damage roof repair in Bushland, TX. Free storm inspections, insurance claim help, fast response from Amarillo. Call 5 Star Roofing after the next Panhandle hailstorm.",
+    "Hail damage roof repair in Bushland, TX. Free storm inspections and insurance claim help from our Amarillo office. Call 5 Star Roofing after the next Panhandle hailstorm.",
   openGraph: {
     title: "Hail Damage Roof Repair Bushland TX | 5 Star Roofing",
     description:
-      "Hail damage roof repair in Bushland, TX. Free storm inspections, insurance claim help, fast response from Amarillo. Call 5 Star Roofing after the next Panhandle hailstorm.",
+      "Hail damage roof repair in Bushland, TX. Free storm inspections and insurance claim help from our Amarillo office. Call 5 Star Roofing after the next Panhandle hailstorm.",
     url: "https://5starroofingpros.com/hail-damage-repair-bushland/",
     siteName: "5 Star Roofing",
     images: [
@@ -228,8 +228,8 @@ export default function HailDamageRepairBushlandPage() {
               Under the Texas Prompt Payment Act, your insurer must acknowledge a claim within 15
               days and either pay or deny it within 60 days. Late payments accrue 18% annual
               interest. You have a two-year window from the date of loss to file. The sooner a
-              professional documents the damage, the stronger your position — don't wait for a leak
-              to prove there was hail.
+              professional documents the damage, the stronger your position. A leak is not the only proof
+              that there was hail.
             </p>
             <div className="grid sm:grid-cols-2 gap-3">
               {[

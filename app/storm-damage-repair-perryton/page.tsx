@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-perryton/" },
   title: "Storm Damage Roof Repair Perryton TX | 5 Star Roofing",
   description:
-    "Storm Damage Repair in Perryton, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+    "Storm Damage Repair in Perryton, TX. Free inspections and insurance claim help. Call 5 Star Roofing for a free quote today!",
   openGraph: {
     title: "Storm Damage Roof Repair Perryton TX | 5 Star Roofing",
     description:
-      "Storm Damage Repair in Perryton, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "Storm Damage Repair in Perryton, TX. Free inspections and insurance claim help. Call 5 Star Roofing for a free quote today!",
     url: "https://5starroofingpros.com/storm-damage-repair-perryton/",
     siteName: "5 Star Roofing",
     images: [
@@ -197,7 +197,7 @@ export default function StormDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Perryton's Storm Damage Repair Experts Look Like?
+              Perryton's Storm Damage Repair Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               As the northernmost city in the Texas Panhandle, Perryton experiences severe
@@ -544,7 +544,7 @@ export default function StormDamageRepairPerrytonPage() {
               href="tel:8066226041"
               className="bg-red-600 hover:bg-red-700 text-white px-10 py-5 rounded-full font-bold hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
             >
-              urgent: (806) 622-6041
+              Call (806) 622-6041
             </a>
             <a
               href="/contact/"

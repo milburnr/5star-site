@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-amarillo/" },
   title: "Residential Roofing Amarillo TX | 5 Star Roofing",
   description:
-    "Residential Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+    "Residential Roofing in Amarillo, TX. Free inspections and insurance claim help. Call 5 Star Roofing for a free quote today!",
   openGraph: {
     title: "Residential Roofing Amarillo TX | 5 Star Roofing",
     description:
-      "Residential Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "Residential Roofing in Amarillo, TX. Free inspections and insurance claim help. Call 5 Star Roofing for a free quote today!",
     url: "https://5starroofingpros.com/residential-roofing-amarillo/",
     siteName: "5 Star Roofing",
     images: [
@@ -267,7 +267,7 @@ export default function ResidentialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Amarillo's Residential Roofing Experts Involve?
+              Amarillo's Residential Roofing Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Living in the Texas Panhandle means your home faces some of America's most severe

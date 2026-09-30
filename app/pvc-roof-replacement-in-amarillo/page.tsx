@@ -424,9 +424,9 @@ export default function Page() {
             href="/commercial-roofing/"
             className="text-brand-brown hover:text-brand-gold underline"
           >
-            commercial roof replacement
-          </a>
-          s qualify for insurance coverage if storm damage is documented. We handle all insurance
+            commercial roof replacements
+          </a>{" "}
+          qualify for insurance coverage if storm damage is documented. We handle all insurance
           paperwork.
         </p>
       </div>

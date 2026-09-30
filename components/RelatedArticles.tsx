@@ -7,6 +7,19 @@ interface Props {
   heading?: string;
 }
 
+// Service-area city slugs. A page about one city should not recommend a guide
+// written for a different one (e.g. a Bushland article on a Midland repair page).
+const CITY_SLUGS = [
+  "amarillo", "andrews", "big-spring", "borger", "bushland", "canyon", "dumas",
+  "hereford", "levelland", "lubbock", "midland", "monahans", "odessa", "pampa",
+  "perryton", "plainview", "snyder",
+];
+
+function pageCity(slug: string): string | undefined {
+  const s = `-${slug.toLowerCase()}-`;
+  return CITY_SLUGS.find((c) => s.includes(`-${c}-`));
+}
+
 function tokenize(slug: string): string[] {
   return slug
     .toLowerCase()
@@ -20,10 +33,11 @@ export default function RelatedArticles({
   limit = 4,
   heading = "Related Reading",
 }: Props) {
-  const articles = getAllArticles();
+  const articles = getAllArticles().filter((a) => !a.frontmatter.noindex);
   if (!articles.length) return null;
 
   const tokens = tokenize(pageSlug);
+  const city = pageCity(pageSlug);
 
   const scored = articles.map((a) => {
     const fm = a.frontmatter;
@@ -41,6 +55,7 @@ export default function RelatedArticles({
     for (const t of tokens) {
       if (haystack.includes(t)) score += 1;
     }
+    if (city && fm.city && fm.city.toLowerCase().replace(/\s+/g, "-") !== city) score -= 2;
     return { article: a, score };
   });
 

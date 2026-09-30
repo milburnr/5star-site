@@ -244,7 +244,7 @@ export default function CommercialRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does commercial roofing for Levelland's Key Industries Involve?
+              commercial roofing for Levelland's Key Industries
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-green-500">

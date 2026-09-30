@@ -191,7 +191,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Expert Storm Damage Repair for Lubbock, South Plains Look Like?
+              Expert Storm Damage Repair for Lubbock, South Plains
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Lubbock's location in the South Plains creates unique roofing challenges. The area

@@ -276,7 +276,7 @@ export default function RoofReplacementLubbockPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-10 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Lubbock Housing Market & Roof Replacement Considerations Involve?
+              Lubbock Housing Market & Roof Replacement Considerations
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -349,7 +349,7 @@ export default function RoofReplacementLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              What Does Complete Roof Replacement Solutions for Lubbock Involve?
+              Complete Roof Replacement Solutions for Lubbock
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -413,7 +413,7 @@ export default function RoofReplacementLubbockPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-10 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Roofing Materials Engineered for Lubbock's Climate Involve?
+              Roofing Materials Engineered for Lubbock's Climate
             </h2>
 
             <div className="grid lg:grid-cols-2 gap-8">

@@ -166,8 +166,8 @@ export default function HerefordRoofingPage() {
               5 Star Roofing provides full roofing services in Hereford TX — residential and commercial repairs, roof replacement, agricultural metal roofing, and hail damage documentation for Deaf Smith County properties.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
-              <a href="/roof-replacement-hereford/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
-              <a href="/commercial-roofing-hereford/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+              <a href="/roof-replacement/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+              <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
               <a href="/hail-damage-repair-hereford/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
               <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Roofing</a>
             </div>
@@ -243,11 +243,11 @@ export default function HerefordRoofingPage() {
             {services.map((service) => (
               <a
                 key={service.slug}
-                href={`/${service.slug}-hereford/`}
+                href={service.slug === "hail-damage-repair" ? `/hail-damage-repair-hereford/` : `/${service.slug}/`}
                 className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow border border-gray-100 hover:border-brand-gold/40"
               >
                 <div className="text-2xl mb-2">{service.icon}</div>
-                <span className="font-semibold text-brand-brown">{service.name} in Hereford</span>
+                <span className="font-semibold text-brand-brown">{service.slug === "hail-damage-repair" ? `${service.name} in Hereford` : service.name}</span>
               </a>
             ))}
           </div>
@@ -541,21 +541,21 @@ export default function HerefordRoofingPage() {
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/canyon-tx-roofing/"
+                href="/canyon-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Canyon
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/dumas-tx-roofing/"
+                href="/dumas-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Dumas
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/plainview-tx-roofing/"
+                href="/plainview-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Plainview

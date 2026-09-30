@@ -247,7 +247,7 @@ export default function ResidentialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Midland's Premier Residential Roofing Experts Involve?
+              Midland's Premier Residential Roofing Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               In the heart of the Permian Basin oil fields, Midland represents Texas energy

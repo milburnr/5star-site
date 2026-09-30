@@ -464,7 +464,7 @@ export default function RoofRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-amber-50 p-8 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Our Comprehensive West Texas Weather Analysis Include?
+              Our Comprehensive West Texas Weather Analysis
             </h2>
             <p className="text-lg text-gray-700 mb-8">
               Understanding Snyder's position in the convergence zone where different air masses
@@ -854,7 +854,7 @@ export default function RoofRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Scurry County Roofing Investment Analysis Include?
+              Scurry County Roofing Investment Analysis
             </h2>
             <p className="text-lg text-gray-700 mb-8">
               Understanding costs and value in the context of agricultural operations and West Texas

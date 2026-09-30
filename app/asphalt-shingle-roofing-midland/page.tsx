@@ -234,7 +234,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Roofing Challenges in America's Oil Capital Involve?
+              Roofing Challenges in America's Oil Capital
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -659,7 +659,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">
-              What Does Maintenance in the Permian Basin Environment Involve?
+              Maintenance in the Permian Basin Environment
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">

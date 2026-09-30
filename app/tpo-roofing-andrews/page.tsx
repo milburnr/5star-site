@@ -289,7 +289,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does TPO Roofing Excellence for Andrews Commercial Properties Involve?
+              TPO Roofing Excellence for Andrews Commercial Properties
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div>
@@ -366,7 +366,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Commercial TPO roof system for Andrews Involve?
+              Commercial TPO roof system for Andrews
             </h2>
 
             <div className="space-y-8">
@@ -680,7 +680,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Commercial Maintenance & Building Protection Involve?
+              Commercial Maintenance & Building Protection
             </h2>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">

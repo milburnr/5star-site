@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FadeIn } from "./FadeIn";
 import { Breadcrumb } from "./Breadcrumb";
 import { ArticleImage } from "./ArticleImage";
-import type { Article } from "@/lib/articles";
+import { getRelatedArticles, type Article } from "@/lib/articles";
 
 interface Props {
   article: Article;
@@ -34,6 +34,7 @@ function formatDate(iso: string): string {
 export function ArticleLayout({ article, children }: Props) {
   const { frontmatter, readingTimeMinutes } = article;
   const formattedDate = formatDate(frontmatter.date);
+  const related = getRelatedArticles(frontmatter.slug);
 
   const breadcrumbItems = [
     { name: "Home", url: "/" },
@@ -158,6 +159,28 @@ export function ArticleLayout({ article, children }: Props) {
                     </div>
                   ))}
                 </div>
+              </section>
+            </FadeIn>
+          )}
+
+          {related.length > 0 && (
+            <FadeIn>
+              <section className="mt-16" aria-labelledby="related-heading">
+                <h2 id="related-heading" className="text-2xl font-bold text-gray-primary mb-4">
+                  Related Guides
+                </h2>
+                <ul className="grid sm:grid-cols-2 gap-3">
+                  {related.map((r) => (
+                    <li key={r.frontmatter.slug}>
+                      <Link
+                        href={`/blog/${r.frontmatter.slug}/`}
+                        className="block h-full rounded-lg border border-gray-200 p-4 hover:border-brand-gold transition"
+                      >
+                        <span className="font-semibold text-brand-brown">{r.frontmatter.title}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </section>
             </FadeIn>
           )}

@@ -269,7 +269,7 @@ export default function CommercialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Commercial Roofing Systems for Lubbock Involve?
+              Commercial Roofing Systems for Lubbock
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
@@ -607,7 +607,7 @@ export default function CommercialRoofingLubbockPage() {
                   href="tel:8066226041"
                   className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300"
                 >
-                  urgent: (806) 622-6041
+                  Call (806) 622-6041
                 </a>
               </div>
             </div>

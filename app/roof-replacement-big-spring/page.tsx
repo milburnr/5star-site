@@ -312,7 +312,7 @@ export default function RoofReplacementBigSpringPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Big Spring Roof Replacement Investment Guide 2025 Involve?
+              Big Spring Roof Replacement Investment Guide 2025
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Comprehensive pricing analysis for Big Spring's diverse housing stock, from historic
@@ -397,7 +397,7 @@ export default function RoofReplacementBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Roofing Materials Optimized for Big Spring Climate Involve?
+              Roofing Materials Optimized for Big Spring Climate
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Material selection for Big Spring must account for severe weather patterns, historic

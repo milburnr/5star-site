@@ -248,6 +248,14 @@ export default async function Page() {
               >
                 View all roofing services
               </a>
+              . Own a business or rental property? See our{" "}
+              <a
+                href="/commercial-roofing-amarillo/"
+                className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium underline"
+              >
+                commercial roofing in Amarillo
+              </a>{" "}
+              page for repair, replacement, and maintenance on flat and metal roofs.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -527,7 +535,7 @@ export default async function Page() {
                   </a>{" "}
                   and{" "}
                   <a
-                    href="/commercial-roofing/"
+                    href="/commercial-roofing-amarillo/"
                     className="text-brand-brown hover:text-brand-gold underline"
                   >
                     commercial roofing
@@ -861,10 +869,10 @@ export default async function Page() {
                   <li>Low maintenance</li>
                 </ul>
                 <a
-                  href="/commercial-roofing/"
+                  href="/tpo-roofing-amarillo/"
                   className="text-brand-brown font-semibold hover:text-brand-gold hover:underline"
                 >
-                  TPO commercial systems →
+                  TPO roofing in Amarillo →
                 </a>
               </div>
 

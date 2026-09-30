@@ -313,7 +313,7 @@ export default function RoofReplacementAndrewsPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Andrews Roof Replacement Cost Guide 2025 Involve?
+              Andrews Roof Replacement Cost Guide 2025
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Understanding replacement costs helps Andrews homeowners make informed decisions about
@@ -398,7 +398,7 @@ export default function RoofReplacementAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Roofing Materials Engineered for Andrews Climate Involve?
+              Roofing Materials Engineered for Andrews Climate
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               West Texas demands roofing materials that can withstand extreme weather while

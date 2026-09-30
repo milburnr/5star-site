@@ -214,7 +214,7 @@ export function InternalLinks({ currentCity, currentService }: InternalLinksProp
                   d="M7 16l-4-4m0 0l4-4m-4 4h18"
                 />
               </svg>
-              All Roofing Services in {cityInfo.name}
+              {cityInfo.name} Roofing Contractor
             </a>
           )}
         </div>
@@ -293,7 +293,7 @@ export function InternalLinks({ currentCity, currentService }: InternalLinksProp
                     />
                   </svg>
                   <span className="font-semibold text-brand-brown">
-                    {serviceData[serviceSlug]?.name}
+                    {serviceData[serviceSlug]?.name} in {cityInfo.name}
                   </span>
                 </a>
               ))}

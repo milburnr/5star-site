@@ -515,7 +515,7 @@ export default function RoofInspectionsBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Big Spring Weather Patterns & Roofing Challenges Involve?
+              Big Spring Weather Patterns & Roofing Challenges
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">

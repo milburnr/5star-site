@@ -409,7 +409,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Big Spring Installation Excellence Involve?
+              Big Spring Installation Excellence
             </h2>
 
             <div className="space-y-8">

@@ -534,21 +534,21 @@ export default function BorgerRoofingPage() {
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/pampa-tx-roofing/"
+                href="/pampa-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Pampa
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/dumas-tx-roofing/"
+                href="/dumas-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Dumas
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/canyon-tx-roofing/"
+                href="/canyon-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Canyon

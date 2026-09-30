@@ -168,7 +168,7 @@ export default function Page() {
                 className="text-brand-brown hover:text-brand-gold underline font-semibold"
               >
                 hail damage repair
-              </a>
+              </a>{" "}
               and storm damage restoration throughout{" "}
               <a
                 href="/amarillo-tx-roofing/"

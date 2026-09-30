@@ -302,7 +302,7 @@ export default function TPORoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Complete TPO Roofing Services Involve?
+              Complete TPO Roofing Services
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
@@ -581,7 +581,7 @@ export default function TPORoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does TPO Roofing Investment Analysis for Big Spring Include?
+              TPO Roofing Investment Analysis for Big Spring
             </h2>
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">

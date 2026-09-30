@@ -34,12 +34,12 @@ import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/tpo-roofing-midland/" },
-  title: "TPO Roofing Midland TX | 5 Star Roofing",
-  description: "Professional tpo roofing in Midland TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041 Class 4 hail-rated systems available.",
+  title: "TPO Roofing Contractor Midland TX | 5 Star Roofing",
+  description: "TPO roofing contractor in Midland, TX: white single-ply membrane installs, re-roofs and repairs for Permian Basin commercial buildings. Free inspections. Call (806) 622-6041.",
   openGraph: {
-    title: "TPO Roofing Midland TX | 5 Star Roofing",
+    title: "TPO Roofing Contractor Midland TX | 5 Star Roofing",
     description:
-      "Professional tpo roofing in Midland TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
+      "TPO roofing contractor in Midland, TX: white single-ply membrane installs, re-roofs and repairs for Permian Basin commercial buildings. Free inspections. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/tpo-roofing-midland/",
     siteName: "5 Star Roofing",
     images: [
@@ -302,7 +302,7 @@ export default function TPORoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does TPO Roofing Engineered for Midland's Demands Involve?
+              TPO Roofing Engineered for Midland's Demands
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
@@ -457,7 +457,7 @@ export default function TPORoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Specialized TPO Installation for Energy Industry Involve?
+              Specialized TPO Installation for Energy Industry
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg text-center">

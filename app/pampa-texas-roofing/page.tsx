@@ -527,21 +527,21 @@ export default function PampaRoofingPage() {
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/canyon-tx-roofing/"
+                href="/canyon-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Canyon
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/borger-tx-roofing/"
+                href="/borger-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Borger
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/dumas-tx-roofing/"
+                href="/dumas-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Dumas

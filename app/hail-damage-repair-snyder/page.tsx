@@ -218,7 +218,7 @@ export default function HailDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Snyder's Hail Damage Repair Specialists Look Like?
+              Snyder's Hail Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Professional hail damage repair throughout Snyder and surrounding areas. We understand
@@ -345,7 +345,7 @@ export default function HailDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Types of Hail Damage in Snyder Properties Look Like?
+              Types of Hail Damage in Snyder Properties
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">
@@ -491,7 +491,7 @@ export default function HailDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Impact-Resistant Roofing Upgrades Include?
+              Impact-Resistant Roofing Upgrades
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">

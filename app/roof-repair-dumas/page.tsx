@@ -16,13 +16,13 @@ import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair-dumas/" },
-  title: "Roof Repair Dumas TX | 5 Star Roofing",
+  title: "Roof Repair Dumas TX | Storm, Hail & Metal Roofs | 5 Star Roofing",
   description:
-    "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    "Roof repair in Dumas, TX: storm and hail damage, leaks, and metal roof restoration on homes and commercial buildings. Free inspections and claim help. Call (806) 622-6041.",
   openGraph: {
-    title: "Roof Repair Dumas TX | 5 Star Roofing",
+    title: "Roof Repair Dumas TX | Storm, Hail & Metal Roofs | 5 Star Roofing",
     description:
-      "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "Roof repair in Dumas, TX: storm and hail damage, leaks, and metal roof restoration on homes and commercial buildings. Free inspections and claim help. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/roof-repair-dumas/",
     siteName: "5 Star Roofing",
     images: [
@@ -143,7 +143,7 @@ export default function RoofRepairDumasPage() {
               },
             },
             description:
-              "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+              "Roof repair in Dumas, TX: storm and hail damage, leaks, and metal roof restoration on homes and commercial buildings. Free inspections and claim help. Call (806) 622-6041.",
           }),
         }}
       />
@@ -360,7 +360,7 @@ export default function RoofRepairDumasPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Dumas Roof Repair Services We Provide Involve?
+              Dumas Roof Repair Services We Provide
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">

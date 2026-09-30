@@ -264,8 +264,7 @@ export default function RoofInspectionsSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Our Comprehensive Roof Inspection Services for West Texas Properties
-              Include?
+              Our Comprehensive Roof Inspection Services for West Texas Properties
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -325,7 +324,7 @@ export default function RoofInspectionsSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Advanced Inspection Technology Involve?
+              Advanced Inspection Technology
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">

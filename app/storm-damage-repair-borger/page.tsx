@@ -270,7 +270,7 @@ export default function StormDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Borger's Storm Damage Repair Specialists Look Like?
+              Borger's Storm Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Borger's location in the Texas Panhandle creates unique roofing challenges. This
@@ -337,7 +337,7 @@ export default function StormDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Storm Damage Timeline for Borger Properties Look Like?
+              Storm Damage Timeline for Borger Properties
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">

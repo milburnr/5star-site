@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-amarillo/" },
   title: "Wind Damage Repair Amarillo TX | 5 Star Roofing",
   description:
-    "Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+    "Wind damage roof repair in Amarillo, TX: lifted shingles, torn membrane and loose metal panels repaired and documented for your claim. Free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Wind Damage Repair Amarillo TX | 5 Star Roofing",
     description:
-      "Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "Wind damage roof repair in Amarillo, TX: lifted shingles, torn membrane and loose metal panels repaired and documented for your claim. Free inspections. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/wind-damage-repair-amarillo/",
     siteName: "5 Star Roofing",
     images: [
@@ -603,7 +603,7 @@ export default function WindDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Wind-Resistant Roofing Materials for Amarillo Include?
+              Wind-Resistant Roofing Materials for Amarillo
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">

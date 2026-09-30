@@ -204,7 +204,7 @@ export default function HailDamageRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Big Spring's Hail Damage Repair Specialists Look Like?
+              Big Spring's Hail Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Professional hail damage repair throughout Big Spring and surrounding areas. We
@@ -309,7 +309,7 @@ export default function HailDamageRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">
-              What Does Specialized Hail Damage Detection Look Like?
+              Specialized Hail Damage Detection
             </h2>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-brand-gold">
@@ -511,7 +511,7 @@ export default function HailDamageRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">
-              What Does Impact-Resistant roof system Include?
+              Impact-Resistant roof system
             </h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>

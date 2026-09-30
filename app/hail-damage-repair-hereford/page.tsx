@@ -714,7 +714,7 @@ export default function HailDamageRepairHerefordPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Hereford Hail Damage FAQs Look Like?
+              Hereford Hail Damage FAQs
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem

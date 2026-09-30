@@ -360,7 +360,7 @@ export default function RoofRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Perryton Roof Repair Services We Provide Involve?
+              Perryton Roof Repair Services We Provide
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">

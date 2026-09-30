@@ -355,7 +355,7 @@ export default function RoofReplacementCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Canyon Roof Replacement Investment Strategy 2025 Include?
+              Canyon Roof Replacement Investment Strategy 2025
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Tailored pricing for Canyon's diverse property types, from student housing to
@@ -446,7 +446,7 @@ export default function RoofReplacementCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Roofing Materials for Canyon's Academic Community Include?
+              Roofing Materials for Canyon's Academic Community
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Canyon sits on the southern edge of the Amarillo metro at the West Texas A&amp;M

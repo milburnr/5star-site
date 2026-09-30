@@ -64,3 +64,31 @@ export function getAllArticles(): Article[] {
       (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime(),
     );
 }
+
+// Related guides for the article footer. Tags are weighted by rarity: a shared
+// "Bushland" tag means far more than a shared "materials" tag that half the
+// guides carry. Noindexed articles are never suggested.
+export function getRelatedArticles(slug: string, limit = 4): Article[] {
+  const self = getArticle(slug);
+  if (!self) return [];
+  const all = getAllArticles().filter((a) => !a.frontmatter.noindex);
+  const freq = new Map<string, number>();
+  for (const a of all) for (const t of a.frontmatter.tags ?? []) freq.set(t, (freq.get(t) ?? 0) + 1);
+  const tags = new Set(self.frontmatter.tags ?? []);
+  const { city, topic } = self.frontmatter;
+  return all
+    .filter((a) => a.frontmatter.slug !== slug)
+    .map((a) => {
+      const f = a.frontmatter;
+      let score = (f.tags ?? [])
+        .filter((t) => tags.has(t))
+        .reduce((sum, t) => sum + 1 / (freq.get(t) ?? 1), 0);
+      if (city && f.city === city) score += 0.5;
+      if (topic && f.topic === topic) score += 0.25;
+      return { a, score };
+    })
+    .filter((x) => x.score >= 0.2)
+    .sort((x, y) => y.score - x.score)
+    .slice(0, limit)
+    .map((x) => x.a);
+}

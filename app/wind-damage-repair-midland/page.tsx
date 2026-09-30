@@ -265,7 +265,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Understanding Permian Basin Wind Patterns and Roof Damage Involve?
+              How Does Permian Basin Wind Damage Midland Roofs?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Midland's location at 2,779 feet elevation in the Permian Basin creates a distinctive
@@ -276,6 +276,14 @@ export default function Page() {
               with peak intensity occurring during dry line thunderstorm development and cold front
               passages. The flat Permian Basin terrain allows wind systems to accelerate unimpeded
               across hundreds of square miles of open oilfield territory.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              This page covers wind damage specifically. If hail or heavy rain came with the storm,
+              our{" "}
+              <a href="/storm-damage-repair-midland/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                storm damage restoration in Midland
+              </a>{" "}
+              page covers the full repair and insurance process.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -651,7 +659,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Industrial-Grade Wind-Resistant Roofing for Midland Include?
+              Industrial-Grade Wind-Resistant Roofing for Midland
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">

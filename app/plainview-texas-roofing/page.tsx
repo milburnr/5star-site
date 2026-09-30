@@ -166,8 +166,8 @@ export default function PlainviewRoofingPage() {
               5 Star Roofing provides full roofing services in Plainview TX — residential and commercial repairs, roof replacement, and hail damage documentation for Hale County properties.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
-              <a href="/roof-replacement-plainview/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
-              <a href="/commercial-roofing-plainview/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+              <a href="/roof-replacement/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+              <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
               <a href="/hail-damage-repair-plainview/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
               <a href="/lubbock-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Lubbock Roofing</a>
             </div>
@@ -240,11 +240,11 @@ export default function PlainviewRoofingPage() {
             {services.map((service) => (
               <a
                 key={service.slug}
-                href={`/${service.slug}-plainview/`}
+                href={service.slug === "hail-damage-repair" ? `/hail-damage-repair-plainview/` : `/${service.slug}/`}
                 className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow border border-gray-100 hover:border-brand-gold/40"
               >
                 <div className="text-2xl mb-2">{service.icon}</div>
-                <span className="font-semibold text-brand-brown">{service.name} in Plainview</span>
+                <span className="font-semibold text-brand-brown">{service.slug === "hail-damage-repair" ? `${service.name} in Plainview` : service.name}</span>
               </a>
             ))}
           </div>
@@ -539,14 +539,14 @@ export default function PlainviewRoofingPage() {
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/canyon-tx-roofing/"
+                href="/canyon-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Canyon
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/hereford-tx-roofing/"
+                href="/hereford-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Hereford

@@ -307,7 +307,7 @@ export default function ResidentialRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Our Comprehensive Roofing Services for Top of Texas Include?
+              Our Comprehensive Roofing Services for Top of Texas
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">

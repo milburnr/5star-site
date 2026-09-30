@@ -16,13 +16,13 @@ import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-amarillo/" },
-  title: "Commercial Roofing Amarillo TX | 5 Star Roofing",
+  title: "Commercial Roofing Amarillo TX: Repair, Replacement & Metal Roofs",
   description:
-    "Commercial roofing in Amarillo, TX: TPO, metal & EPDM systems built for Panhandle hail and wind. Free inspections, insurance claim help, fast response. Call 5 Star Roofing today!",
+    "Commercial roofing contractor in Amarillo, TX: commercial roof repair, replacement and maintenance on TPO, metal and flat roofs. Free inspections. Call (806) 622-6041.",
   openGraph: {
-    title: "Commercial Roofing Amarillo TX | 5 Star Roofing",
+    title: "Commercial Roofing Amarillo TX: Repair, Replacement & Metal Roofs",
     description:
-      "Commercial roofing in Amarillo, TX: TPO, metal & EPDM systems built for Panhandle hail and wind. Free inspections, insurance claim help, fast response. Call 5 Star Roofing today!",
+      "Commercial roofing contractor in Amarillo, TX: commercial roof repair, replacement and maintenance on TPO, metal and flat roofs. Free inspections. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/commercial-roofing-amarillo/",
     siteName: "5 Star Roofing",
     images: [
@@ -155,7 +155,7 @@ export default function CommercialRoofingAmarilloPage() {
                 name: "How much does commercial roof replacement cost in Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Commercial roofing costs vary by building size, roof type, and complexity. Typical TPO installations range $4-$8 per square foot. Metal roofing runs $7-$12 per square foot. EPDM is most budget-friendly at $3-$6 per square foot. We provide free detailed estimates with transparent pricing and financing options for qualified businesses.",
+                  text: "It depends on building size, the roof system (TPO, EPDM, built-up or metal), the condition of the deck and insulation, and access. We price each building after a free inspection, which includes a core cut on flat and low-slope roofs, and give you a written, line-item estimate.",
                 },
               },
               {
@@ -171,7 +171,7 @@ export default function CommercialRoofingAmarilloPage() {
                 name: "What roofing permits are required in Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "All commercial roofing projects in Amarillo require permits per Section 105.1 of the 2015 International Residential Code. Contact the City of Amarillo Building Safety Department at (806) 378-3041 or building@amarillo.gov. We handle all permit applications and ensure your project meets Amarillo's code requirements including drip edge installation, proper ventilation, and wind resistance standards for 110-125 mph design wind speeds.",
+                  text: "Commercial reroofing in Amarillo needs a permit from the City of Amarillo Building Safety Department, (806) 378-3041 or building@amarillo.gov. We pull the permit and build to the code the city has adopted, including its wind-load requirements and the manufacturer's installation specs that keep the warranty valid.",
                 },
               },
               {
@@ -203,7 +203,7 @@ export default function CommercialRoofingAmarilloPage() {
                 name: "Should Amarillo commercial buildings use Class 4 impact-resistant roofing?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Highly recommended. While not mandated by Amarillo building codes, UL 2218 Class 4 roofing withstands 2-inch hailstones and provides maximum protection in Potter County's extreme hail environment. Many Texas insurers offer up to 25% premium discounts for Class 4 commercial roofing systems, offsetting the initial investment with long-term savings and superior durability.",
+                  text: "Highly recommended. While not mandated by Amarillo building codes, UL 2218 Class 4 roofing withstands 2-inch hailstones and provides maximum protection in Potter County's extreme hail environment. Some carriers offer premium credits for impact-resistant roofing, so ask yours before you choose a system.",
                 },
               },
             ],
@@ -216,7 +216,7 @@ export default function CommercialRoofingAmarilloPage() {
         citySlug="amarillo"
         city="Amarillo"
         service="Commercial Roofing"
-        h1="Commercial Roofing in Amarillo, TX"
+        h1="Commercial Roofing Contractor in Amarillo, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-8-1920w.webp"
       
       breadcrumbItems={[
@@ -232,9 +232,9 @@ export default function CommercialRoofingAmarilloPage() {
           <div className="max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-3">Quick Summary</p>
             <ul className="space-y-2 text-gray-800 font-medium leading-relaxed">
-              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: Commercial Roofing for homes and businesses in Amarillo, Texas.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>What this page covers: commercial roof repair, replacement, maintenance, and inspections for Amarillo business and property owners.</span></li>
               <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Local context: 5 Star Roofing has been headquartered in Amarillo since 2014 and serves Amarillo as part of its West Texas service area.</span></li>
-              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Materials and systems: standing seam metal, TPO, and PVC membranes engineered for the West Texas climate.</span></li>
+              <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Systems we work on: TPO, PVC, EPDM, built-up and modified bitumen, and metal (R-panel and standing seam).</span></li>
               <li className="flex gap-2"><span className="text-brand-gold flex-shrink-0">•</span><span>Next step: free inspections available. Call (806) 622-6041 to schedule, or use the contact form on this page.</span></li>
             </ul>
           </div>
@@ -259,21 +259,126 @@ export default function CommercialRoofingAmarilloPage() {
               businesses thousands per day in lost productivity.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              We specialize in minimizing disruption to your business. After-hours and weekend
-              installations keep your operations running. Our roofing team handles storm
-              damage and urgent leaks within hours. From small retail buildings along Historic Route
-              66 to large industrial facilities near Bell Helicopter, from Downtown Amarillo offices
-              to warehouses near the Amarillo Civic Center, we install TPO, EPDM, and metal roofing
-              systems with 15-25 year warranties backed by manufacturers and our workmanship
-              guarantee.
+              We plan the work around your business. After-hours and weekend installations keep
+              operations running, and storm damage gets documented for your carrier before any
+              repair starts. From small retail buildings along Historic Route 66 to industrial
+              facilities near Bell Helicopter, from Downtown Amarillo offices to warehouses near the
+              Amarillo Civic Center, we install TPO, EPDM, and metal roofing systems with
+              manufacturer warranties and our workmanship guarantee.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              Commercial Roofing Services in Amarillo
+            </h2>
+            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+              Every commercial job starts with a free inspection. On flat and low-slope roofs that
+              includes a core cut, so the estimate is based on what is actually under the membrane.
+              From there the work usually falls into one of these services:
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">Commercial Roof Repair</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Water through the ceiling? Our{" "}
+                  <a href="/commercial-roof-leak-repair/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    commercial roof leak repair
+                  </a>{" "}
+                  page covers how we trace a leak to its real source. Blisters, open seams, and
+                  failed flashing on membrane roofs are handled under{" "}
+                  <a href="/commercial-flat-roof-repair/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    commercial flat roof repair
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">Commercial Metal Roofing</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  R-panel and PBR roofs on pre-engineered buildings are covered on our{" "}
+                  <a href="/metal-building-and-r-panel-roofing/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    metal building and R-panel roofing
+                  </a>{" "}
+                  page. For leaks, loose fasteners, and damaged panels on an existing roof, see{" "}
+                  <a href="/commercial-metal-roof-repair/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    commercial metal roof repair in Amarillo
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">Commercial Roof Replacement</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  New single-ply systems are on our{" "}
+                  <a href="/tpo-roofing-amarillo/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    TPO roofing in Amarillo
+                  </a>{" "}
+                  page. If code allows a recover instead of a tear-off, a{" "}
+                  <a href="/commercial-tpo-roof-retrofit/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    TPO roof retrofit
+                  </a>{" "}
+                  can keep the building open during the work.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">Commercial Roof Maintenance</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Our{" "}
+                  <a href="/commercial-roof-maintenance-program/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    commercial roof maintenance program
+                  </a>{" "}
+                  covers twice-yearly inspections, drain and detail servicing, and a condition
+                  record that keeps warranties and claims defensible. Not sure where the roof stands?
+                  Book a free{" "}
+                  <a href="/commercial-roof-inspection/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    commercial roof inspection
+                  </a>
+                  . Owners planning several years out can start with a{" "}
+                  <a href="/commercial-roof-condition-survey-and-capital/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    roof condition survey and capital plan
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">Restoration and Coatings</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Some roofs have years left in them.{" "}
+                  <a href="/commercial-roof-restoration/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    Commercial roof restoration
+                  </a>{" "}
+                  explains which ones qualify, and{" "}
+                  <a href="/commercial-roof-re-coating/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    silicone and acrylic re-coating
+                  </a>{" "}
+                  covers the coating side.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">Hail and Storm Damage</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  After a storm, start with{" "}
+                  <a href="/commercial-storm-hail/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    commercial storm and hail damage roofing
+                  </a>
+                  . It walks through documentation, the Texas claim clock, and when hail means a{" "}
+                  <a href="/commercial-hail-damage-roof-replacement/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    commercial hail damage roof replacement
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Commercial Roofing Systems for Amarillo Involve?
+              Commercial Roofing Systems for Amarillo
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
@@ -463,23 +568,15 @@ export default function CommercialRoofingAmarilloPage() {
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-1">
                       <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      <strong>2015 International Residential Code (IRC)</strong>
+                      Permit required for commercial reroofing
                     </li>
                     <li className="flex items-start gap-1">
                       <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Permits required per IRC Section 105.1
+                      Wind-load design to the city&apos;s adopted building code
                     </li>
                     <li className="flex items-start gap-1">
                       <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Wind resistance: 110-125 mph design standards
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Drip edge installation mandatory
-                    </li>
-                    <li className="flex items-start gap-1">
-                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                      Proper attic ventilation (1 sq ft per 150 sq ft)
+                      Manufacturer installation specs followed to keep warranties valid
                     </li>
                     <li className="flex items-start gap-1">
                       <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
@@ -561,18 +658,18 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
               <div className="flex-1">
                 <h2 className="text-3xl font-bold text-red-800 mb-3">
-                  How Does Emergency Commercial Roofing Work?
+                  Storm Damage or a Leak at Your Amarillo Building?
                 </h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Storm damage or active leak threatening your Amarillo business? We provide prompt
-                  response with temporary repairs, weatherproof sheeting, and leak mitigation. Minimize inventory
-                  damage, protect equipment, and keep operations running.
+                  Call and we will schedule an inspection, photograph and document the damage for
+                  your insurance carrier, and walk you through repair or replacement options before
+                  any work starts, so the claim and the roof stay on the same page.
                 </p>
                 <a
                   href="tel:8066226041"
                   className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300"
                 >
-                  urgent: (806) 622-6041
+                  Call (806) 622-6041
                 </a>
               </div>
             </div>
@@ -593,11 +690,10 @@ export default function CommercialRoofingAmarilloPage() {
                   How much does commercial roof replacement cost in Amarillo?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Commercial roofing costs vary by building size, roof type, and complexity. Typical
-                  TPO installations range $4-$8 per square foot. Metal roofing runs $7-$12 per
-                  square foot. EPDM is most budget-friendly at $3-$6 per square foot. We provide
-                  free detailed estimates with transparent pricing and financing options for
-                  qualified businesses.
+                  It depends on building size, the roof system (TPO, EPDM, built-up or metal), the
+                  condition of the deck and insulation, and access. We price each building after a
+                  free inspection, which includes a core cut on flat and low-slope roofs, and give
+                  you a written, line-item estimate.
                 </AccordionContent>
               </AccordionItem>
 
@@ -625,12 +721,10 @@ export default function CommercialRoofingAmarilloPage() {
                   What roofing permits are required in Amarillo?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  All commercial roofing projects in Amarillo require permits per Section 105.1 of
-                  the 2015 International Residential Code. Contact the City of Amarillo Building
-                  Safety Department at (806) 378-3041 or building@amarillo.gov. We handle all permit
-                  applications and ensure your project meets Amarillo's code requirements including
-                  drip edge installation, proper ventilation, and wind resistance standards for
-                  110-125 mph design wind speeds.
+                  Commercial reroofing in Amarillo needs a permit from the City of Amarillo Building
+                  Safety Department, (806) 378-3041 or building@amarillo.gov. We pull the permit and
+                  build to the code the city has adopted, including its wind-load requirements and
+                  the manufacturer's installation specs that keep the warranty valid.
                 </AccordionContent>
               </AccordionItem>
 
@@ -691,9 +785,8 @@ export default function CommercialRoofingAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Highly recommended. While not mandated by Amarillo building codes, UL 2218 Class 4
                   roofing withstands 2-inch hailstones and provides maximum protection in Potter
-                  County's extreme hail environment. Many Texas insurers offer up to 25% premium
-                  discounts for Class 4 commercial roofing systems, offsetting the initial
-                  investment with long-term savings and superior durability.
+                  County's extreme hail environment. Some carriers offer premium credits for
+                  impact-resistant roofing, so ask yours before you choose a system.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

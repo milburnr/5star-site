@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-pampa/" },
   title: "Commercial Roofing Pampa TX | 5 Star Roofing",
   description:
-    "Professional commercial roofing in Pampa TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
+    "Commercial roofing in Pampa, TX: roof inspections, flat and TPO roof replacement, repairs and hail claims for Gray County businesses. Free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Commercial Roofing Pampa TX | 5 Star Roofing",
     description:
-      "Professional commercial roofing in Pampa TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
+      "Commercial roofing in Pampa, TX: roof inspections, flat and TPO roof replacement, repairs and hail claims for Gray County businesses. Free inspections. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/commercial-roofing-pampa/",
     siteName: "5 Star Roofing",
     images: [
@@ -248,7 +248,11 @@ export default function CommercialRoofingPampaPage() {
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
               We've served Pampa with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
-              warranty documentation. Free inspections and estimates available.
+              warranty documentation. Free inspections and estimates available, and our{" "}
+              <a href="/commercial-roof-inspection/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                commercial roof inspection
+              </a>{" "}
+              page explains what we check on a Pampa building.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -296,7 +300,7 @@ export default function CommercialRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Commercial Roofing Systems for Pampa Properties Involve?
+              Commercial Roofing Systems for Pampa Properties
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">

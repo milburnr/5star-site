@@ -356,7 +356,7 @@ export default function RoofReplacementDumasPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Dumas Family-Focused Roof Replacement Guide 2025 Involve?
+              Dumas Family-Focused Roof Replacement Guide 2025
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Value-driven roofing solutions for Dumas families balancing protection, durability,
@@ -445,7 +445,7 @@ export default function RoofReplacementDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              What Does Roofing Materials for Dumas Families and Climate Involve?
+              Roofing Materials for Dumas Families and Climate
             </h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">
               Practical material choices designed for family homes in the Texas Panhandle's

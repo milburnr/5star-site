@@ -525,7 +525,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">
-              What Does Industrial Environment Installation Involve?
+              Industrial Environment Installation
             </h2>
 
             <div className="space-y-8">
@@ -660,7 +660,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">
-              What Does Maintenance in Industrial Environment Involve?
+              Maintenance in Industrial Environment
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">

@@ -329,7 +329,7 @@ export default function RoofReplacementAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-10 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Amarillo's Unique Housing Market & Roofing Challenges Involve?
+              Amarillo's Unique Housing Market & Roofing Challenges
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -383,7 +383,7 @@ export default function RoofReplacementAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              What Does Complete Roof Replacement Process in Amarillo Involve?
+              Complete Roof Replacement Process in Amarillo
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">

@@ -400,7 +400,7 @@ export default function AsphaltShingleRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Professional Installation for Professional Families Involve?
+              Professional Installation for Professional Families
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
@@ -514,7 +514,7 @@ export default function AsphaltShingleRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Asphalt Shingle Roofing FAQs - Pampa, TX Involve?
+              Asphalt Shingle Roofing FAQs - Pampa, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

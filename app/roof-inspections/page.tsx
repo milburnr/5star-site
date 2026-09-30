@@ -405,7 +405,11 @@ export default function Page() {
               fascia boards. We check the gutter run, downspout flow, and how runoff moves away
               from the foundation. On commercial TPO and PVC flat roofs in Midland and Lubbock we
               verify roof drain function and look for ponding water near rooftop HVAC curbs, which
-              is a common failure point after a Permian Basin dust event.
+              is a common failure point after a Permian Basin dust event. Around Amarillo, see our{" "}
+              <a href="/commercial-roof-inspection/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                commercial roof inspection
+              </a>{" "}
+              page.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -438,7 +442,11 @@ export default function Page() {
           A storm damage walk after a hail line in Canyon looks different from a pre-sale
           inspection in Lubbock or a yearly maintenance pass on a Midland TPO commercial roof. We
           tailor the scope, the documentation format, and the delivery turnaround to the situation
-          you are actually in.
+          you are actually in. Between inspections, our{" "}
+          <a href="/blog/roof-maintenance-checklist-texas/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+            Texas roof maintenance checklist
+          </a>{" "}
+          covers what owners can check themselves.
         </p>
         <div className="space-y-4 mb-8">
           <div className="bg-gray-50 p-6 rounded-lg">

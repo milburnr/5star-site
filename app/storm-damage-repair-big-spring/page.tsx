@@ -222,7 +222,7 @@ export default function StormDamageRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Big Spring's Storm Damage Repair Specialists Look Like?
+              Big Spring's Storm Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Big Spring's location in Howard County creates unique roofing challenges. The West
@@ -420,7 +420,7 @@ export default function StormDamageRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Storm Damage Restoration in Big Spring Look Like?
+              Storm Damage Restoration in Big Spring
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">

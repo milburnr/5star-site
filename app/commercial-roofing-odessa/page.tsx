@@ -250,7 +250,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Commercial Roofing for Odessa's Petroleum Industry Involve?
+              Commercial Roofing for Odessa's Petroleum Industry
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Odessa serves as a major hub for Permian Basin petroleum operations, housing drilling
@@ -305,7 +305,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Educational Institution Commercial Roofing Excellence Involve?
+              Educational Institution Commercial Roofing Excellence
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               The University of Texas Permian Basin represents Odessa's largest educational
@@ -363,7 +363,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Retail and Commercial Center roof system Involve?
+              Retail and Commercial Center roof system
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Music City Mall and major retail corridors throughout Odessa serve petroleum industry
@@ -418,7 +418,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Government and Public Safety Commercial Roofing Involve?
+              Government and Public Safety Commercial Roofing
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Ector County facilities including the courthouse, sheriff's department, and
@@ -475,8 +475,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Commercial Roofing Systems and Technology for Permian Basin Operations
-              Involve?
+              Commercial Roofing Systems and Technology for Permian Basin Operations
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               TPO (Thermoplastic Polyolefin) membrane systems provide superior performance for

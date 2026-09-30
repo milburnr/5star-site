@@ -451,7 +451,7 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does TPO Installation Process for Canyon Commercial Properties Include?
+              TPO Installation Process for Canyon Commercial Properties
             </h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -548,7 +548,7 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does TPO Roofing FAQs - Canyon, TX Include?
+              TPO Roofing FAQs - Canyon, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

@@ -631,6 +631,16 @@ export default function CommercialFlatRoofRepairPage() {
           </div>
         </section>
 
+        <aside className="max-w-5xl mx-auto mt-10 mb-4 bg-amber-50/60 border border-brand-gold/30 rounded-2xl p-6">
+          <p className="text-gray-700 leading-relaxed">
+            Flat roof repair is one part of our{" "}
+            <a href="/commercial-roofing-amarillo/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+              commercial roofing services in Amarillo
+            </a>
+            , which covers repair, replacement, maintenance, and storm work for Amarillo business
+            and property owners.
+          </p>
+        </aside>
         <RelatedArticles pageSlug="commercial-flat-roof-repair" />
       </div>
     </>

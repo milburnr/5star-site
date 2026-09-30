@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-amarillo/" },
   title: "Storm Damage Roof Repair Amarillo TX | 5 Star Roofing",
   description:
-    "Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+    "Storm damage roof repair in Amarillo, TX: hail, wind and heavy-rain damage documented for your insurance claim and repaired right. Free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Storm Damage Roof Repair Amarillo TX | 5 Star Roofing",
     description:
-      "Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "Storm damage roof repair in Amarillo, TX: hail, wind and heavy-rain damage documented for your insurance claim and repaired right. Free inspections. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/storm-damage-repair-amarillo/",
     siteName: "5 Star Roofing",
     images: [
@@ -191,7 +191,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Amarillo's Storm Damage Repair Experts Look Like?
+              Amarillo's Storm Damage Repair Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Amarillo sits on the edge of "Tornado Alley" with historically aggressive storm
@@ -315,7 +315,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Types of Storm Damage We Repair Look Like?
+              What Types of Storm Damage Do We Repair in Amarillo?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
@@ -328,6 +328,11 @@ export default function StormDamageRepairAmarilloPage() {
                 </p>
                 <p className="text-sm text-gray-600 italic">
                   Class 4 impact-resistant replacement materials meet UL 2218 testing for 2-inch hail.
+                  More on{" "}
+                  <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    hail damage repair in Amarillo
+                  </a>
+                  .
                 </p>
               </div>
 
@@ -341,7 +346,11 @@ export default function StormDamageRepairAmarilloPage() {
                 </p>
                 <p className="text-sm text-gray-600 italic">
                   We install shingles rated 130+ mph wind resistance to withstand future Amarillo
-                  storms.
+                  storms. More on{" "}
+                  <a href="/wind-damage-repair-amarillo/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    wind damage roof repair in Amarillo
+                  </a>
+                  .
                 </p>
               </div>
 
@@ -350,11 +359,15 @@ export default function StormDamageRepairAmarilloPage() {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Amarillo's occasional torrential rain events (2-4 inches in hours) overwhelm
                   damaged roofing systems. Water infiltration leads to saturated insulation, ceiling
-                  stains, mold growth, and structural damage. weatherproof sheeting prevents secondary damage
+                  stains, mold growth, and structural damage. Weatherproof sheeting prevents secondary damage
                   during claim processing.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Our team works to prevent interior damage.
+                  Our team works to prevent interior damage. More on{" "}
+                  <a href="/heavy-rain-damage-roof-repair-in-amarillo/" className="text-brand-brown font-semibold underline hover:text-brand-gold">
+                    heavy rain damage roof repair
+                  </a>
+                  .
                 </p>
               </div>
 
@@ -396,7 +409,7 @@ export default function StormDamageRepairAmarilloPage() {
                     href="tel:8066226041"
                     className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300 text-lg"
                   >
-                    urgent: (806) 622-6041
+                    Call (806) 622-6041
                   </a>
                   <a
                     href="/contact/"
@@ -664,7 +677,7 @@ export default function StormDamageRepairAmarilloPage() {
               href="tel:8066226041"
               className="bg-red-600 hover:bg-red-700 text-white px-10 py-5 rounded-full font-bold hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
             >
-              urgent: (806) 622-6041
+              Call (806) 622-6041
             </a>
             <a
               href="/contact/"

@@ -273,7 +273,7 @@ export default function ResidentialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Complete Residential Roofing Services Involve?
+              Complete Residential Roofing Services
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
@@ -514,7 +514,7 @@ export default function ResidentialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Residential Roofing Investment in Odessa Involve?
+              Residential Roofing Investment in Odessa
             </h2>
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
@@ -626,7 +626,7 @@ export default function ResidentialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Odessa Climate & Roofing Performance Involve?
+              Odessa Climate & Roofing Performance
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">

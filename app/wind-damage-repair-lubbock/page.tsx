@@ -641,7 +641,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Wind-Resistant roof system for South Plains Conditions Include?
+              Wind-Resistant roof system for South Plains Conditions
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">

@@ -626,7 +626,7 @@ export default function MetalRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Amarillo-Specific Roofing Challenges Involve?
+              Amarillo-Specific Roofing Challenges
             </h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">

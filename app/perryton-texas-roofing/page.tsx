@@ -543,21 +543,21 @@ export default function PerrytonRoofingPage() {
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/borger-tx-roofing/"
+                href="/borger-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Borger
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/pampa-tx-roofing/"
+                href="/pampa-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Pampa
               </a>
               <span className="text-gray-400">&bull;</span>
               <a
-                href="/dumas-tx-roofing/"
+                href="/dumas-texas-roofing/"
                 className="text-brand-burnt-orange hover:text-brand-gold-vibrant font-medium"
               >
                 Dumas

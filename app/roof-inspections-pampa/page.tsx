@@ -344,7 +344,7 @@ export default function RoofInspectionsPampaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Pampa's Unique Roofing Challenges Involve?
+              Pampa's Unique Roofing Challenges
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl">
@@ -473,7 +473,7 @@ export default function RoofInspectionsPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Inspection Scheduling & post-storm documentation Involve?
+              Inspection Scheduling & post-storm documentation
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>

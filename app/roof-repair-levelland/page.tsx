@@ -457,7 +457,7 @@ export default function RoofRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Levelland Roof Repair FAQ Involve?
+              Levelland Roof Repair FAQ
             </h2>
 
             <Accordion type="single" collapsible className="space-y-4">

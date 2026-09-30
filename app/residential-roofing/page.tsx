@@ -200,7 +200,7 @@ export default function Page() {
                   className="text-brand-brown hover:text-brand-gold underline"
                 >
                   Modern impact-resistant shingles
-                </a>
+                </a>{" "}
                 provide excellent hail protection while maintaining curb appeal. Learn more about
                 our{" "}
                 <a

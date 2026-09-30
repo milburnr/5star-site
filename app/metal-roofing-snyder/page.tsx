@@ -321,7 +321,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Premium Metal Roofing Materials for Snyder Properties Involve?
+              Premium Metal Roofing Materials for Snyder Properties
             </h2>
 
             <div className="space-y-8">
@@ -433,7 +433,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Expert Installation Process for Maximum Durability Involve?
+              Expert Installation Process for Maximum Durability
             </h2>
 
             <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl mb-8">
@@ -641,7 +641,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Maintenance & Longevity in West Texas Involve?
+              Maintenance & Longevity in West Texas
             </h2>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">

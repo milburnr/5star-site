@@ -271,7 +271,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              What Does Pampa's Storm Damage Repair Specialists Look Like?
+              Pampa's Storm Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Pampa's position as Gray County's seat exposes properties to severe Panhandle storm

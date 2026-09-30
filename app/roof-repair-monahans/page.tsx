@@ -784,7 +784,7 @@ export default function RoofRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">
-              What Does Ward County Roofing Investment Guide Involve?
+              Ward County Roofing Investment Guide
             </h2>
             <p className="text-lg text-gray-700 mb-8 text-center">
               Understanding repair costs in the context of Permian Basin market conditions and
