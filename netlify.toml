@@ -79,7 +79,7 @@
 # ============================================================================
 # 301 REDIRECTS - Duplicate Page Consolidation
 # All targets use suffix-free /{service}-{city}/ canonical pattern
-# These must come BEFORE the catch-all /* redirect
+# Unmatched paths get the 404 page (see note at the end of this file)
 # ============================================================================
 
 # --- Hail Damage Amarillo -> /hail-damage-repair-amarillo/ ---
@@ -370,17 +370,17 @@
   status = 301
   force = true
 
-# --- Emergency Repair Odessa -> /emergency-roof-repair-odessa/ ---
+# --- Emergency Repair Odessa (page removed in e4c9eba) -> /storm-damage-repair-odessa/ ---
 
 [[redirects]]
   from = "/emergency-roof-repair-odessa-texas"
-  to = "/emergency-roof-repair-odessa/"
+  to = "/storm-damage-repair-odessa/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/emergency-roof-repair-odessa-texas/"
-  to = "/emergency-roof-repair-odessa/"
+  to = "/storm-damage-repair-odessa/"
   status = 301
   force = true
 
@@ -680,11 +680,182 @@
   status = 301
   force = true
 
-# ============================================================================
-# SPA Catch-All (must be last)
-# ============================================================================
+# --- 2026-09-30: legacy URLs Google still has impressions for (GSC, 16 mo).
+#     The emergency-roof-repair-{city} pages were deleted in e4c9eba without
+#     redirects; storm-damage-repair-{city} is the closest live page. ---
+
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  from = "/emergency-roof-repair-amarillo"
+  to = "/storm-damage-repair-amarillo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-amarillo/"
+  to = "/storm-damage-repair-amarillo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-andrews"
+  to = "/storm-damage-repair-andrews/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-andrews/"
+  to = "/storm-damage-repair-andrews/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-big-spring"
+  to = "/storm-damage-repair-big-spring/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-big-spring/"
+  to = "/storm-damage-repair-big-spring/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-borger"
+  to = "/storm-damage-repair-borger/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-borger/"
+  to = "/storm-damage-repair-borger/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-canyon"
+  to = "/storm-damage-repair-canyon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-canyon/"
+  to = "/storm-damage-repair-canyon/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-dumas"
+  to = "/storm-damage-repair-dumas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-dumas/"
+  to = "/storm-damage-repair-dumas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-levelland"
+  to = "/storm-damage-repair-levelland/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-levelland/"
+  to = "/storm-damage-repair-levelland/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-lubbock"
+  to = "/storm-damage-repair-lubbock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-lubbock/"
+  to = "/storm-damage-repair-lubbock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-midland"
+  to = "/storm-damage-repair-midland/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-midland/"
+  to = "/storm-damage-repair-midland/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-pampa"
+  to = "/storm-damage-repair-pampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-pampa/"
+  to = "/storm-damage-repair-pampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-perryton"
+  to = "/storm-damage-repair-perryton/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-perryton/"
+  to = "/storm-damage-repair-perryton/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-snyder"
+  to = "/storm-damage-repair-snyder/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-snyder/"
+  to = "/storm-damage-repair-snyder/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-odessa"
+  to = "/storm-damage-repair-odessa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-odessa/"
+  to = "/storm-damage-repair-odessa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/amarillo-roofing-what-you-need-to-know-when-looking-for-roofing-services-in-amarillo-tx"
+  to = "/amarillo-tx-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/amarillo-roofing-what-you-need-to-know-when-looking-for-roofing-services-in-amarillo-tx/"
+  to = "/amarillo-tx-roofing/"
+  status = 301
+  force = true
+
+# ============================================================================
+# No catch-all. Unknown paths fall through to out/404.html (app/not-found.tsx),
+# which Netlify serves with a 404 status. The old `/* -> /index.html 200`
+# rule served the homepage for every bad URL (soft 404s) and was removed
+# 2026-09-30.
+# ============================================================================
 
