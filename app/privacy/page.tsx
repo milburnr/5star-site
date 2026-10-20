@@ -90,8 +90,8 @@ export default function PrivacyPolicyPage() {
                 Lead Routing &amp; Service Providers
               </h2>
               <p>
-                Form submissions are forwarded to our customer-relationship platform (HighLevel /
-                LeadConnector) so our office staff can respond quickly. Site hosting is provided by
+                Form submissions are emailed to our office staff (through Resend, our transactional
+                email provider) so we can respond quickly. Site hosting is provided by
                 Netlify, and analytics is handled by Google Analytics 4. These providers process
                 data on our behalf under their own privacy terms.
               </p>

@@ -16,6 +16,24 @@ function corsHeaders(origin: string | null) {
   };
 }
 
+const RESEND_URL = "https://api.resend.com/emails";
+const ERROR_MESSAGE = "Something went wrong. Please try again or call us at (806) 622-6041.";
+
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function jsonError(headers: Record<string, string>) {
+  return new Response(JSON.stringify({ error: ERROR_MESSAGE }), {
+    status: 500,
+    headers: { ...headers, "Content-Type": "application/json" },
+  });
+}
+
 function isValidEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
@@ -71,43 +89,80 @@ export default async function handler(req: Request, _context: Context) {
     });
   }
 
-  const webhookUrl = Netlify.env.get("GHL_WEBHOOK_URL");
+  const apiKey = Netlify.env.get("RESEND_API_KEY");
+  const fromEmail = Netlify.env.get("CONTACT_FROM_EMAIL");
+  const notifyEmail = Netlify.env.get("CONTACT_NOTIFY_EMAIL");
 
-  if (!webhookUrl) {
-    console.warn("[contact-submit] GHL_WEBHOOK_URL not set — form data not forwarded");
-    return new Response(JSON.stringify({ success: true }), {
-      status: 200,
-      headers: { ...headers, "Content-Type": "application/json" },
-    });
+  if (!apiKey || !fromEmail || !notifyEmail) {
+    // A silently dropped lead is the worst outcome — fail loudly.
+    console.error(
+      "[contact-submit] LEAD NOT DELIVERED: RESEND_API_KEY, CONTACT_FROM_EMAIL and CONTACT_NOTIFY_EMAIL must all be set"
+    );
+    return jsonError(headers);
   }
 
+  const lead = {
+    name: name.trim(),
+    email: email.trim(),
+    phone: phone?.trim() || "",
+    street: street.trim(),
+    city: city.trim(),
+    state: (state || "TX").trim(),
+    zip: zip.trim(),
+    service: service?.trim() || "",
+    message: message.trim(),
+  };
+
+  const rows: [string, string][] = [
+    ["Name", lead.name],
+    ["Email", lead.email],
+    ["Phone", lead.phone],
+    ["Address", `${lead.street}, ${lead.city}, ${lead.state} ${lead.zip}`],
+    ["Service", lead.service],
+  ];
+  const text = [
+    "New lead from the 5starroofingpros.com contact form.",
+    "",
+    ...rows.filter(([, v]) => v).map(([k, v]) => `${k}: ${v}`),
+    "",
+    "Message:",
+    lead.message,
+  ].join("\n");
+  const html = `
+    <p>New lead from the 5starroofingpros.com contact form.</p>
+    <table cellpadding="4">
+      ${rows
+        .filter(([, v]) => v)
+        .map(([k, v]) => `<tr><td><strong>${k}</strong></td><td>${escapeHtml(v)}</td></tr>`)
+        .join("")}
+    </table>
+    <p><strong>Message:</strong></p>
+    <p style="white-space:pre-wrap">${escapeHtml(lead.message)}</p>
+  `;
+
   try {
-    const payload = {
-      name: name.trim(),
-      email: email.trim(),
-      phone: phone?.trim() || "",
-      street: street.trim(),
-      city: city.trim(),
-      state: (state || "TX").trim(),
-      zip: zip.trim(),
-      service: service?.trim() || "",
-      message: message.trim(),
-      source: "website-contact-form",
-      timestamp: new Date().toISOString(),
-    };
-
-    const ghlResponse = await fetch(webhookUrl, {
+    const res = await fetch(RESEND_URL, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from: fromEmail,
+        to: notifyEmail.split(",").map((s) => s.trim()).filter(Boolean),
+        reply_to: lead.email,
+        subject: `New website lead: ${lead.name}${lead.service ? ` (${lead.service})` : ""}`,
+        text,
+        html,
+      }),
     });
-
-    if (!ghlResponse.ok) {
-      console.error(`[contact-submit] GHL webhook returned ${ghlResponse.status}`);
+    if (!res.ok) {
+      console.error("[contact-submit] LEAD NOT DELIVERED: Resend API error", res.status, await res.text());
+      return jsonError(headers);
     }
   } catch (err) {
-    console.error("[contact-submit] GHL webhook request failed:", err);
-    // Never punish the user for backend issues
+    console.error("[contact-submit] LEAD NOT DELIVERED: Resend request failed:", err);
+    return jsonError(headers);
   }
 
   return new Response(JSON.stringify({ success: true }), {

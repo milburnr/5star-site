@@ -464,15 +464,6 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
   body:has(.alt-home-hero.alt-hero-fullscreen) button[aria-label="Select to open the chat widget"],
   body:has(.alt-home-hero.alt-hero-fullscreen) nextjs-portal,
   body:has(.alt-home-hero.alt-hero-fullscreen) [data-nextjs-dev-tools-button],
-  body:has(.alt-home-hero.alt-hero-fullscreen) #lc-chat-widget,
-  body:has(.alt-home-hero.alt-hero-fullscreen) .chat-widget,
-  body:has(.alt-home-hero.alt-hero-fullscreen) .lc-chat-widget,
-  body:has(.alt-home-hero.alt-hero-fullscreen) div[class*="chat-widget"],
-  body:has(.alt-home-hero.alt-hero-fullscreen) [class*="lc_text-widget"],
-  body:has(.alt-home-hero.alt-hero-fullscreen) iframe[src*="leadconnectorhq"],
-  body:has(.alt-home-hero.alt-hero-fullscreen) iframe[src*="chat-widget"],
-  body:has(.alt-home-hero.alt-hero-fullscreen) iframe[id*="lc_"],
-  body:has(.alt-home-hero.alt-hero-fullscreen) div[id^="lc_"],
   body:has(.alt-home-hero.alt-hero-fullscreen) [class*="StickyContactBar"],
   body:has(.alt-home-hero.alt-hero-fullscreen) .sticky-contact-bar {
     display: none !important;

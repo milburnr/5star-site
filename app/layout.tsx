@@ -4,7 +4,6 @@ import "./globals.css";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { MobileMenu } from "@/components/MobileMenu";
 import { PhoneClickTracker } from "@/components/PhoneClickTracker";
-import { ChatWidget } from "@/components/ChatWidget";
 import Script from "next/script";
 
 // Webfonts removed entirely — matches the pre-April-1 state when the site
@@ -645,10 +644,6 @@ export default function RootLayout({
             gtag('config', 'G-BHH34LVX73');
           `}
         </Script>
-
-        {/* HighLevel Chat Widget - suppressed on pages with contact forms
-            for A2P/SMS opt-in compliance. See components/ChatWidget.tsx */}
-        <ChatWidget />
       </body>
     </html>
   );
