@@ -17,6 +17,7 @@ function corsHeaders(origin: string | null) {
 }
 
 const RESEND_URL = "https://api.resend.com/emails";
+const DEFAULT_CC = "rich@trustbasedseo.com";
 const ERROR_MESSAGE = "Something went wrong. Please try again or call us at (806) 622-6041.";
 
 function escapeHtml(value: string): string {
@@ -140,6 +141,17 @@ export default async function handler(req: Request, _context: Context) {
     <p style="white-space:pre-wrap">${escapeHtml(lead.message)}</p>
   `;
 
+  const splitList = (v: string) => v.split(",").map((a) => a.trim()).filter(Boolean);
+  const toList = splitList(notifyEmail);
+  const toSet = new Set(toList.map((a) => a.toLowerCase()));
+  const ccSeen = new Set<string>();
+  const ccList = splitList(Netlify.env.get("CONTACT_CC_EMAIL") || DEFAULT_CC).filter((a) => {
+    const k = a.toLowerCase();
+    if (toSet.has(k) || ccSeen.has(k)) return false;
+    ccSeen.add(k);
+    return true;
+  });
+
   try {
     const res = await fetch(RESEND_URL, {
       method: "POST",
@@ -149,9 +161,10 @@ export default async function handler(req: Request, _context: Context) {
       },
       body: JSON.stringify({
         from: fromEmail,
-        to: notifyEmail.split(",").map((s) => s.trim()).filter(Boolean),
+        to: toList,
+        ...(ccList.length ? { cc: ccList } : {}),
         reply_to: lead.email,
-        subject: `New website lead: ${lead.name}${lead.service ? ` (${lead.service})` : ""}`,
+        subject: `[web 5star] New website lead: ${lead.name}${lead.service ? ` (${lead.service})` : ""}`,
         text,
         html,
       }),
